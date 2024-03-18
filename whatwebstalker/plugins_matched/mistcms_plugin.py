@@ -7,7 +7,7 @@ class mistcms_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<div class="page">login</div><form method="post" action="mist.php">' },
-			{ "text" : '<!-- Powered by MistCMS @ dvondrake.com -->' },
+			{ "text" : "<div class="page">login</div><form method="post" action="mist.php">" },
+			{ "text" : "<!-- Powered by MistCMS @ dvondrake.com -->" },
 		]
 

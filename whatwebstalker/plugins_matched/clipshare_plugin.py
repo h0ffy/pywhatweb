@@ -7,8 +7,8 @@ class clipshare_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<!--!!!!!!!!!!!!!!!!!!!!!!!!! Processing SCRIPT !!!!!!!!!!!!!!!!!!!-->' },
-			{ "text" : '<!--!!!!!!!!!!!!!!!!!!!!!!!! LIBRARY !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->' },
-			{ "text" : 'Powered By <a href="http://www.clip-share.com">ClipShare</a>' },
+			{ "text" : "<!--!!!!!!!!!!!!!!!!!!!!!!!!! Processing SCRIPT !!!!!!!!!!!!!!!!!!!-->" },
+			{ "text" : "<!--!!!!!!!!!!!!!!!!!!!!!!!! LIBRARY !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->" },
+			{ "text" : "Powered By <a href="http://www.clip-share.com">ClipShare</a>" },
 		]
 

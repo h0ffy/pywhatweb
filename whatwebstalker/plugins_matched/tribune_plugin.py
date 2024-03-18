@@ -7,6 +7,6 @@ class tribune_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" :  '<a href="http://www.tribune.com/" target="_parent">A Tribune Newspaper website</a>' },
+			{ "text" :  '<a href="http://www.tribune.com/" target="_parent">A Tribune Newspaper website</a>" },
 		]
 

@@ -7,7 +7,7 @@ class bing_searchengine_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'var curUrl="http://www.bing.com/"' },
-			{ "text" : '<meta content="Bing is a search engine that finds' },
+			{ "text" : "var curUrl="http://www.bing.com/"" },
+			{ "text" : "<meta content="Bing is a search engine that finds" },
 		]
 

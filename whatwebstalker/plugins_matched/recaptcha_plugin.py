@@ -7,6 +7,6 @@ class recaptcha_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<noscript>[\s]*<iframe src="http:\/\/www\.google\.com\/recaptcha\/api\/noscript\?k=/ },
+			{ "regexp" : "/<noscript>[\s]*<iframe src="http:\/\/www\.google\.com\/recaptcha\/api\/noscript\?k=/" },
 		]
 

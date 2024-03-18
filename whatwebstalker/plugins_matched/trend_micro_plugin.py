@@ -7,7 +7,7 @@ class trend_micro_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Trend Micro$/ },
-			{ "search" : 'headers[server]", "version" : '/^Trend Micro ([^\s]+)$/ },
+			{ "search" : "headers[server]", "regexp" : "/^Trend Micro$/" },
+			{ "search" : "headers[server]", "version" : "/^Trend Micro ([^\s]+)$/" },
 		]
 

@@ -7,7 +7,7 @@ class extplorer_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "url" : '/extplorer.xml", "version" : '/<version>([^<]+)<\/version>/ },
-			{ "text" : '<title>Login - eXtplorer</title>' },
+			{ "url" : "/extplorer.xml", "version" : "/<version>([^<]+)<\/version>/" },
+			{ "text" : "<title>Login - eXtplorer</title>" },
 		]
 

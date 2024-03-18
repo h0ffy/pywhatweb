@@ -7,6 +7,6 @@ class xtra_business_hosting_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<title>Xtra Business: Web Hosting</title>' },
+			{ "text" : "<title>Xtra Business: Web Hosting</title>" },
 		]
 

@@ -7,7 +7,7 @@ class microsys_promotic_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Promotic$/ },
-			{ "text" : '<html><head><title>PROMOTIC Redirection</title></head>' },
+			{ "search" : "headers[server]", "regexp" : "/^Promotic$/" },
+			{ "text" : "<html><head><title>PROMOTIC Redirection</title></head>" },
 		]
 

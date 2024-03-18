@@ -7,7 +7,7 @@ class tengine_web_server_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Tengine$/ },
-			{ "search" : 'headers[server]", "version" : '/^Tengine\/([^\s]+)/ },
+			{ "search" : "headers[server]", "regexp" : "/^Tengine$/" },
+			{ "search" : "headers[server]", "version" : "/^Tengine\/([^\s]+)/" },
 		]
 

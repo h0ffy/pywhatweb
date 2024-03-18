@@ -7,6 +7,6 @@ class twistedweb_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/TwistedWeb\/?([^ ]+)?/", "search" : 'headers[server]"},
+			{ "version" : "/TwistedWeb\/?([^ ]+)?/", "search" : "headers[server]"},
 		]
 

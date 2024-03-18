@@ -7,6 +7,6 @@ class websitepro_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^WebSitePro\/([^\s]+)/ },
+			{ "search" : "headers[server]", "version" : "/^WebSitePro\/([^\s]+)/" },
 		]
 

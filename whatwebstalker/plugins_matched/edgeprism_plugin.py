@@ -7,7 +7,7 @@ class edgeprism_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^EdgePrism\/([^\s]+)$/ },
-			{ "search" : 'headers[server]", "regexp" : '/^EdgePrismSSL/ },
+			{ "search" : "headers[server]", "version" : "/^EdgePrism\/([^\s]+)$/" },
+			{ "search" : "headers[server]", "regexp" : "/^EdgePrismSSL/" },
 		]
 

@@ -7,6 +7,6 @@ class powerschool_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^PowerSchool$/ },
+			{ "search" : "headers[server]", "regexp" : "/^PowerSchool$/" },
 		]
 

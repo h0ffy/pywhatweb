@@ -7,7 +7,7 @@ class web2py_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[x-powered-by]", "string" : /web2py/ },
-			{ "text" : '<div id="serendipityLeftSideBar">' },
+			{ "search" : "headers[x-powered-by]", "string" : /web2py/" },
+			{ "text" : "<div id="serendipityLeftSideBar">" },
 		]
 

@@ -7,7 +7,7 @@ class xmb_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<!-- Powered by XMB ' },
-			{ "text" : '<!-- The XMB Group -->' },
+			{ "text" : "<!-- Powered by XMB " },
+			{ "text" : "<!-- The XMB Group -->" },
 		]
 

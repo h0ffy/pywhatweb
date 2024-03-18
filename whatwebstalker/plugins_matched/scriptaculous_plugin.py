@@ -7,6 +7,6 @@ class scriptaculous_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<script [^>]*(scriptaculous[^>]*.js)[^>]*},
+			{ "regexp" : "/<script [^>]*(scriptaculous[^>]*.js)[^>]*},
 		]
 

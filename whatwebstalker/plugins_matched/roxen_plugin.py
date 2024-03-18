@@ -7,7 +7,7 @@ class roxen_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Roxen$/ },
-			{ "search" : 'headers[server]", "version" : '/^Roxen\/([^\s]+)$/ },
+			{ "search" : "headers[server]", "regexp" : "/^Roxen$/" },
+			{ "search" : "headers[server]", "version" : "/^Roxen\/([^\s]+)$/" },
 		]
 

@@ -7,8 +7,8 @@ class zope_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/Zope\/\(([^,]*)/ },
-			{ "search" : 'headers[server]", "module" : /Zope\/\([^,]*", "([^,]*)/ },
-			{ "search" : 'headers[server]", "string" : /Zope\/\([^,]*", "[^,]*", "([^\)^\s]*)/ },
+			{ "search" : "headers[server]", "version" : "/Zope\/\(([^,]*)/" },
+			{ "search" : "headers[server]", "module" : /Zope\/\([^,]*", "([^,]*)/" },
+			{ "search" : "headers[server]", "string" : /Zope\/\([^,]*", "[^,]*", "([^\)^\s]*)/" },
 		]
 

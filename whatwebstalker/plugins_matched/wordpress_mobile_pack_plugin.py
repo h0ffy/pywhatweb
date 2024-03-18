@@ -7,6 +7,6 @@ class wordpress_mobile_pack_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[x-mobilized-by]", "version" : '/^WordPress Mobile Pack ([^\s]+)$/ },
+			{ "search" : "headers[x-mobilized-by]", "version" : "/^WordPress Mobile Pack ([^\s]+)$/" },
 		]
 

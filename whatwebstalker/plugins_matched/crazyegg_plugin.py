@@ -7,7 +7,7 @@ class crazyegg_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'cetrk.com" },
-			{ "account" : '/dnn506yrbagrg\.cloudfront\.net\/pages\/scripts\/(\d+\/\d+)},
+			{ "text" : "cetrk.com" },
+			{ "account" : "/dnn506yrbagrg\.cloudfront\.net\/pages\/scripts\/(\d+\/\d+)},
 		]
 

@@ -7,7 +7,7 @@ class phpcollab_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/^<!-- Powered by PhpCollab v([\d\.]+) \/\/-->$/ },
-			{ "version" : '/^<p id="footer">PhpCollab v([\d\.]+)[\s]*<\/p>$/ },
+			{ "version" : "/^<!-- Powered by PhpCollab v([\d\.]+) \/\/-->$/" },
+			{ "version" : "/^<p id="footer">PhpCollab v([\d\.]+)[\s]*<\/p>$/" },
 		]
 

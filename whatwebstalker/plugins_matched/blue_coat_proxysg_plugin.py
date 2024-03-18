@@ -7,6 +7,6 @@ class blue_coat_proxysg_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[location]", "regexp" : '/https?:\/\/proxysg\/\?cfru=[^\s]+$/ },
+			{ "search" : "headers[location]", "regexp" : "/https?:\/\/proxysg\/\?cfru=[^\s]+$/" },
 		]
 

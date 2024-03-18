@@ -7,6 +7,6 @@ class linksys_router_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "model" : ''WRT54GC", "md5" : '0b749361e0c9ab37b9f8875b0667d713", "url" : '/UI_Linksys.gif' },
+			{ "model" : "'WRT54GC", "md5" : "0b749361e0c9ab37b9f8875b0667d713", "url" : "/UI_Linksys.gif" },
 		]
 

@@ -7,6 +7,6 @@ class google_maps_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<script [^>]*src=["'][^>]*maps\.google\.com\/maps(\?file=api|\/api\/staticmap)/i },
+			{ "regexp" : "/<script [^>]*src=["'][^>]*maps\.google\.com\/maps(\?file=api|\/api\/staticmap)/i },
 		]
 

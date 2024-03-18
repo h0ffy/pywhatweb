@@ -7,6 +7,6 @@ class phportfolio_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/style="color:gray;font-size:smaller">Powered by <a href="http:\/\/www\.outshine\.com\/phportfolio\/"[^>]*>PHPortfolio<\/a>\./ },
+			{ "regexp" : "/style="color:gray;font-size:smaller">Powered by <a href="http:\/\/www\.outshine\.com\/phportfolio\/"[^>]*>PHPortfolio<\/a>\./" },
 		]
 

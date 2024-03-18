@@ -7,6 +7,6 @@ class cisco_ace_xml_gateway_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^ACE XML Gateway$/ },
+			{ "search" : "headers[server]", "regexp" : "/^ACE XML Gateway$/" },
 		]
 

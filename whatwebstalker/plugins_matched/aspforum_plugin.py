@@ -7,6 +7,6 @@ class aspforum_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/<div[^>]+id="FORUMS_FORUM_GROUP_V([\d_]+)/", "name" : 'version" },
+			{ "version" : "/<div[^>]+id="FORUMS_FORUM_GROUP_V([\d_]+)/", "name" : "version" },
 		]
 

@@ -7,6 +7,6 @@ class ethproxy_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^ethProxy$/ },
+			{ "search" : "headers[server]", "regexp" : "/^ethProxy$/" },
 		]
 

@@ -7,6 +7,6 @@ class echo_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<a href="http:\/\/www\.helloecho\.com\/go\/\?[^"]*" target="_blank">powered by echo<\/a>},
+			{ "regexp" : "/<a href="http:\/\/www\.helloecho\.com\/go\/\?[^"]*" target="_blank">powered by echo<\/a>},
 		]
 

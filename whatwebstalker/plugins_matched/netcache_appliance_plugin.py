@@ -7,6 +7,6 @@ class netcache_appliance_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^NetCache appliance \(NetApp\/([^\)]+)\)$/ },
+			{ "search" : "headers[server]", "version" : "/^NetCache appliance \(NetApp\/([^\)]+)\)$/" },
 		]
 

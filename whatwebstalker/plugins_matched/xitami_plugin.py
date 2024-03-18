@@ -7,7 +7,7 @@ class xitami_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Xitami$/ },
-			{ "search" : 'headers[server]", "version" : '/^Xitami\/([^\s]+)$/ },
+			{ "search" : "headers[server]", "regexp" : "/^Xitami$/" },
+			{ "search" : "headers[server]", "version" : "/^Xitami\/([^\s]+)$/" },
 		]
 

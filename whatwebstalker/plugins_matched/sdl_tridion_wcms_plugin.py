@@ -7,7 +7,7 @@ class sdl_tridion_wcms_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[product-version]", "version" : '/^(.+)$/ },
-			{ "search" : 'headers[product]", "string" : /^Tridion (20[\d]{2}) Dynamic Content Web Application$/ },
+			{ "search" : "headers[product-version]", "version" : "/^(.+)$/" },
+			{ "search" : "headers[product]", "string" : /^Tridion (20[\d]{2}) Dynamic Content Web Application$/" },
 		]
 

@@ -7,7 +7,7 @@ class web_calendar_system_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "certainty" : '25", "ghdb" : '+intitle:"Web Calendar system v" inurl:.asp' },
-			{ "version" : '/<TITLE>Web Calendar system v ([\.\d]+)<\/TITLE>/ },
+			{ "certainty" : "25", "ghdb" : "+intitle:"Web Calendar system v" inurl:.asp" },
+			{ "version" : "/<TITLE>Web Calendar system v ([\.\d]+)<\/TITLE>/" },
 		]
 

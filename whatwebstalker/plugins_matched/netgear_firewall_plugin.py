@@ -7,6 +7,6 @@ class netgear_firewall_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^NETGEAR Firewall$/ },
+			{ "search" : "headers[server]", "regexp" : "/^NETGEAR Firewall$/" },
 		]
 

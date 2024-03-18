@@ -7,6 +7,6 @@ class ez_oscommerce_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'Powered by <a href="http://www.eptcel.com.br" target="_blank">ez oscommerce</a>' },
+			{ "text" : "Powered by <a href="http://www.eptcel.com.br" target="_blank">ez oscommerce</a>" },
 		]
 

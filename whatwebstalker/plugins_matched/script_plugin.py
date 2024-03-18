@@ -7,7 +7,7 @@ class script_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<script(\s|>)/i },
-			{ "string" : /<script[^>]+(language|type)\s*=\s*['"]?([^'"\s]+)['"]?/", "offset" : '1 },
+			{ "regexp" : "/<script(\s|>)/i },
+			{ "string" : /<script[^>]+(language|type)\s*=\s*['"]?([^'"\s]+)['"]?/", "offset" : "1 },
 		]
 

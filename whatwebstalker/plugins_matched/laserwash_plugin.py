@@ -7,6 +7,6 @@ class laserwash_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "status" : '401", "search" : 'headers[www-authenticate]", "regexp" : '/^Basic realm="PDQ Laserwash"$/ },
+			{ "status" : "401", "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="PDQ Laserwash"$/" },
 		]
 

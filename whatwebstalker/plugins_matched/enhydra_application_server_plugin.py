@@ -7,7 +7,7 @@ class enhydra_application_server_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^Enhydra-MultiServer\/([^\s]+)/ },
-			{ "search" : 'headers[servlet-engine]", "version" : '/Enhydra Application Server\/([^\s]+)/ },
+			{ "search" : "headers[server]", "version" : "/^Enhydra-MultiServer\/([^\s]+)/" },
+			{ "search" : "headers[servlet-engine]", "version" : "/Enhydra Application Server\/([^\s]+)/" },
 		]
 

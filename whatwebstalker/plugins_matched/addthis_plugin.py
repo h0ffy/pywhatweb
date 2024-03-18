@@ -7,6 +7,6 @@ class addthis_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<script [^>]*src=["|'][^>]*addthis\.com\/js/i },
+			{ "regexp" : "/<script [^>]*src=["|'][^>]*addthis\.com\/js/i },
 		]
 

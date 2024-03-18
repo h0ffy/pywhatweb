@@ -7,6 +7,6 @@ class clicky_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<script[^>]+src=["'](https?:)?\/\/static\.getclicky\.com/i },
+			{ "regexp" : "/<script[^>]+src=["'](https?:)?\/\/static\.getclicky\.com/i },
 		]
 

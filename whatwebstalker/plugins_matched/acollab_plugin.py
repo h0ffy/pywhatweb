@@ -7,6 +7,6 @@ class acollab_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<title>ACollab : Accessible Collaboration Environment:' },
+			{ "text" : "<title>ACollab : Accessible Collaboration Environment:" },
 		]
 

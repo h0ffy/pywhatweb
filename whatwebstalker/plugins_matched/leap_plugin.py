@@ -7,7 +7,7 @@ class leap_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/<meta name="Generator" content="LEAP ([\d\.]+)"( \/)?>/ },
-			{ "version" : '/<meta name="Formatter" content="LEAP ([\d\.]+)"( \/)?>/ },
+			{ "version" : "/<meta name="Generator" content="LEAP ([\d\.]+)"( \/)?>/" },
+			{ "version" : "/<meta name="Formatter" content="LEAP ([\d\.]+)"( \/)?>/" },
 		]
 

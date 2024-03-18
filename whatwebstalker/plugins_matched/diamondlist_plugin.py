@@ -7,6 +7,6 @@ class diamondlist_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'Powered by <a href="http://www.hulihanapplications.com/projects/diamondlist"><b>DiamondList</b>' },
+			{ "text" : "Powered by <a href="http://www.hulihanapplications.com/projects/diamondlist"><b>DiamondList</b>" },
 		]
 

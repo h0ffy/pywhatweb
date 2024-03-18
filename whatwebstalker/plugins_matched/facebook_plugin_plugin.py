@@ -7,6 +7,6 @@ class facebook_plugin_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "string" : /<i?frame[^>]+src[\s]*="http:\/\/(www|apps)\.facebook.com\/plugins\/([^\.^\/^\?]+)\.php\?/i", "offset" : '1 },
+			{ "string" : /<i?frame[^>]+src[\s]*="http:\/\/(www|apps)\.facebook.com\/plugins\/([^\.^\/^\?]+)\.php\?/i", "offset" : "1 },
 		]
 

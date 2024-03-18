@@ -7,6 +7,6 @@ class akamai_global_host_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^AkamaiGHost/ },
+			{ "search" : "headers[server]", "regexp" : "/^AkamaiGHost/" },
 		]
 

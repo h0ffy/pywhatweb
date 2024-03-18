@@ -7,6 +7,6 @@ class intrasrv_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^intrasrv ([\d\.]+)$/ },
+			{ "search" : "headers[server]", "version" : "/^intrasrv ([\d\.]+)$/" },
 		]
 
