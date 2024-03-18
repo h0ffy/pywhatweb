@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginbelkin_modem_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "name" : "html comments", "regexp" : "/\/\/ when proto = Bridge or ipExt = 1", "DHCP should show disabled/" },
 			{ "text" : "href=\"main_router.css\" src=\"showMenu.js\" },
@@ -12,4 +12,5 @@ class Pluginbelkin_modem_plugin:
 			{ "version" : "F5D7230-4P", "text" : "<td bgcolor=\"#94CAE4\" width=\"50%\" height=\"18\">F5D7230-4P</td>"},
 			{ "name" : "inline javascript", "text" : "var isPPPoE", "isStatic", "isDynamic", "isnat", "isdialup", "isbigpond", "ispptp", "isfirewall;"},
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginnovell_netware_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "</HEAD><BODY><font size=+2><p>Unauthorized!</font><font size=+1><p>Please login using a full NDS name and context (example: .user.engineering.acme_corp.)</font></BODY></HTML>" },
 			{ "regexp" : "/<TITLE>NetWare Server [^<]+<\/TITLE><LINK REL=stylesheet TYPE=text\/css HREF=\/SYS\/LOGIN\/portal\.css>/" },
@@ -17,4 +17,5 @@ class Pluginnovell_netware_plugin:
 			{ "url" : "/TOP.HTML", "module" : /<font color="#524a18" size=-1><b>(Server Version [\d\.]+ revision [A-Z]),[\s]+([A-Z][a-z]+ [\d]{1,2}", "[\d]{4}|[\d]{1,4} [A-Z][a-z]+ [\d]{1,4})<\/B><\/font><BR>/" },
 			{ "url" : "/TOP.HTML", "module" : /<font color="#524a18" size=-1><b>NetWare (Management Portal Version [\d\.]+ revision [A-Z]),[\s]+([A-Z][a-z]+ [\d]{1,2}", "[\d]{4}|[\d]{1,4} [A-Z][a-z]+ [\d]{1,4})<\/B><\/font><BR>/" },
 		]
+		return(self.rules)
 

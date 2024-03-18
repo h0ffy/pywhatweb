@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginqnap_nas_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "ghdb" : "inurl:"Qmultimedia/cgi-bin/thumb_index.cgi" filetype:cgi", "module" : "Multimedia Station" },
 			{ "text" : "<title>QNAP Photo Station</title>", "module" : "Photo Station" },
@@ -25,4 +25,5 @@ class Pluginqnap_nas_plugin:
 			{ "text" : "<title>Welcome to QNAP Turbo NAS</title>" },
 			{ "url" : "/ajax_obj/images/favicon.ico", "md5" : "9afa5d60e5ef15dc75d7662e418cac72" },
 		]
+		return(self.rules)
 

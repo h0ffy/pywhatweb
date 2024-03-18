@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugindirectadmin_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<td class=listtitle colspan=2>Please enter your Username and Password</td></tr>" },
 			{ "text" : "<title>DirectAdmin Login</title>" },
@@ -12,4 +12,5 @@ class Plugindirectadmin_plugin:
 			{ "text" : "onload=\"document.form.username.focus();if(document.form.referer.value.indexOf('#')==-1)document.form.referer.value+=location.hash;\">" },
 			{ "version" : "/^DirectAdmin Daemon v([^\s]+) Registered to /", "search" : "headers[server]" },
 		]
+		return(self.rules)
 

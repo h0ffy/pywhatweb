@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginposterous_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<meta name="generator" content="Posterous" />" },
 			{ "text" : "<div class="posterous_site_data" data-post-id="" },
@@ -12,4 +12,5 @@ class Pluginposterous_plugin:
 			{ "text" : "<li class="first"><a href="http://posterous.com/login?jumpto=http" },
 			{ "regexp" : "/<html><body>You are being <a href="http:\/\/([^"]+)\.posterous\.com\/">redirected<\/a>\.<\/body><\/html>/" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginwebguard_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "text" : "<title>WebGuard Login</title>" },
 			{ "text" : "<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="GetInfo()" onResize="fit_center()">" },
@@ -14,4 +14,5 @@ class Pluginwebguard_plugin:
 			{ "url" : "/images/login_back.gif", "md5" : "4617667f3ec03b31a9971ff1c03da57e" },
 			{ "md5" : "457dff12099372b8415b29e2e50c3910" },
 		]
+		return(self.rules)
 

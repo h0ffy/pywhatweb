@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginpuridiom_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<TITLE>Puridiom", "Enabling Self-Service Procurement</TITLE>" },
 			{ "string" : "Xpress", "text" : "<TITLE>Puridiom Xpress", "Enabling Self-Service Procurement</TITLE>" },
@@ -14,4 +14,5 @@ class Pluginpuridiom_plugin:
 			{ "text" : "<META NAME="Description" Content="/puridiom/system/header.jsp">" },
 			{ "string" : "Xpress", "text" : "<META NAME="Description" Content="/puridiomx/system/header.jsp">" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginnamazu_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/This search system is powered by[\s]+<strong><a href="http:\/\/www\.namazu\.org\/">Namazu<\/a><\/strong>/" },
 			{ "regexp" : "/Powered by <a href="http:\/\/www\.namazu\.(org|cc)\/[^"]*" target="_blank">(N|n)amazu<\/a>/" },
@@ -12,4 +12,5 @@ class Pluginnamazu_plugin:
 			{ "version" : "/<strong><a href="http:\/\/www\.namazu\.org\/">Namazu<\/a> <!-- VERSION --> v([\d\.]+) <!-- VERSION --><\/strong>/i },
 			{ "version" : "/This search system is powered by <a href="http:\/\/www\.namazu\.org\/">Namazu<\/a> <!-- VERSION --> v([\d\.]+) <!-- VERSION --><\/p>/i },
 		]
+		return(self.rules)
 

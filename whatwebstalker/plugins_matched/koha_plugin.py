@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginkoha_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "md5" : "0c240ea1e838d2b398f48122924bf7a0", "url" : "/opac-tmpl/prog/en/includes/favicon.ico" },
 			{ "md5" : "0c240ea1e838d2b398f48122924bf7a0", "url" : "/intranet-tmpl/prog/en/includes/favicon.ico" },
@@ -17,4 +17,5 @@ class Pluginkoha_plugin:
 			{ "certainty" : "25", "text" : "<!-- login prompt time-->" },
 			{ "text" : "<div id="help"><span class="loggedin">You are not logged in | </span><a href="/cgi-bin/koha/help.pl" onclick="Help(); return false;">[ ? ]</a></div>" },
 		]
+		return(self.rules)
 

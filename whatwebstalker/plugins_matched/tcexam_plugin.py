@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugintcexam_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<a name="topofdoc" id="topofdoc"></a>" },
 			{ "text" : "<meta name="author" content="Nicola Asuni - Tecnick.com s.r.l." />" },
@@ -14,4 +14,5 @@ class Plugintcexam_plugin:
 			{ "text" : "<meta name="tcexam_level" content="0" />" },
 			{ "version" : "/<span class="copyright"><a href="http:\/\/www\.tcexam\.(org|com)">TCExam<\/a> ver\. ([^\s]+) - Copyright &copy; 2004-20[\d]{2} Nicola Asuni - <a href="http:\/\/www\.tecnick\.com">Tecnick.com S\.r\.l\.<\/a><\/span>/", "offset" : "1 },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmrtg_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "name" : "Title", "regexp" : "/<TITLE>MRTG Index Page<\/TITLE>/i},
 			{ "name" : "Logo in footer", "regexp" : "/HREF="http:\/\/oss.oetiker.ch\/mrtg\/"><IMG[\s]*BORDER=0 SRC="mrtg-l.png"/mi},
@@ -12,4 +12,5 @@ class Pluginmrtg_plugin:
 			{ "name" : "Logo image", "url" : "/mrtg-l.png", "md5" : "241244d0d8845dcad7e891e84e79d63f"},
 			{ "version" : "/<title>MRTG Index Page.*version ([^<]+)<\/font><\/td>/mi},
 		]
+		return(self.rules)
 

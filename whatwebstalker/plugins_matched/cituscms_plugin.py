@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincituscms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>Administration &#149; Webseitenname</title>" },
 			{ "text" : "<!-- Powered by CitusCMS - http://www.citus-cms.org -->" },
@@ -13,4 +13,5 @@ class Plugincituscms_plugin:
 			{ "text" : "<meta name="generator" content="CitusCMS [http://www.citus-cms.org]" />" },
 			{ "version" : "/<!-- CitusCMS Core Version: ([^\s]+) -->/" },
 		]
+		return(self.rules)
 

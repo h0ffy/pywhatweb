@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginflax_article_manager_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "/images/flaxweb_newsletter_bg.gif" bgcolor="#FFFFFF" valign="top"> " },
 			{ "text" : "<b><a href="http://www.flaxweb.com/products/articles"><font color="#666666">Article " },
@@ -14,4 +14,5 @@ class Pluginflax_article_manager_plugin:
 			{ "text" : "<td><a href="http://www.flaxweb.com/products/articles">For more details about Flax article manager (CMS) please click " },
 			{ "version" : "/[\s]+Copyright [0-9]{4} &copy; Flax Article Manager v([\d\.]+)<\/div>/" },
 		]
+		return(self.rules)
 

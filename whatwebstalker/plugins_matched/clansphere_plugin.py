@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginclansphere_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>ClanSphere - News</title>" },
 			{ "text" : "<meta name="generator" content="ClanSphere" />" },
@@ -13,4 +13,5 @@ class Pluginclansphere_plugin:
 			{ "regexp" : "/<a href="[\/]*index.php\?mod=clansphere&amp;action=about[^>]+>Clansphere[\ CSP]*/i },
 			{ "regexp" : "/powered by <a href="http:\/\/www.clansphere.net[^>]+>ClanSphere Project<\/a>/" },
 		]
+		return(self.rules)
 

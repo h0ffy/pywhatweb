@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginawstats_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "ghdb" : "inurl:awstats ext:pl +intitle:"Statistics for"'},
 			{ "text" : "<a href="http://awstats.sourceforge.net" target="_newawstats">Created by awstats</a><br>'},
@@ -13,4 +13,5 @@ class Pluginawstats_plugin:
 			{ "version" : "/<FONT COLOR="#000000"><b>Advanced Web Statistics ([0-9\.]+ \(build [0-9\.]+\))},
 			{ "url" : "awstats.pl?framename=mainright", "version" : "/<FONT COLOR="#000000"><b>Advanced Web Statistics ([0-9\.]+ \(build [0-9\.]+\))},
 		]
+		return(self.rules)
 

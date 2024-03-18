@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmybb_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "				<!-- MyBB is free software developed and maintained by a volunteer community. " },
 			{ "text" : "				<!-- You may NOT remove", "modify or hinder the visibility of the MyBB copyright at any time." },
@@ -12,4 +12,5 @@ class Pluginmybb_plugin:
 			{ "regexp" : "/Powered By <a href="http:\/\/(mybb.com\/|www.mybboard.net)" target="_blank">MyBB<\/a>", "&copy; 2002-20[\d]{2} <a href="http:\/\/(mybb.com\/|www.mybboard.net)" target="_blank">MyBB Group<\/a>./" },
 			{ "text" : "Powered By <a href="http://www.mybboard.com" target="_blank">MyBB</a>" },
 		]
+		return(self.rules)
 

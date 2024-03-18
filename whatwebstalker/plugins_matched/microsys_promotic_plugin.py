@@ -2,11 +2,12 @@ import sys
 import os
 			
 class Pluginmicrosys_promotic_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^Promotic$/" },
 			{ "text" : "<html><head><title>PROMOTIC Redirection</title></head>" },
 		]
+		return(self.rules)
 

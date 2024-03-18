@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmicrosoft_iis_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<html><head><title>Site Not Found</title></head>.<body>No web site is configured at this address.</body></html>", "module" : "Site Not Found" },
 			{ "text" : "<id id="Comment1"><!--Problem--></id><id id="errorText">Under Construction</id></h1>", "module" : "Under Construction" },
@@ -18,4 +18,5 @@ class Pluginmicrosoft_iis_plugin:
 			{ "status" : "403", "text" : "<li>Go to <a href="http://go.microsoft.com/fwlink/?linkid=8180">Microsoft Product Support Services</a> and perform a title search for the words <b>HTTP</b> and <b>403</b>.</li>" },
 			{ "search" : "headers[server]", "version" : "/Microsoft-IIS\/([\d\.]+)/i },
 		]
+		return(self.rules)
 

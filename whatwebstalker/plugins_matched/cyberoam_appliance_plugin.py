@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincyberoam_appliance_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "/images/loginbox_left_logo.jpg", "md5" : "ecb82a4554f2ef5eefd06040cdae9872" },
 			{ "url" : "/images/session_ex.jpg", "md5" : "7241a011a6057cdb723eccbf178b0e3a" },
@@ -14,4 +14,5 @@ class Plugincyberoam_appliance_plugin:
 			{ "text" : "<noscript><font class="arial12whitebold">JavaScript must be enabled in order for you to use cyberoam admin console.</font></noscript><br>" },
 			{ "text" : "<!-- PUT THE LOGIC OF YOUR PAGE HERE -->" },
 		]
+		return(self.rules)
 

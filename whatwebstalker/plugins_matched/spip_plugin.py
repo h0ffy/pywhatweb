@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginspip_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<div class="formulaire_spip formulaire_recherche"" },
 			{ "version" : "/<meta name="generator" content="SPIP ([^\s]+) \[[\d]+\]"( \/)?>/" },
@@ -15,4 +15,5 @@ class Pluginspip_plugin:
 			{ "text" : "<a href="spip.php" },
 			{ "text" : "<img src=\'/spip" },
 		]
+		return(self.rules)
 

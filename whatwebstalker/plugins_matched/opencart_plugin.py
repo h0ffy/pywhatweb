@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginopencart_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<!--\s+OpenCart is open source software and you are free to remove the powered by OpenCart if you want", "but its generally accepted practise to make a small donation\./" },
 			{ "regexp" : "/<div id="powered">Powered By <a href="http:\/\/www\.opencart\.com"( title="OpenCart")?>OpenCart<\/a>/" },
@@ -12,4 +12,5 @@ class Pluginopencart_plugin:
 			{ "version" : "/All Rights Reserved\.<br \/>OpenCart Version ([^<]+)\<\/div>/" },
 			{ "text" : "/admin/index.php?route=common/login" method="post" enctype="multipart/form-data" id="form">" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginwebbackdoor_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "string" : "michaeldaw.org backdoor collection',"text" : "<!--    http://michaeldaw.org "},
 			{ "string" : "michaeldaw.org backdoor collection',"text" : "by DK (http://michaeldaw.org) -->"},
@@ -39,4 +39,5 @@ class Pluginwebbackdoor_plugin:
 			{ "string" : "cmd.cgi',"url" : "cmd.cgi',"regexp" : "/<input type="text" name="cmd">(\r\n|\n)<input type="submit" value="Send">},
 			{ "string" : "cmdexe.cgi',"url" : "cmdexe.cgi',"regexp" : "/<input type="text" name="cmd">(\r\n|\n)<input type="submit" value="Send">},
 		]
+		return(self.rules)
 

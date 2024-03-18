@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginvp_asp_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "ghdb" : "filetype:asp inurl:"shopdisplayproducts.asp"'},
 			{ "certainty" : "75", "text" : "src="vs350.js"'},
@@ -13,4 +13,5 @@ class Pluginvp_asp_plugin:
 			{ "certainty" : "75", "text" : "shopdisplayproducts.asp?id='},
 			{ "version" : "/<title>VP-ASP Shopping Cart ([^ <]*)/", "name" : "powered by title" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmihalism_multi_host_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "Powered by <a href="http://www.mihalism.com/product/mmh/">Mihalism Multi Host</a>" },
 			{ "regexp" : "/<!-- Powered by Mihalism Multi Host - Copyright \(c\) [\d\,\ ]+ Mihalism Technologies \(www.mihalism.net\) -->/" },
@@ -15,4 +15,5 @@ class Pluginmihalism_multi_host_plugin:
 			{ "text" : "<b style="color: #F00;">Warning:</b> Using this installer will erase any already existing Mihalism Multi Host installation." },
 			{ "version" : "/    <meta name="version" content="Mihalism Multi Host v([\d\.]+)" \/>/" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginformmail_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "This form was suplied by <A href="http://www.worldwidemart.com/scripts/formmail.shtml"" },
 			{ "text" : "<a href="http://www.worldwidemart.com/scripts/formmail.shtml">FormMail</a>" },
@@ -14,4 +14,5 @@ class Pluginformmail_plugin:
 			{ "ghdb" : "inurl:/FormMail.pl" },
 			{ "version" : "1.9", "regexp" : "/Copyright 1995 - 2001 Matt Wright<br>[\s]+Version 1.9/" },
 		]
+		return(self.rules)
 

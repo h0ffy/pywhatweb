@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginbugfree_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/<div id="loginLogo">[\s]+<img src="Image\/login_logo\.png" id="logo" alt=BugFree \/><br \/>[\s]+<center style="color:#666666;font-size:10px;padding-left:4px;">([^\s^<]+)<\/center>[\s]+<\/div>/" },
 			{ "version" : "/<div id="LoginMain">[\s]+<div id="LoginLogo">[\s]+<span id="Version">([^\s^<]+)<\/span>[\s]+<\/div>[\s]+<div id="LoginFormContainer">/" },
@@ -13,4 +13,5 @@ class Pluginbugfree_plugin:
 			{ "text" : "<img src="Image/login_bg_left.gif" class="loginBgImage"/>" },
 			{ "text" : "<td><input type="password" name="BugUserPWD" class="MyInput"></td>" },
 		]
+		return(self.rules)
 

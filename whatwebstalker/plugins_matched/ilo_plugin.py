@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginilo_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "Derivative Work - 1996", "1998-2000 Copyright 1996", "1998-2000 The Regents of the University of California<br>" },
 			{ "regexp" : "/<title>[\s]+HP Integrated Lights-Out( [\d])?[\s]+<\/title>/" },
@@ -15,4 +15,5 @@ class Pluginilo_plugin:
 			{ "version" : "/(\*|&copy;)[\s]{1,2}Copyright ([\d]{4}) Hewlett-Packard Development Company", "L\.P\./", "offset" : "1 },
 			{ "text" : "document.title="Integrated Lights Out 2: "+serverName;", "version" : "2.x" },
 		]
+		return(self.rules)
 

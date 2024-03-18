@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginskyx_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<div id="skyx_status">SkyX status: enhancing</div>" },
 			{ "text" : "<script language="javascript" type="text/javascript" src="/skyxgui.js"></script>" },
@@ -12,4 +12,5 @@ class Pluginskyx_plugin:
 			{ :"regxp" : "/^SkyX /", "search" : "headers[server]" },
 			{ "version" : "/^SkyX HTTPS ([^\s]+)$/", "search" : "headers[server]" },
 		]
+		return(self.rules)
 

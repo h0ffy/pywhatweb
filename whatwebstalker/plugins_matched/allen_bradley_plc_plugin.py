@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginallen_bradley_plc_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "model" : "/<html><head><title>([\d]{4}-[A-Z][\d]{3}|[\d]{4}-[A-Z][\d]{3}\/[A-Z]) Home Page<\/title><\/head>/" },
 			{ "model" : "/<h1><font face="helvetica" size=6>([\d]{4}-[A-Z][\d]{3}|[\d]{4}-[A-Z][\d]{3}\/[A-Z]) Ethernet Processor<\/font><\/h1><br><\/td>/" },
@@ -13,4 +13,5 @@ class Pluginallen_bradley_plc_plugin:
 			{ "url" : "/ralogo.gif", "md5" : "640eeef53f64fac202eb0673ed269be1", "model" : "1766 Series" },
 			{ "version" : "/^A-B WWW\/([\d\.]{3})/", "search" : "headers[server]" },
 		]
+		return(self.rules)
 

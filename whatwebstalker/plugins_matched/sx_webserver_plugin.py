@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginsx_webserver_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "status" : "400", "text" : "<head></head><body><html><h1>Error 400</h1><p>The server couldn't understand your request.</html></body>\r\n" },
 			{ "status" : "403", "text" : "<head></head><body><html><h1>Error 403</h1><p>Forbidden.</html></body>\r\n" },
@@ -14,4 +14,5 @@ class Pluginsx_webserver_plugin:
 			{ "status" : "505", "text" : "<head></head><body><html><h1>Error 505</h1><p>HTTP Version not supported.  This server supports HTTP 1.0 and HTTP 1.1.</html></body>\r\n" },
 			{ "search" : "headers[server]", "version" : "/^SX Webserver ([\d\.]{1,5})/" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincanon_printer_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "model" : "/<title>Remote UI<Top Page>: (\w+)/i},
 			{ "model" : "/<title>Remote UI&lt;Top page&gt;: ([^:]+)/i", "url" : "/frame.cgi"},
@@ -17,4 +17,5 @@ class Plugincanon_printer_plugin:
 			{ "certainty" : "75", "search" : "headers[server]", "version" : "/^KS_HTTP\/([^\s]+)/" },
 			{ "certainty" : "25", "search" : "headers[server]", "version" : "/^LPC Http Server\/V([^\s]+)/" },
 		]
+		return(self.rules)
 

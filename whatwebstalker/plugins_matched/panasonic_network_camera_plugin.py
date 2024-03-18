@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginpanasonic_network_camera_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<HEAD><TITLE>WJ-NT104 MAIN PAGE</TITLE></HEAD>", "version" : "WJ-NT104" },
 			{ "text" : "      <FONT FACE="Arial" STYLE="font-size: 24px" COLOR="#ffffff"><B>Network Camera</B></FONT>" },
@@ -15,4 +15,5 @@ class Pluginpanasonic_network_camera_plugin:
 			{ "text" : "<TITLE>WJ-HD200 DigitalDiskRecorder CONTROL MAIN PAGE</TITLE>", "version" : "WJ-HD200" },
 			{ "text" : "window.location.replace("/view/idconv.cgi?UID=%i&FILE=/hdrindex.html&PAGE="+myDate.getTime());" },
 		]
+		return(self.rules)
 

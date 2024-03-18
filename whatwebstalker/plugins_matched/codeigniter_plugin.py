@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincodeigniter_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "string" : "404 Signature',"url" : randstr(),"md5" : "e087ab5729efdfa939ba620e4593bd99'},
 			{ "string" : "404 Signature',"url" : "index.php/'+randstr(),"md5" : "e087ab5729efdfa939ba620e4593bd99'},
@@ -14,4 +14,5 @@ class Plugincodeigniter_plugin:
 			{ "string" : "Invalid Character Filter',"url" : randstr()+'!!!',"text" : "The URI you submitted has disallowed characters.'},
 			{ "search" : "headers[set-cookie]", "regexp" : "/ci_session/", "name" : "ci_session cookie" },
 		]
+		return(self.rules)
 

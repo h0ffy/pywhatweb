@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginlantronix_device_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "/summary.html", "version" : "/<TITLE>Lantronix ThinWeb Manager ([\d\.]+): Home<\/TITLE>/" },
 			{ "url" : "/navigation.html", "version" : "/<img src="logo\.gif" width=129 height=84 border=0 alt="Lantronix ThinWeb Manager ([\d\.]+)"><br>/" },
@@ -12,4 +12,5 @@ class Pluginlantronix_device_plugin:
 			{ "version" : "/^Gordian Embedded([\d\.]+)$/", "search" : "headers[server]" },
 			{ "regexp" : "/^Gordian Embedded/", "search" : "headers[server]" },
 		]
+		return(self.rules)
 

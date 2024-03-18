@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginbitrix_site_manager_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "search" : "headers[p3p]", "name" : "P3P Header", "regexp" : "/^policyref="\/bitrix\/p3p\.xml", "CP="NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA"$/" },
 			{ "search" : "headers[set-cookie]", "name" : "BITRIX_SM_SALE_UID Cookie", "regexp" : "/BITRIX_SM_SALE_UID=[\d]+;/" },
@@ -15,4 +15,5 @@ class Pluginbitrix_site_manager_plugin:
 			{ "search" : "headers[b-powered-by]", "name" : "B-Powered-By Header", "regexp" : "/^Bitrix SM \(/" },
 			{ "search" : "headers[b-powered-by]", "name" : "B-Powered-By Header", "version" : "/^Bitrix SM\/([\d\.]+) \(/" },
 		]
+		return(self.rules)
 

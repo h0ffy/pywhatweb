@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginluci_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<a style="color: white; text-decoration: none" href="/cgi-bin/luci">LuCI - Lua Configuration Interface</a>" },
 			{ "text" : "<link rel="stylesheet" type="text/css" media="screen" href="/luci-static/openwrt.org/cascade.css" />" },
@@ -15,4 +15,5 @@ class Pluginluci_plugin:
 			{ "firmware" : "/<div id="header">[\r\n]*<h1>OpenWrt Firmware<\/h1>[\r\n]*<p>[\r\n]*([^<]+)<br \/>[\r\n]*Load: [^<]{10,15}<br \/>[\r\n]*Hostname: ([^\r\n<]+)[\s]*<\/p>[\r\n]*<\/div>/", "offset" : "0 },
 			{ "string" : /<div id="header">[\r\n]*<h1>OpenWrt Firmware<\/h1>[\r\n]*<p>[\r\n]*([^<]+)<br \/>[\r\n]*Load: [^<]{10,15}<br \/>[\r\n]*Hostname: ([^\r\n<]+)[\s]*<\/p>[\r\n]*<\/div>/", "offset" : "1 },
 		]
+		return(self.rules)
 

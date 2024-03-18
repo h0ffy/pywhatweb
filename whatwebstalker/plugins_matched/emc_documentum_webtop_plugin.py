@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginemc_documentum_webtop_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "text" : "<body  marginwidth='0' topmargin='40' bottommargin='0' class='contentBackground' leftmargin='0' rightmargin='0' marginheight='40'>" },
 			{ "text" : "<select name='Login_docbase_0' id='DocbaseName' title=\"Repository\" size='0' class=defaultDropdownListStyle onchange='setKeys(event);" },
@@ -15,4 +15,5 @@ class Pluginemc_documentum_webtop_plugin:
 			{ "regexp" : "/<script type="text\/javascript" src='\/webtop\/index\.js'><\/script>[\s]+<\/head>[\s]+<body onload='doRedirect\("\/component\/main"\)'>[\s]+<\/body>[\s]+<\/html>/" },
 			{ "version" : "/<div id="logo"><span  class='defaultLabelStyle'>Webtop<\/span>[\s]?&nbsp;<span  class='dialogTitleVersion'>([^<]+)<\/span>/" },
 		]
+		return(self.rules)
 

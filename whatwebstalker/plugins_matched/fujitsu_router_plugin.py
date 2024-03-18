@@ -2,9 +2,10 @@ import sys
 import os
 			
 class Pluginfujitsu_router_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 		]
+		return(self.rules)
 

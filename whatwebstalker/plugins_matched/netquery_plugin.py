@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginnetquery_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<form class="nquser" action="nquser.php" method="post">" },
 			{ "text" : "<a href="nquser.php?querytype=countries"><img class="gobuttonup"" },
@@ -13,4 +13,5 @@ class Pluginnetquery_plugin:
 			{ "text" : "<a href="nqadmin.php"><img class="gobutton" src="images/btn_adm.gif" alt="Administration" /></a>" },
 			{ "md5" : "24a75ccc492b5a9118a4d226c25895c1" },
 		]
+		return(self.rules)
 

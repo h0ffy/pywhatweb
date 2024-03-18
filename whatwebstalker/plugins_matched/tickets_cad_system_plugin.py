@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugintickets_cad_system_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<HEAD><TITLE>Tickets - Top Frame</TITLE>" },
 			{ "text" : "<HEAD><TITLE>Tickets - Login Module</TITLE>" },
@@ -12,4 +12,5 @@ class Plugintickets_cad_system_plugin:
 			{ "version" : "/<TITLE>Tickets ([^<]+)<\/TITLE>\s+<LINK REL=StyleSheet HREF="/" },
 			{ "text" : "<TR CLASS='even'><TD ROWSPAN=6 VALIGN='middle' ALIGN='left' bgcolor=#EFEFEF><BR /><BR />&nbsp;&nbsp;<IMG BORDER=0 SRC='open_source_button.png'>" },
 		]
+		return(self.rules)
 

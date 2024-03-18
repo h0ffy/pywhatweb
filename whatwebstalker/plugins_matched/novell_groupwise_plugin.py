@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginnovell_groupwise_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<!-- START NOVELL SERVICES -->" },
 			{ "text" : "<!-- START GROUPWISE WEBACCESS -->" },
@@ -14,4 +14,5 @@ class Pluginnovell_groupwise_plugin:
 			{ "text" : "<TITLE>Novell WebAccess</TITLE>" },
 			{ "version" : "/^&copy; Copyright 1993-20[\d]{2} Novell", "Inc. All rights reserved.[\s]+<BR>Version ([\d\.]+)$/" },
 		]
+		return(self.rules)
 

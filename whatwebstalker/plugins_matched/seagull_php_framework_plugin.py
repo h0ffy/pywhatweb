@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginseagull_php_framework_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "    <meta name="generator" content="Seagull Framework" />" },
 			{ "regexp" : "/    Powered by <a href="http:\/\/seagullproject.org[\/]*" title="Seagull framework homepage">Seagull PHP Framework<\/a>/" },
@@ -14,4 +14,5 @@ class Pluginseagull_php_framework_plugin:
 			{ "url" : "/themes/default/images/logo.png", "md5" : "4986dcbd7b531e29c58b5808b1f8cdd3" },
 			{ "version" : "/    Powered by <a href="http:\/\/seagullproject.org[\/]?" title="Seagull PHP Framework">Seagull PHP Framework<\/a> v([\d\.]+)/" },
 		]
+		return(self.rules)
 

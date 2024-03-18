@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincms_made_simple_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "name" : "CMSSESSID cookie", "regexp" : "/^CMSSESSID/", "search" : "headers[set-cookie]" },
 			{ "name" : "Meta generator", "text" : "<meta name="Generator" content="CMS Made Simple" },
@@ -13,4 +13,5 @@ class Plugincms_made_simple_plugin:
 			{ "name" : "Version from /doc/CHANGELOG.txt", "version" : "/^Version ([^ ]+).*/m", "url" : "/doc/CHANGELOG.txt" },
 			{ "name" : "favicon", "url" : "/favicon_cms.ico", "md5" : "ebf500d206705bda0cb79021c15da98a" },
 		]
+		return(self.rules)
 

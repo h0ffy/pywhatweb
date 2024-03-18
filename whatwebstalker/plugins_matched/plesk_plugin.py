@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginplesk_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "favicon.ico", "md5" : "2cee5e3ce2f5c4640a68fc208c286494" },
 			{ "search" : "headers[x-powered-by]", "string" : /Plesk([WL]in)/" },
@@ -22,4 +22,5 @@ class Pluginplesk_plugin:
 			{ "url" : "/", "text" : "</html><!--______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________IE error page size limitation______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-->" },
 			{ "url" : "/", "version" : "/<script language="javascript" type="text\/javascript" src="\/javascript\/common\.js\?plesk_version=psa-([^\s^"]+)"\/?>/" },
 		]
+		return(self.rules)
 

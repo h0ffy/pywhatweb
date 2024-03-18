@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginwebdvr_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>WebDVR</title>" },
 			{ "text" : "<TITLE>WEBDVR</TITLE>" },
@@ -12,4 +12,5 @@ class Pluginwebdvr_plugin:
 			{ "text" : "		alert("DirectDraw Video acceleration will be enabled if your VGA card supports Microsoft DirectX 8.1 or later.");" },
 			{ "text" : "		window.location="webdvr.html";" },
 		]
+		return(self.rules)
 

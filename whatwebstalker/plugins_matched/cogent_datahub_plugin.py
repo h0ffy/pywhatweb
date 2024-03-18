@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincogent_datahub_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "/images/Cogent.gif", "md5" : "c8f57d665418321b0248c22cd65efaff" },
 			{ "url" : "/scripts/livedata.js", "text" : "timerID = setTimeout ("DataHubConnection.updateTimer()", "this.timerTick);" },
@@ -14,4 +14,5 @@ class Plugincogent_datahub_plugin:
 			{ "certainty" : "25", "text" : "<title>Cogent DataHub WebView</title>" },
 			{ "text" : "<!-- The following ASP code generates the table of DataHub point values -->" },
 		]
+		return(self.rules)
 

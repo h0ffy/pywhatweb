@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginkoobi_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/Powered by <a title="Koobi ist ein komfortables und leistungsf&auml;higes Content-Management-System \(CMS\) f&uuml;r Privatpersonen", "Vereine", "kleine und mittelst&auml;ndische Unternehmen", "die einen professionellen Internetauftritt realisieren m&ouml;chten."[^>]+>Koobi/i },
 			{ "text" : "<!-- powered by koobi - do not remove this info! -->" },
@@ -17,4 +17,5 @@ class Pluginkoobi_plugin:
 			{ "version" : "/    Diese Webseite wurde mit Koobi[\ :]*(SHOP|PRO|CMS)[\ \-]*([\d\.\ a-z]+) erstellt./", "offset" : "1 },
 			{ "version" : "/powered by <a class="foot" href="http:\/\/www.antichat.ru" target="_blank">Koobi Pro ([\d\.]+) \[nulled by censored! from antichat.ru\]<\/a>/", "string" : "Nulled" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugintwonkyserver_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/TwonkyMedia UPnP/" },
 			{ "text" : "<meta name="description" content="TwonkyMedia Digital Home">" },
@@ -14,4 +14,5 @@ class Plugintwonkyserver_plugin:
 			{ "string" : /<div id="copyright" class="copyright">Copyright . 2004-(20[\d]{2}) PacketVideo Corporation\. All rights reserved\.<\/div><\/div><hr>/" },
 			{ "string" : /<div id="copyright" class="copyright">Copyright&nbsp;&copy;&nbsp;2004-20(20[\d]{2}) PacketVideo&nbsp;Corporation\. All&nbsp;rights&nbsp;reserved<\/div><\/div><hr>/" },
 		]
+		return(self.rules)
 

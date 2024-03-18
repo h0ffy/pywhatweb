@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginkayako_supportsuite_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "search" : "headers[set-cookie]", "text" : "SWIFT_client" },
 			{ "text" : " - Powered By Kayako eSupport</title>" },
@@ -15,4 +15,5 @@ class Pluginkayako_supportsuite_plugin:
 			{ "version" : "/SWIFT\.Setup[^}]*"version":"([0-9\.]+)"/" },
 			{ "text" : "<div id="bottomfooter" class="bottomfooterpadding"><a href="http://www.kayako.com" target="_blank" class="bottomfooterlink">Help Desk Software"'},
 		]
+		return(self.rules)
 

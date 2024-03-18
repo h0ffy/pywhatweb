@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginolat_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/<div id="b_footer_version">[\s]+<a href="http:\/\/www\.olat\.org"  title="Homepage of Open Source LMS OLAT" target="_blank">OLAT ([^<]+)<\/a>/" },
 			{ "version" : "/<div id="o_footer_version">[\s]+<a href="http:\/\/www\.olat\.org"  title="Homepage of Open Source LMS OLAT" target="_blank">[\s]+OLAT ([^<^\n]+)[\s]+<\/a>/" },
@@ -19,4 +19,5 @@ class Pluginolat_plugin:
 			{ "text" : "<!-- START olatContentPanel -->" },
 			{ "text" : "<a accesskey="2" href="#content" title="Go to "Content"></a>" },
 		]
+		return(self.rules)
 

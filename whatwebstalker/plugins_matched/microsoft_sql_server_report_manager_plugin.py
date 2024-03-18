@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmicrosoft_sql_server_report_manager_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/<META Name="Generator" CONTENT="Microsoft SQL Server Report Manager ([^"]+)">/" },
 			{ "text" : "<td valign="top" width="18px"><a href="/Reports/Pages/Folder.aspx?ItemPath=" },
@@ -14,4 +14,5 @@ class Pluginmicrosoft_sql_server_report_manager_plugin:
 			{ "text" : "<body topmargin=0 id="bodyID" class = "dtBODY"><LINK REL="stylesheet" TYPE="text/css" HREF="sql.css">" },
 			{ "search" : "headers[location]", "regexp" : "/\/Reports\/Pages\/Folder\.aspx/i },
 		]
+		return(self.rules)
 

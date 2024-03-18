@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginsymphony_cms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "	<title>Symphony | Login</title>" },
 			{ "text" : "<meta name="generator" content="Symphony CMS" />" },
@@ -19,4 +19,5 @@ class Pluginsymphony_cms_plugin:
 			{ "version" : "/Powered by <a[^>]+href="http:\/\/www.symphony-cms.com[\/]?">Symphony CMS ([\d\.]{1,3})<\/a>/" },
 			{ "version" : "/Powered by <a[^>]+href="http:\/\/symphony-cms.com[\/]?">Symphony CMS ([\d\.]{1,3})<\/a>/" },
 		]
+		return(self.rules)
 

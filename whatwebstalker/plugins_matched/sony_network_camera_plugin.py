@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginsony_network_camera_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "	setWindowVar = window.open("/adm/file.cgi?next_file=setting.htm", "adminWin", "setWinoptions);", "model" : "["SNC-M"] },
 			{ "text" : "<TITLE>Server Push Viewer</TITLE>" },
@@ -13,4 +13,5 @@ class Pluginsony_network_camera_plugin:
 			{ "model" : "/<TITLE>(SNC\-[R]?Z[0-9]+)<\/TITLE>/" },
 			{ "model" : "/<TITLE>(SNC\-[R]?Z[0-9]+) HOME<\/TITLE>/" },
 		]
+		return(self.rules)
 

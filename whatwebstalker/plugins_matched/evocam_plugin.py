@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginevocam_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<title>EvoCam( \d)*<\/title>/" },
 			{ "regexp" : "/<TITLE>EvoCam( Java| JavaScript)? Example Page<\/TITLE>/" },
@@ -12,4 +12,5 @@ class Pluginevocam_plugin:
 			{ "regexp" : "/<applet archive="evocam.jar" code="com.evological.evocam.class"/" },
 			{ "regexp" : "/<param name="archive" value="evocam.jar">/i },
 		]
+		return(self.rules)
 

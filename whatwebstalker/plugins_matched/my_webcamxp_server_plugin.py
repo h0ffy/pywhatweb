@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmy_webcamxp_server_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<html><head><title>my webcamXP server!</title>" },
 			{ "text" : "			<h1><span>webcamXP 5</span></h1>" },
@@ -18,4 +18,5 @@ class Pluginmy_webcamxp_server_plugin:
 			{ "version" : "/			powered by <a href="http:\/\/www.webcamxp.com" title="www.webcamxp.com">webcamxp 5<\/a> v([\d\.]+)/" },
 			{ "version" : "/powered by <a href="http:\/\/www.webcamXP.com" target="_blank">webcamXP 5<\/a> v([\d\.]+)<\/a>/" },
 		]
+		return(self.rules)
 

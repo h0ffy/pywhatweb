@@ -2,12 +2,13 @@ import sys
 import os
 			
 class Pluginphprechnung_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<a class='slink' title='phpInvoice Home' href='http://www.ecorak.de/phpRechnung/' target='_blank'>" },
 			{ "version" : "/<title>phpRechnung ([^-]+) - Login<\/title>/" },
 			{ "version" : "/<title>phpInvoice ([^-]+) - Login<\/title>/" },
 		]
+		return(self.rules)
 

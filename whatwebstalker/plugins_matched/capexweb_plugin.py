@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincapexweb_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<frame name="main" src="capexmain_middle.htm" scrolling="no" target="_top">" },
 			{ "version" : "/<title>cApexWEB ([^\s^<]+)<\/title>/" },
@@ -16,4 +16,5 @@ class Plugincapexweb_plugin:
 			{ "text" : "<form method="post" action="../servlet/capexweb.parentvalidatepassword">" },
 			{ "text" : "var winPop = window.open("../servlet/capexweb.parentvalidatepassword?dfuserid="+dfuserid.value+"&dfpassword="+dfpassword.value+"&dfparentip="+dfparentip.value+"&dfparentdb="+dfparentdb.value+"&dfcode="+dfcode.value+","mywin","width=550,height=550,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,fullscreen=yes");" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginadcon_telemetry_gateway_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "search" : "headers[server]", "string" : /^addUPI (Server [^\s]+)/" },
 			{ "search" : "headers[server]", "module" : /^addUPI Server [^\s]+ \+(SSL)/" },
@@ -17,4 +17,5 @@ class Pluginadcon_telemetry_gateway_plugin:
 			{ "version" : "/<hr>[\s]+<p>[\s]+Release ([^\s^,]+)", "&copy; 20[\d]{2} Adcon Telemetry GmbH<br>/" },
 			{ "model" : "/<body onload="onLoadChangeConfiguratorLinks\(\)">[\s]+<h1 class="line1">([^\s]+) Telemetry Gateway<\/h1>/" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginlanrtc_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "/Logo.gif", "md5" : "2fe5a40924a7b13c61fcc66a7dacec94" },
 			{ "model" : "/<tr><td><h2>LanRTC([\d]{4})<br>System information<\/h2><\/td>/" },
@@ -14,4 +14,5 @@ class Pluginlanrtc_plugin:
 			{ "version" : "/^LanRTC\/([\d\.]{1,5})$/", "search" : "headers[server]" },
 			{ "regexp" : "/^LanRTC/", "search" : "headers[server]" },
 		]
+		return(self.rules)
 

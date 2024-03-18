@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginrapid_browser_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/<title>Welcome to Rapid Browser ([\d\.]+)<\/title>/" },
 			{ "text" : "<!-- ### Bullet table ### -->" },
@@ -12,4 +12,5 @@ class Pluginrapid_browser_plugin:
 			{ "text" : "<td align="right" valign="top"><input type="image" name="login" src="images/login_button.gif" alt="Login to Rapid Browser"></td>" },
 			{ "version" : "/<link rel="stylesheet" type="text\/css" href="styles\/typeStyle-en.css\?([^"]+)">/" },
 		]
+		return(self.rules)
 

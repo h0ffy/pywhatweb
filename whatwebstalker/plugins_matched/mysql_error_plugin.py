@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmysql_error_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '|You have an error in your SQL syntax near '/", "certainty" : "25 },
 			{ "text" : "Connessione non riuscita: Can't connect to local MySQL server through socket ", "certainty" : "25 },
@@ -19,4 +19,5 @@ class Pluginmysql_error_plugin:
 			{ "string" : /Errore: Non riesco a connettermi al server MySql ([a-z0-9\.\-\_]+)/" },
 			{ "string" : /Errore: Non riesco a selezionare il database ([a-z0-9\.\-\_]+)/" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginskillsoft_skillport_lms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/<table id="loginwrapper">\s*<tr><td width="10%"><\/td>\s*<td width="80%"  align="left" class="v">v ([^\s]+)<\/td>/" },
 			{ "text" : "<a href="javascript:void(0);showContextSpecificHelp(\'/skillportfe/help/en_US/learnerHelp/23386.htm\');"" },
@@ -14,4 +14,5 @@ class Pluginskillsoft_skillport_lms_plugin:
 			{ "search" : "headers[set-cookie]", "regexp" : "/SP[5-7]\dFE=\d+\.\d+\.\d+/" },
 			{ "search" : "headers[x-sp-fe]", "string" : /^(.+)$/" },
 		]
+		return(self.rules)
 

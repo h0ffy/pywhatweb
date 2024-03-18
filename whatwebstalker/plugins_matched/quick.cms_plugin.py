@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginquick.cms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "  <title>Admin - Quick.Cms - simple content management system</title>" },
 			{ "text" : "    var cfLangNoWord      = "Please fill in all required fields";" },
@@ -13,4 +13,5 @@ class Pluginquick.cms_plugin:
 			{ "text" : "  <meta name="Author" content="OpenSolution.org" />" },
 			{ "version" : "/      <div id="version"><a href="http:\/\/opensolution.org\/">Quick.Cms v([\d\.]+)<\/a><\/div>/" },
 		]
+		return(self.rules)
 

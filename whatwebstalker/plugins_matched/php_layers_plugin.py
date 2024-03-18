@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginphp_layers_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "ghdb" : "Powered by PHP Layers"" },
 			{ "text" : "// because Konqueror 3 sets IE = 1 ... AAAAAAAAAARGHHH!!!" },
@@ -12,4 +12,5 @@ class Pluginphp_layers_plugin:
 			{ "version" : "/<!-- end of menu header - PHP Layers Menu ([^\s]+) \(C\) [0-9]{4}-[0-9]{4} Marco Pratesi/" },
 			{ "version" : "/\/\/ PHP Layers Menu ([^\s]+) \(C\) [0-9]{4}-[0-9]{4} Marco Pratesi/" },
 		]
+		return(self.rules)
 

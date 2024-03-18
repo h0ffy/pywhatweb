@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginbrowsercms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<!--User is member of the following groups:  -->" },
 			{ "text" : "<li class="bmcms"><a href="http://www.browsercms.com/index.ww" title="BrowserCMS 2.0" target="_blank"><span>Powered by BrowserCMS 2.0</span></a></li>", "version" : "2.x" },
@@ -16,4 +16,5 @@ class Pluginbrowsercms_plugin:
 			{ "regexp" : "/<input type="hidden" name="failure_uri" value="[^>]*\/page.ww\?name=[^>]*\&section=[^>]*"\/>/" },
 			{ "version" : "/<meta name="generator" content="BrowserCMS ([^\"]+)"/" },
 		]
+		return(self.rules)
 

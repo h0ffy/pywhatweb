@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmd_pro_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<a href="language/eng/dbfail.html" style="text-decoration: none;">MAXdev - Problem in Database Connection: click here to read more...</a>" },
 			{ "text" : "<a href="http://www.maxdev.it" target="_blank">Powered by MAXDev</a>" },
@@ -14,4 +14,5 @@ class Pluginmd_pro_plugin:
 			{ "md5" : "0caf204c07776c652de251a1eb74447a", "url" : "images/logo.gif" },
 			{ "version" : "/<meta name="generator" content="MAXdev ([\d\.]+) - http:\/\/www.maxdev.(com|it)">/" },
 		]
+		return(self.rules)
 

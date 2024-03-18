@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginhp_virtual_connect_manager_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<!-- HP Virtual Connect Manager                                            -->" },
 			{ "text" : "<h2><img src="./images/progress_bar_large.gif"></h2><br />Loading", "please wait..." },
@@ -12,4 +12,5 @@ class Pluginhp_virtual_connect_manager_plugin:
 			{ "url" : "/html/index.html", "text" : "<title>HP Virtual Connect Manager</title>" },
 			{ "url" : "/html/index.html", "text" : "<frame id='MX_HIDDEN' name='MX_HIDDEN' src=\"common/hiddenFrame.html\" noresize>" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginpegarules_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "name" : "cookie',"search" : "headers[set-cookie]","text" : "Pega-RULES"},
 			{ "name" : "title", "text" : "<title> Welcome to PegaRULES </title>" },
@@ -15,4 +15,5 @@ class Pluginpegarules_plugin:
 			{ "text" : "<HEAD><H3>Unable to logon to the PegaRULES system.</H3></HEAD>" },
 			{ "regexp" : "/<TR><TD>\s+<FONT face="Helvetica">\s+Your system policy has denied access to the requested URL\.\s+<\/FONT>/" },
 		]
+		return(self.rules)
 

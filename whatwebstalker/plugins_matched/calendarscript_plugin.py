@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincalendarscript_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "ghdb" : "inurl:calendar_admin.pl intitle:Calendar Administration : Login" },
 			{ "certainty" : "75", "ghdb" : "powered by CalendarScript inurl:calendar.pl filetype:pl" },
@@ -13,4 +13,5 @@ class Plugincalendarscript_plugin:
 			{ "text" : "<FONT color="#FFFFFF" SIZE="-1">Powered by <A HREF="http://www.CalendarScript.com/" STYLE="color:#FFFFFF;">CalendarScript</A></FONT>" },
 			{ "text" : "Powered by <A HREF="http://www.CalendarScript.com/" CLASS="footertext" STYLE="text-decoration:underline;">CalendarScript</A>" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginapache_test_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>Test Page for Apache Installation</title>", "string" : "Default" },
 			{ "text" : "<TITLE>Test Page for the SSL/TLS-aware Apache Installation on Web Site</TITLE>", "string" : "Default" },
@@ -19,4 +19,5 @@ class Pluginapache_test_plugin:
 			{ "certainty" : "75", "module" : "mod_security", "regexp" : "/^NOYB$/", "search" : "headers[server]"},
 			{ "certainty" : "75", "name" : "htacess WWW-Authenticate realm", "search" : "headers[www-authenticate]", "regexp" : "/Basic realm="htaccess password prompt"},
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginektron_cms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "search" : "headers[set-cookie]", "regexp" : "/EktGUID=[a-f\d]{8}-[a-f\d]{4}-[a-f\d]{4}-[a-f\d]{4}-[a-f\d]{12}; expires=/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/EkAnalytics/", "name" : "EkAnalytics cookie" },
@@ -13,4 +13,5 @@ class Pluginektron_cms_plugin:
 			{ "text" : "<script id="EktronRegisteredJs" type="text/javascript" src="/workarea/java/ektronJs.ashx?id=" },
 			{ "text" : "<script id="EktronModalJS" type="text/javascript" src="/WorkArea/java/plugins/modal/ektron.modal.js">" },
 		]
+		return(self.rules)
 

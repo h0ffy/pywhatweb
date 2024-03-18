@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginquest_password_manager_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<div class="text-color-error error-control" style="display:none" id="Account_NotFilled.Textbox">" },
 			{ "text" : "<input type="submit" class="text-color-control button button-text" value="OK" name=" id="button_Ok_control" />" },
@@ -17,4 +17,5 @@ class Pluginquest_password_manager_plugin:
 			{ "md5" : "11a756ae488de6e3e31c675ab921e70f", "url" : "/QPM/App_Themes/Default/Images/Controls/Icons/32/icon_Warning.png" },
 			{ "version" : "/<span id="ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_AboutControl_LabelVersion">Full version number: ([^<]+)<\/span>/" },
 		]
+		return(self.rules)
 

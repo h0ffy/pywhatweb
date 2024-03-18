@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginbeef_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<img src="../images/beef.gif" onclick="new Effect.Shake(\'sidebar\');"></div> BeEF</h1>" },
 			{ "certainty" : "75", "text" : "<title>Browser Exploitation Framework</title>" },
@@ -14,4 +14,5 @@ class Pluginbeef_plugin:
 			{ "url" : "/ui/media/images/beef.png", "md5" : "5f8cdcd65c5c05f875710f2c10503192" },
 			{ "search" : "headers[server]", "version" : "/^BeEF ([^\s]+)$/" },
 		]
+		return(self.rules)
 

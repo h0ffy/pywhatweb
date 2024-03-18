@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginphp_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "/?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000", "version" : "/<tr class="h"><th colspan="2">PHP (\d) Authors<\/th><\/tr>/" },
 			{ "url" : "/?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000", "version" : "/<tr class="h"><th>PHP ([\d\.]+) Quality Assurance Team<\/th><\/tr>/" },
@@ -21,4 +21,5 @@ class Pluginphp_plugin:
 			{ "name" : "PHP Warning Header", "regexp" : "//", "search" : "headers[php warning]" },
 			{ "name" : "File extension", "regexp" : "/^(php|phtml|php3|php4|php5|phps)$/", "search" : "uri.extension" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincanon_network_camera_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75,"ghdb" : "intitle:liveapplet inurl:LvAppl'},
 			{ "certainty" : "75,"ghdb" : "+intitle:"Network Camera VB-C50i/VB-C50iR" +"Viewer for PC"'},
@@ -14,4 +14,5 @@ class Plugincanon_network_camera_plugin:
 			{ "text" : "<param name=cabbase	value="LiveApplet.cab">',"version" : "WebView"},
 			{ "text" : "<title>LiveApplet</title>',"version" : "WebView"},
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginjxt_consulting_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<div id="jxt-popup-wrapper">" },
 			{ "text" : "<!-- Dynamic white label meta content -->" },
@@ -12,4 +12,5 @@ class Pluginjxt_consulting_plugin:
 			{ "text" : "<a href="http://www.jxt.com.au" target="_blank">Powered by JXT Consulting</a>" },
 			{ "string" : /<link rel="shortcut icon" href="\/GetWhitelabelFile\.aspx\?whiteLabelFileID=(\d+)"\s?\/>/" },
 		]
+		return(self.rules)
 

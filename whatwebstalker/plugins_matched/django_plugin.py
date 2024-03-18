@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugindjango_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "25", "search" : "headers[server]", "regexp" : "/^WSGIServer\/[^\s]+ Python\/[^\s]+$/" },
 			{ "regexp" : "/<div id="explanation">[\s]+<p>[\s]+You're seeing this error because you have <code>DEBUG = True<\/code> in[\s]+your[\s]+Django settings file/" },
@@ -16,4 +16,5 @@ class Plugindjango_plugin:
 			{ "search" : "headers[set-cookie]", "regexp" : "/csrftoken/i", "name" : "csrftoken cookie" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/django_/", "name" : "django_ cookie" },
 		]
+		return(self.rules)
 

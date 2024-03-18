@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginlightneasy_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/<meta name='generator' content='LightNEasy( Mini)? ([^'^>]+)' \/>/", "offset" : "1 },
 			{ "version" : "/<!-- \+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+\+[\s]+\| LightNEasy ([^\s]+) Content Management System[\s]+\| /" },
@@ -16,4 +16,5 @@ class Pluginlightneasy_plugin:
 			{ "version" : "/<h1>LightNEasy ([^<^\s]+) index page<\/h1><p>If you are seeing this", "that means <strong>LightNEasy<\/strong> installation worked!<\/p>/" },
 			{ "version" : "/<h2 class="LNE_title">LightNEasy ([^<^\s]+) index page<\/h2><p>If you are seeing this", "that means <strong>LightNEasy<\/strong> installation worked!<\/p>/" },
 		]
+		return(self.rules)
 

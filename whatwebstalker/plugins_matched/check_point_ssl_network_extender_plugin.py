@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincheck_point_ssl_network_extender_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^Check Point SVN foundation$/" },
 			{ "regexp" : "/<script src="cookies\.js"><\/script>[\s]+<script>document\.write\(conn_html\)<\/script>[\s]+<HEAD>/" },
@@ -13,4 +13,5 @@ class Plugincheck_point_ssl_network_extender_plugin:
 			{ "text" : "<meta name="description" content="Webui Login Page"/>  <!-- changes to this line must be reflected in sfwOverrides.js & lm_home.js -->", "string" : "Security Gateway" },
 			{ "version" : "/<form autocomplete="off" method="post" action="\/platform\.cgi\?" target="_top">[\s]+<input type="hidden" name="thispage" value="index\.htm">[\s]+<div class="version_div">([^<]+)<\/div>/", "string" : "Security Gateway" },
 		]
+		return(self.rules)
 

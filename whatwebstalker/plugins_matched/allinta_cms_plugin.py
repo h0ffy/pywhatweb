@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginallinta_cms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/	<link rel="stylesheet" href="css\/wizard\/t[0-9_]+.css" type="text\/css">/" },
 			{ "regexp" : "/	<link href="css\/wizard\/t[0-9_]+.css" rel="stylesheet" type="text\/css">/" },
@@ -14,4 +14,5 @@ class Pluginallinta_cms_plugin:
 			{ "text" : "<title>allinta.com- aCMS Content Manager</title>" },
 			{ "version" : "/<!-- allintaCMS V([\d\.]+) - http:\/\/www.allinta.com\/ -->/" },
 		]
+		return(self.rules)
 

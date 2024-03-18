@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginricoh_photocopier_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:url(/images/settingDivision.gif) repeat-x bottom;">" },
 			{ "text" : "<meta http-equiv="refresh" content="1; URL=/web/guest/en/websys/webArch/message.cgi?messageID=MSG_JAVASCRIPTOFF&buttonURL=/../../../">" },
@@ -15,4 +15,5 @@ class Pluginricoh_photocopier_plugin:
 			{ "url" : "/web/guest/en/websys/status/configuration.cgi", "model" : "/<td nowrap align=">Model Name<\/td>[\s]+<td nowrap>:<\/td>[\s]+<td nowrap>([^<]+)<\/td>/" },
 			{ "url" : "/web/guest/en/websys/status/configuration.cgi", "string" : /<td nowrap align="left">Total Memory<\/td>[\s]+<td nowrap>:<\/td>[\s]+<td nowrap>([^\s^<]+)<\/td>/" },
 		]
+		return(self.rules)
 

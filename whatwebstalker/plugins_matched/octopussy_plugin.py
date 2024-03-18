@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginoctopussy_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<input type="submit" name="submit" value="Connect to Octopussy"></td>" },
 			{ "version" : "/<td class="box" align="center" >Octopussy ([^\s^<]+)<\/td>/" },
@@ -12,4 +12,5 @@ class Pluginoctopussy_plugin:
 			{ "text" : "<title>Octopussy Login</title>" },
 			{ "text" : "<link rel="icon" type="image/gif" href="IMG/octopussy.gif">" },
 		]
+		return(self.rules)
 

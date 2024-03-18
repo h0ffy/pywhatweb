@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginzomplog_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "Powered by <a href="http://zomplog.zomp.nl" target="_blank">Zomplog</a>" },
 			{ "text" : "<title>Zomplog &rsaquo; Login</title>" },
@@ -12,4 +12,5 @@ class Pluginzomplog_plugin:
 			{ "text" : "<meta name="generator" content="Zomplog" />" },
 			{ "text" : "/* Navbar (Zomplog-specific) */" },
 		]
+		return(self.rules)
 

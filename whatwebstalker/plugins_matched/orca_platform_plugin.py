@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginorca_platform_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "    <meta name="author" content="ORCA Websites"/>" },
 			{ "text" : "    <meta name="generator" content="ORCA Platform - http://www.orcawebsites.com"/>" },
@@ -12,4 +12,5 @@ class Pluginorca_platform_plugin:
 			{ "text" : "                <p class="orca">Powered By <a href="http://www.orcawebsites.com/" title="ORCA Websites">ORCA Websites</a></p>" },
 			{ "text" : "    <!-- Macro Initialisation - Don\'t Touch! -->" },
 		]
+		return(self.rules)
 

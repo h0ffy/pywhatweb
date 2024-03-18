@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginx10media_mp3_search_engine_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "	<meta name="copyright" content="X10Media"/>", "certainty" : "75 },
 			{ "text" : "	<meta name="contributor" content="X10Media"/>", "certainty" : "75 },
@@ -17,4 +17,5 @@ class Pluginx10media_mp3_search_engine_plugin:
 			{ "version" : "/<meta name="owner" content="x10media`s Mp3 Search Engine V\.([\d\.]+)"\/>/" },
 			{ "version" : "/<title>x10media`s Mp3 Search Engine V\.([\d\.]+)[\ Installer]*<\/title>/" },
 		]
+		return(self.rules)
 

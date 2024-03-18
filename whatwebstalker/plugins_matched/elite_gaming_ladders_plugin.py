@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginelite_gaming_ladders_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "ghdb" : "inurl:"ladders.php?platform=" "Powered by Elite Gaming Ladders"" },
 			{ "md5" : "ac60e7f75ff832cc7e0bab5eee67e008" },
@@ -17,4 +17,5 @@ class Pluginelite_gaming_ladders_plugin:
 			{ "version" : "/Powered by: <a href='http:\/\/(www\.)?eliteladders\.com'>Elite Gaming Ladders (\s|&nbsp;)?v([^<]+)<\/a>/", "offset" : "2 },
 			{ "version" : "/Powered [bB]y:? <a href='http:\/\/(www\.)?eliteladders\.com'>[\s]+<span style=["']color:#[^;]{6};["']>Elite Gaming Ladders v([^<]+)<\/span><\/a>/", "offset" : "1 },
 		]
+		return(self.rules)
 

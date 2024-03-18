@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugingroup_office_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "search" : "headers[set-cookie]", "regexp" : "/groupoffice=[^;]+;/" },
 			{ "version" : "/GO\.settings=\{[^\}]+"theme":"[^"]+","product_name":"Group-Office","product_version":"([^"^\s]+)","host":"/" },
@@ -16,4 +16,5 @@ class Plugingroup_office_plugin:
 			{ "text" : "alert('The Group-Office javascripts were not loaded. Check the host property in config.php and see if the file_storage_path folder and it\\'s contents are writable');" },
 			{ "text" : "alert('Could not load the application javascripts. Check the \"host\" property in config.php and see if the \"file_storage_path\" folder and it\\'s contents are writable');" },
 		]
+		return(self.rules)
 

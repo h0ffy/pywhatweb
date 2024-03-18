@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugindotclear_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<p>Powered by <a href="http://dotclear.org/">Dotclear</a></p>" },
 			{ "text" : "<!-- End #d-content -->" },
@@ -12,4 +12,5 @@ class Plugindotclear_plugin:
 			{ "text" : "<a href="#search">To search</a>" },
 			{ "text" : "<p class="post-info-co">" },
 		]
+		return(self.rules)
 

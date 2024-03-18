@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginibm_bladecenter_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "/shared/ibmbch.png", "md5" : "c24b87d43f33783193e98ac25fd016ee" },
 			{ "url" : "/shared/ibmbcs.png", "md5" : "f4f76aeba5ba885fac1d4e5bbe535f0f" },
@@ -14,4 +14,5 @@ class Pluginibm_bladecenter_plugin:
 			{ "text" : "<form method="post" name="login" action="/shared/userlogin.php"><input type="hidden" name="SESSID"" },
 			{ "text" : "<img src="/shared/banner_left.jpg" width=110 height=53 alt="banner" />" },
 		]
+		return(self.rules)
 

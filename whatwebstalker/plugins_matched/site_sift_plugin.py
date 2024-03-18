@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginsite_sift_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "25", "ghdb" : "inurl: "index.php?go=detail id="" },
 			{ "certainty" : "25", "ghdb" : "inurl: "index php go addpage"" },
@@ -13,4 +13,5 @@ class Pluginsite_sift_plugin:
 			{ "text" : "				<!-- end of header.php -->" },
 			{ "text" : "				<!-- begin of footer.php -->" },
 		]
+		return(self.rules)
 

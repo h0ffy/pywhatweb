@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginarris_touchstone_router_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "25", "search" : "headers[server]", "regexp" : "/^NET-DK\/[\d\.]+$/" },
 			{ "url" : "/logo_t.gif", "md5" : "634c757842b122c6cd4458051ab0ed12" },
@@ -16,4 +16,5 @@ class Pluginarris_touchstone_router_plugin:
 			{ "url" : "/cgi-bin/vers_cgi", "model" : "/HW_REV: [^<]+<br>[\s]+VENDOR: Arris Interactive", "L\.L\.C\.<br>[\s]+BOOTR: [^<]+<br>[\s]+SW_REV: ([^\s^<]+)<br>[\s]+MODEL: ([^\s^<]+)<\/td>/", "offset" : "1 },
 			{ "url" : "/vers.htm", "model" : "/<BR> SW_REV: ([^\s^<]+)<BR> MODEL: ([^\s^<]+)  <\/TD><\/TR><tr vAlign=top><td width="170">Product Type:<\/td>/", "offset" : "1 },
 		]
+		return(self.rules)
 

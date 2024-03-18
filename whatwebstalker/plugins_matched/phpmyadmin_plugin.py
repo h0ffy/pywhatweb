@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginphpmyadmin_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "ghdb" : "intitle:phpMyAdmin "Language: Afrikaans" "Welcome to phpMyAdmin"" },
 			{ "version" : "/<title>phpMyAdmin ([^\s^<]+)[^<]*<\/title>/" },
@@ -14,4 +14,5 @@ class Pluginphpmyadmin_plugin:
 			{ "md5" : "d037ef2f629a22ddadcf438e6be7a325", "url" : "favicon.ico" },
 			{ "regexp" : "/<form method="post" action="index\.php" target="_(top|parent)"><input type="hidden" name="phpMyAdmin" value="/" },
 		]
+		return(self.rules)
 

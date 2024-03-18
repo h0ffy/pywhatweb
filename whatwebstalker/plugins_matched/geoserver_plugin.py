@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugingeoserver_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<link rel="shortcut icon" href="resources/org.geoserver.web.GeoServerBasePage/favicon.ico"/>" },
 			{ "text" : "<link href="resources/org.geoserver.web.GeoServerBasePage/favicon.ico" rel="shortcut icon"/>" },
@@ -12,4 +12,5 @@ class Plugingeoserver_plugin:
 			{ "version" : "/<p>[\s]+<span>This GeoServer instance is running version <strong>([^<^\s]+)<\/strong>\. For more information please contact the <a href="[^"^>]*">administrator<\/a>\.<\/span>[\s]+<\/p>[\s]+<\/div>/" },
 			{ "string" : /<div id="welcome">[\s]+<p>[\s]+This GeoServer belongs to <a><span>([^<]+)<\/span><\/a>\.[\s]+<\/p>/" },
 		]
+		return(self.rules)
 

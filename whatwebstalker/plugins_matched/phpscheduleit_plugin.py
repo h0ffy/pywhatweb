@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginphpscheduleit_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<div align="left"><img src="img/phpScheduleIt.png" alt="logo" vspace="5"/></div>" },
 			{ "text" : "<p align="center">Powered by <a href="http://phpscheduleit.sourceforge.net">phpScheduleIt</a></p>" },
@@ -15,4 +15,5 @@ class Pluginphpscheduleit_plugin:
 			{ "version" : "/<p align="center">Powered by <a href="http:\/\/phpscheduleit.sourceforge.net">phpScheduleIt v([\d\.]+)<\/a><\/p>/" },
 			{ "version" : "/[P|p]?owered by <a href="http:\/\/phpscheduleit.sourceforge.net"[^>]*>phpScheduleIt v([\d\.]+)<\/a>/" },
 		]
+		return(self.rules)
 

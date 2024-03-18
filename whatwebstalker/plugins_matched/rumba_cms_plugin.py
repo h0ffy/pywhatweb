@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginrumba_cms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : " <center><small><a href=http://rumba.net.ru>Powered by Rumba CMS</a></small></center></body>" },
 			{ "text" : " <center><small><a href=http://rumbacms.com>Powered by Rumba CMS</a></small></center></body>" },
@@ -15,4 +15,5 @@ class Pluginrumba_cms_plugin:
 			{ "text" : " <meta name="generator" content="Rumba Wiki http://rumba.net.ru/" />" },
 			{ "text" : "<meta name="Generator" content="http://rumba.net.ru" />" },
 		]
+		return(self.rules)
 

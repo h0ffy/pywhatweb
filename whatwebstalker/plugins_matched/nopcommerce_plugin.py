@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginnopcommerce_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "ghdb" : "powered by nopCommerce" "You have no items in your shopping cart."" },
 			{ "text" : "<!--Powered by nopCommerce - http://www.nopCommerce.com-->" },
@@ -14,4 +14,5 @@ class Pluginnopcommerce_plugin:
 			{ "text" : "<input id="LoginForm_RememberMe" type="checkbox" name="LoginForm$RememberMe" checked="checked" /><label for="LoginForm_RememberMe">Remember me</label>" },
 			{ "text" : "var LoginForm_UserNameOrEmailRequired = document.all ? document.all["LoginForm_UserNameOrEmailRequired"] : document.getElementById("LoginForm_UserNameOrEmailRequired");" },
 		]
+		return(self.rules)
 

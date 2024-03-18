@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginnukedit_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/Powered by Nukedit - <a href="(http:\/\/www.|http:\/\/)nukedit.com" target=_blank title="[^"]*"><span class=footer><u>(Web Content Management|Open Source CMS)<\/u><\/a><br>/" },
 			{ "text" : "<a href="http://www.nukedit.com" target=_blank title="Fast web portal", "friendly with search engines">Powered by Nukedit</a>" },
@@ -13,4 +13,5 @@ class Pluginnukedit_plugin:
 			{ "version" : "/				Powered by <a href="http:\/\/www.nukedit.com" target="_blank" title="Fast web portal", "friendly with search engines">Nukedit<\/a> ([\d\.]+) /" },
 			{ "version" : "/					<span class=footer><center>Powered by Nukedit ([\d\.]+)<\/a> -/" },
 		]
+		return(self.rules)
 

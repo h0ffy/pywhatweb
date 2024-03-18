@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginimageview_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<td (width="160"|rowspan="2")><iframe allowtransparency="yes" frameborder="0" height="100%" width="100%" scrolling="auto" title="(frmcontent|frmlist)" name="(frmcontent|frmlist)" src="albumlist.php\?album=[^"]*"><\/iframe><\/td>/" },
 			{ "certainty" : "25", "text" : "<meta name="author" content="Jorge Schrauwen" />" },
@@ -15,4 +15,5 @@ class Pluginimageview_plugin:
 			{ "version" : "/<title>Imageview ([\d]{1}) :: Help:: (Administration|Installation|Miscellaneous|User|Welcome|Menu)<\/title>/" },
 			{ "version" : "/<title>Imageview ([\d]{1}) :: (By Jorge Schrauwen|User Settings|Upload Image|Album View|Administration|RSS Feeds|Install)<\/title>/" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugin3com_nbx_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<head><title>NBX NetSet</title>" },
 			{ "text" : "<HEAD><TITLE>NBX NetSet</TITLE>" },
@@ -16,4 +16,5 @@ class Plugin3com_nbx_plugin:
 			{ "firmware" : "/<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0"><TR><TD ALIGN="right" WIDTH="130" HEIGHT="75">[\s]+Version:(&nbsp;)?([^<]+)<BR>/", "offset" : "1 },
 			{ "model" : "/<span class="splashTitleNBX">NBX<SUP><span class="splashTitleNBXReg">&reg;<\/span><\/SUP><\/span>[\s]+<span class="splashTitlePlatform">(&nbsp;)?([^<]+)<\/span>/", "offset" : "1 },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugind_link_router_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "model" : "'dgl4100", "md5" : "3cec8fd08dee34f6803db347348e7484", "url" : "/html/images/dgl4100.jpg" },
 			{ "model" : "'dgl4300", "md5" : "20bc166cc050956d9ca3ea21e458c35c", "url" : "/html/images/dgl4300.jpg" },
@@ -38,4 +38,5 @@ class Plugind_link_router_plugin:
 			{ "model" : "'wna2330", "md5" : "5a2f0ea3bc82f460a4c8e249a2345764", "url" : "/html/images/wna2330.jpg" },
 			{ "model" : "'wua1340", "md5" : "b7df1e959e822cd50eb23547f7fcb817", "url" : "/html/images/wua1340.jpg" },
 		]
+		return(self.rules)
 

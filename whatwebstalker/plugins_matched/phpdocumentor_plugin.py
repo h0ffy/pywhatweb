@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginphpdocumentor_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "text" : "<title>docBuilder - phpDocumentor web interface</title>" },
 			{ "text" : "<meta name="Description" content="Frameset for phpDcoumentor docBuilder web interface">" },
@@ -13,4 +13,5 @@ class Pluginphpdocumentor_plugin:
 			{ "version" : "/	<title>\n		Form to submit to phpDocumentor v([^\s]+)	<\/title>/" },
 			{ "version" : "/<span class="title"><strong>docBuilder<\/strong> :: phpDocumentor v([^\s]+) Web Interface<\/span>/" },
 		]
+		return(self.rules)
 

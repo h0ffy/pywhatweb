@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginsophos_email_appliance_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^Sophos Email Appliance$/" },
 			{ "search" : "headers", "string" : /[Ss]erver: Sophos Email Appliance\r?\n.+Location: https?:\/\/([^\/]+)/m },
@@ -12,4 +12,5 @@ class Pluginsophos_email_appliance_plugin:
 			{ "text" : "<title>Sophos Email Appliance</title>", "certainty" : "75 },
 			{ "text" : "<!-- end main content -->", "certainty" : "25 },
 		]
+		return(self.rules)
 

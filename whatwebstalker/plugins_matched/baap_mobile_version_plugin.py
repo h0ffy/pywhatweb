@@ -2,10 +2,11 @@ import sys
 import os
 			
 class Pluginbaap_mobile_version_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "search" : "headers[x-mobilized-by]", "version" : "/^BAAP Mobile Version ([^\s]+)$/" },
 		]
+		return(self.rules)
 

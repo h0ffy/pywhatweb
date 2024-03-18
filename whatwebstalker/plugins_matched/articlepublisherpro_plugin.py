@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginarticlepublisherpro_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<script>location.replace("./admin.php?showlogin");</script>" },
 			{ "text" : "<title>Article Publisher PRO Administrator Control Panel</title>" },
@@ -13,4 +13,5 @@ class Pluginarticlepublisherpro_plugin:
 			{ "text" : "<br><br><center><b>Please use a proper method to browse article(s) - The method you are using is not allowed...</b></center>" },
 			{ "version" : "/<div class="powered">Powered by <a href="http:\/\/www.ArticlePublisherPRO.com" target="_blank">Article Publisher PRO<\/a>  v([\d\.]+)/" },
 		]
+		return(self.rules)
 

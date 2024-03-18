@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmoxa_nport_device_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "md5" : "27829d70bb23c465d86b9c643cf534d3", "url" : "/logo.gif" },
 			{ "md5" : "2f9af91da3dc3f192e26ac8f42db41bd", "url" : "/logo.gif" },
@@ -13,4 +13,5 @@ class Pluginmoxa_nport_device_plugin:
 			{ "text" : "<HTML><HEAD> <LINK href=nport2g.css rel=stylesheet type=text/css><TITLE>Overview</TITLE></HEAD>" },
 			{ "text" : "</script><BODY onload=window_onload()> <TABLE width=100% border=0 align=center><TR><TD><H2>Welcome to <span id=devlab1></span>'s web console !</H2></TD></TR>" },
 		]
+		return(self.rules)
 

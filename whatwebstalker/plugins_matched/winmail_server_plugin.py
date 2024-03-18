@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginwinmail_server_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>WebMail | Powered by Winmail Server - Login</title>" },
 			{ "text" : "<title>Web Administration | Powered by Winmail Server - Login</title>" },
@@ -16,4 +16,5 @@ class Pluginwinmail_server_plugin:
 			{ "text" : "<input type=checkbox name=f_autologin value="1"><acronym style="cursor: hand;" OnClick="f_autologin.click()">Automatically login at next time</acronym>" },
 			{ "version" : "/<!--[\s]+&copy 20[\d]{2}(-[\d]{4})? AMAX Information Technologies Inc\. All Rights Reserved\.[\s]+WebMail \| Powered by Winmail Server ([^\s]+)[\s]+-->/", "offset" : "1 },
 		]
+		return(self.rules)
 

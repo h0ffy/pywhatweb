@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginzyxel_router_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>.:: Welcome to the Web-Based Configurator::.</title><meta http-equiv='content-type' content='text/html;charset=iso-8859-1'>" },
 			{ "text" : "<form method="post" action="/Forms/rpAuth_1" onSubmit="LoginClick(document.forms[0].hiddenPassword", "document.forms[0].LoginPassword);"><p>&nbsp;</p>" },
@@ -20,4 +20,5 @@ class Pluginzyxel_router_plugin:
 			{ "name" : "HTTP Server Header", "version" : "/^ZyXEL-RomPager\/([^\s]+)$/", "search" : "headers[server]" },
 			{ "name" : "HTTP Server Header", "regexp" : "/^RomPager/", "search" : "headers[server]" },
 		]
+		return(self.rules)
 

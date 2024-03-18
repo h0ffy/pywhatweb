@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugintiger_ip_connect_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "search" : "headers[location]", "regexp" : "/^network\/index\.php$/" },
 			{ "version" : "/<title>Tiger IP Connect ([^\s]+) -  Login<\/title>/" },
@@ -13,4 +13,5 @@ class Plugintiger_ip_connect_plugin:
 			{ "text" : "<link rel="stylesheet" href="/include/tms.css">", "string" : "TigerTMS" },
 			{ "text" : "<link rel="stylesheet" href="/include/firedigit.css">", "string" : "Firedigit" },
 		]
+		return(self.rules)
 

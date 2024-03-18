@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugininvision_power_board_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "(Powered by Invision Power Board)</title>" },
 			{ "text" : "index.php?app=core&amp;module=global&amp;section=rss&amp;type=forums&amp;id=" },
@@ -19,4 +19,5 @@ class Plugininvision_power_board_plugin:
 			{ "version" : "/Invision Power Board<\/a>[\s]+v([0-9\.]+) &copy;/", "name" : "powered by 3" },
 			{ "version" : "/Invision Power Board<\/a>([^&]+)&copy; 20[0-9]+ &nbsp;<a href='http:\/\/www\.invisionpower\.com'/", "name" : "powered by 4" },
 		]
+		return(self.rules)
 

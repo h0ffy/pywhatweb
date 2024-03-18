@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginvmware_zimbra_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<meta name="description" content="Zimbra provides open source server and client software for messaging and collaboration. To find out more visit http://www.zimbra.com.">" },
 			{ "text" : "<!--div id="ZLoginAppName">Web Client</div-->" },
@@ -14,4 +14,5 @@ class Pluginvmware_zimbra_plugin:
 			{ "text" : "<div id="ZLoginWhatsThis" class="ZLoginInfoMessage" style="display:none;"><center style="margin-bottom:3px;"><b>Client Types:</b></center>" },
 			{ "text" : "<div id="ZLoginNotice" class="legalNotice-small"><a target="_new" href="http://www.zimbra.com">Zimbra</a> :: the leader in open source messaging and collaboration ::" },
 		]
+		return(self.rules)
 

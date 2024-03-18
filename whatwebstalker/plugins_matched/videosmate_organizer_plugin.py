@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginvideosmate_organizer_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "</div> <!-- /content-in -->" },
 			{ "text" : "<!-- script Downloaded from http://videosmate.com -->" },
@@ -13,4 +13,5 @@ class Pluginvideosmate_organizer_plugin:
 			{ "version" : "/<a href=http:\/\/videosmate\.com><font color=#ffffff>Powered&nbsp;by&nbsp;Videosmate&nbsp;Organizer&nbsp;Version&nbsp;([^\s^&]+)&nbsp;Copyright&nbsp;&copy;&nbsp;(20[\d]{2})<\/a>/" },
 			{ "string" : /<a href=http:\/\/videosmate\.com><font color=#ffffff>Powered&nbsp;by&nbsp;Videosmate&nbsp;Organizer&nbsp;Version&nbsp;([^\s^&]+)&nbsp;Copyright&nbsp;&copy;&nbsp;(20[\d]{2})<\/a>/", "offset" : "1 },
 		]
+		return(self.rules)
 

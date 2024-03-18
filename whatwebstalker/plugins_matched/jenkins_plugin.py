@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginjenkins_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<script>var isRunAsTest=false; var rootURL="[^"]*";<\/script>/" },
 			{ "version" : "/<\/span><a href="http:\/\/jenkins\-ci\.org\/">Jenkins ver\. ([^<]+)<\/a>/" },
@@ -16,4 +16,5 @@ class Pluginjenkins_plugin:
 			{ "search" : "headers[x-jenkins-cli-port]", "regexp" : "/^.*$/" },
 			{ "search" : "headers[x-ssh-endpoint]", "regexp" : "/^.*$/" },
 		]
+		return(self.rules)
 

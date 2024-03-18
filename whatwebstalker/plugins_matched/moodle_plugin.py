@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmoodle_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<a title="Moodle[^"]+" href="http:\/\/moodle\.org\/">/" },
 			{ "version" : "/<a title="Moodle ([\d\.]+[^"]+)" href="http:\/\/moodle\.org\/">/" },
@@ -12,4 +12,5 @@ class Pluginmoodle_plugin:
 			{ "name" : "MoodleSession Cookie", "search" : "headers[set-cookie]", "regexp" : "/MoodleSession=/" },
 			{ "name" : "MOODLEID_ Cookie", "search" : "headers[set-cookie]", "regexp" : "/MOODLEID_[^\s^=]*=/" },
 		]
+		return(self.rules)
 

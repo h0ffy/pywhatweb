@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginionize_cms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/<div id="version">([\d\.]+) - Ionize CMS - MIT licence<\/div>/" },
 			{ "text" : "<div id="loginWindow" class=" clearfix">" },
@@ -14,4 +14,5 @@ class Pluginionize_cms_plugin:
 			{ "text" : "<meta name="description" content="HandMade", "an Ionize theme" />" },
 			{ "regexp" : "/<!--[\s]+Displays the Google code defined in Ionize's Advanced settings panel[\s]+-->/" },
 		]
+		return(self.rules)
 

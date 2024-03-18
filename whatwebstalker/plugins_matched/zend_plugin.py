@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginzend_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "name" : "GHDB: "Powered by Zend Framework"',"certainty" : "75,"ghdb" : "Powered by Zend Framework"'},
 			{ "string" : "PoweredBy Image',"url" : "images/PoweredBy_ZF.gif',"md5" : "eecf384879cde19f8f7f80c768c12295'},
@@ -24,4 +24,5 @@ class Pluginzend_plugin:
 			{ "regexp" : "/^Zend /", "search" : "headers[server]" },
 			{ "version" : "/Zend Core\/([a-zA-Z0-9\.\/\+\-\(\)]+)/", "string" : "Core", "search" : "headers[server]" },
 		]
+		return(self.rules)
 

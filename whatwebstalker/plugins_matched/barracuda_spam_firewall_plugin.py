@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginbarracuda_spam_firewall_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>Barracuda Spam & Virus Firewall: Welcome</title>", "module" : "Virus Firewall" },
 			{ "text" : "<title>Barracuda Spam Firewall: Welcome</title><link rel="stylesheet" type="text/css" href="/barracuda.css">" },
@@ -14,4 +14,5 @@ class Pluginbarracuda_spam_firewall_plugin:
 			{ "version" : "/<script language=javascript src="\/js_functions.([\d\.]+).js" type="text\/javascript"><\/script>/" },
 			{ "firmware" : "/<td align=left class=config_module valign=top><font size=-2 color=#aaaaaa>Serial #[A-Z]+-[A-Z]+-[\d]+<br>Firmware v([\d\.]+) <font color=#ffffff>/" },
 		]
+		return(self.rules)
 

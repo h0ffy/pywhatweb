@@ -2,11 +2,12 @@ import sys
 import os
 			
 class Pluginwebmatic_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "Powered&nbsp;by&nbsp;<a href="http://www.webmatic.it">Webmatic</a>" },
 			{ "version" : "/ href="http:\/\/www.valarsoft.com"[^>]+>Powered by: Webmatic ([^<]+)<\/a>/i },
 		]
+		return(self.rules)
 

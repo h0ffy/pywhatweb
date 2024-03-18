@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginlotuscms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "Powered by: <a href="http://www.lotuscms.org">LotusCMS</a>" },
 			{ "text" : "Powered by <a href="http://www.arboroia.com/cmsproject/">ArboroianCMS</a>" },
@@ -15,4 +15,5 @@ class Pluginlotuscms_plugin:
 			{ "text" : "<!-- Please don't delete this. You can use this template for free and this is the only way that you can say thanks to me -->" },
 			{ "certainty" : "25", "text" : "<meta name="keywords" content="LotusCMS" />" },
 		]
+		return(self.rules)
 

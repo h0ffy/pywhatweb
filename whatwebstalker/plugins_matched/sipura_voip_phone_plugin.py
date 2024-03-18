@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginsipura_voip_phone_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<form action="bsipura.spa" method="POST">" },
 			{ "text" : "<img width="100%" src="/spabanner.jpg" border="0" alt="Sipura Technology Inc">" },
@@ -15,4 +15,5 @@ class Pluginsipura_voip_phone_plugin:
 			{ "module" : /<\/font><a href="\/calllog\.htm" target=_calllog_[\d]+><font class=swalft>(Call History)<\/font><\/a><\/p><\/div>/" },
 			{ "url" : "/pdir.htm", "string" : /<td>[\d]+\.<td>&nbsp;<input class="inputc" size="40" name="[\d]+" value="(n=[^;]*;p=[\d]+)" maxlength=[\d]+>/" },
 		]
+		return(self.rules)
 

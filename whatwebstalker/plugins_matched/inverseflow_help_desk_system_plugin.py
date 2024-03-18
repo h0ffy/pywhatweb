@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugininverseflow_help_desk_system_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "25", "text" : "<table width="100%" bgcolor="#FFAD4D" border="0"><tr><td><div class="infobar_01">" },
 			{ "version" : "/<table width="100%" bgcolor="#FFAD4D" border="0"><tr><td><div class="infobar_01">InverseFlow Help Desk ([^<]+)<\/td><\/tr><\/table>/" },
@@ -13,4 +13,5 @@ class Plugininverseflow_help_desk_system_plugin:
 			{ "certainty" : "25", "text" : "<form action="ticketview.php" method="get">" },
 			{ "regexp" : "/<form action="ticket\.php" method="get">[\s]+<input type="hidden" name="cmd" value="lost" \/>/" },
 		]
+		return(self.rules)
 

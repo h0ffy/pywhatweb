@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginvbulletin_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "ghdb" : "Powered by vBulletin" inurl:newreply.php'},
 			{ "certainty" : "75", "regexp" : "/\* vBulletin [0-9a-z.]+ CSS},
@@ -23,4 +23,5 @@ class Pluginvbulletin_plugin:
 			{ "search" : "headers[set-cookie]", "regexp" : "/bblastvisit/", "name" : "bblastvisit cookie" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/bbsessionhash/", "name" : "bbsessionhash cookie" },
 		]
+		return(self.rules)
 

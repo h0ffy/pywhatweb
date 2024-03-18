@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginsaman_portal_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<meta name="Generator" content="Saman Information Structure" />" },
 			{ "version" : "/<script  type="text\/javascript" language="JavaScript" src="\/portlets\/sisRapid\/dream\/libs\/(V[\d\.]+)\/core\/sisValidationAPI\.js">/" },
@@ -12,4 +12,5 @@ class Pluginsaman_portal_plugin:
 			{ "search" : "headers[server]", "regexp" : "/sisRapid Framework/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/SAMANPORTALSID=[^;]+;/" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginkajona_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<meta name="generator" content="Kajona.", "www\.kajona\.de" \/>/" },
 			{ "regexp" : "/<!--\s+Website powered by Kajona. Open Source Content Management Framework/" },
@@ -13,4 +13,5 @@ class Pluginkajona_plugin:
 			{ "text" : "<div id="footerContainer">powered by <a href="http://www.kajona.de" target="_blank" title="Kajona" },
 			{ "string" : /<div class="copyright">&copy; (20[\d]{2}) <a href="http:\/\/www\.kajona\.de" target="_blank" title="Kajona/" },
 		]
+		return(self.rules)
 

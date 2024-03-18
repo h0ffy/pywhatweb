@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginwebeye_network_camera_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>WebEye User Login</title>" },
 			{ "text" : "<title>WebEye Java Applet Page</title>" },
@@ -14,4 +14,5 @@ class Pluginwebeye_network_camera_plugin:
 			{ "text" : "<p>Click <a href="./login.ml?FORM_METHOD=get">here</a> if you have a problem to login ..." },
 			{ "text" : "			  <applet archive="/wg_jwebeye.jar" code=WebEyeApplet.class codebase=. width=720 height=773> \\" },
 		]
+		return(self.rules)
 

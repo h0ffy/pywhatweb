@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginsnap_appliance_server_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "string" : /<TITLE>Snap Server ([^\s]+) \[[^\]]+\]<\/TITLE>/" },
 			{ "string" : /<HTML><HEAD><TITLE>About Snap Server ([^\s]+)<\/TITLE><\/HEAD>/" },
@@ -16,4 +16,5 @@ class Pluginsnap_appliance_server_plugin:
 			{ "version" : "/^Snap Appliances?", "Inc\.\/([\d\.]+)$/", "search" : "headers[server]" },
 			{ "version" : "/^Quantum Corporation\.\/([\d\.]+)$/", "search" : "headers[server]" },
 		]
+		return(self.rules)
 

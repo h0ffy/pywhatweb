@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugindiy_cms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "Powered by: <a href="http://www.diy-cms.com" target="_blank">DIY-CMS</a>" },
 			{ "text" : "<a href="http://www.pghost.eu/14/18/diy_cms-25.html">Powered by DIY-CMS</a>" },
@@ -14,4 +14,5 @@ class Plugindiy_cms_plugin:
 			{ "version" : "/<META content="Powered by DiY-CMS ([\d\.]+) [0-9]{4} " name="description">/" },
 			{ "version" : "/Powered by <a href="http:\/\/www.pghost.eu[^>]+>DIY-CMS v ([\d\.]+)<\/a>/" },
 		]
+		return(self.rules)
 

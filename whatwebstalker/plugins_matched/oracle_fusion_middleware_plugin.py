@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginoracle_fusion_middleware_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>Welcome to Oracle Fusion Middleware</title>" },
 			{ "text" : "<link href="css/fmw_bottom_area.css" rel="stylesheet" type="text/css">" },
@@ -12,4 +12,5 @@ class Pluginoracle_fusion_middleware_plugin:
 			{ "search" : "headers[server]", "regexp" : "/^Oracle-Fusion-Middleware/" },
 			{ "search" : "headers[server]", "version" : "/^Oracle-Fusion-Middleware\/([^\s]+ \([^\)]+\))/" },
 		]
+		return(self.rules)
 

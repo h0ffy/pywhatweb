@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginclipbucket_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "string" : /<meta name="copyright" content="ClipBucket - PHPBucket ClipBucket 2007 - (20[\d]{2})" \/>/" },
 			{ "text" : "<meta name="author" content="Arslan Hassan - http://clip-bucket.com/arslan-hassan" />" },
@@ -17,4 +17,5 @@ class Pluginclipbucket_plugin:
 			{ "text" : "Forged by <a href="http://clip-bucket.com/">ClipBucket</a>" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/pageredir=https?%3A%2F%2F/", "certainty" : "25 },
 		]
+		return(self.rules)
 

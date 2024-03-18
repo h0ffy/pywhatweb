@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginhesk_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<script language="Javascript" type="text\/javascript" src="(\.\.\/|\.\/)?hesk_javascript\.js"><\/script>/" },
 			{ "regexp" : "/<link href="(\.\/)?hesk_style\.css" type="text\/css" rel="stylesheet"/" },
@@ -17,4 +17,5 @@ class Pluginhesk_plugin:
 			{ "text" : "Powered by <a href="http://www.phpjunkyard.com/free-helpdesk-software.php" class="smaller" target="_blank">Help desk software</a> HESK<sup>TM</sup></span>", "version" : "<1.0" },
 			{ "version" : "/<p align="center"><font class="smaller">Powered by <a href="[^>^"]{0,256}" class="smaller" target="_blank">Help desk software Hesk<\/a> ([^\s^<]+)<\/font>/" },
 		]
+		return(self.rules)
 

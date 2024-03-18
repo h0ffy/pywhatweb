@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginwsn_forum_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>WSN Forum Admin Login</title>" },
 			{ "text" : "<title>WSN Forum Administration Panel</title>" },
@@ -14,4 +14,5 @@ class Pluginwsn_forum_plugin:
 			{ "certainty" : "25", "regexp" : "/<div class="boxtitle" on[c|C]lick="minmax\('[a-z]+box'\)"><img src=/" },
 			{ "text" : "<textarea readonly rows="20" cols="75">WSN Forum License Agreement" },
 		]
+		return(self.rules)
 

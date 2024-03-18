@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginnovell_open_enterprise_server_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<!-- This is all just a super-duper redirect to the Welcome page" },
 			{ "text" : "<title>Home - Novell Open Enterprise Server 2</title>" },
@@ -12,4 +12,5 @@ class Pluginnovell_open_enterprise_server_plugin:
 			{ "text" : "<script type="text/javascript" src="/welcome/inc/flashobj.js"></script> <!-- required for javascript banners from Novell.com -->" },
 			{ "version" : "/<h1>Novell Open Enterprise Server ([^<]+)<\/h1>\s+<p class="link"><a href="http:\/\/www\.novell\.com\/products\/openenterpriseserver\/">/" },
 		]
+		return(self.rules)
 

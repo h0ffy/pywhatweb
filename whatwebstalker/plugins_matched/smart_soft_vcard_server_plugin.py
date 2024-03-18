@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginsmart_soft_vcard_server_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>Error</title></head><body><h1>403 - Directory browsing not allowed</h1><hr>SMART-SOFT VCard HTTP/SSL server" },
 			{ "version" : "/<title>Error<\/title><\/head><body><h1>403 - Directory browsing not allowed<\/h1><hr>SMART-SOFT VCard HTTP\/SSL server \(([^\)]+)\)<br>/" },
@@ -13,4 +13,5 @@ class Pluginsmart_soft_vcard_server_plugin:
 			{ "version" : "/^SMART-SOFT VCard HTTP\/SSL server \(([^\)]+)\)$/", "search" : "headers[server]" },
 			{ "name" : "Exception header", "regexp" : "/^Directory%20browsing%20not%20allowed$/", "search" : "headers[exception]" },
 		]
+		return(self.rules)
 

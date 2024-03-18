@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginserendipity_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/<meta name="Powered-By" content="Serendipity v.([^"]+)" \/>/i },
 			{ "version" : "/My weblog is proudly powered by <a href="http:\/\/www.s9y.org">Serendipity ([^<]+)<\/a>.<br \/>/" },
@@ -15,4 +15,5 @@ class Pluginserendipity_plugin:
 			{ "text" : "serendipity_entryFooter" },
 			{ "text" : "<div id="serendipityLeftSideBar">" },
 		]
+		return(self.rules)
 

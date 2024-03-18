@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginhorde_application_framework_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "title="This site is powered by The Horde Application Framework." href="http://horde.org">" },
 			{ "text" : "Powered by </font><a href="http://www.horde.org/" TARGET=_blank>" },
@@ -21,4 +21,5 @@ class Pluginhorde_application_framework_plugin:
 			{ "text" : "<link href="/mail/mailbox.php?mailbox=INBOX" rel="Top" />" },
 			{ "version" : "/<!-- \$Horde: horde\/config\/conf.xml,v ([\d\.]+) /" },
 		]
+		return(self.rules)
 

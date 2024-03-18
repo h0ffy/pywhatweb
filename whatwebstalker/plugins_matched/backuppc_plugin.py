@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginbackuppc_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "ghdb" : "inurl:"/cgi-bin/BackupPC_Admin"" },
 			{ "text" : "<input type="hidden" name="action" value="hostInfo"><input type="submit" value="Go" name="ignore">" },
@@ -12,4 +12,5 @@ class Pluginbackuppc_plugin:
 			{ "search" : "headers[www-authenticate]", "regexp" : "/Basic realm="(Backup Admin|BackupPC admin|backuppc)"/" },
 			{ "url" : "/", "search" : "headers[location]", "regexp" : "/\/cgi-bin\/BackupPC_Admin$/" },
 		]
+		return(self.rules)
 

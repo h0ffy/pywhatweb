@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginfastcgi_echo_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "SCRIPT_NAME=/fcgi-bin/echo" },
 			{ "text" : "<title>FastCGI echo</title><h1>FastCGI echo</h1>" },
@@ -13,4 +13,5 @@ class Pluginfastcgi_echo_plugin:
 			{ "version" : "/SERVER_SOFTWARE=([^\n]+)/" },
 			{ "version" : "/SERVER_SIGNATURE=<ADDRESS>([^<]+)/" },
 		]
+		return(self.rules)
 

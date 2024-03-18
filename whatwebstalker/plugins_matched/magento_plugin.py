@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmagento_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "images/logo.gif" alt="Magento Commerce" /></a></h1>", "name" : "default logo alt-text'},
 			{ "version" : "%r{<a href="http://www.magentocommerce.com/bug-tracking" id="bug_tracking_link"><strong>Report All Bugs</strong></a> \((Magento Connect Manager |Downloader )?ver. ([0-9\.]+)\)}", "offset" : "1 },
@@ -21,4 +21,5 @@ class Pluginmagento_plugin:
 			{ "name" : "cookie called CUSTOMER", "search" : "headers[set-cookie]", "regexp" : "/^CUSTOMER/i", "certainty" : "25 },
 			{ "text" : "<script type="text/x-magento-init">" },
 		]
+		return(self.rules)
 

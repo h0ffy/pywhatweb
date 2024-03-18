@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginfatwire_content_server_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "search" : "headers[host_service]", "version" : "/^FutureTenseContentServer:([^\s]+)$/" },
 			{ "text" : "<!-- this tag to be replaced with autogen stuff -->" },
@@ -12,4 +12,5 @@ class Pluginfatwire_content_server_plugin:
 			{ "text" : "<b>Open Market", "Inc.<br>&nbsp;ContentServer</b><hr>" },
 			{ "certainty" : "75", "text" : "An error occurred during processing. Check the info log.<br" },
 		]
+		return(self.rules)
 

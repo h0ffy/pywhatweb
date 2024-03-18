@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginweb_control_panel_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/<TITLE>Web Control Panel Express v([^\s^<]+)<\/TITLE>/" },
 			{ "url" : "/images/wcpe.gif", "md5" : "941271289a317097d00bc72f93f8c79d", "version" : "3.0" },
@@ -13,4 +13,5 @@ class Pluginweb_control_panel_plugin:
 			{ "text" : "<td><img src="/images/wcpe.gif" width=600 height=57 border=0></td>" },
 			{ "text" : "<td valign="top"><a href="/cgi-bin/webmail?noframes=1"><img src="images/" },
 		]
+		return(self.rules)
 

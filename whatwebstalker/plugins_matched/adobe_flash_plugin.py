@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginadobe_flash_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<object[^>]+application\/x-shockwave-flash[^>]+>/i },
 			{ "regexp" : "/<embed[^>]+src[\s]*=[\s]*["']?[^\s^'^"^>]+/i },
@@ -13,4 +13,5 @@ class Pluginadobe_flash_plugin:
 			{ "regexp" : "/\.embedSWF[\s]*\([\s]*["']?[^'^"]+/" },
 			{ "name" : "File extension", "regexp" : "/^(fla|flv|swf|swt|swc)$/", "search" : "uri.extension" },
 		]
+		return(self.rules)
 

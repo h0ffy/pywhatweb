@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginsugarcrm_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<h3 style='color:red'>Possible Cross Site Request Forgery (XSRF) Attack Detected</h3>" },
 			{ "text" : "<span>|</span>    <a href=" javascript:void window.open(\'http://support.sugarcrm.com\')">Support</a>" },
@@ -13,4 +13,5 @@ class Pluginsugarcrm_plugin:
 			{ "text" : "<img style='margin-top: 2px' border='0' width='106' height='23' src='include/images/poweredby_sugarcrm.png' alt='Powered By SugarCRM'>" },
 			{ "string" : /\* SugarCRM is a customer relationship management program developed by[\s]+ \* SugarCRM", "Inc\. Copyright \(C\) 2004-([\d]{4}) SugarCRM Inc\./" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginaxis_network_camera_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<TITLE>AXIS Video Server</TITLE>" },
 			{ "text" : "<FRAME NAME="WhatEver" SRC="/incl/whatever.shtml" SCROLLING=NO MARGINGHEIGHT=0 MARGINWIDTH=0>" },
@@ -18,4 +18,5 @@ class Pluginaxis_network_camera_plugin:
 			{ "version" : "/<TITLE>Live View \/? - AXIS [\da-z]+ [^<]*version ([\d\.]+)<\/TITLE>/i", "module" : "Live View" },
 			{ "model" : "/<TITLE>Live View \/? - AXIS ([\da-z]+) [^<]*<\/TITLE>/i", "module" : "Live View" },
 		]
+		return(self.rules)
 

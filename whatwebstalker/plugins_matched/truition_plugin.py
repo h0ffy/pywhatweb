@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugintruition_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<A HREF="/cgi-bin/ncommerce3/ExecMacro/search.d2w/report?wl=151">Search</A>&nbsp;|&nbsp;" },
 			{ "text" : "<!--Logon Information-faq answers below-->" },
@@ -13,4 +13,5 @@ class Plugintruition_plugin:
 			{ "text" : "<li>DTWP001E: Net.Data is unable to locate the macro file" },
 			{ "text" : "location.href = "/cgi-bin/ncommerce3/ExecMacro/static/" },
 		]
+		return(self.rules)
 

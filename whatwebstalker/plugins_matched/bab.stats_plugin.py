@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginbab.stats_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<meta NAME="Author" CONTENT="Bab.Stats Team">" },
 			{ "certainty" : "25", "regexp" : "/<title>[^:]+ :: [^:]+ :: Powered by BAB.stats<\/title>/" },
@@ -15,4 +15,5 @@ class Pluginbab.stats_plugin:
 			{ "text" : "<!-- AUTHOR : Tomas Stucinskas a.k.a Baboon -->", "string" : "Chronos" },
 			{ "version" : "/Powered by Bab.stats ::[\r\n\s]*<a[^>]+href="(http:\/\/www.babstats.com\/|\/Neos_Chronos\/index.php\?action=about)">Neos.Chronos<\/a> ::[\s\r\n]*Version ([^\(]+) \(Standalone\)/", "offset" : "1", "string" : "Chronos" },
 		]
+		return(self.rules)
 

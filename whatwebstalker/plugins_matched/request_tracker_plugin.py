@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginrequest_tracker_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "/NoAuth/images/favicon.png", "md5" : "1e35f1aa90c98ca2bab85c26ae3e1ba7" },
 			{ "text" : "<link rel="stylesheet" href="/NoAuth/webrtfm.css" type="text/css" />", "module" : "FAQ Manager" },
@@ -18,4 +18,5 @@ class Pluginrequest_tracker_plugin:
 			{ "version" : "/&#187;&#124;&#171; RT ([^\s]+) Copyright 1996-20[\d]{2} <a href="http:\/\/www\.bestpractical\.com\?rt=([^\s^"^>]+)">Best Practical Solutions", "LLC<\/a>\./" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/RT_SID_[^\s^=]+=[a-f\d]{32};/" },
 		]
+		return(self.rules)
 

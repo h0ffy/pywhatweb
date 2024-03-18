@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginipcop_firewall_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "    <title>IPCop - Main page</title>" },
 			{ "text" : "    <style type="text/css">@import url(/include/ipcop.css);</style>'},
@@ -15,4 +15,5 @@ class Pluginipcop_firewall_plugin:
 			{ "version" : "/<small>IPCop v([^\s]+) &copy; 2001-20[\d]{2} The IPCop Team<\/small><\/td>/" },
 			{ "url" : "/include/ipcop.css", "text" : "/* used in status.cgi (among others) */" },
 		]
+		return(self.rules)
 

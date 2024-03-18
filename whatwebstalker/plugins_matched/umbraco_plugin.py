@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginumbraco_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "ghdb" : "powered by umbraco"", "certainty" : "25 },
 			{ "text" : "<meta name="generator" content="umbraco" />" },
@@ -144,4 +144,5 @@ class Pluginumbraco_plugin:
 			{ "url" : "/umbraco/Js/init.js", "md5" : "31e12ee0679dfb1a9b242e6b74fdbf58", "version" : "8.10.0" },
 			{ "url" : "/umbraco/Js/init.js", "md5" : "31e12ee0679dfb1a9b242e6b74fdbf58", "version" : "8.10.1" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginwebpress_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "Powered By <a href="http://www.ecomenterprises.com" target="_blank" class="small_text">WebPress</a><SUP><FONT SIZE="-5">TM</FONT></SUP></td>" },
 			{ "text" : "Powered by <a href="http://goywp.com" id="webpresslink">WebPress</a><br></p></td>" },
@@ -12,4 +12,5 @@ class Pluginwebpress_plugin:
 			{ "version" : "/<!-- Powered by YWP ([\d\.]+) -->/" },
 			{ "version" : "/<meta name="generator" content="YWP ([\d\.]+)">/" },
 		]
+		return(self.rules)
 

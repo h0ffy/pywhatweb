@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginnetsweeper_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<DIV id="overDiv" style="position:absolute; visibility:hidden; z-index:104;"></DIV>" },
 			{ "text" : "<div id="overDiv" style="position:absolute; visibility:hidden; z-index:104;"></div>" },
@@ -17,4 +17,5 @@ class Pluginnetsweeper_plugin:
 			{ "text" : "<a href="http://www.poweredbynetsweeper.com"><img src="http://www.poweredbynetsweeper.com/images/deny/global/poweredbynetsweeper.gif" border="0" alt=" align="top" /></a></td>" },
 			{ "text" : "<a href="http://www.poweredbynetsweeper.com"><img align=top border=0 src="http://www.poweredbynetsweeper.com/images/deny/global/poweredbynetsweeper.gif"></a>" },
 		]
+		return(self.rules)
 

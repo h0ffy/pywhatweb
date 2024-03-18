@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginsonicwall_gms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/<TITLE>SonicWALL Global Management System Version ([^\s^<])[\s]?<\/TITLE>/" },
 			{ "version" : "/<P><B>SonicWALL Global Management System v([^\s^<]+)/" },
@@ -14,4 +14,5 @@ class Pluginsonicwall_gms_plugin:
 			{ "url" : "/sgms/login", "text" : "<title>SonicWALL GMS Login Screen</title>" },
 			{ "text" : "<body background="images/gray_waves.back.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="onLoadFunc()">" },
 		]
+		return(self.rules)
 

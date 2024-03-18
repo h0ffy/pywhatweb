@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginnetwin_surgemail_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<!-- Start of index.htm --><!-- delayed after doctype-->" },
 			{ "text" : "<title>SurgeMail Welcome Page</title>" },
@@ -18,4 +18,5 @@ class Pluginnetwin_surgemail_plugin:
 			{ "text" : "<form action="/scripts/webmail.exe" method="post" name="reloginform">" },
 			{ "version" : "/<a target="_top" href="http:\/\/netwinsite.com\/ref.htm"> WebMail v([^\ ]+) Copyright &copy; <i>NetWin Ltd<\/i>/" },
 		]
+		return(self.rules)
 

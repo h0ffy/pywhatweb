@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginindex_of_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>Index of /" },
 			{ "certainty" : "75", "ghdb" : "name "last modified" size description" },
@@ -13,4 +13,5 @@ class Pluginindex_of_plugin:
 			{ "regexp" : "/<pre>Name[\s]+Last modified[\s]+Size[\s]+<hr>/" },
 			{ "regexp" : "/<A HREF="\?N=D">Name<\/A>[\s]+<A HREF="\?M=A">Last modified<\/A>/" },
 		]
+		return(self.rules)
 

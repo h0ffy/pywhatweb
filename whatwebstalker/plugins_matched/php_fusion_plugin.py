@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginphp_fusion_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "ghdb" : "Powered by PHP-Fusion copyright" +intitle:News" },
 			{ "string" : /Powered by <a href='http:\/\/www\.php-fusion\.co\.uk'>PHP-Fusion<\/a> copyright &copy; 2002 - ([\d]{4})/" },
@@ -16,4 +16,5 @@ class Pluginphp_fusion_plugin:
 			{ "certainty" : "75", "regexp" : "/<!--counter-->[\d,]+ unique visits</" },
 			{ "search" : "headers[set-cookie]", "name" : "fusion_visited Cookie", "regexp" : "/fusion_visited=/" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginasterisk_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "/static/index.html", "regexp" : "/Your browser should automatically go to the configuration page\.[\s]+<br>[\s]+Or you can <a href="config\/cfgbasic\.html">click here<\/a>[\s]+<br>/" },
 			{ "search" : "headers[server]", "regexp" : "/^Asterisk\//" },
@@ -14,4 +14,5 @@ class Pluginasterisk_plugin:
 			{ "url" : "/static/config/index.html", "text" : "<div id="ACTIVE_CONTENT"><noscript>You need to enable Javascript in your browser !!</noscript></div>" },
 			{ "url" : "/static/config/js/astman.js", "module" : /		version : "([^']+)' \/\/ gui version/" },
 		]
+		return(self.rules)
 

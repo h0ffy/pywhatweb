@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginescenic_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<!-- Start Escenic Analysis Engine client script -->" },
 			{ "certainty" : "75", "text" : "<meta name="author" content="Escenic AS"/>" },
@@ -13,4 +13,5 @@ class Pluginescenic_plugin:
 			{ "certainty" : "25", "regexp" : "/<img[^>]+src="[^"^>]+\/archive\/\d{5}\/[^"^>]+"[^>]*>/" },
 			{ "certainty" : "25", "regexp" : "/<a[^>]+href="[^"^>]+\/article[\d]{5,10}\.ece">[^<]*<\/a>/" },
 		]
+		return(self.rules)
 

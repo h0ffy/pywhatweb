@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugindokeos_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "25", "text" : "<ul id="dokeostabs">" },
 			{ "text" : "<!-- start of #main wrapper for #content and #menu divs -->" },
@@ -18,4 +18,5 @@ class Plugindokeos_plugin:
 			{ "version" : "/<div class="copyright">[^<]+<a href="http:\/\/www\.dokeos\.com" target="_blank">[\s]*Dokeos ([\d\.]+)<\/a>/" },
 			{ "version" : "/<title>&mdash; Dokeos Installation &mdash; Version ([\d\.]+)<\/title>/", "string" : "Install Page" },
 		]
+		return(self.rules)
 

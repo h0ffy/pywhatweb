@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginjive_sbs_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/<link rel="stylesheet" href="\/([\d\.]+)\/styles\/jive-global\.css" type="text\/css" media="all" \/>/" },
 			{ "version" : "/<link rel="stylesheet" href="\/([\d\.]+)\/styles\/jive-icons\.css" type="text\/css" media="all" \/>/" },
@@ -21,4 +21,5 @@ class Pluginjive_sbs_plugin:
 			{ "search" : "headers[x-jsl]", "regexp" : "/^D=[\d]+ t=[\d]+$/" },
 			{ "search" : "headers[x-jal]", "regexp" : "/^[\d]+$/" },
 		]
+		return(self.rules)
 

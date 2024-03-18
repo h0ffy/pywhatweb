@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmojoportal_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "25", "ghdb" : "Powered by mojoPortal"" },
 			{ "text" : "<a href='http://www.mojoportal.com' >Powered by mojoPortal</a>" },
@@ -13,4 +13,5 @@ class Pluginmojoportal_plugin:
 			{ "text" : "	<img src="../Data/SiteImages/mojoportal-logo-med.gif" alt="mojoPortal Content Management System" />" },
 			{ "text" : "<link id="Link1" runat="server" rel="stylesheet" href="../Data/style/setup.css" type="text/css"  />" },
 		]
+		return(self.rules)
 

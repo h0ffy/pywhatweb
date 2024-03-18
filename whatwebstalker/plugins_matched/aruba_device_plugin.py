@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginaruba_device_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "string" : /<\/noscript>[\s]+<div id="system-info">[\s]+<ul>[\s]+<li>System Name : ([^<]+)<\/li>/" },
 			{ "regexp" : "/<img src="\/images\/arubalogo\.gif" width="200" height="51"[\s]+alt="Aruba( Wireless)? Networks" title="Aruba( Wireless)? Networks"\/>/" },
@@ -12,4 +12,5 @@ class Pluginaruba_device_plugin:
 			{ "url" : "/images/arubalogo.gif", "md5" : "0edcf58b30fccecb053a6e7d3e9846ad" },
 			{ "url" : "/images/arubalogo.gif", "md5" : "3dcb2475aa28fc1d685f863e79cc837f" },
 		]
+		return(self.rules)
 

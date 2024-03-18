@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginovbb_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<title>[^:]+:: Powered by OvBB<\/title>/" },
 			{ "regexp" : "/<img src="images\/ovbb.png" align="middle" border="0" alt="[^:]+:: Powered by OvBB" \/><\/a>/" },
@@ -12,4 +12,5 @@ class Pluginovbb_plugin:
 			{ "text" : "<p>Please try again by pressing the <a href="javascript:window.location=window.location;">refresh</a> button in your browser. An e-mail message has been dispatched to the <a href="mailto:" },
 			{ "version" : "/<a style="color: #EEEEFF;" href="http:\/\/www.ovbb.org">Powered by OvBB V([\d\.a-z]+)<\/a><br \/><br \/>/" },
 		]
+		return(self.rules)
 

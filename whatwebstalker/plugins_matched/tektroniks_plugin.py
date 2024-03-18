@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugintektroniks_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<p>Transfering you to login page in 2 seconds...</p>" },
 			{ "text" : "<td width="100"><label id="AU_LOGIN_ID_label" for="AU_LOGIN_ID" dataType=" required="true">User Name:</label></td>" },
@@ -13,4 +13,5 @@ class Plugintektroniks_plugin:
 			{ "search" : "headers[server]", "version" : "/^Tektroniks\/([^\s]+)$/" },
 			{ "search" : "headers[www-authenticate]", "text" : "Basic realm="Tektroniks"" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginedk_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "ghdb" : "inurl:alliance_detail | inurl:pilot_detail | inurl:corp_detail" },
 			{ "text" : "<div class="menu-caption">Kills &amp; losses</div>" },
@@ -12,4 +12,5 @@ class Pluginedk_plugin:
 			{ "text" : "&amp;scl_id=39">Industrial Command Ship</a></b></td>" },
 			{ "text" : "<!-- /killlistable.tpl -->" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginasp_nuke_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<meta name=\"Generator\" CONTENT=\"ASP-Nuke" },
 			{ "version" : "2", "text" : "<meta name=\"Generator\" content=\"ASPNUKE v2.0 - distributed under GPL license\">" },
@@ -18,4 +18,5 @@ class Pluginasp_nuke_plugin:
 			{ "version" : "/<a href="http:\/\/www.aspnuke.it" target="_blank">Asp-Nuke ([\d\.]+)<\/a>/", "name" : "aspnuke.it" },
 			{ "name" : "P3P Privacy Headers", "certainty" : "25", "search" : "headers[p3p]", "text" : "CP=\"NOI CUR OUR IND UNI COM NAV INT\" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugintutortrac_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<TITLE>TutorTrac Learning Center Tracking Software</TITLE>" },
 			{ "text" : "<meta name="keywords" content="tutor,software,scheduling,learning,center,tutoring,assistant,assistance,education,accutrack,tutorial,community,college,university"><meta name="description" content="Web Based Tutor/Learning Center Management/Scheduling Software">" },
@@ -13,4 +13,5 @@ class Plugintutortrac_plugin:
 			{ "url" : "/TutorTrac/favicon.ico", "md5" : "c56dda95e69b50c4b3802919aab0e950" },
 			{ "url" : "/TracWeb40/favicon.ico", "md5" : "365ccabab0c04ec5c6a9721725b76c36" },
 		]
+		return(self.rules)
 

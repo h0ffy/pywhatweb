@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugintilgin_router_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<H1 id="title">Welcome to the Tilgin router</H1>" },
 			{ "text" : "<TITLE>VOOD</TITLE>", "url" : "/" },
@@ -12,4 +12,5 @@ class Plugintilgin_router_plugin:
 			{ "text" : "<A href="/status/" class="menuitem" title="Status">Status</A><SPAN class="separator"> </SPAN><A href="/help/" class="last menuitem" title="Help">Help</A>" },
 			{ "text" : "<LINK rel="stylesheet" type="text/css" href="/compressed-control.css">" },
 		]
+		return(self.rules)
 

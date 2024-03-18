@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincanon_print_server_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<tr><td align="left"><A href="http://www.niigata-canotec.co.jp" name="canon_group" target="new_win">" },
 			{ "url" : "/ps_stat.htm", "firmware" : "/<td>Hardware ID: [^<]{1,10}<br>Firmware Version: ([^<]{1,10})<br>Protocol ID: [^<]{1,10}<br>Default Name: [^<]{1,10}<br>Server Name: [^<]{1,10}<br>H\/W Address: [^<]{12}<br>/" },
@@ -16,4 +16,5 @@ class Plugincanon_print_server_plugin:
 			{ "text" : "<meta name="GENERATOR" content="Mozilla/4.7 [ja] (Win98; I) [Netscape]">", "model" : "NetHawk N-111", "certainty" : "25 },
 			{ "certainty" : "25", "version" : "/^PRINT_SERVER WEB ([\d\.]+)$/", "search" : "headers[server]" },
 		]
+		return(self.rules)
 

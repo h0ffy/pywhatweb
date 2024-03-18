@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginnetbotz_network_monitoring_device_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<TITLE>NetBotz( Network Monitoring) Appliance - [^<]*<\/TITLE>/" },
 			{ "text" : "<LINK REL="StyleSheet" TYPE="text/css" HREF="/netbotz.css">" },
@@ -13,4 +13,5 @@ class Pluginnetbotz_network_monitoring_device_plugin:
 			{ "text" : "	<TITLE>Device Status Summary Page</TITLE>" },
 			{ "url" : "/statusHeader.html", "version" : "/<a href="http:\/\/updates.netbotz.com\/releases\/([\d\.]+)\/install.html" target="_instAV">\(Install Advanced View Application\)<\/a>/" },
 		]
+		return(self.rules)
 

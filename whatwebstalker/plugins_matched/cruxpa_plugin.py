@@ -2,10 +2,11 @@ import sys
 import os
 			
 class Plugincruxpa_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<div id="copy"><center>Powered By <a href="http://www.cruxsoftware.co.uk">CruxPA</a><br>" },
 		]
+		return(self.rules)
 

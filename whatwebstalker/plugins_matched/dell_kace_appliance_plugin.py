@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugindell_kace_appliance_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "/common/about.php", "version" : "/<b>K1000 Systems Management Appliance<\/b> <b>v([^\s^<]+)<\/b>/" },
 			{ "search" : "headers[x-dellkace-version]", "version" : "/^(.+)$/" },
@@ -13,4 +13,5 @@ class Plugindell_kace_appliance_plugin:
 			{ "search" : "headers[x-kbox-version]", "version" : "/^(.+)$/" },
 			{ "search" : "headers[x-kbox-webserver]", "string" : /^(.+)$/" },
 		]
+		return(self.rules)
 

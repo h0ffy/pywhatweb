@@ -2,10 +2,11 @@ import sys
 import os
 			
 class Pluginbackbee_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "100", "text" : "<div id="bb5-site-wrapper">" },
 		]
+		return(self.rules)
 

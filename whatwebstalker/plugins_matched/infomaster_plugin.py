@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugininfomaster_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/<head><title>[\s]+MasterView ([\d\.]+) Property Master[\s]+<\/title>/", "string" : "MasterView" },
 			{ "regexp" : "/class="ackn">[\s]*Powered by InfoMaster/" },
@@ -13,4 +13,5 @@ class Plugininfomaster_plugin:
 			{ "text" : "<script language="javascript" src="../../common/masterView.js"></script>", "string" : "MasterView" },
 			{ "string" : /<form name="frm(MasterView|MasterPlan)" method="post" action="default\.aspx/" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincm3_cms_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "name" : "JavaScript Object (CM2)',"text" : "top.cm2_home.location.href'},
 			{ "name" : "HTML Body (CM2)',"text" : "name="cm2_top" id="cm2_top"'},
@@ -15,4 +15,5 @@ class Plugincm3_cms_plugin:
 			{ "name" : "HTML Body (CM3)',"text" : "cm3powered_green.gif"'},
 			{ "name" : "Set-Cookie Header (CM3)", "search" : "headers[set-cookie]", "regexp" : "/cm3session},
 		]
+		return(self.rules)
 

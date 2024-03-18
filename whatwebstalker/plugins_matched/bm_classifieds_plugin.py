@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginbm_classifieds_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<!-- // All source code on this site © 2007 BM Scripts unless otherwise stated - All Rights Reserved // -->" },
 			{ "text" : "<!-- // All source code on this site © 2007 BM Scripts unless otherwise noted - All Rights Reserved // -->" },
@@ -13,4 +13,5 @@ class Pluginbm_classifieds_plugin:
 			{ "text" : "	<p class='credits'><a href='http://www.bmscripts.com'>Powered by BM Classifieds</a><br /></p>" },
 			{ "text" : "	<p class='credits'>Powered by BM Classifieds<br /></p>" },
 		]
+		return(self.rules)
 

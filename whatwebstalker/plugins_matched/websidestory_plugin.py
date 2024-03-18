@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginwebsidestory_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<!-- WebSideStory HTML for Search -->" },
 			{ "text" : "<!--END WEBSIDESTORY CODE-->" },
@@ -13,4 +13,5 @@ class Pluginwebsidestory_plugin:
 			{ "text" : "Search powered by <a class="external" href="http://www.websidestory.com/">WebSideStory</a>" },
 			{ "text" : "<a href="http://websidestory.com/" target="_blank">Powered by WebSideStory</a>" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincgi_irc_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>CGI:IRC Login</title>" },
 			{ "text" : "<body bgcolor="#ffffff" text="#000000" onload="setcharset();">" },
@@ -19,4 +19,5 @@ class Plugincgi_irc_plugin:
 			{ "string" : /^bgcolor="#f1f1f1"><input type="text" name="Server" value="([^"]+)"[^>]*><\/td><\/tr>/" },
 			{ "string" : /^bgcolor="#f1f1f1"><select name="Server" style="width: 100%"[^>]*><option[^>]*>([^<]*)<\/option>/" },
 		]
+		return(self.rules)
 

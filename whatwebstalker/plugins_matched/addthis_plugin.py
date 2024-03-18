@@ -2,10 +2,11 @@ import sys
 import os
 			
 class Pluginaddthis_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<script [^>]*src=["|'][^>]*addthis\.com\/js/i },
 		]
+		return(self.rules)
 

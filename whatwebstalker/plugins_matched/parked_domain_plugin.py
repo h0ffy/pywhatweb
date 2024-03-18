@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginparked_domain_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<img src="http://images-pw.secureserver.net/images/log_gd_3.gif" usemap="#lmap" border="0" alt="This web page is parked FREE", "courtesy of GoDaddy.com" ></a></div>", "string" : "GoDaddy.com" },
 			{ "text" : "<script language='javascript' src='https://a12.alphagodaddy.com/hosting_ads/gd01.js'></script>", "string" : "GoDaddy.com" },
@@ -24,4 +24,5 @@ class Pluginparked_domain_plugin:
 			{ "text" : "<title>This Domain is Parked at Dot Com Today</title>", "string" : "Dot Com Today.com" },
 			{ "text" : "<title>This domain is parked for free with web.com</title>", "string" : "Web.com" },
 		]
+		return(self.rules)
 

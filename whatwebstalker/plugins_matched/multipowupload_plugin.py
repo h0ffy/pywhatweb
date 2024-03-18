@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginmultipowupload_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "Upload result:<br><pre>No files sent. Script is OK!Here is some more debugging info:Array" },
 			{ "version" : "/		<title>Element-It MultiPowUpload ([\d\.]+) Examples<\/title>/" },
@@ -15,4 +15,5 @@ class Pluginmultipowupload_plugin:
 			{ "text" : "<embed bgcolor=[^>]+src="ElementITMultiPowUpload.swf" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"" },
 			{ "version" : "/<embed bgcolor=[^>]+src="ElementITMultiPowUpload([\d\.]{1,5}).swf" quality="high" pluginspage="http:\/\/www.macromedia.com\/shockwave\/download\/index.cgi\?P1_Prod_Version=ShockwaveFlash"/" },
 		]
+		return(self.rules)
 

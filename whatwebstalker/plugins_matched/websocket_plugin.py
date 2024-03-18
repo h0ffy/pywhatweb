@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginwebsocket_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "search" : "headers[upgrade]", "regexp" : "/^WebSocket$/i },
 			{ "search" : "headers[websocket-location]", "string" : /^(wss?:\/\/.+)/" },
@@ -12,4 +12,5 @@ class Pluginwebsocket_plugin:
 			{ "search" : "headers[sec-websocket-version-server]", "version" : "/(.+)/" },
 			{ "search" : "headers[sec-websocket-protocol]", "module" : /(.+)/" },
 		]
+		return(self.rules)
 

@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginruby_on_rails_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "/images/rails.png", "md5" : "450fc241fab7867e96536903244087f4'},
 			{ "url" : "/404.html", "text" : "<!-- This file lives in public/404.html -->'},
@@ -24,4 +24,5 @@ class Pluginruby_on_rails_plugin:
 			{ "text" : "<div id="session_dump" style="display:none"><pre class=\'debug_dump\'>---" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/^request_method/", "name" : "request_method cookie" },
 		]
+		return(self.rules)
 

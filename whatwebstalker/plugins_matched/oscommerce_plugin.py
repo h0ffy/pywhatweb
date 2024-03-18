@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginoscommerce_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<[^>]+(src|href)\s*=\s*[^>]\bosCsid=([a-z0-9]{26}|[a-z0-9]{32})/" },
 			{ "certainty" : "25", "text" : "The Exchange Project - Community Made Shopping!'},
@@ -14,4 +14,5 @@ class Pluginoscommerce_plugin:
 			{ "search" : "headers[set-cookie]", "text" : "cookie_test=please_accept_for_session;" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/osCsid=[a-z0-9]{32};/" },
 		]
+		return(self.rules)
 

@@ -2,10 +2,11 @@ import sys
 import os
 			
 class Pluginswiki_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "/defaultScheme/comSwiki.gif", "md5" : "81d538bed9f676fffbdaedb9d95cdbc1" },
 		]
+		return(self.rules)
 

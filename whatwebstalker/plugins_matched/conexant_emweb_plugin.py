@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginconexant_emweb_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<table border="1" cellpadding="0" cellspacing="0" scrolling="no" style="border-collapse: collapse"bordercolor="#FFFFFF" width="80%">", "status" : "401 },
 			{ "text" : "<title>Flexor 151 Home</title>", "model" : "Flexor 151" },
@@ -21,4 +21,5 @@ class Pluginconexant_emweb_plugin:
 			{ "version" : "/Conexant-EmWeb\/([^\r^\n]+)/", "search" : "headers[server]"},
 			{ "version" : "/Virata-EmWeb\/([^\r^\n]+)/", "search" : "headers[server]"},
 		]
+		return(self.rules)
 

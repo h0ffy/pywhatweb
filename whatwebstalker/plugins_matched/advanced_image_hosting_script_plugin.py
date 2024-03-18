@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginadvanced_image_hosting_script_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "  .title                          { font-size: 10px; font-weight: bold; line-height: 150%; color: #FFFFFF; height: 26px; background-image: url(./tile_back.gif) }" },
 			{ "text" : "    <td colspan=2 align=center><h3>Advanced Image Host Script</h3></td>" },
@@ -12,4 +12,5 @@ class Pluginadvanced_image_hosting_script_plugin:
 			{ "version" : "/<center><b>Welcome to install AIHS Script ([\d\.]+)<\/b><\/center>/" },
 			{ "version" : "/<tr><td class=info width=100%>Welcome to install Advanced Image Hosting Script Pro ([\d\.]+) on your server<\/td><\/tr>/" },
 		]
+		return(self.rules)
 

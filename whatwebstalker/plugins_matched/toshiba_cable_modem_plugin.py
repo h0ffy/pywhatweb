@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugintoshiba_cable_modem_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<TITLE>Toshiba Cable Modem PCX3000</TITLE>", "certainty" : "75 },
 			{ "url" : "/pcx3k.gif", "md5" : "b70118d64dc5a404f82467bbf3858524", "model" : "PCX3000" },
@@ -14,4 +14,5 @@ class Plugintoshiba_cable_modem_plugin:
 			{ "url" : "/up.html", "firmware" : "/;&nbsp;HW_REV[\r\n]*<FONT COLOR="#980040">([^\s^<]+)<\/FONT>/" },
 			{ "url" : "/up.html", "version" : "/;&nbsp;SW_REV[\r\n]*<FONT COLOR="#980040">([^\s^<]+)<\/FONT>/" },
 		]
+		return(self.rules)
 

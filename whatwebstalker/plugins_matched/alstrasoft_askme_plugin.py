@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginalstrasoft_askme_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "Enter details about your question and press the button bellow. All fields are required." },
 			{ "text" : "<font size="+2">AskMe Pro Admin</font></b>" },
@@ -12,4 +12,5 @@ class Pluginalstrasoft_askme_plugin:
 			{ "text" : "<td colspan=2 align="center"><a href="pass_recover.php">Forgotten Password?</a></td>" },
 			{ "text" : "Powered By <a href="http://www.alstrasoft.com">AlstraSoft AskMe Pro</td></tr></table></body></a></html>" },
 		]
+		return(self.rules)
 

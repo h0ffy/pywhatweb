@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginsqlitemanager_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<!-- SQLiteFunctionProperties.class.php : propView() -->" },
 			{ "text" : "<!-- common.lib.php : displayMenuTitle() -->" },
@@ -15,4 +15,5 @@ class Pluginsqlitemanager_plugin:
 			{ "string" : /<h4 class="serverInfo">(SQLite version [\d\.\s-]+)(undefined)? \/ PHP version 5.2.17<\/h4>/" },
 			{ "string" : /<h4 class="serverInfo">SQLite version [\d\.\s-]+(undefined)? \/ (PHP version [^\s^<]+)<\/h4>/", "offset" : "1 },
 		]
+		return(self.rules)
 

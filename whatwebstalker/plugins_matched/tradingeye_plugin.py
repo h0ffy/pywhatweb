@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugintradingeye_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "url" : "/favicon.ico", "md5" : "0ec12e5820517d3b62e56b9a8f1ee5bc" },
 			{ "url" : "/_assets/img/site/favicon.ico", "md5" : "0ec12e5820517d3b62e56b9a8f1ee5bc" },
@@ -16,4 +16,5 @@ class Plugintradingeye_plugin:
 			{ "version" : "/<title>Tradingeye v([^\s]+) :: Online Admin<\/title>/" },
 			{ "text" : "<th class="login_bg" colspan="2">Tradingeye Login</th>" },
 		]
+		return(self.rules)
 

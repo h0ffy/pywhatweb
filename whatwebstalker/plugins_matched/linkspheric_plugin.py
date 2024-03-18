@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginlinkspheric_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<style type="text/css" media="screen">@import "styles/ls_orange.css";</style>"" },
 			{ "text" : "<title>linkSpheric Installer</title>" },
@@ -15,4 +15,5 @@ class Pluginlinkspheric_plugin:
 			{ "text" : "Powered by <a href="http://dataspheric.com/services/software/ls/" style="text-decoration: none; color: #000;"><strong>link<span style="font-size: 1.3em; color: #f60;">S</span>pheric</strong></a>" },
 			{ "md5" : "a421ddecd26e755219c63a130893d253", "url" : "images/ls_logo.png" },
 		]
+		return(self.rules)
 

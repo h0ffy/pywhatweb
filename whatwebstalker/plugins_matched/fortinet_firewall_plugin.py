@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginfortinet_firewall_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "url" : "/", "md5" : "c647dc149f55829659640751e9184f8c" },
 			{ "certainty" : "75", "url" : "/index.html", "md5" : "c647dc149f55829659640751e9184f8c" },
@@ -14,4 +14,5 @@ class Pluginfortinet_firewall_plugin:
 			{ "url" : "login", "name" : "Login page MD5 hash", "md5" : "8bc0d101e3a25c98a9cbcf18240bd271'},
 			{ "url" : "success", "name" : "Success Page MD5", "md5" : "1451298ccf3a24e342b20e6684cbb0dc'},
 		]
+		return(self.rules)
 

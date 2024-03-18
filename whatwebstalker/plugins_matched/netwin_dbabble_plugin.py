@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginnetwin_dbabble_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "version" : "/^DBabble ([^Server]+)Server Version ([^\ ]+) /", "offset" : "1 },
 			{ "version" : "/^DBabble ([^Server]+)Server Version ([^\(]+)\(/" },
@@ -21,4 +21,5 @@ class Pluginnetwin_dbabble_plugin:
 			{ "text" : "<a target=\'helpwin\' href="/help/English/Standard/contents.htm">DBabble Online Help</a><br>" },
 			{ "text" : "You can use DBabble securely but slower through your web browser at <a href="http" },
 		]
+		return(self.rules)
 

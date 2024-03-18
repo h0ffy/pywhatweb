@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginkleeja_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "regexp" : "/<title>[^\(]+\(Powered by Kleeja\)<\/title>/" },
 			{ "text" : "<meta name="copyrights" content="Powered by Kleeja :: kleeja.com" />" },
@@ -13,4 +13,5 @@ class Pluginkleeja_plugin:
 			{ "text" : "<!-- IF REMOVE: Pay for a license -->" },
 			{ "text" : "<!-- IF REMOVE: Pay for a license - see http://www.kleeja.com -->" },
 		]
+		return(self.rules)
 

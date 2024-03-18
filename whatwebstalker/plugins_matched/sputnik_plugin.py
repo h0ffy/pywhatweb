@@ -2,11 +2,12 @@ import sys
 import os
 			
 class Pluginsputnik_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "Powered by <a href='http://sputnik.freewisdom.org/'>Sputnik</a>" },
 			{ "text" : "Powered by <a href='http://spu.tnik.org/'>Sputnik</a>" },
 		]
+		return(self.rules)
 

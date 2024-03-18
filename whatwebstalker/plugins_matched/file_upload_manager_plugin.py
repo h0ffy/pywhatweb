@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Pluginfile_upload_manager_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "certainty" : "75", "ghdb" : "+intitle:"File Upload Manager" "rename to" "file types allowed"" },
 			{ "certainty" : "75", "text" : "<title>File Upload Manager</title>" },
@@ -12,4 +12,5 @@ class Pluginfile_upload_manager_plugin:
 			{ "text" : "<a href="http://www.mtnpeak.net" style="text-decoration: none; color: #C0C0C0; font-size: 9px; cursor: default";>&copy; thepeak</a>" },
 			{ "version" : "/<!-- File Upload Manager v([\d\.]+[^>]+) -->/" },
 		]
+		return(self.rules)
 

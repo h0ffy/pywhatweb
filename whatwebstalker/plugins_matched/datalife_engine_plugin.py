@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugindatalife_engine_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<meta name="generator" content="DataLife Engine (http://dle-news.ru)" />" },
 			{ "text" : "<meta name="generator" content="DataLife Engine" />" },
@@ -14,4 +14,5 @@ class Plugindatalife_engine_plugin:
 			{ "search" : "headers[set-cookie]", "regexp" : "/dle_password=[^;]+;/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/dle_user_id=[^;]+;/" },
 		]
+		return(self.rules)
 

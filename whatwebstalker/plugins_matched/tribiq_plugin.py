@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugintribiq_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "md5" : "1d334359c5d0f68de91f33c78581f25c", "url" : "/favicon.ico" },
 			{ "text" : "Powered by <a href="http://tribiq.com/" target="_blank">Tribiq CMS</a>" },
@@ -17,4 +17,5 @@ class Plugintribiq_plugin:
 			{ "text" : "				<p><a href="adminlogin.php">Please log in</a></p>" },
 			{ "text" : "<title>Tribiq CMS Administrator Login</title>" },
 		]
+		return(self.rules)
 

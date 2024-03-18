@@ -2,9 +2,9 @@ import sys
 import os
 			
 class Plugincpanel_plugin:
-    def get_rules(self):
-        return(self.rules)
     def __init__(self):
+    	pass
+    def start(self):
         self.rules = [
 			{ "text" : "<title>cPanel&reg;</title>" },
 			{ "text" : "<div id="footer_images"><img src="sys_cpanel/images/powered_by.gif" />" },
@@ -16,4 +16,5 @@ class Plugincpanel_plugin:
 			{ "url" : "/img-sys/header.jpg", "md5" : "b0f3863b68ff707c3fb586bd87b4f9c6" },
 			{ "search" : "headers[server]", "version" : "/^cpsrvd\/([\d\.]+)$/" },
 		]
+		return(self.rules)
 
