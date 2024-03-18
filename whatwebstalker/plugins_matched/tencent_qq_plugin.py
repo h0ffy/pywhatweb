@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class tencent_qq_plugin:
+class tencent_qq_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^HTTP_ME\/\d\.\d Tencent\/HTTP_Magic_Expression$/ }
-	]
+		]
 

@@ -1,13 +1,11 @@
 import sys
 import os
 			
-class fizmez_web_server_plugin:
+class fizmez_web_server_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Fizmez\/0\.0\.1/", "version" : '1.0" }
-			{ "search" : 'headers[server]", "version" : '/^Fizmez\/([1-9]+\.[\d\.]+)/ }
-	]
+		]
 

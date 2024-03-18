@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class litespeed_plugin:
+class litespeed_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

@@ -7,5 +7,5 @@ class country_ips.dat_plugin:
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

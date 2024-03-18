@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class adobe_experience_manager_plugin:
+class adobe_experience_manager_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

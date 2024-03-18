@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class play_framework_plugin:
+class play_framework_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^Play! Framework;(\d[^\s^;]+;[^\s]+)$/ }
-	]
+		]
 

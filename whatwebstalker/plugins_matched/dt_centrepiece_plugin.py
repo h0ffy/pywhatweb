@@ -1,13 +1,11 @@
 import sys
 import os
 			
-class dt_centrepiece_plugin:
+class dt_centrepiece_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '	<meta name="generator" content="DT Centrepiece - www.dt.net.nz/centrepiece/" />' }
-			{ "text" : '<a href="http://www.dt.net.nz/centrepiece/" target="_blank">Powered By DT Centrepiece</a>' }
-	]
+		]
 

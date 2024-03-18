@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ibm_websphere_datapower_plugin:
+class ibm_websphere_datapower_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[x-backside-transport]", "string" : /(FAIL|OK)/ }
-	]
+		]
 

@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class tp_link_router_plugin:
+class tp_link_router_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

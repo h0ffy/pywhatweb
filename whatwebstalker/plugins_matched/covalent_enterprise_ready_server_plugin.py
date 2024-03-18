@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class covalent_enterprise_ready_server_plugin:
+class covalent_enterprise_ready_server_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

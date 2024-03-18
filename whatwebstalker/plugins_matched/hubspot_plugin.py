@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class hubspot_plugin:
+class hubspot_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

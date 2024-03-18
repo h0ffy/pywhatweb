@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class haproxy_plugin:
+class haproxy_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-			{ "status" : '401", "search" : 'headers[www-authenticate]", "text" : 'Basic realm="HAProxy Statistics"' }
-	]
+		]
 

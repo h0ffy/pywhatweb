@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class bspeak_plugin:
+class bspeak_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

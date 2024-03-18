@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class sailsjs_plugin:
+class sailsjs_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

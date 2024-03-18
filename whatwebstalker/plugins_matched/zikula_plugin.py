@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class zikula_plugin:
+class zikula_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class perl_plugin:
+class perl_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

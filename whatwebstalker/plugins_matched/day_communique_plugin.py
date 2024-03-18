@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class day_communique_plugin:
+class day_communique_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

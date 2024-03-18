@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class spinnaker_plugin:
+class spinnaker_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

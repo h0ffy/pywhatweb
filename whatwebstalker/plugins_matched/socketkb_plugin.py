@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class socketkb_plugin:
+class socketkb_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/>Powered by SocketKB version ([\d\.]+)<\/a>/ }
-	]
+		]
 

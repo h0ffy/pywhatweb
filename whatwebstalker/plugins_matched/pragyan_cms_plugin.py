@@ -1,13 +1,11 @@
 import sys
 import os
 			
-class pragyan_cms_plugin:
+class pragyan_cms_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'powered by <a href="http://sourceforge.net/projects/pragyan">Pragyan CMS</a>' }
-			{ "version" : '/powered by <a href="http:\/\/sourceforge.net\/projects\/pragyan" title="(Praygan|Probe) CMS">Pragyan CMS v([\d\.]+)<\/a>/", "offset" : '1 }
-	]
+		]
 

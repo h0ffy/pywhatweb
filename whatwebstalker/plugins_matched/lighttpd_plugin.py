@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class lighttpd_plugin:
+class lighttpd_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

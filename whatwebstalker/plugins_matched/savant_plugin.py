@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class savant_plugin:
+class savant_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

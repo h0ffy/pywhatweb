@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class x_backend_plugin:
+class x_backend_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

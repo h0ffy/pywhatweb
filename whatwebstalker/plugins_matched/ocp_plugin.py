@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class ocp_plugin:
+class ocp_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 

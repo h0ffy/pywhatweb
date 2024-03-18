@@ -1,11 +1,11 @@
 import sys
 import os
 			
-class ruby_plugin:
+class ruby_plugin.py_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
-	]
+		]
 
