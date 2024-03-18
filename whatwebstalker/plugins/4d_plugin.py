@@ -1,12 +1,10 @@
-import sys
-import os
+import plugins
 			
-class 4d_plugin:
-    def get_rules(self):
-        return(self.rules)
+class Plugin4d_plugin(plugins.Base):
     def __init__(self):
-        self.rules = 
-        [
+    	pass
+    def start(self):
+        self.rules = [
 			{ "search" : "headers[server]", "version" : "/^4D_v[\d]{1,2}(_SQL)?\/([\d\.]+)$/", "offset" : "1" },
 		]
-
+        return(self.rules)

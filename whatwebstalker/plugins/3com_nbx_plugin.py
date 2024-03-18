@@ -1,12 +1,10 @@
-import sys
-import os
+import plugins
 			
-class 3com_nbx_plugin:
-    def get_rules(self):
-        return(self.rules)
+class Plugin3com_nbx_plugin(plugins.Base):
     def __init__(self):
-        self.rules = 
-        [
+    	pass
+    def start(self):
+        self.rules = [
 			{ "text" : "<head><title>NBX NetSet</title>" },
 			{ "text" : "<HEAD><TITLE>NBX NetSet</TITLE>" },
 			{ "text" : "3Com Corporation or its subsidiaries" },
@@ -15,5 +13,6 @@ class 3com_nbx_plugin:
 			{ "text" : "<span class=\"splashTitleIPTelephony\">&nbsp;3Com<SUP><span class=\"splashTitleNBXReg\">&reg;</span></SUP> IP Telephony Solution</span>" },
 			{ "firmware" : "/<td colspan=\"3\" class=\"splashVersionCol\" valign='bottom'>[\s]+Version:&nbsp;([^<]+)<br \/>[\s]+Created:&nbsp;/" },
 			{ "firmware" : "/<TABLE BORDER=\"0\" CELLPADDING=\"0\" CELLSPACING=\"0\"><TR><TD ALIGN=\"right\" WIDTH=\"130\" HEIGHT=\"75\">[\s]+Version:(&nbsp;)?([^<]+)<BR>/", "offset" : "1" },
-			{ "model" : "/<span class=\"splashTitleNBX\">NBX<SUP><span class=\"splashTitleNBXReg\">&reg;<\/span><\/SUP><\/span>[\s]+<span class=\"splashTitlePlatform\">(&nbsp;)?([^<]+)<\/span>/", "offset" : "1" }
-		]
+			{ "model" : "/<span class=\"splashTitleNBX\">NBX<SUP><span class=\"splashTitleNBXReg\">&reg;<\/span><\/SUP><\/span>[\s]+<span class=\"splashTitlePlatform\">(&nbsp;)?([^<]+)<\/span>/", "offset" : "1" },
+        ]  
+        return(self.rules)

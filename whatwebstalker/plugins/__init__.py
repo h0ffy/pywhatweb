@@ -27,7 +27,6 @@ class Base:
 def load_module(path):
     name = os.path.split(path)[-1].split(".")[0]
     spec = util.spec_from_file_location(name,path)
-    print(spec)
     module = util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return(module)
@@ -40,10 +39,9 @@ for fname in os.listdir(__plugins_path__):
         #print(fname)
         try:
             current_path = "{}{}".format(__plugins_path__,fname)
-            print(current_path)
-        #    sys.exit(0)
             load_module(current_path)
         except Exception:
             traceback.print_exc()
+            sys.exit(0)
         
 
