@@ -10,5 +10,5 @@ class Pluginbarracuda_backup_server_plugin(plugins.Base):
 			{ "url" : "/include/cui/images/favicon.ico", "md5" : "de2b6edbf7930f5dd0ffe0528b2bbcf4" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/BACKUP_LOCAL_LOCALE=/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -14,5 +14,5 @@ class Pluginilo_plugin(plugins.Base):
 			{ "version" : "/(\*|&copy;)[\s]{1,2}Copyright ([\d]{4}) Hewlett-Packard Development Company", "L\.P\./", "offset" : "1 },
 			{ "text" : "document.title="Integrated Lights Out 2: "+serverName;", "version" : "2.x" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

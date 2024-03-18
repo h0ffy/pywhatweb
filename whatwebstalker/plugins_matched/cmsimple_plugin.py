@@ -9,5 +9,5 @@ class Plugincmsimple_plugin(plugins.Base):
 			{ "text" : "<meta name="generator" content="CMSimple" },
 			{ "version" : "/<meta name="generator" content="CMSimple ([\d\.]+)[^>]*>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

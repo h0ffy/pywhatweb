@@ -10,5 +10,5 @@ class Pluginconfluence_plugin(plugins.Base):
 			{ "text" : "<li class="noprint"><a href="http://www.atlassian.com/software/confluence" class="hover-footer-link">Atlassian Confluence</a>" },
 			{ "version" : "/Powered by <a href="http:\/\/www\.atlassian\.com\/software\/confluence"[^>]*>Atlassian Confluence<\/a> ([\d\._]+)/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

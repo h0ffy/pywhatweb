@@ -12,5 +12,5 @@ class Pluginapache_archiva_plugin(plugins.Base):
 			{ "version" : "/<div class="xleft">\s+<a target="_blank" href="http:\/\/archiva\.apache\.org\/">Apache Archiva ([\d\.]+)<\/a>\s+<\/div>\s+<div class="xright">/" },
 			{ "version" : "/<div class="xleft">\s+Apache Archiva ([\d\.]+)\s+<\/div>\s+<div class="xright">/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

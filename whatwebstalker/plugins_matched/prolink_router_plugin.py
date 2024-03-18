@@ -11,5 +11,5 @@ class Pluginprolink_router_plugin(plugins.Base):
 			{ "text" : "<FRAME SRC="attention.htm" NAME="attention" FRAMEBORDER="NO" SCROLLING="NO" MARGINWIDTH="0" MARGINHEIGHT="0">" },
 			{ "md5" : "8be83109b0aaabae7737b28e666ba116", "url" : "/images/logo.gif" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -10,5 +10,5 @@ class Pluginevercookie_plugin(plugins.Base):
 			{ "url" : "evercookie.js',"text" : "*  by samy kamkar : code@samy.pl : http://samy.pl'},
 			{ "string" : /<script[^>]+src=['"]([^"^'^>]*evercookie\.js)['"][^>]*>[\s]*<\/script>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

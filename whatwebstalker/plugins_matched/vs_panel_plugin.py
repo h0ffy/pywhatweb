@@ -10,5 +10,5 @@ class Pluginvs_panel_plugin(plugins.Base):
 			{ "version" : "/&copy; [0-9]{4} \| Powered by VS PANEL v.([\d\.]+)<\/div><\/td>/" },
 			{ "version" : "/&copy; [0-9]{4} \| Powered by VS PANEL v.([\d\.]+)(<\/span>)<\/div><\/td>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

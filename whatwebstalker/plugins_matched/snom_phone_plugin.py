@@ -10,5 +10,5 @@ class Pluginsnom_phone_plugin(plugins.Base):
 			{ "text" : "You can enter a simple telephone number (e.g. 0114930398330) or URI like info@snom.com." },
 			{ "certainty" : "75", "regexp" : "/<td[^>]+>Welcome to Your Phone!<\/td>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

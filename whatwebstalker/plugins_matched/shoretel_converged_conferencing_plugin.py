@@ -10,5 +10,5 @@ class Pluginshoretel_converged_conferencing_plugin(plugins.Base):
 			{ "url" : "/branding/default/ENG-US.js", "text" : "this.product_name_long = "ShoreTel Converged Conferencing";" },
 			{ "url" : "/branding/default/ENG-US.js", "md5" : "560374321ea7b2a57e5cac1df6611e36" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

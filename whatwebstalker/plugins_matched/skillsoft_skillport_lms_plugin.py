@@ -13,5 +13,5 @@ class Pluginskillsoft_skillport_lms_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/SP[5-7]\dFE=\d+\.\d+\.\d+/" },
 			{ "search" : "headers[x-sp-fe]", "string" : /^(.+)$/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

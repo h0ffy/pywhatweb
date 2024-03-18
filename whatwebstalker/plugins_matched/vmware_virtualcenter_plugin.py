@@ -11,5 +11,5 @@ class Pluginvmware_virtualcenter_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<title>VMware Virtual Infrastructure Web Access</title>" },
 			{ "url" : "/banner.png", "md5" : "53ea8ad28aabd281be50075c4977d31b" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

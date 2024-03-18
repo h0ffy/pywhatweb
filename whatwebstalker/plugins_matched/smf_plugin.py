@@ -11,5 +11,5 @@ class Pluginsmf_plugin(plugins.Base):
 			{ "version" : "/<a href="http:\/\/www.simplemachines.org\/" title="Simple Machines Forum" target="_blank"( class="new_win")?>Powered by SMF ([^<]+)/", "offset" : "1 },
 			{ "version" : "/<a href=".*?" title="Simple Machines Forum" target="_blank" class="new_win">SMF ([^<]+)},
 		]
-	return(self.rules)
-
+		return(self.rules)
+

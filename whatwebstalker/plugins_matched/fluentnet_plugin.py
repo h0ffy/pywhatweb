@@ -8,5 +8,5 @@ class Pluginfluentnet_plugin(plugins.Base):
 			{ "ghdb" : "powered by FluentCMS from DotContent"", "certainty" : "75 },
 			{ "version" : "/<meta name="GENERATOR" content="Fluent[CMS|NET]+ ([\d\.]+) /" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

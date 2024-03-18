@@ -7,5 +7,5 @@ class Pluginthttpd_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^thttpd\/([^\s]+)/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

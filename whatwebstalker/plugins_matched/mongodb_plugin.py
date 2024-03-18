@@ -7,5 +7,5 @@ class Pluginmongodb_plugin(plugins.Base):
         self.rules = [
 			{ buildinfo:1 }">buildInfo</a> <a href="/cursorInfo?text=1" title=" example: { cursorInfo : 1 }">cursorInfo</a>'},
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -8,5 +8,5 @@ class Pluginmotorito_plugin(plugins.Base):
 			{ "text" : "<!-- end META_TAGS subst -->" },
 			{ "text" : "<!-- CAL POSAR UN DISCRIMINADOR DE NAVEGADORS PER CARREGAR ELS ESTILS ADEQUATS -->" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

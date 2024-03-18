@@ -10,5 +10,5 @@ class Pluginsite_meter_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : "<!-- Site Meter -->" },
 			{ "regexp" : "/<!-- Copyright \(c\)20[\d]{2} Site Meter -->/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

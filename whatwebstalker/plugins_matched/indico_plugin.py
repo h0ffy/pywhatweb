@@ -8,5 +8,5 @@ class Pluginindico_plugin(plugins.Base):
 			{ "text" : "<td class="menuConfTopCell" align="left" valign="bottom">" },
 			{ "version" : "/<\/span>&nbsp;Powered by(\ CERN)? <a href="http:\/\/cern\.ch\/indico">Indico ([^<]+)<\/a>&nbsp;<span class="separator">/", "offset" : "1 },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

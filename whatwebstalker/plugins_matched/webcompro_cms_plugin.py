@@ -10,5 +10,5 @@ class Pluginwebcompro_cms_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/wcp_userid_temporary=[\d]{10};/" },
 			{ "regexp" : "/<meta name="generator" content="WEBCOMpro CMS ([^\s]+) . Patrick Heyer", "www\.webcompro-cms\.com">/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

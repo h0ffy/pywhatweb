@@ -17,5 +17,5 @@ class Pluginnetwin_surgemail_plugin(plugins.Base):
 			{ "text" : "<form action="/scripts/webmail.exe" method="post" name="reloginform">" },
 			{ "version" : "/<a target="_top" href="http:\/\/netwinsite.com\/ref.htm"> WebMail v([^\ ]+) Copyright &copy; <i>NetWin Ltd<\/i>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -7,5 +7,5 @@ class Pluginclicky_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/<script[^>]+src=["'](https?:)?\/\/static\.getclicky\.com/i },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

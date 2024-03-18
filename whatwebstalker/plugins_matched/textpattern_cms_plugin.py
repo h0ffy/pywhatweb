@@ -12,5 +12,5 @@ class Plugintextpattern_cms_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://textpattern.com/" title="A flexible", "elegant and easy-to-use content management system.">Textpattern CMS</a>" },
 			{ "text" : "powered by <a href="http://textpattern.com">textpattern</a> cms" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

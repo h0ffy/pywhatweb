@@ -10,5 +10,5 @@ class Pluginkordil_edms_plugin(plugins.Base):
 			{ "url" : "/favicon.ico", "md5" : "629ccc774aed95b2c6bec91151f7292d" },
 			{ "version" : "/<center><font face="Arial" size="2">Kordil EDMS v([^<]+)<\/font><\/center>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

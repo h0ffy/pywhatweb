@@ -8,5 +8,5 @@ class Pluginvigor_router_plugin(plugins.Base):
 			{ "search" : "headers[server]", "model" : "/^(VigorAccess) Web Server$/" },
 			{ "search" : "headers[www-authenticate]", "model" : "/^Basic realm="(Login to )?Vigor ([\d]+)"$/", "offset" : "1 },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

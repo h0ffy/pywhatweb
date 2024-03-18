@@ -8,5 +8,5 @@ class Pluginfortiweb_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^FortiWeb$/" },
 			{ "search" : "headers[server]", "version" : "/^FortiWeb-([\d\.]+)$/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

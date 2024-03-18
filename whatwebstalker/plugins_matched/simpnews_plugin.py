@@ -10,5 +10,5 @@ class Pluginsimpnews_plugin(plugins.Base):
 			{ "version" : "/<br>Powered by <a class="copyright" target="_blank" href="http:\/\/www.boesch-it.de">SimpNews<\/a> V([\d\.]+) &copy;[\d]{4}[\-,]*[\d]{4} B&ouml;sch EDV-Consulting<\/font><\/td><\/tr><\/table><\/td><\/tr><\/table><\/div>/" },
 			{ "version" : "/<br>Powered by SimpNews V([\d\.]+) &copy;[\d]{4}[\-,]*[\d]{4} B&ouml;sch EDV-Consulting<\/font><\/td><\/tr><\/table><\/td><\/tr><\/table><\/div>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

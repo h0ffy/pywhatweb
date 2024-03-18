@@ -7,5 +7,5 @@ class Plugingoogle_maps_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/<script [^>]*src=["'][^>]*maps\.google\.com\/maps(\?file=api|\/api\/staticmap)/i },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

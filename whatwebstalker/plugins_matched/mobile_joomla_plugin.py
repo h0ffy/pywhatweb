@@ -7,5 +7,5 @@ class Pluginmobile_joomla_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[set-cookie]", "regexp" : "/mjmarkup=deleted;/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

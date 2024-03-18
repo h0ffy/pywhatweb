@@ -9,5 +9,5 @@ class Pluginhttpfileserver_plugin(plugins.Base):
 			{ "version" : "/^HFS (\d\.\d.+)$/", "search" : "headers[server]" },
 			{ "regexp" : "/^HFS /", "search" : "headers[server]" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

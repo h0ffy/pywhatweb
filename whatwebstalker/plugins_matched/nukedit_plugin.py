@@ -12,5 +12,5 @@ class Pluginnukedit_plugin(plugins.Base):
 			{ "version" : "/				Powered by <a href="http:\/\/www.nukedit.com" target="_blank" title="Fast web portal", "friendly with search engines">Nukedit<\/a> ([\d\.]+) /" },
 			{ "version" : "/					<span class=footer><center>Powered by Nukedit ([\d\.]+)<\/a> -/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

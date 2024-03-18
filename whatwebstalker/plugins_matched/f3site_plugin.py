@@ -10,5 +10,5 @@ class Pluginf3site_plugin(plugins.Base):
 			{ "regexp" : "/Powered by[^>]*<a[^>]*href="http:\/\/dhost.info\/compmaste[^>]*>F3Site[^<]*<\/a>/" },
 			{ "version" : "/Powered by <a href="http:\/\/compmaster.prv.pl">F3Site v([\d\.]+) plus<\/a>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

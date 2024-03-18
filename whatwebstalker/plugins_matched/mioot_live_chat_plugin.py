@@ -9,5 +9,5 @@ class Pluginmioot_live_chat_plugin(plugins.Base):
 			{ "text" : "<!-- Start LIVE CHAT image tag", "for details visit www.mioot.com -->" },
 			{ "text" : "<a href="javascript:OnOffImage(\'V\')" " },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -9,5 +9,5 @@ class Pluginmanageengine_deviceexpert_plugin(plugins.Base):
 			{ "text" : "<SCRIPT language="javascript" src="/javascript/deviceexpert.js"></SCRIPT>" },
 			{ "md5" : "f159ea86b41bc4908398a2d27f333df5" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

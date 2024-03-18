@@ -7,5 +7,5 @@ class Pluginsamsung_printer_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "var debugMode = ("$$GSI_TCPIP_IP_ADDR$$".indexOf(".")" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

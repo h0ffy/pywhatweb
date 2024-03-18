@@ -10,5 +10,5 @@ class Plugintelerik_plugin(plugins.Base):
 			{ "regexp" : "/(src|href)="\/(Telerik.Web.UI.)?WebResource.axd\?/" },
 			{ "url" : "/Telerik.Web.UI.WebResource.axd?type=rau", "text" : "{ "message" : "RadAsyncUpload handler is registered succesfully", "however", "it may not be accessed directly." }", "},
 		]
-	return(self.rules)
-
+		return(self.rules)
+

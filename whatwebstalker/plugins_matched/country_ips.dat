@@ -6,5 +6,5 @@ class Plugincountry_ips.dat(plugins.Base):
     def start(self):
         self.rules = [
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -9,5 +9,5 @@ class Pluginatomic_cms_plugin(plugins.Base):
 			{ "version" : "/Powered by AtomicCms ([\d\.]{1,15}) <a href="http:\/\/atomiccms.com\/" target="_blank">content management/" },
 			{ "url" : "favicon.ico", "md5" : "9f500a24ccbdda88cf8ae3ec7b61fc40" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -11,5 +11,5 @@ class Pluginicewarp_email_server_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/www.icewarp.com">IceWarp Software<\/a> <a href="http:\/\/www\.icewarp\.com\/Products\/Merak_Email_Server_Software\/">IceWarp Server<\/a> [^\s]+ 1999-20[\d]{2}<br \/> Version: ([\d\.]+)/" },
 			{ "text" : "<span id="cipher"><input type="checkbox" name="xcipher" value="1" >Encrypted login</span>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

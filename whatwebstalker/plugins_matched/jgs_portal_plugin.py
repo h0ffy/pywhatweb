@@ -8,5 +8,5 @@ class Pluginjgs_portal_plugin(plugins.Base):
 			{ "certainty" : "75", "ghdb" : "Powered by JGS-Portal Version"" },
 			{ "version" : "/Powered by <b>JGS-Portal Version ([\d\.]+)<\/b> &copy; /" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

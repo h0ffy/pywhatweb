@@ -9,5 +9,5 @@ class Plugindarkstat_plugin(plugins.Base):
 			{ "version" : "/<title>darkstat ([^\s]+) : graphs ([^\s^\)]+)<\/title>/" },
 			{ "search" : "headers[server]", "version" : "/^darkstat\/([^\s]+)$/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

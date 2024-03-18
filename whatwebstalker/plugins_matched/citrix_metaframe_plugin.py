@@ -9,5 +9,5 @@ class Plugincitrix_metaframe_plugin(plugins.Base):
 			{ "text" : "window.location="/Citrix/MetaFrame";" },
 			{ "text" : "<title>MetaFrame Presentation Server Log In</title>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

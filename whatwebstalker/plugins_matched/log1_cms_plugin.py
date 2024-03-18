@@ -12,5 +12,5 @@ class Pluginlog1_cms_plugin(plugins.Base):
 			{ "text" : "<link href="engine/styles/login.css.php" rel="stylesheet" type="text/css" />" },
 			{ "text" : "<img src="engine/images/logo.gif" alt="log1 CMS logo"/>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

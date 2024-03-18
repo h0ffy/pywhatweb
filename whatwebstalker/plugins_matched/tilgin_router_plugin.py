@@ -11,5 +11,5 @@ class Plugintilgin_router_plugin(plugins.Base):
 			{ "text" : "<A href="/status/" class="menuitem" title="Status">Status</A><SPAN class="separator"> </SPAN><A href="/help/" class="last menuitem" title="Help">Help</A>" },
 			{ "text" : "<LINK rel="stylesheet" type="text/css" href="/compressed-control.css">" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

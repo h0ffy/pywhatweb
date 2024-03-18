@@ -10,5 +10,5 @@ class Pluginminicwb_plugin(plugins.Base):
 			{ "text" : "<p>Powered by <a href="http://www.grafxsoftware.com/" class="text" title="Powered by CWB - small Open CMS - Content Management System">CWB</a>" },
 			{ "text" : "<a href='http://www.mini-open-cms.com' rel='external'>Powered by miniCWB</a>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

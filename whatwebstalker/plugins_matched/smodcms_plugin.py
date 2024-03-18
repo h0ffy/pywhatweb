@@ -9,5 +9,5 @@ class Pluginsmodcms_plugin(plugins.Base):
 			{ "text" : "<meta name="Authoring_Tool" content="SmodCMS // www.smod.pl" />" },
 			{ "regexp" : "/[P|p]+owered by <a href="http:\/\/www.smod.pl[\/]+"[^>]+>SmodCMS[\s]*<\/a>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -15,5 +15,5 @@ class Plugin3com_nbx_plugin(plugins.Base):
 			{ "firmware" : "/<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0"><TR><TD ALIGN="right" WIDTH="130" HEIGHT="75">[\s]+Version:(&nbsp;)?([^<]+)<BR>/", "offset" : "1 },
 			{ "model" : "/<span class="splashTitleNBX">NBX<SUP><span class="splashTitleNBXReg">&reg;<\/span><\/SUP><\/span>[\s]+<span class="splashTitlePlatform">(&nbsp;)?([^<]+)<\/span>/", "offset" : "1 },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

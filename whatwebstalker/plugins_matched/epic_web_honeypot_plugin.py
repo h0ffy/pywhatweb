@@ -9,5 +9,5 @@ class Pluginepic_web_honeypot_plugin(plugins.Base):
 			{ "version" : "/<center><font size="3" face="monospace">\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* Version ([^\s]+) \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*<\/font><\/center>/" },
 			{ "text" : "<!-- Added OS fingerprints - creds - nmap and honeyd nmap.prints file!-->" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

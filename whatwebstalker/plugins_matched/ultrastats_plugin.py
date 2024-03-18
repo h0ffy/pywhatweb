@@ -11,5 +11,5 @@ class Pluginultrastats_plugin(plugins.Base):
 			{ "text" : "<title>UltraStats :: Critical Error occured</title>" },
 			{ "version" : "/ &nbsp;<a href="http:\/\/www.ultrastats.org[\/]?" target="_blank">Ultrastats<\/a> Version ([\d\.]+)/i },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

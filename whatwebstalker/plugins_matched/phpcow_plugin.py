@@ -10,5 +10,5 @@ class Pluginphpcow_plugin(plugins.Base):
 			{ "text" : "<meta name="Description" content="PHPCow news publishing content management system" />" },
 			{ "text" : "<meta name="Keywords" content="phpcow", "news publishing", "article publishing", "cms" />" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

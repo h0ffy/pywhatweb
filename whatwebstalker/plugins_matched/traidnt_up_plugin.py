@@ -12,5 +12,5 @@ class Plugintraidnt_up_plugin(plugins.Base):
 			{ "version" : "/<div class="footer">Powered by <a href="http:\/\/traidnt.net" target="_blank">TRAIDNT UP<\/a> Version ([\d\.]+)[\s]*<\/div>/" },
 			{ "version" : "/			<span style='text-decoration: none'><font color='#000000'>Traidnt&nbsp;UP<\/font><\/span><\/a><\/font><\/span><\/b>[\r\n]{2}			Version ([\d\.]+)<\/p>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -8,5 +8,5 @@ class Pluginblogn_plus_plugin(plugins.Base):
 			{ "regexp" : "/Powered by[\s]*<a href="http:\/\/www.blogn.org[^>]*>BlognPlus/i },
 			{ "version" : "/<meta name="generator"[^>]*content="BlognPlus ([0-9\.]+)/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

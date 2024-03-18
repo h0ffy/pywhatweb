@@ -7,5 +7,5 @@ class Pluginoracle_database_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^Oracle XML DB\/Oracle Database$/", "module" : "Oracle XML DB" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

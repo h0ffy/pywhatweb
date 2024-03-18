@@ -8,5 +8,5 @@ class Pluginbase_plugin(plugins.Base):
 			{ "text" : "<!-- Basic Analysis and Security Engine (BASE) -->" },
 			{ "version" : "/<!-- Basic Analysis and Security Engine \(BASE\) ([\d\.]+ \([^\)]+\)) -->/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -7,5 +7,5 @@ class Pluginamdsoft_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/style="color: aliceblue"><span style="color: gray">Powered\s+by<\/span> <\/span><a href="http:\/\/www\.iranfairit\.com">/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

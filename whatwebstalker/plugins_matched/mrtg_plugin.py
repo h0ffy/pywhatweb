@@ -11,5 +11,5 @@ class Pluginmrtg_plugin(plugins.Base):
 			{ "name" : "Logo image", "url" : "/mrtg-l.png", "md5" : "241244d0d8845dcad7e891e84e79d63f"},
 			{ "version" : "/<title>MRTG Index Page.*version ([^<]+)<\/font><\/td>/mi},
 		]
-	return(self.rules)
-
+		return(self.rules)
+

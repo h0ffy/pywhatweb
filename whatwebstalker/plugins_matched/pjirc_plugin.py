@@ -10,5 +10,5 @@ class Pluginpjirc_plugin(plugins.Base):
 			{ "regexp" : "/				<form name="login" action="[^"]*index\.php" method="post" onsubmit="return CheckForm\('[^']*index\.php\?page=advanced'\)">/" },
 			{ "version" : "/	<td align="left">PJIRC Login Page Version ([\d\.]{1,5})<\/td>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

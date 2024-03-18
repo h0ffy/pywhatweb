@@ -11,5 +11,5 @@ class Pluginrapid_browser_plugin(plugins.Base):
 			{ "text" : "<td align="right" valign="top"><input type="image" name="login" src="images/login_button.gif" alt="Login to Rapid Browser"></td>" },
 			{ "version" : "/<link rel="stylesheet" type="text\/css" href="styles\/typeStyle-en.css\?([^"]+)">/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

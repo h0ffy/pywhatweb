@@ -7,5 +7,5 @@ class Pluginwpquiz_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/<title>[^>]*>> [Register|Login]+ - wp[q|Q]+uiz<\/title>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

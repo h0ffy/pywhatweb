@@ -7,5 +7,5 @@ class Pluginblue_coat_proxysg_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[location]", "regexp" : "/https?:\/\/proxysg\/\?cfru=[^\s]+$/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

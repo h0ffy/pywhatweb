@@ -9,5 +9,5 @@ class Pluginsocial_strata_plugin(plugins.Base):
 			{ "text" : "<a href="http://socialstrata.com/landing/goto.php?a=eve" target="_blank">Powered by Social Strata</a>" },
 			{ "version" : "/Powered by: <a target="_blank" href="http:\/\/eveforenterprise\.com">Groupee<\/a><SUP>TM<\/SUP> \(version ([\d\.]+)\) from Groupee Inc\./" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

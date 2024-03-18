@@ -9,5 +9,5 @@ class Pluginotrs_plugin(plugins.Base):
 			{ "text" : "<title>OTRS  :: Login</title>" },
 			{ "version" : "/Powered by <a href="http:\/\/otrs.org[\/]*" class="small">OTRS ([^<]+)<\/a>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

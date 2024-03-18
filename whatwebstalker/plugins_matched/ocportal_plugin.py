@@ -11,5 +11,5 @@ class Pluginocportal_plugin(plugins.Base):
 			{ "version" : "/^ocPortal ([^\(]+) \(PHP/", "search" : "headers[x-powered-by]" },
 			{ "name" : "ocp_session cookie", "regexp" : "/ocp_session=[\d]+;/", "search" : "headers[set-cookie]" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

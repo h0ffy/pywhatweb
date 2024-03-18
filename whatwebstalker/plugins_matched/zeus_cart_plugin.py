@@ -10,5 +10,5 @@ class Pluginzeus_cart_plugin(plugins.Base):
 			{ "text" : "<title>:: Zeuscart Admin Panel</title>" },
 			{ "version" : "/<title>[\s]+ZeusCart V([\d\.]+)[\s]+<\/title>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

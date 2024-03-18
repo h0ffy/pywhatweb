@@ -7,5 +7,5 @@ class Pluginphpfm_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/Powered by <a href='http:\/\/phpfm.zalon.dk\/' target='_new' class='bottom'>PHPFM<\/a> ([\d\.]+)<\/td>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

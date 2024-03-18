@@ -11,5 +11,5 @@ class Pluginpuppet_dashboard_plugin(plugins.Base):
 			{ "string" : /<p><a href="http:\/\/puppetlabs\.com\/">&copy; Copyright (20[\d]{2}) Puppet Labs<\/a><\/p>/" },
 			{ "text" : "<a href='/' style=\"background-repeat: no-repeat; text-indent: -9000px; background-image: url('/images/dashboard_logo.png'); height: 23px; width: 155px\" title='Puppet Dashboard'>Puppet Dashboard</a>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -10,5 +10,5 @@ class Pluginbiscom_delivery_server_plugin(plugins.Base):
 			{ "text" : "<link rel="ICON" href="/bds/images/icons/favicon.ico" />" },
 			{ "url" : "/bds/images/icons/favicon.ico", "md5" : "eb05f77bf80d66f0db6b1f682ff08bee" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

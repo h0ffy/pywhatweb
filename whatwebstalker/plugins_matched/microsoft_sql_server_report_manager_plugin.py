@@ -13,5 +13,5 @@ class Pluginmicrosoft_sql_server_report_manager_plugin(plugins.Base):
 			{ "text" : "<body topmargin=0 id="bodyID" class = "dtBODY"><LINK REL="stylesheet" TYPE="text/css" HREF="sql.css">" },
 			{ "search" : "headers[location]", "regexp" : "/\/Reports\/Pages\/Folder\.aspx/i },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -11,5 +11,5 @@ class Pluginliferay_plugin(plugins.Base):
 			{ "search" : "headers[liferay-portal]", "version" : "/^Liferay Portal (.+ Edition) (.+)$/", "offset" : "1 },
 			{ "search" : "headers[set-cookie]", "regexp" : "/GUEST_LANGUAGE_ID=[a-z]{2,3}_[A-Z]{2,3};/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

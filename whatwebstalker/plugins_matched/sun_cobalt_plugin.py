@@ -12,5 +12,5 @@ class Pluginsun_cobalt_plugin(plugins.Base):
 			{ "certainty" : "25", "regexp" : "/<P ALIGN="CENTER"><FONT SIZE="5" COLOR="#000099" FACE="HELVETICA", "ARIAL"><B>Welcome to the Web Site of [^\s^<]+<\/B><\/FONT>/" },
 			{ "certainty" : "75", "text" : "<HTML><BODY onLoad=\"location='/login.php'\"></BODY></HTML>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -7,5 +7,5 @@ class Pluginpacketwave_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "<td bgcolor="#cccccc" colspan=2 align="center"><input type="button" name="goto" value="Log On" onClick="encode_submit(this.form)">" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

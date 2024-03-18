@@ -11,5 +11,5 @@ class Pluginorangehrm_plugin(plugins.Base):
 			{ "version" : "/<div id="divFooter" >\s+<span id="spanCopyright">\s+<a href="http:\/\/www\.orangehrm\.com" target="_blank">OrangeHRM<\/a>\s+ver ([^&]+) &copy; OrangeHRM Inc/" },
 			{ "version" : "/<td align="center"><a href="http:\/\/www\.orangehrm\.com" target="_blank">OrangeHRM<\/a> ver ([^\s]+) &copy; OrangeHRM Inc/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -7,5 +7,5 @@ class Pluginsharethis_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/<script [^>]*src=["|'][^"^']+w\.sharethis\.com\//i },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

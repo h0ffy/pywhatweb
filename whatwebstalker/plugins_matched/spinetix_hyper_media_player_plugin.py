@@ -10,5 +10,5 @@ class Pluginspinetix_hyper_media_player_plugin(plugins.Base):
 			{ "text" : "<img src='images/device_hmp100.jpg' width='550' height='323' alt='SpinetiX HMP100' usemap='#advancedMap'/>", "model" : "HMP100", "string" : "Admin" },
 			{ "text" : "<link rel='shortcut icon' href='css/ithemeSpinetix_favicon.ico' type='image/x-icon' />", "model" : "HMP100", "string" : "Admin" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -10,5 +10,5 @@ class Pluginpragmamx_plugin(plugins.Base):
 			{ "module" : /<!-- (pmx-templatesystem v[^\s^\/]+)\/20[\d]{2}-[\d]{2}-[\d]{2} -->/" },
 			{ "version" : "/<p>Diese Webseite basiert auf pragmaMx ([^\s]+)\.<\/p>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

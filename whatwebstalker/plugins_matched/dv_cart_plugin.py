@@ -8,5 +8,5 @@ class Plugindv_cart_plugin(plugins.Base):
 			{ "text" : "<div id="KT_tngdeverror"><label>Message:</label><div>You must have the proper credentials to access this page. Please login.</div></div>" },
 			{ "text" : "<table cellpadding="2" cellspacing="0" class="KT_tngtable">" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

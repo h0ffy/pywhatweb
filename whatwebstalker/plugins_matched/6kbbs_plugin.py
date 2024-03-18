@@ -10,5 +10,5 @@ class Plugin6kbbs_plugin(plugins.Base):
 			{ "text" : "<meta name="author" content="www.6kbbs.com" />" },
 			{ "version" : "/Powered by <a href="http:\/\/www\.6kbbs\.com" target="_blank">6kbbs V([^<^\s]+)<\/a> &copy; 2003-20[\d]{2}/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

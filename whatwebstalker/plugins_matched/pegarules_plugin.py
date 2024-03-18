@@ -14,5 +14,5 @@ class Pluginpegarules_plugin(plugins.Base):
 			{ "text" : "<HEAD><H3>Unable to logon to the PegaRULES system.</H3></HEAD>" },
 			{ "regexp" : "/<TR><TD>\s+<FONT face="Helvetica">\s+Your system policy has denied access to the requested URL\.\s+<\/FONT>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

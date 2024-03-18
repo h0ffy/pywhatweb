@@ -13,5 +13,5 @@ class Pluginwebguard_plugin(plugins.Base):
 			{ "url" : "/images/login_back.gif", "md5" : "4617667f3ec03b31a9971ff1c03da57e" },
 			{ "md5" : "457dff12099372b8415b29e2e50c3910" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

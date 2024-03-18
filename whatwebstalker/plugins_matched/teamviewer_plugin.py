@@ -7,5 +7,5 @@ class Pluginteamviewer_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "<html><body>This site is running <a href='http://www.TeamViewer.com'>TeamViewer</a>.</body></html>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

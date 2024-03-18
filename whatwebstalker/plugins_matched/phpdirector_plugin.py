@@ -7,5 +7,5 @@ class Pluginphpdirector_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/<a href="http:\/\/www.phpdirector.co.uk\/">Powered by PHP Director ([\d\.]+)<\/a>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

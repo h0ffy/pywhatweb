@@ -11,5 +11,5 @@ class Pluginwhmcs_plugin(plugins.Base):
 			{ "version" : "/<tr><td bgcolor="#efefef" height="20" align="center"><a href="index\.php">Home<\/a> \| <a href="clients\.php">Clients<\/a> \| <a href="supporttickets\.php">Tickets<\/a> \| <a href="orders\.php">Orders<\/a> \| <a href="activitylog\.php">Activity<\/a> \| <a href="logout\.php">Logout<\/a><\/td><\/tr>[\s]+<tr><td align="center">[^,^\s]+", "[^<]+<br \/>Version: ([^<^\s]+)<\/td><\/tr>/" },
 			{ "text" : "<p>Got a new license key?  <a href="licenseerror.php?licenseerror=change">Click here to enter it</a></p>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

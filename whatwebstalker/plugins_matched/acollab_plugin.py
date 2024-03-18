@@ -7,5 +7,5 @@ class Pluginacollab_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "<title>ACollab : Accessible Collaboration Environment:" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -9,5 +9,5 @@ class Pluginseditio_plugin(plugins.Base):
 			{ "text" : "<a href="http://www.neocrome.net">Powered by Seditio</a><br />" },
 			{ "text" : "<br />Powered by <a href="http://www.neocrome.net" target="_blank">Seditio</a>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

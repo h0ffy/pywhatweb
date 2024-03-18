@@ -7,5 +7,5 @@ class Pluginclicktale_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "<div id="ClickTaleDiv" style="display: none;"></div>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -8,5 +8,5 @@ class Plugindxsock_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^RemObjects DXSock Web Server/" },
 			{ "search" : "headers[user-agent]", "regexp" : "/^RemObjects SDK$/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

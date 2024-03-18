@@ -10,5 +10,5 @@ class Plugintimesheet_ng_plugin(plugins.Base):
 			{ "text" : "<td><img class="login_image" src="images/spacer.gif"></td>" },
 			{ "text" : "<META name="description" content="Timesheet Next Gen">" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

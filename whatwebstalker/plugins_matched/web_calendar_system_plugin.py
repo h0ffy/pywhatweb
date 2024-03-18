@@ -8,5 +8,5 @@ class Pluginweb_calendar_system_plugin(plugins.Base):
 			{ "certainty" : "25", "ghdb" : "+intitle:"Web Calendar system v" inurl:.asp" },
 			{ "version" : "/<TITLE>Web Calendar system v ([\.\d]+)<\/TITLE>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

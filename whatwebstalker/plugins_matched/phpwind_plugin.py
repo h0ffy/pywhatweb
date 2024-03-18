@@ -10,5 +10,5 @@ class Pluginphpwind_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.phpwind.net/" target="_blank"><b>PHPWind</b></a>" },
 			{ "version" : "/Powered by <a href="http:\/\/www.phpwind.net\/" target="_blank"><b>PHPWind<\/b><\/a>[\s]*<a href="http:\/\/www.phpwind.net\/" target="_blank"><b style="color:#FF9900">v([\d\.]+)<\/b><\/a>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

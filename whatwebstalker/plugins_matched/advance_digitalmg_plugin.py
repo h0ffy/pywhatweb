@@ -6,5 +6,5 @@ class Pluginadvance_digitalmg_plugin(plugins.Base):
     def start(self):
         self.rules = [
 		]
-	return(self.rules)
-
+		return(self.rules)
+

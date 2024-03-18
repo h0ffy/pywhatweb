@@ -15,5 +15,5 @@ class Pluginarris_touchstone_router_plugin(plugins.Base):
 			{ "url" : "/cgi-bin/vers_cgi", "model" : "/HW_REV: [^<]+<br>[\s]+VENDOR: Arris Interactive", "L\.L\.C\.<br>[\s]+BOOTR: [^<]+<br>[\s]+SW_REV: ([^\s^<]+)<br>[\s]+MODEL: ([^\s^<]+)<\/td>/", "offset" : "1 },
 			{ "url" : "/vers.htm", "model" : "/<BR> SW_REV: ([^\s^<]+)<BR> MODEL: ([^\s^<]+)  <\/TD><\/TR><tr vAlign=top><td width="170">Product Type:<\/td>/", "offset" : "1 },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

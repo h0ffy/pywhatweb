@@ -10,5 +10,5 @@ class Pluginphpmysport_plugin(plugins.Base):
 			{ "text" : "<div id="footer">R&eacute;alisation phpMySport" },
 			{ "text" : "/tpl_image/by_phpmysport.gif" border="0"" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

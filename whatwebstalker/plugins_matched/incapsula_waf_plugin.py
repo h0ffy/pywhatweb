@@ -9,5 +9,5 @@ class Pluginincapsula_waf_plugin(plugins.Base):
 			{ "name" : "Set-cookie Header", "search" : "headers[set-cookie]", "regexp" : "/incap_visid_83_/i},
 			{ "name" : "visid_incap_ cookie", "search" : "headers[set-cookie]", "regexp" : "/^visid_incap_/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

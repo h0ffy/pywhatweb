@@ -7,5 +7,5 @@ class Pluginxavante_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^Xavante (.+)$/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -9,5 +9,5 @@ class Pluginlandshop_plugin(plugins.Base):
 			{ "text" : "<div class="more CAT" style="height:20px;margin:5px 0px 10px 0px;text-align:right"><a class="item fat"  href="ls.php?" },
 			{ "text" : "<!--<A href="<#G_ADMIN_URL#>/action/contacts.php?action=list"><#list_contacts#></a>-->" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -10,5 +10,5 @@ class Pluginitop_plugin(plugins.Base):
 			{ "text" : "<title>iTop Login</title>" },
 			{ "version" : "/<div id="login-logo"><a href="http:\/\/www\.combodo\.com\/itop"><img title="iTop [^\s]+ ([^\s^"]+)" src="\.\.\/images\/itop-logo/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

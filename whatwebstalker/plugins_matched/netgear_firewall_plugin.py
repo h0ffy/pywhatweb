@@ -7,5 +7,5 @@ class Pluginnetgear_firewall_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^NETGEAR Firewall$/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

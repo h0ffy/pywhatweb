@@ -13,5 +13,5 @@ class Pluginflax_article_manager_plugin(plugins.Base):
 			{ "text" : "<td><a href="http://www.flaxweb.com/products/articles">For more details about Flax article manager (CMS) please click " },
 			{ "version" : "/[\s]+Copyright [0-9]{4} &copy; Flax Article Manager v([\d\.]+)<\/div>/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

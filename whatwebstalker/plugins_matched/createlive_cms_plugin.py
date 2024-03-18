@@ -9,5 +9,5 @@ class Plugincreatelive_cms_plugin(plugins.Base):
 			{ "version" : "/<!--By CreateLiveCms (\d)\.00-->/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/Kill=kill=(Yes|No)/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

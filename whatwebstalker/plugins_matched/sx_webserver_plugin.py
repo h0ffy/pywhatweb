@@ -13,5 +13,5 @@ class Pluginsx_webserver_plugin(plugins.Base):
 			{ "status" : "505", "text" : "<head></head><body><html><h1>Error 505</h1><p>HTTP Version not supported.  This server supports HTTP 1.0 and HTTP 1.1.</html></body>\r\n" },
 			{ "search" : "headers[server]", "version" : "/^SX Webserver ([\d\.]{1,5})/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

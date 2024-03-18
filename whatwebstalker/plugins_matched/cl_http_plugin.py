@@ -8,5 +8,5 @@ class Plugincl_http_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^CL-HTTP\/([^\s]+)/" },
 			{ "search" : "headers[server]", "string" : /^CL-HTTP\/[^\s]+ \(([^\)]+)\)/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

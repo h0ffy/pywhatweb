@@ -12,5 +12,5 @@ class Plugintutortrac_plugin(plugins.Base):
 			{ "url" : "/TutorTrac/favicon.ico", "md5" : "c56dda95e69b50c4b3802919aab0e950" },
 			{ "url" : "/TracWeb40/favicon.ico", "md5" : "365ccabab0c04ec5c6a9721725b76c36" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

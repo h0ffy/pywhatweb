@@ -7,5 +7,5 @@ class Pluginpagecookery_microblog_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/Powered by <a href="http:\/\/pagecookery.com\/" target="_blank">PageCookery<\/a> Microblog ([\d\.]{1,5})/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

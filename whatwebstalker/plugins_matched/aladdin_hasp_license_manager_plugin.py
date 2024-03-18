@@ -7,5 +7,5 @@ class Pluginaladdin_hasp_license_manager_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^HASP LM\/([^\s]+)$/" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

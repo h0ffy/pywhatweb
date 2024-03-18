@@ -12,5 +12,5 @@ class Pluginsyndeocms_plugin(plugins.Base):
 			{ "version" : "/<div class="meta"><center>Powered by <a href="http:\/\/www.syndeoCMS.org\/" target="_blank">SyndeoCMS ([\d\.]+)<\/a>/" },
 			{ "text" : "<!-- Please don't remove my credits! I worked hard to create this theme and distribute it freely. Thanks! -->" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

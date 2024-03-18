@@ -18,5 +18,5 @@ class Plugininvision_power_board_plugin(plugins.Base):
 			{ "version" : "/Invision Power Board<\/a>[\s]+v([0-9\.]+) &copy;/", "name" : "powered by 3" },
 			{ "version" : "/Invision Power Board<\/a>([^&]+)&copy; 20[0-9]+ &nbsp;<a href='http:\/\/www\.invisionpower\.com'/", "name" : "powered by 4" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

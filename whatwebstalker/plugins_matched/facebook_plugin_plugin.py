@@ -7,5 +7,5 @@ class Pluginfacebook_plugin_plugin(plugins.Base):
         self.rules = [
 			{ "string" : /<i?frame[^>]+src[\s]*="http:\/\/(www|apps)\.facebook.com\/plugins\/([^\.^\/^\?]+)\.php\?/i", "offset" : "1 },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

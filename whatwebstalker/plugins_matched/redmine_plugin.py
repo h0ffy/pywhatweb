@@ -10,5 +10,5 @@ class Pluginredmine_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : "<meta name="description" content="Redmine" />" },
 			{ "status" : "404", "text" : "<title>redMine 404 error</title>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

@@ -11,5 +11,5 @@ class Pluginrainmail_plugin(plugins.Base):
 			{ "text" : "<div align="center">.: <b>Rainmail Intranet Login </b> :.</div>" },
 			{ "url" : "/chpasswd.php", "text" : "<TD><font color="ffffff" size="1"face="Verdana", "Arial", "Helvetica", "sans-serif">Rainmail is a product of :</font></TD>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

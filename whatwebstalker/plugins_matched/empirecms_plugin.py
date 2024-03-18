@@ -7,5 +7,5 @@ class Pluginempirecms_plugin(plugins.Base):
         self.rules = [
 			{ "text" : " - Powered by EmpireCMS</title>" },
 		]
-	return(self.rules)
-
+		return(self.rules)
+

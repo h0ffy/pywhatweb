@@ -10,5 +10,5 @@ class Plugininout_article_base_plugin(plugins.Base):
 			{ "text" : "<title>Inout ArticleBase - Login</title>" },
 			{ "text" : " href="http://www.inoutscripts.com/?r=0">Powered by Inoutscripts</a>", "certainty" : "75 },
 		]
-	return(self.rules)
-
+		return(self.rules)
+
