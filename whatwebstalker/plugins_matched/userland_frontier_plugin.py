@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class userland_frontier_plugin.py_plugin:
+class userland_frontier_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

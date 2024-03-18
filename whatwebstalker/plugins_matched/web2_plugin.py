@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class web2_plugin.py_plugin:
+class web2_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

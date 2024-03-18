@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class country_ips.dat_plugin:
+class country_ips.dat:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

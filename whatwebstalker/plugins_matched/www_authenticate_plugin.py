@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class www_authenticate_plugin.py_plugin:
+class www_authenticate_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class wiseguy_plugin.py_plugin:
+class wiseguy_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

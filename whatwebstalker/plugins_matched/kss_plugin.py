@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class kss_plugin.py_plugin:
+class kss_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

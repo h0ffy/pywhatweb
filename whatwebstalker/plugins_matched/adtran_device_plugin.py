@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class adtran_device_plugin.py_plugin:
+class adtran_device_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

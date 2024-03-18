@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class jboss_plugin.py_plugin:
+class jboss_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

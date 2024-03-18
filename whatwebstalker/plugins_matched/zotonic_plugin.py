@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class zotonic_plugin.py_plugin:
+class zotonic_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

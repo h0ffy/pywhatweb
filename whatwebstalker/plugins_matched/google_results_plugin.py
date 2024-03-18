@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class google_results_plugin.py_plugin:
+class google_results_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

@@ -1,11 +1,12 @@
 import sys
 import os
 			
-class blogsmithmedia_plugin.py_plugin:
+class blogsmithmedia_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
+			{ "certainty" : '75", "regexp" : '/<script [^>]*\"http:\/\/www.blogsmithmedia.com}
 		]
 

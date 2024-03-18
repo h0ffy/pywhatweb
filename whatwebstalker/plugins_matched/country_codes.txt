@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class country_codes.txt_plugin:
+class country_codes.txt:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

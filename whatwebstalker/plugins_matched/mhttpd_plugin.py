@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class mhttpd_plugin.py_plugin:
+class mhttpd_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

@@ -1,11 +1,13 @@
 import sys
 import os
 			
-class cl_http_plugin.py_plugin:
+class cl_http_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
         self.rules = 
         [
+			{ "search" : 'headers[server]", "version" : '/^CL-HTTP\/([^\s]+)/ }
+			{ "search" : 'headers[server]", "string" : /^CL-HTTP\/[^\s]+ \(([^\)]+)\)/ }
 		]
 

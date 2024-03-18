@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class vcard_plugin.py_plugin:
+class vcard_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class apache_flink_plugin.py_plugin:
+class apache_flink_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

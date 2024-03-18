@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class nop_commerce_plugin.py_plugin:
+class nop_commerce_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

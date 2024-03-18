@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class navicopa_plugin.py_plugin:
+class navicopa_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

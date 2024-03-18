@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class wix_plugin.py_plugin:
+class wix_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

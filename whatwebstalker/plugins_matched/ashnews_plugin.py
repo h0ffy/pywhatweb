@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class ashnews_plugin.py_plugin:
+class ashnews_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

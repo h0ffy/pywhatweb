@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class smugmug_plugin.py_plugin:
+class smugmug_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

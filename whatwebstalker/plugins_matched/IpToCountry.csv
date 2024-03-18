@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class IpToCountry.csv_plugin:
+class IpToCountry.csv:
     def get_rules(self):
         return(self.rules)
     def __init__(self):

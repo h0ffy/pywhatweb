@@ -1,7 +1,7 @@
 import sys
 import os
 			
-class microsoft_odbc_error_plugin.py_plugin:
+class microsoft_odbc_error_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
