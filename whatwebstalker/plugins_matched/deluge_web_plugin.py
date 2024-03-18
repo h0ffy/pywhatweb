@@ -8,4 +8,3 @@ class Plugindeluge_web_plugin(plugins.Base):
 			{ "version" : "/<title>Deluge: Web UI ([^<]+)<\/title>},
 		]
 		return(self.rules)
-

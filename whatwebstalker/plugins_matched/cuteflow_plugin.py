@@ -9,4 +9,3 @@ class Plugincuteflow_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/^strMyLanguage=/" },
 		]
 		return(self.rules)
-

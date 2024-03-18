@@ -9,4 +9,3 @@ class Pluginzoph_plugin(plugins.Base):
 			{ "text" : "<title>Zoph - Home</title>" },
 		]
 		return(self.rules)
-

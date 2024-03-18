@@ -7,4 +7,3 @@ class Plugindell_openmanage_switch_administrator_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

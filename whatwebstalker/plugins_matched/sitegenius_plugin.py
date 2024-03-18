@@ -9,4 +9,3 @@ class Pluginsitegenius_plugin(plugins.Base):
 			{ "regexp" : "/var PortalBrowser = window.open\('popup.php\?page_type='\+page_type\+'&lang=[A-Z]{2}&page_id='\+pgid(\+addToURL)?", "'", "myFeatures\); /" },
 		]
 		return(self.rules)
-

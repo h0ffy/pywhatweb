@@ -9,4 +9,3 @@ class Pluginrapidleech_plugin(plugins.Base):
 			{ "regexp" : "/<small[^>]+>Credits to Pramode &amp; Checkmate &amp; Kloon. Mod by: MsNeil &amp; Idoenk<\/small><br/", "module" : "PlugMod" },
 		]
 		return(self.rules)
-

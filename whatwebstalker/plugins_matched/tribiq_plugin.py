@@ -17,4 +17,3 @@ class Plugintribiq_plugin(plugins.Base):
 			{ "text" : "<title>Tribiq CMS Administrator Login</title>" },
 		]
 		return(self.rules)
-

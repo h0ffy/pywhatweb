@@ -10,4 +10,3 @@ class Pluginredaxscript_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/redaxscript\.com" title="Redaxscript">Redaxscript<\/a> ([^\s^<]+)</" },
 		]
 		return(self.rules)
-

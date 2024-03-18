@@ -11,4 +11,3 @@ class Plugincpcommerce_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://cpcommerce.org/" target="_blank">cpCommerce</a>." },
 		]
 		return(self.rules)
-

@@ -8,4 +8,3 @@ class Pluginliteradius_plugin(plugins.Base):
 			{ "ghdb" : "inurl:locator.php parsed_page lat long" },
 		]
 		return(self.rules)
-

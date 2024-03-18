@@ -7,4 +7,3 @@ class Pluginmicrosoft_sharepoint_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

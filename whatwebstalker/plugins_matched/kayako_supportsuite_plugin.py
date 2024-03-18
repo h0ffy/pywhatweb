@@ -15,4 +15,3 @@ class Pluginkayako_supportsuite_plugin(plugins.Base):
 			{ "text" : "<div id="bottomfooter" class="bottomfooterpadding"><a href="http://www.kayako.com" target="_blank" class="bottomfooterlink">Help Desk Software"'},
 		]
 		return(self.rules)
-

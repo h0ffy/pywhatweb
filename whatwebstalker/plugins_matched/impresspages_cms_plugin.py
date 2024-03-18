@@ -14,4 +14,3 @@ class Pluginimpresspages_cms_plugin(plugins.Base):
 			{ "text" : "<span id="modCommunityNewsletterError" class="error">Incorrect e-mail address</span>" },
 		]
 		return(self.rules)
-

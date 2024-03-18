@@ -9,4 +9,3 @@ class Pluginmanaged_fusion_url_rewriter_plugin(plugins.Base):
 			{ "search" : "headers[x-managedfusion-rewriter-version]", "version" : "/^(.+)$/" },
 		]
 		return(self.rules)
-

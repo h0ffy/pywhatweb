@@ -15,4 +15,3 @@ class Pluginsony_projector_plugin(plugins.Base):
 			{ "url" : "/info_data.htm", "version" : "/^var info_other_value = \[[\s]+' ?([^\s^']+)'/" },
 		]
 		return(self.rules)
-

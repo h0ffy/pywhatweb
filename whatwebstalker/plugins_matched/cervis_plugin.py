@@ -9,4 +9,3 @@ class Plugincervis_plugin(plugins.Base):
 			{ "string" : /<meta name="title" content="(Volunteer)? Opportunities and Event Registration ([^"]+)" \/>/", "offset" : "1 },
 		]
 		return(self.rules)
-

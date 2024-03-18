@@ -10,4 +10,3 @@ class Pluginzope_plugin(plugins.Base):
 			{ "search" : "headers[server]", "string" : /Zope\/\([^,]*", "[^,]*", "([^\)^\s]*)/" },
 		]
 		return(self.rules)
-

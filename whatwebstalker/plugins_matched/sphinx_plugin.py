@@ -9,4 +9,3 @@ class Pluginsphinx_plugin(plugins.Base):
 			{ "regexp" : "/<div class="sphinxsidebar">[\s]+<div class="sphinxsidebarwrapper">/" },
 		]
 		return(self.rules)
-

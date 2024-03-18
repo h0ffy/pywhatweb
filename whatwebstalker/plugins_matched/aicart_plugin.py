@@ -11,4 +11,3 @@ class Pluginaicart_plugin(plugins.Base):
 			{ "text" : "<input name="APP_authenticate" type="hidden" id="APP_authenticate" value="frmLogin" />" },
 		]
 		return(self.rules)
-

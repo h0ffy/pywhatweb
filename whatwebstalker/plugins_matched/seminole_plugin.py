@@ -8,4 +8,3 @@ class Pluginseminole_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Seminole\/([^\s]+)/" },
 		]
 		return(self.rules)
-

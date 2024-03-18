@@ -9,4 +9,3 @@ class Pluginthink_plus_plugin(plugins.Base):
 			{ "text" : "<meta name="author" CONTENT="Think+">" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Pluginjw_player_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

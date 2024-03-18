@@ -8,4 +8,3 @@ class Pluginiscripts_reservelogic_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.iscripts.com/reservelogic/" target="_blank">iScripts ReserveLogic</a> . A premium product from <a href="http://www.iscripts.com" target="_blank">iScripts.com</a></td>" },
 		]
 		return(self.rules)
-

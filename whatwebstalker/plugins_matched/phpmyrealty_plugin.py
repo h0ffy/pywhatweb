@@ -10,4 +10,3 @@ class Pluginphpmyrealty_plugin(plugins.Base):
 			{ "text" : "<span class="table_header_text"> &nbsp;Administrator Control Panel</span>" },
 		]
 		return(self.rules)
-

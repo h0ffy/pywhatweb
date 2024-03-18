@@ -8,4 +8,3 @@ class Pluginsabnzbd_plugin(plugins.Base):
 			{ "regexp" : "/    <form action="\/sabnzbd\/[^"]*" method="POST">/" },
 		]
 		return(self.rules)
-

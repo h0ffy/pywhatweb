@@ -17,4 +17,3 @@ class Pluginadcon_telemetry_gateway_plugin(plugins.Base):
 			{ "model" : "/<body onload="onLoadChangeConfiguratorLinks\(\)">[\s]+<h1 class="line1">([^\s]+) Telemetry Gateway<\/h1>/" },
 		]
 		return(self.rules)
-

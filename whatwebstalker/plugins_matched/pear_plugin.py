@@ -11,4 +11,3 @@ class Pluginpear_plugin(plugins.Base):
 			{ "filepath" : "/<tr class="v">\s+<td class="e">www_dir<\/td>\s+<td>([^<]+)<\/td>\s+<\/tr>/" },
 		]
 		return(self.rules)
-

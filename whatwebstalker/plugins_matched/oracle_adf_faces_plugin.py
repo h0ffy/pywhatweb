@@ -12,4 +12,3 @@ class Pluginoracle_adf_faces_plugin(plugins.Base):
 			{ "text" : "<script>var _AdfWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.';</script>" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Pluginopennewsletter_plugin(plugins.Base):
 			{ "text" : "This is a Free & Open Source mailing list manager developed by <a href="http://www.quadronet.net">Quadro Net</a> and distributed under the LGPL license. This software is based on the OpenNewsletter project by <a href="http://www.selfexile.com" target="_blank">Self Exile</a> and NmnNewsletter by <a href="http://netmeans.net">NetMeans.Net</a>.", "string" : "Build: Quadro.Net" },
 		]
 		return(self.rules)
-

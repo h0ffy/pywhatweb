@@ -10,4 +10,3 @@ class Pluginskalinks_plugin(plugins.Base):
 			{ "text" : "Powered by <a class=sub_cat rel="nofollow" href="http://www.skalinks.com">SkaLinks - Link Exchange Script" },
 		]
 		return(self.rules)
-

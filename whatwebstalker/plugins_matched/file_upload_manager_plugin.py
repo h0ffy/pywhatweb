@@ -12,4 +12,3 @@ class Pluginfile_upload_manager_plugin(plugins.Base):
 			{ "version" : "/<!-- File Upload Manager v([\d\.]+[^>]+) -->/" },
 		]
 		return(self.rules)
-

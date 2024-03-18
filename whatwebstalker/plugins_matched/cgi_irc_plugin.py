@@ -19,4 +19,3 @@ class Plugincgi_irc_plugin(plugins.Base):
 			{ "string" : /^bgcolor="#f1f1f1"><select name="Server" style="width: 100%"[^>]*><option[^>]*>([^<]*)<\/option>/" },
 		]
 		return(self.rules)
-

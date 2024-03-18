@@ -9,4 +9,3 @@ class Pluginnet2phone_plugin(plugins.Base):
 			{ "model" : "/<P align=center><IMG border=0[\s]+src="([a-zA-Z]{2}[\d]+[a-zA-Z]?)\.gif" width="/" },
 		]
 		return(self.rules)
-

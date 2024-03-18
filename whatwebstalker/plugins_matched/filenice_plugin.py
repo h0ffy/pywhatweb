@@ -11,4 +11,3 @@ class Pluginfilenice_plugin(plugins.Base):
 			{ "text" : "	<meta name="generator" content="the fantabulous mechanical eviltwin code machine" />" },
 		]
 		return(self.rules)
-

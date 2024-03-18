@@ -14,4 +14,3 @@ class Pluginwsn_knowledge_base_plugin(plugins.Base):
 			{ "text" : "<textarea readonly rows="20" cols="75">WSN Knowledge Base License Agreement" },
 		]
 		return(self.rules)
-

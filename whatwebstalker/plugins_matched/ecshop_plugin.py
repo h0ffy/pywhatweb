@@ -9,4 +9,3 @@ class Pluginecshop_plugin(plugins.Base):
 			{ "version" : "/<meta name="Generator" content="ECSHOP v([\d\.]+)" \/>/" },
 		]
 		return(self.rules)
-

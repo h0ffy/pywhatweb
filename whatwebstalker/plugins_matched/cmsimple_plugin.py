@@ -10,4 +10,3 @@ class Plugincmsimple_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="CMSimple ([\d\.]+)[^>]*>/" },
 		]
 		return(self.rules)
-

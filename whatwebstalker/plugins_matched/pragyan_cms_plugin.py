@@ -9,4 +9,3 @@ class Pluginpragyan_cms_plugin(plugins.Base):
 			{ "version" : "/powered by <a href="http:\/\/sourceforge.net\/projects\/pragyan" title="(Praygan|Probe) CMS">Pragyan CMS v([\d\.]+)<\/a>/", "offset" : "1 },
 		]
 		return(self.rules)
-

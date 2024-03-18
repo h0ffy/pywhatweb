@@ -9,4 +9,3 @@ class Pluginphp_shell_plugin(plugins.Base):
 			{ "version" : "/PHPShell by [a-zA-Z0-9]+ - Version ([0-9a-z\.]+)/" },
 		]
 		return(self.rules)
-

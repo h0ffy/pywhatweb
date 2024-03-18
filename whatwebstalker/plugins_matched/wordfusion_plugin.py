@@ -9,4 +9,3 @@ class Pluginwordfusion_plugin(plugins.Base):
 			{ "text" : "<param name="source" value="ClientBin/WordFusion.Web.xap">" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginphpshop_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/www.phpshop.org"[^>]*>phpShop<\/a>[\r\n\s]+([\d\.]+) /" },
 		]
 		return(self.rules)
-

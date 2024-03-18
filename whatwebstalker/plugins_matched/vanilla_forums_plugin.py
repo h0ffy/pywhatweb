@@ -11,4 +11,3 @@ class Pluginvanilla_forums_plugin(plugins.Base):
 			{ "certainty" : "25", "regexp" : "/<body id=["'](DiscussionsPage|vanilla)/i },
 		]
 		return(self.rules)
-

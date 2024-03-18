@@ -9,4 +9,3 @@ class Pluginclearwell_e_discovery_plugin(plugins.Base):
 			{ "url" : "/esa/", "text" : "<title>Clearwell E-Discovery Platform log in</title>" },
 		]
 		return(self.rules)
-

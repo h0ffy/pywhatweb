@@ -9,4 +9,3 @@ class Pluginfrog_cms_plugin(plugins.Base):
 			{ "name" : "default rss feed", "text" : "<link rel="alternate" type="application/rss+xml" title="Frog Default RSS Feed"'},
 		]
 		return(self.rules)
-

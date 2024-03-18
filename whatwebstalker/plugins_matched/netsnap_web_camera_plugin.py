@@ -11,4 +11,3 @@ class Pluginnetsnap_web_camera_plugin(plugins.Base):
 			{ "text" : "<p align="center"><font face="Arial"><small><small>NetSnap is a registered Trademark of" },
 		]
 		return(self.rules)
-

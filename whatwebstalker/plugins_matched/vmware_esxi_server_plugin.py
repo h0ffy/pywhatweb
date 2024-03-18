@@ -10,4 +10,3 @@ class Pluginvmware_esxi_server_plugin(plugins.Base):
 			{ "text" : "<h1><script type="text/javascript">document.write(ID_EESXServer3);</script></h1>" },
 		]
 		return(self.rules)
-

@@ -8,4 +8,3 @@ class Pluginbaap_mobile_version_plugin(plugins.Base):
 			{ "search" : "headers[x-mobilized-by]", "version" : "/^BAAP Mobile Version ([^\s]+)$/" },
 		]
 		return(self.rules)
-

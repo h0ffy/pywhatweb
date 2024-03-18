@@ -11,4 +11,3 @@ class Plugincisco_ace_plugin(plugins.Base):
 			{ "model" : "/<div class="cuesLoginProductName">ACE ([^\s]+) Device Manager<\/div>/" },
 		]
 		return(self.rules)
-

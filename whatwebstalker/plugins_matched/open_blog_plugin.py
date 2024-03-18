@@ -11,4 +11,3 @@ class Pluginopen_blog_plugin(plugins.Base):
 			{ "version" : "/			<a href="install.php">Install Open Blog<\/a> - choose this option", "if you would like to install Open Blog ([\d\.]+)<br \/>/" },
 		]
 		return(self.rules)
-

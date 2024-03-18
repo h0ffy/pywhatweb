@@ -19,4 +19,3 @@ class Plugincoldfusion_plugin(plugins.Base):
 			{ "name" : "File extension", "regexp" : "/^(cfm|cfc)$/", "search" : "uri.extension" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Plugindeluxebb_plugin(plugins.Base):
 			{ "version" : "/<p><a href="http:\/\/www.deluxebb.com" target="_blank">DeluxeBB ([\d\.]+)<\/a> is copyrighted to the DeluxeBB team '05/" },
 		]
 		return(self.rules)
-

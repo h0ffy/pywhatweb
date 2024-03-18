@@ -11,4 +11,3 @@ class Pluginlinksys_usb_hdd_plugin(plugins.Base):
 			{ "model" : "/	 <td align="center" width="100" class="mname">([^<]+)<\/td>/" },
 		]
 		return(self.rules)
-

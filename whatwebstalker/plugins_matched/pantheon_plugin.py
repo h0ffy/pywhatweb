@@ -9,4 +9,3 @@ class Pluginpantheon_plugin(plugins.Base):
 			{ "search" : "headers", "regexp" : "/HTTP\/1\.[01] 404 Unknown site\!/" },
 		]
 		return(self.rules)
-

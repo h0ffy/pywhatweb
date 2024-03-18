@@ -13,4 +13,3 @@ class Pluginbugfree_plugin(plugins.Base):
 			{ "text" : "<td><input type="password" name="BugUserPWD" class="MyInput"></td>" },
 		]
 		return(self.rules)
-

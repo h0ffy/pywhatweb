@@ -8,4 +8,3 @@ class Pluginsillysmart_plugin(plugins.Base):
 			{ "certainty" : "85", "text" : "var slsBuild" },
 		]
 		return(self.rules)
-

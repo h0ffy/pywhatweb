@@ -8,4 +8,3 @@ class Plugintinybb_plugin(plugins.Base):
 			{ "text" : "Proudly powered by <a href='http://tinybb.net'>TinyBB</a>" },
 		]
 		return(self.rules)
-

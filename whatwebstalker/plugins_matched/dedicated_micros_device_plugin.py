@@ -11,4 +11,3 @@ class Plugindedicated_micros_device_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^ADH-Web$/" },
 		]
 		return(self.rules)
-

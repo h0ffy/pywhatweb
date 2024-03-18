@@ -10,4 +10,3 @@ class Pluginqdpm_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/qdpm(_extended)?=[^;]+;/" },
 		]
 		return(self.rules)
-

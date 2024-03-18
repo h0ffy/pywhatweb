@@ -7,4 +7,3 @@ class Pluginamazon_elastic_load_balancer_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

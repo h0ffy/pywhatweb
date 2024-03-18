@@ -10,4 +10,3 @@ class Plugincs_cart_plugin(plugins.Base):
 			{ "text" : "<title>CS-Cart. Powerful PHP shopping cart software</title>" },
 		]
 		return(self.rules)
-

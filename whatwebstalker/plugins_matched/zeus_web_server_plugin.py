@@ -9,4 +9,3 @@ class Pluginzeus_web_server_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Zeus\/(([\d]+)(\.|_)([\d]+))$/" },
 		]
 		return(self.rules)
-

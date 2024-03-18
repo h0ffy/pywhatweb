@@ -10,4 +10,3 @@ class Pluginphp121_plugin(plugins.Base):
 			{ "version" : "/<center>Powered by <a target="_blank" style="TEXT-DECORATION: none; COLOR: #000066; FONT-SIZE: 10px" href="http:\/\/www.php121.com"><U>PHP121<\/U><\/a> v([\d\.]+)<\/center>/" },
 		]
 		return(self.rules)
-

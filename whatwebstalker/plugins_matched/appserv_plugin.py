@@ -9,4 +9,3 @@ class Pluginappserv_plugin(plugins.Base):
 			{ "text" : "<font color="#000080" class="headd">&nbsp;&nbsp;&nbsp;<img src="appserv/softicon.gif"" },
 		]
 		return(self.rules)
-

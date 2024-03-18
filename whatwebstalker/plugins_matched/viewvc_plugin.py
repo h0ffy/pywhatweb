@@ -12,4 +12,3 @@ class Pluginviewvc_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="View(VC|CVS) ([^"]+)"/", "offset" : "1 },
 		]
 		return(self.rules)
-

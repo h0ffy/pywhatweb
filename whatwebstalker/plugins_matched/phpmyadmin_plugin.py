@@ -14,4 +14,3 @@ class Pluginphpmyadmin_plugin(plugins.Base):
 			{ "regexp" : "/<form method="post" action="index\.php" target="_(top|parent)"><input type="hidden" name="phpMyAdmin" value="/" },
 		]
 		return(self.rules)
-

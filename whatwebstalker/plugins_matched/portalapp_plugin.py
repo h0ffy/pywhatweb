@@ -9,4 +9,3 @@ class Pluginportalapp_plugin(plugins.Base):
 			{ "regexp" : "/<meta name=[\'|\"]*generator[\'|\"]* content=[\'|\"]*aspapp.com[\'|\"]*[\ \/]*>/" },
 		]
 		return(self.rules)
-

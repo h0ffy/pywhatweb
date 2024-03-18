@@ -9,4 +9,3 @@ class Pluginzones_web_solution_plugin(plugins.Base):
 			{ "text" : "<br>Powered by : <a href="http://www.zones.in" target="_blank">Zones Web Solution</a> &amp;" },
 		]
 		return(self.rules)
-

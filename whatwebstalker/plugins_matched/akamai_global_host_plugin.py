@@ -8,4 +8,3 @@ class Pluginakamai_global_host_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^AkamaiGHost/" },
 		]
 		return(self.rules)
-

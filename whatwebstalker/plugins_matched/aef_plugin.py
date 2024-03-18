@@ -10,4 +10,3 @@ class Pluginaef_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/AEFCookies[\d]*\[aefsid\]=/" },
 		]
 		return(self.rules)
-

@@ -13,4 +13,3 @@ class Pluginquick.cms_plugin(plugins.Base):
 			{ "version" : "/      <div id="version"><a href="http:\/\/opensolution.org\/">Quick.Cms v([\d\.]+)<\/a><\/div>/" },
 		]
 		return(self.rules)
-

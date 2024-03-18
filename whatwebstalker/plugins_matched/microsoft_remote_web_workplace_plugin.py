@@ -12,4 +12,3 @@ class Pluginmicrosoft_remote_web_workplace_plugin(plugins.Base):
 			{ "text" : "<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>", "certainty" : "25 },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Plugin4images_plugin(plugins.Base):
 			{ "version" : "/Powered by <b>4images<\/b> ([\d\.]+)/" },
 		]
 		return(self.rules)
-

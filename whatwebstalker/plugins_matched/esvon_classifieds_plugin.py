@@ -9,4 +9,3 @@ class Pluginesvon_classifieds_plugin(plugins.Base):
 			{ "regexp" : "/Powered by Esvon <a href='http:\/\/www.esvon.com\/pg\/products\/p_classifieds\/' target="_blank"[^>]+>Classifieds<\/a>/" },
 		]
 		return(self.rules)
-

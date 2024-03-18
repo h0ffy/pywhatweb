@@ -15,4 +15,3 @@ class Pluginserendipity_plugin(plugins.Base):
 			{ "text" : "<div id="serendipityLeftSideBar">" },
 		]
 		return(self.rules)
-

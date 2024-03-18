@@ -7,4 +7,3 @@ class Plugintmsoft_myauth_gateway_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

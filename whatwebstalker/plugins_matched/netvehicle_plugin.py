@@ -11,4 +11,3 @@ class Pluginnetvehicle_plugin(plugins.Base):
 			{ "model" : "/^NetVehicle-([A-Z\d]{1,3})/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

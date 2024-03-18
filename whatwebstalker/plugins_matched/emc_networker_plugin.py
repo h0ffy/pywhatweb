@@ -8,4 +8,3 @@ class Pluginemc_networker_plugin(plugins.Base):
 			{ "text" : "<title>Welcome to NetWorker Management Console</title>" },
 		]
 		return(self.rules)
-

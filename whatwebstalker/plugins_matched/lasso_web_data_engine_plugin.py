@@ -9,4 +9,3 @@ class Pluginlasso_web_data_engine_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/Lasso\/([^\s]+)/" },
 		]
 		return(self.rules)
-

@@ -8,4 +8,3 @@ class Pluginw3_total_cache_plugin(plugins.Base):
 			{ "text" : "<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/" },
 		]
 		return(self.rules)
-

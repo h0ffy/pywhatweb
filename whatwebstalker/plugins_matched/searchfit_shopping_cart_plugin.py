@@ -10,4 +10,3 @@ class Pluginsearchfit_shopping_cart_plugin(plugins.Base):
 			{ "text" : "new SearchFitAnalytics("'},
 		]
 		return(self.rules)
-

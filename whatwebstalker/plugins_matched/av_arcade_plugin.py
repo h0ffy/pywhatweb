@@ -12,4 +12,3 @@ class Pluginav_arcade_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.avscripts.net/avarcade/">AV Arcade Pro</a> - Copyright <a href="http://www.avscripts.net">AV Scripts</a> 2006-2010 <a href="http://www.avscripts.net"></a>", "version" : "Pro" },
 		]
 		return(self.rules)
-

@@ -13,4 +13,3 @@ class Pluginlistserv_plugin(plugins.Base):
 			{ "version" : "/<a href="\/scripts\/wa.exe\?[^"]+"><img src="\/archives\/images\/b-[a-z]{0,2}version\.jpg" alt="LISTSERV ([\d\.]+)" title="LISTSERV [\d\.]+" border="0"><\/a><\/td>/" },
 		]
 		return(self.rules)
-

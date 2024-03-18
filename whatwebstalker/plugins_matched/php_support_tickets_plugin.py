@@ -11,4 +11,3 @@ class Pluginphp_support_tickets_plugin(plugins.Base):
 			{ "regexp" : "/<!--<td class="boxborder list-menu" width="10%"><a href="javascript:popwindow\('help\.php#userpage','top=150,left=300,width=400,height=400,buttons=no,scrollbars=YES,location=no,menubar=no,resizable=no,status=no,directories=no,toolbar=no'\)" title="Help popup">Help<\/a><\/td>-->/" },
 		]
 		return(self.rules)
-

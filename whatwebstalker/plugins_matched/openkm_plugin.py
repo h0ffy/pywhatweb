@@ -9,4 +9,3 @@ class Pluginopenkm_plugin(plugins.Base):
 			{ "regexp" : "/<title>OpenKM Login<\/title>[\s]+<\/head>[\s]+<body onload="document\.forms\[0\]\.elements\[0\]\.focus\(\)">/" },
 		]
 		return(self.rules)
-

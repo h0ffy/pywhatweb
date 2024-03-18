@@ -11,4 +11,3 @@ class Pluginsma_sunny_webbox_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^(WebBox-20|Sunny WebBox)$/" },
 		]
 		return(self.rules)
-

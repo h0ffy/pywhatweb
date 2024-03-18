@@ -12,4 +12,3 @@ class Pluginphpkit_plugin(plugins.Base):
 			{ "text" : "<meta name="description" content="PHPKIT", "WCMS", "Web Content Management System", "Administration" />", "module" : "Admin Page" },
 		]
 		return(self.rules)
-

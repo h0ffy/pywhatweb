@@ -9,4 +9,3 @@ class Pluginphpgreetcards_plugin(plugins.Base):
 			{ "text" : "<td align="right"><font color="#b8c2cc">Powered by <a href="http://www.w2bpm.com/index.php?cat=phpGreetCards" target="_blank">phpGreetCards</a>", "" },
 		]
 		return(self.rules)
-

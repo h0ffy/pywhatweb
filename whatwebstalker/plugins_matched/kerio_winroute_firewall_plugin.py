@@ -11,4 +11,3 @@ class Pluginkerio_winroute_firewall_plugin(plugins.Base):
 			{ "text" : "<meta HTTP-EQUIV="Refresh" content="0;URL=/internal/ntlm/dologin.php?internal=0">	<title>Kerio WinRoute Firewall - Login Page - Kerio WinRoute Firewall</title>" },
 		]
 		return(self.rules)
-

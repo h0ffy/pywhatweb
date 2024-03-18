@@ -7,4 +7,3 @@ class Pluginrackcorp_cdn_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

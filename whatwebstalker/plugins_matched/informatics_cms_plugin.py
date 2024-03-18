@@ -10,4 +10,3 @@ class Plugininformatics_cms_plugin(plugins.Base):
 			{ "regexp" : "/Web Application by <a href="http:\/\/www\.(ia-informatics|informaticsinc)\.com" [^>]*target="_blank"><b>Informatics", "Inc\.<\/b><\/a>/" },
 		]
 		return(self.rules)
-

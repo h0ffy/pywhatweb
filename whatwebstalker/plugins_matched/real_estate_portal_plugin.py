@@ -10,4 +10,3 @@ class Pluginreal_estate_portal_plugin(plugins.Base):
 			{ "text" : "			document.form1.property_type.options[i] = new Option(CurrentModels[i]", "CurrentModels[i]", "0", "0);" },
 		]
 		return(self.rules)
-

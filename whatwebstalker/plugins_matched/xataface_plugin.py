@@ -10,4 +10,3 @@ class Pluginxataface_plugin(plugins.Base):
 			{ "string" : /<div class="fineprint">[\s]+Powered by Xataface<br\/>[\s]+\(c\) 2005-(20[\d]{2}) All rights reserved<\/div>/" },
 		]
 		return(self.rules)
-

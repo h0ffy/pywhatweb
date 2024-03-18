@@ -11,4 +11,3 @@ class Pluginam4ss_plugin(plugins.Base):
 			{ "regexp" : "/<link rel="stylesheet" type="text\/css" href="templates\/[^\/]+\/am4ss\.css" \/>/" },
 		]
 		return(self.rules)
-

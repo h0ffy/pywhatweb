@@ -11,4 +11,3 @@ class Plugini_catcher_console_plugin(plugins.Base):
 			{ "version" : "/     i-Catcher Console ([\d\.]+) is Copyright [\d]{4}-[\d]{4} <a class="footer" href="http:\/\/www.icode.co.uk\/">iCode Systems<\/a>./" },
 		]
 		return(self.rules)
-

@@ -16,4 +16,3 @@ class Pluginsnap_appliance_server_plugin(plugins.Base):
 			{ "version" : "/^Quantum Corporation\.\/([\d\.]+)$/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

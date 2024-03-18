@@ -12,4 +12,3 @@ class Pluginaxcms.net_plugin(plugins.Base):
 			{ "text" : "<!-- Build and published by AxCMS.net | powered by Axinom-->" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginmno_go_search_plugin(plugins.Base):
 			{ "certainty" : "75", "regexp" : "/<title>mnoGoSearch:},
 		]
 		return(self.rules)
-

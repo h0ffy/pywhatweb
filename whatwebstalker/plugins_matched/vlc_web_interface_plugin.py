@@ -14,4 +14,3 @@ class Pluginvlc_web_interface_plugin(plugins.Base):
 			{ "text" : "<input type="text" name="sout_mrl" id="sout_mrl" size="60" onkeypress="if( event.keyCode == 13 ) vlm_output_change();"/>" },
 		]
 		return(self.rules)
-

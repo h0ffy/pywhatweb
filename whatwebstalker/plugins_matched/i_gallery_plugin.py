@@ -13,4 +13,3 @@ class Plugini_gallery_plugin(plugins.Base):
 			{ "text" : "<title>.::  - Photo Viewer ::.</title>", "path" : "ViewPhoto.asp" },
 		]
 		return(self.rules)
-

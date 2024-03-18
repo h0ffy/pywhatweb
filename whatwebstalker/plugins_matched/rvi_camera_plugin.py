@@ -9,4 +9,3 @@ class Pluginrvi_camera_plugin(plugins.Base):
 			{ "text" : "<Meta name="Author" Content="hhdigital">'},
 		]
 		return(self.rules)
-

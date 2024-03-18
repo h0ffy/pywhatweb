@@ -10,4 +10,3 @@ class Pluginnetjuke_plugin(plugins.Base):
 			{ "text" : "onClick=\"window.open('alphabet.php?do=alpha.artists','NetjukeRemote'" },
 		]
 		return(self.rules)
-

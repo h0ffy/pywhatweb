@@ -10,4 +10,3 @@ class Pluginlynxguide_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/Access_Num=[^;]+;/" },
 		]
 		return(self.rules)
-

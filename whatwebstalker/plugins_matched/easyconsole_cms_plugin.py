@@ -9,4 +9,3 @@ class Plugineasyconsole_cms_plugin(plugins.Base):
 			{ "regexp" : "/<!-- Powered by EasyConsole CMS", "Copyright DW Dynamic Works LTD 2003 - 20[\d]{2} - http:\/\/www.easyconsole.com -->/" },
 		]
 		return(self.rules)
-

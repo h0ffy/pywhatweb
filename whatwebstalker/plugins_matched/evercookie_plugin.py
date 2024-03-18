@@ -11,4 +11,3 @@ class Pluginevercookie_plugin(plugins.Base):
 			{ "string" : /<script[^>]+src=['"]([^"^'^>]*evercookie\.js)['"][^>]*>[\s]*<\/script>/" },
 		]
 		return(self.rules)
-

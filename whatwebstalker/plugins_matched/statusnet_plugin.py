@@ -9,4 +9,3 @@ class Pluginstatusnet_plugin(plugins.Base):
 			{ "version" : "/It runs the <a href="http:\/\/status\.net\/">StatusNet<\/a> microblogging software", "version ([^\s]+)", "available under the <a /" },
 		]
 		return(self.rules)
-

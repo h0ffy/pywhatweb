@@ -9,4 +9,3 @@ class Plugintangocms_plugin(plugins.Base):
 			{ "text" : "<input type="checkbox" id="sessionRemember" name="session[remember]" value="1" checked="checked"> <label class="horizontal" for="sessionRemember">Remember me?</label>" },
 		]
 		return(self.rules)
-

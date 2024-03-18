@@ -8,4 +8,3 @@ class Pluginecomat_cms_plugin(plugins.Base):
 			{ "version" : "/<meta name="Generator" content="ECOMAT CMS ([\d\.]{1,5})">/" },
 		]
 		return(self.rules)
-

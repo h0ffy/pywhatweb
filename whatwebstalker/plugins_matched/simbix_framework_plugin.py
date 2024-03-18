@@ -10,4 +10,3 @@ class Pluginsimbix_framework_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="Simbix Framework v([^"^\s]+)" \/>/" },
 		]
 		return(self.rules)
-

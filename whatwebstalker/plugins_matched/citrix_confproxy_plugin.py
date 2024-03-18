@@ -7,4 +7,3 @@ class Plugincitrix_confproxy_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

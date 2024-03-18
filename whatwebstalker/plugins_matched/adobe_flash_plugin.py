@@ -13,4 +13,3 @@ class Pluginadobe_flash_plugin(plugins.Base):
 			{ "name" : "File extension", "regexp" : "/^(fla|flv|swf|swt|swc)$/", "search" : "uri.extension" },
 		]
 		return(self.rules)
-

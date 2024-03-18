@@ -11,4 +11,3 @@ class Pluginsystem_shop_plugin(plugins.Base):
 			{ "text" : "<a href="http://www.systemshop.at" target="_blank">Powered by System" },
 		]
 		return(self.rules)
-

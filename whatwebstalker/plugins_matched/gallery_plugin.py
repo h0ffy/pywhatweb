@@ -11,4 +11,3 @@ class Plugingallery_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<title>Gallery 3 Installer</title>" },
 		]
 		return(self.rules)
-

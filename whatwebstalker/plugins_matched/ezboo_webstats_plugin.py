@@ -11,4 +11,3 @@ class Pluginezboo_webstats_plugin(plugins.Base):
 			{ "text" : "<td height="60" valign="top" align="center"><img src="image/logo_ez1.gif" border="0"></td>" },
 		]
 		return(self.rules)
-

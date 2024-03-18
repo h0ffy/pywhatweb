@@ -8,4 +8,3 @@ class Pluginsharethis_plugin(plugins.Base):
 			{ "regexp" : "/<script [^>]*src=["|'][^"^']+w\.sharethis\.com\//i },
 		]
 		return(self.rules)
-

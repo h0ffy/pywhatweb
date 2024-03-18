@@ -15,4 +15,3 @@ class Pluginbab.stats_plugin(plugins.Base):
 			{ "version" : "/Powered by Bab.stats ::[\r\n\s]*<a[^>]+href="(http:\/\/www.babstats.com\/|\/Neos_Chronos\/index.php\?action=about)">Neos.Chronos<\/a> ::[\s\r\n]*Version ([^\(]+) \(Standalone\)/", "offset" : "1", "string" : "Chronos" },
 		]
 		return(self.rules)
-

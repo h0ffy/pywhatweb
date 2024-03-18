@@ -9,4 +9,3 @@ class Pluginshaadi_zone_plugin(plugins.Base):
 			{ "text" : "Powered By <a href='http://www.vastal.com/' target=\"_blank\">Shaadi Zone</a>" },
 		]
 		return(self.rules)
-

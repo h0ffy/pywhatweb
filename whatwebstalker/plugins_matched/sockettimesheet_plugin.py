@@ -10,4 +10,3 @@ class Pluginsockettimesheet_plugin(plugins.Base):
 			{ "version" : "/<td valign="top" align="left"><img src=login_images\/index_01.gif><\/td><td valign="bottom" nowrap class="td_title" width="100%">v ([\d\.]+)<\/td>/" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginibm_websphere_plugin(plugins.Base):
 			{ "text" : "<HTML><HEAD><TITLE>Snoop Servlet</TITLE></HEAD><BODY BGCOLOR="#FFFFEE">", "module" : "Snoop Servlet" },
 		]
 		return(self.rules)
-

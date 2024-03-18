@@ -10,4 +10,3 @@ class Plugintrendnet_router_plugin(plugins.Base):
 			{ "model" : "/<title>TRENDnet ([^\|]+) \|[\s]+Login[\s]+<\/title>/" },
 		]
 		return(self.rules)
-

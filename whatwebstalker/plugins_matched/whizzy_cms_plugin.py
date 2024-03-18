@@ -8,4 +8,3 @@ class Pluginwhizzy_cms_plugin(plugins.Base):
 			{ "version" : "/Powered by Whizzy CMS <big>&spades;<\/big> <\/a><\/div><!-- \[Whizzy CMS:Whizzy CMS ([^\]]+)/" },
 		]
 		return(self.rules)
-

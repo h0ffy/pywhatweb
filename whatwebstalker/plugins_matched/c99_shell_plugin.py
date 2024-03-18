@@ -9,4 +9,3 @@ class Pluginc99_shell_plugin(plugins.Base):
 			{ "text" : "<center>Php Safe-Mode Bypass (List Directories):     <form action="" },
 		]
 		return(self.rules)
-

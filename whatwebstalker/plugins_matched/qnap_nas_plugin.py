@@ -25,4 +25,3 @@ class Pluginqnap_nas_plugin(plugins.Base):
 			{ "url" : "/ajax_obj/images/favicon.ico", "md5" : "9afa5d60e5ef15dc75d7662e418cac72" },
 		]
 		return(self.rules)
-

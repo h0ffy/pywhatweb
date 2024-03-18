@@ -8,4 +8,3 @@ class Pluginsonicwall_ssl_vpn_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^SonicWALL SSL-VPN Web Server\.?$/" },
 		]
 		return(self.rules)
-

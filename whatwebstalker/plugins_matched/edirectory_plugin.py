@@ -10,4 +10,3 @@ class Pluginedirectory_plugin(plugins.Base):
 			{ "version" : "/<blockquote class="eDirectoryVersion"><span class="basePowered">Powered by <a href="http:\/\/www\.edirectory\.com" target="_blank">eDirectory&trade;<\/a> <\/span> v\.([^<^\s]+)<\/blockquote>/" },
 		]
 		return(self.rules)
-

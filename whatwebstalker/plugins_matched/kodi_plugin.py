@@ -13,4 +13,3 @@ class Pluginkodi_plugin(plugins.Base):
 			{ "name" : "XBMC JSON version from /addon.xml", "version" : "/^[\s]+<import addon="xbmc.json" version="([^"]+)"/", "url" : "/addon.xml" },
 		]
 		return(self.rules)
-

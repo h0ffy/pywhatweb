@@ -7,4 +7,3 @@ class Pluginopen_freeway_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

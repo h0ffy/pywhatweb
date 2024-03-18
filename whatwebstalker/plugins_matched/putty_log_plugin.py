@@ -8,4 +8,3 @@ class Pluginputty_log_plugin(plugins.Base):
 			{ "regexp" : "/=~=~=~=~=~=~=~=~=~=~=~= PuTTY log [0-9]{4}.[0-9]{2}.[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} =~=~=~=~=~=~=~=~=~=~=~=/" },
 		]
 		return(self.rules)
-

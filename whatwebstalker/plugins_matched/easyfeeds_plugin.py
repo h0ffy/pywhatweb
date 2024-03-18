@@ -11,4 +11,3 @@ class Plugineasyfeeds_plugin(plugins.Base):
 			{ "version" : "/<CENTER>Powered By:<br>EasyFeeds-([^<]+)<br \/>Ktools.net LLC-<a href="http:\/\/www.ktools.net" target="_blank">http:\/\/www.ktools.net<\/a><\/CENTER><\/div>/" },
 		]
 		return(self.rules)
-

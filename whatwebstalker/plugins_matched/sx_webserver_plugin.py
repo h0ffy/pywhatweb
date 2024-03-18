@@ -14,4 +14,3 @@ class Pluginsx_webserver_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^SX Webserver ([\d\.]{1,5})/" },
 		]
 		return(self.rules)
-

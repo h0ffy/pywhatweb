@@ -11,4 +11,3 @@ class Pluginpcpin_chat_plugin(plugins.Base):
 			{ "regexp" : "/<INPUT type="submit" class="buttons" value="[^"]+" onClicK="document.loginform.register.value=0; document.loginform.lostpassword.value=0">/" },
 		]
 		return(self.rules)
-

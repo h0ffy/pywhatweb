@@ -7,4 +7,3 @@ class Pluginbugtracker_net_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

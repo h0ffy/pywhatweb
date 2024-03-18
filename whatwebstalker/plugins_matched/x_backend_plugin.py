@@ -7,4 +7,3 @@ class Pluginx_backend_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

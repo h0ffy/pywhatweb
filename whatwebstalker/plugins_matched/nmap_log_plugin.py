@@ -7,4 +7,3 @@ class Pluginnmap_log_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

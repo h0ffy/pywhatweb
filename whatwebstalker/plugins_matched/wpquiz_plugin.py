@@ -8,4 +8,3 @@ class Pluginwpquiz_plugin(plugins.Base):
 			{ "regexp" : "/<title>[^>]*>> [Register|Login]+ - wp[q|Q]+uiz<\/title>/" },
 		]
 		return(self.rules)
-

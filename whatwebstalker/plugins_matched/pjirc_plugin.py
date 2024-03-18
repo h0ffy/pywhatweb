@@ -11,4 +11,3 @@ class Pluginpjirc_plugin(plugins.Base):
 			{ "version" : "/	<td align="left">PJIRC Login Page Version ([\d\.]{1,5})<\/td>/" },
 		]
 		return(self.rules)
-

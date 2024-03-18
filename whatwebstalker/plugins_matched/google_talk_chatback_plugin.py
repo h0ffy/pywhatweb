@@ -8,4 +8,3 @@ class Plugingoogle_talk_chatback_plugin(plugins.Base):
 			{ "regexp" : "/<iframe[^>]+src[\s]*=[\s]*('|")http:\/\/www.google.com\/talk\/service\/badge\/Show\?tk=[^>]+>/" },
 		]
 		return(self.rules)
-

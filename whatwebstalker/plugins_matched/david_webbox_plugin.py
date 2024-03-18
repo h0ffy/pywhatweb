@@ -8,4 +8,3 @@ class Plugindavid_webbox_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^David-WebBox\/([^\s]+ \([^\)]+\))$/" },
 		]
 		return(self.rules)
-

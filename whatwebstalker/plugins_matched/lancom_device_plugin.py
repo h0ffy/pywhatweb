@@ -7,4 +7,3 @@ class Pluginlancom_device_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

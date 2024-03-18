@@ -10,4 +10,3 @@ class Pluginbarts_cms_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<meta name="author" content="Bart Verstricht" />" },
 		]
 		return(self.rules)
-

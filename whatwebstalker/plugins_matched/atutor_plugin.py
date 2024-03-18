@@ -10,4 +10,3 @@ class Pluginatutor_plugin(plugins.Base):
 			{ "name" : "Documentation link", "text" : "<span id="howto">For guidance on using ATutor see the official" },
 		]
 		return(self.rules)
-

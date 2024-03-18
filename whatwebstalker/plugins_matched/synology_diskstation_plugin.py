@@ -7,4 +7,3 @@ class Pluginsynology_diskstation_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

@@ -13,4 +13,3 @@ class Pluginapache_archiva_plugin(plugins.Base):
 			{ "version" : "/<div class="xleft">\s+Apache Archiva ([\d\.]+)\s+<\/div>\s+<div class="xright">/" },
 		]
 		return(self.rules)
-

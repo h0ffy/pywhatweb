@@ -10,4 +10,3 @@ class Pluginfpoll_plugin(plugins.Base):
 			{ "version" : "/<br \/><br \/><hr \/><div style="text-align: center;">&copy 20[\d]{2} Fpoll v([^\s^>]+) \(<a href="http:\/\/www\.phpfront\.com">PHPfront\.com<\/a>\) <\/div><\/body>/" },
 		]
 		return(self.rules)
-

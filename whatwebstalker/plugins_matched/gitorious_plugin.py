@@ -9,4 +9,3 @@ class Plugingitorious_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/_gitorious_sess=[^-]+--[^;]+; domain=/" },
 		]
 		return(self.rules)
-

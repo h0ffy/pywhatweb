@@ -16,4 +16,3 @@ class Pluginacidcat_cms_plugin(plugins.Base):
 			{ "version" : "/<a href="http:\/\/www.acidcat.com">Powered by Acidcat CMS v ([\d\.a-z]+)<\/a>/" },
 		]
 		return(self.rules)
-

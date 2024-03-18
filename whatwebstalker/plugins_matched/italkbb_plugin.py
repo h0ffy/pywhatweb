@@ -9,4 +9,3 @@ class Pluginitalkbb_plugin(plugins.Base):
 			{ "regexp" : "/<P align=center><FONT size=5>welcome to phone settings<\/FONT><\/P><FORM action=\/a /i },
 		]
 		return(self.rules)
-

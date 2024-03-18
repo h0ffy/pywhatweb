@@ -11,4 +11,3 @@ class Pluginasproxy_plugin(plugins.Base):
 			{ "version" : "/asproxydone="2"(\ style="font-weight:[\s]*bold;[\s]*text-decoration:[\s]*none")?>ASProxy ([^\s^<]+)<\/a>/", "offset" : "1 },
 		]
 		return(self.rules)
-

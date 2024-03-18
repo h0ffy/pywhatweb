@@ -10,4 +10,3 @@ class Plugincerberus_helpdesk_plugin(plugins.Base):
 			{ "text" : "<td width="519" class="kb_most_viewed_articles">Most Viewed Knowledgebase Articles</td>" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Plugincgit_plugin(plugins.Base):
 			{ "text" : "<div class='footer'>Copyright &copy; 2000 &ndash; 20[\d]{2} Jason A. Donenfeld. All Rights Reserved.</div>" },
 		]
 		return(self.rules)
-

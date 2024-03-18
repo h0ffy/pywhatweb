@@ -11,4 +11,3 @@ class Pluginitop_plugin(plugins.Base):
 			{ "version" : "/<div id="login-logo"><a href="http:\/\/www\.combodo\.com\/itop"><img title="iTop [^\s]+ ([^\s^"]+)" src="\.\.\/images\/itop-logo/" },
 		]
 		return(self.rules)
-

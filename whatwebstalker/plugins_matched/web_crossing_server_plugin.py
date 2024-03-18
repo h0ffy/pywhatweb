@@ -10,4 +10,3 @@ class Pluginweb_crossing_server_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/webxSess=[\d]+\.[^\s]+;/" },
 		]
 		return(self.rules)
-

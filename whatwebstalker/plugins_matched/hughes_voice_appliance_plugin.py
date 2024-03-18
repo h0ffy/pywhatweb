@@ -10,4 +10,3 @@ class Pluginhughes_voice_appliance_plugin(plugins.Base):
 			{ "url" : "/systeminfo/", "version" : "/<td width='50%'>Main\.bin Version<\/td><td width='50%' align='center'>([^<^\s]+)<\/td>/" },
 		]
 		return(self.rules)
-

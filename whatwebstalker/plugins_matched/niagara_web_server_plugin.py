@@ -7,4 +7,3 @@ class Pluginniagara_web_server_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

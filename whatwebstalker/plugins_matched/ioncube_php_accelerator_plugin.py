@@ -7,4 +7,3 @@ class Pluginioncube_php_accelerator_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

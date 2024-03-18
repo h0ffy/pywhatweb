@@ -9,4 +9,3 @@ class Plugin68_classifieds_script_plugin(plugins.Base):
 			{ "version" : "/<meta name="author" content="68 Classifieds - v([^"]+)" \/>/" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Plugincovalent_enterprise_ready_server_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

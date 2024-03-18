@@ -9,4 +9,3 @@ class Pluginxenforo_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/^xf_session/", "name" : "xf_session cookie" },
 		]
 		return(self.rules)
-

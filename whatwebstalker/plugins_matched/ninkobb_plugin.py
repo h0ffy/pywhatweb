@@ -10,4 +10,3 @@ class Pluginninkobb_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/ninkobb.com\/">NinkoBB<\/a> v. ([\d\.]{1,5}) t./" },
 		]
 		return(self.rules)
-

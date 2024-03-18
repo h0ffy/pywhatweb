@@ -10,4 +10,3 @@ class Pluginnetshelter_vpn_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^NetShelter\/VPN$/" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginyamamah_plugin(plugins.Base):
 			{ "text" : "<meta name="Description" content="Yamamah is free photo gallery cms" />" },
 		]
 		return(self.rules)
-

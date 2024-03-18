@@ -8,4 +8,3 @@ class Pluginhikvision_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Hikvision-Webs$/" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginrealtor_747_plugin(plugins.Base):
 			{ "version" : "/<title>REALTOR 747 - The Property Listings Management System - Administration  - Version ([\d\.]+)<\/title>/" },
 		]
 		return(self.rules)
-

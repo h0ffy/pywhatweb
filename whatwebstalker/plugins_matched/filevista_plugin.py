@@ -9,4 +9,3 @@ class Pluginfilevista_plugin(plugins.Base):
 			{ "text" : "<td>Welcome to FileVista<br />Please enter your credentials:</td>" },
 		]
 		return(self.rules)
-

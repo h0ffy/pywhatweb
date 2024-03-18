@@ -9,4 +9,3 @@ class Pluginhelp_desk_software_plugin(plugins.Base):
 			{ "version" : "/<\/html>[\s]+<font style='font-size:0px'>([^<^\s]+)<\/font>/" },
 		]
 		return(self.rules)
-

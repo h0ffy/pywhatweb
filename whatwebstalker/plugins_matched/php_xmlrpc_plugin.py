@@ -9,4 +9,3 @@ class Pluginphp_xmlrpc_plugin(plugins.Base):
 			{ "version" : "/<div class="footer">Generated using PHP-XMLRPC ([\d\.]+)<\/div>/" },
 		]
 		return(self.rules)
-

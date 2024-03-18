@@ -10,4 +10,3 @@ class Pluginletodms_plugin(plugins.Base):
 			{ "search" : "headers[location]", "regexp" : "/out\/out\.ViewFolder\.php/" },
 		]
 		return(self.rules)
-

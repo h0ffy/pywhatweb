@@ -9,4 +9,3 @@ class Pluginindices_plugin(plugins.Base):
 			{ "version" : "/<div class="credits">[\s]+<a href="http:\/\/antisleep\.com\/software\/indices">Indices<\/a> ([^\s]+)[\s]+<\/div>/" },
 		]
 		return(self.rules)
-

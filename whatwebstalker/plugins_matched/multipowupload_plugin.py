@@ -15,4 +15,3 @@ class Pluginmultipowupload_plugin(plugins.Base):
 			{ "version" : "/<embed bgcolor=[^>]+src="ElementITMultiPowUpload([\d\.]{1,5}).swf" quality="high" pluginspage="http:\/\/www.macromedia.com\/shockwave\/download\/index.cgi\?P1_Prod_Version=ShockwaveFlash"/" },
 		]
 		return(self.rules)
-

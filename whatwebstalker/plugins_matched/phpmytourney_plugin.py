@@ -9,4 +9,3 @@ class Pluginphpmytourney_plugin(plugins.Base):
 			{ "text" : "ERROR : page not properly called" },
 		]
 		return(self.rules)
-

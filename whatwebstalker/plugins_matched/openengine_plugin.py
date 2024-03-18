@@ -11,4 +11,3 @@ class Pluginopenengine_plugin(plugins.Base):
 			{ "regexp" : "/<a href="http:\/\/www\.openengine\.de" target="_blank"><img src="system\/([^\/^>]+\/)*\/img\/oes_logo\.png" alt="openEngine Homepage"><\/a><\/p>/" },
 		]
 		return(self.rules)
-

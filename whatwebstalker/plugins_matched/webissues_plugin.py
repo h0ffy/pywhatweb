@@ -9,4 +9,3 @@ class Pluginwebissues_plugin(plugins.Base):
 			{ "text" : "<div><input type="hidden" name="__formId" id="field-login-__formId" value="login" />" },
 		]
 		return(self.rules)
-

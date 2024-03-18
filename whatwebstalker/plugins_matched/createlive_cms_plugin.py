@@ -10,4 +10,3 @@ class Plugincreatelive_cms_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/Kill=kill=(Yes|No)/" },
 		]
 		return(self.rules)
-

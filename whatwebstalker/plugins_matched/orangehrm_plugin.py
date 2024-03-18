@@ -12,4 +12,3 @@ class Pluginorangehrm_plugin(plugins.Base):
 			{ "version" : "/<td align="center"><a href="http:\/\/www\.orangehrm\.com" target="_blank">OrangeHRM<\/a> ver ([^\s]+) &copy; OrangeHRM Inc/" },
 		]
 		return(self.rules)
-

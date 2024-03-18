@@ -11,4 +11,3 @@ class Pluginkontaktformular_plugin(plugins.Base):
 			{ "text" : "&copy; Script Powered by kontaktformular.org </span>" },
 		]
 		return(self.rules)
-

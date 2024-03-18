@@ -11,4 +11,3 @@ class Pluginkonica_minolta_printer_plugin(plugins.Base):
 			{ "text" : "<meta http-equiv="refresh" content="0; URL=/wcd/js_error.xml">" },
 		]
 		return(self.rules)
-

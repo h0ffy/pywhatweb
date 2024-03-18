@@ -10,4 +10,3 @@ class Pluginnukeviet_cms_plugin(plugins.Base):
 			{ "regexp" : "/<form class="loginform" method="post" action="[^"^>]*\/admin\/index\.php" onsubmit="return nv_checkadminlogin_submit\(\);">/" },
 		]
 		return(self.rules)
-

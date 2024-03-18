@@ -12,4 +12,3 @@ class Plugincachelogic_expired_domains_script_plugin(plugins.Base):
 			{ "text" : "href="http://cachelogic.net">Cachelogic.net</a></td></tr>" },
 		]
 		return(self.rules)
-

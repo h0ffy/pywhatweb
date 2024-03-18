@@ -7,4 +7,3 @@ class Pluginsun_glassfish_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

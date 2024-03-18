@@ -10,4 +10,3 @@ class Pluginsocial_strata_plugin(plugins.Base):
 			{ "version" : "/Powered by: <a target="_blank" href="http:\/\/eveforenterprise\.com">Groupee<\/a><SUP>TM<\/SUP> \(version ([\d\.]+)\) from Groupee Inc\./" },
 		]
 		return(self.rules)
-

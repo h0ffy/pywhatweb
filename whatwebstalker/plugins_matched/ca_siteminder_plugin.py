@@ -13,4 +13,3 @@ class Pluginca_siteminder_plugin(plugins.Base):
 			{ "url" : "/siteminderagent/forms/login.fcc", "text" : "<title>SiteMinder Password Services</title>" },
 		]
 		return(self.rules)
-

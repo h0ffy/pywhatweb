@@ -9,4 +9,3 @@ class Plugininout_music_plugin(plugins.Base):
 			{ "text" : " href="http://www.inoutscripts.com/?r=13">Powered by Inoutscripts</a>" },
 		]
 		return(self.rules)
-

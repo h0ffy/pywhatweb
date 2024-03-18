@@ -8,4 +8,3 @@ class Pluginbrightcove_plugin(plugins.Base):
 			{ "regexp" : "/goku\.brightcove\.com|admin\.brightcove\.com\/js},
 		]
 		return(self.rules)
-

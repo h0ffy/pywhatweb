@@ -11,4 +11,3 @@ class Pluginmshift_plugin(plugins.Base):
 			{ "text" : "<div class="poweredBy">Powered by MShift &reg;</div>" },
 		]
 		return(self.rules)
-

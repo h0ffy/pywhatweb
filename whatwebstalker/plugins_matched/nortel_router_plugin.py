@@ -12,4 +12,3 @@ class Pluginnortel_router_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Nortel Http Server v([^\s]+)$/" },
 		]
 		return(self.rules)
-

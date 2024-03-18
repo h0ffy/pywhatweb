@@ -9,4 +9,3 @@ class Plugingoogle_apis_plugin(plugins.Base):
 			{ "string" : /<script[^>]+src[\s]*=[\s]*["|']?http:\/\/ajax.googleapis.com\/([a-zA-Z0-9\/\.-_]+)["|']?[^>]*>[\s]*<\/script[\s]*>/i },
 		]
 		return(self.rules)
-

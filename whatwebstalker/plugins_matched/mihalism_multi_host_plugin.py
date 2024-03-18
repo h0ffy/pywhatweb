@@ -15,4 +15,3 @@ class Pluginmihalism_multi_host_plugin(plugins.Base):
 			{ "version" : "/    <meta name="version" content="Mihalism Multi Host v([\d\.]+)" \/>/" },
 		]
 		return(self.rules)
-

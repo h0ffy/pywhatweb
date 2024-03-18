@@ -12,4 +12,3 @@ class Plugingeoserver_plugin(plugins.Base):
 			{ "string" : /<div id="welcome">[\s]+<p>[\s]+This GeoServer belongs to <a><span>([^<]+)<\/span><\/a>\.[\s]+<\/p>/" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginbrewblogger_plugin(plugins.Base):
 			{ "string" : /<div id="footer">Content &copy; 2011 [^\n]+ &mdash; BrewBlogger ([^\s]+) (Personal Edition|Club Edition) developed by <a href="http:\/\/www\.zkdigital\.com" target="_blank">zkdigital\.com<\/a>/", "offset" : "1 },
 		]
 		return(self.rules)
-

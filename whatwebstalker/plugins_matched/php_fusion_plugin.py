@@ -16,4 +16,3 @@ class Pluginphp_fusion_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "name" : "fusion_visited Cookie", "regexp" : "/fusion_visited=/" },
 		]
 		return(self.rules)
-

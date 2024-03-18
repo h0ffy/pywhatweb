@@ -10,4 +10,3 @@ class Pluginposterita_pos_plugin(plugins.Base):
 			{ "version" : "/<div class="footer">[\s]+<div class="floatLeft">[\s]+All Contents .[\s]+Posterita 20[\d]{2}[\s]+<b>Version &nbsp;([^\s^<]+)<\/b>[\s]+<\/div>[\s]+<\/div>/" },
 		]
 		return(self.rules)
-

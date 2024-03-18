@@ -11,4 +11,3 @@ class Pluginb2evolution_plugin(plugins.Base):
 			{ "regexp" : "/Powered by <a href="http:\/\/b2evolution.net[\/]*"[^>]+>b2evolution<\/a>/" },
 		]
 		return(self.rules)
-

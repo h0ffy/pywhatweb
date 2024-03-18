@@ -12,4 +12,3 @@ class Pluginposterous_plugin(plugins.Base):
 			{ "regexp" : "/<html><body>You are being <a href="http:\/\/([^"]+)\.posterous\.com\/">redirected<\/a>\.<\/body><\/html>/" },
 		]
 		return(self.rules)
-

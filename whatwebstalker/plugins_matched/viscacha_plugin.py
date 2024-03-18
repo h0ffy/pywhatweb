@@ -10,4 +10,3 @@ class Pluginviscacha_plugin(plugins.Base):
 			{ "version" : "/Powered by <strong><a[^>]+href="http:\/\/www\.viscacha\.org" target="_blank">Viscacha ([^<]+)<\/a>/" },
 		]
 		return(self.rules)
-

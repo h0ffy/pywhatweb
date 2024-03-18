@@ -10,4 +10,3 @@ class Plugintaurus_server_appliance_plugin(plugins.Base):
 			{ "version" : "/<div align=center><font size=-2 color=#FFFFFF>Software Version : CeLinuX-([\d\.]+)<\/font><\/div>/" },
 		]
 		return(self.rules)
-

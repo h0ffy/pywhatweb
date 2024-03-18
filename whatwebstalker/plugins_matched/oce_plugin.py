@@ -9,4 +9,3 @@ class Pluginoce_plugin(plugins.Base):
 			{ "text" : "/servlet/owslhtml/owslicons/header_pewg.jpg" },
 		]
 		return(self.rules)
-

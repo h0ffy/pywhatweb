@@ -12,4 +12,3 @@ class Pluginbelkin_modem_plugin(plugins.Base):
 			{ "name" : "inline javascript", "text" : "var isPPPoE", "isStatic", "isDynamic", "isnat", "isdialup", "isbigpond", "ispptp", "isfirewall;"},
 		]
 		return(self.rules)
-

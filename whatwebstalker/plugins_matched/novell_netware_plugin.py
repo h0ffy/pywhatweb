@@ -17,4 +17,3 @@ class Pluginnovell_netware_plugin(plugins.Base):
 			{ "url" : "/TOP.HTML", "module" : /<font color="#524a18" size=-1><b>NetWare (Management Portal Version [\d\.]+ revision [A-Z]),[\s]+([A-Z][a-z]+ [\d]{1,2}", "[\d]{4}|[\d]{1,4} [A-Z][a-z]+ [\d]{1,4})<\/B><\/font><BR>/" },
 		]
 		return(self.rules)
-

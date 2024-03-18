@@ -10,4 +10,3 @@ class Pluginmanageengine_deviceexpert_plugin(plugins.Base):
 			{ "md5" : "f159ea86b41bc4908398a2d27f333df5" },
 		]
 		return(self.rules)
-

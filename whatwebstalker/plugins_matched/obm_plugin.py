@@ -10,4 +10,3 @@ class Pluginobm_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/OBM_Session=[\s]+;/" },
 		]
 		return(self.rules)
-

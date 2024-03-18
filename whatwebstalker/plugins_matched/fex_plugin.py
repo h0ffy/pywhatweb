@@ -12,4 +12,3 @@ class Pluginfex_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^fexsrv$/" },
 		]
 		return(self.rules)
-

@@ -16,4 +16,3 @@ class Plugincapexweb_plugin(plugins.Base):
 			{ "text" : "var winPop = window.open("../servlet/capexweb.parentvalidatepassword?dfuserid="+dfuserid.value+"&dfpassword="+dfpassword.value+"&dfparentip="+dfparentip.value+"&dfparentdb="+dfparentdb.value+"&dfcode="+dfcode.value+","mywin","width=550,height=550,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,fullscreen=yes");" },
 		]
 		return(self.rules)
-

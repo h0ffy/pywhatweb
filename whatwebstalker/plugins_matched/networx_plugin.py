@@ -8,4 +8,3 @@ class Pluginnetworx_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.socialabc.com">NetworX</a>" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Pluginsun_java_system_server_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

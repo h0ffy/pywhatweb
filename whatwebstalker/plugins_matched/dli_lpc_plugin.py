@@ -12,4 +12,3 @@ class Plugindli_lpc_plugin(plugins.Base):
 			{ "text" : "<TD><INPUT onClick="calcResponse(); return false;" TYPE="Submit" NAME="Submitbtn" VALUE="OK">" },
 		]
 		return(self.rules)
-

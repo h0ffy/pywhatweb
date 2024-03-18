@@ -11,4 +11,3 @@ class Plugindonations_cloud_plugin(plugins.Base):
 			{ "text" : "<form action='https://www.paypal.com/cgi-bin/webscr' method='post' id='dc_paypal_form' onsubmit='if (!dc_checkform()) return false;'>" },
 		]
 		return(self.rules)
-

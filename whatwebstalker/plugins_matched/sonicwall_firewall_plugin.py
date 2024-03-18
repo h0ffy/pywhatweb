@@ -10,4 +10,3 @@ class Pluginsonicwall_firewall_plugin(plugins.Base):
 			{ "url" : "/auth1.html", "firmware" : "/<link href="swl_login-([^"]+)\.css" rel="stylesheet" type="text\/css">/" },
 		]
 		return(self.rules)
-

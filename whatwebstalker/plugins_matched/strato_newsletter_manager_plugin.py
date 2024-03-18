@@ -9,4 +9,3 @@ class Pluginstrato_newsletter_manager_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<title>STRATO Newsletter Manager</title>" },
 		]
 		return(self.rules)
-

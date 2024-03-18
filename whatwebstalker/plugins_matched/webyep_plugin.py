@@ -9,4 +9,3 @@ class Pluginwebyep_plugin(plugins.Base):
 			{ "text" : "<html><!-- InstanceBegin template="/Templates/panels.dwt.php" codeOutsideHTMLIsLocked="false" -->" },
 		]
 		return(self.rules)
-

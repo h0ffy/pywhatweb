@@ -9,4 +9,3 @@ class Pluginkmsoft_guestbook_plugin(plugins.Base):
 			{ "version" : "/<title>KMSoft Guestbook v([\d\.]+)[^<]+<\/title>/" },
 		]
 		return(self.rules)
-

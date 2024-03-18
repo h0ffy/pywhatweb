@@ -8,4 +8,3 @@ class Pluginlightbox_plugin(plugins.Base):
 			{ "regexp" : "/<script [^>]*(lightbox[^>]*.js)[^>]*},
 		]
 		return(self.rules)
-

@@ -8,4 +8,3 @@ class Pluginlibwww_perl_daemon_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^libwww-perl-daemon\/([^\s]+)/" },
 		]
 		return(self.rules)
-

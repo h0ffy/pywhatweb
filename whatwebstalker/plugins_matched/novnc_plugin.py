@@ -10,4 +10,3 @@ class Pluginnovnc_plugin(plugins.Base):
 			{ "module" : "Simple", "string" : /<html>[\s]+<!-- [\s]+noVNC example: simple example using default UI[\s]+Copyright \(C\) (20[\d]{2}) Joel Martin[\s]+Licensed under LGPL-3 \(see LICENSE\.txt\)[\s]+-->[\s]+<head>[\s]+<title>noVNC<\/title>/" },
 		]
 		return(self.rules)
-

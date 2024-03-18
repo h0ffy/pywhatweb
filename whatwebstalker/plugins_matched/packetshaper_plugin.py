@@ -9,4 +9,3 @@ class Pluginpacketshaper_plugin(plugins.Base):
 			{ "text" : "<SCRIPT LANGUAGE=JavaScript SRC="/libmd5.js"></SCRIPT>" },
 		]
 		return(self.rules)
-

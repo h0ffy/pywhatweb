@@ -10,4 +10,3 @@ class Pluginoki_pbx_plugin(plugins.Base):
 			{ "text" : "<PARAM NAME="systype"    value="OKI">" },
 		]
 		return(self.rules)
-

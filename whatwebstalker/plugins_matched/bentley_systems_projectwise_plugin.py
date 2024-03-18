@@ -12,4 +12,3 @@ class Pluginbentley_systems_projectwise_plugin(plugins.Base):
 			{ "url" : "/ProjectWise.ico", "md5" : "c20606b0a22e4c91940798a485d7eff7" },
 		]
 		return(self.rules)
-

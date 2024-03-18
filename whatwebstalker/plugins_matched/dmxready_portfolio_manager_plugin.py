@@ -11,4 +11,3 @@ class Plugindmxready_portfolio_manager_plugin(plugins.Base):
 			{ "regexp" : "/<form action="[^"]*\/applications\/PortfolioManager\/inc_portfoliomanager\.asp" method="POST" name="login" onSubmit="YY_checkform\('login','admin_username_portfoliomanager','#q','0','Please provide Username','admin_username_portfoliomanager','#q','0','Please provide Password'\);return document.MM_returnValue"/i },
 		]
 		return(self.rules)
-

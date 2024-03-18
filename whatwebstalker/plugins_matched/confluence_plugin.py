@@ -11,4 +11,3 @@ class Pluginconfluence_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/www\.atlassian\.com\/software\/confluence"[^>]*>Atlassian Confluence<\/a> ([\d\._]+)/" },
 		]
 		return(self.rules)
-

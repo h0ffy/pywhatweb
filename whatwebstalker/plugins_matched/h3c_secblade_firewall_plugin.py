@@ -12,4 +12,3 @@ class Pluginh3c_secblade_firewall_plugin(plugins.Base):
 			{ "text" : "<script language=javascript src="/js/MulPlatAPI.js"></script>" },
 		]
 		return(self.rules)
-

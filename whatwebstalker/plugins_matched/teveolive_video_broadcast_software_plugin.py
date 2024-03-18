@@ -10,4 +10,3 @@ class Pluginteveolive_video_broadcast_software_plugin(plugins.Base):
 			{ "search" : "headers[xvideoheight]", "regexp" : "/^\d+$},
 		]
 		return(self.rules)
-

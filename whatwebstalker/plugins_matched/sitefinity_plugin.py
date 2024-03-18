@@ -11,4 +11,3 @@ class Pluginsitefinity_plugin(plugins.Base):
 			{ "certainty" : "75", "regexp" : "/<link href="\/[Ss]ite[Ff]inity\/WebsiteTemplates\//" },
 		]
 		return(self.rules)
-

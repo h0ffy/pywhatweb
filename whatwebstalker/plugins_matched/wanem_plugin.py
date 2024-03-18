@@ -10,4 +10,3 @@ class Pluginwanem_plugin(plugins.Base):
 			{ "url" : "/WANem/title.html", "text" : "<TITLE>Welcome to WANem</TITLE>" },
 		]
 		return(self.rules)
-

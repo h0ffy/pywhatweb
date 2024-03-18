@@ -11,4 +11,3 @@ class Pluginsimplesamlphp_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<!-- Grey header bar below -->" },
 		]
 		return(self.rules)
-

@@ -18,4 +18,3 @@ class Pluginmicrosoft_iis_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/Microsoft-IIS\/([\d\.]+)/i },
 		]
 		return(self.rules)
-

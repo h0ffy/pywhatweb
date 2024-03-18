@@ -10,4 +10,3 @@ class Pluginx7chat_plugin(plugins.Base):
 			{ "version" : "/<Br><font size="2">Powered By X7 Chat Version ([^<]+)<\/font>/" },
 		]
 		return(self.rules)
-

@@ -8,4 +8,3 @@ class Plugintrbas_plugin(plugins.Base):
 			{ "text" :  '<link rel="stylesheet" href="http://www.trbas.com" },
 		]
 		return(self.rules)
-

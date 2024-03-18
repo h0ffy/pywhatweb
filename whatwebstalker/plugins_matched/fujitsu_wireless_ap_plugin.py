@@ -7,4 +7,3 @@ class Pluginfujitsu_wireless_ap_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

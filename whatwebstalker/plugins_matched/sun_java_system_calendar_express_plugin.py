@@ -11,4 +11,3 @@ class Pluginsun_java_system_calendar_express_plugin(plugins.Base):
 			{ "url" : "/imx/login-logo.gif", "md5" : "b86a7d65b64efa500048d9fc2840c390" },
 		]
 		return(self.rules)
-

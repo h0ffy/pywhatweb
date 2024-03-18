@@ -12,4 +12,3 @@ class Plugingridsite_plugin(plugins.Base):
 			{ "text" : "<!-- start of gridsitefoot.txt -->" },
 		]
 		return(self.rules)
-

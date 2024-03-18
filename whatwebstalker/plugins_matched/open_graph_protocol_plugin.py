@@ -11,4 +11,3 @@ class Pluginopen_graph_protocol_plugin(plugins.Base):
 			{ "module" : /<meta[^>]+property="fb:app_id"[^>]+content="([^"^>]+)"/" },
 		]
 		return(self.rules)
-

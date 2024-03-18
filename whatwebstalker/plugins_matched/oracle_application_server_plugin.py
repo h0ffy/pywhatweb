@@ -11,4 +11,3 @@ class Pluginoracle_application_server_plugin(plugins.Base):
 			{ "search" : "headers[server]", "module" : /^Oracle[ -]Application[ -]Server.+ (OracleAS-Web-Cache-1[01]g\/[^\s]+)/" },
 		]
 		return(self.rules)
-

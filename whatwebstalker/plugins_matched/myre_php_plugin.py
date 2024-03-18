@@ -9,4 +9,3 @@ class Pluginmyre_php_plugin(plugins.Base):
 			{ "text" : "<!-- BEGIN: MENU FOOTER don't change anything -->" },
 		]
 		return(self.rules)
-

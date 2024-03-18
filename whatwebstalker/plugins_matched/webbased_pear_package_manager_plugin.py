@@ -11,4 +11,3 @@ class Pluginwebbased_pear_package_manager_plugin(plugins.Base):
 			{ "string" : /<meta name="description" content="Webbased PEAR Package Manager on ([^"]+)" \/>/" },
 		]
 		return(self.rules)
-

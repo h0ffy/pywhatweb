@@ -12,4 +12,3 @@ class Pluginoracle_fusion_middleware_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Oracle-Fusion-Middleware\/([^\s]+ \([^\)]+\))/" },
 		]
 		return(self.rules)
-

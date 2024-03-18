@@ -13,4 +13,3 @@ class Pluginsun_cobalt_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<HTML><BODY onLoad=\"location='/login.php'\"></BODY></HTML>" },
 		]
 		return(self.rules)
-

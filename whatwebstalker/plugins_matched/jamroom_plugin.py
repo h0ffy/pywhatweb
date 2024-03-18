@@ -11,4 +11,3 @@ class Pluginjamroom_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="Jamroom ([\d\.]+)">/" },
 		]
 		return(self.rules)
-

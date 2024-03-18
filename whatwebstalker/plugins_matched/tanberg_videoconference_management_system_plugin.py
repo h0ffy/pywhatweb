@@ -12,4 +12,3 @@ class Plugintanberg_videoconference_management_system_plugin(plugins.Base):
 			{ "text" : "	<title>Middle frame of Videoconference Management System</title>" },
 		]
 		return(self.rules)
-

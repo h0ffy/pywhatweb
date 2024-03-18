@@ -10,4 +10,3 @@ class Plugindynamicweb_plugin(plugins.Base):
 			{ "certainty" : "75", "search" : "headers[set-cookie]", "regexp" : "/Dynamicweb/" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginphp_pro_bid_plugin(plugins.Base):
 			{ "regexp" : "/<td colspan="2" bgcolor="#[^"]{3,6}" style="color: #ffffff; font-weight: bold;">PLEASE LOGIN TO THE ADMIN AREA<\/td>/" },
 		]
 		return(self.rules)
-

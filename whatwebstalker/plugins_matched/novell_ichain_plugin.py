@@ -11,4 +11,3 @@ class Pluginnovell_ichain_plugin(plugins.Base):
 			{ "search" : "headers[X-Error-Info]", "regexp" : "/Host name received is not for this web site/" },
 		]
 		return(self.rules)
-

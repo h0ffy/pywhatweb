@@ -12,4 +12,3 @@ class Pluginedimax_plugin(plugins.Base):
 			{ "text" : "<link rel="stylesheet" href="edimax.css">", "certainty" : "75 },
 		]
 		return(self.rules)
-

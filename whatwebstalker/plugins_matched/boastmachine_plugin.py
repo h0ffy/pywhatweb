@@ -10,4 +10,3 @@ class Pluginboastmachine_plugin(plugins.Base):
 			{ "regexp" : "/<a href="http:\/\/boastology.com"><img src="http:\/\/[^>]*alt="Powered by boastMachine" \/><\/a>/" },
 		]
 		return(self.rules)
-

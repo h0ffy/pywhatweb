@@ -7,4 +7,3 @@ class Pluginpurveyor_encrypt_webserver_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

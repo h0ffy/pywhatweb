@@ -13,4 +13,3 @@ class Pluginspirepro_cms_plugin(plugins.Base):
 			{ "regexp" : "/^SpirePRO CMS/", "search" : "headers" },
 		]
 		return(self.rules)
-

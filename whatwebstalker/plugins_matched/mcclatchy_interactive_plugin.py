@@ -9,4 +9,3 @@ class Pluginmcclatchy_interactive_plugin(plugins.Base):
 			{ "text" :  'miAppControler contains master settings that can be used to quickly disable" },
 		]
 		return(self.rules)
-

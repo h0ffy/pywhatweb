@@ -9,4 +9,3 @@ class Pluginmistcms_plugin(plugins.Base):
 			{ "text" : "<!-- Powered by MistCMS @ dvondrake.com -->" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginnetgear_router_plugin(plugins.Base):
 			{ "model" : "/^Basic realm="?[\s]*NETGEAR ([^"]+)[\s]*"?/", "certainty" : "75", "search" : "headers[www-authenticate]" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginphp_link_directory_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator"[^>]*content="PHP Link Directory ([0-9\.]+)"/" },
 		]
 		return(self.rules)
-

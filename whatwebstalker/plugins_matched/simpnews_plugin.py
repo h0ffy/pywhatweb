@@ -11,4 +11,3 @@ class Pluginsimpnews_plugin(plugins.Base):
 			{ "version" : "/<br>Powered by SimpNews V([\d\.]+) &copy;[\d]{4}[\-,]*[\d]{4} B&ouml;sch EDV-Consulting<\/font><\/td><\/tr><\/table><\/td><\/tr><\/table><\/div>/" },
 		]
 		return(self.rules)
-

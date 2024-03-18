@@ -14,4 +14,3 @@ class Plugincodeigniter_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/ci_session/", "name" : "ci_session cookie" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginlink_cms_plugin(plugins.Base):
 			{ "text" : "<a href="http://www.link-softsolutions.com/SoftLink-Content-Management-System---CMS_20_1">LINK CMS</a>" },
 		]
 		return(self.rules)
-

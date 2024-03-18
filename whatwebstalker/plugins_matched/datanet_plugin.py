@@ -9,4 +9,3 @@ class Plugindatanet_plugin(plugins.Base):
 			{ "text" : "<div class="scada"><a class="scada" href=\'/scada\'>DataNet Scada Interface</a></div></body>" },
 		]
 		return(self.rules)
-

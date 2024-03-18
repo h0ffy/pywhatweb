@@ -9,4 +9,3 @@ class Pluginvcalendar_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<link href="Styles/Basic/Style.css" type="text/css" rel="stylesheet"></head>" },
 		]
 		return(self.rules)
-

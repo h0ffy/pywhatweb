@@ -10,4 +10,3 @@ class Pluginrobpoll_plugin(plugins.Base):
 			{ "regexp" : "/<form action="[^"]*\/robpoll\.cgi" method="post">/" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginjobberbase_plugin(plugins.Base):
 			{ "regexp" : "/Proudly powered by[\s]+<a href="http:\/\/www.jobberbase.com\/"[^>]*title="open source job board software">jobberBase<\/a>/" },
 		]
 		return(self.rules)
-

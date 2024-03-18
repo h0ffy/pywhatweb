@@ -10,4 +10,3 @@ class Pluginopennms_plugin(plugins.Base):
 			{ "regexp" : "/<p><input type="checkbox" name="_(spring|acegi)_security_remember_me"> Don't ask for my password for two weeks<\/p>/" },
 		]
 		return(self.rules)
-

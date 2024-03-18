@@ -10,4 +10,3 @@ class Pluginanyinventory_plugin(plugins.Base):
 			{ "version" : "/								anyInventory ([\d\.]+)/" },
 		]
 		return(self.rules)
-

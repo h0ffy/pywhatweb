@@ -8,4 +8,3 @@ class Pluginqcodo_development_framework_plugin(plugins.Base):
 			{ "version" : "/<b>PHP Version:<\/b> [^;]+;&nbsp;&nbsp;<b>Zend Engine Version:<\/b> [^;]+;&nbsp;&nbsp;<b>Qcodo Version:<\/b> ([^\(]+) \([^\(]+\)<br \/>/", "string" : "Error" },
 		]
 		return(self.rules)
-

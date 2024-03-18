@@ -10,4 +10,3 @@ class Pluginphxeventmanager_plugin(plugins.Base):
 			{ "version" : "/<div id="footer">\s+Copyright &copy; 20[\d]{2}[^\n]+\s+Powered by phxEventManager ([^<]+)<br \/>/" },
 		]
 		return(self.rules)
-

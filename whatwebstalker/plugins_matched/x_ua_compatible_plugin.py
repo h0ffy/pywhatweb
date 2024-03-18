@@ -7,4 +7,3 @@ class Pluginx_ua_compatible_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

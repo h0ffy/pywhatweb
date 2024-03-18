@@ -7,4 +7,3 @@ class Pluginisc_scada_service_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

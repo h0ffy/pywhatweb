@@ -9,4 +9,3 @@ class Plugininterred_plugin(plugins.Base):
 			{ "version" : "/<!-- Created with InterRed V([^,]+)", "http:\/\/www\.interred\.de\/", "by InterRed GmbH -->/" },
 		]
 		return(self.rules)
-

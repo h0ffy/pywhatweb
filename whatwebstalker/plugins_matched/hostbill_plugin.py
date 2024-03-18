@@ -9,4 +9,3 @@ class Pluginhostbill_plugin(plugins.Base):
 			{ "text" : "</div><br/><center>Powered by <a href="http://hostbillapp.com" target="_blank"><strong>HostBill</strong></a></center><br/></div>" },
 		]
 		return(self.rules)
-

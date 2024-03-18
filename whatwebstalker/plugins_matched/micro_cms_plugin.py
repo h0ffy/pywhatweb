@@ -10,4 +10,3 @@ class Pluginmicro_cms_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : " method="post"onsubmit="" },
 		]
 		return(self.rules)
-

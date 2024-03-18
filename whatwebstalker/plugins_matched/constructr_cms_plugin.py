@@ -9,4 +9,3 @@ class Pluginconstructr_cms_plugin(plugins.Base):
 			{ "text" : "<br /><br />Constructr CMS - developed by <a href="http://phaziz.com/constructr-cms/" onclick="window.open(this.href);return false;">phaziz interface design</a>" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginpcextreme_plugin(plugins.Base):
 			{ "text" : "<p class="content" align="center">Deze server is eigendom van <a href="http://www.pcextreme.nl/">PCextreme B.V.</a></p>" },
 		]
 		return(self.rules)
-

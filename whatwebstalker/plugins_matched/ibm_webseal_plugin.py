@@ -8,4 +8,3 @@ class Pluginibm_webseal_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^WebSEAL\/([^\s]+ \(Build \d+\))/" },
 		]
 		return(self.rules)
-

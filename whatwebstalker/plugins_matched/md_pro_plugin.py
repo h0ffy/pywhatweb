@@ -14,4 +14,3 @@ class Pluginmd_pro_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="MAXdev ([\d\.]+) - http:\/\/www.maxdev.(com|it)">/" },
 		]
 		return(self.rules)
-

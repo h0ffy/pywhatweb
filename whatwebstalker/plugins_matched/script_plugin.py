@@ -9,4 +9,3 @@ class Pluginscript_plugin(plugins.Base):
 			{ "string" : /<script[^>]+(language|type)\s*=\s*['"]?([^'"\s]+)['"]?/", "offset" : "1 },
 		]
 		return(self.rules)
-

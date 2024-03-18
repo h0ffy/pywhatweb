@@ -9,4 +9,3 @@ class Plugindxsock_plugin(plugins.Base):
 			{ "search" : "headers[user-agent]", "regexp" : "/^RemObjects SDK$/" },
 		]
 		return(self.rules)
-

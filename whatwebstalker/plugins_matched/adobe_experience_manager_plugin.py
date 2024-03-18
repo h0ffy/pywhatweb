@@ -7,4 +7,3 @@ class Pluginadobe_experience_manager_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

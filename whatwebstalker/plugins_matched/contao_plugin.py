@@ -9,4 +9,3 @@ class Plugincontao_plugin(plugins.Base):
 			{ "text" : "<!-- indexer::continue -->'},
 		]
 		return(self.rules)
-

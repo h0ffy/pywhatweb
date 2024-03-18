@@ -12,4 +12,3 @@ class Pluginaurion_plugin(plugins.Base):
 			{ "version" : "/<title>Aurion V([^\s^<]+)<\/title>[\s]+<link rel="shortcut icon" href="\.\/favicon\.ico" >/" },
 		]
 		return(self.rules)
-

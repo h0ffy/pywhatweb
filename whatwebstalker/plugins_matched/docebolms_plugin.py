@@ -13,4 +13,3 @@ class Plugindocebolms_plugin(plugins.Base):
 			{ "text" : "lang_setup.setBody("<ul class=\"link_list_inline\" id=\"language_selection\"><li><a class=\"lang-sprite lang_" },
 		]
 		return(self.rules)
-

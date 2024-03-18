@@ -11,4 +11,3 @@ class Pluginhopftimeserver_plugin(plugins.Base):
 			{ "version" : "/<head><title>HOPF ([^<^\s]+) Configuration<\/title>/" },
 		]
 		return(self.rules)
-

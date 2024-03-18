@@ -8,4 +8,3 @@ class Pluginstrict_transport_security_plugin(plugins.Base):
 			{ "search" : "headers[Strict-Transport-Security]", "string" : /^(.*)$/" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Plugintumblr_plugin(plugins.Base):
 			{ "text" : "<!-- BEGIN TUMBLR CODE --><iframe src="http://assets.tumblr.com/iframe.html" },
 		]
 		return(self.rules)
-

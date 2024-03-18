@@ -16,4 +16,3 @@ class Plugintradingeye_plugin(plugins.Base):
 			{ "text" : "<th class="login_bg" colspan="2">Tradingeye Login</th>" },
 		]
 		return(self.rules)
-

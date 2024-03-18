@@ -7,4 +7,3 @@ class Pluginems_entry_com_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

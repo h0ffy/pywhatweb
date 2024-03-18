@@ -9,4 +9,3 @@ class Pluginjgs_portal_plugin(plugins.Base):
 			{ "version" : "/Powered by <b>JGS-Portal Version ([\d\.]+)<\/b> &copy; /" },
 		]
 		return(self.rules)
-

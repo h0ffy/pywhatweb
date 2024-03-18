@@ -9,4 +9,3 @@ class Pluginphpmybible_plugin(plugins.Base):
 			{ "text" : "<div class='fleft'><div class='chaphead'>" },
 		]
 		return(self.rules)
-

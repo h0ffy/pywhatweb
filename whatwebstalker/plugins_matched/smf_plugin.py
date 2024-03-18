@@ -12,4 +12,3 @@ class Pluginsmf_plugin(plugins.Base):
 			{ "version" : "/<a href=".*?" title="Simple Machines Forum" target="_blank" class="new_win">SMF ([^<]+)},
 		]
 		return(self.rules)
-

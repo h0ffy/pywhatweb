@@ -11,4 +11,3 @@ class Pluginsabros.us_plugin(plugins.Base):
 			{ "version" : "/	<meta name="generator" content="sabros.us ([\d\.]+)" \/>/" },
 		]
 		return(self.rules)
-

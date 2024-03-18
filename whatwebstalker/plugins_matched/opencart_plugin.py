@@ -12,4 +12,3 @@ class Pluginopencart_plugin(plugins.Base):
 			{ "text" : "/admin/index.php?route=common/login" method="post" enctype="multipart/form-data" id="form">" },
 		]
 		return(self.rules)
-

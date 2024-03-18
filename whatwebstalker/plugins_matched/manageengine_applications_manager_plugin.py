@@ -12,4 +12,3 @@ class Pluginmanageengine_applications_manager_plugin(plugins.Base):
 			{ "url" : "images/am_logo.gif", "md5" : "4454cf4db9355b0e26b98cc354213c56" },
 		]
 		return(self.rules)
-

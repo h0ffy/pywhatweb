@@ -9,4 +9,3 @@ class Pluginjcore_plugin(plugins.Base):
 			{ "version" : "/<link href='https?:\/\/[^'^\?]+\/static\.php\?request=css(&amp;admin=1)?&amp;[\d]+\-v([\d\.]+)/", "offset" : "1 },
 		]
 		return(self.rules)
-

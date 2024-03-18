@@ -11,4 +11,3 @@ class Pluginactivecollab_plugin(plugins.Base):
 			{ "name" : "powered by footer", "text" : "<p id="powered_by"><a href="http://www.activecollab.com/"'},
 		]
 		return(self.rules)
-

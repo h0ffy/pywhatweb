@@ -8,4 +8,3 @@ class Pluginsentinelserver_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^SentinelServer/" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Plugindell_printer_plugin(plugins.Base):
 			{ "model" : "/<TITLE>Dell ([\d]{4}[a-z]+) Laser Printer<\/TITLE>/" },
 		]
 		return(self.rules)
-

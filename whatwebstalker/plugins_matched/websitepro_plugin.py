@@ -8,4 +8,3 @@ class Pluginwebsitepro_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^WebSitePro\/([^\s]+)/" },
 		]
 		return(self.rules)
-

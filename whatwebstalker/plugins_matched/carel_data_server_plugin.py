@@ -11,4 +11,3 @@ class Plugincarel_data_server_plugin(plugins.Base):
 			{ "version" : "/^CarelDataServer\/([\d\.]{1,10})/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

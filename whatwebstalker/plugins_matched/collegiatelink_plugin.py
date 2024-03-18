@@ -9,4 +9,3 @@ class Plugincollegiatelink_plugin(plugins.Base):
 			{ "text" : "</div></div></div><div class="salink"><span class="shadow"><!----></span></div></div><span class="clearDiv"><!----></span></div></div><span class="clearDiv"><!----></span><script type="text/javascript">" },
 		]
 		return(self.rules)
-

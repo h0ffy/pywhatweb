@@ -30,4 +30,3 @@ class Pluginsiemens_simatic_plugin(plugins.Base):
 			{ "url" : "/Portal0000.htm", "module" : /<tr>[\r\n\s]*<td class="static_field">Module type:<\/td>[\r\n\s]*<td class="output_field_long">([^<]+)<\/td>/" },
 		]
 		return(self.rules)
-

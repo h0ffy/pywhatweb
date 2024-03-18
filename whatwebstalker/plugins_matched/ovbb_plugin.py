@@ -12,4 +12,3 @@ class Pluginovbb_plugin(plugins.Base):
 			{ "version" : "/<a style="color: #EEEEFF;" href="http:\/\/www.ovbb.org">Powered by OvBB V([\d\.a-z]+)<\/a><br \/><br \/>/" },
 		]
 		return(self.rules)
-

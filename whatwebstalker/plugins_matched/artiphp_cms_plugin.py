@@ -11,4 +11,3 @@ class Pluginartiphp_cms_plugin(plugins.Base):
 			{ "version" : "/<div id="copyright">\s*(<p class="copyright">)?\s*<a href="http:\/\/www\.(artiphp|artiloo)\.com"( target="_blank")?>Artiphp ([^<]+)<\/a> &copy; 2001-20[\d]{2} est un logiciel libre/", "offset" : "3 },
 		]
 		return(self.rules)
-

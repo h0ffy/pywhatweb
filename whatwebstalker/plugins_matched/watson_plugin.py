@@ -9,4 +9,3 @@ class Pluginwatson_plugin(plugins.Base):
 			{ "text" : "<!--- Page(page_login)=[Login] ---><HTML>"},
 		]
 		return(self.rules)
-

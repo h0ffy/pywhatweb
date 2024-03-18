@@ -21,4 +21,3 @@ class Pluginnetwin_dbabble_plugin(plugins.Base):
 			{ "text" : "You can use DBabble securely but slower through your web browser at <a href="http" },
 		]
 		return(self.rules)
-

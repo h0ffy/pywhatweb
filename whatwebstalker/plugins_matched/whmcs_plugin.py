@@ -12,4 +12,3 @@ class Pluginwhmcs_plugin(plugins.Base):
 			{ "text" : "<p>Got a new license key?  <a href="licenseerror.php?licenseerror=change">Click here to enter it</a></p>" },
 		]
 		return(self.rules)
-

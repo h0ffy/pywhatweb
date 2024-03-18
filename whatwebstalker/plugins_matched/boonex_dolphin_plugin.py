@@ -10,4 +10,3 @@ class Pluginboonex_dolphin_plugin(plugins.Base):
 			{ "version" : "/administration\/templates\/base\/images\/admin_login_admin_logo\.png" alt="Dolphin ([\d]+) Admin" \/>/" },
 		]
 		return(self.rules)
-

@@ -13,4 +13,3 @@ class Pluginnetquery_plugin(plugins.Base):
 			{ "md5" : "24a75ccc492b5a9118a4d226c25895c1" },
 		]
 		return(self.rules)
-

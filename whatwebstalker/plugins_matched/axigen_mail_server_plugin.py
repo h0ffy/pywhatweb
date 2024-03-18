@@ -12,4 +12,3 @@ class Pluginaxigen_mail_server_plugin(plugins.Base):
 			{ "version" : "/<title>AXIGEN Webmail - v([\d\.]+)<\/title>/" },
 		]
 		return(self.rules)
-

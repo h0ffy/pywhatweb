@@ -10,4 +10,3 @@ class Pluginmacs_cms_plugin(plugins.Base):
 			{ "text" : "Site Powered by Mac\'s PHP MVC Framework <a href="http://macs-framework.sourceforge.net/" target="_blank">Framework of the future</a><br />" },
 		]
 		return(self.rules)
-

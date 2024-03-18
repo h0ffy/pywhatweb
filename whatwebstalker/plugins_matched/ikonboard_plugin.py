@@ -13,4 +13,3 @@ class Pluginikonboard_plugin(plugins.Base):
 			{ "certainty" : "75", "tagpattern" : "h1,/h1,pre,/pre,p,a,/a,/p" },
 		]
 		return(self.rules)
-

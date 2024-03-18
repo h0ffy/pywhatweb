@@ -8,4 +8,3 @@ class Pluginnetapp_nas_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^NetApp\/(.+)$/" },
 		]
 		return(self.rules)
-

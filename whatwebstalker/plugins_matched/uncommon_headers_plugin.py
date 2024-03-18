@@ -7,4 +7,3 @@ class Pluginuncommon_headers_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

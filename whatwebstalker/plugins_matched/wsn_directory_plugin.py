@@ -14,4 +14,3 @@ class Pluginwsn_directory_plugin(plugins.Base):
 			{ "text" : "<textarea readonly rows="20" cols="75">WSN Directory License Agreement" },
 		]
 		return(self.rules)
-

@@ -14,4 +14,3 @@ class Pluginvideodb_plugin(plugins.Base):
 			{ "version" : "/<div id="footerversion">[\s]*<a href="http:\/\/www\.videodb\.net">v([^<]+)<\/a>[\s]*<\/div>/" },
 		]
 		return(self.rules)
-

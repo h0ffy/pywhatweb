@@ -9,4 +9,3 @@ class Pluginfujitsu_infoprovider_pro_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/Fujitsu-InfoProvider-Pro\/[V]?([^ ]+) /" },
 		]
 		return(self.rules)
-

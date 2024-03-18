@@ -11,4 +11,3 @@ class Pluginflat_file_guestbook_plugin(plugins.Base):
 			{ "text" : "<a href="ffgb_admin.php"><i>Manage this Guestbook</i></a>" },
 		]
 		return(self.rules)
-

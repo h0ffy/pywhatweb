@@ -9,4 +9,3 @@ class Pluginbrother_fax_plugin(plugins.Base):
 			{ "certainty" : "25", "search" : "headers[server]", "version" : "/^[Dd]ebut\/([\d\.]+)$/" },
 		]
 		return(self.rules)
-

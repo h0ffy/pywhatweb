@@ -10,4 +10,3 @@ class Plugingeohttpserver_plugin(plugins.Base):
 			{ "url" : "/Language.js", "md5" : "97cdb361307be266683bceb8c452927b" },
 		]
 		return(self.rules)
-

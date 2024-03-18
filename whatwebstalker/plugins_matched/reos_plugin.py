@@ -10,4 +10,3 @@ class Pluginreos_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/reos.elazos.com">ReOS ([\d\.]+)<\/a> and released under the <a href="http:\/\/creativecommons.org\/licenses\/GPL\/2.0\/">GNU\/GPL License.<\/a>/" },
 		]
 		return(self.rules)
-

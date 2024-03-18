@@ -11,4 +11,3 @@ class Pluginspinetix_hyper_media_player_plugin(plugins.Base):
 			{ "text" : "<link rel='shortcut icon' href='css/ithemeSpinetix_favicon.ico' type='image/x-icon' />", "model" : "HMP100", "string" : "Admin" },
 		]
 		return(self.rules)
-

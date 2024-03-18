@@ -12,4 +12,3 @@ class Pluginuebimiau_webmail_plugin(plugins.Base):
 			{ "text" : "<meta name="keywords" content="uebimiau,tdah,uebimiau,webmail,email,mail,client,application,pop3,php,open     source,free,sourceforge,development" />", "certainty" : "75 },
 		]
 		return(self.rules)
-

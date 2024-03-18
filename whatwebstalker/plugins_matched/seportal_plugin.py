@@ -10,4 +10,3 @@ class Pluginseportal_plugin(plugins.Base):
 			{ "url" : "favicon.ico", "md5" : "9749740151cf551f80983ccebc6189f4" },
 		]
 		return(self.rules)
-

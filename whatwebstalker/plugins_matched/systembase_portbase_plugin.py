@@ -7,4 +7,3 @@ class Pluginsystembase_portbase_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

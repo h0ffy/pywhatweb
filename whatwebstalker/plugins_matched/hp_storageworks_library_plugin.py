@@ -10,4 +10,3 @@ class Pluginhp_storageworks_library_plugin(plugins.Base):
 			{ "url" : "/index.htm", "md5" : "63a4689c098daa89f62cc13069571204" },
 		]
 		return(self.rules)
-

@@ -18,4 +18,3 @@ class Pluginnetwin_surgemail_plugin(plugins.Base):
 			{ "version" : "/<a target="_top" href="http:\/\/netwinsite.com\/ref.htm"> WebMail v([^\ ]+) Copyright &copy; <i>NetWin Ltd<\/i>/" },
 		]
 		return(self.rules)
-

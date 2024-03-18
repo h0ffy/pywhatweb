@@ -9,4 +9,3 @@ class Pluginsockso_plugin(plugins.Base):
 			{ "version" : "/<p id="legal">[\s]+<strong>Sockso<\/strong>[\s]+v([^<]+)<br \/>[\s]+&copy; 20[\d]{2}/" },
 		]
 		return(self.rules)
-

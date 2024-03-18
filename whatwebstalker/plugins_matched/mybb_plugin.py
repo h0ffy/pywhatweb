@@ -12,4 +12,3 @@ class Pluginmybb_plugin(plugins.Base):
 			{ "text" : "Powered By <a href="http://www.mybboard.com" target="_blank">MyBB</a>" },
 		]
 		return(self.rules)
-

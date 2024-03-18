@@ -12,4 +12,3 @@ class Pluginmantisbt_plugin(plugins.Base):
 			{ "string" : "Install", "text" : "<title> MantisBT Administration - Installation  </title>" },
 		]
 		return(self.rules)
-

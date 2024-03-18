@@ -9,4 +9,3 @@ class Pluginsitemajic_plugin(plugins.Base):
 			{ "text" : "Website Powered by <a href='http://www.sitemajic.com' style='text-decoration:none'>SiteMajic</a>" },
 		]
 		return(self.rules)
-

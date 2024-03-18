@@ -9,4 +9,3 @@ class Pluginweb2py_plugin(plugins.Base):
 			{ "text" : "<div id="serendipityLeftSideBar">" },
 		]
 		return(self.rules)
-

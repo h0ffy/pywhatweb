@@ -9,4 +9,3 @@ class Pluginopeni_plugin(plugins.Base):
 			{ "string" : /<span class="big-title">Openi-(Jasper)<\/span><br/" },
 		]
 		return(self.rules)
-

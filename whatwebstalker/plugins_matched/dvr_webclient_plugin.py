@@ -9,4 +9,3 @@ class Plugindvr_webclient_plugin(plugins.Base):
 			{ "text" : "259F9FDF-97EA-4C59-B957-5160CAB6884E'},
 		]
 		return(self.rules)
-

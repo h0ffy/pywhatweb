@@ -9,4 +9,3 @@ class Pluginbitcoin_js_remote_plugin(plugins.Base):
 			{ "text" : "<p><a href="http://tcatm.github.com/bitcoin-js-remote">bitcoin-js-remote</a> <span id="version"></span> by <a href="mailto:tcatm@gawab.com">tcatm</a></p>" },
 		]
 		return(self.rules)
-

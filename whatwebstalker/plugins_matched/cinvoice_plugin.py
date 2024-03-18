@@ -9,4 +9,3 @@ class Plugincinvoice_plugin(plugins.Base):
 			{ "regexp" : "/\/images\/footer_bg\.gif" width="[\d]{2}%" align="center" cellspacing="1" cellpadding="1"><td class=copyright align="center">/" },
 		]
 		return(self.rules)
-

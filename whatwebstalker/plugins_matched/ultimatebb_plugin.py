@@ -11,4 +11,3 @@ class Pluginultimatebb_plugin(plugins.Base):
 			{ "version" : "/<a href="http:\/\/www.groupee.com\/landing\/goto\.php\?a=ubb\.classic">Powered by UBB.classic&trade;[\s]+([\d\.]+)(<!-- [\d\.]+ -->)?<\/a>/" },
 		]
 		return(self.rules)
-

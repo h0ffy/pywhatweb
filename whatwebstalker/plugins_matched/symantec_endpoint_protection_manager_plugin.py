@@ -10,4 +10,3 @@ class Pluginsymantec_endpoint_protection_manager_plugin(plugins.Base):
 			{ "url" : "/portal/About.jsp", "version" : "/<div style="font-family: Tahoma", "Verdana", "Arial", "Helvetica", "sans-serif; font-size:11px;">Version ([^\s^<]+)<\/div>/" },
 		]
 		return(self.rules)
-

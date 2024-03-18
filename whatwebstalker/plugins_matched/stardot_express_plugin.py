@@ -10,4 +10,3 @@ class Pluginstardot_express_plugin(plugins.Base):
 			{ "status" : "401", "certainty" : "75", "name" : "WWW-Authenticate realm", "regexp" : "/^Basic realm="Express6"/", "search" : "headers[www-authenticate]" },
 		]
 		return(self.rules)
-

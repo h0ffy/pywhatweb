@@ -12,4 +12,3 @@ class Pluginakiva_webboard_plugin(plugins.Base):
 			{ "version" : "/<td class="botBrandingLeft"  nowrap >Powered by <a href="http:\/\/get\.webboard\.com\?pid=WB80&sid=9999999999999" target="_blank" class="topicsSmallLink">WebBoard ([\d])<\/a><br>&copy;20[\d]{2} Akiva Corporation/" },
 		]
 		return(self.rules)
-

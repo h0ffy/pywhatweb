@@ -9,4 +9,3 @@ class Plugincheck_point_firewall_plugin(plugins.Base):
 			{ "status" : "401", "string" : /FW-1 at ([^\s]+): Unauthorized to access the document\./" },
 		]
 		return(self.rules)
-

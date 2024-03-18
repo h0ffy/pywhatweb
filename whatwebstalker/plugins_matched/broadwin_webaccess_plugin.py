@@ -13,4 +13,3 @@ class Pluginbroadwin_webaccess_plugin(plugins.Base):
 			{ "search" : "headers[location]", "account" : "/^\.\/broadWeb\/bwRoot\.asp\?username=([^\s^&]+)$/" },
 		]
 		return(self.rules)
-

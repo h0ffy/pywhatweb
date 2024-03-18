@@ -9,4 +9,3 @@ class Pluginjagoanstore_cms_plugin(plugins.Base):
 			{ "string" : /<div class="copy">Copyright (20[\d]{2}) Toko Online ini menggunakan JagoanStore CMS dari JagoanWeb Indonesia<\/div>/" },
 		]
 		return(self.rules)
-

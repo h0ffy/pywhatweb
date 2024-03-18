@@ -10,4 +10,3 @@ class Pluginfcms_plugin(plugins.Base):
 			{ "version" : "/- [pP]owered by Family Connections ([^\s^<]+)[\s]*<\/title>[\s]*(<meta|<link)/" },
 		]
 		return(self.rules)
-

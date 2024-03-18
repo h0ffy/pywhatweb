@@ -10,4 +10,3 @@ class Pluginossim_plugin(plugins.Base):
 			{ "text" : "<table align="center" cellspacing=4 cellpadding=2 style="background-color:#eeeeee;border-color:#dedede">" },
 		]
 		return(self.rules)
-

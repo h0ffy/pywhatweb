@@ -12,4 +12,3 @@ class Pluginsitecaddy_plugin(plugins.Base):
 			{ "text" : "<img src="/mysitecaddy/assets3/common/images/poweredbysitecaddy.gif" alt="Powered by SiteCaddy.com">" },
 		]
 		return(self.rules)
-

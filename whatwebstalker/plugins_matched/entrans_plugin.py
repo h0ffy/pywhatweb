@@ -9,4 +9,3 @@ class Pluginentrans_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : "<title>Entrans</title>" },
 		]
 		return(self.rules)
-

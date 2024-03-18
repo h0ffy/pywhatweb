@@ -10,4 +10,3 @@ class Pluginhyperic_hq_plugin(plugins.Base):
 			{ "search" : "headers[location]", "regexp" : "/\/app\/login;jsessionid=/" },
 		]
 		return(self.rules)
-

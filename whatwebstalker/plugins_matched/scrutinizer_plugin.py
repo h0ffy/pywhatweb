@@ -10,4 +10,3 @@ class Pluginscrutinizer_plugin(plugins.Base):
 			{ "regexp" : "/<div id='testAlertHdrMsg'>For the best Scrutinizer experience possible", "please address the issues below:<\/div>/" },
 		]
 		return(self.rules)
-

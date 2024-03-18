@@ -8,4 +8,3 @@ class Pluginmsgs_plugin(plugins.Base):
 			{ "version" : "/<title> Mercury Satellite Ground Station: Version ([\d\.]+)<\/title>/" },
 		]
 		return(self.rules)
-

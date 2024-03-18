@@ -9,4 +9,3 @@ class Pluginth_erp_plugin(plugins.Base):
 			{ "text" : "<title>thERP - Login</title>" },
 		]
 		return(self.rules)
-

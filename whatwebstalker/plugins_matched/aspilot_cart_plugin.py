@@ -10,4 +10,3 @@ class Pluginaspilot_cart_plugin(plugins.Base):
 			{ "version" : "/Powered By[^<]*<a[^>]*href="http:\/\/www.aspilot.com[^>]*>Pilot[^>]*Cart V.[\s]*([\d\.]+)<\/a>/i },
 		]
 		return(self.rules)
-

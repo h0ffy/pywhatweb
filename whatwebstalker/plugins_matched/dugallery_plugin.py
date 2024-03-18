@@ -11,4 +11,3 @@ class Plugindugallery_plugin(plugins.Base):
 			{ "version" : "/<title>DUgallery ([\d\.]+)<\/title>/" },
 		]
 		return(self.rules)
-

@@ -17,4 +17,3 @@ class Pluginkoha_plugin(plugins.Base):
 			{ "text" : "<div id="help"><span class="loggedin">You are not logged in | </span><a href="/cgi-bin/koha/help.pl" onclick="Help(); return false;">[ ? ]</a></div>" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginloggix_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/loggix.gotdns.org">Loggix<\/a> ver.([\d\.]+)<\/address>/" },
 		]
 		return(self.rules)
-

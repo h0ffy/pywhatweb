@@ -11,4 +11,3 @@ class Pluginzeus_cart_plugin(plugins.Base):
 			{ "version" : "/<title>[\s]+ZeusCart V([\d\.]+)[\s]+<\/title>/" },
 		]
 		return(self.rules)
-

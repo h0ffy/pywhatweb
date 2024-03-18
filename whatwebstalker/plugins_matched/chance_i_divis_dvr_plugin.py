@@ -7,4 +7,3 @@ class Pluginchance_i_divis_dvr_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

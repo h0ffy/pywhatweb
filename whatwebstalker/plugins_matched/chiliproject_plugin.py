@@ -12,4 +12,3 @@ class Pluginchiliproject_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/_chiliproject_session=/" },
 		]
 		return(self.rules)
-

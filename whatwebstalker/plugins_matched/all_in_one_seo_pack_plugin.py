@@ -9,4 +9,3 @@ class Pluginall_in_one_seo_pack_plugin(plugins.Base):
 			{ "version" : "/<!-- All in One SEO Pack ([\d\.]+) by Michael Torbert of Semper Fi Web Design/" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginmioot_live_chat_plugin(plugins.Base):
 			{ "text" : "<a href="javascript:OnOffImage(\'V\')" " },
 		]
 		return(self.rules)
-

@@ -13,4 +13,3 @@ class Pluginimperva_securesphere_plugin(plugins.Base):
 			{ "name" : "Location Header", "search" : "headers[location]", "regexp" : "/SecureSphere\/secsphLogin\.jsp},
 		]
 		return(self.rules)
-

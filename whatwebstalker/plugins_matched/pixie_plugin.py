@@ -9,4 +9,3 @@ class Pluginpixie_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="Pixie ([\d\.]+) - Copyright \(C\) [\d]{4} - [\d]{4}\." \/>/" },
 		]
 		return(self.rules)
-

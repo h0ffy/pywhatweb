@@ -9,4 +9,3 @@ class Pluginjuniper_netscreen_secure_access_plugin(plugins.Base):
 			{ "name" : "html body", "regexp" : "/src="\/dana\-na\/css\/ds\.js">|<img border="0" src="welcome\.cgi\?p=logo|src="\/dana\-na\/imgs\/space\.gif"|document\.cookie = "DSPREAUTH="\+ escape\("\)|src="\/dana\-na\/auth\/url_default\/s/i },
 		]
 		return(self.rules)
-

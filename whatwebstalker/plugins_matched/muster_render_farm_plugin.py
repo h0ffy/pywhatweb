@@ -11,4 +11,3 @@ class Pluginmuster_render_farm_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^cias-muster([\d])$/" },
 		]
 		return(self.rules)
-

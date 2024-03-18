@@ -11,4 +11,3 @@ class Pluginptcpay_plugin(plugins.Base):
 			{ "version" : "/<\/div><div class="foot">GeN4 Secur(ity|e)\+ ([\d\.]{1,6})  &copy; 2009 - 20[\d]{2} <a href="http:\/\/www.ptcpay.com" target="_blank">PTCPay.Com<\/a><\/div>/", "offset" : "1 },
 		]
 		return(self.rules)
-

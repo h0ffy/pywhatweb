@@ -9,4 +9,3 @@ class Plugincmsqlite_plugin(plugins.Base):
 			{ "text" : "<meta name="generator" content="www.CMSQLite.net by www.Netzabdruck.de" />" },
 		]
 		return(self.rules)
-

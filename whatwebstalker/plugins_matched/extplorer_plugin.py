@@ -9,4 +9,3 @@ class Pluginextplorer_plugin(plugins.Base):
 			{ "text" : "<title>Login - eXtplorer</title>" },
 		]
 		return(self.rules)
-

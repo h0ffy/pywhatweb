@@ -7,4 +7,3 @@ class Pluginweb_publishing_wizard_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

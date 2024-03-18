@@ -9,4 +9,3 @@ class Pluginsputnik_plugin(plugins.Base):
 			{ "text" : "Powered by <a href='http://spu.tnik.org/'>Sputnik</a>" },
 		]
 		return(self.rules)
-

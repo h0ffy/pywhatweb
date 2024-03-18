@@ -8,4 +8,3 @@ class Pluginphp_photo_gallery_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://phpweby.com">PHP Photo Gallery</a>" },
 		]
 		return(self.rules)
-

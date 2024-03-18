@@ -10,4 +10,3 @@ class Pluginaxous_plugin(plugins.Base):
 			{ "text" : "<div class="tit2 tit3">Products</div>" },
 		]
 		return(self.rules)
-

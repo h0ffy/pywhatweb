@@ -15,4 +15,3 @@ class Pluginlyris_listmanager_plugin(plugins.Base):
 			{ "text" : "<font face="Arial", "Helvetica", "sans-serif" color="#000000"><b><i>Main Menu</i></b></font><br>" },
 		]
 		return(self.rules)
-

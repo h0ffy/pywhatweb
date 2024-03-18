@@ -14,4 +14,3 @@ class Pluginionize_cms_plugin(plugins.Base):
 			{ "regexp" : "/<!--[\s]+Displays the Google code defined in Ionize's Advanced settings panel[\s]+-->/" },
 		]
 		return(self.rules)
-

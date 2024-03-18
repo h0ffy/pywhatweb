@@ -9,4 +9,3 @@ class Pluginrips_plugin(plugins.Base):
 			{ "text" : "<td nowrap><input type="checkbox" id="subdirs" value="1" title="check to scan subdirectories" />subdirs</td>" },
 		]
 		return(self.rules)
-

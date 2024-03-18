@@ -17,4 +17,3 @@ class Pluginnetsweeper_plugin(plugins.Base):
 			{ "text" : "<a href="http://www.poweredbynetsweeper.com"><img align=top border=0 src="http://www.poweredbynetsweeper.com/images/deny/global/poweredbynetsweeper.gif"></a>" },
 		]
 		return(self.rules)
-

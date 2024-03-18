@@ -13,4 +13,3 @@ class Pluginnetbotz_network_monitoring_device_plugin(plugins.Base):
 			{ "url" : "/statusHeader.html", "version" : "/<a href="http:\/\/updates.netbotz.com\/releases\/([\d\.]+)\/install.html" target="_instAV">\(Install Advanced View Application\)<\/a>/" },
 		]
 		return(self.rules)
-

@@ -8,4 +8,3 @@ class Pluginpassword_field_plugin(plugins.Base):
 			{ "name" : "rss link type", "regexp" : "/<input [^>]*?type=["']password["'][^>]*>/i },
 		]
 		return(self.rules)
-

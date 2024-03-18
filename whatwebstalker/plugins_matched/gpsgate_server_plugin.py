@@ -9,4 +9,3 @@ class Plugingpsgate_server_plugin(plugins.Base):
 			{ "regexp" : "/<head><title>\r?\n\tGpsGate Server - Login\r?\n<\/title><\/head>/" },
 		]
 		return(self.rules)
-

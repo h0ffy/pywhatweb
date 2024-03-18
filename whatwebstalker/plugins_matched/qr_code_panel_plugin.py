@@ -9,4 +9,3 @@ class Pluginqr_code_panel_plugin(plugins.Base):
 			{ "certainty" : "75", "regexp" : "/&copy; [\d]{4} by <a href='http:\/\/www\.g0lgs\.co\.uk\/downloads\.php'>G0LGS<\/a><\/td><\/tr>/" },
 		]
 		return(self.rules)
-

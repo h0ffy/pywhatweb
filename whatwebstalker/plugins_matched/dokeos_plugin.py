@@ -18,4 +18,3 @@ class Plugindokeos_plugin(plugins.Base):
 			{ "version" : "/<title>&mdash; Dokeos Installation &mdash; Version ([\d\.]+)<\/title>/", "string" : "Install Page" },
 		]
 		return(self.rules)
-

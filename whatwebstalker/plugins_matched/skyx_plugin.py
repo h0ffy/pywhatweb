@@ -12,4 +12,3 @@ class Pluginskyx_plugin(plugins.Base):
 			{ "version" : "/^SkyX HTTPS ([^\s]+)$/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

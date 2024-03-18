@@ -10,4 +10,3 @@ class Pluginnabble_plugin(plugins.Base):
 			{ "text" : "<table class="footer-table shaded-bg-color">" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Pluginatomic_photo_album_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

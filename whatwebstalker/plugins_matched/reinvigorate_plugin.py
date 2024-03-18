@@ -11,4 +11,3 @@ class Pluginreinvigorate_plugin(plugins.Base):
 			{ "certainty" : "10", "string" : /re_\("([a-z\d]{5}-[a-z\d]{10})"\);/" },
 		]
 		return(self.rules)
-

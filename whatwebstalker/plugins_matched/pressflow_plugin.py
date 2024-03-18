@@ -9,4 +9,3 @@ class Pluginpressflow_plugin(plugins.Base):
 			{ "text" : "<title>Drupal already installed | Pressflow</title>", "version" : "Install Page" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Pluginnewscoop_plugin(plugins.Base):
 			{ "text" : "<meta name="generator" content="Newscoop" />" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Plugincybozu_garoon_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

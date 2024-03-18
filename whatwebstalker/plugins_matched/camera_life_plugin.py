@@ -10,4 +10,3 @@ class Plugincamera_life_plugin(plugins.Base):
 			{ "version" : "/This site is powered by Camera Life version ([^ ]+)},
 		]
 		return(self.rules)
-

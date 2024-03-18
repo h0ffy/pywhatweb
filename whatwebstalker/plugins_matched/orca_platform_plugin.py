@@ -12,4 +12,3 @@ class Pluginorca_platform_plugin(plugins.Base):
 			{ "text" : "    <!-- Macro Initialisation - Don\'t Touch! -->" },
 		]
 		return(self.rules)
-

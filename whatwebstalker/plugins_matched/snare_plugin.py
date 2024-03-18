@@ -11,4 +11,3 @@ class Pluginsnare_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<ADDRESS>Snare Server Remote Control facility</ADDRESS>" },
 		]
 		return(self.rules)
-

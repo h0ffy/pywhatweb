@@ -10,4 +10,3 @@ class Pluginnet2ftp_plugin(plugins.Base):
 			{ "text" : "<!-- End of net2ftp login form -->" },
 		]
 		return(self.rules)
-

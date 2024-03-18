@@ -10,4 +10,3 @@ class Pluginsupport_incident_tracker_plugin(plugins.Base):
 			{ "text" : "<div class='windowtitle'>SiT! - Login</div>" },
 		]
 		return(self.rules)
-

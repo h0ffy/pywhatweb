@@ -8,4 +8,3 @@ class Pluginphpdirector_plugin(plugins.Base):
 			{ "version" : "/<a href="http:\/\/www.phpdirector.co.uk\/">Powered by PHP Director ([\d\.]+)<\/a>/" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Pluginnexpose_security_console_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

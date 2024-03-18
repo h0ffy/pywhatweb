@@ -7,4 +7,3 @@ class Pluginpolycom_viewstation_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

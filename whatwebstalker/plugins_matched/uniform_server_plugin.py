@@ -11,4 +11,3 @@ class Pluginuniform_server_plugin(plugins.Base):
 			{ "text" : "<div id="header"><a href="http://www.uniformserver.com"><img src="images/logo.jpg" align="left" alt="The Uniform Server" /></a>" },
 		]
 		return(self.rules)
-

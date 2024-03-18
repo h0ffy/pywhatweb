@@ -10,4 +10,3 @@ class Plugincloudfront_plugin(plugins.Base):
 			{ "search" : "headers[x-cache]", "regexp" : "/^Error from cloudfront/" },
 		]
 		return(self.rules)
-

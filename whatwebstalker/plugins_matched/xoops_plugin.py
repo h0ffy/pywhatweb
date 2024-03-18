@@ -12,4 +12,3 @@ class Pluginxoops_plugin(plugins.Base):
 			{ "version" : "/Powered by XOOPS ([^\s]+) [^\s]+ 2001-20[\d]{2} <a href="http:\/\/(xoops\.sourceforge\.net|www\.xoops\.org\/)"/" },
 		]
 		return(self.rules)
-

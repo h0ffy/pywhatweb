@@ -9,4 +9,3 @@ class Pluginslingbox_plugin(plugins.Base):
 			{ "version" : "/<!-- Footer start -->\s+<div id="footer_center">\s+<p>Portal Version:&nbsp;([^,]+)", "Plugin Version:&nbsp;/" },
 		]
 		return(self.rules)
-

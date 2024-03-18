@@ -8,4 +8,3 @@ class Pluginjava_management_extensions_plugin(plugins.Base):
 			{ "regexp" : "/[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]+ [DEBUG|INFO]/" },
 		]
 		return(self.rules)
-

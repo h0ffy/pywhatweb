@@ -15,4 +15,3 @@ class Pluginlinkspheric_plugin(plugins.Base):
 			{ "md5" : "a421ddecd26e755219c63a130893d253", "url" : "images/ls_logo.png" },
 		]
 		return(self.rules)
-

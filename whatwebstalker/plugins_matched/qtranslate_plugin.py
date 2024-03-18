@@ -8,4 +8,3 @@ class Pluginqtranslate_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/qtrans_cookie_test=[^\+]+\+Cookie\+Test;/" },
 		]
 		return(self.rules)
-

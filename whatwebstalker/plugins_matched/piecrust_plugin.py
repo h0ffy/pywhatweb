@@ -10,4 +10,3 @@ class Pluginpiecrust_plugin(plugins.Base):
 			{ "version" : "/Baked with <em><a href="http:\/\/bolt80\.com\/piecrust\/">PieCrust<\/a> ([^\s^<]+)<\/em>\.<\/p>/" },
 		]
 		return(self.rules)
-

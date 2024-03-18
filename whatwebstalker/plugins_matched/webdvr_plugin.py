@@ -12,4 +12,3 @@ class Pluginwebdvr_plugin(plugins.Base):
 			{ "text" : "		window.location="webdvr.html";" },
 		]
 		return(self.rules)
-

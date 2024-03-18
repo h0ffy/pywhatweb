@@ -8,4 +8,3 @@ class Pluginblogsmithmedia_plugin(plugins.Base):
 			{ "certainty" : "75", "regexp" : "/<script [^>]*\"http:\/\/www.blogsmithmedia.com},
 		]
 		return(self.rules)
-

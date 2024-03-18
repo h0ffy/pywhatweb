@@ -7,4 +7,3 @@ class Pluginhyperwave_is_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

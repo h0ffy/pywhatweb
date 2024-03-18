@@ -8,4 +8,3 @@ class Pluginextjs_plugin(plugins.Base):
 			{ "regexp" : "/<script [^>]*src=["'][^>]*ext\-base\.js["']/i },
 		]
 		return(self.rules)
-

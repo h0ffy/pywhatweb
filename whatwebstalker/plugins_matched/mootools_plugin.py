@@ -11,4 +11,3 @@ class Pluginmootools_plugin(plugins.Base):
 			{ "regexp" : "/^\/\/MooTools More", "<http:\/\/mootools.net\/more>. Copyright \(c\) 2006-2008 Valerio Proietti", "<http:\/\/mad4milk.net>", "MIT Style License./" },
 		]
 		return(self.rules)
-

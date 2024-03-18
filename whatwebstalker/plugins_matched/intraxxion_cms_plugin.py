@@ -10,4 +10,3 @@ class Pluginintraxxion_cms_plugin(plugins.Base):
 			{ "text" : "<!-- site built by Intraxxion", "www.intraxxion.com", "more_info@intraxxion.com", "tel: +31 45 5650207", "fax: +31 45 5650123" },
 		]
 		return(self.rules)
-

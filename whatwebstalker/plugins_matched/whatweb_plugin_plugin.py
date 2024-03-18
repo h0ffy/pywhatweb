@@ -7,4 +7,3 @@ class Pluginwhatweb_plugin_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

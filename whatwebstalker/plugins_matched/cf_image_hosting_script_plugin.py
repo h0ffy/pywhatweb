@@ -9,4 +9,3 @@ class Plugincf_image_hosting_script_plugin(plugins.Base):
 			{ "version" : "/<p>Powered By <a href="http[s]*:\/\/codefuture.co.uk\/projects\/imagehost[\d\.]*[^>]+>CF Image Hosting script ([\d\.]+)<\/a>/" },
 		]
 		return(self.rules)
-

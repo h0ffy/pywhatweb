@@ -11,4 +11,3 @@ class Plugindbhcms_plugin(plugins.Base):
 			{ "regexp" : "/<!--[\s]+Change the copyright but please leave a link "powered by DBHcms" to http:\/\/www.drbenhur.com[\s]/" },
 		]
 		return(self.rules)
-

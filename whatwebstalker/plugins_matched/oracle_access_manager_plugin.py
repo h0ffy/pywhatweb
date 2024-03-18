@@ -10,4 +10,3 @@ class Pluginoracle_access_manager_plugin(plugins.Base):
 			{ "search" : "headers[location]", "regexp" : "/obrareq\.cgi/", "certainty" : "75 },
 		]
 		return(self.rules)
-

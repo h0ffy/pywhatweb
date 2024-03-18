@@ -10,4 +10,3 @@ class Pluginduclassified_plugin(plugins.Base):
 			{ "name" : "assets/DUclassified.css", "regexp" : "/<link[^>]href="[^"]*assets\/DUclassified.css"[^>]+>/" },
 		]
 		return(self.rules)
-

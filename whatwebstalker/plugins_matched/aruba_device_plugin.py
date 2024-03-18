@@ -12,4 +12,3 @@ class Pluginaruba_device_plugin(plugins.Base):
 			{ "url" : "/images/arubalogo.gif", "md5" : "3dcb2475aa28fc1d685f863e79cc837f" },
 		]
 		return(self.rules)
-

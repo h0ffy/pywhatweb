@@ -11,4 +11,3 @@ class Pluginclaroline_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<link href="http://www.claroline.net" rel="Copyright" />" },
 		]
 		return(self.rules)
-

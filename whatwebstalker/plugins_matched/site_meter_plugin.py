@@ -11,4 +11,3 @@ class Pluginsite_meter_plugin(plugins.Base):
 			{ "regexp" : "/<!-- Copyright \(c\)20[\d]{2} Site Meter -->/" },
 		]
 		return(self.rules)
-

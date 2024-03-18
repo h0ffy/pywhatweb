@@ -10,4 +10,3 @@ class Pluginelectro_industries_gaugetech_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^EIG Embedded Web Server$/" },
 		]
 		return(self.rules)
-

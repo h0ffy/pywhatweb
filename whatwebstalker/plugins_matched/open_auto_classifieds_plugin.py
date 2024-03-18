@@ -10,4 +10,3 @@ class Pluginopen_auto_classifieds_plugin(plugins.Base):
 			{ "version" : "/			<p>Powered by Open Auto Classifieds v([\d\.a-z]+)/" },
 		]
 		return(self.rules)
-

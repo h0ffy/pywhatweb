@@ -7,4 +7,3 @@ class Pluginjava_password_log_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

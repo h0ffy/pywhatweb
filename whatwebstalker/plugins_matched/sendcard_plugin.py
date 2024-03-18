@@ -11,4 +11,3 @@ class Pluginsendcard_plugin(plugins.Base):
 			{ "text" : "<div style="display: none; color: White;">scscsc320</div>" },
 		]
 		return(self.rules)
-

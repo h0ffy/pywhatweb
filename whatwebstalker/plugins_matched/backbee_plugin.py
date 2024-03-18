@@ -8,4 +8,3 @@ class Pluginbackbee_plugin(plugins.Base):
 			{ "certainty" : "100", "text" : "<div id="bb5-site-wrapper">" },
 		]
 		return(self.rules)
-

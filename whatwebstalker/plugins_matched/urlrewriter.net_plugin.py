@@ -8,4 +8,3 @@ class Pluginurlrewriter.net_plugin(plugins.Base):
 			{ "search" : "headers[x-powered-by]", "version" : "/UrlRewriter\.NET ([^\s]+)/" },
 		]
 		return(self.rules)
-

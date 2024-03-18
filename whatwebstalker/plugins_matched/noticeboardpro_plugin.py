@@ -10,4 +10,3 @@ class Pluginnoticeboardpro_plugin(plugins.Base):
 			{ "text" : "<A HREF="loginOutline.php" CLASS="Xref" style="margin-left:165; margin-right:10">[Sign In]</A>" },
 		]
 		return(self.rules)
-

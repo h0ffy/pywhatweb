@@ -10,4 +10,3 @@ class Plugincisco_ios_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^cisco-IOS/" },
 		]
 		return(self.rules)
-

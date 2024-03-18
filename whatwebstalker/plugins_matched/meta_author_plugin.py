@@ -9,4 +9,3 @@ class Pluginmeta_author_plugin(plugins.Base):
 			{ "string" : /<meta[^>^=]+content[\s]*=[\s]*['"]([^"^'^>]+)['"][^>^=]+name[\s]*=[\s]*['"]?author['"]?/i },
 		]
 		return(self.rules)
-

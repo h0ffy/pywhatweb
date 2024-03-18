@@ -12,4 +12,3 @@ class Pluginbackuppc_plugin(plugins.Base):
 			{ "url" : "/", "search" : "headers[location]", "regexp" : "/\/cgi-bin\/BackupPC_Admin$/" },
 		]
 		return(self.rules)
-

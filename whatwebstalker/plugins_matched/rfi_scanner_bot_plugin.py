@@ -7,4 +7,3 @@ class Pluginrfi_scanner_bot_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

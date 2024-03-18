@@ -12,4 +12,3 @@ class Pluginunimep_station_controller_plugin(plugins.Base):
 			{ "text" : "<input type='button' value='Cashier' onclick=\"window.open('/cgi-bin/cashier.cgi?usc_ip=" },
 		]
 		return(self.rules)
-

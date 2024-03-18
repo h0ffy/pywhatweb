@@ -8,4 +8,3 @@ class Pluginsagem_router_plugin(plugins.Base):
 			{ "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="?Sagem"?$/" },
 		]
 		return(self.rules)
-

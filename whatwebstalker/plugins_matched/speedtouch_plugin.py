@@ -9,4 +9,3 @@ class Pluginspeedtouch_plugin(plugins.Base):
 			{ "regexp" : "/(Basic|Digest) realm="SpeedTouch/", "search" : "headers[www-authenticate]", "name" : "WWW-Authenticate realm" },
 		]
 		return(self.rules)
-

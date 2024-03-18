@@ -11,4 +11,3 @@ class Plugindreambox_plugin(plugins.Base):
 			{ "version" : "/^TwistedWeb\/([\d\.]+)/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

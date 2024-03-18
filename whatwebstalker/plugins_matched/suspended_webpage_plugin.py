@@ -9,4 +9,3 @@ class Pluginsuspended_webpage_plugin(plugins.Base):
 			{ "text" : "background-image: url(http://www.ultrawebsitehosting.com/suspended/body-bg.gif);", "version" : "'ultrawebsitehosting.com" },
 		]
 		return(self.rules)
-

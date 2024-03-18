@@ -10,4 +10,3 @@ class Plugintimelive_plugin(plugins.Base):
 			{ "version" : "/<td style="width: 15%" align=right>[\s]+<span id="CtlLogin1_Login1_VersionLabel">v ([^<^\s]+)<\/span><\/td>/" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginzoom_search_engine_plugin(plugins.Base):
 			{ "version" : "/<!--Zoom Search Engine Version ([\d\.]+ \([\d]+\))-->/" },
 		]
 		return(self.rules)
-

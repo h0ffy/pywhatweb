@@ -9,4 +9,3 @@ class Pluginvidiscript_plugin(plugins.Base):
 			{ "text" : "<a href='http://www.VidiScript.com'><b>Free Video Script</b></a>&nbsp;Powered By&nbsp;<a href='http://www.VidiScript.com'><b>VidiScript.com</b></a>" },
 		]
 		return(self.rules)
-

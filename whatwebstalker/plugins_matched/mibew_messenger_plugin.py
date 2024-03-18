@@ -9,4 +9,3 @@ class Pluginmibew_messenger_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<div class="empty_inner" style=">&#160;</div>" },
 		]
 		return(self.rules)
-

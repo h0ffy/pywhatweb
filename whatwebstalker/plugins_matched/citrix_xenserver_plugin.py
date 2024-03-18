@@ -9,4 +9,3 @@ class Plugincitrix_xenserver_plugin(plugins.Base):
 			{ "url" : "/", "md5" : "141c8bbcda4cf773763e9f2108d62ff3" },
 		]
 		return(self.rules)
-

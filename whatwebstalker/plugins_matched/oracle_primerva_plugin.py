@@ -12,4 +12,3 @@ class Pluginoracle_primerva_plugin(plugins.Base):
 			{ "text" : "<img src="img/process_meter.gif" border=0 id="progressimage"><br><br>Loading Java Plugin and Security Certificate" },
 		]
 		return(self.rules)
-

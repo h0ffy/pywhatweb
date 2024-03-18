@@ -21,4 +21,3 @@ class Pluginmagento_plugin(plugins.Base):
 			{ "text" : "<script type="text/x-magento-init">" },
 		]
 		return(self.rules)
-

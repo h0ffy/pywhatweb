@@ -8,4 +8,3 @@ class Pluginspring_framework_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "text" : "org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=" },
 		]
 		return(self.rules)
-

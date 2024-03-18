@@ -12,4 +12,3 @@ class Plugindirectadmin_plugin(plugins.Base):
 			{ "version" : "/^DirectAdmin Daemon v([^\s]+) Registered to /", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

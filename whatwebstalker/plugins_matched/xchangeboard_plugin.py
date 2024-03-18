@@ -9,4 +9,3 @@ class Pluginxchangeboard_plugin(plugins.Base):
 			{ "version" : "/	<div align="center"><small>Powered by <a href="http:\/\/www.xchangeboard.de">XchangeBoard<\/a> ver ([\d\.a-z]+) - /" },
 		]
 		return(self.rules)
-

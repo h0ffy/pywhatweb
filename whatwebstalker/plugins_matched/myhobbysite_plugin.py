@@ -11,4 +11,3 @@ class Pluginmyhobbysite_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/www.myhobbysite.net" target="_blank">MyHobbySite<\/a> ([\d\.]+) /" },
 		]
 		return(self.rules)
-

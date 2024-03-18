@@ -12,4 +12,3 @@ class Pluginopen_realty_plugin(plugins.Base):
 			{ "text" : "<!--Open-Realty is distributed by Transparent Technologies and is Licensed under the Open-Realty License. See http://www.open-realty.org/license_info.html for more information.-->" },
 		]
 		return(self.rules)
-

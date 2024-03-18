@@ -10,4 +10,3 @@ class Pluginphppgadmin_plugin(plugins.Base):
 			{ "version" : "%r{<span class="appname">phpPgAdmin</span> <span class="version">([\d\.]+)</span>} },
 		]
 		return(self.rules)
-

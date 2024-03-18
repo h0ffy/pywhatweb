@@ -11,4 +11,3 @@ class Pluginonze_miner_plugin(plugins.Base):
 			{ "text" : "<a href="http://onzeminer.sourceforge.net">ONZE Miner</a> is free software distributed under the terms of the <a href="/miner/gpl.txt" target="license">GNU General Public License</a>" },
 		]
 		return(self.rules)
-

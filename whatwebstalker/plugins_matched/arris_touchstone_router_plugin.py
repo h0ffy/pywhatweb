@@ -16,4 +16,3 @@ class Pluginarris_touchstone_router_plugin(plugins.Base):
 			{ "url" : "/vers.htm", "model" : "/<BR> SW_REV: ([^\s^<]+)<BR> MODEL: ([^\s^<]+)  <\/TD><\/TR><tr vAlign=top><td width="170">Product Type:<\/td>/", "offset" : "1 },
 		]
 		return(self.rules)
-

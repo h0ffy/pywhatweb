@@ -12,4 +12,3 @@ class Pluginsimple_directory_listing_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://sourceforge.net/simpledirectory">SimpleDirectoryListing</a>" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginlxr_plugin(plugins.Base):
 			{ "text" : "[&nbsp;<a href="ident">identifier search</a>&nbsp;]" },
 		]
 		return(self.rules)
-

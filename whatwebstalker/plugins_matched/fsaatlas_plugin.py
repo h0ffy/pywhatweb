@@ -11,4 +11,3 @@ class Pluginfsaatlas_plugin(plugins.Base):
 			{ "text" : "<!-- AP - 06/02/2009 - Defect 1533 - Campus DataLink Link not appearing at the top navigation bar-->" },
 		]
 		return(self.rules)
-

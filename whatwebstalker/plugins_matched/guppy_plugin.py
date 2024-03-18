@@ -10,4 +10,3 @@ class Pluginguppy_plugin(plugins.Base):
 			{ "version" : "/  <!--\[  GuppY v([\d\.]+) CeCILL Copyright \(C\) [\d]{4}\-[\d]{4} by Laurent Duveau \- http:\/\/www.freeguppy.org\/  \]-->/" },
 		]
 		return(self.rules)
-

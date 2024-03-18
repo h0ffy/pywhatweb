@@ -8,4 +8,3 @@ class Pluginteamspeak_server_log_plugin(plugins.Base):
 			{ "version" : "/^[0-9]{2}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2},ALL,Info,server,[\s]+Server version: ([^\r^\n]+)/" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginmission_control_application_shield_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Mission Control Application Shield$/" },
 		]
 		return(self.rules)
-

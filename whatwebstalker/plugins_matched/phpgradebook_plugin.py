@@ -11,4 +11,3 @@ class Pluginphpgradebook_plugin(plugins.Base):
 			{ "md5" : "9761e989848ed31a7d7a5a5411197281" },
 		]
 		return(self.rules)
-

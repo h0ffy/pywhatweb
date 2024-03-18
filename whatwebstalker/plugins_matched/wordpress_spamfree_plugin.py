@@ -8,4 +8,3 @@ class Pluginwordpress_spamfree_plugin(plugins.Base):
 			{ "version" : "/<!-- Protected by \(WP-SpamFree\) v([\d\.]+) :: JS BEGIN -->/" },
 		]
 		return(self.rules)
-

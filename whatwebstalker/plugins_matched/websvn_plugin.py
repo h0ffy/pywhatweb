@@ -11,4 +11,3 @@ class Pluginwebsvn_plugin(plugins.Base):
 			{ "md5" : "b2bb1d54c7bab453c0e054b31b6919e4", "url" : "templates/BlueGrey/images/websvn.png" },
 		]
 		return(self.rules)
-

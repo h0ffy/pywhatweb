@@ -10,4 +10,3 @@ class Pluginphprechnung_plugin(plugins.Base):
 			{ "version" : "/<title>phpInvoice ([^-]+) - Login<\/title>/" },
 		]
 		return(self.rules)
-

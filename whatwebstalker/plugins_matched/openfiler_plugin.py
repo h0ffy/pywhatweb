@@ -12,4 +12,3 @@ class Pluginopenfiler_plugin(plugins.Base):
 			{ "string" : /&copy; 2001 - (2[\d]{3}) <a href="http:\/\/www\.openfiler\.com\/">Openfiler<\/a>\. All rights reserved\.<br \/>/" },
 		]
 		return(self.rules)
-

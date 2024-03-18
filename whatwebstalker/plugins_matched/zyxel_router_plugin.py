@@ -20,4 +20,3 @@ class Pluginzyxel_router_plugin(plugins.Base):
 			{ "name" : "HTTP Server Header", "regexp" : "/^RomPager/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

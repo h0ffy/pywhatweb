@@ -10,4 +10,3 @@ class Plugintypolight_plugin(plugins.Base):
 			{ "text" : "<!-- indexer::continue -->'},
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginsmokeping_plugin(plugins.Base):
 			{ "version" : "/<A HREF="http:\/\/oss\.oetiker\.ch\/smokeping\/counter\.cgi\/([^\s\/\"]+)"><img border="0" src="[^"]+"><\/a>/" },
 		]
 		return(self.rules)
-

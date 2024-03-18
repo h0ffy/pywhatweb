@@ -13,4 +13,3 @@ class Plugincalendarscript_plugin(plugins.Base):
 			{ "text" : "Powered by <A HREF="http://www.CalendarScript.com/" CLASS="footertext" STYLE="text-decoration:underline;">CalendarScript</A>" },
 		]
 		return(self.rules)
-

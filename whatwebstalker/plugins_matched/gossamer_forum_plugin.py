@@ -11,4 +11,3 @@ class Plugingossamer_forum_plugin(plugins.Base):
 			{ "account" : "/<a href="gforum\.cgi\?username=([^;^>^"]+);guest=[\d]+">/" },
 		]
 		return(self.rules)
-

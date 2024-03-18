@@ -7,4 +7,3 @@ class Pluginnortel_ethernet_routing_switch_config_file_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

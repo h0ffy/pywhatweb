@@ -9,4 +9,3 @@ class Pluginbitweaver_plugin(plugins.Base):
 			{ "text" : "<meta name="generator" content="bitweaver - http://www.bitweaver.org" />" },
 		]
 		return(self.rules)
-

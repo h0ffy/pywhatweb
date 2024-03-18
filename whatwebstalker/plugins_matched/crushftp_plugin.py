@@ -12,4 +12,3 @@ class Plugincrushftp_plugin(plugins.Base):
 			{ "name" : "WWW-Authenticate", "version" : "/^Basic realm="CrushFTP Server Version ([\d\.]+)"$/", "search" : "headers[www-authenticate]" },
 		]
 		return(self.rules)
-

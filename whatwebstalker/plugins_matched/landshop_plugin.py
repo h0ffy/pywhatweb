@@ -10,4 +10,3 @@ class Pluginlandshop_plugin(plugins.Base):
 			{ "text" : "<!--<A href="<#G_ADMIN_URL#>/action/contacts.php?action=list"><#list_contacts#></a>-->" },
 		]
 		return(self.rules)
-

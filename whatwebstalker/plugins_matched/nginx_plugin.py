@@ -9,4 +9,3 @@ class Pluginnginx_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^nginx\/([^\s]+).*$/" },
 		]
 		return(self.rules)
-

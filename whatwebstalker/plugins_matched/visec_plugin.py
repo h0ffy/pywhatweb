@@ -10,4 +10,3 @@ class Pluginvisec_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^VISEC\/([^\s]+)$/" },
 		]
 		return(self.rules)
-

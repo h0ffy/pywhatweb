@@ -10,4 +10,3 @@ class Pluginminibb_plugin(plugins.Base):
 			{ "version" : "/Powered by <a[^>]+href="http:\/\/www.miniBB.(com|net)"[^>]*>miniBB ([^<]{1,7})<\/a>/i", "offset" : "1 },
 		]
 		return(self.rules)
-

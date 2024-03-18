@@ -16,4 +16,3 @@ class Plugin3com_nbx_plugin(plugins.Base):
 			{ "model" : "/<span class="splashTitleNBX">NBX<SUP><span class="splashTitleNBXReg">&reg;<\/span><\/SUP><\/span>[\s]+<span class="splashTitlePlatform">(&nbsp;)?([^<]+)<\/span>/", "offset" : "1 },
 		]
 		return(self.rules)
-

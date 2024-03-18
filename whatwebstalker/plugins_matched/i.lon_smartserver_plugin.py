@@ -7,4 +7,3 @@ class Plugini.lon_smartserver_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

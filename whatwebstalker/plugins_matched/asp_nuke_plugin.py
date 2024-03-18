@@ -18,4 +18,3 @@ class Pluginasp_nuke_plugin(plugins.Base):
 			{ "name" : "P3P Privacy Headers", "certainty" : "25", "search" : "headers[p3p]", "text" : "CP=\"NOI CUR OUR IND UNI COM NAV INT\" },
 		]
 		return(self.rules)
-

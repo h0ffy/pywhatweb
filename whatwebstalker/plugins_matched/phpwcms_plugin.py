@@ -9,4 +9,3 @@ class Pluginphpwcms_plugin(plugins.Base):
 			{ "text" : "	created by Oliver Georgi (oliver at phpwcms dot de) and licensed under GNU/GPL." },
 		]
 		return(self.rules)
-

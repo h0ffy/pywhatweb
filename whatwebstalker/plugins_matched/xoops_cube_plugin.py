@@ -13,4 +13,3 @@ class Pluginxoops_cube_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/xoopscube\.org\/" rel="external">XOOPS Cube<\/a> ([^\s]+) &copy; 200[01]-20[\d]{2} <a href="http:\/\/xoopscube\.sourceforge\.net\/" rel="external">XOOPS Cube Project<\/a><\/p>/" },
 		]
 		return(self.rules)
-

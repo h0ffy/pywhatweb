@@ -11,4 +11,3 @@ class Plugintmw_imaging_plugin(plugins.Base):
 			{ "text" : "<!-- HTML Library is $Id: TmwHTML.pm" },
 		]
 		return(self.rules)
-

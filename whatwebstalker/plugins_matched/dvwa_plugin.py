@@ -10,4 +10,3 @@ class Plugindvwa_plugin(plugins.Base):
 			{ "text" : "			<p><label for="pass">Password</label><input type="password" AUTOCOMPLETE="off" size="20" name="password"></p><br />" },
 		]
 		return(self.rules)
-

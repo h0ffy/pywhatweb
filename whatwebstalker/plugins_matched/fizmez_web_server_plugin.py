@@ -9,4 +9,3 @@ class Pluginfizmez_web_server_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Fizmez\/([1-9]+\.[\d\.]+)/" },
 		]
 		return(self.rules)
-

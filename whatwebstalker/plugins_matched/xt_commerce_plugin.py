@@ -17,4 +17,3 @@ class Pluginxt_commerce_plugin(plugins.Base):
 			{ "text" : "<div class="copyright"><a href="http://www.xtc-modified.org" target="_blank">xtcModified</a>", "module" : "xtcModified" },
 		]
 		return(self.rules)
-

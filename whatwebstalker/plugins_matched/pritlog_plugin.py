@@ -9,4 +9,3 @@ class Pluginpritlog_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://pritlog.com/">Pritlog</a>" },
 		]
 		return(self.rules)
-

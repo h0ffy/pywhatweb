@@ -10,4 +10,3 @@ class Pluginphp_server_monitor_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/phpservermon\.sourceforge\.net" target="_blank">PHP Server Monitor v([\d\.]+)<\/a><br\/>/" },
 		]
 		return(self.rules)
-

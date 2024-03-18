@@ -15,4 +15,3 @@ class Pluginilo_plugin(plugins.Base):
 			{ "text" : "document.title="Integrated Lights Out 2: "+serverName;", "version" : "2.x" },
 		]
 		return(self.rules)
-

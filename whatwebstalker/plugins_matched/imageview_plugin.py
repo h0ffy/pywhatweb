@@ -15,4 +15,3 @@ class Pluginimageview_plugin(plugins.Base):
 			{ "version" : "/<title>Imageview ([\d]{1}) :: (By Jorge Schrauwen|User Settings|Upload Image|Album View|Administration|RSS Feeds|Install)<\/title>/" },
 		]
 		return(self.rules)
-

@@ -13,4 +13,3 @@ class Pluginphpdocumentor_plugin(plugins.Base):
 			{ "version" : "/<span class="title"><strong>docBuilder<\/strong> :: phpDocumentor v([^\s]+) Web Interface<\/span>/" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Pluginsap_netweaver_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

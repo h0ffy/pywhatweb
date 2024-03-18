@@ -11,4 +11,3 @@ class Pluginzest_web_engine_plugin(plugins.Base):
 			{ "version" : "/Powered by the <a href='http:\/\/www.zest-leisure.com\/'>Zest Web Engine<\/a>[ ]+V ([0-9\.]+)<},
 		]
 		return(self.rules)
-

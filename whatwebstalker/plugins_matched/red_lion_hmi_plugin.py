@@ -9,4 +9,3 @@ class Pluginred_lion_hmi_plugin(plugins.Base):
 			{ "text" : "<p><font face=tahoma size=1>Powered by <a href=http://www.redlion.net>Red Lion</a>.</font></p>" },
 		]
 		return(self.rules)
-

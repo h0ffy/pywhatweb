@@ -9,4 +9,3 @@ class Pluginmodernizr_plugin(plugins.Base):
 			{ "version" : "/<script [^>]*src=["'][^>]*modernizr-([^>]+)\.js/i },
 		]
 		return(self.rules)
-

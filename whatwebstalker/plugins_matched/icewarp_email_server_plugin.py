@@ -12,4 +12,3 @@ class Pluginicewarp_email_server_plugin(plugins.Base):
 			{ "text" : "<span id="cipher"><input type="checkbox" name="xcipher" value="1" >Encrypted login</span>" },
 		]
 		return(self.rules)
-

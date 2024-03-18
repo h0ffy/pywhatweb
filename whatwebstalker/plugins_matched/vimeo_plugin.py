@@ -9,4 +9,3 @@ class Pluginvimeo_plugin(plugins.Base):
 			{ "regexp" : "/<iframe [^>]*src=['"]https?:\/\/player\.vimeo\.com\/video\//" },
 		]
 		return(self.rules)
-

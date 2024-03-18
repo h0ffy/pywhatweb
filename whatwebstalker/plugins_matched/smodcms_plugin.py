@@ -10,4 +10,3 @@ class Pluginsmodcms_plugin(plugins.Base):
 			{ "regexp" : "/[P|p]+owered by <a href="http:\/\/www.smod.pl[\/]+"[^>]+>SmodCMS[\s]*<\/a>/" },
 		]
 		return(self.rules)
-

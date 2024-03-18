@@ -9,4 +9,3 @@ class Pluginpowermta_plugin(plugins.Base):
 			{ "certainty" : "25", "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="PowerMTA"$/" },
 		]
 		return(self.rules)
-

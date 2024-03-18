@@ -13,4 +13,3 @@ class Pluginphotostore_plugin(plugins.Base):
 			{ "text" : "<body bgcolor="#13387E" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" onLoad="document.login_form.username.focus();">" },
 		]
 		return(self.rules)
-

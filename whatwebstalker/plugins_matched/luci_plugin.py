@@ -15,4 +15,3 @@ class Pluginluci_plugin(plugins.Base):
 			{ "string" : /<div id="header">[\r\n]*<h1>OpenWrt Firmware<\/h1>[\r\n]*<p>[\r\n]*([^<]+)<br \/>[\r\n]*Load: [^<]{10,15}<br \/>[\r\n]*Hostname: ([^\r\n<]+)[\s]*<\/p>[\r\n]*<\/div>/", "offset" : "1 },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Plugincdk_connected_website_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

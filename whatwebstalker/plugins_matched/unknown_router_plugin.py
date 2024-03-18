@@ -11,4 +11,3 @@ class Pluginunknown_router_plugin(plugins.Base):
 			{ "md5" : "129f914b2570b50374ebeb8f1306617d", "url" : "/login/keys.png" },
 		]
 		return(self.rules)
-

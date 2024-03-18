@@ -7,4 +7,3 @@ class Pluginsquid_web_proxy_cache_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

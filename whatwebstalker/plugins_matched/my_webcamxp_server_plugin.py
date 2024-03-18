@@ -18,4 +18,3 @@ class Pluginmy_webcamxp_server_plugin(plugins.Base):
 			{ "version" : "/powered by <a href="http:\/\/www.webcamXP.com" target="_blank">webcamXP 5<\/a> v([\d\.]+)<\/a>/" },
 		]
 		return(self.rules)
-

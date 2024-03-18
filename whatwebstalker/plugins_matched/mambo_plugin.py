@@ -11,4 +11,3 @@ class Pluginmambo_plugin(plugins.Base):
 			{ "url" : "administrator/templates/mambo_admin/templateDetails.xml", "regexp" : " /(<name>Mambo Admin<\/name>|<authorUrl>http:\/\/www\.mambo\-foundation\.org<\/authorUrl>)/" },
 		]
 		return(self.rules)
-

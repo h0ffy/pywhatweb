@@ -9,4 +9,3 @@ class Pluginvigor_router_plugin(plugins.Base):
 			{ "search" : "headers[www-authenticate]", "model" : "/^Basic realm="(Login to )?Vigor ([\d]+)"$/", "offset" : "1 },
 		]
 		return(self.rules)
-

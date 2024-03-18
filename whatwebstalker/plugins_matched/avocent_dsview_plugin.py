@@ -13,4 +13,3 @@ class Pluginavocent_dsview_plugin(plugins.Base):
 			{ "module" : /<!-- TITLE -->[\s]+<title>[\s]+(DSWebview [\d\.]+)[\s]+<\/title>[\s]+<!-- AVOCENT ICON -->/" },
 		]
 		return(self.rules)
-

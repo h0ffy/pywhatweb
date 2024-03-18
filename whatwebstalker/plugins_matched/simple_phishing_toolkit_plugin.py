@@ -11,4 +11,3 @@ class Pluginsimple_phishing_toolkit_plugin(plugins.Base):
 			{ "version" : "/<span id="spt"><a href="http:\/\/www\.sptoolkit\.com\/download\/" target="_blank">v([^\s^<]+)/" },
 		]
 		return(self.rules)
-

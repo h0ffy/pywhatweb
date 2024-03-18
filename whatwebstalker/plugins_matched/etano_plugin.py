@@ -9,4 +9,3 @@ class Pluginetano_plugin(plugins.Base):
 			{ "text" : "Etano</a>. All Rights Reserved.<br />" },
 		]
 		return(self.rules)
-

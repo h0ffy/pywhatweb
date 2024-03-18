@@ -12,4 +12,3 @@ class Pluginreflex_cms_plugin(plugins.Base):
 			{ "url" : "/Admin/Resources/images/reflex.png", "md5" : "982a1eb449c954d214307a20dc2301ea" },
 		]
 		return(self.rules)
-

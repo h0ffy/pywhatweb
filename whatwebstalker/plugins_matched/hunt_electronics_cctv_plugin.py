@@ -12,4 +12,3 @@ class Pluginhunt_electronics_cctv_plugin(plugins.Base):
 			{ "text" : "                        <!--<p>If ActiveX control can\'t be loaded", "please download and install Webviewer ActiveX Control.<br>&gt;&gt; <a href="./WebviewerInstaller.exe">Download Webviewer Installer v.1.0.3.0</a>-->", "version" : "HNVS-04" },
 		]
 		return(self.rules)
-

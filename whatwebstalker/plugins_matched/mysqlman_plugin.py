@@ -9,4 +9,3 @@ class Pluginmysqlman_plugin(plugins.Base):
 			{ "version" : "/<p align="right"><a href="http:\/\/www\.gossamer-threads\.com\/scripts\/"><font face="Verdana", "Arial", "Helvetica" size="1">MySQLMan[\s]+v\. ([^\s^<]+)<br>/" },
 		]
 		return(self.rules)
-

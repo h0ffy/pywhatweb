@@ -7,4 +7,3 @@ class Pluginallomani_e_store_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

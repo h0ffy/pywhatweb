@@ -11,4 +11,3 @@ class Pluginartifactory_plugin(plugins.Base):
 			{ "url" : "/artifactory/ui/auth/screen/footer", "version" : "/"buildNumber":"([\d\.]+ rev \d+)"/" },
 		]
 		return(self.rules)
-

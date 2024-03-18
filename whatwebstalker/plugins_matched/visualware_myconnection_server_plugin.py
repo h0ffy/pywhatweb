@@ -11,4 +11,3 @@ class Pluginvisualware_myconnection_server_plugin(plugins.Base):
 			{ "string" : /^Visualware MyConnection Server ([^\d]+) \d\.[^\s]+$/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

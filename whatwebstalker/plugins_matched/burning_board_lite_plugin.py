@@ -11,4 +11,3 @@ class Pluginburning_board_lite_plugin(plugins.Base):
 			{ "version" : "/<p class="copyright"><a href="http:\/\/www.woltlab.com">Forum Software: <strong>Burning Board&reg; ([\d\.]*)<\/strong>", "developed by <strong>WoltLab&reg; GmbH<\/strong><\/a><\/p>/" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Pluginsnom_phone_plugin(plugins.Base):
 			{ "certainty" : "75", "regexp" : "/<td[^>]+>Welcome to Your Phone!<\/td>/" },
 		]
 		return(self.rules)
-

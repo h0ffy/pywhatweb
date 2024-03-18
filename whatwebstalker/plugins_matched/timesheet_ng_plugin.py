@@ -11,4 +11,3 @@ class Plugintimesheet_ng_plugin(plugins.Base):
 			{ "text" : "<META name="description" content="Timesheet Next Gen">" },
 		]
 		return(self.rules)
-

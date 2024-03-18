@@ -10,4 +10,3 @@ class Plugincustom_cms_plugin(plugins.Base):
 			{ "version" : "/power.png" border="0" style="margin-top: 7px;" alt=" title="Powered by CCMS v([\d\.]+)" \/><\/a>/" },
 		]
 		return(self.rules)
-

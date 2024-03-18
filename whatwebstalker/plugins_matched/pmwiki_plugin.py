@@ -11,4 +11,3 @@ class Pluginpmwiki_plugin(plugins.Base):
 			{ "regexp" : "/<link rel='stylesheet' href='[^']*\/pmwiki\/pub\/skins\/pmwiki\/pmwiki\.css' type='text\/css' \/>/" },
 		]
 		return(self.rules)
-

@@ -13,4 +13,3 @@ class Plugincheck_point_ssl_network_extender_plugin(plugins.Base):
 			{ "version" : "/<form autocomplete="off" method="post" action="\/platform\.cgi\?" target="_top">[\s]+<input type="hidden" name="thispage" value="index\.htm">[\s]+<div class="version_div">([^<]+)<\/div>/", "string" : "Security Gateway" },
 		]
 		return(self.rules)
-

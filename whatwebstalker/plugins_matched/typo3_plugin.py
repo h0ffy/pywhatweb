@@ -12,4 +12,3 @@ class Plugintypo3_plugin(plugins.Base):
 			{ "search" : "headers[x-typo3-parsetime]", "regexp" : "/\d+ms/", "name" : "X-TYPO3-Parsetime header" },
 		]
 		return(self.rules)
-

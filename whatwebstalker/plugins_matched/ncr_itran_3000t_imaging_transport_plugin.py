@@ -11,4 +11,3 @@ class Pluginncr_itran_3000t_imaging_transport_plugin(plugins.Base):
 			{ "url" : "/setup.php", "account" : "/<input type=hidden name=setupItem\[\] value="\$cpassword"><input type=hidden name=setupTitle\[\] value="iSite Controller Password"><input name=setupValue\[\] value="([^\"^>]+)" size=40><\/td><\/tr>/" },
 		]
 		return(self.rules)
-

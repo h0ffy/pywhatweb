@@ -10,4 +10,3 @@ class Pluginweb_wiz_rich_text_editor_plugin(plugins.Base):
 			{ "text" : "<form method="post" action="RTE_popup_file_atch.asp" name="frmImageInsrt">" },
 		]
 		return(self.rules)
-

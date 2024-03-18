@@ -11,4 +11,3 @@ class Plugincartweaver_plugin(plugins.Base):
 			{ "md5" : "c69d6a93a877325c6f33f8ee4339ce8f", "url" : "images/cartweaver80x15.gif" },
 		]
 		return(self.rules)
-

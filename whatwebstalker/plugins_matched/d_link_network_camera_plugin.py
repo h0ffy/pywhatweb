@@ -10,4 +10,3 @@ class Plugind_link_network_camera_plugin(plugins.Base):
 			{ "text" : "if (document.domain.toLowerCase() == "DCS-950G".toLowerCase())", "version" : "DCS-950G" },
 		]
 		return(self.rules)
-

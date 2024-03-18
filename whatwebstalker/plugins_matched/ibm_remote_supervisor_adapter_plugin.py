@@ -12,4 +12,3 @@ class Pluginibm_remote_supervisor_adapter_plugin(plugins.Base):
 			{ "search" : "headers[location]", "regexp" : "/https?:\/\/[^\/]+\/private\/testcookie\.ssi\?SESSID=[a-f\d]{32}/" },
 		]
 		return(self.rules)
-

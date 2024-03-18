@@ -10,4 +10,3 @@ class Pluginaruba_mobility_controller_config_file_plugin(plugins.Base):
 			{ "text" : "ids-policy rate-frame-type-param disassoc node-time-interval" },
 		]
 		return(self.rules)
-

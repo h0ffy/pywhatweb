@@ -8,4 +8,3 @@ class Pluginintrasrv_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^intrasrv ([\d\.]+)$/" },
 		]
 		return(self.rules)
-

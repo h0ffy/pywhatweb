@@ -9,4 +9,3 @@ class Pluginbillion_router_plugin(plugins.Base):
 			{ "url" : "/customized/logo.gif", "md5" : "82b6dea5a084044bf65f9af5440dfaf1" },
 		]
 		return(self.rules)
-

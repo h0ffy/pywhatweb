@@ -7,4 +7,3 @@ class Pluginx_frame_options_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

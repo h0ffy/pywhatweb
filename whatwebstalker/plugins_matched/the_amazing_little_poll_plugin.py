@@ -11,4 +11,3 @@ class Pluginthe_amazing_little_poll_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/pollidcookie=/" },
 		]
 		return(self.rules)
-

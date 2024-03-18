@@ -9,4 +9,3 @@ class Plugintaskfreak_plugin(plugins.Base):
 			{ "version" : "/    <a href="http:\/\/www.taskfreak.com">TaskFreak! multi user<\/a> v([\d\.]+) - Released on [\d\-]+ under GNU General Public License/" },
 		]
 		return(self.rules)
-

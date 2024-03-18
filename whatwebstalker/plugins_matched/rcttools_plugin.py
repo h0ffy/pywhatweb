@@ -8,4 +8,3 @@ class Pluginrcttools_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^RCTTools \(SecureSOHO Web configuration Tools\) v([^\s]+)$/" },
 		]
 		return(self.rules)
-

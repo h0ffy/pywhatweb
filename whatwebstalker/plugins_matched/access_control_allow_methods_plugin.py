@@ -8,4 +8,3 @@ class Pluginaccess_control_allow_methods_plugin(plugins.Base):
 			{ "search" : "headers[access-control-allow-methods]", "string" : /(.+)/" },
 		]
 		return(self.rules)
-

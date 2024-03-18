@@ -9,4 +9,3 @@ class Plugincowiki_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="coWiki ([^,]+)", "(http:\/\/www.develnet.org|http:\/\/www.cowiki.org)"[^>]*>/" },
 		]
 		return(self.rules)
-

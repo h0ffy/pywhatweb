@@ -10,4 +10,3 @@ class Pluginhighwire_press_plugin(plugins.Base):
 			{ "search" : "headers[x-highwire-sessionid]", "regexp" : "/^.+$/" },
 		]
 		return(self.rules)
-

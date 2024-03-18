@@ -10,4 +10,3 @@ class Pluginkedacom_truesens_plugin(plugins.Base):
 			{ "text" : "<img src="./img/kedacom-logo.jpg" alt="WEB CONSOLE" /></td>" },
 		]
 		return(self.rules)
-

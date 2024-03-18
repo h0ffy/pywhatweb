@@ -9,4 +9,3 @@ class Pluginsweetrice_plugin(plugins.Base):
 			{ "text" : "Powered By <a href="http://www.basic-cms.org">Basic CMS SweetRice</a>" },
 		]
 		return(self.rules)
-

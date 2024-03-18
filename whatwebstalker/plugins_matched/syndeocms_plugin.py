@@ -13,4 +13,3 @@ class Pluginsyndeocms_plugin(plugins.Base):
 			{ "text" : "<!-- Please don't remove my credits! I worked hard to create this theme and distribute it freely. Thanks! -->" },
 		]
 		return(self.rules)
-

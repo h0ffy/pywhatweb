@@ -9,4 +9,3 @@ class Plugineverfocus_cctv_plugin(plugins.Base):
 			{ "text" : "<!--mei20071101 input type="image" name="recMode" style="visibility:hidden" src="stoprec.gif" onclick="changeRecordMode()"-->" },
 		]
 		return(self.rules)
-

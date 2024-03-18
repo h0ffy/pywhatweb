@@ -13,4 +13,3 @@ class Pluginactiveweb_content_server_plugin(plugins.Base):
 			{ "name" : "X-AwCache-ScriptTechnology Header", "string" : /^.*$/ ,"search" : "headers[x-awcache-scripttechnology]" },
 		]
 		return(self.rules)
-

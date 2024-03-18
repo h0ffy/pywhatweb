@@ -13,4 +13,3 @@ class Pluginenergine_plugin(plugins.Base):
 			{ "text" : "<div id="footer">Powered by <a href="http://energine.org">Energine</a>" },
 		]
 		return(self.rules)
-

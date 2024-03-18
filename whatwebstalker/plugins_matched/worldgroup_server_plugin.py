@@ -7,4 +7,3 @@ class Pluginworldgroup_server_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

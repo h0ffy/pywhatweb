@@ -10,4 +10,3 @@ class Pluginproliphix_thermostat_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : " - Status &amp; Control</title>" },
 		]
 		return(self.rules)
-

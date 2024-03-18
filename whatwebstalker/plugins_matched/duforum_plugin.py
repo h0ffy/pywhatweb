@@ -9,4 +9,3 @@ class Pluginduforum_plugin(plugins.Base):
 			{ "name" : "default title", "regexp" : "/<title>DUdforum[0-9a-zA-Z\ \.-]+<\/title>},
 		]
 		return(self.rules)
-

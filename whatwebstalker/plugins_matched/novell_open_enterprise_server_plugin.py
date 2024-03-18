@@ -12,4 +12,3 @@ class Pluginnovell_open_enterprise_server_plugin(plugins.Base):
 			{ "version" : "/<h1>Novell Open Enterprise Server ([^<]+)<\/h1>\s+<p class="link"><a href="http:\/\/www\.novell\.com\/products\/openenterpriseserver\/">/" },
 		]
 		return(self.rules)
-

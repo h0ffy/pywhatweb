@@ -9,4 +9,3 @@ class Plugininterspire_shopping_cart_plugin(plugins.Base):
 			{ "regexp" : "/				Powered by <a href="http:\/\/www.interspire.com\/shoppingcart[\/]*" target="_blank" class="PoweredBy">Interspire Shopping Cart<\/a>/" },
 		]
 		return(self.rules)
-

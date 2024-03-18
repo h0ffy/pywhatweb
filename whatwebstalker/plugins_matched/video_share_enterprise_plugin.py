@@ -7,4 +7,3 @@ class Pluginvideo_share_enterprise_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

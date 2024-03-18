@@ -10,4 +10,3 @@ class Plugindaffodil_crm_plugin(plugins.Base):
 			{ "regexp" : "/ href="\?app=forgot_passwd&amp;cmd=passwd_send">[^>]*Forgot Password\?<\/a><\/td>/" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginalcatel_lucent_omniswitch_plugin(plugins.Base):
 			{ "text" : "document.write(errMsg=="?"&nbsp;":("<u>Error</u>&nbsp;-&nbsp;" + errMsg));" },
 		]
 		return(self.rules)
-

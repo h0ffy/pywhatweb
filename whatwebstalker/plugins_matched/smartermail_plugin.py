@@ -12,4 +12,3 @@ class Pluginsmartermail_plugin(plugins.Base):
 			{ "text" : "<title>Login - SmarterMail</title>" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginwebpa_plugin(plugins.Base):
 			{ "md5" : "4bfb4898e9927666d6d5a35c7570a960", "url" : "/images/tool/appbar_webpa_logo.png" },
 		]
 		return(self.rules)
-

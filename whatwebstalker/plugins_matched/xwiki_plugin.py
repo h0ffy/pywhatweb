@@ -10,4 +10,3 @@ class Pluginxwiki_plugin(plugins.Base):
 			{ "version" : "/<div id="xwikiplatformversion">(Powered by )?(XWiki Enterprise )?([^\s<>]+)/", "offset" : "2 },
 		]
 		return(self.rules)
-

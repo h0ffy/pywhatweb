@@ -8,4 +8,3 @@ class Pluginibm_websphere_datapower_plugin(plugins.Base):
 			{ "search" : "headers[x-backside-transport]", "string" : /(FAIL|OK)/" },
 		]
 		return(self.rules)
-

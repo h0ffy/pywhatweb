@@ -10,4 +10,3 @@ class Pluginarab_portal_plugin(plugins.Base):
 			{ "version" : "/<center><font size=2>Powered by: Arab[\s]*Portal v([\d\.]+)[\s]*", "Copyright/" },
 		]
 		return(self.rules)
-

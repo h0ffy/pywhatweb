@@ -8,4 +8,3 @@ class Pluginscriptaculous_plugin(plugins.Base):
 			{ "regexp" : "/<script [^>]*(scriptaculous[^>]*.js)[^>]*},
 		]
 		return(self.rules)
-

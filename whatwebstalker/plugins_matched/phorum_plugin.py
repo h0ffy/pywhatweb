@@ -9,4 +9,3 @@ class Pluginphorum_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<!-- end of div id=user-info -->" },
 		]
 		return(self.rules)
-

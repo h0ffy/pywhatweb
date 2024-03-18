@@ -8,4 +8,3 @@ class Pluginempirecms_plugin(plugins.Base):
 			{ "text" : " - Powered by EmpireCMS</title>" },
 		]
 		return(self.rules)
-

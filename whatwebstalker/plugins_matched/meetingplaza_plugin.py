@@ -10,4 +10,3 @@ class Pluginmeetingplaza_plugin(plugins.Base):
 			{ "regexp" : "/^InterSpace HTTP Tunneling/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

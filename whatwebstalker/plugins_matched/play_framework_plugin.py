@@ -8,4 +8,3 @@ class Pluginplay_framework_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Play! Framework;(\d[^\s^;]+;[^\s]+)$/" },
 		]
 		return(self.rules)
-

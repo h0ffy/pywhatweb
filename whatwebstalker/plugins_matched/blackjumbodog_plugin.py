@@ -9,4 +9,3 @@ class Pluginblackjumbodog_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^BlackJumboDog Version (.+)$/" },
 		]
 		return(self.rules)
-

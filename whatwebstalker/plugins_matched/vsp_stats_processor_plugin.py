@@ -12,4 +12,3 @@ class Pluginvsp_stats_processor_plugin(plugins.Base):
 			{ "version" : "/<A HREF="http:\/\/www.clanavl.com\/vsp\/">vsp<\/A> v([\d\.]+),/" },
 		]
 		return(self.rules)
-

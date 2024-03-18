@@ -9,4 +9,3 @@ class Pluginblogn_plus_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator"[^>]*content="BlognPlus ([0-9\.]+)/" },
 		]
 		return(self.rules)
-

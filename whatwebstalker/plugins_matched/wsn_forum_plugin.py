@@ -14,4 +14,3 @@ class Pluginwsn_forum_plugin(plugins.Base):
 			{ "text" : "<textarea readonly rows="20" cols="75">WSN Forum License Agreement" },
 		]
 		return(self.rules)
-

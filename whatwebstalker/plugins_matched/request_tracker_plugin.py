@@ -18,4 +18,3 @@ class Pluginrequest_tracker_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/RT_SID_[^\s^=]+=[a-f\d]{32};/" },
 		]
 		return(self.rules)
-

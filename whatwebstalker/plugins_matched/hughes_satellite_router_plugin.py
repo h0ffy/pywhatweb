@@ -13,4 +13,3 @@ class Pluginhughes_satellite_router_plugin(plugins.Base):
 			{ "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="HUGHES Terminal"$/" },
 		]
 		return(self.rules)
-

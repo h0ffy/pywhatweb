@@ -8,4 +8,3 @@ class Pluginintrinsyc_deviceweb_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Intrinsyc deviceWEB v([\d\.]+)$/" },
 		]
 		return(self.rules)
-

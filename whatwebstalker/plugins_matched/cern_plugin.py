@@ -8,4 +8,3 @@ class Plugincern_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^CERN\/([^\s]+)/" },
 		]
 		return(self.rules)
-

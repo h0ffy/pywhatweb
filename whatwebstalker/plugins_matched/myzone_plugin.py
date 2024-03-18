@@ -8,4 +8,3 @@ class Pluginmyzone_plugin(plugins.Base):
 			{ "regexp" : "/<title>MyZone<\/title>.*www\.netcomm\.com\.au/m},
 		]
 		return(self.rules)
-

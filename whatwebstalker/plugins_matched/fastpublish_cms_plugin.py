@@ -9,4 +9,3 @@ class Pluginfastpublish_cms_plugin(plugins.Base):
 			{ "version" : "/<meta name="Generator" content="fastpublish CMS ([^"]{1,15})">/" },
 		]
 		return(self.rules)
-

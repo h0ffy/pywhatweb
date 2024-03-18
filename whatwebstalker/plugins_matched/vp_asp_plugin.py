@@ -13,4 +13,3 @@ class Pluginvp_asp_plugin(plugins.Base):
 			{ "version" : "/<title>VP-ASP Shopping Cart ([^ <]*)/", "name" : "powered by title" },
 		]
 		return(self.rules)
-

@@ -13,4 +13,3 @@ class Plugintruition_plugin(plugins.Base):
 			{ "text" : "location.href = "/cgi-bin/ncommerce3/ExecMacro/static/" },
 		]
 		return(self.rules)
-

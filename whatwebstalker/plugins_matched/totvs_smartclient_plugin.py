@@ -11,4 +11,3 @@ class Plugintotvs_smartclient_plugin(plugins.Base):
 			{ "search" : "headers[TotvsSmartClient]", "regexp" : "/^TotvsSmartClient$/" },
 		]
 		return(self.rules)
-

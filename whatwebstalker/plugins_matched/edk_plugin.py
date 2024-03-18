@@ -12,4 +12,3 @@ class Pluginedk_plugin(plugins.Base):
 			{ "text" : "<!-- /killlistable.tpl -->" },
 		]
 		return(self.rules)
-

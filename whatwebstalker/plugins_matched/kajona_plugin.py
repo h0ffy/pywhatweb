@@ -13,4 +13,3 @@ class Pluginkajona_plugin(plugins.Base):
 			{ "string" : /<div class="copyright">&copy; (20[\d]{2}) <a href="http:\/\/www\.kajona\.de" target="_blank" title="Kajona/" },
 		]
 		return(self.rules)
-

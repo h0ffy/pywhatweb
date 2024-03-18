@@ -8,4 +8,3 @@ class Pluginallnewsmanager.net_plugin(plugins.Base):
 			{ "regexp" : "/(kujeme|Powered by) <a id="[^"]+" href="http:\/\/www.allnewsmanager.net">AllNewsManager.NET<\/a>/" },
 		]
 		return(self.rules)
-

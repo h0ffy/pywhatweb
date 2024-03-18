@@ -13,4 +13,3 @@ class Pluginmojoportal_plugin(plugins.Base):
 			{ "text" : "<link id="Link1" runat="server" rel="stylesheet" href="../Data/style/setup.css" type="text/css"  />" },
 		]
 		return(self.rules)
-

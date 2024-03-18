@@ -10,4 +10,3 @@ class Pluginmura_cms_plugin(plugins.Base):
 			{ "text" : "<form novalidate="novalidate" id="sendLogin" name="sendLogin" method="post" action="index.cfm?fuseaction=cLogin.main" onsubmit="javascript:if(document.sendLogin.email.value !=\'\'){return true;}else{return false;}">" },
 		]
 		return(self.rules)
-

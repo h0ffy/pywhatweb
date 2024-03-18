@@ -10,4 +10,3 @@ class Pluginjustanswer_professional_plugin(plugins.Base):
 			{ "text" : "<img src="images/settings.png" style="vertical-align:middle;" />&nbsp;<a href="logout.php" class="cpanel_a">Logout </a><br>" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Pluginipswitch_imail_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

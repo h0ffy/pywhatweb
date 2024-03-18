@@ -12,4 +12,3 @@ class Plugintilgin_router_plugin(plugins.Base):
 			{ "text" : "<LINK rel="stylesheet" type="text/css" href="/compressed-control.css">" },
 		]
 		return(self.rules)
-

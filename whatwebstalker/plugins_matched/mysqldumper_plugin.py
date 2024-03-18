@@ -10,4 +10,3 @@ class Pluginmysqldumper_plugin(plugins.Base):
 			{ "text" : "<a title="Select Database / Datebase functions / Import - Export " href="sql.php?db=&amp;dbid=0&amp;context=3" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginpageup_people_plugin(plugins.Base):
 			{ "text" : "<a class="pageupLink" href="http://www.pageuppeople.com" target="self">Powered by PageUp People</a>" },
 		]
 		return(self.rules)
-

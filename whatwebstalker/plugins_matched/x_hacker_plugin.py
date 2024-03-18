@@ -7,4 +7,3 @@ class Pluginx_hacker_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

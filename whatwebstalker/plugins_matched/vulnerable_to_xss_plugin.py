@@ -7,4 +7,3 @@ class Pluginvulnerable_to_xss_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

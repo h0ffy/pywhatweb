@@ -9,4 +9,3 @@ class Plugininfinet_wireless_wanflex_router_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^WANFlex HTTP Daemon v([^\s]+)$/" },
 		]
 		return(self.rules)
-

@@ -8,4 +8,3 @@ class Plugincitrix_web_pn_server_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Citrix Web PN Server$/" },
 		]
 		return(self.rules)
-

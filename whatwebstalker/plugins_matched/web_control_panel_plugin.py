@@ -13,4 +13,3 @@ class Pluginweb_control_panel_plugin(plugins.Base):
 			{ "text" : "<td valign="top"><a href="/cgi-bin/webmail?noframes=1"><img src="images/" },
 		]
 		return(self.rules)
-

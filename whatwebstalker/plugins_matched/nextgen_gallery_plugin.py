@@ -11,4 +11,3 @@ class Pluginnextgen_gallery_plugin(plugins.Base):
 			{ "version" : "/<meta name='NextGEN' content='([\d\.]+)' \/>/", "string" : "Wordpress" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginbestshoppro_plugin(plugins.Base):
 			{ "text" : "<META CONTENT="www.bst.pl" NAME=AUTHOR>" },
 		]
 		return(self.rules)
-

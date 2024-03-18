@@ -14,4 +14,3 @@ class Pluginsmarterstats_plugin(plugins.Base):
 			{ "text" : "<title>Login - SmarterStats</title>" },
 		]
 		return(self.rules)
-

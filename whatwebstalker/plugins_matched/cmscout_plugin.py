@@ -9,4 +9,3 @@ class Plugincmscout_plugin(plugins.Base):
 			{ "text" : "<!--Shows the CMScout and website copyright information. Please do not remove this without permission from the CMScout admin-->" },
 		]
 		return(self.rules)
-

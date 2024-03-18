@@ -10,4 +10,3 @@ class Pluginclipshare_plugin(plugins.Base):
 			{ "text" : "Powered By <a href="http://www.clip-share.com">ClipShare</a>" },
 		]
 		return(self.rules)
-

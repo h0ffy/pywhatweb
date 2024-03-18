@@ -11,4 +11,3 @@ class Pluginphp_mes_films_plugin(plugins.Base):
 			{ "text" : "				powered by <a href="http://phpmesfilms.dyndns.org/">PhpMesFilms</a>" },
 		]
 		return(self.rules)
-

@@ -13,4 +13,3 @@ class Pluginmywebftp_plugin(plugins.Base):
 			{ "text" : "<SCRIPT LANGUAGE=JAVASCRIPT SRC=\'mwftp/common/mwftp.js\'></SCRIPT>" },
 		]
 		return(self.rules)
-

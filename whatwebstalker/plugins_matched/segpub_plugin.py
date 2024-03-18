@@ -7,4 +7,3 @@ class Pluginsegpub_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

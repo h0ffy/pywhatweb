@@ -12,4 +12,3 @@ class Pluginefront_plugin(plugins.Base):
 			{ "version" : "/<script type = "text\/javascript" src = "js\/scripts\.php\?(build=[\d]+)&load=[^"^>]+"> <\/script>/" },
 		]
 		return(self.rules)
-

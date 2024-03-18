@@ -7,4 +7,3 @@ class Pluginphp_cake_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

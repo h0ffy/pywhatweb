@@ -14,4 +14,3 @@ class Pluginesotalk_plugin(plugins.Base):
 			{ "text" : "<script type='text/javascript' src='../js/esotalk.js'></script>", "module" : "Install Page" },
 		]
 		return(self.rules)
-

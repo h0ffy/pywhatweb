@@ -11,4 +11,3 @@ class Pluginzabbix_plugin(plugins.Base):
 			{ "version" : "/<a href="http:\/\/www\.zabbix\.com" class="highlight">ZABBIX ([^\s<]+)<\/a>&nbsp;Copyright 2001-20[\d]{2} by <a href="http:\/\/www\.zabbix\.com" class="highlight">SIA Zabbix<\/a>/" },
 		]
 		return(self.rules)
-

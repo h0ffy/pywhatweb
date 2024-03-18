@@ -8,4 +8,3 @@ class Pluginachecker_plugin(plugins.Base):
 			{ "text" : "<title>AChecker : ATRC Accessibility Checker: </title>" },
 		]
 		return(self.rules)
-

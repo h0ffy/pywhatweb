@@ -11,4 +11,3 @@ class Pluginemeeting_online_dating_software_plugin(plugins.Base):
 			{ "version" : "/<p>eMeeting Dating Software <strong>Version ([\d\.]+)<\/strong>/" },
 		]
 		return(self.rules)
-

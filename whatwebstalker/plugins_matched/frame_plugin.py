@@ -8,4 +8,3 @@ class Pluginframe_plugin(plugins.Base):
 			{ "regexp" : "/<i?frame\s+/i },
 		]
 		return(self.rules)
-

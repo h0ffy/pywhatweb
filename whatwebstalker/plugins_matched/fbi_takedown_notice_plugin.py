@@ -10,4 +10,3 @@ class Pluginfbi_takedown_notice_plugin(plugins.Base):
 			{ "url" : "/banner.jpg", "md5" : "5d1d926064c1a4a427100a5833d47dfd" },
 		]
 		return(self.rules)
-

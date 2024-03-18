@@ -7,4 +7,3 @@ class Pluginbad_behaviour_anti_spam_plugin_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginpygopherd_plugin(plugins.Base):
 			{ "regexp" : "/<HTML><HEAD><TITLE>Selector Not Found<\/TITLE>[\s]+<H1>Selector Not Found<\/H1>/" },
 		]
 		return(self.rules)
-

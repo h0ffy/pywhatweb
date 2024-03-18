@@ -9,4 +9,3 @@ class Pluginmapserver_4_windows_plugin(plugins.Base):
 			{ "version" : "/<h1>MS4W - MapServer 4 Windows - version ([^<]+)<\/h1>\s+<h2>Introduction<\/h2>/" },
 		]
 		return(self.rules)
-

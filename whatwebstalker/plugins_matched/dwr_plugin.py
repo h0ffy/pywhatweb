@@ -9,4 +9,3 @@ class Plugindwr_plugin(plugins.Base):
 			{ "name" : "HTML Body',"text" : "/dwr/engine.js">'},
 		]
 		return(self.rules)
-

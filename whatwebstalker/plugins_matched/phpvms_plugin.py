@@ -11,4 +11,3 @@ class Pluginphpvms_plugin(plugins.Base):
 			{ "text" : "<a href="http://www.phpvms.net" target="_blank">powered by phpVMS</a>" },
 		]
 		return(self.rules)
-

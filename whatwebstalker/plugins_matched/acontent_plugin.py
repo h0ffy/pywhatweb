@@ -10,4 +10,3 @@ class Pluginacontent_plugin(plugins.Base):
 			{ "md5" : "28c34462a074c5311492759435549468", "url" : "/favicon.ico" },
 		]
 		return(self.rules)
-

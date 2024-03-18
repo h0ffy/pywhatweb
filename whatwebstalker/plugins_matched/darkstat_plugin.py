@@ -10,4 +10,3 @@ class Plugindarkstat_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^darkstat\/([^\s]+)$/" },
 		]
 		return(self.rules)
-

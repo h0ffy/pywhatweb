@@ -9,4 +9,3 @@ class Pluginqcubed_development_framework_plugin(plugins.Base):
 			{ "version" : "/<b>PHP Version:<\/b> [^;]+;&nbsp;&nbsp;<b>Zend Engine Version:<\/b> [^;]+;&nbsp;&nbsp;<b>QCubed Version:<\/b> ([^\(]+) \([^\(]+\)<br \/>/" },
 		]
 		return(self.rules)
-

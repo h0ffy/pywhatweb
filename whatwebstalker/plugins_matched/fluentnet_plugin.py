@@ -9,4 +9,3 @@ class Pluginfluentnet_plugin(plugins.Base):
 			{ "version" : "/<meta name="GENERATOR" content="Fluent[CMS|NET]+ ([\d\.]+) /" },
 		]
 		return(self.rules)
-

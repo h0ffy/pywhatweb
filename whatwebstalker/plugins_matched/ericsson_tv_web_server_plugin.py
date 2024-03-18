@@ -8,4 +8,3 @@ class Pluginericsson_tv_web_server_plugin(plugins.Base):
 			{ "search" : "headers[server ]", "regexp" : "/^Ericsson Television Web server$/" },
 		]
 		return(self.rules)
-

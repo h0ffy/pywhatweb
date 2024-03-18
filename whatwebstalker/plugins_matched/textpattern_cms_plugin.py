@@ -13,4 +13,3 @@ class Plugintextpattern_cms_plugin(plugins.Base):
 			{ "text" : "powered by <a href="http://textpattern.com">textpattern</a> cms" },
 		]
 		return(self.rules)
-

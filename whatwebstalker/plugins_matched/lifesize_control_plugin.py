@@ -11,4 +11,3 @@ class Pluginlifesize_control_plugin(plugins.Base):
 			{ "url" : "/", "search" : "headers[location]", "regexp" : "/^https?:\/\/[^\/]+\/LifeSizeControl\/ASP\/index\.html$/" },
 		]
 		return(self.rules)
-

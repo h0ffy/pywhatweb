@@ -7,4 +7,3 @@ class Pluginuserland_frontier_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

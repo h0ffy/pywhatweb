@@ -15,4 +15,3 @@ class Pluginpanasonic_network_camera_plugin(plugins.Base):
 			{ "text" : "window.location.replace("/view/idconv.cgi?UID=%i&FILE=/hdrindex.html&PAGE="+myDate.getTime());" },
 		]
 		return(self.rules)
-

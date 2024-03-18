@@ -12,4 +12,3 @@ class Pluginzomplog_plugin(plugins.Base):
 			{ "text" : "/* Navbar (Zomplog-specific) */" },
 		]
 		return(self.rules)
-

@@ -14,4 +14,3 @@ class Plugintwonkyserver_plugin(plugins.Base):
 			{ "string" : /<div id="copyright" class="copyright">Copyright&nbsp;&copy;&nbsp;2004-20(20[\d]{2}) PacketVideo&nbsp;Corporation\. All&nbsp;rights&nbsp;reserved<\/div><\/div><hr>/" },
 		]
 		return(self.rules)
-

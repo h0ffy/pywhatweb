@@ -15,4 +15,3 @@ class Pluginbitrix_site_manager_plugin(plugins.Base):
 			{ "search" : "headers[b-powered-by]", "name" : "B-Powered-By Header", "version" : "/^Bitrix SM\/([\d\.]+) \(/" },
 		]
 		return(self.rules)
-

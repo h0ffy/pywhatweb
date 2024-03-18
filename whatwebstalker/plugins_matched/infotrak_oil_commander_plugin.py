@@ -10,4 +10,3 @@ class Plugininfotrak_oil_commander_plugin(plugins.Base):
 			{ "text" : "<span id="lblMessage">After entering your email address and clicking on Continue", "an email with your login details will be sent. Please allow some time for the email. If you do not receive it please contact your dealership. </span>" },
 		]
 		return(self.rules)
-

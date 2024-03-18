@@ -11,4 +11,3 @@ class Pluginbarracuda_backup_server_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/BACKUP_LOCAL_LOCALE=/" },
 		]
 		return(self.rules)
-

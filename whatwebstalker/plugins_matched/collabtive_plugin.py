@@ -10,4 +10,3 @@ class Plugincollabtive_plugin(plugins.Base):
 			{ "text" : "<form id = "loginform" name = "loginform" method="post" action="manageuser.php?action=login"  onsubmit="return validateCompleteForm(this,\'input_error\');">" },
 		]
 		return(self.rules)
-

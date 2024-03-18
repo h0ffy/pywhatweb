@@ -10,4 +10,3 @@ class Pluginpandora_fms_plugin(plugins.Base):
 			{ "version" : "/<img src="images\/pandora_logo\.png" style="border:0px;" alt="logo" \/><\/a><br \/>v([^<]+)<\/td><td class="f9b">/" },
 		]
 		return(self.rules)
-

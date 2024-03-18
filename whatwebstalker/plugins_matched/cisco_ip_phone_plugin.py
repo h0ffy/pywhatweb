@@ -14,4 +14,3 @@ class Plugincisco_ip_phone_plugin(plugins.Base):
 			{ "string" : /<p align=center style='text-align:center'><b><span style='font-size:13.5pt; color:white'>Cisco Unified Wireless IP Phone [^\(]{4,20} \( ([^\)]{15}) \)<\/span><\/b><\/p>/", "version" : "Unified Wireless" },
 		]
 		return(self.rules)
-

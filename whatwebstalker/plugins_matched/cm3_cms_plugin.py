@@ -15,4 +15,3 @@ class Plugincm3_cms_plugin(plugins.Base):
 			{ "name" : "Set-Cookie Header (CM3)", "search" : "headers[set-cookie]", "regexp" : "/cm3session},
 		]
 		return(self.rules)
-

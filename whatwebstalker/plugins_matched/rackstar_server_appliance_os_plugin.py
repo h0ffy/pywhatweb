@@ -9,4 +9,3 @@ class Pluginrackstar_server_appliance_os_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/\(<A HREF=http:\/\/www.rackstar.net\/>RACKSTAR<\/A>\)/" },
 		]
 		return(self.rules)
-

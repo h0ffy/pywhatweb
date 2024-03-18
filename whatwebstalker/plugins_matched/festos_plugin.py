@@ -10,4 +10,3 @@ class Pluginfestos_plugin(plugins.Base):
 			{ "text" : "	<meta name="author" content="Skypanther Studios">", "certainty" : "75 },
 		]
 		return(self.rules)
-

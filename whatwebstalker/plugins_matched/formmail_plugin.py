@@ -14,4 +14,3 @@ class Pluginformmail_plugin(plugins.Base):
 			{ "version" : "1.9", "regexp" : "/Copyright 1995 - 2001 Matt Wright<br>[\s]+Version 1.9/" },
 		]
 		return(self.rules)
-

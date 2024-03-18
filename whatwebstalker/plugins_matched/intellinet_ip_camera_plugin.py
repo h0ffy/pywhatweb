@@ -13,4 +13,3 @@ class Pluginintellinet_ip_camera_plugin(plugins.Base):
 			{ "firmware" : "/<font size="1" face="Verdana", "Arial", "Helvetica", "sans-serif">&nbsp;FIRMWARE VERSION: ([A-Z0-9\.]+)[\s]*</" },
 		]
 		return(self.rules)
-

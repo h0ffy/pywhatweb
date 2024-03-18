@@ -11,4 +11,3 @@ class Pluginwing_ftp_server_plugin(plugins.Base):
 			{ "url" : "/help_javascript.htm", "text" : "<p>JavaScript is a scripting language that works with your browser to create interactive elements in web pages. The web client depend on JavaScript to function properly. </p>" },
 		]
 		return(self.rules)
-

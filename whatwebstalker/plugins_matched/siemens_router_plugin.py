@@ -8,4 +8,3 @@ class Pluginsiemens_router_plugin(plugins.Base):
 			{ "search" : "headers[www-authenticate]", "model" : "/Basic realm="Siemens ADSL ([^"^\s]+)"/", "certainty" : "75 },
 		]
 		return(self.rules)
-

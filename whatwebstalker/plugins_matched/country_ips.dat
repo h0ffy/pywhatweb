@@ -7,4 +7,3 @@ class Plugincountry_ips.dat(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

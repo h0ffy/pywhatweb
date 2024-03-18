@@ -10,4 +10,3 @@ class Pluginseh_printserver_plugin(plugins.Base):
 			{ "url" : "/status/general_en.html", "string" : /<TR><TD> Default print server name<TD> ([^<]*)},
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginhp_sitescope_plugin(plugins.Base):
 			{ "url" : "/", "version" : "/<p class=fine align=center><small>SiteScope ([\d\.]+)/" },
 		]
 		return(self.rules)
-

@@ -12,4 +12,3 @@ class Pluginaccellion_secure_file_transfer_plugin(plugins.Base):
 			{ "regexp" : "/<link href="custom_template\/[\d]+\/wcStyle\.css" type="?text\/css"? rel="?stylesheet"?>/i },
 		]
 		return(self.rules)
-

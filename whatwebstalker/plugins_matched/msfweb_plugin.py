@@ -12,4 +12,3 @@ class Pluginmsfweb_plugin(plugins.Base):
 			{ "regexp" : "/<script>[\s]*document.writeln('<link rel="stylesheet" type="text\/css" href="' + mainStyle + '">'); \/\/ MSFWeb main stylesheet[\s]*document.writeln('<link rel="stylesheet" type="text\/css" href="' + windowStyle + '">'); \/\/ Window frame stylesheet[\s]*<\/script>/" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginruncms_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="[\s^"]*RUNCMS ([\d\.a-z]+)[^"]*"/i },
 		]
 		return(self.rules)
-

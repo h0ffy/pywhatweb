@@ -15,4 +15,3 @@ class Pluginrumba_cms_plugin(plugins.Base):
 			{ "text" : "<meta name="Generator" content="http://rumba.net.ru" />" },
 		]
 		return(self.rules)
-

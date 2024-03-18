@@ -9,4 +9,3 @@ class Pluginpithcms_plugin(plugins.Base):
 			{ "text" : "/icons/admin48.png"><br />Welcome Admin.<br /><br />", "path" : "login.asp" },
 		]
 		return(self.rules)
-

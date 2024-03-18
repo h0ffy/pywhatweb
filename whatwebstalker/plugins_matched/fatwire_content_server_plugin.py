@@ -12,4 +12,3 @@ class Pluginfatwire_content_server_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "An error occurred during processing. Check the info log.<br" },
 		]
 		return(self.rules)
-

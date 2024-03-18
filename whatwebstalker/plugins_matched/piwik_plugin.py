@@ -13,4 +13,3 @@ class Pluginpiwik_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/^PIWIK_SESSID/", "name" : "PIWIK_SESSID cookie" },
 		]
 		return(self.rules)
-

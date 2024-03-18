@@ -10,4 +10,3 @@ class Pluginearlyimpact_productcart_plugin(plugins.Base):
 			{ "text" : "<!-- end of password request -->" },
 		]
 		return(self.rules)
-

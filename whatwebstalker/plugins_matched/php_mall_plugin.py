@@ -11,4 +11,3 @@ class Pluginphp_mall_plugin(plugins.Base):
 			{ "text" : "<span class="price_style"><span class=price_style>" },
 		]
 		return(self.rules)
-

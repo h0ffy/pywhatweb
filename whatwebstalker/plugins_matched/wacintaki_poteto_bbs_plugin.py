@@ -10,4 +10,3 @@ class Pluginwacintaki_poteto_bbs_plugin(plugins.Base):
 			{ "text" : "OekakiPoteto 5.x by <a href="http://www.suteki.nu">RanmaGuy</a> and <a href="http://www.cellosoft.com">Marcello</a><br />" },
 		]
 		return(self.rules)
-

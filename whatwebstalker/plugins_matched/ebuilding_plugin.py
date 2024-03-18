@@ -10,4 +10,3 @@ class Pluginebuilding_plugin(plugins.Base):
 			{ "text" : "<HTML><HEAD><TITLE>eBuilding Network Controller</TITLE><LINK title=global_style " },
 		]
 		return(self.rules)
-

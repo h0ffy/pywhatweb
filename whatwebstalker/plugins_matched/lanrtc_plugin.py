@@ -14,4 +14,3 @@ class Pluginlanrtc_plugin(plugins.Base):
 			{ "regexp" : "/^LanRTC/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

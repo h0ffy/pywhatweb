@@ -10,4 +10,3 @@ class Pluginksearch_plugin(plugins.Base):
 			{ "regexp" : "/Powered by[\s]+<a[^>]+href="http:\/\/www\.kscripts\.com\/(scripts\.html#ksearch)?"[^>]*>KSearch<\/a>/" },
 		]
 		return(self.rules)
-

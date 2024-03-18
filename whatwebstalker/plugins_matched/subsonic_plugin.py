@@ -9,4 +9,3 @@ class Pluginsubsonic_plugin(plugins.Base):
 			{ "text" : "<form action="/j_acegi_security_check" method="POST">" },
 		]
 		return(self.rules)
-

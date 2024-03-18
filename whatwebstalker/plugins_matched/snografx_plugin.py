@@ -11,4 +11,3 @@ class Pluginsnografx_plugin(plugins.Base):
 			{ "text" : "Website powered by: <a href='http://snografx.com/' target='_blank'>Snöfx</a>" },
 		]
 		return(self.rules)
-

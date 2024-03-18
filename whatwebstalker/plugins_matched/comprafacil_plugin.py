@@ -10,4 +10,3 @@ class Plugincomprafacil_plugin(plugins.Base):
 			{ "text" : "<meta name="author" content="HERMES SA" />" },
 		]
 		return(self.rules)
-

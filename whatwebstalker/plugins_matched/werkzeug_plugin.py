@@ -9,4 +9,3 @@ class Pluginwerkzeug_plugin(plugins.Base):
 			{ "status" : "302", "certainty" : "75", "text" : "<p>You should be redirected automatically to target URL:" },
 		]
 		return(self.rules)
-

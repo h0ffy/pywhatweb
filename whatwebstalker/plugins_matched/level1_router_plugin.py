@@ -11,4 +11,3 @@ class Pluginlevel1_router_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : "<!---CAS:0003--><HTML>" },
 		]
 		return(self.rules)
-

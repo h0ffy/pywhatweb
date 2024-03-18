@@ -9,4 +9,3 @@ class Pluginantiboard_plugin(plugins.Base):
 			{ "name" : "powered by", "text" : "<a href=\"http://www.resynthesize.com/code/antiboard.php\">Powered by antiboard" },
 		]
 		return(self.rules)
-

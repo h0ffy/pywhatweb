@@ -8,4 +8,3 @@ class Pluginapache_wicket_plugin(plugins.Base):
 			{ "ghdb" : "inurl:"wicket:bookmarkablePage=:"" },
 		]
 		return(self.rules)
-

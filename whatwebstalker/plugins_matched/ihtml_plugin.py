@@ -7,4 +7,3 @@ class Pluginihtml_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

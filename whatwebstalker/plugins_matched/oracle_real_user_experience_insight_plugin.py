@@ -11,4 +11,3 @@ class Pluginoracle_real_user_experience_insight_plugin(plugins.Base):
 			{ "url" : "/ruei/rpc.php", "text" : "{"retval":false,"error_" },
 		]
 		return(self.rules)
-

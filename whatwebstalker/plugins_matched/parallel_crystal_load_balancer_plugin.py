@@ -7,4 +7,3 @@ class Pluginparallel_crystal_load_balancer_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

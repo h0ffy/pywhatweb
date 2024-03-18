@@ -7,4 +7,3 @@ class Pluginrabbit_microcontroller_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

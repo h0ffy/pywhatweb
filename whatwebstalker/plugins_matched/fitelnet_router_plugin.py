@@ -7,4 +7,3 @@ class Pluginfitelnet_router_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

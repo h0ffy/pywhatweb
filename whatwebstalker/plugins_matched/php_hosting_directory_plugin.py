@@ -10,4 +10,3 @@ class Pluginphp_hosting_directory_plugin(plugins.Base):
 			{ "version" : "/<font size="6"><b>PHP Hosting Directory ([\d\.]+)<\/b><\/font>/" },
 		]
 		return(self.rules)
-

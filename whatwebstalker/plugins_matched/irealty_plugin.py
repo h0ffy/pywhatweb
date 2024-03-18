@@ -11,4 +11,3 @@ class Pluginirealty_plugin(plugins.Base):
 			{ "text" : "Powered by <a target="_blank" title="iRealty &mdash; Real Estate Listing Software" href="http://www.worksforweb.com/products/iRealty/">iRealty</a>," },
 		]
 		return(self.rules)
-

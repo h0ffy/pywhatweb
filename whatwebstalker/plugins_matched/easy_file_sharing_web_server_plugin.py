@@ -7,4 +7,3 @@ class Plugineasy_file_sharing_web_server_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

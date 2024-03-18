@@ -8,4 +8,3 @@ class Plugintwistedweb_plugin(plugins.Base):
 			{ "version" : "/TwistedWeb\/?([^ ]+)?/", "search" : "headers[server]"},
 		]
 		return(self.rules)
-

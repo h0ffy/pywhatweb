@@ -10,4 +10,3 @@ class Plugingenohm_scada_plugin(plugins.Base):
 			{ "url" : "/cgi-bin/scada-vis/index.cgi", "version" : "/var LMVersion = '([^\s^']+)';/" },
 		]
 		return(self.rules)
-

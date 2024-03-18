@@ -7,4 +7,3 @@ class Pluginconcrete5_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

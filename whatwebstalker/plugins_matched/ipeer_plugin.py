@@ -11,4 +11,3 @@ class Pluginipeer_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/IPEER=[^;]+;/" },
 		]
 		return(self.rules)
-

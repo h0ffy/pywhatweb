@@ -7,4 +7,3 @@ class Plugintandberg_tv_web_server_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

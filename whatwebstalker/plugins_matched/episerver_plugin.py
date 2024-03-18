@@ -16,4 +16,3 @@ class Pluginepiserver_plugin(plugins.Base):
 			{ "url" : "/util/login.aspx", "text" : "<h1>Log in to EPiServer CMS 6", "version" : "6.x"},
 		]
 		return(self.rules)
-

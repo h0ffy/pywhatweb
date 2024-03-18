@@ -7,4 +7,3 @@ class Plugincode_igniter_profiler_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

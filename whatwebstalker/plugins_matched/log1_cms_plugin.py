@@ -13,4 +13,3 @@ class Pluginlog1_cms_plugin(plugins.Base):
 			{ "text" : "<img src="engine/images/logo.gif" alt="log1 CMS logo"/>" },
 		]
 		return(self.rules)
-

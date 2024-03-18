@@ -11,4 +11,3 @@ class Pluginveo_observer_plugin(plugins.Base):
 			{ "text" : "		<object classid="clsid:0957C19A-D854-482A-A4F9-18856C723D7D" id="VeoNetCamAcx" width="0" height="0" codebase="XNC600NetCam.cab#version", "version" : "XNC" },
 		]
 		return(self.rules)
-

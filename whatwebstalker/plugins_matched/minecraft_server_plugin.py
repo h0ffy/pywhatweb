@@ -9,4 +9,3 @@ class Pluginminecraft_server_plugin(plugins.Base):
 			{ "text" : "<title>MineOS Admin Page</title>", "os" : "MineOS (Linux)" },
 		]
 		return(self.rules)
-

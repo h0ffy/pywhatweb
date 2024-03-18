@@ -11,4 +11,3 @@ class Pluginspamtitan_plugin(plugins.Base):
 			{ "text" : "<table class="lhead"><tr><td class="img"><img src="/imgs/logo.gif" alt="SpamTitan Logo"></td></tr></table></div>" },
 		]
 		return(self.rules)
-

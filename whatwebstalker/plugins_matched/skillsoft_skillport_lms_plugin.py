@@ -14,4 +14,3 @@ class Pluginskillsoft_skillport_lms_plugin(plugins.Base):
 			{ "search" : "headers[x-sp-fe]", "string" : /^(.+)$/" },
 		]
 		return(self.rules)
-

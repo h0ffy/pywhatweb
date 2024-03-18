@@ -8,4 +8,3 @@ class Pluginnera_satlink_plugin(plugins.Base):
 			{ "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="SatLink Terminal"$/" },
 		]
 		return(self.rules)
-

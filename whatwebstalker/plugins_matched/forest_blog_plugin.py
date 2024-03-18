@@ -11,4 +11,3 @@ class Pluginforest_blog_plugin(plugins.Base):
 			{ "version" : "/Powered [B|b]?y[:]? <a href="http:\/\/www.hostforest.co.uk\/[^"]*"[^>]+title="Forest Blog"[^>]*>Forest Blog<\/a> v([\d\.]+)/" },
 		]
 		return(self.rules)
-

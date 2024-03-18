@@ -10,4 +10,3 @@ class Plugintomatocms_plugin(plugins.Base):
 			{ "text" : "					<h1>TomatoCMS Install Wizard</h1>", "version" : "Install Page" },
 		]
 		return(self.rules)
-

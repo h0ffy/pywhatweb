@@ -10,4 +10,3 @@ class Pluginfidion_cms_plugin(plugins.Base):
 			{ "text" : "<!-- fCMS-Template head.tpl begins -->" },
 		]
 		return(self.rules)
-

@@ -14,4 +14,3 @@ class Pluginwsn_classifieds_plugin(plugins.Base):
 			{ "text" : "<textarea readonly rows="20" cols="75">WSN Classifieds License Agreement" },
 		]
 		return(self.rules)
-

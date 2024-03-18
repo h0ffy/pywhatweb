@@ -10,4 +10,3 @@ class Pluginiceshop_plugin(plugins.Base):
 			{ "text" : "<dl class="box boxLogo  box02 iceshop">" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Pluginsimsweb_plugin(plugins.Base):
 			{ "text" : "<form onSubmit="sendinfo(); return false;" name="LOGON">" },
 		]
 		return(self.rules)
-

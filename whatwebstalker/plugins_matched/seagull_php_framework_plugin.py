@@ -14,4 +14,3 @@ class Pluginseagull_php_framework_plugin(plugins.Base):
 			{ "version" : "/    Powered by <a href="http:\/\/seagullproject.org[\/]?" title="Seagull PHP Framework">Seagull PHP Framework<\/a> v([\d\.]+)/" },
 		]
 		return(self.rules)
-

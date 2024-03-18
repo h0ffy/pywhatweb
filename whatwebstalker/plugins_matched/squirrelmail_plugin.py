@@ -11,4 +11,3 @@ class Pluginsquirrelmail_plugin(plugins.Base):
 			{ "text" : "<b>SquirrelMail Login</b>'},
 		]
 		return(self.rules)
-

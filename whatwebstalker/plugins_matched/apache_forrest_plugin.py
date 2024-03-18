@@ -14,4 +14,3 @@ class Pluginapache_forrest_plugin(plugins.Base):
 			{ "module" : /<meta content="([^"^>]+)" name="Forrest-skin-name"/" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginslideshowpro_director_plugin(plugins.Base):
 			{ "text" : "</div> <!--close login-container-->	</body>" },
 		]
 		return(self.rules)
-

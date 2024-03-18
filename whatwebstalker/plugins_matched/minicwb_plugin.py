@@ -11,4 +11,3 @@ class Pluginminicwb_plugin(plugins.Base):
 			{ "text" : "<a href='http://www.mini-open-cms.com' rel='external'>Powered by miniCWB</a>" },
 		]
 		return(self.rules)
-

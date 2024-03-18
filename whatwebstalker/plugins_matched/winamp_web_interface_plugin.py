@@ -10,4 +10,3 @@ class Pluginwinamp_web_interface_plugin(plugins.Base):
 			{ "version" : "/<a href="JavaScript:about\(\)">About Winamp Web Interface v([\.\d]+)<\/a><\/h6><hr>/" },
 		]
 		return(self.rules)
-

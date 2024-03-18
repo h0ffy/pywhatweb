@@ -11,4 +11,3 @@ class Pluginprediction_football_plugin(plugins.Base):
 			{ "version" : "/<small>Powered by <a target="_blank" class="VERSION" href="http:\/\/www\.predictionfootball\.com\/">[\s]+Prediction Football <\/a>([^\s^<]+)<\/small>/" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginigaming_cms_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.igamingcms.com/" target="_blank">iGaming CMS</a>" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginbasic_php_events_lister_plugin(plugins.Base):
 			{ "text" : "<center><br> <a href=recover.php>Lost your password?</a></center>" },
 		]
 		return(self.rules)
-

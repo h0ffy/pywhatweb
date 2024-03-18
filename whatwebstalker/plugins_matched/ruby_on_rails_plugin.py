@@ -24,4 +24,3 @@ class Pluginruby_on_rails_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/^request_method/", "name" : "request_method cookie" },
 		]
 		return(self.rules)
-

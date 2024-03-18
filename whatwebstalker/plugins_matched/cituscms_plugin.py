@@ -13,4 +13,3 @@ class Plugincituscms_plugin(plugins.Base):
 			{ "version" : "/<!-- CitusCMS Core Version: ([^\s]+) -->/" },
 		]
 		return(self.rules)
-

@@ -12,4 +12,3 @@ class Pluginmobotix_network_camera_plugin(plugins.Base):
 			{ "firmware" : "/var filesystem__version="[M0-1\-]*V([\d\.]+)";/" },
 		]
 		return(self.rules)
-

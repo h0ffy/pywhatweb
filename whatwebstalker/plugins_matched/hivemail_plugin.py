@@ -12,4 +12,3 @@ class Pluginhivemail_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/hivesession=/" },
 		]
 		return(self.rules)
-

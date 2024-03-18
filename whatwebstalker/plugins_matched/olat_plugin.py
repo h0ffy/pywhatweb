@@ -19,4 +19,3 @@ class Pluginolat_plugin(plugins.Base):
 			{ "text" : "<a accesskey="2" href="#content" title="Go to "Content"></a>" },
 		]
 		return(self.rules)
-

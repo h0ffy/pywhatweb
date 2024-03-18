@@ -10,4 +10,3 @@ class Pluginsx_shop_plugin(plugins.Base):
 			{ "text" : "alert("Ihr Suchbegriff muss mind. aus 3 Zeichen bestehen.");" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Pluginmicrosoft_office_xml_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

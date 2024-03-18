@@ -11,4 +11,3 @@ class Pluginshopex_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="ShopEx ([\d\.]+)" \/>/" },
 		]
 		return(self.rules)
-

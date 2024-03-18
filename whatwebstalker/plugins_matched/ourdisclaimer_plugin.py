@@ -9,4 +9,3 @@ class Pluginourdisclaimer_plugin(plugins.Base):
 			{ "version" : "/<iframe[^>]+src[\s]*=[\s]*"http:\/\/ourdisclaimer.com\/\?i=([^\"]+)/i },
 		]
 		return(self.rules)
-

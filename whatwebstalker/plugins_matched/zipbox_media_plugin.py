@@ -11,4 +11,3 @@ class Pluginzipbox_media_plugin(plugins.Base):
 			{ "regexp" : "/<h3 style="padding-top:2px; margin:0px; display:none"><a href="javascript:loadMoreMessages\([\d]+\)" id="load_more_messages">Load more messages<\/a><\/h3>/" },
 		]
 		return(self.rules)
-

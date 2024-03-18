@@ -11,4 +11,3 @@ class Pluginpivot_plugin(plugins.Base):
 			{ "version" : "/<a href="http:\/\/www\.pivotlog\.net\/\?ver=Pivot[^"]+" target="_blank" title="Pivot - ([^:]+): "[^']+'"><img[^>]+alt="Pivot - [^"]+" \/><\/a>/" },
 		]
 		return(self.rules)
-

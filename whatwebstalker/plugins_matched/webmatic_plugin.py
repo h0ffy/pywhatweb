@@ -9,4 +9,3 @@ class Pluginwebmatic_plugin(plugins.Base):
 			{ "version" : "/ href="http:\/\/www.valarsoft.com"[^>]+>Powered by: Webmatic ([^<]+)<\/a>/i },
 		]
 		return(self.rules)
-

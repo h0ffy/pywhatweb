@@ -11,4 +11,3 @@ class Pluginadxstudio_cms_plugin(plugins.Base):
 			{ "text" : "/poweredbyadx.png'},
 		]
 		return(self.rules)
-

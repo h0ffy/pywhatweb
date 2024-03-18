@@ -10,4 +10,3 @@ class Pluginpg_real_estate_solution_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.realtysoft.pro/realestate/" title="real estate web site design", "real estate listing software">PG Real Estate Solution - real estate web site design</a>" },
 		]
 		return(self.rules)
-

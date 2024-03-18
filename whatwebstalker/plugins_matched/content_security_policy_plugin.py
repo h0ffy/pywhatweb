@@ -9,4 +9,3 @@ class Plugincontent_security_policy_plugin(plugins.Base):
 			{ "search" : "headers[x-webkit-csp]", "string" : /^(.*)$/" },
 		]
 		return(self.rules)
-

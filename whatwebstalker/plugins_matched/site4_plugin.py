@@ -10,4 +10,3 @@ class Pluginsite4_plugin(plugins.Base):
 			{ "text" : "To read more about SITE4.dk please <a class="smalltext" style="text-decoration:none;" href="http://www.site4.dk"><b>click here</b></a>" },
 		]
 		return(self.rules)
-

@@ -12,4 +12,3 @@ class Pluginjxt_consulting_plugin(plugins.Base):
 			{ "string" : /<link rel="shortcut icon" href="\/GetWhitelabelFile\.aspx\?whiteLabelFileID=(\d+)"\s?\/>/" },
 		]
 		return(self.rules)
-

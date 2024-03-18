@@ -11,4 +11,3 @@ class Pluginsolidyne_inet_server_plugin(plugins.Base):
 			{ "url" : "/hmi/sysapp/QLogin.aspx", "text" : "<form name="form1" method="post" action="QLogin.aspx" id="form1">" },
 		]
 		return(self.rules)
-

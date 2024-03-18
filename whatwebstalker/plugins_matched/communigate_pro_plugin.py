@@ -7,4 +7,3 @@ class Plugincommunigate_pro_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

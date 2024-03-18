@@ -11,4 +11,3 @@ class Plugincushy_cms_plugin(plugins.Base):
 			{ "regexp" : "/<[^>]+class="cushycms"},
 		]
 		return(self.rules)
-

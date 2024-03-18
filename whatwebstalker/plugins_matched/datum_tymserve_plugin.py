@@ -9,4 +9,3 @@ class Plugindatum_tymserve_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^DATM\/([\d\.]{1,3})$/" },
 		]
 		return(self.rules)
-

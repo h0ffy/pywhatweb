@@ -38,4 +38,3 @@ class Plugind_link_router_plugin(plugins.Base):
 			{ "model" : "'wua1340", "md5" : "b7df1e959e822cd50eb23547f7fcb817", "url" : "/html/images/wua1340.jpg" },
 		]
 		return(self.rules)
-

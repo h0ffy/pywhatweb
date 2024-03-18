@@ -11,4 +11,3 @@ class Pluginphpbb_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "version" : "/phpbb([\d])mysql_(data=a%3A|sid=[a-f\d]{32};)/" },
 		]
 		return(self.rules)
-

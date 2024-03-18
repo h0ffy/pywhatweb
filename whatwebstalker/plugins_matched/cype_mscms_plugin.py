@@ -12,4 +12,3 @@ class Plugincype_mscms_plugin(plugins.Base):
 			{ "version" : "/<li>Powered By Cype MSCMS ([\d\.]+) &copy; 20[\d]{2} <a href="http:\/\/www.cypedev.com" target="_blank">Cype Developments<\/a><br \/><\/li>/" },
 		]
 		return(self.rules)
-

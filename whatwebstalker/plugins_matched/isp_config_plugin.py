@@ -9,4 +9,3 @@ class Pluginisp_config_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "This IP address is shared. For access to the web site which you look for", "enter its address instead of its IP." },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginlpse_plugin(plugins.Base):
 			{ "text" : "<link rel="stylesheet" type="text/css" href="/eproc/assets/application.css"/>" },
 		]
 		return(self.rules)
-

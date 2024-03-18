@@ -10,4 +10,3 @@ class Pluginphp_csl_plugin(plugins.Base):
 			{ "version" : "/<td align="right" class="hdr">Powered by: <a href="http:\/\/www\.php-csl\.com\/" class="foot" title="PHP-CSL">PHP-CSL V([^<]+)<\/a>&nbsp;<\/td>/" },
 		]
 		return(self.rules)
-

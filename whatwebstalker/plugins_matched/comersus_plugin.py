@@ -11,4 +11,3 @@ class Plugincomersus_plugin(plugins.Base):
 			{ "regexp" : "/Powered by <[^>]*>Comersus<\/a>/i },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginvpon_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^VPON Server\/([\d\.]+)$/" },
 		]
 		return(self.rules)
-

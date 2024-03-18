@@ -14,4 +14,3 @@ class Pluginsonicwall_gms_plugin(plugins.Base):
 			{ "text" : "<body background="images/gray_waves.back.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="onLoadFunc()">" },
 		]
 		return(self.rules)
-

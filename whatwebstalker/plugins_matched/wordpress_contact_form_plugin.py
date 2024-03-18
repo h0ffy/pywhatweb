@@ -8,4 +8,3 @@ class Pluginwordpress_contact_form_plugin(plugins.Base):
 			{ "version" : "/<input type="hidden" name="_wpcf([\d\.]+)" value="1" \/>/" },
 		]
 		return(self.rules)
-

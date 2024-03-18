@@ -8,4 +8,3 @@ class Pluginwikidforum_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.wikidforum.com" title="wikidforum.com">WikidForum</a>" },
 		]
 		return(self.rules)
-

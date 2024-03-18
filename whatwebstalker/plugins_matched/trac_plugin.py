@@ -9,4 +9,3 @@ class Plugintrac_plugin(plugins.Base):
 			{ "version" : "/Powered by <a[^>]*><strong>Trac ([^<]+)<\/strong><\/a><br \/>/" },
 		]
 		return(self.rules)
-

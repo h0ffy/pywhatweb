@@ -9,4 +9,3 @@ class Pluginaj_auction_pro_plugin(plugins.Base):
 			{ "version" : "/<td width="16%" class="site_statistics" align="left"><a class="site_statistics" href="http:\/\/www.ajauctionpro.com">Powered By AJ Auction Pro OOPD V([\d\.]{1,5})<\/a><\/td>/" },
 		]
 		return(self.rules)
-

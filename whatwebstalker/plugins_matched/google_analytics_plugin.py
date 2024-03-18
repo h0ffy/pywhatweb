@@ -7,4 +7,3 @@ class Plugingoogle_analytics_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

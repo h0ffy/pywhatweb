@@ -12,4 +12,3 @@ class Pluginevocam_plugin(plugins.Base):
 			{ "regexp" : "/<param name="archive" value="evocam.jar">/i },
 		]
 		return(self.rules)
-

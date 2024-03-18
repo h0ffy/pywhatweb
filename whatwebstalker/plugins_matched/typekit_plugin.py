@@ -8,4 +8,3 @@ class Plugintypekit_plugin(plugins.Base):
 			{ "regexp" : "/<script [^>]*src=["'][^>]*use\.typekit\.com/i },
 		]
 		return(self.rules)
-

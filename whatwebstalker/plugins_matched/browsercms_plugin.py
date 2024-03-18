@@ -16,4 +16,3 @@ class Pluginbrowsercms_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="BrowserCMS ([^\"]+)"/" },
 		]
 		return(self.rules)
-

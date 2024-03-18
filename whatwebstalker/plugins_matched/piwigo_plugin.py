@@ -11,4 +11,3 @@ class Pluginpiwigo_plugin(plugins.Base):
 			{ "regexp" : "/Powered by\s+<a href="http:\/\/piwigo\.org" class="Piwigo">/" },
 		]
 		return(self.rules)
-

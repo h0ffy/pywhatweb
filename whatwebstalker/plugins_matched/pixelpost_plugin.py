@@ -9,4 +9,3 @@ class Pluginpixelpost_plugin(plugins.Base):
 			{ "text" : "Powered by <a onclick="window.open(this.href); return false;" href="http://pixelpost.org/" title="Pixelpost">Pixelpost</a>" },
 		]
 		return(self.rules)
-

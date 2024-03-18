@@ -7,4 +7,3 @@ class Plugintealeaf_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

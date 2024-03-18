@@ -13,4 +13,3 @@ class Plugininfomaster_plugin(plugins.Base):
 			{ "string" : /<form name="frm(MasterView|MasterPlan)" method="post" action="default\.aspx/" },
 		]
 		return(self.rules)
-

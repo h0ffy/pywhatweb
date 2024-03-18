@@ -7,4 +7,3 @@ class Pluginwordpress_supercache_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

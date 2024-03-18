@@ -13,4 +13,3 @@ class Pluginsyncrify_plugin(plugins.Base):
 			{ "text" : "<p>Powered by <a href='http://www.syncrify.com' >Syncrify</a></p>" },
 		]
 		return(self.rules)
-

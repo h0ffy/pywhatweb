@@ -12,4 +12,3 @@ class Pluginpuppet_dashboard_plugin(plugins.Base):
 			{ "text" : "<a href='/' style=\"background-repeat: no-repeat; text-indent: -9000px; background-image: url('/images/dashboard_logo.png'); height: 23px; width: 155px\" title='Puppet Dashboard'>Puppet Dashboard</a>" },
 		]
 		return(self.rules)
-

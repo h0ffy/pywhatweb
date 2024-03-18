@@ -10,4 +10,3 @@ class Pluginotrs_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/otrs.org[\/]*" class="small">OTRS ([^<]+)<\/a>/" },
 		]
 		return(self.rules)
-

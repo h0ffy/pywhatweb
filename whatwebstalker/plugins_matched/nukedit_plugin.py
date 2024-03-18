@@ -13,4 +13,3 @@ class Pluginnukedit_plugin(plugins.Base):
 			{ "version" : "/					<span class=footer><center>Powered by Nukedit ([\d\.]+)<\/a> -/" },
 		]
 		return(self.rules)
-

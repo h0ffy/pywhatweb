@@ -10,4 +10,3 @@ class Pluginaspweblinks_plugin(plugins.Base):
 			{ "version" : "/<title>aspWebLinks ([\d\.]+)<\/title>/" },
 		]
 		return(self.rules)
-

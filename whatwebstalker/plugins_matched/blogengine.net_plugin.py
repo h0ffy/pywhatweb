@@ -10,4 +10,3 @@ class Pluginblogengine.net_plugin(plugins.Base):
 			{ "version" : "/Powered by[\r\n\s]*<a href="http:\/\/www.dotnetblogengine.net[\/]?"[^>]*>BlogEngine.NET<\/a>[\r\n\s]*([\d\.]+)/" },
 		]
 		return(self.rules)
-

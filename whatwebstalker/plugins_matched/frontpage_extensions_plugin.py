@@ -7,4 +7,3 @@ class Pluginfrontpage_extensions_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

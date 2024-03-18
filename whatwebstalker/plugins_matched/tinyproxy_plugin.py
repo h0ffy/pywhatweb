@@ -8,4 +8,3 @@ class Plugintinyproxy_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^tinyproxy\/([^\s]+)/" },
 		]
 		return(self.rules)
-

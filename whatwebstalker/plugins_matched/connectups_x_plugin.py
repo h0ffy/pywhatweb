@@ -12,4 +12,3 @@ class Pluginconnectups_x_plugin(plugins.Base):
 			{ "url" : "/PSummary.html", "name" : "Firmware Revision", "firmware" : "/<b>Firmware Revision<\/b><\/td>\s+<td><table><tr><td><b>\s+([^<]+)},
 		]
 		return(self.rules)
-

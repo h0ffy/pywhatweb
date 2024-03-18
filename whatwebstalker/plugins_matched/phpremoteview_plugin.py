@@ -10,4 +10,3 @@ class Pluginphpremoteview_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "'><font face=fixedsys size=+2>*</font></a><font size=5><b>Index of</b></font>" },
 		]
 		return(self.rules)
-

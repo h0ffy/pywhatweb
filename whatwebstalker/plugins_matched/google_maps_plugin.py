@@ -8,4 +8,3 @@ class Plugingoogle_maps_plugin(plugins.Base):
 			{ "regexp" : "/<script [^>]*src=["'][^>]*maps\.google\.com\/maps(\?file=api|\/api\/staticmap)/i },
 		]
 		return(self.rules)
-

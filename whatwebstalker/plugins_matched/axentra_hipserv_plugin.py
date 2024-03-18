@@ -11,4 +11,3 @@ class Pluginaxentra_hipserv_plugin(plugins.Base):
 			{ "name" : "HOMEBASEID Cookie", "regexp" : "/HOMEBASEID=/", "search" : "headers[set-cookie]" },
 		]
 		return(self.rules)
-

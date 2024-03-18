@@ -10,4 +10,3 @@ class Pluginmetinfo_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/www.MetInfo.cn" target="_blank" title="MetInfo enterprise website manager system"><b>[^<]+<\/b><\/a> ([\d\.]+)/" },
 		]
 		return(self.rules)
-

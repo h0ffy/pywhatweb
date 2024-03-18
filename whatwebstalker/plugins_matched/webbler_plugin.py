@@ -8,4 +8,3 @@ class Pluginwebbler_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="webbler ([^\s]+) - http:\/\/tincan\.co\.uk\/webbler"  \/?>/" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginnovell_sentinel_log_manager_plugin(plugins.Base):
 			{ "text" : "<META HTTP-EQUIV="refresh" CONTENT="0;URL=/novelllogmanager">" },
 		]
 		return(self.rules)
-

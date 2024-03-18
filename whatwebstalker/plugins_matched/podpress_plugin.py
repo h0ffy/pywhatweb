@@ -9,4 +9,3 @@ class Pluginpodpress_plugin(plugins.Base):
 			{ "version" : "/<div id="podPress_footer">Podcast powered by <a href="http:\/\/wordpress.org\/extend\/plugins\/podpress\/" title="podPress", "a plugin for podcasting with WordPress"><strong>podPress v([\d\.]+)<\/strong><\/a><\/div>/" },
 		]
 		return(self.rules)
-

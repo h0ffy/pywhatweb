@@ -7,4 +7,3 @@ class Plugincdn_cache_server_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

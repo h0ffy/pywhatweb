@@ -22,4 +22,3 @@ class Pluginplesk_plugin(plugins.Base):
 			{ "url" : "/", "version" : "/<script language="javascript" type="text\/javascript" src="\/javascript\/common\.js\?plesk_version=psa-([^\s^"]+)"\/?>/" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginaspthai.net_webboard_plugin(plugins.Base):
 			{ "version" : "/<!-- ASPThai.Net Webboard ver. ([\d\.]+) is written and produced by Supap Wanawan/" },
 		]
 		return(self.rules)
-

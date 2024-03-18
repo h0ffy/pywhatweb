@@ -14,4 +14,3 @@ class Pluginasterisk_plugin(plugins.Base):
 			{ "url" : "/static/config/js/astman.js", "module" : /		version : "([^']+)' \/\/ gui version/" },
 		]
 		return(self.rules)
-

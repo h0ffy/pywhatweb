@@ -11,4 +11,3 @@ class Plugindirect_packet_device_plugin(plugins.Base):
 			{ "version" : "/^DPWebServer\/([\d\.]{1,3})/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

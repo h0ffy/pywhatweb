@@ -10,4 +10,3 @@ class Pluginbiromsoft_webcam_plugin(plugins.Base):
 			{ "text" : "<area shape="rect" coords="22,26,151,102" href="http://www.biromsoft.com">" },
 		]
 		return(self.rules)
-

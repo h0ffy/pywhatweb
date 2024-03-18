@@ -8,4 +8,3 @@ class Pluginiciniti_store_plugin(plugins.Base):
 			{ "text" : "<!-- START (content_stylesheet.inc) -->" },
 		]
 		return(self.rules)
-

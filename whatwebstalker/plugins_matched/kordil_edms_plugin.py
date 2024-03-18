@@ -11,4 +11,3 @@ class Pluginkordil_edms_plugin(plugins.Base):
 			{ "version" : "/<center><font face="Arial" size="2">Kordil EDMS v([^<]+)<\/font><\/center>/" },
 		]
 		return(self.rules)
-

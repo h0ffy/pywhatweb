@@ -11,4 +11,3 @@ class Pluginvisionweb_plugin(plugins.Base):
 			{ "string" : /<meta name="COPYRIGHT" content="&copy; 2001-(2[\d]{3}) Insignis Technologies"/" },
 		]
 		return(self.rules)
-

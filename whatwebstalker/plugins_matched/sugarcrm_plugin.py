@@ -13,4 +13,3 @@ class Pluginsugarcrm_plugin(plugins.Base):
 			{ "string" : /\* SugarCRM is a customer relationship management program developed by[\s]+ \* SugarCRM", "Inc\. Copyright \(C\) 2004-([\d]{4}) SugarCRM Inc\./" },
 		]
 		return(self.rules)
-

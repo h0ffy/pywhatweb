@@ -11,4 +11,3 @@ class Pluginaardvark_topsites_php_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/www.aardvarkind.com\/">Aardvark Topsites PHP<\/a> ([\d\.]+)/" },
 		]
 		return(self.rules)
-

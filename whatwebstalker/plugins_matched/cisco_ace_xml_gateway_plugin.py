@@ -8,4 +8,3 @@ class Plugincisco_ace_xml_gateway_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^ACE XML Gateway$/" },
 		]
 		return(self.rules)
-

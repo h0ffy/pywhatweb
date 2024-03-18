@@ -19,4 +19,3 @@ class Pluginsolarwinds_network_performance_monitor_plugin(plugins.Base):
 			{ "version" : "/<div id="footer">[^S]*SolarWinds Orion Network Performance Monitor ([^&]+)&copy; 1995-[0-9]{4} All Rights Reserved[^<]*<\/div>/" },
 		]
 		return(self.rules)
-

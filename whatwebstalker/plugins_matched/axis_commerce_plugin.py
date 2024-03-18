@@ -12,4 +12,3 @@ class Pluginaxis_commerce_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/axisid=[a-z\d]{20,32};/" },
 		]
 		return(self.rules)
-

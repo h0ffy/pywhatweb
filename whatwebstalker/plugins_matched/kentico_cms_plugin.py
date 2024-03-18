@@ -13,4 +13,3 @@ class Pluginkentico_cms_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/CMSCsrfCookie/", "name" : "CMSCsrfCookie cookie" },
 		]
 		return(self.rules)
-

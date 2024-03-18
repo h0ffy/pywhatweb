@@ -8,4 +8,3 @@ class Pluginwp_slimstat_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/slimstat_tracking_code=[a-f\d]{32};/" },
 		]
 		return(self.rules)
-

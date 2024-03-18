@@ -10,4 +10,3 @@ class Pluginqlogic_sansurfer_fc_hba_manager_plugin(plugins.Base):
 			{ "regexp" : "/<SCRIPT LANGUAGE="Javascript">\s+<!--\s+insertLink\("sansurfer\.jnlp",\s+"Start SANsurfer FC HBA Manager"\);/" },
 		]
 		return(self.rules)
-

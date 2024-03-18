@@ -16,4 +16,3 @@ class Pluginwinmail_server_plugin(plugins.Base):
 			{ "version" : "/<!--[\s]+&copy 20[\d]{2}(-[\d]{4})? AMAX Information Technologies Inc\. All Rights Reserved\.[\s]+WebMail \| Powered by Winmail Server ([^\s]+)[\s]+-->/", "offset" : "1 },
 		]
 		return(self.rules)
-

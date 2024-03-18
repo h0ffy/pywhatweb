@@ -11,4 +11,3 @@ class Pluginweb2project_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/web2project=[^;]+;/" },
 		]
 		return(self.rules)
-

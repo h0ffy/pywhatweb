@@ -9,4 +9,3 @@ class Pluginsyntaxcms_plugin(plugins.Base):
 			{ "text" : "powered by <a href="http://www.syntaxcms.org/" title="SyntaxCMS">SyntaxCMS</a></div>" },
 		]
 		return(self.rules)
-

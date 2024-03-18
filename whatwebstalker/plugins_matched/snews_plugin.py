@@ -14,4 +14,3 @@ class Pluginsnews_plugin(plugins.Base):
 			{ "version" : "/<meta name="Generator" content="sNews ([\d\.]+)" \/>/" },
 		]
 		return(self.rules)
-

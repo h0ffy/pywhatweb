@@ -11,4 +11,3 @@ class Pluginphp_easy_data_plugin(plugins.Base):
 			{ "version" : "/n main de pages dynamiques. " target="_blank"[\s]*>PhpEasyData[\s]*([^<]+)<\/a><\/b>/" },
 		]
 		return(self.rules)
-

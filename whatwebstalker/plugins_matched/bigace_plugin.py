@@ -11,4 +11,3 @@ class Pluginbigace_plugin(plugins.Base):
 			{ "version" : "/<!--[\r\n][\r\n]   Site is running BIGACE ([\d\.]+) [\r\n]        a PHP based Web CMS for MySQL[\r\n]             \(C\) Kevin Papst \(www.bigace.de\)[\r\n]/" },
 		]
 		return(self.rules)
-

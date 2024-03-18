@@ -11,4 +11,3 @@ class Pluginzte_iad_plugin(plugins.Base):
 			{ "model" : "ZXV10 I508C", "url" : "/image/banner_top.jpg", "md5" : "b968f243974f9e97b8a9e71bfaa25c83" },
 		]
 		return(self.rules)
-

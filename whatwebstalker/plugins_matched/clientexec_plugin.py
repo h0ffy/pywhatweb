@@ -11,4 +11,3 @@ class Pluginclientexec_plugin(plugins.Base):
 			{ "module" : /<img class="logo" src="templates\/([^\/]+)\/images\/public\/caption_photo\.jpg" alt="clientexec" \/>/" },
 		]
 		return(self.rules)
-

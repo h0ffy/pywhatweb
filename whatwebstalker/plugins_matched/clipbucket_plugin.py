@@ -17,4 +17,3 @@ class Pluginclipbucket_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/pageredir=https?%3A%2F%2F/", "certainty" : "25 },
 		]
 		return(self.rules)
-

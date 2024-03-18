@@ -13,4 +13,3 @@ class Pluginhp_laserjet_printer_plugin(plugins.Base):
 			{ "model" : "/<title>[\r\n]*(HP|hp) Color LaserJet ([^<]+)<\/title>/i", "offset" : "1", "module" : "color" },
 		]
 		return(self.rules)
-

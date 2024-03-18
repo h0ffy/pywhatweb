@@ -13,4 +13,3 @@ class Plugincms_made_simple_plugin(plugins.Base):
 			{ "name" : "favicon", "url" : "/favicon_cms.ico", "md5" : "ebf500d206705bda0cb79021c15da98a" },
 		]
 		return(self.rules)
-

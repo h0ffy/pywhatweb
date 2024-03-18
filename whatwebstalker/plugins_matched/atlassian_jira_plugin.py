@@ -11,4 +11,3 @@ class Pluginatlassian_jira_plugin(plugins.Base):
 			{ "text" : "<meta name="decorator" content="atl.general">" },
 		]
 		return(self.rules)
-

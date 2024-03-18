@@ -11,4 +11,3 @@ class Pluginorbis_cms_plugin(plugins.Base):
 			{ "text" : "<!-- Give feedback if user enters incorrect password (GET value "e=2) or logged out (GET value "e=3") -->" },
 		]
 		return(self.rules)
-

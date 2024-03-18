@@ -7,4 +7,3 @@ class Pluginwww_authenticate_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

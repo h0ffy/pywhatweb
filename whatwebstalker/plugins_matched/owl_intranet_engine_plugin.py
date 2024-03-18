@@ -10,4 +10,3 @@ class Pluginowl_intranet_engine_plugin(plugins.Base):
 			{ "version" : "/<title>[^<]+ Owl ([\d\.]+ [\d]{8})<\/title>/" },
 		]
 		return(self.rules)
-

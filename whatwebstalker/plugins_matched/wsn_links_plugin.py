@@ -13,4 +13,3 @@ class Pluginwsn_links_plugin(plugins.Base):
 			{ "text" : "<textarea readonly rows="20" cols="75">WSN Links License Agreement" },
 		]
 		return(self.rules)
-

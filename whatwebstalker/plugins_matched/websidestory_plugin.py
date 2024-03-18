@@ -13,4 +13,3 @@ class Pluginwebsidestory_plugin(plugins.Base):
 			{ "text" : "<a href="http://websidestory.com/" target="_blank">Powered by WebSideStory</a>" },
 		]
 		return(self.rules)
-

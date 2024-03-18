@@ -9,4 +9,3 @@ class Pluginopenwrt_plugin(plugins.Base):
 			{ "text" : "OpenWrt Administrative Console<br />Redirecting to : <a style="color: inherit;" href="/cgi-bin/webif.sh">main page</a></p>" },
 		]
 		return(self.rules)
-

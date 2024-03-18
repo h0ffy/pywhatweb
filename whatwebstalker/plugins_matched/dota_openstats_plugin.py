@@ -11,4 +11,3 @@ class Plugindota_openstats_plugin(plugins.Base):
 			{ "string" : /&copy; (20[\d]{2}) Powered by <a target="_blank" href="http:\/\/openstats\.iz\.rs">DotA OpenStats<\/a>/" },
 		]
 		return(self.rules)
-

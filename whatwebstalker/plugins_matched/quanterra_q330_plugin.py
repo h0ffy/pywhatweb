@@ -7,4 +7,3 @@ class Pluginquanterra_q330_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

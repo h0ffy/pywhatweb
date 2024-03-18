@@ -11,4 +11,3 @@ class Pluginsecure_snapgear_plugin(plugins.Base):
 			{ "string" : /<html><head><title>([^\s]+) - SnapGear Management Console\n<\/title>/" },
 		]
 		return(self.rules)
-

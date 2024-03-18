@@ -11,4 +11,3 @@ class Plugindell_remote_access_controller_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^RAC_ONE_HTTP ([\d\.]+)$/" },
 		]
 		return(self.rules)
-

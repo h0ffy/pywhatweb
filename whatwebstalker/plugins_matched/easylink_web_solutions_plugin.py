@@ -10,4 +10,3 @@ class Plugineasylink_web_solutions_plugin(plugins.Base):
 			{ "version" : "/[P|p]?owered by easyLink v([\d\.]+)/" },
 		]
 		return(self.rules)
-

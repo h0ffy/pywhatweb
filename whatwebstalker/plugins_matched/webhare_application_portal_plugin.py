@@ -7,4 +7,3 @@ class Pluginwebhare_application_portal_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

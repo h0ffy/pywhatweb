@@ -9,4 +9,3 @@ class Pluginop5_statistics_plugin(plugins.Base):
 			{ "text" : "<title>Login to op5 Statistics</title>" },
 		]
 		return(self.rules)
-

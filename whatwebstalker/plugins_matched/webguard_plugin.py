@@ -14,4 +14,3 @@ class Pluginwebguard_plugin(plugins.Base):
 			{ "md5" : "457dff12099372b8415b29e2e50c3910" },
 		]
 		return(self.rules)
-

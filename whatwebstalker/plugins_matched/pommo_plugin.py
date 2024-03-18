@@ -10,4 +10,3 @@ class Pluginpommo_plugin(plugins.Base):
 			{ "text" : "<title>. ..poMMo.. .</title>" },
 		]
 		return(self.rules)
-

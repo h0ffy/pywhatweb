@@ -12,4 +12,3 @@ class Pluginx10media_torrent_search_engine_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.x10media.com/torrent-search-engine-script/" target="_blank">x10media Torrent Search Engine Script</a>" },
 		]
 		return(self.rules)
-

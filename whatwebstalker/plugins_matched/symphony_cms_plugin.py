@@ -19,4 +19,3 @@ class Pluginsymphony_cms_plugin(plugins.Base):
 			{ "version" : "/Powered by <a[^>]+href="http:\/\/symphony-cms.com[\/]?">Symphony CMS ([\d\.]{1,3})<\/a>/" },
 		]
 		return(self.rules)
-

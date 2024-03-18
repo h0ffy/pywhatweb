@@ -12,4 +12,3 @@ class Pluginwebasyst_shop_script_plugin(plugins.Base):
 			{ "md5" : "d7139ea1c479be1993d01e22e2c36a12", "url" : "images/logos/wa_logo136_white.gif" },
 		]
 		return(self.rules)
-

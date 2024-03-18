@@ -18,4 +18,3 @@ class Pluginaxis_network_camera_plugin(plugins.Base):
 			{ "model" : "/<TITLE>Live View \/? - AXIS ([\da-z]+) [^<]*<\/TITLE>/i", "module" : "Live View" },
 		]
 		return(self.rules)
-

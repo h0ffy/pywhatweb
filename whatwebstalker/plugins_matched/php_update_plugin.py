@@ -11,4 +11,3 @@ class Pluginphp_update_plugin(plugins.Base):
 			{ "text" : "<a href="http://www.php-update.co.uk">Powered by PHP-Update </a>" },
 		]
 		return(self.rules)
-

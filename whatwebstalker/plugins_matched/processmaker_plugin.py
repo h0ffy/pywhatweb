@@ -12,4 +12,3 @@ class Pluginprocessmaker_plugin(plugins.Base):
 			{ "text" : "<meta http-equiv="REFRESH" content="0;URL=/sys/en/classic/login/login.html" />" },
 		]
 		return(self.rules)
-

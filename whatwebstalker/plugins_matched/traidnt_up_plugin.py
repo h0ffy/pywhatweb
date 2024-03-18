@@ -13,4 +13,3 @@ class Plugintraidnt_up_plugin(plugins.Base):
 			{ "version" : "/			<span style='text-decoration: none'><font color='#000000'>Traidnt&nbsp;UP<\/font><\/span><\/a><\/font><\/span><\/b>[\r\n]{2}			Version ([\d\.]+)<\/p>/" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginigivetest_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : "<form action="index.php" method=post name=signinform>" },
 		]
 		return(self.rules)
-

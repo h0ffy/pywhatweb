@@ -10,4 +10,3 @@ class Pluginsql_cms_plugin(plugins.Base):
 			{ "version" : "/<a href="http:\/\/www.developerinabox.com" target="_blank"><img src="Img\/poweredby.png" style="position:absolute;right:0px;bottom:-30px;margin-top:2px;border:0px" title="SQLCMS v([\d\.]+)"\/><\/a>/" },
 		]
 		return(self.rules)
-

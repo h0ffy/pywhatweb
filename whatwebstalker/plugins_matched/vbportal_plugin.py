@@ -11,4 +11,3 @@ class Pluginvbportal_plugin(plugins.Base):
 			{ "version" : "/Portal By vbPortal Version ([\d\.]+)<br \/>/" },
 		]
 		return(self.rules)
-

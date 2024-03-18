@@ -9,4 +9,3 @@ class Plugincontentxxl_plugin(plugins.Base):
 			{ "string" : /<meta name="generator" content="contentXXL Business Content Management System  [^\(]+\(([^\)]+)", "[^,^>]+", "(Release|Debug)\) \/ contentXXL International GmbH \/ www.contentxxl.de" [\/]?>/" },
 		]
 		return(self.rules)
-

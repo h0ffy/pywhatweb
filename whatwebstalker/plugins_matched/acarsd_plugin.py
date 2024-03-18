@@ -12,4 +12,3 @@ class Pluginacarsd_plugin(plugins.Base):
 			{ "string" : /<meta name="description" content="Realtime Web ACARS - [^\s]+ Location: ([^\.^\"^>]+)\./" },
 		]
 		return(self.rules)
-

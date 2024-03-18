@@ -15,4 +15,3 @@ class Pluginphpquestionnaire_plugin(plugins.Base):
 			{ "version" : "/      <TD ALIGN=right><NOBR><B><A HREF="http:\/\/www.chumpsoft.com\/products\/phpq\/" class=link>phpQuestionnaire<\/A> ([\d\.]+) &copy [0-9]{4}-[0-9]{4}/" },
 		]
 		return(self.rules)
-

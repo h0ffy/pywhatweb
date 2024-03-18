@@ -17,4 +17,3 @@ class Pluginhesk_plugin(plugins.Base):
 			{ "version" : "/<p align="center"><font class="smaller">Powered by <a href="[^>^"]{0,256}" class="smaller" target="_blank">Help desk software Hesk<\/a> ([^\s^<]+)<\/font>/" },
 		]
 		return(self.rules)
-

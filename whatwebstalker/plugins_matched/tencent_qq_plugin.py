@@ -8,4 +8,3 @@ class Plugintencent_qq_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^HTTP_ME\/\d\.\d Tencent\/HTTP_Magic_Expression$/" },
 		]
 		return(self.rules)
-

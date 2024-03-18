@@ -8,4 +8,3 @@ class Pluginairtiesrouter_plugin(plugins.Base):
 			{ "version" : "/<title>Airties ([^<]+)<},
 		]
 		return(self.rules)
-

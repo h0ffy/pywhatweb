@@ -10,4 +10,3 @@ class Pluginpligg_cms_plugin(plugins.Base):
 			{ "md5" : "7c548077f2a8cc6099858eb1bf9201b4", "url" : "/favicon.ico" },
 		]
 		return(self.rules)
-

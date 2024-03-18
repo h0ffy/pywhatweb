@@ -12,4 +12,3 @@ class Pluginlantronix_device_plugin(plugins.Base):
 			{ "regexp" : "/^Gordian Embedded/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

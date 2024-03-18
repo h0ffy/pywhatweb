@@ -11,4 +11,3 @@ class Pluginwebsitebaker_cms_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/wb_session_id=[^;]+;/", "certainty" : "75 },
 		]
 		return(self.rules)
-

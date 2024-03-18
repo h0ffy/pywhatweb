@@ -14,4 +14,3 @@ class Plugincanon_network_camera_plugin(plugins.Base):
 			{ "text" : "<title>LiveApplet</title>',"version" : "WebView"},
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Plugintestlink_plugin(plugins.Base):
 			{ "regexp" : "/<html><head><\/head><body><script type='text\/javascript'>location\.href='https?:\/\/[^\'^\?]+\/login\.php\?note=expired';<\/script><\/body><\/html>/" },
 		]
 		return(self.rules)
-

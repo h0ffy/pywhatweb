@@ -8,4 +8,3 @@ class Pluginws_ftp_log_plugin(plugins.Base):
 			{ "version" : "/^[0-9]+.[0-9]{2}.[0-9]{2} [0-9]{2}:[0-9]{2} [A|B]{1} [^>]*> ([^\ ]+) /" },
 		]
 		return(self.rules)
-

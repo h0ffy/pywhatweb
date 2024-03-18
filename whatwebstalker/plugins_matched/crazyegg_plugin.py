@@ -9,4 +9,3 @@ class Plugincrazyegg_plugin(plugins.Base):
 			{ "account" : "/dnn506yrbagrg\.cloudfront\.net\/pages\/scripts\/(\d+\/\d+)},
 		]
 		return(self.rules)
-

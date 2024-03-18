@@ -13,4 +13,3 @@ class Pluginbea_weblogic_server_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^WebLogic Server (.+) [A-Z][a-z]{2} [A-Z][a-z]{2} [\d]{1,2} [\d]{2}:[\d]{2}:[\d]{2}/" },
 		]
 		return(self.rules)
-

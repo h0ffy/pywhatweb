@@ -11,4 +11,3 @@ class Pluginlocazolist_classifieds_plugin(plugins.Base):
 			{ "version" : "/<title>LocazoList Classifieds v[0-9a-z\.]+ - powered by LocazoList ([0-9a-z\.]+)<\/title>/" },
 		]
 		return(self.rules)
-

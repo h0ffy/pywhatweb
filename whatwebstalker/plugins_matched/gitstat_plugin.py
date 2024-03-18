@@ -10,4 +10,3 @@ class Plugingitstat_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://sourceforge.net/projects/gitstat/">gitstat</a> <br><img src="images/separator.gif" alt=" />Design: <a href="http://www.oswd.org/">OSWD.ORG</a></p>" },
 		]
 		return(self.rules)
-

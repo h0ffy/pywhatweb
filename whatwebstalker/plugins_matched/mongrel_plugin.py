@@ -8,4 +8,3 @@ class Pluginmongrel_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Mongrel ([\d][^\s]+)/" },
 		]
 		return(self.rules)
-

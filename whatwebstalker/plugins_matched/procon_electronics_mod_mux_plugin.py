@@ -7,4 +7,3 @@ class Pluginprocon_electronics_mod_mux_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

@@ -12,4 +12,3 @@ class Pluginganglia_plugin(plugins.Base):
 			{ "version" : "/Web Backend <i>\(gmetad\)<\/i> version ([\d\.]+)\n<A HREF="http:\/\/ganglia\.sourceforge\.net\/downloads\.php\?component=gmetad&amp;\nversion=[\d\.]+">Check for Updates\.<\/A><BR>/", "offset" : "1 },
 		]
 		return(self.rules)
-

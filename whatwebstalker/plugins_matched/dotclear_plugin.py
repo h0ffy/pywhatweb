@@ -12,4 +12,3 @@ class Plugindotclear_plugin(plugins.Base):
 			{ "text" : "<p class="post-info-co">" },
 		]
 		return(self.rules)
-

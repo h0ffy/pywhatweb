@@ -9,4 +9,3 @@ class Plugintengine_web_server_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Tengine\/([^\s]+)/" },
 		]
 		return(self.rules)
-

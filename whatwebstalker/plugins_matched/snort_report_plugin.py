@@ -9,4 +9,3 @@ class Pluginsnort_report_plugin(plugins.Base):
 			{ "text" : "<title>SNORT Report - Signature Detail ()</title>" },
 		]
 		return(self.rules)
-

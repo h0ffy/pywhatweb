@@ -19,4 +19,3 @@ class Pluginmysql_error_plugin(plugins.Base):
 			{ "string" : /Errore: Non riesco a selezionare il database ([a-z0-9\.\-\_]+)/" },
 		]
 		return(self.rules)
-

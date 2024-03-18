@@ -8,4 +8,3 @@ class Pluginmobile_joomla_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/mjmarkup=deleted;/" },
 		]
 		return(self.rules)
-

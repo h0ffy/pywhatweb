@@ -7,4 +7,3 @@ class Plugincrossdomain.xml_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

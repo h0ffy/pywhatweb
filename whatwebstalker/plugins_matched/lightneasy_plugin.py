@@ -16,4 +16,3 @@ class Pluginlightneasy_plugin(plugins.Base):
 			{ "version" : "/<h2 class="LNE_title">LightNEasy ([^<^\s]+) index page<\/h2><p>If you are seeing this", "that means <strong>LightNEasy<\/strong> installation worked!<\/p>/" },
 		]
 		return(self.rules)
-

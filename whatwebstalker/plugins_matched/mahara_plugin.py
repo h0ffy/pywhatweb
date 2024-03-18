@@ -11,4 +11,3 @@ class Pluginmahara_plugin(plugins.Base):
 			{ "text" : "<script type="text/javascript">var strings = {"namedfieldempty":"The required field \"%s\" is empty","processing":"Processing","requiredfieldempty":"A required field is empty","unknownerror":"An unknown error occurred (0x20f91a0)"," },
 		]
 		return(self.rules)
-

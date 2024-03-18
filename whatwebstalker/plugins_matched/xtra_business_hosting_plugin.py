@@ -8,4 +8,3 @@ class Pluginxtra_business_hosting_plugin(plugins.Base):
 			{ "text" : "<title>Xtra Business: Web Hosting</title>" },
 		]
 		return(self.rules)
-

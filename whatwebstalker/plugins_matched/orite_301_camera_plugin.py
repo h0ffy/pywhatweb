@@ -10,4 +10,3 @@ class Pluginorite_301_camera_plugin(plugins.Base):
 			{ "text" : "	var s=\'<frameset cols="220", "*" id=totalframeset frameborder="NO" border="0" framespacing="0" noresize>\'" },
 		]
 		return(self.rules)
-

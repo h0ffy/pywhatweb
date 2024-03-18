@@ -9,4 +9,3 @@ class Pluginwowza_media_server_plugin(plugins.Base):
 			{ "search" : "headers[www-authenticate]", "text" : "realm="Wowza Media Systems"" },
 		]
 		return(self.rules)
-

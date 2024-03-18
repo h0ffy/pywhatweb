@@ -9,4 +9,3 @@ class Pluginvirtuemart_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "href="/index.php?option=com_virtuemart&amp;page=shop.registration">" },
 		]
 		return(self.rules)
-

@@ -8,4 +8,3 @@ class Plugintoshiba_printer_plugin(plugins.Base):
 			{ "text" : "<TITLE CLASS="clsTitle1">TopAccess</title>" },
 		]
 		return(self.rules)
-

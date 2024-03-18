@@ -7,4 +7,3 @@ class Pluginadvance_digitalmg_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

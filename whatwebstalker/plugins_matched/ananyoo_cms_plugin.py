@@ -9,4 +9,3 @@ class Pluginananyoo_cms_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<meta name="generator" content="http://www.ananyoo.com" />" },
 		]
 		return(self.rules)
-

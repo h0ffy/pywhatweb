@@ -10,4 +10,3 @@ class Pluginapc_ups_management_card_plugin(plugins.Base):
 			{ "name" : "WWW-Authenticate realm", "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="APC Management Card"$/" },
 		]
 		return(self.rules)
-

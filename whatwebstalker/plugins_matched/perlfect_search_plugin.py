@@ -7,4 +7,3 @@ class Pluginperlfect_search_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginbigdump_plugin(plugins.Base):
 			{ "version" : "/<title>BigDump ver\. ([^\s^<]{2,6})<\/title>/" },
 		]
 		return(self.rules)
-

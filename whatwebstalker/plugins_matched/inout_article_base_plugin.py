@@ -11,4 +11,3 @@ class Plugininout_article_base_plugin(plugins.Base):
 			{ "text" : " href="http://www.inoutscripts.com/?r=0">Powered by Inoutscripts</a>", "certainty" : "75 },
 		]
 		return(self.rules)
-

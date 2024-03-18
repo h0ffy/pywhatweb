@@ -12,4 +12,3 @@ class Pluginavaya_secure_router_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Avaya Http Server v([^\s]+)$/" },
 		]
 		return(self.rules)
-

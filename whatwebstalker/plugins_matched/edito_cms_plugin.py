@@ -9,4 +9,3 @@ class Pluginedito_cms_plugin(plugins.Base):
 			{ "regexp" : "/Powered by[\s]*:?[\s]+<a[^>]+href="http:\/\/www.edito.pl[\/]?"[^>]+title="Edito CMS"[^>]*>/i },
 		]
 		return(self.rules)
-

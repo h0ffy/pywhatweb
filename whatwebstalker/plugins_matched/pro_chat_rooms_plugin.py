@@ -12,4 +12,3 @@ class Pluginpro_chat_rooms_plugin(plugins.Base):
 			{ "version" : "/<img src="images\/chat.gif" border="0" alt="Pro Chat Rooms v([\d\.]+)" title="Pro Chat Rooms v([\d\.]+)" \/>/" },
 		]
 		return(self.rules)
-

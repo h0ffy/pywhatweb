@@ -15,4 +15,3 @@ class Pluginpixel_ads_script_plugin(plugins.Base):
 			{ "text" : " href="http://www.pixel-ads-script.com">Powered by: Pixel-Ads-Script.Com</a></div>" },
 		]
 		return(self.rules)
-

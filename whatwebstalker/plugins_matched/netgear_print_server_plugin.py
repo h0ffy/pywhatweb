@@ -12,4 +12,3 @@ class Pluginnetgear_print_server_plugin(plugins.Base):
 			{ "certainty" : "25", "version" : "/^PRINT_SERVER WEB ([\d\.]+)$/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

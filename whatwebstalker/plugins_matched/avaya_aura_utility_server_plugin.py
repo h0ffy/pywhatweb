@@ -9,4 +9,3 @@ class Pluginavaya_aura_utility_server_plugin(plugins.Base):
 			{ "text" : "<div id="topBar"><div id="topBarLeft"><a href="#" class="helpAndExit" onclick="window.open(\'/webhelp/Base/Utility_toc.htm" },
 		]
 		return(self.rules)
-

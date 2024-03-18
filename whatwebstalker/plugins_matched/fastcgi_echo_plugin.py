@@ -13,4 +13,3 @@ class Pluginfastcgi_echo_plugin(plugins.Base):
 			{ "version" : "/SERVER_SIGNATURE=<ADDRESS>([^<]+)/" },
 		]
 		return(self.rules)
-

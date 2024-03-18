@@ -12,4 +12,3 @@ class Plugindrugpak_plugin(plugins.Base):
 			{ "regexp" : "/<!--Request processed in [\d]{2} min", "[\d]{2} sec", "[\d]{3} ms--><\/BODY>/" },
 		]
 		return(self.rules)
-

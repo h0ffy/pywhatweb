@@ -13,4 +13,3 @@ class Pluginescenic_plugin(plugins.Base):
 			{ "certainty" : "25", "regexp" : "/<a[^>]+href="[^"^>]+\/article[\d]{5,10}\.ece">[^<]*<\/a>/" },
 		]
 		return(self.rules)
-

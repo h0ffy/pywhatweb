@@ -11,4 +11,3 @@ class Pluginenigma2_plugin(plugins.Base):
 			{ "text" : "<link rel="alternate" type="application/rss+xml" title="Movie List" href="/web/movielist.rss?tag" >" },
 		]
 		return(self.rules)
-

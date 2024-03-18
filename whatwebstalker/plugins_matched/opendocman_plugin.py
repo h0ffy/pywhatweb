@@ -10,4 +10,3 @@ class Pluginopendocman_plugin(plugins.Base):
 			{ "regexp" : "/<td valign="top">\s+Welcome to OpenDocMan\.?\s+<p>/" },
 		]
 		return(self.rules)
-

@@ -8,4 +8,3 @@ class Pluginspecialix_jetstream_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Specialix JETSTREAM ([\d\.]+)$/" },
 		]
 		return(self.rules)
-

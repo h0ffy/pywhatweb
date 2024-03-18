@@ -10,4 +10,3 @@ class Pluginmcafee_epolicy_orchestrator_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Undefined$/" },
 		]
 		return(self.rules)
-

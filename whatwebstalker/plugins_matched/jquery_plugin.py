@@ -11,4 +11,3 @@ class Pluginjquery_plugin(plugins.Base):
 			{ "version" : "/jquery-([0-9\.]+)(\.min)?\.js/", "offset" : "0 },
 		]
 		return(self.rules)
-

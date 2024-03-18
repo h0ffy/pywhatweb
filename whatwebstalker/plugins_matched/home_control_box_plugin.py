@@ -7,4 +7,3 @@ class Pluginhome_control_box_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

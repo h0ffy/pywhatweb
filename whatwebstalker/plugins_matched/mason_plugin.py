@@ -8,4 +8,3 @@ class Pluginmason_plugin(plugins.Base):
 			{ "search" : "headers[x-powered-by]", "regexp" : "/HTML::Mason/" },
 		]
 		return(self.rules)
-

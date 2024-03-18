@@ -9,4 +9,3 @@ class Plugincarrier_ccnweb_plugin(plugins.Base):
 			{ "text" : "<APPLET CODE="JLogin.class" ARCHIVE="JLogin.jar" MAYSCRIPT WIDTH=310 HEIGHT=185>" },
 		]
 		return(self.rules)
-

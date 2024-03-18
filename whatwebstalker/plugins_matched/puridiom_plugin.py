@@ -14,4 +14,3 @@ class Pluginpuridiom_plugin(plugins.Base):
 			{ "string" : "Xpress", "text" : "<META NAME="Description" Content="/puridiomx/system/header.jsp">" },
 		]
 		return(self.rules)
-

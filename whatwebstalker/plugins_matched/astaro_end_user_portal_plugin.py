@@ -9,4 +9,3 @@ class Pluginastaro_end_user_portal_plugin(plugins.Base):
 			{ "url" : "/jape/ellipsis.xml", "md5" : "9639763b8c7f8caef097be4f3ffe5106" },
 		]
 		return(self.rules)
-

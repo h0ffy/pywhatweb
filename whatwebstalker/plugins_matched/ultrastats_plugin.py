@@ -12,4 +12,3 @@ class Pluginultrastats_plugin(plugins.Base):
 			{ "version" : "/ &nbsp;<a href="http:\/\/www.ultrastats.org[\/]?" target="_blank">Ultrastats<\/a> Version ([\d\.]+)/i },
 		]
 		return(self.rules)
-

@@ -8,4 +8,3 @@ class Plugincruxpa_plugin(plugins.Base):
 			{ "text" : "<div id="copy"><center>Powered By <a href="http://www.cruxsoftware.co.uk">CruxPA</a><br>" },
 		]
 		return(self.rules)
-

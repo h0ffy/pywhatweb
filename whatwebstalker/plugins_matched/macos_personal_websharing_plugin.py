@@ -7,4 +7,3 @@ class Pluginmacos_personal_websharing_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

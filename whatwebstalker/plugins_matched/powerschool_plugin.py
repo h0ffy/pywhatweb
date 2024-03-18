@@ -8,4 +8,3 @@ class Pluginpowerschool_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^PowerSchool$/" },
 		]
 		return(self.rules)
-

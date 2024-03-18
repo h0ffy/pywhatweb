@@ -16,4 +16,3 @@ class Plugingroup_office_plugin(plugins.Base):
 			{ "text" : "alert('Could not load the application javascripts. Check the \"host\" property in config.php and see if the \"file_storage_path\" folder and it\\'s contents are writable');" },
 		]
 		return(self.rules)
-

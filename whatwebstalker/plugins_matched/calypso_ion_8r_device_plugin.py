@@ -10,4 +10,3 @@ class Plugincalypso_ion_8r_device_plugin(plugins.Base):
 			{ "search" : "headers[www-authenticate]", "text" : "Calypso ION8r Device" },
 		]
 		return(self.rules)
-

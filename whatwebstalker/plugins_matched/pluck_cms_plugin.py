@@ -10,4 +10,3 @@ class Pluginpluck_cms_plugin(plugins.Base):
 			{ "text" : "powered by <a href="http://www.pluck-cms.org">pluck</a>" },
 		]
 		return(self.rules)
-

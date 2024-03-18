@@ -7,4 +7,3 @@ class Pluginmirapoint_email_appliance_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Plugintreenews_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^TreeNeWS\/([^\s]+)$/" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginaja_video_converter_plugin(plugins.Base):
 			{ "url" : "/json?action=get&configid=0&alt=json&paramid=eParamID_SysName", "string" : /\{"paramid":"839188480","name":"eParamID_SysName","value":"([^\"]+)"/" },
 		]
 		return(self.rules)
-

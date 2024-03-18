@@ -9,4 +9,3 @@ class Pluginopenlookup_plugin(plugins.Base):
 			{ "version" : "/<p><a href="http:\/\/openlookup\.googlecode\.com\/">Source code and\n	further information<\/a> are available\.  This is OpenLookup V([^<]+)\.<\/p>/" },
 		]
 		return(self.rules)
-

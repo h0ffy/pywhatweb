@@ -12,4 +12,3 @@ class Pluginfunkwerk_gateway_plugin(plugins.Base):
 			{ "url" : "/state", "version" : "/<TR>[\s]+<TD BGCOLOR="#C0C0C0">Software<\/TD>[\s]+<TD><FONT COLOR="#0000FF">V\.(.+) IPSec from [\d]{4}\/[\d]{2}\/[\d]{2} [\d]{2}:[\d]{2}:[\d]{2}<\/FONT><BR><\/TD>/" },
 		]
 		return(self.rules)
-

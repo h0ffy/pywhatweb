@@ -13,4 +13,3 @@ class Pluginsmart_soft_vcard_server_plugin(plugins.Base):
 			{ "name" : "Exception header", "regexp" : "/^Directory%20browsing%20not%20allowed$/", "search" : "headers[exception]" },
 		]
 		return(self.rules)
-

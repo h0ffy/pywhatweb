@@ -9,4 +9,3 @@ class Pluginlasernet_cms_plugin(plugins.Base):
 			{ "regexp" : "/<font size="1" face="Verdana", "Arial", "Helvetica", "sans-serif">Powered by<\/font><\/font>[\s]+<a href="http:\/\/lasernet\.gr"><font size="1" face="Verdana", "Arial", "Helvetica", "sans-serif">Lasernet<\/font><\/a>[\s]+<\/td>/" },
 		]
 		return(self.rules)
-

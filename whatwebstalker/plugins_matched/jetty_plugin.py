@@ -11,4 +11,3 @@ class Pluginjetty_plugin(plugins.Base):
 			{ "text" : "<p><i><small><a href="http://jetty.mortbay.org">Powered by Jetty://</a></small></i></p>" },
 		]
 		return(self.rules)
-

@@ -12,4 +12,3 @@ class Pluginphplist_plugin(plugins.Base):
 			{ "version" : "/<span class="urhere">phplist powered by <\/span><a class="urhere" href="http:\/\/www\.phplist\.com" target="_blank">phplist<\/a> - version ([^<]+)<\/td>/" },
 		]
 		return(self.rules)
-

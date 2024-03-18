@@ -14,4 +14,3 @@ class Plugindd_wrt_plugin(plugins.Base):
 			{ "string" : /<script type="text\/javascript">[\s]+\/\/<!\[CDATA\[[\s]+document\.write\("<span id=\\"(lan|wc|wl)_mac\\" style=\\"cursor:pointer; text-decoration:underline;\\" title=\\" \+ share\.oui \+ "\\" onclick=\\"getOUIFromMAC\('([A-F\d:]{17})'\)\\" >"\);/", "offset" : "1 },
 		]
 		return(self.rules)
-

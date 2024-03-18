@@ -7,4 +7,3 @@ class Pluginsony_locationfree_tv_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

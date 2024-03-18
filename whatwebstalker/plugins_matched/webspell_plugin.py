@@ -11,4 +11,3 @@ class Pluginwebspell_plugin(plugins.Base):
 			{ "certainty" : "75", "search" : "headers[set-cookie]", "regexp" : "/ws_session=[a-z\d]+;/" },
 		]
 		return(self.rules)
-

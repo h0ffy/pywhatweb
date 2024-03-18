@@ -7,4 +7,3 @@ class Pluginwow_server_status_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

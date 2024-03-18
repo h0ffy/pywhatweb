@@ -7,4 +7,3 @@ class Plugingrandtec_x_guard_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

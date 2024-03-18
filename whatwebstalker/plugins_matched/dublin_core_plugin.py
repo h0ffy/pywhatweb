@@ -8,4 +8,3 @@ class Plugindublin_core_plugin(plugins.Base):
 			{ "name" : "dublin core", "regexp" : "/<meta [^>]*name="DC\.title"[^>]*>/i},
 		]
 		return(self.rules)
-

@@ -12,4 +12,3 @@ class Pluginadvanced_image_hosting_script_plugin(plugins.Base):
 			{ "version" : "/<tr><td class=info width=100%>Welcome to install Advanced Image Hosting Script Pro ([\d\.]+) on your server<\/td><\/tr>/" },
 		]
 		return(self.rules)
-

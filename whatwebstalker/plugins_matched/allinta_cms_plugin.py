@@ -14,4 +14,3 @@ class Pluginallinta_cms_plugin(plugins.Base):
 			{ "version" : "/<!-- allintaCMS V([\d\.]+) - http:\/\/www.allinta.com\/ -->/" },
 		]
 		return(self.rules)
-

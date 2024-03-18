@@ -14,4 +14,3 @@ class Pluginnopcommerce_plugin(plugins.Base):
 			{ "text" : "var LoginForm_UserNameOrEmailRequired = document.all ? document.all["LoginForm_UserNameOrEmailRequired"] : document.getElementById("LoginForm_UserNameOrEmailRequired");" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Plugincitrix_metaframe_plugin(plugins.Base):
 			{ "text" : "<title>MetaFrame Presentation Server Log In</title>" },
 		]
 		return(self.rules)
-

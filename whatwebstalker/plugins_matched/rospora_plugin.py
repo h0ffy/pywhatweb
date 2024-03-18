@@ -9,4 +9,3 @@ class Pluginrospora_plugin(plugins.Base):
 			{ "text" : "<li>This server supports only 2.2.3 clients<br><li>1x Quest XP ", "1x Kill XP ", "1x Discovery XP" },
 		]
 		return(self.rules)
-

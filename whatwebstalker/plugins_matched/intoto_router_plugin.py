@@ -12,4 +12,3 @@ class Pluginintoto_router_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Intoto Http Server v([^\s]+)$/" },
 		]
 		return(self.rules)
-

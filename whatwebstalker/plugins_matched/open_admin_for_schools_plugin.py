@@ -13,4 +13,3 @@ class Pluginopen_admin_for_schools_plugin(plugins.Base):
 			{ "string" : /<!--[\s]+#  Copyright 2001-(20[\d]{2}) Leslie Richardson[\s]+#  This file is part of Open Admin for Schools\./" },
 		]
 		return(self.rules)
-

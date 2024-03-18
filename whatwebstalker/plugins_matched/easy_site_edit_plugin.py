@@ -11,4 +11,3 @@ class Plugineasy_site_edit_plugin(plugins.Base):
 			{ "filepath" : "/<TD bgcolor=#(F7FDFF|FFFFFF)>FTP Directory of CMS<\/TD>[\s]+<TD bgcolor=#(F7FDFF|FFFFFF)><INPUT TYPE="text" NAME="dir_cms" value="([^"]+)" class="textboxset(enlarge)?">(&nbsp;&nbsp;&nbsp;\(Directory path of cms in the remote server.\)|<p>\[&nbsp;Note:&nbsp;Directory path of cms in the remote server&nbsp;\]<\/p>)<\/TD>/", "offset" : "2 },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Pluginmgb_opensource_guestbook_plugin(plugins.Base):
 			{ "string" : /<span class="copyright"><a href="http:\/\/www\.m\-gb\.org\/" title="MGB Homepage" target="_blank">MGB OpenSource Guestbook<\/a> &copy; 2004-(20[\d]{2})<br>/" },
 		]
 		return(self.rules)
-

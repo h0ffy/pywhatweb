@@ -11,4 +11,3 @@ class Pluginanecms_plugin(plugins.Base):
 			{ "regexp" : "/<title>[^<^\-]+- Powered By ANECMS<\/title>/" },
 		]
 		return(self.rules)
-

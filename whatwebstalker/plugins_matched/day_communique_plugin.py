@@ -7,4 +7,3 @@ class Pluginday_communique_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

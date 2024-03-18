@@ -10,4 +10,3 @@ class Pluginip_logger_pro_plugin(plugins.Base):
 			{ "text" : "<title>debilsoft IP-Logger PRO Besucherdaten</title>" },
 		]
 		return(self.rules)
-

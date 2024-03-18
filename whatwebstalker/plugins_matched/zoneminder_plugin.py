@@ -15,4 +15,3 @@ class Pluginzoneminder_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/ZMSESSID=[^;]+/" },
 		]
 		return(self.rules)
-

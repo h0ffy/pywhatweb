@@ -10,4 +10,3 @@ class Pluginacti_web_configurator_plugin(plugins.Base):
 			{ "string" : /<tr class="layout_footer_bgcolor">\s*<td width="776"[^>]*>\s+Copyright@2003-(20[\d]{2}) ACTi Corporation All Rights Reserved/" },
 		]
 		return(self.rules)
-

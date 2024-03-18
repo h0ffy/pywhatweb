@@ -13,4 +13,3 @@ class Pluginzimplit_cms_plugin(plugins.Base):
 			{ "regexp" : "/Powered(&nbsp;| )by(&nbsp;| )<A[^>]+href="http:\/\/(www\.)?zimplit\.org\/?"[^>]*>Zimplit(&nbsp;| )CMS<\/A>/i },
 		]
 		return(self.rules)
-

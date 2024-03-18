@@ -10,4 +10,3 @@ class Pluginhot_banana_plugin(plugins.Base):
 			{ "text" : "<div align="right"><img src="Images/hblogo.gif" width="49" height="28" border="0" alt="Powered By Hot Banana" /></div>" },
 		]
 		return(self.rules)
-

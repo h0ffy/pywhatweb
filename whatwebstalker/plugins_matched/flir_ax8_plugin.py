@@ -7,4 +7,3 @@ class Pluginflir_ax8_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

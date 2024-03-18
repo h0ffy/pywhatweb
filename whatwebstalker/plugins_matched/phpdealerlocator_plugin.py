@@ -10,4 +10,3 @@ class Pluginphpdealerlocator_plugin(plugins.Base):
 			{ "text" : "<td><label for="Dealer_Radiuss_Dealer_Zip">Zipcode/Postal Code</label></td>" },
 		]
 		return(self.rules)
-

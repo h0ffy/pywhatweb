@@ -9,4 +9,3 @@ class Pluginauxilium_petratepro_plugin(plugins.Base):
 			{ "text" : "<p class="text"><b>Leader Of The Pack (Top 10 Pets)</b><br><br>" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Plugincodesys_web_visualization_plugin(plugins.Base):
 			{ "text" : "<param name="archive" value="webvisu.jar,minml.jar">" },
 		]
 		return(self.rules)
-

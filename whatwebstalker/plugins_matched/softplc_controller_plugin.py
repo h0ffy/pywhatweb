@@ -7,4 +7,3 @@ class Pluginsoftplc_controller_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

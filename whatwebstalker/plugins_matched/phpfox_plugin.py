@@ -9,4 +9,3 @@ class Pluginphpfox_plugin(plugins.Base):
 			{ "version" : "/<a href="http:\/\/www\.phpfox\.com\/"[^>]*>Powered by phpFoX Version ([\d\.]+)<\/a>/" },
 		]
 		return(self.rules)
-

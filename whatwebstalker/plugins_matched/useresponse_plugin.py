@@ -10,4 +10,3 @@ class Pluginuseresponse_plugin(plugins.Base):
 			{ "text" : "<form id="system-form-registration" enctype="application/x-www-form-urlencoded" class="system-form-registration" accept-charset="utf-8"" },
 		]
 		return(self.rules)
-

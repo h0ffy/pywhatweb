@@ -11,4 +11,3 @@ class Plugins_cms_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href='http:\/\/www.matteoiammarrone.com\/public\/s-cms' target='_blank'>S-Cms ([\d\.]+)<\/a>/" },
 		]
 		return(self.rules)
-

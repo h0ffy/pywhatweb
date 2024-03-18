@@ -8,4 +8,3 @@ class Pluginmicro_httpd_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/micro_httpd/i },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Pluginsynchronet_bbs_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

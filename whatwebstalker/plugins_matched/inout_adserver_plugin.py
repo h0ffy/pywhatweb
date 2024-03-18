@@ -11,4 +11,3 @@ class Plugininout_adserver_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.inoutscripts.com/?r=0">Inoutscripts</a>", "certainty" : "75 },
 		]
 		return(self.rules)
-

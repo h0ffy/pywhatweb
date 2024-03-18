@@ -13,4 +13,3 @@ class Pluginfreenas_plugin(plugins.Base):
 			{ "url" : "/", "search" : "headers[location]", "regexp" : "/https?:\/\/[^\/]+\/account\/login\/\?next=\//" },
 		]
 		return(self.rules)
-

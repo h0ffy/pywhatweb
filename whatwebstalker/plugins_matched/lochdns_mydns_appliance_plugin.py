@@ -11,4 +11,3 @@ class Pluginlochdns_mydns_appliance_plugin(plugins.Base):
 			{ "module" : /<div class="hidden">\s+(rPath Platform Agent [^\s]+)\s+<\/div>/" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Plugincommonspot_plugin(plugins.Base):
 			{ "version" : "/<meta[^>]+name="Generator"[^>]+content="CommonSpot[^\d^"]+([\d\.]+)"[^>]*\/>/" },
 		]
 		return(self.rules)
-

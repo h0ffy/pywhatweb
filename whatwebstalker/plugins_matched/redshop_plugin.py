@@ -9,4 +9,3 @@ class Pluginredshop_plugin(plugins.Base):
 			{ "text" : "<link href="images/redcms.css" rel="stylesheet" type="text/css" />" },
 		]
 		return(self.rules)
-

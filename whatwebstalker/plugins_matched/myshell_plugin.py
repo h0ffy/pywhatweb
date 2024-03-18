@@ -9,4 +9,3 @@ class Pluginmyshell_plugin(plugins.Base):
 			{ "version" : "/<title>MyShell ([\d\.]+ build [\d]{8})<\/title>/" },
 		]
 		return(self.rules)
-

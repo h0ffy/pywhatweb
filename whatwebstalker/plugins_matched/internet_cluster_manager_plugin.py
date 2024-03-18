@@ -7,4 +7,3 @@ class Plugininternet_cluster_manager_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

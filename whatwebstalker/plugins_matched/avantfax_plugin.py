@@ -11,4 +11,3 @@ class Pluginavantfax_plugin(plugins.Base):
 			{ "version" : "/<p><a href="http:\/\/www\.avantfax\.com" target="_blank"><img src="images\/avantfax-big\.png" border="0" alt="AvantFAX" \/><\/a><\/p>[\s]+<p align="center">([^\s^<]+)<\/p>/" },
 		]
 		return(self.rules)
-

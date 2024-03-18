@@ -8,4 +8,3 @@ class Pluginaspforum_plugin(plugins.Base):
 			{ "version" : "/<div[^>]+id="FORUMS_FORUM_GROUP_V([\d_]+)/", "name" : "version" },
 		]
 		return(self.rules)
-

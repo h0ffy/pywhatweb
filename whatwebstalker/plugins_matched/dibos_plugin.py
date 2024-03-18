@@ -10,4 +10,3 @@ class Plugindibos_plugin(plugins.Base):
 			{ "text" : "<h2>Object moved to <a href="/Error.aspx?error=wrongbrowser">here</a>.</h2>'},
 		]
 		return(self.rules)
-

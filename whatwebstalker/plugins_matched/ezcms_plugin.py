@@ -13,4 +13,3 @@ class Pluginezcms_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/ezcms.eztechhelp.com\/">EZCMS ([\d\.]+)<\/a>/" },
 		]
 		return(self.rules)
-

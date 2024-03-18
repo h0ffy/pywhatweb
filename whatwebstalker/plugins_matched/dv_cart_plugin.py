@@ -9,4 +9,3 @@ class Plugindv_cart_plugin(plugins.Base):
 			{ "text" : "<table cellpadding="2" cellspacing="0" class="KT_tngtable">" },
 		]
 		return(self.rules)
-

@@ -12,4 +12,3 @@ class Pluginadvantech_webaccess_plugin(plugins.Base):
 			{ "version" : "/<div style="position:relative;top:15;width:870px; height:15px">\s+<font class=e5>[^:^<]+ : ([^\s]+)<\/font>/" },
 		]
 		return(self.rules)
-

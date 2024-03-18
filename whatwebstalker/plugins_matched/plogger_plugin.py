@@ -9,4 +9,3 @@ class Pluginplogger_plugin(plugins.Base):
 			{ "regexp" : "/<a[\ title="Powered by Plogger"]* href="http:\/\/www.plogger.org\/">Powered by Plogger[!]*<\/a>/" },
 		]
 		return(self.rules)
-

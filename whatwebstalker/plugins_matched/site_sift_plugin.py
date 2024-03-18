@@ -13,4 +13,3 @@ class Pluginsite_sift_plugin(plugins.Base):
 			{ "text" : "				<!-- begin of footer.php -->" },
 		]
 		return(self.rules)
-

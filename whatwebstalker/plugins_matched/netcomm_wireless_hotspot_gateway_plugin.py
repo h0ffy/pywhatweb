@@ -10,4 +10,3 @@ class Pluginnetcomm_wireless_hotspot_gateway_plugin(plugins.Base):
 			{ "certainty" : "25", "url" : "/", "text" : "<td colspan="8" align="center" background="imgs_login/login_r6_c7.gif"><font class="loginmsg"><strong>Welcome To Administrator Login Page<br> Please Enter Your User Name and Password To Sign In.</strong></font>&nbsp;</td>" },
 		]
 		return(self.rules)
-

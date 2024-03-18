@@ -12,4 +12,3 @@ class Pluginsaman_portal_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/SAMANPORTALSID=[^;]+;/" },
 		]
 		return(self.rules)
-

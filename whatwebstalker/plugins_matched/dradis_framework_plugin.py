@@ -12,4 +12,3 @@ class Plugindradis_framework_plugin(plugins.Base):
 			{ "version" : "/<title>First Time User's Wizard - dradis v([\d\.]+)<\/title>/" },
 		]
 		return(self.rules)
-

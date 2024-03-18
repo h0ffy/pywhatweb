@@ -7,4 +7,3 @@ class Pluginheitel_digital_video_device_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

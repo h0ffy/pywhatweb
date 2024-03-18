@@ -7,4 +7,3 @@ class Pluginsubdreamer_cms_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

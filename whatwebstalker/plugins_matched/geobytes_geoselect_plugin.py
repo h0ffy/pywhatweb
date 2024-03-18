@@ -7,4 +7,3 @@ class Plugingeobytes_geoselect_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

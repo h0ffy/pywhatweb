@@ -10,4 +10,3 @@ class Pluginisolsoft_support_center_plugin(plugins.Base):
 			{ "version" : "/<p align="center"><font size="1">Powered by: Support Center v([^<^\s]+)<br>/" },
 		]
 		return(self.rules)
-

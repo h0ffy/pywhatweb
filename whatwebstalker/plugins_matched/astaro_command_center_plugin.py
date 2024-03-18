@@ -10,4 +10,3 @@ class Pluginastaro_command_center_plugin(plugins.Base):
 			{ "url" : "/core/img/topbar/topbar_center.png", "md5" : "530834f021dab3082c36592e259404e6", "version" : "3.x" },
 		]
 		return(self.rules)
-

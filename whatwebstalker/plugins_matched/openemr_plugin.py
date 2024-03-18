@@ -12,4 +12,3 @@ class Pluginopenemr_plugin(plugins.Base):
 			{ "certainty" : "75", "search" : "headers[set-cookie]", "regexp" : "/OpenEMR=[^\s]+;/" },
 		]
 		return(self.rules)
-

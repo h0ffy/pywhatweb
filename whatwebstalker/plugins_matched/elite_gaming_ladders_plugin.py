@@ -17,4 +17,3 @@ class Pluginelite_gaming_ladders_plugin(plugins.Base):
 			{ "version" : "/Powered [bB]y:? <a href='http:\/\/(www\.)?eliteladders\.com'>[\s]+<span style=["']color:#[^;]{6};["']>Elite Gaming Ladders v([^<]+)<\/span><\/a>/", "offset" : "1 },
 		]
 		return(self.rules)
-

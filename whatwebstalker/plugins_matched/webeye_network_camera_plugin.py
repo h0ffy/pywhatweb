@@ -14,4 +14,3 @@ class Pluginwebeye_network_camera_plugin(plugins.Base):
 			{ "text" : "			  <applet archive="/wg_jwebeye.jar" code=WebEyeApplet.class codebase=. width=720 height=773> \\" },
 		]
 		return(self.rules)
-

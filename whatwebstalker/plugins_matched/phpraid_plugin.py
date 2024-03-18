@@ -9,4 +9,3 @@ class Pluginphpraid_plugin(plugins.Base):
 			{ "version" : "/Raid Management Provided by <a href="http:\/\/www.spiffyjr.com\/">phpRaid<\/a> v([\d\.]+)/" },
 		]
 		return(self.rules)
-

@@ -14,4 +14,3 @@ class Pluginonline_grades_plugin(plugins.Base):
 			{ "regexp" : "/<a href="http:\/\/www.onlinegrades.org"><img src="[^"^>]+\/images\/og.png"[^>]+alt="Powered by Online Grades"[^>]*><\/a>/" },
 		]
 		return(self.rules)
-

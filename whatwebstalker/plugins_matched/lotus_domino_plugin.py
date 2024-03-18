@@ -11,4 +11,3 @@ class Pluginlotus_domino_plugin(plugins.Base):
 			{ "certainty" : "75", "url" : "/favicon.ico", "md5" : "639b61409215d770a99667b446c80ea1" },
 		]
 		return(self.rules)
-

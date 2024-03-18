@@ -13,4 +13,3 @@ class Pluginkleeja_plugin(plugins.Base):
 			{ "text" : "<!-- IF REMOVE: Pay for a license - see http://www.kleeja.com -->" },
 		]
 		return(self.rules)
-

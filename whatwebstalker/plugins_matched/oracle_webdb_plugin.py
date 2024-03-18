@@ -9,4 +9,3 @@ class Pluginoracle_webdb_plugin(plugins.Base):
 			{ "search" : "headers[location]", "regexp" : "/^(https?:\/\/[^\/]+)?\/WebDB\/WEBDB\.home$/", "certainty" : "75 },
 		]
 		return(self.rules)
-

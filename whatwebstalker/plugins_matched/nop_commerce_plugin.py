@@ -7,4 +7,3 @@ class Pluginnop_commerce_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

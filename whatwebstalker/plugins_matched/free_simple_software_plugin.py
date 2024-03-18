@@ -9,4 +9,3 @@ class Pluginfree_simple_software_plugin(plugins.Base):
 			{ "text" : "Powered by <a href='http://www.freesimplesoft.com'><font color='#FFFFFF'>Free Simple Software</font></a> (<a href='http://www.freesimplecms.com'><font color='#FFFFFF'>Free Simple CMS</font></a> / <a href='http://www.freesimpleshop.com'><font color='#FFFFFF'>Free Simple Shop</font></a> / <a href='http://www.freesimpleblog.com'><font color='#FFFFFF'>Free Simple Blog</font></a> / <a href='http://www.freesimplehost.com'><font color='#FFFFFF'>Free Simple Host</font></a>)" },
 		]
 		return(self.rules)
-

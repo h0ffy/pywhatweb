@@ -12,4 +12,3 @@ class Plugintftgallery_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="TFTgallery ([\d\.]{1,5}) http:\/\/www.tftgallery.org\/" \/>/" },
 		]
 		return(self.rules)
-

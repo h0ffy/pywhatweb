@@ -9,4 +9,3 @@ class Pluginindico_plugin(plugins.Base):
 			{ "version" : "/<\/span>&nbsp;Powered by(\ CERN)? <a href="http:\/\/cern\.ch\/indico">Indico ([^<]+)<\/a>&nbsp;<span class="separator">/", "offset" : "1 },
 		]
 		return(self.rules)
-

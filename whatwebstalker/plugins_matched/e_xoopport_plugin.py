@@ -9,4 +9,3 @@ class Plugine_xoopport_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="E-Xoopport ([^"]+)">/" },
 		]
 		return(self.rules)
-

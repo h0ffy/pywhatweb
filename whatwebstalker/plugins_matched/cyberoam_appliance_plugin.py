@@ -14,4 +14,3 @@ class Plugincyberoam_appliance_plugin(plugins.Base):
 			{ "text" : "<!-- PUT THE LOGIC OF YOUR PAGE HERE -->" },
 		]
 		return(self.rules)
-

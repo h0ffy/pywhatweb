@@ -7,4 +7,3 @@ class Plugindataflexvine_voip_iad_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

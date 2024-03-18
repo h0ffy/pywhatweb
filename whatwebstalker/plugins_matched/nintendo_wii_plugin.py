@@ -7,4 +7,3 @@ class Pluginnintendo_wii_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

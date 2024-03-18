@@ -7,4 +7,3 @@ class Plugindart_webserver_tool_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

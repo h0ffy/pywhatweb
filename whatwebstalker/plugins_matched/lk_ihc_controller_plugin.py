@@ -10,4 +10,3 @@ class Pluginlk_ihc_controller_plugin(plugins.Base):
 			{ "url" : "/images/bg_image_LK.jpg", "md5" : "c23378580cb58ee4c404106dda5757b3" },
 		]
 		return(self.rules)
-

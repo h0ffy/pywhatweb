@@ -9,4 +9,3 @@ class Pluginquickersite_plugin(plugins.Base):
 			{ "regexp" : "/<meta name="generator" content="QuickerSite CMS - visit www.quickersite.com">/i },
 		]
 		return(self.rules)
-

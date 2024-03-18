@@ -7,4 +7,3 @@ class Pluginx_forwarded_for_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

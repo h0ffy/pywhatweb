@@ -11,4 +11,3 @@ class Pluginconftool_plugin(plugins.Base):
 			{ "string" : "Standard", "version" : "/<td align="right" nowrap><span class="normal8"><a href='http:\/\/www\.conftool\.net'>(Conference |Web-based |Event |Abstract )?(Management|Conference) (Software|System) - VSIS <b>ConfTool<\/b><\/a> Standard ([^<^\s]+)<\/span><BR>/", "offset" : "3 },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Plugingeeklog_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/www.geeklog.net\/">Geeklog ([\d\.a-z]{1,10})<\/a>/" },
 		]
 		return(self.rules)
-

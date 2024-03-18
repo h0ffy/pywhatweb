@@ -11,4 +11,3 @@ class Plugindokuwiki_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="DokuWiki Release ([^"]+)" \/>/" },
 		]
 		return(self.rules)
-

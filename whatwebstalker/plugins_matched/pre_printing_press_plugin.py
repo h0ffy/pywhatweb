@@ -10,4 +10,3 @@ class Pluginpre_printing_press_plugin(plugins.Base):
 			{ "text" : "<div align="center">&copy; Copyright PreProjects.com All Rights Reserved</div>" },
 		]
 		return(self.rules)
-

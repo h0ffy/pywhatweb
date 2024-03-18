@@ -16,4 +16,3 @@ class Pluginvivotek_network_camera_plugin(plugins.Base):
 			{ "url" : "/setup/system.html", "text" : "<script type="text/javascript" 	src="/cgi-bin/admin/getparamjs.cgi?system">" },
 		]
 		return(self.rules)
-

@@ -12,4 +12,3 @@ class Pluginphpldapadmin_plugin(plugins.Base):
 			{ "string" : /<td class="icon"><img src="images\/[^\/^"]*\/server.png" alt="Server" \/><\/td><td class="name" colspan="2">([^<]+)<\/td><\/tr>/" },
 		]
 		return(self.rules)
-

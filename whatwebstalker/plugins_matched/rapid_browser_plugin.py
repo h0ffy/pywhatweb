@@ -12,4 +12,3 @@ class Pluginrapid_browser_plugin(plugins.Base):
 			{ "version" : "/<link rel="stylesheet" type="text\/css" href="styles\/typeStyle-en.css\?([^"]+)">/" },
 		]
 		return(self.rules)
-

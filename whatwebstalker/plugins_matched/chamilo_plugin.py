@@ -13,4 +13,3 @@ class Pluginchamilo_plugin(plugins.Base):
 			{ "version" : "/<div class="copyright">(Portal|Plattform|Platform|Plataforma) <a href="http:\/\/www\.chamilo\.org\/?" target="_blank">Chamilo ([^<^\s]+)<\/a> &copy;/", "offset" : "1 },
 		]
 		return(self.rules)
-

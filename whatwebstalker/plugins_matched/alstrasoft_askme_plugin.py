@@ -12,4 +12,3 @@ class Pluginalstrasoft_askme_plugin(plugins.Base):
 			{ "text" : "Powered By <a href="http://www.alstrasoft.com">AlstraSoft AskMe Pro</td></tr></table></body></a></html>" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Pluginavaya_ip_office_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

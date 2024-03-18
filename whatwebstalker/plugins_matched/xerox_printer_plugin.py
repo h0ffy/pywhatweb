@@ -23,4 +23,3 @@ class Pluginxerox_printer_plugin(plugins.Base):
 			{ "model" : "/<title>(FX[0-9A-Z]{6})-Home<\/title>/" },
 		]
 		return(self.rules)
-

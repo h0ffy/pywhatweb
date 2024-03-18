@@ -13,4 +13,3 @@ class Pluginmoxa_nport_device_plugin(plugins.Base):
 			{ "text" : "</script><BODY onload=window_onload()> <TABLE width=100% border=0 align=center><TR><TD><H2>Welcome to <span id=devlab1></span>'s web console !</H2></TD></TR>" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Pluginbbpress_plugin(plugins.Base):
 			{ "text" : "<div id="bbpress-forums">" },
 		]
 		return(self.rules)
-

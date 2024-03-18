@@ -9,4 +9,3 @@ class Pluginzen_load_balancer_plugin(plugins.Base):
 			{ "search" : "headers[www-authenticate]", "text" : "Basic realm="Zen Load Balancer"" },
 		]
 		return(self.rules)
-

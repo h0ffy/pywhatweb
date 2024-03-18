@@ -9,4 +9,3 @@ class Pluginzenoss_core_plugin(plugins.Base):
 			{ "text" : "<link rel="shortcut icon" type="image/x-icon" href="/zport/dmd/favicon.ico" />" },
 		]
 		return(self.rules)
-

@@ -12,4 +12,3 @@ class Pluginutopia_news_pro_plugin(plugins.Base):
 			{ "text" : "<!-- PrintNews.Bit -->" },
 		]
 		return(self.rules)
-

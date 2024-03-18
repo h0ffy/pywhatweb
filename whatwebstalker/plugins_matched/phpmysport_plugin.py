@@ -11,4 +11,3 @@ class Pluginphpmysport_plugin(plugins.Base):
 			{ "text" : "/tpl_image/by_phpmysport.gif" border="0"" },
 		]
 		return(self.rules)
-

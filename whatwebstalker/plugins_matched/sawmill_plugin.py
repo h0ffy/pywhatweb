@@ -10,4 +10,3 @@ class Pluginsawmill_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Sawmill\/([^\s]+)/" },
 		]
 		return(self.rules)
-

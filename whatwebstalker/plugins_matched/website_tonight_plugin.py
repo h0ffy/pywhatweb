@@ -7,4 +7,3 @@ class Pluginwebsite_tonight_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

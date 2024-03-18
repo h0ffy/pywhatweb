@@ -10,4 +10,3 @@ class Plugincgiproxy_plugin(plugins.Base):
 			{ "version" : "/<a href="http:\/\/www.jmarshall.com\/tools\/cgiproxy\/"><i>CGIProxy ([^<]+)<\/i><\/a>/" },
 		]
 		return(self.rules)
-

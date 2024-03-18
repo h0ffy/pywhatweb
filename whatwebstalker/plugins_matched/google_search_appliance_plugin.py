@@ -14,4 +14,3 @@ class Plugingoogle_search_appliance_plugin(plugins.Base):
 			{ "version" : "/<\/font>[\s]+<br><br>[\s]+<font face="arial,sans-serif">System Version:[\s]+([^\s]+)[\s]+<\/font>[\s]+<br><br>[\s]+<font face="arial,sans-serif">Appliance ID:/" },
 		]
 		return(self.rules)
-

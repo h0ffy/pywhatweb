@@ -10,4 +10,3 @@ class Pluginop5_monitor_plugin(plugins.Base):
 			{ "url" : "/monitor/application/views/themes/default/icons/16x16/favicon.ico", "md5" : "7ed48f7e1e0b8d6ead4317f84b64ab86" },
 		]
 		return(self.rules)
-

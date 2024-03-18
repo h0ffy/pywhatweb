@@ -9,4 +9,3 @@ class Pluginxmb_plugin(plugins.Base):
 			{ "text" : "<!-- The XMB Group -->" },
 		]
 		return(self.rules)
-

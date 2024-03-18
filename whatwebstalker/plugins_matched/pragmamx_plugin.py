@@ -11,4 +11,3 @@ class Pluginpragmamx_plugin(plugins.Base):
 			{ "version" : "/<p>Diese Webseite basiert auf pragmaMx ([^\s]+)\.<\/p>/" },
 		]
 		return(self.rules)
-

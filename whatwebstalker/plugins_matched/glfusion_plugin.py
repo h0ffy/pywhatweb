@@ -10,4 +10,3 @@ class Pluginglfusion_plugin(plugins.Base):
 			{ "regexp" : "/Page created in [\d\.]+ seconds( |&nbsp;)by <a href="http:\/\/www.glfusion.org\/"[^>]*>glFusion<\/a>/" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginperfectone_voip_phone_plugin(plugins.Base):
 			{ "text" : "<font face="Arial" color="#FFFFFF"><b>Login VoIP</b></font></i></td> </tr>" },
 		]
 		return(self.rules)
-

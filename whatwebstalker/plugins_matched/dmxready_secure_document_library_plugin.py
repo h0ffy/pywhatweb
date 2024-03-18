@@ -9,4 +9,3 @@ class Plugindmxready_secure_document_library_plugin(plugins.Base):
 			{ "regexp" : "/<form action="[^"]*\/applications\/SecureDocumentLibrary\/inc_securedocumentlibrary\.asp" method="POST" name="login" onSubmit="YY_checkform\('login','entity_username','#q','0','Please provide username','entity_password','#q','0','Please provide password'\);return document.MM_returnValue"/i },
 		]
 		return(self.rules)
-

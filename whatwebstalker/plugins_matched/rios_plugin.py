@@ -9,4 +9,3 @@ class Pluginrios_plugin(plugins.Base):
 			{ "search" : "headers[x-rbt-optimized-by]", "string" : /(.+) \(RiOS/" },
 		]
 		return(self.rules)
-

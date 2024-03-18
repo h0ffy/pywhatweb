@@ -7,4 +7,3 @@ class Plugintiger_netcom_device_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

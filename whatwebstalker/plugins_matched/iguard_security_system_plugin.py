@@ -11,4 +11,3 @@ class Pluginiguard_security_system_plugin(plugins.Base):
 			{ "url" : "/Admins/Content.vtml", "string" : /<tr><td>Registered Automatch<\/td><td>([^<]+)<\/td><\/tr>/" },
 		]
 		return(self.rules)
-

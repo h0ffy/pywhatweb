@@ -11,4 +11,3 @@ class Pluginalumniserver_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : "<meta name="keywords" content="Alumni,Student,Network,Community,University">" },
 		]
 		return(self.rules)
-

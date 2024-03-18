@@ -9,4 +9,3 @@ class Pluginwinstone_plugin(plugins.Base):
 			{ "search" : "headers[x-powered-by]", "version" : "/Servlet\/[^\s]+ \(Winstone\/([^\)]+)\)/" },
 		]
 		return(self.rules)
-

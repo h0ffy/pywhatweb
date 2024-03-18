@@ -13,4 +13,3 @@ class Pluginhuawei_firewall_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Eudemon Server ([^\s]+)$/", "model" : "Eudemon" },
 		]
 		return(self.rules)
-

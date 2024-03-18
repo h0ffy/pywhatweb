@@ -9,4 +9,3 @@ class Plugincitrusdb_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<center><table><td valign=top><img src="images/my-logo.png">" },
 		]
 		return(self.rules)
-

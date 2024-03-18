@@ -10,4 +10,3 @@ class Pluginibm_web_traffic_express_caching_proxy_plugin(plugins.Base):
 			{ "url" : "/admin-bin/webexec/wte.html", "version" : "/<a href="https?:\/\/([^\/^"]+)(:\d+)?\/"><img src="https?:\/\/([^\/^"]+)(:\d+)?\/Docs\/docmast\.gif" alt="Caching Proxy Version ([^"]+)"><\/a>/", "offset" : "4 },
 		]
 		return(self.rules)
-

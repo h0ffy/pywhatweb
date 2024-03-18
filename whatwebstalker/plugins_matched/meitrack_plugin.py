@@ -9,4 +9,3 @@ class Pluginmeitrack_plugin(plugins.Base):
 			{ "text" : "<form name="form1" method="post" action="trackerlogin.aspx" id="form1">" },
 		]
 		return(self.rules)
-

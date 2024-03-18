@@ -11,4 +11,3 @@ class Pluginnucleus_cms_plugin(plugins.Base):
 			{ "version" : "/<small>Copyright \| <a href="http:\/\/nucleuscms\.org">Nucleus CMS v([^\s^>]+)<\/a> \|/" },
 		]
 		return(self.rules)
-

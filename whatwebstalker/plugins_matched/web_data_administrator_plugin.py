@@ -7,4 +7,3 @@ class Pluginweb_data_administrator_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

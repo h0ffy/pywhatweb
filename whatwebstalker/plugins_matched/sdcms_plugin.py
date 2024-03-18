@@ -9,4 +9,3 @@ class Pluginsdcms_plugin(plugins.Base):
 			{ "text" : "<dl id="con_three_1" class="index_photo">" },
 		]
 		return(self.rules)
-

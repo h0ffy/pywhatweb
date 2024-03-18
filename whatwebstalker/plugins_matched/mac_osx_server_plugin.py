@@ -12,4 +12,3 @@ class Pluginmac_osx_server_plugin(plugins.Base):
 			{ "text" : "<link rel="stylesheet" type="text/css" media="screen", "projection" href="/collaboration/css/required_compressed.css">", "os" : "Mac OSX" },
 		]
 		return(self.rules)
-

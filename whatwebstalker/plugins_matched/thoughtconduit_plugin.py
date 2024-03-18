@@ -11,4 +11,3 @@ class Pluginthoughtconduit_plugin(plugins.Base):
 			{ "version" : "/This site runs on ThoughtConduit v([^\s]+) by <A TARGET=new HREF="http:\/\/www\.sensoryresearch\.com">Sensory Research<\/A><\/FONT><\/I><\/TD><\/TR><\/table><\/body>/" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Plugintivoli_access_manager_plugin(plugins.Base):
 			{ "text" : "var warningString = "<B>WARNING:</B> To maintain your login session", "make sure that your browser is configured to accept Cookies.";" },
 		]
 		return(self.rules)
-

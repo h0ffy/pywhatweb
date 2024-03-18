@@ -10,4 +10,3 @@ class Plugindigital_scribe_plugin(plugins.Base):
 			{ "version" : "/<BR><SPAN CLASS=legal>Copyright 2005-20[\d]{2} . <A HREF=http:\/\/www\.digital-scribe\.org>Digital Scribe v\.([^\s^<]+)<\/a> - All Rights Reserved<\/span>/" },
 		]
 		return(self.rules)
-

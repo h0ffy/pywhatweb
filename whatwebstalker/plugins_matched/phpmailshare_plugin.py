@@ -9,4 +9,3 @@ class Pluginphpmailshare_plugin(plugins.Base):
 			{ "text" : "<a href="index.php?action=viewbox&amp;box=0">" },
 		]
 		return(self.rules)
-

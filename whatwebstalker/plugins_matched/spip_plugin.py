@@ -15,4 +15,3 @@ class Pluginspip_plugin(plugins.Base):
 			{ "text" : "<img src=\'/spip" },
 		]
 		return(self.rules)
-

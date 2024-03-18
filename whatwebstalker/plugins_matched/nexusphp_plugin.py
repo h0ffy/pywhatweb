@@ -11,4 +11,3 @@ class Pluginnexusphp_plugin(plugins.Base):
 			{ "string" : /<\/a> (20[\d]{2})-20[\d]{2} Powered by <a href="aboutnexus\.php">NexusPHP<\/a>/" },
 		]
 		return(self.rules)
-

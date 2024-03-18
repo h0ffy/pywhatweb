@@ -13,4 +13,3 @@ class Pluginallen_bradley_plc_plugin(plugins.Base):
 			{ "version" : "/^A-B WWW\/([\d\.]{3})/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

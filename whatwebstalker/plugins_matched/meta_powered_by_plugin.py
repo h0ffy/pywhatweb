@@ -8,4 +8,3 @@ class Pluginmeta_powered_by_plugin(plugins.Base):
 			{ "string" : /<meta[^>]+name=["']powered[\- ]?by["'][^>]+content=["']([^"]+)["']/i },
 		]
 		return(self.rules)
-

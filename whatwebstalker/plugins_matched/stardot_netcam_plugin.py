@@ -11,4 +11,3 @@ class Pluginstardot_netcam_plugin(plugins.Base):
 			{ "regexp" : "/<applet code="CaptureClient.class" width="[\d]+" height="[\d]+" alt="NetCamXL Live [Stream|Image]+">/", "version" : "XL" },
 		]
 		return(self.rules)
-

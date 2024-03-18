@@ -9,4 +9,3 @@ class Pluginocs_inventory_ng_plugin(plugins.Base):
 			{ "version" : "/<img src=image\/banner-ocs\.png><\/a><\/td><td width='33%' align='right'>[\s]+<b>Ver\. ([^&]+)&nbsp&nbsp&nbsp;<\/b>/" },
 		]
 		return(self.rules)
-

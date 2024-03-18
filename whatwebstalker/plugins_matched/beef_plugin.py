@@ -14,4 +14,3 @@ class Pluginbeef_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^BeEF ([^\s]+)$/" },
 		]
 		return(self.rules)
-

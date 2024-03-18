@@ -11,4 +11,3 @@ class Pluginstreamline_php_media_server_plugin(plugins.Base):
 			{ "md5" : "10bf2f9eff6be7d5efd25ce6b70099f4", "url" : "images/streamline.png" },
 		]
 		return(self.rules)
-

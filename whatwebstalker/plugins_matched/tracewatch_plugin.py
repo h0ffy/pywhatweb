@@ -9,4 +9,3 @@ class Plugintracewatch_plugin(plugins.Base):
 			{ "version" : "/<a href="http:\/\/www\.tracewatch\.com\/">TraceWatch<\/a> V?([^\s]+) Copyright &copy;2004-20[\d]{2} Arash Dejkam/" },
 		]
 		return(self.rules)
-

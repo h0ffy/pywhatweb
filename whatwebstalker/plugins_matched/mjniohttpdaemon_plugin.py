@@ -9,4 +9,3 @@ class Pluginmjniohttpdaemon_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/MJNIOHTTPDSESSIONID=/" },
 		]
 		return(self.rules)
-

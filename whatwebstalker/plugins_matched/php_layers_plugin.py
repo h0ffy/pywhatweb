@@ -12,4 +12,3 @@ class Pluginphp_layers_plugin(plugins.Base):
 			{ "version" : "/\/\/ PHP Layers Menu ([^\s]+) \(C\) [0-9]{4}-[0-9]{4} Marco Pratesi/" },
 		]
 		return(self.rules)
-

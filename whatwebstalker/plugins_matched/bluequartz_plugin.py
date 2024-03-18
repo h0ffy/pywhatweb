@@ -15,4 +15,3 @@ class Pluginbluequartz_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<BODY onLoad=\"location='http://'+location.host+'/login/'\">" },
 		]
 		return(self.rules)
-

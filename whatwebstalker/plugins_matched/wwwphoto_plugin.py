@@ -11,4 +11,3 @@ class Pluginwwwphoto_plugin(plugins.Base):
 			{ "text" : "<!-- sorry joshua", "one little", "small table is a must have :-) -->" },
 		]
 		return(self.rules)
-

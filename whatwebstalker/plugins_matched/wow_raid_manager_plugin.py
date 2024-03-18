@@ -9,4 +9,3 @@ class Pluginwow_raid_manager_plugin(plugins.Base):
 			{ "version" : "/Raid Management Provided by <a href="http:\/\/www.wowraidmanager.net\/">WoW Raid Manager<\/a> v([\d\.]+)/" },
 		]
 		return(self.rules)
-

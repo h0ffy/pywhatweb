@@ -10,4 +10,3 @@ class Pluginapc_infrastruxure_manager_plugin(plugins.Base):
 			{ "text" : "<td><img src="images/Xlogo_Layer-1.gif" height="327" width="342" align="left"/></td>" },
 		]
 		return(self.rules)
-

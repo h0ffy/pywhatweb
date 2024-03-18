@@ -7,4 +7,3 @@ class Pluginkerio_webstar_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

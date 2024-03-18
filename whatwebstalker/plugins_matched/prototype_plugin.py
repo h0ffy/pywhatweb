@@ -8,4 +8,3 @@ class Pluginprototype_plugin(plugins.Base):
 			{ "name" : "js tag", "regexp" : "/<script [^>]*(prototype[^>]*.js)[^>]*},
 		]
 		return(self.rules)
-

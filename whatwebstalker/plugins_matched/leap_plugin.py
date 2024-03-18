@@ -9,4 +9,3 @@ class Pluginleap_plugin(plugins.Base):
 			{ "version" : "/<meta name="Formatter" content="LEAP ([\d\.]+)"( \/)?>/" },
 		]
 		return(self.rules)
-

@@ -14,4 +14,3 @@ class Pluginsplunk_plugin(plugins.Base):
 			{ "os" : "/var CONFIG = \{"licenseType": "[^\"]+", "os_name": "([^"]+)", "locale":/" },
 		]
 		return(self.rules)
-

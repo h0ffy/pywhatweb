@@ -10,4 +10,3 @@ class Pluginepiware_plugin(plugins.Base):
 			{ "regexp" : "/<div id="jsWarning" class="javascript_warning">\s+This web-site requires javascript\.\s+Please enable javascript to access this web-site\.\s+<\/div>/" },
 		]
 		return(self.rules)
-

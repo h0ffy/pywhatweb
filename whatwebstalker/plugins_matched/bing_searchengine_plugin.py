@@ -9,4 +9,3 @@ class Pluginbing_searchengine_plugin(plugins.Base):
 			{ "text" : "<meta content="Bing is a search engine that finds" },
 		]
 		return(self.rules)
-

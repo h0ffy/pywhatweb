@@ -11,4 +11,3 @@ class Pluginez_publish_plugin(plugins.Base):
 			{ "search" : "headers[x-powered-by]", "regexp" : "/^eZ [p|P]ublish/" },
 		]
 		return(self.rules)
-

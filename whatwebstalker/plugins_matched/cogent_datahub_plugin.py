@@ -14,4 +14,3 @@ class Plugincogent_datahub_plugin(plugins.Base):
 			{ "text" : "<!-- The following ASP code generates the table of DataHub point values -->" },
 		]
 		return(self.rules)
-

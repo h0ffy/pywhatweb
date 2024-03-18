@@ -11,4 +11,3 @@ class Pluginmkportal_plugin(plugins.Base):
 			{ "version" : "/<a style="text-decoration: none;" href="http:\/\/www.mkportal.it\/" target="_blank">MKPortal<\/a> ([^&^<]+)(<\/b>)? &copy;2003-20[\d]{2}/" },
 		]
 		return(self.rules)
-

@@ -10,4 +10,3 @@ class Pluginchillycms_plugin(plugins.Base):
 			{ "text" : "	<p>&copy;2010 <a href=">chillycms.bplaced.net</a>," },
 		]
 		return(self.rules)
-

@@ -8,4 +8,3 @@ class Plugingordano_messaging_suite_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Gordano (Messaging Suite )?Web Server v([^\s]+)$/", "offset" : "1 },
 		]
 		return(self.rules)
-

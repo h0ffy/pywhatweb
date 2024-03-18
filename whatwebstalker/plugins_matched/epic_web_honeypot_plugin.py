@@ -10,4 +10,3 @@ class Pluginepic_web_honeypot_plugin(plugins.Base):
 			{ "text" : "<!-- Added OS fingerprints - creds - nmap and honeyd nmap.prints file!-->" },
 		]
 		return(self.rules)
-

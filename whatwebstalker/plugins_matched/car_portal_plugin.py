@@ -10,4 +10,3 @@ class Plugincar_portal_plugin(plugins.Base):
 			{ "version" : "/<TD bgcolor="#000000" class="bodyfontwhite"><strong>&nbsp;Car Script v([^\s]+) by<br>/" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Pluginsql_buddy_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

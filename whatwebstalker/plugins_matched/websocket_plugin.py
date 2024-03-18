@@ -12,4 +12,3 @@ class Pluginwebsocket_plugin(plugins.Base):
 			{ "search" : "headers[sec-websocket-protocol]", "module" : /(.+)/" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Pluginadobe_connect_plugin(plugins.Base):
 			{ "url" : "/favicon.ico", "md5" : "b93d28579e6a42ca452c35e8f1eb23ea" },
 		]
 		return(self.rules)
-

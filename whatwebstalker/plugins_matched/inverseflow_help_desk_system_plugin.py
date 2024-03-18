@@ -13,4 +13,3 @@ class Plugininverseflow_help_desk_system_plugin(plugins.Base):
 			{ "regexp" : "/<form action="ticket\.php" method="get">[\s]+<input type="hidden" name="cmd" value="lost" \/>/" },
 		]
 		return(self.rules)
-

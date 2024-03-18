@@ -21,4 +21,3 @@ class Pluginhorde_application_framework_plugin(plugins.Base):
 			{ "version" : "/<!-- \$Horde: horde\/config\/conf.xml,v ([\d\.]+) /" },
 		]
 		return(self.rules)
-

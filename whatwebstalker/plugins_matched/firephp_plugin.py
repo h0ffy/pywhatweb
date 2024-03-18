@@ -10,4 +10,3 @@ class Pluginfirephp_plugin(plugins.Base):
 			{ "search" : "headers[x-wf-protocol-1]", "regexp" : "/^http:\/\/meta\.wildfirehq\.org\/Protocol\//" },
 		]
 		return(self.rules)
-

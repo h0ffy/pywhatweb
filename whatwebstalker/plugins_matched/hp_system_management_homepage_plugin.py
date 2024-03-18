@@ -10,4 +10,3 @@ class Pluginhp_system_management_homepage_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/CompaqHTTPServer\/[^\s]+ HP System Management Homepage\/([\d\.]+)$/" },
 		]
 		return(self.rules)
-

@@ -13,4 +13,3 @@ class Pluginarticlepublisherpro_plugin(plugins.Base):
 			{ "version" : "/<div class="powered">Powered by <a href="http:\/\/www.ArticlePublisherPRO.com" target="_blank">Article Publisher PRO<\/a>  v([\d\.]+)/" },
 		]
 		return(self.rules)
-

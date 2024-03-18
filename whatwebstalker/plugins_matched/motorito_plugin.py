@@ -9,4 +9,3 @@ class Pluginmotorito_plugin(plugins.Base):
 			{ "text" : "<!-- CAL POSAR UN DISCRIMINADOR DE NAVEGADORS PER CARREGAR ELS ESTILS ADEQUATS -->" },
 		]
 		return(self.rules)
-

@@ -8,4 +8,3 @@ class Pluginclicky_plugin(plugins.Base):
 			{ "regexp" : "/<script[^>]+src=["'](https?:)?\/\/static\.getclicky\.com/i },
 		]
 		return(self.rules)
-

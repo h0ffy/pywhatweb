@@ -10,4 +10,3 @@ class Pluginwifidog_plugin(plugins.Base):
 			{ "text" : "<html><body><h1>I am unable to retrieve the schema version. Either the wifidog database hasn't been created yet", "the postgresql server is down", "or pg_hba.conf does not allow your web server to connect to the wifidog database.</h1>" },
 		]
 		return(self.rules)
-

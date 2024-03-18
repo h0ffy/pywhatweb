@@ -8,4 +8,3 @@ class Pluginaddthis_plugin(plugins.Base):
 			{ "regexp" : "/<script [^>]*src=["|'][^>]*addthis\.com\/js/i },
 		]
 		return(self.rules)
-

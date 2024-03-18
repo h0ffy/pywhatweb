@@ -8,4 +8,3 @@ class Pluginapplet_plugin(plugins.Base):
 			{ "string" : /<applet[^>]+code[\s]*=[\s]*["|']?([^\s^>^"^']+)[^>]*>/i },
 		]
 		return(self.rules)
-

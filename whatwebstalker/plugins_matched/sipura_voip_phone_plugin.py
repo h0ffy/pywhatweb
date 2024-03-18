@@ -15,4 +15,3 @@ class Pluginsipura_voip_phone_plugin(plugins.Base):
 			{ "url" : "/pdir.htm", "string" : /<td>[\d]+\.<td>&nbsp;<input class="inputc" size="40" name="[\d]+" value="(n=[^;]*;p=[\d]+)" maxlength=[\d]+>/" },
 		]
 		return(self.rules)
-

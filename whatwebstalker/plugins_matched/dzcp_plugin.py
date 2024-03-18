@@ -10,4 +10,3 @@ class Plugindzcp_plugin(plugins.Base):
 			{ "regexp" : "/<!--\[ DZCP .{1} by Frank "deV!L" Herrmann - www.dzcp.de & Patrick "Richy" Richert - www.my-starmedia.de\]-->/" },
 		]
 		return(self.rules)
-

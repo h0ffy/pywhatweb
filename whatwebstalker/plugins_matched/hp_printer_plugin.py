@@ -8,4 +8,3 @@ class Pluginhp_printer_plugin(plugins.Base):
 			{ "search" : "headers[server]", "model" : "/^HP HTTP Server; HP (.+) series - /" },
 		]
 		return(self.rules)
-

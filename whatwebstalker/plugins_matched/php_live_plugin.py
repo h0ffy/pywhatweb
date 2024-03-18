@@ -15,4 +15,3 @@ class Pluginphp_live_plugin(plugins.Base):
 			{ "version" : "/	<div id="copyright">Powered by <a href='http:\/\/www.phplivesupport.com\/\?link' target='newwin'>PHP Live\!<\/a>  v([\d\.]+) &copy; OSI Codes Inc.<\/div>/" },
 		]
 		return(self.rules)
-

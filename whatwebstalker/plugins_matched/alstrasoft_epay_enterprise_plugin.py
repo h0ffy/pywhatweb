@@ -11,4 +11,3 @@ class Pluginalstrasoft_epay_enterprise_plugin(plugins.Base):
 			{ "text" : "<tr><td class=capl><a href='/shop.htm?action=view'>TOP CATEGORIES</a>&nbsp;&nbsp;&gt;&gt;&nbsp;" },
 		]
 		return(self.rules)
-

@@ -16,4 +16,3 @@ class Pluginmicrosoft_windows_business_server_plugin(plugins.Base):
 			{ "text" : "<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>", "module" : "Remote Web Workplace", "certainty" : "25 },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Pluginwebcompro_cms_plugin(plugins.Base):
 			{ "regexp" : "/<meta name="generator" content="WEBCOMpro CMS ([^\s]+) . Patrick Heyer", "www\.webcompro-cms\.com">/" },
 		]
 		return(self.rules)
-

@@ -12,4 +12,3 @@ class Pluginidvr_plugin(plugins.Base):
 			{ "version" : "/<title>iDVR (.*)[\d\.]+ \(Build ([\d\.]+)\)<\/title>/", "offset" : "1 },
 		]
 		return(self.rules)
-

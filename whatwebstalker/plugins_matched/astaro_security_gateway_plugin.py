@@ -10,4 +10,3 @@ class Pluginastaro_security_gateway_plugin(plugins.Base):
 			{ "url" : "/core/img/topbar/topbar_center.png", "md5" : "2e6cdce49c669ec305b2d73eead50e4c", "version" : "8.x" },
 		]
 		return(self.rules)
-

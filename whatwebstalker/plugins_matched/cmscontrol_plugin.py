@@ -12,4 +12,3 @@ class Plugincmscontrol_plugin(plugins.Base):
 			{ "regexp" : "/<META NAME=[\"\']*generator[\"\']* CONTENT=[\"\']*CMScontrol rel 3.x[\"\']*>/i", "version" : "'3.x" },
 		]
 		return(self.rules)
-

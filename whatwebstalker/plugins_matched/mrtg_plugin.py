@@ -12,4 +12,3 @@ class Pluginmrtg_plugin(plugins.Base):
 			{ "version" : "/<title>MRTG Index Page.*version ([^<]+)<\/font><\/td>/mi},
 		]
 		return(self.rules)
-

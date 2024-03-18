@@ -11,4 +11,3 @@ class Pluginopenconf_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/OPENCONF=[^;]+;/" },
 		]
 		return(self.rules)
-

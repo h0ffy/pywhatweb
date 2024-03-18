@@ -7,4 +7,3 @@ class Pluginx_cache_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

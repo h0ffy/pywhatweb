@@ -10,4 +10,3 @@ class Pluginvamcart_plugin(plugins.Base):
 			{ "text" : "<p><a href="http://vamcart.com/">PHP Shopping Cart</a> <a href="http://vamcart.com/">VamCart</a></p>" },
 		]
 		return(self.rules)
-

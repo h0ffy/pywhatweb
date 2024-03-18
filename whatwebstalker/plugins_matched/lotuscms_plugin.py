@@ -15,4 +15,3 @@ class Pluginlotuscms_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : "<meta name="keywords" content="LotusCMS" />" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Pluginnewbay_media_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

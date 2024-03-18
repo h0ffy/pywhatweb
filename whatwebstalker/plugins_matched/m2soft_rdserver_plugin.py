@@ -11,4 +11,3 @@ class Pluginm2soft_rdserver_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^RDServer\/([^\s]+)$/" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Pluginquescom_qportal_plugin(plugins.Base):
 			{ "url" : "/Oem/topright.gif", "md5" : "8ddc6366869cf61044d7bc4b21ca1b1e" },
 		]
 		return(self.rules)
-

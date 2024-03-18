@@ -13,4 +13,3 @@ class Plugincmydocument_plugin(plugins.Base):
 			{ "regexp" : "/<td style="white-space: nowrap;"><span class="aspmaker"><a href="myDocview\.asp\?(myDocID|ID)=[\d]+">View<\/a><\/span><\/td>/" },
 		]
 		return(self.rules)
-

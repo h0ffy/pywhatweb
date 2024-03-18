@@ -9,4 +9,3 @@ class Pluginspryware_mis_plugin(plugins.Base):
 			{ "search" : "headers[x-deprecated-response]", "regexp" : "/^Invalid CheckSum Received$/" },
 		]
 		return(self.rules)
-

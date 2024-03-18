@@ -11,4 +11,3 @@ class Pluginkaibb_plugin(plugins.Base):
 			{ "text" : "<meta name="Description" http-equiv="Description" content="Forum powered by KaiBB - Powered by KaiBB" />" },
 		]
 		return(self.rules)
-

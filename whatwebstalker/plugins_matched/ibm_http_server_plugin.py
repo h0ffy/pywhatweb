@@ -7,4 +7,3 @@ class Pluginibm_http_server_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

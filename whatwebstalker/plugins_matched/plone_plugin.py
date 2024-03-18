@@ -11,4 +11,3 @@ class Pluginplone_plugin(plugins.Base):
 			{ "name" : "X-Cache-Rule: plone-content-types", "search" : "headers[x-cache-rule]", "regexp" : "/plone-content-types/i },
 		]
 		return(self.rules)
-

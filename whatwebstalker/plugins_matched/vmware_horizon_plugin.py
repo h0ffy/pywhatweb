@@ -7,4 +7,3 @@ class Pluginvmware_horizon_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

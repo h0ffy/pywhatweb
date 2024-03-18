@@ -7,4 +7,3 @@ class Plugincountry_codes.txt(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

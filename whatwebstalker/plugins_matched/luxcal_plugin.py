@@ -12,4 +12,3 @@ class Pluginluxcal_plugin(plugins.Base):
 			{ "version" : "/<b><i><font size='2' color='#0033FF'>Lux<\/font><font size='2' color='#AA0066'>Cal<\/font><\/i><\/b><font size='1'> version ([^<]+)<\/font>/" },
 		]
 		return(self.rules)
-

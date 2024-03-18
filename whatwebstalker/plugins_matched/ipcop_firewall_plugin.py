@@ -15,4 +15,3 @@ class Pluginipcop_firewall_plugin(plugins.Base):
 			{ "url" : "/include/ipcop.css", "text" : "/* used in status.cgi (among others) */" },
 		]
 		return(self.rules)
-

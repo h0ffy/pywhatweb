@@ -9,4 +9,3 @@ class Plugindt_centrepiece_plugin(plugins.Base):
 			{ "text" : "<a href="http://www.dt.net.nz/centrepiece/" target="_blank">Powered By DT Centrepiece</a>" },
 		]
 		return(self.rules)
-

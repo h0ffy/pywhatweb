@@ -9,4 +9,3 @@ class Pluginraidenhttpd_plugin(plugins.Base):
 			{ "search" : "headers[server]", "string" : /^RaidenHTTPD\/[^\s]+ \(([^\)]+)\)$/" },
 		]
 		return(self.rules)
-

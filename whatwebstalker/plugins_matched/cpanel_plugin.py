@@ -16,4 +16,3 @@ class Plugincpanel_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^cpsrvd\/([\d\.]+)$/" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Pluginopenx_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="OpenX v([^\s]+) - http:\/\/www\.openx\.org"( \/)?>/" },
 		]
 		return(self.rules)
-

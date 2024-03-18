@@ -11,4 +11,3 @@ class Pluginpunbb_plugin(plugins.Base):
 			{ "module" : /<p style="clear: both; ">Currently installed <span id="extensions-used" title="([^"]+)\.">[\d]+ official extensions<\/span>\. Copyright &copy; 2003&ndash;/" },
 		]
 		return(self.rules)
-

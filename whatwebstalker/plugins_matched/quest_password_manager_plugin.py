@@ -17,4 +17,3 @@ class Pluginquest_password_manager_plugin(plugins.Base):
 			{ "version" : "/<span id="ctl00_ctl00_ctl00_ContentPlaceHolder_ContentPlaceHolder_ContentPlaceHolder_AboutControl_LabelVersion">Full version number: ([^<]+)<\/span>/" },
 		]
 		return(self.rules)
-

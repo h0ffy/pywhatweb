@@ -15,4 +15,3 @@ class Pluginpegarules_plugin(plugins.Base):
 			{ "regexp" : "/<TR><TD>\s+<FONT face="Helvetica">\s+Your system policy has denied access to the requested URL\.\s+<\/FONT>/" },
 		]
 		return(self.rules)
-

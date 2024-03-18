@@ -8,4 +8,3 @@ class Pluginkandidat_cms_plugin(plugins.Base):
 			{ "regexp" : "/Powered by[\ ]?[:]? <a href="http:\/\/www.kan-studio.ru[\/]?">Kandidat CMS<\/a>/" },
 		]
 		return(self.rules)
-

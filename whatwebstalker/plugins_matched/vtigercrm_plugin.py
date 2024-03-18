@@ -13,4 +13,3 @@ class Pluginvtigercrm_plugin(plugins.Base):
 			{ "name" : "html body favicon", "text" : "/vtigercrm_icon.ico">'},
 		]
 		return(self.rules)
-

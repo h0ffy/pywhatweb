@@ -8,4 +8,3 @@ class Pluginbuddy_zone_plugin(plugins.Base):
 			{ "text" : "Powered By <a href="http://www.vastal.com" class="bottom">Buddy Zone</a>" },
 		]
 		return(self.rules)
-

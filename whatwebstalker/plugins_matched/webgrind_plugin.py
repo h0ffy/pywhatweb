@@ -10,4 +10,3 @@ class Pluginwebgrind_plugin(plugins.Base):
 			{ "version" : "/<h1>webgrind<sup style="font-size:10px">v([^<]+)<\/sup><\/h1>/" },
 		]
 		return(self.rules)
-

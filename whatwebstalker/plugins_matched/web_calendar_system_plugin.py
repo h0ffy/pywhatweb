@@ -9,4 +9,3 @@ class Pluginweb_calendar_system_plugin(plugins.Base):
 			{ "version" : "/<TITLE>Web Calendar system v ([\.\d]+)<\/TITLE>/" },
 		]
 		return(self.rules)
-

@@ -39,4 +39,3 @@ class Pluginwebbackdoor_plugin(plugins.Base):
 			{ "string" : "cmdexe.cgi',"url" : "cmdexe.cgi',"regexp" : "/<input type="text" name="cmd">(\r\n|\n)<input type="submit" value="Send">},
 		]
 		return(self.rules)
-

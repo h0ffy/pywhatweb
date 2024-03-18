@@ -12,4 +12,3 @@ class Pluginprolink_router_plugin(plugins.Base):
 			{ "md5" : "8be83109b0aaabae7737b28e666ba116", "url" : "/images/logo.gif" },
 		]
 		return(self.rules)
-

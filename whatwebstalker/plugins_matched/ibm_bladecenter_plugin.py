@@ -14,4 +14,3 @@ class Pluginibm_bladecenter_plugin(plugins.Base):
 			{ "text" : "<img src="/shared/banner_left.jpg" width=110 height=53 alt="banner" />" },
 		]
 		return(self.rules)
-

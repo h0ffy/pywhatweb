@@ -8,4 +8,3 @@ class Plugintcms_plugin(plugins.Base):
 			{ "ghdb" : "powered by TCMS"", "certainty" : "75 },
 		]
 		return(self.rules)
-

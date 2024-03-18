@@ -11,4 +11,3 @@ class Pluginelxis_cms_plugin(plugins.Base):
 			{ "md5" : "36d8efa82de41f53c23eece784405c9e", "url" : "images/favicon.ico" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Pluginkolab_plugin(plugins.Base):
 			{ "text" : "<title>Kolab Groupware login</title>" },
 		]
 		return(self.rules)
-

@@ -9,4 +9,3 @@ class Pluginxybershield_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/XyberShieldStatus=[^\s]+;/" },
 		]
 		return(self.rules)
-

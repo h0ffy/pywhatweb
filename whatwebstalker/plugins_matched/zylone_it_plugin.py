@@ -8,4 +8,3 @@ class Pluginzylone_it_plugin(plugins.Base):
 			{ "regexp" : "/Powered by[:]? <a href="http:\/\/www.zylone.com[\/]*[^>]+>Zylone IT/" },
 		]
 		return(self.rules)
-

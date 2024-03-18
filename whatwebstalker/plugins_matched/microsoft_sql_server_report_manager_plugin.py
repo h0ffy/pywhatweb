@@ -14,4 +14,3 @@ class Pluginmicrosoft_sql_server_report_manager_plugin(plugins.Base):
 			{ "search" : "headers[location]", "regexp" : "/\/Reports\/Pages\/Folder\.aspx/i },
 		]
 		return(self.rules)
-

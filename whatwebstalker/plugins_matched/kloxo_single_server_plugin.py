@@ -12,4 +12,3 @@ class Pluginkloxo_single_server_plugin(plugins.Base):
 			{ "text" : "@import url("/htmllib/lib/admin_login.css");" },
 		]
 		return(self.rules)
-

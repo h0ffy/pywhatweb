@@ -10,4 +10,3 @@ class Pluginholocms_plugin(plugins.Base):
 			{ "regexp" : "/^Powered by HoloCMS &copy[;]* 2008 Meth0d & Parts by Yifan", "sisija/" },
 		]
 		return(self.rules)
-

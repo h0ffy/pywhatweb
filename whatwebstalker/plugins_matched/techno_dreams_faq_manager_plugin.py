@@ -9,4 +9,3 @@ class Plugintechno_dreams_faq_manager_plugin(plugins.Base):
 			{ "text" : "		<td><font size="-1">&nbsp;</font><p><b><font size="-1">FAQ ADMIN AREA</font></b></td>" },
 		]
 		return(self.rules)
-

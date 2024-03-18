@@ -9,4 +9,3 @@ class Pluginapphp_calendar_plugin(plugins.Base):
 			{ "text" : "<tr class='tr_days'><td class='th'>Sunday</td><td class='th'>Monday</td><td class='th'>Tuesday</td><td class='th'>Wednesday</td><td class='th'>Thursday</td><td class='th'>Friday</td><td class='th'>Satarday</td></tr>" },
 		]
 		return(self.rules)
-

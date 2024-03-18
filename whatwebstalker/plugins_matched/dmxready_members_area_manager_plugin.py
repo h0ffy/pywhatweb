@@ -9,4 +9,3 @@ class Plugindmxready_members_area_manager_plugin(plugins.Base):
 			{ "regexp" : "/<form ACTION="[^"]*\/applications\/MembersAreaManager\/inc_membersareamanager\.asp" method="POST" name="login" onSubmit="YY_checkform\('login','entity_username','#q','0','Please provide username','entity_password','#q','0','Please provide password'\);return document.MM_returnValue" >/" },
 		]
 		return(self.rules)
-

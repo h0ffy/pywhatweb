@@ -7,4 +7,3 @@ class Pluginx_xss_protection_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

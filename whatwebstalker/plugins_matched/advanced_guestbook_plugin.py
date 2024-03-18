@@ -10,4 +10,3 @@ class Pluginadvanced_guestbook_plugin(plugins.Base):
 			{ "name" : "powered by", "version" : "2.2", "regexp" : "/<b>Advanced Guestbook 2.2<br>\s+Powered by PHP},
 		]
 		return(self.rules)
-

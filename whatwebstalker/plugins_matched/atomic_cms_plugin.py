@@ -10,4 +10,3 @@ class Pluginatomic_cms_plugin(plugins.Base):
 			{ "url" : "favicon.ico", "md5" : "9f500a24ccbdda88cf8ae3ec7b61fc40" },
 		]
 		return(self.rules)
-

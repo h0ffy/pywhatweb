@@ -10,4 +10,3 @@ class Pluginmailenable_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<title>MailEnable - Webmail</title>" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Plugininternet_rimon_filter_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

@@ -12,4 +12,3 @@ class Plugincloudflare_plugin(plugins.Base):
 			{ "name" : "email address protection", "regexp" : "/\/cdn-cgi\/l\/email-protection#[a-f0-9]{36}/" },
 		]
 		return(self.rules)
-

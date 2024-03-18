@@ -14,4 +14,3 @@ class Pluginbarracuda_spam_firewall_plugin(plugins.Base):
 			{ "firmware" : "/<td align=left class=config_module valign=top><font size=-2 color=#aaaaaa>Serial #[A-Z]+-[A-Z]+-[\d]+<br>Firmware v([\d\.]+) <font color=#ffffff>/" },
 		]
 		return(self.rules)
-

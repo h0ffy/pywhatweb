@@ -10,4 +10,3 @@ class Pluginenvezion~media_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.envezion.com" target="_blank"><strong> envezion~media</strong></a><br />" },
 		]
 		return(self.rules)
-

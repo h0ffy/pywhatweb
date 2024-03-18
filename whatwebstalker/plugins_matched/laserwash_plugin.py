@@ -8,4 +8,3 @@ class Pluginlaserwash_plugin(plugins.Base):
 			{ "status" : "401", "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="PDQ Laserwash"$/" },
 		]
 		return(self.rules)
-

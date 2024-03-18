@@ -10,4 +10,3 @@ class Pluginmivamerchant_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/htscallerid=/" },
 		]
 		return(self.rules)
-

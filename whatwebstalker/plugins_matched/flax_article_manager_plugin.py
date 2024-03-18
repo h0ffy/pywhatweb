@@ -14,4 +14,3 @@ class Pluginflax_article_manager_plugin(plugins.Base):
 			{ "version" : "/[\s]+Copyright [0-9]{4} &copy; Flax Article Manager v([\d\.]+)<\/div>/" },
 		]
 		return(self.rules)
-

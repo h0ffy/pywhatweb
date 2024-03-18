@@ -12,4 +12,3 @@ class Plugingallarific_plugin(plugins.Base):
 			{ "text" : "<title>Gallarific > Sign in</title>" },
 		]
 		return(self.rules)
-

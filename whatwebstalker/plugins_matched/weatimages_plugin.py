@@ -10,4 +10,3 @@ class Pluginweatimages_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://nazarkin.name/projects/weatimages/">Weatimages</a>" },
 		]
 		return(self.rules)
-

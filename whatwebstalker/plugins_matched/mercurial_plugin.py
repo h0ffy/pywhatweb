@@ -9,4 +9,3 @@ class Pluginmercurial_plugin(plugins.Base):
 			{ "regexp" : "/<div id="powered-by">[\s]+<p><a href="http:\/\/mercurial\.selenic\.com\/" title="Mercurial">/" },
 		]
 		return(self.rules)
-

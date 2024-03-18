@@ -13,4 +13,3 @@ class Pluginautoindex_php_script_plugin(plugins.Base):
 			{ "version" : "/<!--[\r\n]*Powered by AutoIndex PHP Script \(version ([\d\.]+)\)[\r\n]*Copyright \(C\) 2002-[\d]{4} Justin Hagstrom[\r\n]*http:\/\/autoindex.sourceforge.net[\/]?/" },
 		]
 		return(self.rules)
-

@@ -14,4 +14,3 @@ class Pluginioncube_loader_plugin(plugins.Base):
 			{ "text" : "<div id="loading"><script type="text/javascript">document.write(\'<p>Initialising<br>ionCube Loader Wizard<br><span id="status"></span></p>\');</script>" },
 		]
 		return(self.rules)
-

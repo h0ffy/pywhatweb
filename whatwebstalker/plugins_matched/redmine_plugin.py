@@ -11,4 +11,3 @@ class Pluginredmine_plugin(plugins.Base):
 			{ "status" : "404", "text" : "<title>redMine 404 error</title>" },
 		]
 		return(self.rules)
-

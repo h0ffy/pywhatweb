@@ -10,4 +10,3 @@ class Pluginspiceworks_plugin(plugins.Base):
 			{ "text" : "<title>Spiceworks - Login Required</title>" },
 		]
 		return(self.rules)
-

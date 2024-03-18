@@ -11,4 +11,3 @@ class Pluginphp_photo_album_plugin(plugins.Base):
 			{ "text" : "<!-- <font size="2">Powered by <a class="me"href="http://www.phpalbum.net">PHP Photo Album</font></a> -->" },
 		]
 		return(self.rules)
-

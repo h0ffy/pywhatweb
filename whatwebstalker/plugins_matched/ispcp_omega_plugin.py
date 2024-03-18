@@ -10,4 +10,3 @@ class Pluginispcp_omega_plugin(plugins.Base):
 			{ "text" : "themes/omega_original/images/login/login_lock.jpg" },
 		]
 		return(self.rules)
-

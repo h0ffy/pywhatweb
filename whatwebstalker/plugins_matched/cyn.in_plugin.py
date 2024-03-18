@@ -10,4 +10,3 @@ class Plugincyn.in_plugin(plugins.Base):
 			{ "version" : "/<a href="http:\/\/www\.cynapse\.com\/cynin" target="_blank" class="smallcolophonmainlink">Powered by cyn\.in v([^\s]+) - free open source edition<\/a>/" },
 		]
 		return(self.rules)
-

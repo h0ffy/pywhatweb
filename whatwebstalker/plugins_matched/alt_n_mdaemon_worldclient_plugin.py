@@ -13,4 +13,3 @@ class Pluginalt_n_mdaemon_worldclient_plugin(plugins.Base):
 			{ "version" : "/^WDaemon\/([\d\.]+)$/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

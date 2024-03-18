@@ -10,4 +10,3 @@ class Pluginalpha_five_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/A5wBrowserId=[a-f\d]{32};/" },
 		]
 		return(self.rules)
-

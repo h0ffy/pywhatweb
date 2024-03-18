@@ -8,4 +8,3 @@ class Pluginrestlet_framework_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Restlet-Framework\/([^\s]+)$/" },
 		]
 		return(self.rules)
-

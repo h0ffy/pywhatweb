@@ -13,4 +13,3 @@ class Pluginlivezilla_plugin(plugins.Base):
 			{ "text" : "<title>LiveZilla - Freeware Live Support - http://www.livezilla.net</title>" },
 		]
 		return(self.rules)
-

@@ -13,4 +13,3 @@ class Pluginawstats_plugin(plugins.Base):
 			{ "url" : "awstats.pl?framename=mainright", "version" : "/<FONT COLOR="#000000"><b>Advanced Web Statistics ([0-9\.]+ \(build [0-9\.]+\))},
 		]
 		return(self.rules)
-

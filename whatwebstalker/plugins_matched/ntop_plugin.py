@@ -11,4 +11,3 @@ class Pluginntop_plugin(plugins.Base):
 			{ "search" : "headers[www-authenticate]", "text" : "Basic realm="NTOP"" },
 		]
 		return(self.rules)
-

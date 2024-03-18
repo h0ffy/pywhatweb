@@ -10,4 +10,3 @@ class Pluginbloofoxcms_plugin(plugins.Base):
 			{ "regexp" : "/Powered by <a href="http:\/\/www.bloofox.com">bloofoxCMS<\/a>/i },
 		]
 		return(self.rules)
-

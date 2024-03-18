@@ -11,4 +11,3 @@ class Pluginroundcube_plugin(plugins.Base):
 			{ "text" : "$(document).ready(function(){ rcmail.init(); });'},
 		]
 		return(self.rules)
-

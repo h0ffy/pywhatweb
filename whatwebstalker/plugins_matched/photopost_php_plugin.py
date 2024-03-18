@@ -12,4 +12,3 @@ class Pluginphotopost_php_plugin(plugins.Base):
 			{ "text" : " - Powered by PhotoPost</title>" },
 		]
 		return(self.rules)
-

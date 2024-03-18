@@ -10,4 +10,3 @@ class Pluginphpmoneybooks_plugin(plugins.Base):
 			{ "version" : "/<b><a href='http:\/\/phpMoneyBooks\.com'>phpMoneyBooks<\/a>: ([^\s]+) - <a href='http:\/\/StarHostDesign\.com'>Star Host Design", "LLC &copy<\/a> 20[\d]{2} <\/b><\/div>/" },
 		]
 		return(self.rules)
-

@@ -7,4 +7,3 @@ class Pluginmysql_connect_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

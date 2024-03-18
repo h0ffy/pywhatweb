@@ -15,4 +15,3 @@ class Pluginemc_documentum_webtop_plugin(plugins.Base):
 			{ "version" : "/<div id="logo"><span  class='defaultLabelStyle'>Webtop<\/span>[\s]?&nbsp;<span  class='dialogTitleVersion'>([^<]+)<\/span>/" },
 		]
 		return(self.rules)
-

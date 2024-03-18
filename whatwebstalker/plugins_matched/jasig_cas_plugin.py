@@ -11,4 +11,3 @@ class Pluginjasig_cas_plugin(plugins.Base):
 			{ "text" : "<p>Powered by <a href="http://www.jasig.org/cas">Jasig Central Authentication Service</a></p>" },
 		]
 		return(self.rules)
-

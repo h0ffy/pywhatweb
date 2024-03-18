@@ -14,4 +14,3 @@ class Pluginwsn_gallery_plugin(plugins.Base):
 			{ "text" : "<textarea readonly rows="20" cols="75">WSN Gallery License Agreement" },
 		]
 		return(self.rules)
-

@@ -11,4 +11,3 @@ class Plugintac_xenta_controller_plugin(plugins.Base):
 			{ "firmware" : "/^TAC\/Xenta[^\ ]+ ([\d\.]{4})/", "search" : "headers[server]" },
 		]
 		return(self.rules)
-

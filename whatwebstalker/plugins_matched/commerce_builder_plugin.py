@@ -7,4 +7,3 @@ class Plugincommerce_builder_plugin(plugins.Base):
         self.rules = [
 		]
 		return(self.rules)
-

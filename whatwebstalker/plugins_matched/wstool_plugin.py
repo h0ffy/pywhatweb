@@ -9,4 +9,3 @@ class Pluginwstool_plugin(plugins.Base):
 			{ "version" : "/<title>Server Error & SQL Injection Sacnner \(Ver ([^\s^\)]+)\)<\/title>/" },
 		]
 		return(self.rules)
-

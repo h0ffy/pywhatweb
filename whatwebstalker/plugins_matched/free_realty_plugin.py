@@ -11,4 +11,3 @@ class Pluginfree_realty_plugin(plugins.Base):
 			{ "text" : "<!-- HERE BEGINNETH THE FOOTER --><div class="foot">" },
 		]
 		return(self.rules)
-
