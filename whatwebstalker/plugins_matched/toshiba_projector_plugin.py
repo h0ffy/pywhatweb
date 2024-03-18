@@ -11,5 +11,5 @@ class Plugintoshiba_projector_plugin(plugins.Base):
 			{ "url" : "/cgi-bin/status_nw.cgi", "string" : /<TD class="f12w" width="229" height="30"><FONT color="#666666"><B>MAC address<\/B><\/FONT><\/TD>[\s]+<TD class="f12w" valign="middle" width="217" height="30">([\dA-Z]{12})<\/TD>/" },
 			{ "url" : "/cgi-bin/status_nw.cgi", "version" : "/<TD class="f12w" width="229" height="30"><FONT color="#666666"><B>Version<\/B><\/FONT><\/TD>[\s]+<TD class="f12w" valign="middle" width="217" height="30">([^<]+)<\/TD>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

@@ -7,5 +7,5 @@ class Pluginaddthis_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/<script [^>]*src=["|'][^>]*addthis\.com\/js/i },
 		]
-		return(self.rules)
+			return(self.rules)
 

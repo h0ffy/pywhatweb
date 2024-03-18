@@ -9,5 +9,5 @@ class Pluginaspthai.net_webboard_plugin(plugins.Base):
 			{ "version" : "/  <br \/><br \/><span class="text" style="font-size:10px">Powered by <a href="http:\/\/www.aspthai.net\/" target="_blank" style="font-size:10px">ASPThai.Net Webboard<\/a> version ([\d\.]+)<\/span><br \/>/" },
 			{ "version" : "/<!-- ASPThai.Net Webboard ver. ([\d\.]+) is written and produced by Supap Wanawan/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

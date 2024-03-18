@@ -13,5 +13,5 @@ class Pluginoscommerce_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "text" : "cookie_test=please_accept_for_session;" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/osCsid=[a-z0-9]{32};/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

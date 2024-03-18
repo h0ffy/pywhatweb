@@ -9,5 +9,5 @@ class Plugincs_cart_plugin(plugins.Base):
 			{ "regexp" : "/Powered by <a href="http:\/\/www.cs-cart.com" target="_blank"[^>]+>CS-Cart - Shopping Cart Software<\/a>/" },
 			{ "text" : "<title>CS-Cart. Powerful PHP shopping cart software</title>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

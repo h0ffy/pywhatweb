@@ -14,5 +14,5 @@ class Pluginrumba_cms_plugin(plugins.Base):
 			{ "text" : " <meta name="generator" content="Rumba Wiki http://rumba.net.ru/" />" },
 			{ "text" : "<meta name="Generator" content="http://rumba.net.ru" />" },
 		]
-		return(self.rules)
+			return(self.rules)
 

@@ -11,5 +11,5 @@ class Pluginvsp_stats_processor_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : "<BODY>error: cannot establish database connection or database database_name does not exist", "string" : "Error" },
 			{ "version" : "/<A HREF="http:\/\/www.clanavl.com\/vsp\/">vsp<\/A> v([\d\.]+),/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

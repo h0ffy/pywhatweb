@@ -9,5 +9,5 @@ class Pluginlxr_plugin(plugins.Base):
 			{ "text" : "<b>[</b>&nbsp;<a href="ident">identifier search</a>&nbsp;<b>]</b>" },
 			{ "text" : "[&nbsp;<a href="ident">identifier search</a>&nbsp;]" },
 		]
-		return(self.rules)
+			return(self.rules)
 

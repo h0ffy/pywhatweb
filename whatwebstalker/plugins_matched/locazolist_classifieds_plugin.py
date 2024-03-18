@@ -10,5 +10,5 @@ class Pluginlocazolist_classifieds_plugin(plugins.Base):
 			{ "version" : "/<br><br><br><br><font face='verdana' size='1'>Powered by LocazoList v([0-9a-z\.]+)<br>Copyright [0-9]{4} <a href='http:\/\/www.locazo.com\/applications'>Locazo.com<\/a><\/font>/" },
 			{ "version" : "/<title>LocazoList Classifieds v[0-9a-z\.]+ - powered by LocazoList ([0-9a-z\.]+)<\/title>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

@@ -10,5 +10,5 @@ class Pluginpmwiki_plugin(plugins.Base):
 			{ "text" : "<span class='commentout-pmwikiorg'>" },
 			{ "regexp" : "/<link rel='stylesheet' href='[^']*\/pmwiki\/pub\/skins\/pmwiki\/pmwiki\.css' type='text\/css' \/>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

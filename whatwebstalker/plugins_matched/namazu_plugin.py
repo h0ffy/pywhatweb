@@ -11,5 +11,5 @@ class Pluginnamazu_plugin(plugins.Base):
 			{ "version" : "/<strong><a href="http:\/\/www\.namazu\.org\/">Namazu<\/a> <!-- VERSION --> v([\d\.]+) <!-- VERSION --><\/strong>/i },
 			{ "version" : "/This search system is powered by <a href="http:\/\/www\.namazu\.org\/">Namazu<\/a> <!-- VERSION --> v([\d\.]+) <!-- VERSION --><\/p>/i },
 		]
-		return(self.rules)
+			return(self.rules)
 

@@ -7,5 +7,5 @@ class Pluginmcafee_secure_plugin(plugins.Base):
         self.rules = [
 			{ "string" : /<a target="?_blank"? href="https?:\/\/www\.(mcafeesecure|scanalert)\.com\/RatingVerify\?ref=([^"]+)"[^>]*>[\s]*<img/i", "offset" : "1 },
 		]
-		return(self.rules)
+			return(self.rules)
 

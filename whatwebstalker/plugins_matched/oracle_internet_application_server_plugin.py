@@ -9,5 +9,5 @@ class Pluginoracle_internet_application_server_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Oracle9iAS \(([^\s^\)]+)\)/" },
 			{ "search" : "headers[server]", "module" : /^Oracle9iAS.+ (Oracle9iAS-Web-Cache\/[^\s]+)/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

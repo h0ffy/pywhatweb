@@ -10,5 +10,5 @@ class Pluginbattle_blog_plugin(plugins.Base):
 			{ "text" : "<form name = "UserInfoCollect" action = "authenticate.asp" method = "post">" },
 			{ "text" : "<table width = "10%" cellpadding = "5" style = "border-style: solid; border-color: #000000; border-width: 1px;">" },
 		]
-		return(self.rules)
+			return(self.rules)
 

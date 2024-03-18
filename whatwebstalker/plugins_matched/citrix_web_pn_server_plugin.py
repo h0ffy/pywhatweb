@@ -7,5 +7,5 @@ class Plugincitrix_web_pn_server_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^Citrix Web PN Server$/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

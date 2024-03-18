@@ -8,5 +8,5 @@ class Pluginmyshell_plugin(plugins.Base):
 			{ "text" : "&nbsp;| ::::::::::&nbsp;<a href="http://www.digitart.net" target="_blank" style="text-decoration:none"><b>MyShell</b> &copy;2001 Digitart Producciones</a>" },
 			{ "version" : "/<title>MyShell ([\d\.]+ build [\d]{8})<\/title>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

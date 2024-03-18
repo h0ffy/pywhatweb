@@ -9,5 +9,5 @@ class Pluginsonicwall_firewall_plugin(plugins.Base):
 			{ "url" : "/auth1.html", "module" : /<div align="right">Click <a href="sslvpn" onClick="top\.location\.href='sslvpn'";>here<\/a> for (sslvpn) login/" },
 			{ "url" : "/auth1.html", "firmware" : "/<link href="swl_login-([^"]+)\.css" rel="stylesheet" type="text\/css">/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

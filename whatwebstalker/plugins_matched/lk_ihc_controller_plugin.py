@@ -9,5 +9,5 @@ class Pluginlk_ihc_controller_plugin(plugins.Base):
 			{ "text" : "<table width="640" height="480" border="0" cellspacing="0" cellpadding="0"  background="images/bg_image_LK.jpg">" },
 			{ "url" : "/images/bg_image_LK.jpg", "md5" : "c23378580cb58ee4c404106dda5757b3" },
 		]
-		return(self.rules)
+			return(self.rules)
 

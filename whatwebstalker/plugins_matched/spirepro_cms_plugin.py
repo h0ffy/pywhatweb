@@ -12,5 +12,5 @@ class Pluginspirepro_cms_plugin(plugins.Base):
 			{ "string" : /^SpirePRO CMS v([\d\.]+ \(Microkernel v[\d]+; CMS Server v[\d]+\)) /", "search" : "headers[generator]" },
 			{ "regexp" : "/^SpirePRO CMS/", "search" : "headers" },
 		]
-		return(self.rules)
+			return(self.rules)
 

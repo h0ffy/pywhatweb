@@ -7,5 +7,5 @@ class Pluginputty_log_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/=~=~=~=~=~=~=~=~=~=~=~= PuTTY log [0-9]{4}.[0-9]{2}.[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} =~=~=~=~=~=~=~=~=~=~=~=/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

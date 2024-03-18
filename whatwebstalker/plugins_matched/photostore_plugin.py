@@ -12,5 +12,5 @@ class Pluginphotostore_plugin(plugins.Base):
 			{ "text" : "<form action="mgr_actions.php?pmode=login" name="login_form" method="post">" },
 			{ "text" : "<body bgcolor="#13387E" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" onLoad="document.login_form.username.focus();">" },
 		]
-		return(self.rules)
+			return(self.rules)
 

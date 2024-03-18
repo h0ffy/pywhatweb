@@ -13,5 +13,5 @@ class Pluginioncube_loader_plugin(plugins.Base):
 			{ "module" : /<div id="footer">Copyright ionCube Ltd\. 2002-20[\d]{2} \| (Loader Wizard version [^\s]+) /" },
 			{ "text" : "<div id="loading"><script type="text/javascript">document.write(\'<p>Initialising<br>ionCube Loader Wizard<br><span id="status"></span></p>\');</script>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

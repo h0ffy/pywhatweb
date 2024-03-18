@@ -10,5 +10,5 @@ class Plugindedicated_micros_device_plugin(plugins.Base):
 			{ "url" : "/webpages/index.shtml", "text" : "	<title>DVIP</title>", "model" : "DVIP" },
 			{ "search" : "headers[server]", "regexp" : "/^ADH-Web$/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

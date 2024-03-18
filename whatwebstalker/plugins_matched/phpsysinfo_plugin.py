@@ -14,5 +14,5 @@ class Pluginphpsysinfo_plugin(plugins.Base):
 			{ "os" : "/<td valign="top"><font size="-1">Distro Name<\/font><\/td>[\r\n\s]*<td><img[^>]+>[\s&nbsp;]*<font size="-1">([^<]+)<\/font><\/td>/" },
 			{ "os" : "/<td valign="top"><font size="-1">Kernel Version<\/font><\/td>[\r\n\s]*<td><font size="-1">([^<]+)<\/font><\/td>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

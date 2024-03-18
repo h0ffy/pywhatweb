@@ -10,5 +10,5 @@ class Pluginkontaktformular_plugin(plugins.Base):
 			{ "text" : "Script Powered by <a target="_blank" href="http://www.radbekleidung.eu/gratis-kontaktformular.html">Kontaktformular</a>" },
 			{ "text" : "&copy; Script Powered by kontaktformular.org </span>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

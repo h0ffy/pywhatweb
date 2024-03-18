@@ -8,5 +8,5 @@ class Pluginfreakauth_plugin(plugins.Base):
 			{ "regexp" : "/<title>FreakAuth &raquo; [^<]+<\/title>/" },
 			{ "regexp" : "/Welcome on board ! \/ <a href="http[^"]+">Login<\/a>		<\/div>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

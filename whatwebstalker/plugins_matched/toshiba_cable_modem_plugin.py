@@ -13,5 +13,5 @@ class Plugintoshiba_cable_modem_plugin(plugins.Base):
 			{ "url" : "/up.html", "firmware" : "/;&nbsp;HW_REV[\r\n]*<FONT COLOR="#980040">([^\s^<]+)<\/FONT>/" },
 			{ "url" : "/up.html", "version" : "/;&nbsp;SW_REV[\r\n]*<FONT COLOR="#980040">([^\s^<]+)<\/FONT>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

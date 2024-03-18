@@ -8,5 +8,5 @@ class Pluginflyspray_plugin(plugins.Base):
 			{ "text" : "<!-- Please don't remove this line - it helps promote Flyspray -->" },
 			{ "text" : "<a href="http://flyspray.org/" class="offsite">Powered by Flyspray</a>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

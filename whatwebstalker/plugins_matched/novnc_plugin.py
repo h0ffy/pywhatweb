@@ -9,5 +9,5 @@ class Pluginnovnc_plugin(plugins.Base):
 			{ "module" : "Auto", "string" : /<html>[\s]+<!-- [\s]+noVNC Example: Automatically connect on page load\.[\s]+Copyright \(C\) (20[\d]{2}) Joel Martin[\s]+Licensed under LGPL-3 \(see LICENSE\.txt\)[\s]+Connect parameters are provided in query string:[\s]+http:\/\/example\.com\/\?host=HOST&port=PORT&encrypt=1&true_color=1[\s]+-->[\s]+<head>[\s]+<title>noVNC<\/title>/" },
 			{ "module" : "Simple", "string" : /<html>[\s]+<!-- [\s]+noVNC example: simple example using default UI[\s]+Copyright \(C\) (20[\d]{2}) Joel Martin[\s]+Licensed under LGPL-3 \(see LICENSE\.txt\)[\s]+-->[\s]+<head>[\s]+<title>noVNC<\/title>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

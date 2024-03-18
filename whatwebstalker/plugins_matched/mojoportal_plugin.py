@@ -12,5 +12,5 @@ class Pluginmojoportal_plugin(plugins.Base):
 			{ "text" : "	<img src="../Data/SiteImages/mojoportal-logo-med.gif" alt="mojoPortal Content Management System" />" },
 			{ "text" : "<link id="Link1" runat="server" rel="stylesheet" href="../Data/style/setup.css" type="text/css"  />" },
 		]
-		return(self.rules)
+			return(self.rules)
 

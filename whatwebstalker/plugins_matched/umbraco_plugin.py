@@ -143,5 +143,5 @@ class Pluginumbraco_plugin(plugins.Base):
 			{ "url" : "/umbraco/Js/init.js", "md5" : "31e12ee0679dfb1a9b242e6b74fdbf58", "version" : "8.10.0" },
 			{ "url" : "/umbraco/Js/init.js", "md5" : "31e12ee0679dfb1a9b242e6b74fdbf58", "version" : "8.10.1" },
 		]
-		return(self.rules)
+			return(self.rules)
 

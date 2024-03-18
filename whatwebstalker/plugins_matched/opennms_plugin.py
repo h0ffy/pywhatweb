@@ -9,5 +9,5 @@ class Pluginopennms_plugin(plugins.Base):
 			{ "string" : /<p>\s+OpenNMS <a href="(support|help)\/about\.jsp">Copyright<\/a> &copy; 2002-(20[\d]{2})\s+/", "offset" : "1 },
 			{ "regexp" : "/<p><input type="checkbox" name="_(spring|acegi)_security_remember_me"> Don't ask for my password for two weeks<\/p>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

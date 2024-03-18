@@ -10,5 +10,5 @@ class Pluginweb2project_plugin(plugins.Base):
 			{ "certainty" : "25", "version" : "/<meta name="Version" content="([^"^\s]+)" \/>/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/web2project=[^;]+;/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

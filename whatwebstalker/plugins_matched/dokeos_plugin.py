@@ -17,5 +17,5 @@ class Plugindokeos_plugin(plugins.Base):
 			{ "version" : "/<div class="copyright">[^<]+<a href="http:\/\/www\.dokeos\.com" target="_blank">[\s]*Dokeos ([\d\.]+)<\/a>/" },
 			{ "version" : "/<title>&mdash; Dokeos Installation &mdash; Version ([\d\.]+)<\/title>/", "string" : "Install Page" },
 		]
-		return(self.rules)
+			return(self.rules)
 

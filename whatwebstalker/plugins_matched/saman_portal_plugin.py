@@ -11,5 +11,5 @@ class Pluginsaman_portal_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/sisRapid Framework/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/SAMANPORTALSID=[^;]+;/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

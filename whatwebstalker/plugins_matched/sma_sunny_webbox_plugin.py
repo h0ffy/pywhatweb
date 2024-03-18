@@ -10,5 +10,5 @@ class Pluginsma_sunny_webbox_plugin(plugins.Base):
 			{ "url" : "/", "regexp" : "/<meta http-equiv="refresh" content="0; URL=\/culture\/index\.dml">[\s]+<meta http-equiv="Content-Type" content="text\/html; charset=utf-8">[\s]+<title>SMA Sunny Webbox<\/title>[\s]+<link rel="SHORTCUT ICON" href="\.\.\/img\/favicon\.ico">/" },
 			{ "search" : "headers[server]", "regexp" : "/^(WebBox-20|Sunny WebBox)$/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

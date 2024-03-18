@@ -12,5 +12,5 @@ class Pluginca_siteminder_plugin(plugins.Base):
 			{ "regexp" : "/\/\* SiteMinder Login Form CGI\s+Copyright \(C\) 1999,2000 Netegrity", "Inc\. All rights reserved\./" },
 			{ "url" : "/siteminderagent/forms/login.fcc", "text" : "<title>SiteMinder Password Services</title>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

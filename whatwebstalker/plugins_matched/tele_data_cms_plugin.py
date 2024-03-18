@@ -11,5 +11,5 @@ class Plugintele_data_cms_plugin(plugins.Base):
 			{ "text" : "<!--To reduce the gap between banner and content the below if condition is added-->" },
 			{ "text" : "<iframe onload="postload(0);" scrolling="no" style="position:absolute;top:0;left:0;height:0;width:0;" id="fraLH" name="fraLH" src="default.aspx" frameborder="0" marginheight="0" marginwidth="0"></iframe>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

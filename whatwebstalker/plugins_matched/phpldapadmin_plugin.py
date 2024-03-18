@@ -11,5 +11,5 @@ class Pluginphpldapadmin_plugin(plugins.Base):
 			{ "version" : "/<div id="ajFOOT">([^\s^<]+)<\/div><a href="https:\/\/sourceforge\.net\/projects\/phpldapadmin">/" },
 			{ "string" : /<td class="icon"><img src="images\/[^\/^"]*\/server.png" alt="Server" \/><\/td><td class="name" colspan="2">([^<]+)<\/td><\/tr>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

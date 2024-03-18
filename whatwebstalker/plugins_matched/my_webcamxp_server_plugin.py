@@ -17,5 +17,5 @@ class Pluginmy_webcamxp_server_plugin(plugins.Base):
 			{ "version" : "/			powered by <a href="http:\/\/www.webcamxp.com" title="www.webcamxp.com">webcamxp 5<\/a> v([\d\.]+)/" },
 			{ "version" : "/powered by <a href="http:\/\/www.webcamXP.com" target="_blank">webcamXP 5<\/a> v([\d\.]+)<\/a>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

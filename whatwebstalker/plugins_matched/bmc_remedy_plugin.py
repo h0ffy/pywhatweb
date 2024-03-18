@@ -12,5 +12,5 @@ class Pluginbmc_remedy_plugin(plugins.Base):
 			{ "version" : "/<title>(BMC&nbsp;)?Remedy&nbsp;Mid&nbsp;Tier&nbsp;([^\s]+) - (Error page|Login)<\/title><!--;-->/", "offset" : "1 },
 			{ "version" : "/<title>(BMC )?Remedy Mid Tier ([^\s]+) - (Error page|Login)<\/title>/", "offset" : "1 },
 		]
-		return(self.rules)
+			return(self.rules)
 

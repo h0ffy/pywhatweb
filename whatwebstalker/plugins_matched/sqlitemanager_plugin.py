@@ -14,5 +14,5 @@ class Pluginsqlitemanager_plugin(plugins.Base):
 			{ "string" : /<h4 class="serverInfo">(SQLite version [\d\.\s-]+)(undefined)? \/ PHP version 5.2.17<\/h4>/" },
 			{ "string" : /<h4 class="serverInfo">SQLite version [\d\.\s-]+(undefined)? \/ (PHP version [^\s^<]+)<\/h4>/", "offset" : "1 },
 		]
-		return(self.rules)
+			return(self.rules)
 

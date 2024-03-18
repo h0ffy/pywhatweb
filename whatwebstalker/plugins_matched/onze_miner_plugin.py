@@ -10,5 +10,5 @@ class Pluginonze_miner_plugin(plugins.Base):
 			{ "regexp" : "/&copy; 2004-20[\d]{2} <a href="http:\/\/www\.ling\.canterbury\.ac\.nz\/" target="onze">ONZE Project<\/a> University of Canterbury", "NZ/" },
 			{ "text" : "<a href="http://onzeminer.sourceforge.net">ONZE Miner</a> is free software distributed under the terms of the <a href="/miner/gpl.txt" target="license">GNU General Public License</a>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

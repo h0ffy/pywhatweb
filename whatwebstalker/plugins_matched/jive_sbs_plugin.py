@@ -20,5 +20,5 @@ class Pluginjive_sbs_plugin(plugins.Base):
 			{ "search" : "headers[x-jsl]", "regexp" : "/^D=[\d]+ t=[\d]+$/" },
 			{ "search" : "headers[x-jal]", "regexp" : "/^[\d]+$/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

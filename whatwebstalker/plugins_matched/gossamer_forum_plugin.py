@@ -10,5 +10,5 @@ class Plugingossamer_forum_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/www.gossamer-threads.com">Gossamer Forum v.([\d\.]+)<\/a>/" },
 			{ "account" : "/<a href="gforum\.cgi\?username=([^;^>^"]+);guest=[\d]+">/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

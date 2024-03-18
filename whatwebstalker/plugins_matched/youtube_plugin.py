@@ -8,5 +8,5 @@ class Pluginyoutube_plugin(plugins.Base):
 			{ "regexp" : "/<(param|embed) [^>]*youtube\.com\/v/i },
 			{ "regexp" : "/<iframe [^>]*src=['"]https?:\/\/(www\.)?youtube\.com\/embed\//" },
 		]
-		return(self.rules)
+			return(self.rules)
 

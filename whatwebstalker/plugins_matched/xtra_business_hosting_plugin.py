@@ -7,5 +7,5 @@ class Pluginxtra_business_hosting_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "<title>Xtra Business: Web Hosting</title>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

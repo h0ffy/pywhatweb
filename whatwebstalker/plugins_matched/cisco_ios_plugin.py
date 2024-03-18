@@ -9,5 +9,5 @@ class Plugincisco_ios_plugin(plugins.Base):
 			{ "string" : "DirFail", "regexp" : "/<input type="hidden" name="DIRINFO" value="\s*(Command authorization failed|% Authorization failed)/" },
 			{ "search" : "headers[server]", "regexp" : "/^cisco-IOS/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

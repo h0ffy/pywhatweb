@@ -8,5 +8,5 @@ class Plugindvr_webclient_plugin(plugins.Base):
 			{ "md5" : "8cf9f140f2ec4f5d3e533b5bc2b221ea'},
 			{ "text" : "259F9FDF-97EA-4C59-B957-5160CAB6884E'},
 		]
-		return(self.rules)
+			return(self.rules)
 

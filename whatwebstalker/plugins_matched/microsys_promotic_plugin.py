@@ -8,5 +8,5 @@ class Pluginmicrosys_promotic_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Promotic$/" },
 			{ "text" : "<html><head><title>PROMOTIC Redirection</title></head>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

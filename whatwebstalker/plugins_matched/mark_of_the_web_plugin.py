@@ -7,5 +7,5 @@ class Pluginmark_of_the_web_plugin(plugins.Base):
         self.rules = [
 			{ "string" : /<!-- saved from url=\([\d]+\)([^>]+) -->[\r\n]/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

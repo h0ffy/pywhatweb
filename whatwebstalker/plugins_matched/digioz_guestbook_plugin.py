@@ -10,5 +10,5 @@ class Plugindigioz_guestbook_plugin(plugins.Base):
 			{ "version" : "/<title>Powered by DigiOz Guestbook Version ([\d\.]+)<\/title>/" },
 			{ "version" : "/<a href="http:\/\/www\.digioz\.com"[^>]*>DigiOz (\.NET )?Guestbook Version ([\d\.]+)<br( \/)?>&copy; 20[\d]{2} DigiOz Multimedia\./", "offset" : "1 },
 		]
-		return(self.rules)
+			return(self.rules)
 

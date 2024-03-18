@@ -9,5 +9,5 @@ class Pluginpommo_plugin(plugins.Base):
 			{ "text" : "Page fueled by <a href="http://pommo.sourceforge.net/">poMMo</a> mailing management software" },
 			{ "text" : "<title>. ..poMMo.. .</title>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

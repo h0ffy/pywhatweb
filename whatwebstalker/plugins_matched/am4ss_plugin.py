@@ -10,5 +10,5 @@ class Pluginam4ss_plugin(plugins.Base):
 			{ "text" : "Powered By <a href="http://am4ss.com"><font color="#FF000">AM4SS</font></a>" },
 			{ "regexp" : "/<link rel="stylesheet" type="text\/css" href="templates\/[^\/]+\/am4ss\.css" \/>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

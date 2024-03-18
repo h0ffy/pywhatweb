@@ -7,5 +7,5 @@ class Plugintrbas_plugin(plugins.Base):
         self.rules = [
 			{ "text" :  '<link rel="stylesheet" href="http://www.trbas.com" },
 		]
-		return(self.rules)
+			return(self.rules)
 

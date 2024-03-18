@@ -9,5 +9,5 @@ class Pluginoracle_access_manager_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/ObSSOCookie=[^;]+;/", "certainty" : "75 },
 			{ "search" : "headers[location]", "regexp" : "/obrareq\.cgi/", "certainty" : "75 },
 		]
-		return(self.rules)
+			return(self.rules)
 

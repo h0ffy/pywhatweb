@@ -9,5 +9,5 @@ class Pluginphp_csl_plugin(plugins.Base):
 			{ "text" : "<!-- Please note the credit message below is required if you want support -->" },
 			{ "version" : "/<td align="right" class="hdr">Powered by: <a href="http:\/\/www\.php-csl\.com\/" class="foot" title="PHP-CSL">PHP-CSL V([^<]+)<\/a>&nbsp;<\/td>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

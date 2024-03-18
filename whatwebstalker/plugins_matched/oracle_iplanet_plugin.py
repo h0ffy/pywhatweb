@@ -9,5 +9,5 @@ class Pluginoracle_iplanet_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/iPlanet-WebServer-Enterprise\/([\d\.]+)/", "module" : "Web" },
 			{ "search" : "headers[server]", "version" : "/Oracle-iPlanet-Web-Server\/([\d\.]+)/", "module" : "Web" },
 		]
-		return(self.rules)
+			return(self.rules)
 

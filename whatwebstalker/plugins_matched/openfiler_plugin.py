@@ -11,5 +11,5 @@ class Pluginopenfiler_plugin(plugins.Base):
 			{ "string" : /<strong>GUI Version:&nbsp;<\/strong>([^<^\s]+)<\/p><\/div>/" },
 			{ "string" : /&copy; 2001 - (2[\d]{3}) <a href="http:\/\/www\.openfiler\.com\/">Openfiler<\/a>\. All rights reserved\.<br \/>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

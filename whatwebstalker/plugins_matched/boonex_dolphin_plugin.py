@@ -9,5 +9,5 @@ class Pluginboonex_dolphin_plugin(plugins.Base):
 			{ "text" : "Powered by                    Dolphin - <a href="http://www.boonex.com/products/dolphin/">Free Community Software</a>" },
 			{ "version" : "/administration\/templates\/base\/images\/admin_login_admin_logo\.png" alt="Dolphin ([\d]+) Admin" \/>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

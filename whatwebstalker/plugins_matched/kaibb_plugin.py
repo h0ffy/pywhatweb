@@ -10,5 +10,5 @@ class Pluginkaibb_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/\www\.mi-dia\.co\.uk" class="normfont">KaiBB ([^\s^<]+)<\/a>/" },
 			{ "text" : "<meta name="Description" http-equiv="Description" content="Forum powered by KaiBB - Powered by KaiBB" />" },
 		]
-		return(self.rules)
+			return(self.rules)
 

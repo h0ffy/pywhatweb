@@ -8,5 +8,5 @@ class Pluginhp_sitescope_plugin(plugins.Base):
 			{ "text" : "<center><H2>SiteScope Login</H2></center><hr>" },
 			{ "url" : "/", "version" : "/<p class=fine align=center><small>SiteScope ([\d\.]+)/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

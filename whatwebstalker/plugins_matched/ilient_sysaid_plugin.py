@@ -10,5 +10,5 @@ class Pluginilient_sysaid_plugin(plugins.Base):
 			{ "text" : "<p><a href="http://www.ilient.com">Help Desk Software by Ilient</a></p>" },
 			{ "text" : "<p><a href="http://www.ilient.com">Help Desk Software by SysAid</a></p>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

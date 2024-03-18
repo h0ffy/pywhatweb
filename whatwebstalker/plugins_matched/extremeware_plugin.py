@@ -11,5 +11,5 @@ class Pluginextremeware_plugin(plugins.Base):
 			{ "text" : "<title>ExtremeWare Management Interface</title>" },
 			{ "text" : "<center><img src="Images/extremelogan"><a href="extremebasepage" target="_top"><h2>Logon</h2></a><P><P><TABLE BORDER="0"><TR><TD NOWRAP><TT><FONT COLOR="#000000">" },
 		]
-		return(self.rules)
+			return(self.rules)
 

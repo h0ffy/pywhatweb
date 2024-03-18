@@ -12,5 +12,5 @@ class Pluginphpdocumentor_plugin(plugins.Base):
 			{ "version" : "/	<title>\n		Form to submit to phpDocumentor v([^\s]+)	<\/title>/" },
 			{ "version" : "/<span class="title"><strong>docBuilder<\/strong> :: phpDocumentor v([^\s]+) Web Interface<\/span>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

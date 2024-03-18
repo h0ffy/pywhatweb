@@ -9,5 +9,5 @@ class Pluginvamcart_plugin(plugins.Base):
 			{ "text" : "<!-- Powered by: VamCart (http://vamcart.com) -->" },
 			{ "text" : "<p><a href="http://vamcart.com/">PHP Shopping Cart</a> <a href="http://vamcart.com/">VamCart</a></p>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

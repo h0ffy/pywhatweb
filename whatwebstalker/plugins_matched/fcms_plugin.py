@@ -9,5 +9,5 @@ class Pluginfcms_plugin(plugins.Base):
 			{ "regexp" : "/- [pP]owered by Family Connections<\/title>/" },
 			{ "version" : "/- [pP]owered by Family Connections ([^\s^<]+)[\s]*<\/title>[\s]*(<meta|<link)/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

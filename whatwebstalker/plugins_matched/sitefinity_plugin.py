@@ -10,5 +10,5 @@ class Pluginsitefinity_plugin(plugins.Base):
 			{ "version" : "/<meta name="Generator" content="Sitefinity ([\d\.:]{1,20}( [A-Z]+)?)" \/>/" },
 			{ "certainty" : "75", "regexp" : "/<link href="\/[Ss]ite[Ff]inity\/WebsiteTemplates\//" },
 		]
-		return(self.rules)
+			return(self.rules)
 

@@ -15,5 +15,5 @@ class Pluginsnap_appliance_server_plugin(plugins.Base):
 			{ "version" : "/^Snap Appliances?", "Inc\.\/([\d\.]+)$/", "search" : "headers[server]" },
 			{ "version" : "/^Quantum Corporation\.\/([\d\.]+)$/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+			return(self.rules)
 

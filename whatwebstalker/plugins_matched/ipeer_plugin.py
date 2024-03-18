@@ -10,5 +10,5 @@ class Pluginipeer_plugin(plugins.Base):
 			{ "version" : "/<span class="bannerText"><span style='font-size: 120%;'>([^<]+)<\/span>&nbsp;&nbsp;with TeamMaker<\/span><\/td>/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/IPEER=[^;]+;/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

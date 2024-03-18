@@ -11,5 +11,5 @@ class Pluginphpkit_plugin(plugins.Base):
 			{ "text" : "<div id="pkcopyright"><a class="none" href="http://www.phpkit.com">PHPKIT ist eine eingetragene Marke der mxbyte GbR &copy;" },
 			{ "text" : "<meta name="description" content="PHPKIT", "WCMS", "Web Content Management System", "Administration" />", "module" : "Admin Page" },
 		]
-		return(self.rules)
+			return(self.rules)
 

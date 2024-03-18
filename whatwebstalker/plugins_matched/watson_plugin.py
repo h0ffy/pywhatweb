@@ -8,5 +8,5 @@ class Pluginwatson_plugin(plugins.Base):
 			{ "text" : "<TITLE>Watson Management Console</TITLE>" },
 			{ "text" : "<!--- Page(page_login)=[Login] ---><HTML>"},
 		]
-		return(self.rules)
+			return(self.rules)
 

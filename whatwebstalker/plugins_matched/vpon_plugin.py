@@ -9,5 +9,5 @@ class Pluginvpon_plugin(plugins.Base):
 			{ "url" : "/ctrl_ver.js", "model" : "/^var vpon_platform = "([^"]+)";/" },
 			{ "search" : "headers[server]", "version" : "/^VPON Server\/([\d\.]+)$/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

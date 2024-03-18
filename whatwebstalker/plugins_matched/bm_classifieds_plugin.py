@@ -12,5 +12,5 @@ class Pluginbm_classifieds_plugin(plugins.Base):
 			{ "text" : "	<p class='credits'><a href='http://www.bmscripts.com'>Powered by BM Classifieds</a><br /></p>" },
 			{ "text" : "	<p class='credits'>Powered by BM Classifieds<br /></p>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

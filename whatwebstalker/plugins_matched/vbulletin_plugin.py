@@ -22,5 +22,5 @@ class Pluginvbulletin_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/bblastvisit/", "name" : "bblastvisit cookie" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/bbsessionhash/", "name" : "bbsessionhash cookie" },
 		]
-		return(self.rules)
+			return(self.rules)
 

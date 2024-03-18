@@ -8,5 +8,5 @@ class Pluginmodernizr_plugin(plugins.Base):
 			{ "regexp" : "/<script [^>]*src=["'][^>]*modernizr[^>]*\.js/i },
 			{ "version" : "/<script [^>]*src=["'][^>]*modernizr-([^>]+)\.js/i },
 		]
-		return(self.rules)
+			return(self.rules)
 

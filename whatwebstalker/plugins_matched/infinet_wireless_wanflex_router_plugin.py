@@ -8,5 +8,5 @@ class Plugininfinet_wireless_wanflex_router_plugin(plugins.Base):
 			{ "text" : "<meta name="generator" content="InfiNet Wireless Company" />" },
 			{ "search" : "headers[server]", "version" : "/^WANFlex HTTP Daemon v([^\s]+)$/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

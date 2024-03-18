@@ -10,5 +10,5 @@ class Pluginlifesize_control_plugin(plugins.Base):
 			{ "url" : "/LifeSizeControl/ASP/index_content.html", "string" : /<body bgcolor="#ffffff" onload="loadVersionXML\(\)"><!-- LSC([\d\.]+) - Code added for dynamic version number-->/" },
 			{ "url" : "/", "search" : "headers[location]", "regexp" : "/^https?:\/\/[^\/]+\/LifeSizeControl\/ASP\/index\.html$/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

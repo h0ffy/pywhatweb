@@ -11,5 +11,5 @@ class Pluginedk_plugin(plugins.Base):
 			{ "text" : "&amp;scl_id=39">Industrial Command Ship</a></b></td>" },
 			{ "text" : "<!-- /killlistable.tpl -->" },
 		]
-		return(self.rules)
+			return(self.rules)
 

@@ -7,5 +7,5 @@ class Pluginrcttools_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^RCTTools \(SecureSOHO Web configuration Tools\) v([^\s]+)$/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

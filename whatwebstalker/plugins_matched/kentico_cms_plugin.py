@@ -12,5 +12,5 @@ class Pluginkentico_cms_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/CMSPreferredCulture/", "name" : "CMSPreferredCulture cookie" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/CMSCsrfCookie/", "name" : "CMSCsrfCookie cookie" },
 		]
-		return(self.rules)
+			return(self.rules)
 

@@ -8,5 +8,5 @@ class Pluginphpfox_plugin(plugins.Base):
 			{ "version" : "/Powered By <a href="http:\/\/www\.phpfox\.com\/"[^>]*>phpFoX<\/a> Version ([\d\.]+)/" },
 			{ "version" : "/<a href="http:\/\/www\.phpfox\.com\/"[^>]*>Powered by phpFoX Version ([\d\.]+)<\/a>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

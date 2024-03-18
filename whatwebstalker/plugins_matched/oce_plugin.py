@@ -8,5 +8,5 @@ class Pluginoce_plugin(plugins.Base):
 			{ "regexp" : "/<title>Print Exec Workgroup<\/title>/i },
 			{ "text" : "/servlet/owslhtml/owslicons/header_pewg.jpg" },
 		]
-		return(self.rules)
+			return(self.rules)
 

@@ -9,5 +9,5 @@ class Plugincustom_cms_plugin(plugins.Base):
 			{ "text" : "<meta name="generator" content="CustomCMS Gaming" />" },
 			{ "version" : "/power.png" border="0" style="margin-top: 7px;" alt=" title="Powered by CCMS v([\d\.]+)" \/><\/a>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

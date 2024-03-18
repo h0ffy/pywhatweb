@@ -11,5 +11,5 @@ class Pluginluxcal_plugin(plugins.Base):
 			{ "text" : "<span class=\"floatR\"><a href=\"http://www.luxsoft.eu\"><font size='1'>powered by </font><i><b><font size='2' color='#0033FF'>Lux</font><font size='2' color='#AA0066'>Soft</font></b></i></a></span>" },
 			{ "version" : "/<b><i><font size='2' color='#0033FF'>Lux<\/font><font size='2' color='#AA0066'>Cal<\/font><\/i><\/b><font size='1'> version ([^<]+)<\/font>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

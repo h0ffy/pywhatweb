@@ -11,5 +11,5 @@ class Pluginmantisbt_plugin(plugins.Base):
 			{ "version" : "/<span class="timer"><a href="http:\/\/www.mantis(bugtracker.com|bt.org)\/">Mantis ([\d\.]+)<\/a>\[<a href="http:\/\/www.mantis(bugtracker.com|bt.org)\/" target="_blank">\^<\/a>\]<\/span>/", "offset" : "1 },
 			{ "string" : "Install", "text" : "<title> MantisBT Administration - Installation  </title>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

@@ -10,5 +10,5 @@ class Pluginuniform_server_plugin(plugins.Base):
 			{ "version" : "/<p style=" font-size:24px; margin: 0px; padding-top:10px">\s+The Uniform Server <br \/>\s+([^\s]+)\s+<\/p>/" },
 			{ "text" : "<div id="header"><a href="http://www.uniformserver.com"><img src="images/logo.jpg" align="left" alt="The Uniform Server" /></a>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

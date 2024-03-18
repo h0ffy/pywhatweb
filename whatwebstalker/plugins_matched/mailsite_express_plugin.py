@@ -11,5 +11,5 @@ class Pluginmailsite_express_plugin(plugins.Base):
 			{ "text" : "<b>MailSite <em>Express</em> Login</b>" },
 			{ "text" : "onSubmit="OpenExpress(document.ExpressLogin)"" },
 		]
-		return(self.rules)
+			return(self.rules)
 

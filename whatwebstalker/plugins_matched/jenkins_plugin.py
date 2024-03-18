@@ -15,5 +15,5 @@ class Pluginjenkins_plugin(plugins.Base):
 			{ "search" : "headers[x-jenkins-cli-port]", "regexp" : "/^.*$/" },
 			{ "search" : "headers[x-ssh-endpoint]", "regexp" : "/^.*$/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

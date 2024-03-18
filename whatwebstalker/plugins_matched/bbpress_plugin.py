@@ -10,5 +10,5 @@ class Pluginbbpress_plugin(plugins.Base):
 			{ "text" : "<!-- If you like showing off the fact that your server rocks -->" },
 			{ "text" : "<div id="bbpress-forums">" },
 		]
-		return(self.rules)
+			return(self.rules)
 

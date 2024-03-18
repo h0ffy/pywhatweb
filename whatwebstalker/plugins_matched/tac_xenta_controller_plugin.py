@@ -10,5 +10,5 @@ class Plugintac_xenta_controller_plugin(plugins.Base):
 			{ "model" : "/^TAC\/Xenta([\d]{3}|[\d]{3}-[A-Z]{3}) [\d\.]{4}/", "search" : "headers[server]" },
 			{ "firmware" : "/^TAC\/Xenta[^\ ]+ ([\d\.]{4})/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+			return(self.rules)
 

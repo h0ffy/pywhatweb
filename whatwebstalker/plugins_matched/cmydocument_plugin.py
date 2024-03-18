@@ -12,5 +12,5 @@ class Plugincmydocument_plugin(plugins.Base):
 			{ "text" : "<!-- footer (begin) --><!-- *** Note: Only licensed users are allowed to remove or change the following copyright statement. *** -->" },
 			{ "regexp" : "/<td style="white-space: nowrap;"><span class="aspmaker"><a href="myDocview\.asp\?(myDocID|ID)=[\d]+">View<\/a><\/span><\/td>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

@@ -11,5 +11,5 @@ class Plugindradis_framework_plugin(plugins.Base):
 			{ "text" : "<li>Integration with existing systems and tools through <a href="http://Dradisframework.org/server_plugins.html">server plugins</a>.</li>" },
 			{ "version" : "/<title>First Time User's Wizard - dradis v([\d\.]+)<\/title>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

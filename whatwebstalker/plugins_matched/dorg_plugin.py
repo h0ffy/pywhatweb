@@ -10,5 +10,5 @@ class Plugindorg_plugin(plugins.Base):
 			{ "text" : "<title>DORG - admin panel</title>" },
 			{ "text" : "<meta name="description" content="this is the administration panel of the DORG system" />" },
 		]
-		return(self.rules)
+			return(self.rules)
 

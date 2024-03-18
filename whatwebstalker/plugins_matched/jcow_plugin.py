@@ -12,5 +12,5 @@ class Pluginjcow_plugin(plugins.Base):
 			{ "text" : "<!-- jcow branding -->" },
 			{ "text" : "<!-- end jcow_application_box -->" },
 		]
-		return(self.rules)
+			return(self.rules)
 

@@ -11,5 +11,5 @@ class Pluginmac_osx_server_plugin(plugins.Base):
 			{ "text" : "<iframe id="webmail_frame" src="/webmail/src/"><!-- this frame will enable the webmail link if webmail is active --></iframe>", "os" : "Mac OSX" },
 			{ "text" : "<link rel="stylesheet" type="text/css" media="screen", "projection" href="/collaboration/css/required_compressed.css">", "os" : "Mac OSX" },
 		]
-		return(self.rules)
+			return(self.rules)
 

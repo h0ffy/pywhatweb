@@ -7,5 +7,5 @@ class Pluginlightbox_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/<script [^>]*(lightbox[^>]*.js)[^>]*},
 		]
-		return(self.rules)
+			return(self.rules)
 

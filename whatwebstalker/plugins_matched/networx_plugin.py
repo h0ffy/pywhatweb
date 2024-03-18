@@ -7,5 +7,5 @@ class Pluginnetworx_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "Powered by <a href="http://www.socialabc.com">NetworX</a>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

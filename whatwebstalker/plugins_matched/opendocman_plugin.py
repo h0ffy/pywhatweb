@@ -9,5 +9,5 @@ class Pluginopendocman_plugin(plugins.Base):
 			{ "text" : "<td align="left"><img src="images/logo.gif" alt="Site Logo" border=0></td>" },
 			{ "regexp" : "/<td valign="top">\s+Welcome to OpenDocMan\.?\s+<p>/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

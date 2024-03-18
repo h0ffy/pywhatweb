@@ -8,5 +8,5 @@ class Pluginzen_load_balancer_plugin(plugins.Base):
 			{ "url" : "/config/global.conf", "version" : "/#version ZEN\s+\$version=\"([^\"]+)"/" },
 			{ "search" : "headers[www-authenticate]", "text" : "Basic realm="Zen Load Balancer"" },
 		]
-		return(self.rules)
+			return(self.rules)
 

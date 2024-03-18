@@ -8,5 +8,5 @@ class Pluginopeni_plugin(plugins.Base):
 			{ "version" : "/<span class="big-title">Openi ([^\s^<]+)<\/span><br/" },
 			{ "string" : /<span class="big-title">Openi-(Jasper)<\/span><br/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

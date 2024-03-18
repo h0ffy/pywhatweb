@@ -11,5 +11,5 @@ class Plugincloudflare_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/__cfduid/", "name" : "__cfduid cookie" },
 			{ "name" : "email address protection", "regexp" : "/\/cdn-cgi\/l\/email-protection#[a-f0-9]{36}/" },
 		]
-		return(self.rules)
+			return(self.rules)
 

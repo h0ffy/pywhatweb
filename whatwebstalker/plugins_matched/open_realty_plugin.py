@@ -11,5 +11,5 @@ class Pluginopen_realty_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://open-realty.org" title="Open-Realty&reg;" rel="external">Open-Realty</a>" },
 			{ "text" : "<!--Open-Realty is distributed by Transparent Technologies and is Licensed under the Open-Realty License. See http://www.open-realty.org/license_info.html for more information.-->" },
 		]
-		return(self.rules)
+			return(self.rules)
 

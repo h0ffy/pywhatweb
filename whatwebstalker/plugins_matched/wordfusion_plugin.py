@@ -8,5 +8,5 @@ class Pluginwordfusion_plugin(plugins.Base):
 			{ "regexp" : "/<head id="Head"><title>\s+WordFusion\.Web\s+\<\/title>/" },
 			{ "text" : "<param name="source" value="ClientBin/WordFusion.Web.xap">" },
 		]
-		return(self.rules)
+			return(self.rules)
 

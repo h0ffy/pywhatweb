@@ -7,5 +7,5 @@ class Pluginpost_revolution_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "Powered by <a href="http://www.postrev.com.ar/">Post Revolution</a>" },
 		]
-		return(self.rules)
+			return(self.rules)
 

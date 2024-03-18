@@ -10,5 +10,5 @@ class Pluginoracle_real_user_experience_insight_plugin(plugins.Base):
 			{ "version" : "/<div class="windowWatermark">Version: ([^\s]+)/" },
 			{ "url" : "/ruei/rpc.php", "text" : "{"retval":false,"error_" },
 		]
-		return(self.rules)
+			return(self.rules)
 

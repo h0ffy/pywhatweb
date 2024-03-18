@@ -7,5 +7,5 @@ class Pluginiqeye_netcam_plugin(plugins.Base):
         self.rules = [
 			{ "model" : "/<title>IQeye([^:]+): Live Images[^<]*<\/title>/i },
 		]
-		return(self.rules)
+			return(self.rules)
 
