@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class usp_secure_login_service_plugin:
+class Pluginusp_secure_login_service_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- Optional: If browser does not support Javascript", "load URL xyz -->" },
 			{ "text" : "<!-- SLS JavaScripts -->" },
 			{ "text" : "<form action="auth" method="post" name="LoginForm" onsubmit="return checkFormSubmit();" >" },

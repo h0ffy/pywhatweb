@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class contrexx_cms_plugin:
+class Plugincontrexx_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : " - powered by Contrexx   Web Content Management System</title>" },
 			{ "text" : "<p id="powered"><a href="http://www.contrexx.com/" title="Powered by Contrexx&reg; Software">Powered by Contrexx&reg; Software</a>" },
 			{ "text" : "<div class="footer_right">Powered by <a href="http://www.contrexx.com">Contrexx Software</a></div>" },

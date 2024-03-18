@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class clansphere_plugin:
+class Pluginclansphere_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>ClanSphere - News</title>" },
 			{ "text" : "<meta name="generator" content="ClanSphere" />" },
 			{ "regexp" : "/Powered by <a href="http:\/\/www.csphere.eu[^>]+>Clansphere[\ CSP]*/i },

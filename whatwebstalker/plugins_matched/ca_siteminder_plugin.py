@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ca_siteminder_plugin:
+class Pluginca_siteminder_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<td><img alt="Logo" src="(\/)?(siteminderagent\/)?(pw\/|pwcgi\/|pwserv\/)?siteminder_logo\.gif" height="44"><\/td><\/tr><\/table>/" },
 			{ "text" : "<!-- SiteMinder Encoding=UTF-8; -->" },
 			{ "text" : "<!-- SiteMinder Encoding=ISO-8859-1; -->" },

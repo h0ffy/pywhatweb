@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class quick.cms_plugin:
+class Pluginquick.cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "  <title>Admin - Quick.Cms - simple content management system</title>" },
 			{ "text" : "    var cfLangNoWord      = "Please fill in all required fields";" },
 			{ "text" : "      <div class="foot" id="powered"><a href="http://opensolution.org/">Powered by <strong>Quick.Cms</strong></a></div>" },

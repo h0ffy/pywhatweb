@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class edgeprism_plugin:
+class Pluginedgeprism_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "version" : "/^EdgePrism\/([^\s]+)$/" },
 			{ "search" : "headers[server]", "regexp" : "/^EdgePrismSSL/" },
 		]

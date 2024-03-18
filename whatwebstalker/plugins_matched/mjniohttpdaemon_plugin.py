@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class mjniohttpdaemon_plugin:
+class Pluginmjniohttpdaemon_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "version" : "/^MJNioHttpDaemon\/([^\s]+)/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/MJNIOHTTPDSESSIONID=/" },
 		]

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class cms_made_simple_plugin:
+class Plugincms_made_simple_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "name" : "CMSSESSID cookie", "regexp" : "/^CMSSESSID/", "search" : "headers[set-cookie]" },
 			{ "name" : "Meta generator", "text" : "<meta name="Generator" content="CMS Made Simple" },
 			{ "name" : "Powered by footer", "version" : "/This site is powered by <a[^>]+>CMS Made Simple<\/a> version ([0-9\.]+)/" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class canon_printer_plugin:
+class Plugincanon_printer_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "model" : "/<title>Remote UI<Top Page>: (\w+)/i},
 			{ "model" : "/<title>Remote UI&lt;Top page&gt;: ([^:]+)/i", "url" : "/frame.cgi"},
 			{ "model" : "/<title>Remote UI&lt;Top page&gt;: ([^:]+)/i", "url" : "/frame.cgi?PageFlag=t_frame.tpl"},

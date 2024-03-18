@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class netious_cms_plugin:
+class Pluginnetious_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "&nbsp; &nbsp; Powered by <a href="http://www.netious.com" title="Netious.com - free scripts", "CMS-based internet services", "RSS editors">netious.com</a>" },
 			{ "text" : "&nbsp; &nbsp; Powered by <a href="http://www.netious.com" title="Netious.com - free scripts", "CMS-based services", "RSS editors">netious.com</a>" },
 			{ "text" : "<center><a href="../" title="Home page"><b class=visible>Go back to the home page of the service</b></a></center>" },

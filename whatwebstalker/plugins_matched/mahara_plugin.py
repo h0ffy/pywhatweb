@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class mahara_plugin:
+class Pluginmahara_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- This site is powered by Mahara", "an Open Source" },
 			{ "text" : "<!-- there is a div id="performance-info" wrapping this -->" },
 			{ "text" : "<div id="powered-by"><a href="http://mahara.org/"><img src="" },

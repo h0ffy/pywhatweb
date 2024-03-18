@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class linkspheric_plugin:
+class Pluginlinkspheric_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<style type="text/css" media="screen">@import "styles/ls_orange.css";</style>"" },
 			{ "text" : "<title>linkSpheric Installer</title>" },
 			{ "text" : "<p style="text-align: center;"><a href="admin/index.php"><img src="images/ls_logo.png" width="190" height="75" alt="Powered by linkSpheric" /></a></p>" },

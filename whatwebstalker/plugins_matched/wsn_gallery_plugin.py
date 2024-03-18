@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class wsn_gallery_plugin:
+class Pluginwsn_gallery_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>WSN Gallery Admin Login</title>" },
 			{ "text" : "<title>WSN Gallery Administration Panel</title>" },
 			{ "version" : "/<span class="(topbar|group)" style="margin-left: 8px;">WSN Gallery ([\d\.]+) Admin Login<\/span>/", "offset" : "1 },

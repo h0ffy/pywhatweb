@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class vmware_virtualcenter_plugin:
+class Pluginvmware_virtualcenter_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<script type="text/javascript">document.write("<title>" + ID_VC_Welcome + "</title>");</script>" },
 			{ "text" : "<meta name="description" content="VMware vSphere is virtual infrastructure software for partitioning", "consolidating and managing systems in mission-critical environments. VMware ESX Server provides a highly scalable platform with advanced resource management capabilities", "which can be managed by vSphere.">" },
 			{ "url" : "/en/welcomeRes.js", "version" : "/var ID_VC_Welcome = "Welcome to VMware vSphere ([^\s^\"]+)";/" },

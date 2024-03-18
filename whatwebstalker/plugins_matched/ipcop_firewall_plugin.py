@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ipcop_firewall_plugin:
+class Pluginipcop_firewall_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "    <title>IPCop - Main page</title>" },
 			{ "text" : "    <style type="text/css">@import url(/include/ipcop.css);</style>'},
 			{ "text" : "	<td valign='bottom'><a href='http://sf.net/projects/ipcop/' target='_blank'><img src='/images/sflogo.png' width='88' height='31' alt='Sourceforge logo' /></a></td>" },

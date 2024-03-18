@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class contentxxl_plugin:
+class Plugincontentxxl_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<meta name="generator" content="contentXXL Business Content Management System  ([^\(]+)\([^\)]+\) \/ contentXXL International GmbH \/ www.contentxxl.de" [\/]?>/" },
 			{ "string" : /<meta name="generator" content="contentXXL Business Content Management System  [^\(]+\(([^\)]+)", "[^,^>]+", "(Release|Debug)\) \/ contentXXL International GmbH \/ www.contentxxl.de" [\/]?>/" },
 		]

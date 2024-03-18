@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class apache_wicket_plugin:
+class Pluginapache_wicket_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "ghdb" : "inurl:"wicket:bookmarkablePage=:"" },
 		]
 

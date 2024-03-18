@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class telerik_plugin:
+class Plugintelerik_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "type="text/css" rel="stylesheet" class="Telerik_stylesheet" />" },
 			{ "regexp" : "/\$create\(Telerik\.Web\.UI\.Rad[a-zA-Z]+,/" },
 			{ "regexp" : "/(src|href)="\/(Telerik.Web.UI.)?WebResource.axd\?/" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class pixel_ads_script_plugin:
+class Pluginpixel_ads_script_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<a href="index.php?magnify=1">Magnifier On</a></div>" },
 			{ "text" : "<a href="index.php?magnify=1">Zoom On</a></div>" },
 			{ "text" : "  <title>Pixel Ads Script</title>" },

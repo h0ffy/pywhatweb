@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class dolphin_plugin:
+class Plugindolphin_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>Dolphin Log In</title>" },
 			{ "text" : "<td><input name="PHP_AUTH_PW" type="password"></td>" },
 			{ "text" : "<td NOWRAP><input name="PHP_AUTH_USER" type="text"></td>" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class dd_wrt_plugin:
+class Plugindd_wrt_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/images/favicon.ico", "md5" : "9c003f40e63df95a2b844c6b61448310" },
 			{ "url" : "/style/logo.png", "md5" : "4ec5945774160eb5db079e509a67a20e" },
 			{ "text" : "<link type="text/css" rel="stylesheet" href="style/pwc/ddwrt.css" />" },

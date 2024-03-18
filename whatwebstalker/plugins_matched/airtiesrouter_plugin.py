@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class airtiesrouter_plugin:
+class Pluginairtiesrouter_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<title>Airties ([^<]+)<},
 		]
 

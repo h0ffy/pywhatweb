@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class oracle_primerva_plugin:
+class Pluginoracle_primerva_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "string" : /<!-- @#\$ Copyright Start\s+. 1999 - (20[\d]{2}) Primavera Systems", "Inc\.  All rights reserved\./" },
 			{ "text" : "<!-- use the default style sheet only.... we do not know the users locale at this time -->" },
 			{ "version" : "/<div class="IntroAreaBuildId" id="BuildId">Version ([^,^\s]+", "Build \d+)(&nbsp;)*<\/div>/" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class twonkyserver_plugin:
+class Plugintwonkyserver_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/TwonkyMedia UPnP/" },
 			{ "text" : "<meta name="description" content="TwonkyMedia Digital Home">" },
 			{ "text" : "<td><strong><font color="#294A94" size="2">TwonkyMedia Settings</font></strong></td>" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class gallarific_plugin:
+class Plugingallarific_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta http-equiv="Generator" content="Gallarific" />" },
 			{ "text" : "<!-- popular_grid: output a 4x1 row containing the most viewed photos --><tr> <td colspan="2" class="heading">Most Viewed Photos</td>" },
 			{ "text" : "<!-- recent_grid: output a 4x1 row containing recently uploaded photos --><tr> <td colspan="2" class="heading">Recently Uploaded Photos</td>" },

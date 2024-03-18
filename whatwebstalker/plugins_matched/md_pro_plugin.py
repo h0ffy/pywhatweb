@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class md_pro_plugin:
+class Pluginmd_pro_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<a href="language/eng/dbfail.html" style="text-decoration: none;">MAXdev - Problem in Database Connection: click here to read more...</a>" },
 			{ "text" : "<a href="http://www.maxdev.it" target="_blank">Powered by MAXDev</a>" },
 			{ "regexp" : "/<div class="poweredtext"><a href="javascript:opencredits\(\)">Credit(i|s)<\/a> <a href="http:\/\/www.maxdev(.it|italia.com)">Powered by MAXdev<\/a><\/div>/" },

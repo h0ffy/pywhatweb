@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class thoughtconduit_plugin:
+class Pluginthoughtconduit_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "10", "text" : "<html><body>There has been an error</body></html>" },
 			{ "certainty" : "25", "text" : "<html><head><title>Error</title></head><body>Your request produced an error.</body></html>" },
 			{ "md5" : "6554c90f59823801b2791edff3c3998c" },

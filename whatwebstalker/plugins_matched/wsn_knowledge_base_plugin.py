@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class wsn_knowledge_base_plugin:
+class Pluginwsn_knowledge_base_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>WSN Knowledge Base Admin Login</title>" },
 			{ "text" : "<title>WSN Knowledge Base Administration Panel</title>" },
 			{ "version" : "/<span class="(topbar|group)" style="margin-left: 8px;">WSN Knowledge Base ([^<]+) Admin Login<\/span>/", "offset" : "1 },

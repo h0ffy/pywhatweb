@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class kloxo_single_server_plugin:
+class Pluginkloxo_single_server_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title> HyperVM 2.0 </title>" },
 			{ "text" : "<title> Kloxo </title>" },
 			{ "text" : "<title> Lxadmin </title>" },

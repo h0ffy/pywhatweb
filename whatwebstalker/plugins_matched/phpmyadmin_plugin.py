@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class phpmyadmin_plugin:
+class Pluginphpmyadmin_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "ghdb" : "intitle:phpMyAdmin "Language: Afrikaans" "Welcome to phpMyAdmin"" },
 			{ "version" : "/<title>phpMyAdmin ([^\s^<]+)[^<]*<\/title>/" },
 			{ "version" : "/PMA_VERSION\:"([0-9\.]+)",auth_type},

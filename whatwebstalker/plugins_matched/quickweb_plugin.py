@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class quickweb_plugin:
+class Pluginquickweb_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<HTML><HEAD><TITLE>QWScript Error</TITLE></HEAD>" },
 		]
 

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class d_link_router_plugin:
+class Plugind_link_router_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "model" : "'dgl4100", "md5" : "3cec8fd08dee34f6803db347348e7484", "url" : "/html/images/dgl4100.jpg" },
 			{ "model" : "'dgl4300", "md5" : "20bc166cc050956d9ca3ea21e458c35c", "url" : "/html/images/dgl4300.jpg" },
 			{ "model" : "'di724gu", "md5" : "c606bef069437e9472c4bebc81dbee19", "url" : "/html/images/di724gu.jpg" },

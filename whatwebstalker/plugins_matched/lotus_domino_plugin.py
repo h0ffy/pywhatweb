@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class lotus_domino_plugin:
+class Pluginlotus_domino_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "25", "ghdb" : "filetype:nsf" },
 			{ "search" : "headers[server]", "version" : "/^Lotus-Domino\/([^\s]+)/" },
 			{ "search" : "headers[server]", "regexp" : "/^Lotus-Domino$/" },

@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class whatweb_plugin_plugin:
+class Pluginwhatweb_plugin_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

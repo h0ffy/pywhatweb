@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class parature_plugin:
+class Pluginparature_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "This Website requires your browser to be JavaScript enabled. Please enable JavaScript  and click <a href="/ics/default.asp">here</a> to continue." },
 			{ "string" : /<\!\-\- \*\*\*\*\*\* (PRODAPP[^\s]+) *\*\*\*\*\* \-\->/" },
 			{ "version" : "/<!--<script src="\.\.\/ic1Browser\.js\?ver=([^"]+)"><\/script>-->/" },

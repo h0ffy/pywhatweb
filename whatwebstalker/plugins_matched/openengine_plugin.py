@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class openengine_plugin:
+class Pluginopenengine_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- openEngine Comment START -->" },
 			{ "regexp" : "/<!--\[if lte? IE 7\]>[\s]+<script src="system\/([^\/^>]+\/)*script\/IE7\/ie7-standard-p\.js" type="text\/javascript"><\/script>/" },
 			{ "version" : "/<p class="adminText" style="font-size:9px;">[\s]+openEngine ([^\s]+)( - [\d]+)? - Open Source Web Content Management System<br>/" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class 3dcart_plugin:
+class Plugin3dcart_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!--START: 3dcart stats-->" },
 			{ "text" : "<!--END: 3dcart stats-->" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/3dvisit/" },

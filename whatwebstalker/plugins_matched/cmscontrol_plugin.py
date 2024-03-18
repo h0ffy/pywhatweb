@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class cmscontrol_plugin:
+class Plugincmscontrol_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "ghdb" : "+CMScontrol inurl:"index.php?id_menu="", "certainty" : "25 },
 			{ "regexp" : "/<META name=[\"\']*formatter[\"\']* content=[\"\']*CMScontrol eContent[\"\']*>/i },
 			{ "regexp" : "/<META name=[\"\']*abstract[\"\']* content=[\"\']*CMScontrol[\"\']*>/i },

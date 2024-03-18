@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class jxt_consulting_plugin:
+class Pluginjxt_consulting_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<div id="jxt-popup-wrapper">" },
 			{ "text" : "<!-- Dynamic white label meta content -->" },
 			{ "regexp" : "/Powered by <a href="http:\/\/(www\.)?jxt\.com\.au" target="_blank">JXT Consulting<\/a>/" },

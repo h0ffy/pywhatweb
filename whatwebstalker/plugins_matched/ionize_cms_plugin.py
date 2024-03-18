@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ionize_cms_plugin:
+class Pluginionize_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<div id="version">([\d\.]+) - Ionize CMS - MIT licence<\/div>/" },
 			{ "text" : "<div id="loginWindow" class=" clearfix">" },
 			{ "text" : "<div id="content" class="content" onKeyPress="javascript:doSubmit(event);">" },

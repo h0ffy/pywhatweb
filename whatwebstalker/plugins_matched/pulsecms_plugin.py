@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class pulsecms_plugin:
+class Pluginpulsecms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<img src="img/new-logo.png" alt="Pulse CMS">" },
 			{ "text" : "<input type="password" size="27" name="mpass_pass">" },
 			{ "text" : "<title>Pulse Content Manager</title>" },

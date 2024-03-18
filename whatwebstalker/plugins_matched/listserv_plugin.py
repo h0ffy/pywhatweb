@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class listserv_plugin:
+class Pluginlistserv_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "div.catalist h2 { font-family:times;  font-size:18pt; font-weight: bold; margin-bottom: }" },
 			{ "text" : "_white-space:pre;   /* IE only hack to re-specify in addition to word-wrap  */" },
 			{ "text" : "alt="Powered by the LISTSERV Email List Manager" title="Powered by the LISTSERV Email List Manager" border="0"></a>" },

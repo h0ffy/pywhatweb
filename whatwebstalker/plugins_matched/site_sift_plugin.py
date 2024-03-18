@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class site_sift_plugin:
+class Pluginsite_sift_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "25", "ghdb" : "inurl: "index.php?go=detail id="" },
 			{ "certainty" : "25", "ghdb" : "inurl: "index php go addpage"" },
 			{ "certainty" : "25,"ghdb" : "powered by Site Sift"" },

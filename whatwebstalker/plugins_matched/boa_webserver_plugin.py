@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class boa_webserver_plugin:
+class Pluginboa_webserver_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

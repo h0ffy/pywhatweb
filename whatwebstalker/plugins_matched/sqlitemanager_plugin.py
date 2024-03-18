@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class sqlitemanager_plugin:
+class Pluginsqlitemanager_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- SQLiteFunctionProperties.class.php : propView() -->" },
 			{ "text" : "<!-- common.lib.php : displayMenuTitle() -->" },
 			{ "text" : "<td style="white-space: nowrap">	<form name="database" action="main.php" enctype="multipart/form-data" method="POST" onSubmit="checkPath();" target="main">" },

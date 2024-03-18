@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class kayako_supportsuite_plugin:
+class Pluginkayako_supportsuite_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[set-cookie]", "text" : "SWIFT_client" },
 			{ "text" : " - Powered By Kayako eSupport</title>" },
 			{ "regexp" : "/<span class="smalltext"><font color="#333333">Powered by e(Support|SupportSuite)<br\/>Copyright &copy; 2001-[0-9]{4} Kayako Infotech Ltd.<\/font><\/span><br \/>/" },

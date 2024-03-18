@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class liferay_plugin:
+class Pluginliferay_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "Powered by Liferay Portal", "certainty" : "10 },
 			{ "text" : "<![CDATA[*/Liferay.Util.addInputFocus();/*]]>*" },
 			{ "search" : "headers[liferay-portal]", "string" : /^Liferay Portal (.+ Edition) (.+)$/" },

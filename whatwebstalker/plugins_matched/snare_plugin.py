@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class snare_plugin:
+class Pluginsnare_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^SNARE\/([\d\.]+)$/" },
 			{ "search" : "headers[www-authenticate]", "regexp" : "/Digest realm="SNARE"/" },
 			{ "version" : "/<H2><CENTER>SNARE Version ([\d\.]+) Status Page<\/H2><\/CENTER>/" },

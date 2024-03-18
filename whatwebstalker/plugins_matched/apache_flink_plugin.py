@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class apache_flink_plugin:
+class Pluginapache_flink_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

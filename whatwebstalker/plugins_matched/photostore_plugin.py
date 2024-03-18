@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class photostore_plugin:
+class Pluginphotostore_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "Powered By <a href="http://www.ktools.net/photostore/index.php" title="Sell your photos online with PhotoStore", "online proofing and sales." target="_blank"><u>PhotoStore | Sell Photos Online</u></a> by <a href="http://www.ktools.net" title="Ktools LLC" target="_blank"><u>Ktools.net LLC</u></a>" },
 			{ "text" : "Powered By <a href="http://www.ktools.net/photoshow/index.php" title="Show your photos online with PhotoShow", "an online photo gallery." target="_blank"><u>PhotoShow | Photo Gallery</u></a> by <a href="http://www.ktools.net" title="Ktools LLC" target="_blank"><u>Ktools.net LLC</u></a>" },
 			{ "text" : "<b>Search:</b> <input type="textbox" name="search" class="search_box">" },

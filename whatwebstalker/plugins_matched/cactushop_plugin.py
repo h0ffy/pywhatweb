@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class cactushop_plugin:
+class Plugincactushop_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<select name="numCurrencyID" class="currencymenu" onchange="javascript:document.getElementById(\'currmenuform\').submit();">" },
 			{ "certainty" : "75", "regexp" : "/<!-- MYDEVLICNUM -->/" },
 			{ "version" : "/<!-- CactuShop v\.?([^\s]+) license: [\s]+ -->/" },

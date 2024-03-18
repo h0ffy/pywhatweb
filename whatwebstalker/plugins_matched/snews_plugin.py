@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class snews_plugin:
+class Pluginsnews_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<p>This site is powered by <a href="http://snewscms.com/" title="sNews CMS" onclick="target=\'_blank\';">sNews</a>" },
 			{ "text" : "powered by <a href="http://www.solucija.com/home/snews/" title="sNews">sNews</a>" },
 			{ "text" : "Powered by <a href="http://snews.solucija.com" title="Single file CSS and XHTML valid CMS">sNews</a>" },

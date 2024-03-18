@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class email_plugin:
+class Pluginemail_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

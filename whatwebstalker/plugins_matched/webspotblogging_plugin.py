@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class webspotblogging_plugin:
+class Pluginwebspotblogging_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

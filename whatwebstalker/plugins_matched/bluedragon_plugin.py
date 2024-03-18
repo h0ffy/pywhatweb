@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class bluedragon_plugin:
+class Pluginbluedragon_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

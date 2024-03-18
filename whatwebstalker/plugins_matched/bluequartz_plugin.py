@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class bluequartz_plugin:
+class Pluginbluequartz_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<TITLE>Login - BlueQuartz ([^\s]+) Series - [^<^\s]+<\/TITLE>/" },
 			{ "version" : "'document.write\("\\nThank you for using the BlueQuartz ([^\s]+) Series.\\n"\);" },
 			{ "certainty" : "75", "text" : "<BODY BGCOLOR="#FFFFFF" onLoad="focuslogin()" onResize="if(navigator.appName == \'Netscape\') location.reload()" LINK="#FFFFFF" VLINK="#FFFFFF">" },

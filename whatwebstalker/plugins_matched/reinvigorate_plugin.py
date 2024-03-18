@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class reinvigorate_plugin:
+class Pluginreinvigorate_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "10", "text" : "<!-- Reinvigorate -->" },
 			{ "text" : "<script type="text/javascript" src="http://include.reinvigorate.net/re_.js"></script>" },
 			{ "certainty" : "25", "string" : /reinvigorate\.track\("([a-z\d]{5}-[a-z\d]{10})"\);/" },

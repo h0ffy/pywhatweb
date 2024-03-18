@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class mhttpd_plugin:
+class Pluginmhttpd_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

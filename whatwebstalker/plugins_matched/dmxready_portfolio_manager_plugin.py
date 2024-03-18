@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class dmxready_portfolio_manager_plugin:
+class Plugindmxready_portfolio_manager_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<link href="/css/PortfolioManager/styles_display_page.css" rel="stylesheet" type="text/css">" },
 			{ "text" : "<a href=\"javascript:;\" class=\"menu_linkB\" onClick=\"window.open('/applications/PortfolioManager/components/inc_slideshowmanager.asp?index=0','send','toolbar=no,location=no,status=yes,menubar=no,copyhistory=yes,scrollbars=yes,width=700,height=520')\">" },
 			{ "text" : "<input name="rememberme_portfoliomanager" type="checkbox"  id="rememberme_portfoliomanager"   value="yes">" },

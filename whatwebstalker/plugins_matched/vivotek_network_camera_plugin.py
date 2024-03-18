@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class vivotek_network_camera_plugin:
+class Pluginvivotek_network_camera_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/main.html", "text" : "<div id="logo_icon"><a href="http://www.vivotek.com/" target="_blank"><img alt="logo" src="pic/logo.gif"></a></div>" },
 			{ "certainty" : "25", "regexp" : "/<frameset rows="2000,0" border="0" frameborder="no" framespacing="0">[\s]+<frame name="mainframe" src="main\.html" marginheight="0" marginwidth="0">/" },
 			{ "certainty" : "25", "search" : "headers[server]", "regexp" : "/^(Network Camera|Network Dome Camera|Network Camera with Pan\/Tilt|Wireless Network Camera)$/" },

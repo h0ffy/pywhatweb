@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class keyfocus_webserver_plugin:
+class Pluginkeyfocus_webserver_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^KFWebServer$/" },
 			{ "search" : "headers[server]", "version" : "/^KFWebServer\/([\d\.]+)/" },
 		]

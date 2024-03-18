@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class imageview_plugin:
+class Pluginimageview_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<td (width="160"|rowspan="2")><iframe allowtransparency="yes" frameborder="0" height="100%" width="100%" scrolling="auto" title="(frmcontent|frmlist)" name="(frmcontent|frmlist)" src="albumlist.php\?album=[^"]*"><\/iframe><\/td>/" },
 			{ "certainty" : "25", "text" : "<meta name="author" content="Jorge Schrauwen" />" },
 			{ "text" : "<frame src="preload.php" name="frImageview" id="frImageview" />" },

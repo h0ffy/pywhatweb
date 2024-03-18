@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class sony_projector_plugin:
+class Pluginsony_projector_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/", "text" : "<BODY onLoad="setWindowTitle();showIndex();">" },
 			{ "url" : "/", "text" : "<form Action="/Forms/index_1" method="post"  NAME="form1">" },
 			{ "url" : "/", "text" : "<script type="text/javascript" src="sonylogoJS.js"></script>" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class netsweeper_plugin:
+class Pluginnetsweeper_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<DIV id="overDiv" style="position:absolute; visibility:hidden; z-index:104;"></DIV>" },
 			{ "text" : "<div id="overDiv" style="position:absolute; visibility:hidden; z-index:104;"></div>" },
 			{ "text" : "<!-- Body of content starts here -->" },

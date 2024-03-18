@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class winmail_server_plugin:
+class Pluginwinmail_server_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>WebMail | Powered by Winmail Server - Login</title>" },
 			{ "text" : "<title>Web Administration | Powered by Winmail Server - Login</title>" },
 			{ "text" : "<td class=default>&nbsp;<input type=password name=f_password size=30 maxlength=64 onkeyup="javascript: EvalPwd(this.value);" onchange="javascript: EvalPwd(this.value);" class="textbox"><font color=#ff0000>*</font></td>" },

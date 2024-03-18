@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class cm3_cms_plugin:
+class Plugincm3_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "name" : "JavaScript Object (CM2)',"text" : "top.cm2_home.location.href'},
 			{ "name" : "HTML Body (CM2)',"text" : "name="cm2_top" id="cm2_top"'},
 			{ "name" : "HTML Body (CM2)',"text" : "name="cm25_main"'},

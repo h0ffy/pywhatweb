@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class novell_netware_plugin:
+class Pluginnovell_netware_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "</HEAD><BODY><font size=+2><p>Unauthorized!</font><font size=+1><p>Please login using a full NDS name and context (example: .user.engineering.acme_corp.)</font></BODY></HTML>" },
 			{ "regexp" : "/<TITLE>NetWare Server [^<]+<\/TITLE><LINK REL=stylesheet TYPE=text\/css HREF=\/SYS\/LOGIN\/portal\.css>/" },
 			{ "text" : "<APPLET CODE=NWSHealth.class NAME="NWServerHealth" CODEBASE=/SYS/Login width=38 height=99>" },

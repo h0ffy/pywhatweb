@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class elite_gaming_ladders_plugin:
+class Pluginelite_gaming_ladders_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "ghdb" : "inurl:"ladders.php?platform=" "Powered by Elite Gaming Ladders"" },
 			{ "md5" : "ac60e7f75ff832cc7e0bab5eee67e008" },
 			{ "text" : "<!-- DO NOT EDIT ABOVE THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOIN - END -->" },

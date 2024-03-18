@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class activehtml_plugin:
+class Pluginactivehtml_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

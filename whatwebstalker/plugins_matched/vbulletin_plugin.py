@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class vbulletin_plugin:
+class Pluginvbulletin_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "ghdb" : "Powered by vBulletin" inurl:newreply.php'},
 			{ "certainty" : "75", "regexp" : "/\* vBulletin [0-9a-z.]+ CSS},
 			{ "name" : "vbulletin_global.js", "regexp" : "/<script type="text\/javascript" src="[a-z0-9.\/]*vbulletin_global.js},

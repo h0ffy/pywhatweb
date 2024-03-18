@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class bab.stats_plugin:
+class Pluginbab.stats_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta NAME="Author" CONTENT="Bab.Stats Team">" },
 			{ "certainty" : "25", "regexp" : "/<title>[^:]+ :: [^:]+ :: Powered by BAB.stats<\/title>/" },
 			{ "version" : "/Powered by BAB.Stats :: <a href="index.php\?action=about&bms=" onmouseover="doTooltip\(event", "'About BaB.Stats'\)" onmouseout="hideTip\(\)">BabStats v([\d\.]+)<\/a>/" },

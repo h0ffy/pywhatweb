@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class awstats_plugin:
+class Pluginawstats_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "ghdb" : "inurl:awstats ext:pl +intitle:"Statistics for"'},
 			{ "text" : "<a href="http://awstats.sourceforge.net" target="_newawstats">Created by awstats</a><br>'},
 			{ "text" : "<meta http-equiv="description" content="Awstats - Advanced Web Statistics for'},

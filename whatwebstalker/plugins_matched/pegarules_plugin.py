@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class pegarules_plugin:
+class Pluginpegarules_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "name" : "cookie',"search" : "headers[set-cookie]","text" : "Pega-RULES"},
 			{ "name" : "title", "text" : "<title> Welcome to PegaRULES </title>" },
 			{ "name" : "copyright footer',"regexp" : "/<span>[^<]+Copyright[^<]+Pegasystems Inc/m},

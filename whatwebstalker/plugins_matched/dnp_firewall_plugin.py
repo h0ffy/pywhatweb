@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class dnp_firewall_plugin:
+class Plugindnp_firewall_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>Forum Gateway - Powered by DnP Firewall</title>" },
 			{ "text" : "	<form name=dnp_firewall method=get action=dnp_fw.php" },
 			{ "text" : "<input type=submit value=" " alt="Click to continue to your destination" style="background-image:url(default.jpg); height:444px; width:635px; cursor:pointer; border-width:0px;"> '},

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class sx_webserver_plugin:
+class Pluginsx_webserver_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "status" : "400", "text" : "<head></head><body><html><h1>Error 400</h1><p>The server couldn't understand your request.</html></body>\r\n" },
 			{ "status" : "403", "text" : "<head></head><body><html><h1>Error 403</h1><p>Forbidden.</html></body>\r\n" },
 			{ "status" : "404", "text" : "<head></head><body><html><h1>Error 404</h1><p>Document not found.</html></body>\r\n" },

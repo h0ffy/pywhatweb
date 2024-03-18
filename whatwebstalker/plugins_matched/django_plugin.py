@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class django_plugin:
+class Plugindjango_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "25", "search" : "headers[server]", "regexp" : "/^WSGIServer\/[^\s]+ Python\/[^\s]+$/" },
 			{ "regexp" : "/<div id="explanation">[\s]+<p>[\s]+You're seeing this error because you have <code>DEBUG = True<\/code> in[\s]+your[\s]+Django settings file/" },
 			{ "url" : "/doesnotexist123highwaytothedangerzone", "string" : /<p>[\s]+Using the URLconf defined in <code>([^\.^\s]+)\.urls<\/code>,[\s]+Django tried these URL patterns", "in this order:/" },

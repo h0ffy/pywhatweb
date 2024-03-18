@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class advanced_image_hosting_script_plugin:
+class Pluginadvanced_image_hosting_script_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "  .title                          { font-size: 10px; font-weight: bold; line-height: 150%; color: #FFFFFF; height: 26px; background-image: url(./tile_back.gif) }" },
 			{ "text" : "    <td colspan=2 align=center><h3>Advanced Image Host Script</h3></td>" },
 			{ "version" : "/Powered by: <B><a href="http:\/\/yabsoft.com">AIH v([\d\.]+)<\/a><\/B>/" },

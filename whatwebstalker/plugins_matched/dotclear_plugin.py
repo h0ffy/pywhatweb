@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class dotclear_plugin:
+class Plugindotclear_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<p>Powered by <a href="http://dotclear.org/">Dotclear</a></p>" },
 			{ "text" : "<!-- End #d-content -->" },
 			{ "text" : "<!-- End #blogextra -->" },

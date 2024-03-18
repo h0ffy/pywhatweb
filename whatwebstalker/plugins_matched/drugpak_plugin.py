@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class drugpak_plugin:
+class Plugindrugpak_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<LINK REL=StyleSheet HREF="<#imagepath>/<#_style1 default=dpstyle.css>" TYPE="text/css" MEDIA=screen>" },
 			{ "certainty" : "25", "text" : "<!--Assist making SSL connection-->" },
 			{ "text" : "<hr>Powered by DrugPak</body>" },

@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class axel_device_plugin:
+class Pluginaxel_device_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

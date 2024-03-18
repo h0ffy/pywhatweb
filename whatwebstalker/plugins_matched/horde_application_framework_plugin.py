@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class horde_application_framework_plugin:
+class Pluginhorde_application_framework_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "title="This site is powered by The Horde Application Framework." href="http://horde.org">" },
 			{ "text" : "Powered by </font><a href="http://www.horde.org/" TARGET=_blank>" },
 			{ "text" : "<!-- IMP: Copyright 2001-2006", "The Horde Project. IMP is under the GPL. -->" },

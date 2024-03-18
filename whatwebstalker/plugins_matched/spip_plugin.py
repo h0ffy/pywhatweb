@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class spip_plugin:
+class Pluginspip_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<div class="formulaire_spip formulaire_recherche"" },
 			{ "version" : "/<meta name="generator" content="SPIP ([^\s]+) \[[\d]+\]"( \/)?>/" },
 			{ "search" : "headers[composed-by]", "version" : "/SPIP ([^@]{1,10}) @ www\.spip\.net/" },

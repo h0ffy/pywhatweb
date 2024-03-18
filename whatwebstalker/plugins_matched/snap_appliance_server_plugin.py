@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class snap_appliance_server_plugin:
+class Pluginsnap_appliance_server_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "string" : /<TITLE>Snap Server ([^\s]+) \[[^\]]+\]<\/TITLE>/" },
 			{ "string" : /<HTML><HEAD><TITLE>About Snap Server ([^\s]+)<\/TITLE><\/HEAD>/" },
 			{ "text" : "<A HREF="http://www.snapappliance.com/support" TARGET="new"><IMG SRC="/config/resource/Tech.gif"  ALIGN="TOP" NATURALSIZEFLAG="3" BORDER="0" ALT="></A> '},

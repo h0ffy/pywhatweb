@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class netwin_dbabble_plugin:
+class Pluginnetwin_dbabble_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/^DBabble ([^Server]+)Server Version ([^\ ]+) /", "offset" : "1 },
 			{ "version" : "/^DBabble ([^Server]+)Server Version ([^\(]+)\(/" },
 			{ "text" : "<title>DBabble login</title>" },

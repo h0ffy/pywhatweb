@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class zoneminder_plugin:
+class Pluginzoneminder_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "md5" : "e07c0775523271d629035dc8921dffc7", "url" : "/graphics/favicon.ico" },
 			{ "text" : "<tr><td colspan="2" class="smallhead" align="center">ZoneMinder Login</td></tr>" },
 			{ "string" : /<div id="monitorSummary"><a href="\?view=groups" onclick="createPopup\( '\?view=groups", "'zmGroups", "'groups' \); return\( false \);">([\d]+ Monitors)<\/a><\/div>/" },

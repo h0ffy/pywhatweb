@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class multipowupload_plugin:
+class Pluginmultipowupload_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "Upload result:<br><pre>No files sent. Script is OK!Here is some more debugging info:Array" },
 			{ "version" : "/		<title>Element-It MultiPowUpload ([\d\.]+) Examples<\/title>/" },
 			{ "version" : "/		<h2>Element-<font color="#de0000">It<\/font> MultiPowUpload ([\d\.]+) Examples<\/h2>/" },

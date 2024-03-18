@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class my_webcamxp_server_plugin:
+class Pluginmy_webcamxp_server_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<html><head><title>my webcamXP server!</title>" },
 			{ "text" : "			<h1><span>webcamXP 5</span></h1>" },
 			{ "text" : "newWindow = window.open(camstr", "winstr", "'toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=' + width + ',height=' + height);" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class phpcityportal_plugin:
+class Pluginphpcityportal_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "text" : "<meta name="author" content="Cr8Soft" />" },
 			{ "text" : "<center><a href="http://phpcityportal.com">Powered by PHPCityPortal.com</a></center><p>" },
 			{ "text" : "<center><a href="http://www.phpcityportal.com/index.php">Powered by PHPCityPortal.com</a></center>" },

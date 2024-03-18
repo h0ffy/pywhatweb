@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class kibana_plugin:
+class Pluginkibana_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[x-app-name]", "regexp" : "/^kibana$/" },
 			{ "text" : "<body kibana ng-class" },
 			{ "version" : "/<script>\s+window\.KIBANA_VERSION='([\d\.]+)';\s+window\.KIBANA_BUILD_NUM='[\d]+';/" },

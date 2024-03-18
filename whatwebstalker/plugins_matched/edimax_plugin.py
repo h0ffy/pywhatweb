@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class edimax_plugin:
+class Pluginedimax_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>EDIMAX Technology</title>", "certainty" : "75 },
 			{ "text" : "<title>Access Point Status</title>", "url" : "/stainfo.asp" },
 			{ "md5" : "9691c1bcac34138f8245d95e2e003e55", "url" : "/images/banner_up_03.jpg" },

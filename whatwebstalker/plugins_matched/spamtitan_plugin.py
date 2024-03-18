@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class spamtitan_plugin:
+class Pluginspamtitan_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/imgs/logo.gif", "md5" : "ab662b52fe52fa13aa13574efa7f490f" },
 			{ "url" : "/imgs/favicon.ico", "md5" : "f9015ac89e34faefe9b4df73901462d9" },
 			{ "regexp" : "/<link rel="stylesheet" type="text\/css" href="\/?styles\/spamtitan(\.[\d]{10})?\.css" title="SpamTitanCSS2">/" },

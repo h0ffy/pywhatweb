@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class jetty_plugin:
+class Pluginjetty_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "version" : "/^Jetty(\/|\()([^\s^\)]+)/", "offset" : "1 },
 			{ "search" : "headers[servlet-engine]", "module" : /^(Jetty\/[^\s]+)/" },
 			{ "url" : "/", "text" : "<A HREF="http://jetty.mortbay.org"><IMG SRC="jetty_banner.gif"></A>" },

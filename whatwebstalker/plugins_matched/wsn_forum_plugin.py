@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class wsn_forum_plugin:
+class Pluginwsn_forum_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>WSN Forum Admin Login</title>" },
 			{ "text" : "<title>WSN Forum Administration Panel</title>" },
 			{ "version" : "/<span class="(topbar|group)" style="margin-left: 8px;">WSN Forum ([^<]+) Admin Login<\/span>/", "offset" : "1 },

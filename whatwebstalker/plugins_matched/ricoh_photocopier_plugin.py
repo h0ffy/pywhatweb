@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ricoh_photocopier_plugin:
+class Pluginricoh_photocopier_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:url(/images/settingDivision.gif) repeat-x bottom;">" },
 			{ "text" : "<meta http-equiv="refresh" content="1; URL=/web/guest/en/websys/webArch/message.cgi?messageID=MSG_JAVASCRIPTOFF&buttonURL=/../../../">" },
 			{ "url" : "/web/guest/en/websys/webArch/header.cgi", "model" : "/<span class="modelName">([^<]+)<\/span>/" },

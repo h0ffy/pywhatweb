@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class zend_plugin:
+class Pluginzend_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "name" : "GHDB: "Powered by Zend Framework"',"certainty" : "75,"ghdb" : "Powered by Zend Framework"'},
 			{ "string" : "PoweredBy Image',"url" : "images/PoweredBy_ZF.gif',"md5" : "eecf384879cde19f8f7f80c768c12295'},
 			{ "string" : "Zend Logo Small',"url" : "images/logo_small.gif',"md5" : "0f76017aa12a3dcb9cabbff26e37ff5c'},

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class openfiler_plugin:
+class Pluginopenfiler_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/uptime.html", "text" : "<div id="uptimeDiv" class="uptimeDiv"><span style="line-height: 10px;" id="uptimeData"></span> </div></body>" },
 			{ "url" : "/uptime.html", "text" : "<body bgcolor="#4c555a" style="margin: 0; padding: 0" onload="getSysUptime()">" },
 			{ "version" : "/<div><p style="font-size: 90%; color: #aaa; line-height: 14px;"><strong>Distro Release:&nbsp;<\/strong>Openfiler [EN]SA ([^\s]+)/" },

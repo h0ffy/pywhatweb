@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class arris_touchstone_router_plugin:
+class Pluginarris_touchstone_router_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "25", "search" : "headers[server]", "regexp" : "/^NET-DK\/[\d\.]+$/" },
 			{ "url" : "/logo_t.gif", "md5" : "634c757842b122c6cd4458051ab0ed12" },
 			{ "regexp" : "/<br><center>&#169 Copyright (2004-)?20[\d]{2}", "ARRIS Group", "Inc\.", "All rights reserved\.<\/center><\/BODY><\/HTML>/" },

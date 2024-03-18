@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class beef_plugin:
+class Pluginbeef_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<img src="../images/beef.gif" onclick="new Effect.Shake(\'sidebar\');"></div> BeEF</h1>" },
 			{ "certainty" : "75", "text" : "<title>Browser Exploitation Framework</title>" },
 			{ "regexp" : "/<script[^>]+src=['"]?[^>^="'^"]+\/hook\/beefmagic\.js\.php['"]?/", "certainty" : "75", "string" : "Hook" },

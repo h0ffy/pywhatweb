@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class apache_struts_plugin:
+class Pluginapache_struts_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[set-cookie]", "regexp" : "/org\.apache\.struts\.action\.LOCALE=[^\s]+;/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/org\.apache\.struts\.[^\s]+=[^\s]+;/", "certainty" : "75 },
 			{ "search" : "body", "regexp" : "/<a\s+href=[^>]+org.apache.struts},

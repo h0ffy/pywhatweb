@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class aruba_device_plugin:
+class Pluginaruba_device_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "string" : /<\/noscript>[\s]+<div id="system-info">[\s]+<ul>[\s]+<li>System Name : ([^<]+)<\/li>/" },
 			{ "regexp" : "/<img src="\/images\/arubalogo\.gif" width="200" height="51"[\s]+alt="Aruba( Wireless)? Networks" title="Aruba( Wireless)? Networks"\/>/" },
 			{ "text" : "<form id="login-form" method="post" autocomplete="off" action="/screens/wms/wms.login">" },

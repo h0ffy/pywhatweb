@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class dorg_plugin:
+class Plugindorg_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<p>Powered by <a href="http://www.discorganizer.org">DORG</a>" },
 			{ "text" : "<title>DORG - Disc Organization System</title>" },
 			{ "text" : "<title>DORG - admin panel</title>" },

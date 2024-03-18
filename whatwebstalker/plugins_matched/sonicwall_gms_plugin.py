@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class sonicwall_gms_plugin:
+class Pluginsonicwall_gms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<TITLE>SonicWALL Global Management System Version ([^\s^<])[\s]?<\/TITLE>/" },
 			{ "version" : "/<P><B>SonicWALL Global Management System v([^\s^<]+)/" },
 			{ "version" : "/<TITLE>SonicWALL Universal Management Suite v([^\s^<]+)<\/TITLE>/" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ibm_bladecenter_plugin:
+class Pluginibm_bladecenter_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/shared/ibmbch.png", "md5" : "c24b87d43f33783193e98ac25fd016ee" },
 			{ "url" : "/shared/ibmbcs.png", "md5" : "f4f76aeba5ba885fac1d4e5bbe535f0f" },
 			{ "string" : /<h1><img src="\/shared\/ibmbc[^\s^\.]+\.png" alt="IBM BladeCenter ([^\s^"]+) Advanced Management Module" border="0" \/><\/h1>/" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class mediawiki_plugin:
+class Pluginmediawiki_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "alt="Powered by MediaWiki"" },
 			{ "certainty" : "75", "ghdb" : "inurl:wiki MediaWiki" },
 			{ "version" : "/<meta name="generator" content="MediaWiki ([^\s^"]+)" \/>/" },

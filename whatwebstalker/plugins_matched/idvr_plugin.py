@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class idvr_plugin:
+class Pluginidvr_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>iDVR</title>" },
 			{ "regexp" : "/	  	'	  codebase="http:\/\/' + szDomainFull + '\/NSIDVRCtrlX.ocx#version=[\d]{1},[\d]{1},[\d]{1},[\d]{1}"\n'\+/" },
 			{ "text" : "		\'	  classid="clsid:16A017B9-6CB4-47C7-8E81-6E9396FAC2B6"\\n\' +" },

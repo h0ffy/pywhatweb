@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class spinetix_hyper_media_player_plugin:
+class Pluginspinetix_hyper_media_player_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<title>HMP100 #[0-9a-z]*: Status<\/title>/", "model" : "HMP100", "string" : "Admin" },
 			{ "text" : "<h1>SpinetiX HMP100 Web Access</h1></div>", "model" : "HMP100", "string" : "Admin" },
 			{ "text" : "<img src='images/device_hmp100.jpg' width='550' height='323' alt='SpinetiX HMP100' usemap='#advancedMap'/>", "model" : "HMP100", "string" : "Admin" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class bentley_systems_projectwise_plugin:
+class Pluginbentley_systems_projectwise_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "</title><meta http-equiv="X-UA-Compatible" content="IE=8" /><link rel="shortcut icon" href="ProjectWise.ico" />" },
 			{ "regexp" : "/<title>\s+ProjectWise Web Server\s+<\/title>/" },
 			{ "certainty" : "75", "text" : "<!-- Initially invisible login form -->" },

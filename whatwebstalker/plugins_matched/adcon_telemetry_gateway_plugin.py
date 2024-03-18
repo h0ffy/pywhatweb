@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class adcon_telemetry_gateway_plugin:
+class Pluginadcon_telemetry_gateway_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "string" : /^addUPI (Server [^\s]+)/" },
 			{ "search" : "headers[server]", "module" : /^addUPI Server [^\s]+ \+(SSL)/" },
 			{ "url" : "/mainpicture.jpeg", "md5" : "1e051ae64434f4092dc98774ff592406" },

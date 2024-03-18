@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class articlepublisherpro_plugin:
+class Pluginarticlepublisherpro_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<script>location.replace("./admin.php?showlogin");</script>" },
 			{ "text" : "<title>Article Publisher PRO Administrator Control Panel</title>" },
 			{ "text" : "<img src="/images/logo_app.gif"></div></td><td width="60%"><div id="title" class="column">Admin Control Panel</div></td>" },

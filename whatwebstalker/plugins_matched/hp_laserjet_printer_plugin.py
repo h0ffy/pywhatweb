@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class hp_laserjet_printer_plugin:
+class Pluginhp_laserjet_printer_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<img src="images/logo.gif" alt="Click this Hewlett-Packard logo to open a new browser window", "which takes you to the external HP.com Web site." /></a>" },
 			{ "text" : "<a href="#skipnavigation" title="Jump to main content. Please activate this if you would like to skip the navigation and jump directly to the main content."></a><a href="http://www.hp.com" onclick="target = new Date().valueOf().toString(); if (window.open) window.open(\'http://www.hp.com\',target,\'resizable=yes,scrollbars=yes,menubar=yes,location=yes,toolbar=yes,status=yes\'); return false;" title="Go to HP corporate web site: external link">" },
 			{ "text" : "HP 9250C Digital Sender Series</title>", "model" : "9250C Digital Sender" },

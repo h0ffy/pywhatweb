@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class index_of_plugin:
+class Pluginindex_of_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>Index of /" },
 			{ "certainty" : "75", "ghdb" : "name "last modified" size description" },
 			{ "text" : "<a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a>" },

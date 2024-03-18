@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class wpquiz_plugin:
+class Pluginwpquiz_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<title>[^>]*>> [Register|Login]+ - wp[q|Q]+uiz<\/title>/" },
 		]
 

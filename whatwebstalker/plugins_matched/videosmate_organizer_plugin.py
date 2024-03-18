@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class videosmate_organizer_plugin:
+class Pluginvideosmate_organizer_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "</div> <!-- /content-in -->" },
 			{ "text" : "<!-- script Downloaded from http://videosmate.com -->" },
 			{ "string" : /<!--Copyright (20[\d]{2}),Videosmate Organizer[\s]+Downloaded from http:\/\/videosmate\.com/" },

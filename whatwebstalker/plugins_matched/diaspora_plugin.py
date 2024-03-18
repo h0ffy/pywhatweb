@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class diaspora_plugin:
+class Plugindiaspora_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[set-cookie]", "regexp" : "/_diaspora_session=/" },
 			{ "search" : "headers[x-git-update]", "string" : /^([\d]{4}-[\d]{2}-[\d]{2} [\d]{2}:[\d]{2}:[\d]{2} .+)$/" },
 			{ "search" : "headers[x-git-revision]", "regexp" : "/^[a-f\d]{32}$/" },

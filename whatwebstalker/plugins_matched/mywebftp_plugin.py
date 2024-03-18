@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class mywebftp_plugin:
+class Pluginmywebftp_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "text" : "<TITLE>MyWebFTP</TITLE>" },
 			{ "text" : "<FORM METHOD=post NAME="mwForm" ENCTYPE="multipart/form-data" ACTION="" },
 			{ "version" : "/^<P><B>MyWebFTP (Hoster|Free)<\/B> Version ([\d\.]+)/", "offset" : "1 },

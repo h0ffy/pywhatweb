@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class eticket_plugin:
+class Plugineticket_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<td><a href="(http:\/\/)?www\.eticketsupport\.com" target="_blank">Powered by eTicket<\/a><\/td>/" },
 			{ "text" : "<div class="pre-footer">Support Ticket System</div>" },
 			{ "text" : "<link rel="stylesheet" href="themes/eticket/style.css" type="text/css">" },

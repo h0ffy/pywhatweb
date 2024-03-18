@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ultrastats_plugin:
+class Pluginultrastats_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<DIV align=center>Powered by Ultrastats" },
 			{ "text" : "<img src="./images/main/ultrastatslogo.png" width="300" height="200" name="ultrastats_logo" align="center">" },
 			{ "regexp" : "/<title>Ultrastats :: [^<]+<\/title>/i },

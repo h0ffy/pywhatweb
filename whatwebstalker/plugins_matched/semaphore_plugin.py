@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class semaphore_plugin:
+class Pluginsemaphore_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "ghdb" : "Powered by Semaphore" inurl:semaphoreserver.exe filetype:exe" },
 			{ "text" : "<html><head><title>Semaphore server Error</title></head><body>" },
 			{ "text" : "<!-- Display the "Powered by Semaphore" logo -->" },

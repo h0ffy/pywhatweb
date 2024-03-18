@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class cpanel_plugin:
+class Plugincpanel_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>cPanel&reg;</title>" },
 			{ "text" : "<div id="footer_images"><img src="sys_cpanel/images/powered_by.gif" />" },
 			{ "text" : "Apache is working on your cPanel<sup>&reg;</sup> and WHM&#8482; Server" },

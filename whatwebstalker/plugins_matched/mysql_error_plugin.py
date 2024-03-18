@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class mysql_error_plugin:
+class Pluginmysql_error_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '|You have an error in your SQL syntax near '/", "certainty" : "25 },
 			{ "text" : "Connessione non riuscita: Can't connect to local MySQL server through socket ", "certainty" : "25 },
 			{ "text" : "<b>Warning</b>:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket" },

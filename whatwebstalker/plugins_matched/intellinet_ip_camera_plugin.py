@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class intellinet_ip_camera_plugin:
+class Pluginintellinet_ip_camera_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "    <font size="4" color="#FFFFFF" face="Arial">NETWORK IP CAMERA<br>" },
 			{ "text" : "<TITLE>::::: INTELLINET IP Camera Homepage :::::</TITLE>" },
 			{ "text" : "<title>::::: INTELLINET ACTIVE NETWORKING Network IP Camera Homepage :::::</title>" },

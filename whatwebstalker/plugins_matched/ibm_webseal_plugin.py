@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ibm_webseal_plugin:
+class Pluginibm_webseal_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "version" : "/^WebSEAL\/([^\s]+ \(Build \d+\))/" },
 		]
 

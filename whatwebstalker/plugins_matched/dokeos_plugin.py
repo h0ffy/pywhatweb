@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class dokeos_plugin:
+class Plugindokeos_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "25", "text" : "<ul id="dokeostabs">" },
 			{ "text" : "<!-- start of #main wrapper for #content and #menu divs -->" },
 			{ "certainty" : "75", "text" : "<link href="http://www.dokeos.com/documentation.php" rel="Help" />" },

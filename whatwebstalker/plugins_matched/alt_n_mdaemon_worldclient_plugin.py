@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class alt_n_mdaemon_worldclient_plugin:
+class Pluginalt_n_mdaemon_worldclient_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<div id="biglogo" align="center"><img src="LookOut/biglogo.gif" alt="WorldClient" /></div>" },
 			{ "text" : "<form action="/WorldClient.dll?View=Main" target="_top" method="post" onsubmit="document.getElementById(\'Logon\').disabled=true;">" },
 			{ "text" : "<form action="/WorldClient.dll?View=Main" target="_top" method="post">" },

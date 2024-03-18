@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class urlrewriter.net_plugin:
+class Pluginurlrewriter.net_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[x-powered-by]", "version" : "/UrlRewriter\.NET ([^\s]+)/" },
 		]
 

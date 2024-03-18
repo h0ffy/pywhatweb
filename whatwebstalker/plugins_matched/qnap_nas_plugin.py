@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class qnap_nas_plugin:
+class Pluginqnap_nas_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "ghdb" : "inurl:"Qmultimedia/cgi-bin/thumb_index.cgi" filetype:cgi", "module" : "Multimedia Station" },
 			{ "text" : "<title>QNAP Photo Station</title>", "module" : "Photo Station" },
 			{ "text" : "<title>QNAP Download Station</title>", "module" : "Download Station" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class processmaker_plugin:
+class Pluginprocessmaker_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<div class="x-pm-footer-text">\s+ProcessMaker Ver\. ([^\s]+)<br\/>/" },
 			{ "text" : "<div class="companyLogo"><img src="/images/processmaker2.logo2.png"/></div>" },
 			{ "text" : "<a href="http://www.processmaker.com" alt="Powered by ProcessMaker - Open Source Workflow & Business Process Management (BPM) Management Software" title="Powered by ProcessMaker" target="_blank">" },

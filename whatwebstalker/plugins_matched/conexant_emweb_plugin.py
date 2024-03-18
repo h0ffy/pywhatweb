@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class conexant_emweb_plugin:
+class Pluginconexant_emweb_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<table border="1" cellpadding="0" cellspacing="0" scrolling="no" style="border-collapse: collapse"bordercolor="#FFFFFF" width="80%">", "status" : "401 },
 			{ "text" : "<title>Flexor 151 Home</title>", "model" : "Flexor 151" },
 			{ "text" : "<td><b>Flexor 151</b> is connected and working properly", "for more information", "model" : "Flexor 151" },

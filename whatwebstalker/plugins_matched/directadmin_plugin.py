@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class directadmin_plugin:
+class Plugindirectadmin_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<td class=listtitle colspan=2>Please enter your Username and Password</td></tr>" },
 			{ "text" : "<title>DirectAdmin Login</title>" },
 			{ "text" : "*{ FONT-SIZE: 8pt; FONT-FAMILY: verdana; } b { FONT-WEIGHT: bold; } .listtitle { BACKGROUND: #425984; COLOR: #EEEEEE; white-space: nowrap; } td.list { BACKGROUND: #EEEEEE; white-space: nowrap; } </style>" },

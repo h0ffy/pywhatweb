@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class machttp_plugin:
+class Pluginmachttp_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

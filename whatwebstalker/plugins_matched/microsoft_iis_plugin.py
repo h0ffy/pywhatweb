@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class microsoft_iis_plugin:
+class Pluginmicrosoft_iis_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<html><head><title>Site Not Found</title></head>.<body>No web site is configured at this address.</body></html>", "module" : "Site Not Found" },
 			{ "text" : "<id id="Comment1"><!--Problem--></id><id id="errorText">Under Construction</id></h1>", "module" : "Under Construction" },
 			{ "text" : "<P ID=Comment1><!--Problem--><P ID="errorText">Under Construction</h1>", "module" : "Under Construction" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class tcexam_plugin:
+class Plugintcexam_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<a name="topofdoc" id="topofdoc"></a>" },
 			{ "text" : "<meta name="author" content="Nicola Asuni - Tecnick.com s.r.l." />" },
 			{ "regexp" : "/<!-- TCExam \(c\) 2004-20[\d]{2} Nicola Asuni - Tecnick.com s\.r\.l\. - www\.tcexam\.com -->/" },

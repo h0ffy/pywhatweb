@@ -6,7 +6,7 @@ if [ ! -d "plugins_matched" ]; then
 fi
 
 
-cd plugins
+cd plugins_original
 for i in `ls`; do sed -n "/^matches \[/,/\]$/p" $i | tee ../plugins_matched/$i; done
 cd -
 
@@ -24,7 +24,7 @@ do
 	PRE_CLASS=$(echo $i | sed 's/-/_/g' | sed 's/\.rb/_plugin/')
 	#PRE_CODE=$(cat ../precode.txt | sed 's/CLASS_NAME/'${PRE_CLASS}'/' | tee )
 	END_FILE=$(echo $i | sed 's/-/_/g' | sed 's/\.rb/\_plugin.py/')
-	PRE_CODE=$(cat ../precode.txt | sed 's/CLASS_NAME/'$PRE_CLASS'/' | tee $END_FILE)
+	PRE_CODE=$(cat ../precode.txt | sed 's/CLASS_NAME/Plugin'$PRE_CLASS'/' | tee $END_FILE)
 	
 	echo $END_FILE
 

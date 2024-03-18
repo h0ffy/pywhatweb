@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class speedstreamrouter_plugin:
+class Pluginspeedstreamrouter_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<TITLE>SpeedStream Router Management Interface</TITLE>'},
 			{ "certainty" : "50", "regexp" : "/<!-- Copyright(C) [0-9]+ Siemens Subscriber Networks -->},
 			{ "certainty" : "75", "text" : "<FRAME SRC="pflogin.htm" NAME="rightFrame"'},

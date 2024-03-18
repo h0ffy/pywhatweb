@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class cartweaver_plugin:
+class Plugincartweaver_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>Cartweaver Error Notice</title>" },
 			{ "regexp" : "/<a href="http:\/\/www.cartweaver.com[\/]*"[\ target="_blank"]*>[\s]*<img src="[images\/]*cartweaver[0-9]+x[0-9]+.gif" [^alt]+alt="Powered [B|b]+y Cartweaver"/" },
 			{ "md5" : "772f447bf727f9045aa3440ad30ebd40", "url" : "images/cartweaver88x31.gif" },

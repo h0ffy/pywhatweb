@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class mojoportal_plugin:
+class Pluginmojoportal_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "25", "ghdb" : "Powered by mojoPortal"" },
 			{ "text" : "<a href='http://www.mojoportal.com' >Powered by mojoPortal</a>" },
 			{ "text" : "<a href='http://www.mojoportal.com'  title='mojoPortal.com'>Powered by mojoPortal</a>" },

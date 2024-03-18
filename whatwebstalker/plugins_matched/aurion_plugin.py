@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class aurion_plugin:
+class Pluginaurion_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<br/>Please enable JavaScript in your browser or refer to you internal IT support for assistance.<br/><br/></div>" },
 			{ "text" : "<!-- Aurion Teal will be used as the login-time default. Shell layouts will replace these after login. -->" },
 			{ "text" : "<!-- teal.css has stuff needed for div#loading-noscript -->" },

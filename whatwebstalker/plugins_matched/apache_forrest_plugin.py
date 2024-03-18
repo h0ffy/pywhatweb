@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class apache_forrest_plugin:
+class Pluginapache_forrest_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta content="Apache Forrest" name="Generator"" },
 			{ "version" : "/<meta content="([^"^>]+)" name="Forrest-version"/" },
 			{ "version" : "/<meta name="Forrest-version" content="([^"^>]+)"/" },

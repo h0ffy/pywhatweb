@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class autoindex_php_script_plugin:
+class Pluginautoindex_php_script_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<link rel="stylesheet" href="/stylesheet.css" type="text/css" title="AutoIndex Default" />" },
 			{ "text" : "<link href="./templates/default/default.css" rel="stylesheet" title="AutoIndex Default" type="text/css" />" },
 			{ "text" : "<link href="./templates/default/alternate.css" rel="alternate stylesheet" title="AutoIndex Alternate" type="text/css" />" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class tradingeye_plugin:
+class Plugintradingeye_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/favicon.ico", "md5" : "0ec12e5820517d3b62e56b9a8f1ee5bc" },
 			{ "url" : "/_assets/img/site/favicon.ico", "md5" : "0ec12e5820517d3b62e56b9a8f1ee5bc" },
 			{ "text" : "<p id="credits"><a href="http://www.tradingeye.com/">powered by Tradingeye</a></p>" },

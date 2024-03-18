@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class jenkins_plugin:
+class Pluginjenkins_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<script>var isRunAsTest=false; var rootURL="[^"]*";<\/script>/" },
 			{ "version" : "/<\/span><a href="http:\/\/jenkins\-ci\.org\/">Jenkins ver\. ([^<]+)<\/a>/" },
 			{ "search" : "headers[x-hudson-theme]", "regexp" : "/^.*$/" },

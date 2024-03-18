@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class tektroniks_plugin:
+class Plugintektroniks_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<p>Transfering you to login page in 2 seconds...</p>" },
 			{ "text" : "<td width="100"><label id="AU_LOGIN_ID_label" for="AU_LOGIN_ID" dataType=" required="true">User Name:</label></td>" },
 			{ "url" : "/login.htm", "model" : "/<meta name="Classification" content="(Tektroniks|DATAcentre) - ([^"]+)" \/>/", "offset" : "1 },

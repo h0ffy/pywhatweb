@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class kleeja_plugin:
+class Pluginkleeja_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<title>[^\(]+\(Powered by Kleeja\)<\/title>/" },
 			{ "text" : "<meta name="copyrights" content="Powered by Kleeja :: kleeja.com" />" },
 			{ "text" : "<meta name="Description" content="Powered by Kleeja :: kleeja.com" />" },

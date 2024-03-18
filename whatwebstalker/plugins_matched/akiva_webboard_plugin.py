@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class akiva_webboard_plugin:
+class Pluginakiva_webboard_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- --- AKIVA COPYRIGHT NOTICE --- -->" },
 			{ "text" : "<!-- Under the terms of the WebBoard License Agreement -->" },
 			{ "text" : "<!-- wbmain 8/22/2005 11:11AM -->" },

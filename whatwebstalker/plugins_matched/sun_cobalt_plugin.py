@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class sun_cobalt_plugin:
+class Pluginsun_cobalt_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "model" : "/<TITLE>Login - Sun Cobalt (Qube [\d]+|RaQ [\d]+) - [^<^\s]+[\n]?<\/TITLE>/" },
 			{ "model" : "/document.write\("\\nThank you for using the Sun Cobalt (Qube [\d]+|RaQ [\d]+)\.\\n"\);/" },
 			{ "certainty" : "25", "text" : "<META NAME="Copyright" VALUE="Copyright (C) 2000", "Cobalt Networks", "Inc.  All rights reserved.">" },

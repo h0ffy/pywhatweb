@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class quickersite_plugin:
+class Pluginquickersite_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<meta content="QuickerSite CMS - visit www.quickersite.com" name="generator" \/>/i },
 			{ "regexp" : "/<meta name="generator" content="QuickerSite CMS - visit www.quickersite.com">/i },
 		]

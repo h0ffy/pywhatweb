@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class cdk_connected_website_plugin:
+class Plugincdk_connected_website_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

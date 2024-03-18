@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class fastcgi_echo_plugin:
+class Pluginfastcgi_echo_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "SCRIPT_NAME=/fcgi-bin/echo" },
 			{ "text" : "<title>FastCGI echo</title><h1>FastCGI echo</h1>" },
 			{ "text" : "REQUEST_URI=/fcgi-bin/echo" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class koha_plugin:
+class Pluginkoha_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "md5" : "0c240ea1e838d2b398f48122924bf7a0", "url" : "/opac-tmpl/prog/en/includes/favicon.ico" },
 			{ "md5" : "0c240ea1e838d2b398f48122924bf7a0", "url" : "/intranet-tmpl/prog/en/includes/favicon.ico" },
 			{ "regexp" : "/<link rel="shortcut icon" href="\/(intranet|opac)-tmpl\/[^\/]+\/[a-z]{2}\/includes\/favicon\.ico" type="image\/x-icon" \/>/" },

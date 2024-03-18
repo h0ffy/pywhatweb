@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class bea_weblogic_server_plugin:
+class Pluginbea_weblogic_server_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>Default BEA WebLogic Server Web Server Index Page</title>" },
 			{ "text" : "<TITLE>Default BEA WebLogic Server Web Server Index Page</TITLE>" },
 			{ "version" : "/<h1>BEA WebLogic Server ([^\s]+)&#153;<\/h1>/" },

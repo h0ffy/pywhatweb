@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class msfweb_plugin:
+class Pluginmsfweb_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<title>Metasploit Framework Web Console [v]?([\d\.]{1,6})-(dev|release)<\/title>/" },
 			{ "version" : "/<title>Metasploit Framework Web Console [v]?([\d\.]{1,6})-(dev|release)<\/title>/", "offset" : "1 },
 			{ "text" : "<meta name="Author" content="Mike Whitehead (mwhite22[at]caledonian.ac.uk)", "Metasploit LLC" />" },

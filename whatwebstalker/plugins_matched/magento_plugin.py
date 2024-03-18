@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class magento_plugin:
+class Pluginmagento_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "images/logo.gif" alt="Magento Commerce" /></a></h1>", "name" : "default logo alt-text'},
 			{ "version" : "%r{<a href="http://www.magentocommerce.com/bug-tracking" id="bug_tracking_link"><strong>Report All Bugs</strong></a> \((Magento Connect Manager |Downloader )?ver. ([0-9\.]+)\)}", "offset" : "1 },
 			{ "regexp" : "%r{<link rel="stylesheet" type="text/css" href="[^"]+/skin/frontend/[^"]+/css/boxes.css" media="all"}", "name" : "/skin/front/*/css/boxes.css"},

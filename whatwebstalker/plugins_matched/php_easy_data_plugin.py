@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class php_easy_data_plugin:
+class Pluginphp_easy_data_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<div id='phpeasydata_container'  >" },
 			{ "text" : "  <head><title>PhpEasyData login page</title>" },
 			{ "version" : "/<a[^>]*href="http:\/\/www.(phpeasydata.com|freewebmaster-scripts.com\/phpeasydata)[^>]*>PHPEasyData[\s]*([^<]+)<\/a>/" },

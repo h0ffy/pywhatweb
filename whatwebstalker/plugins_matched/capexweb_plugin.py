@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class capexweb_plugin:
+class Plugincapexweb_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<frame name="main" src="capexmain_middle.htm" scrolling="no" target="_top">" },
 			{ "version" : "/<title>cApexWEB ([^\s^<]+)<\/title>/" },
 			{ "text" : "<!-- Change Company & Address Line ", "Enter First Line for Company Name and 2nd Line of Address --->" },

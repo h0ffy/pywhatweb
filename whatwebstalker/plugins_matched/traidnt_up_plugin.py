@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class traidnt_up_plugin:
+class Plugintraidnt_up_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- # START HEDARE -->" },
 			{ "text" : "<font color='#000080'><a href='http://traidnt.net' target='_blank'>" },
 			{ "text" : "			<span style='text-decoration: none'><font color='#000000'>Traidnt&nbsp;UP</font></span></a></font></span></b>" },

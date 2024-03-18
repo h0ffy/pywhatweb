@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class avantfax_plugin:
+class Pluginavantfax_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta name="description" content="Web 2.0 HylaFAX management" />" },
 			{ "text" : "</label><br /><br /><input type="password" name="password" id="password" style="width: 12em" maxlength="15" /></p><br />" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/AvantFAX=[a-z\d]{26}; path=\//" },

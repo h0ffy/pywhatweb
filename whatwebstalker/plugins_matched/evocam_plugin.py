@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class evocam_plugin:
+class Pluginevocam_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<title>EvoCam( \d)*<\/title>/" },
 			{ "regexp" : "/<TITLE>EvoCam( Java| JavaScript)? Example Page<\/TITLE>/" },
 			{ "text" : "Powered by <A HREF="http://www.evological.com/evocam.html">EvoCam</A>" },

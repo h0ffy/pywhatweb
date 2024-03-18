@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class crushftp_plugin:
+class Plugincrushftp_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "25", "text" : "<script type="text/javascript" src="crushftp_functions.js"></script>" },
 			{ "regexp" : "/^CrushFTP /", "search" : "headers[server]" },
 			{ "version" : "/^CrushFTP (HTTP[\d]? Server )?Version ([\d\.]+)$/", "offset" : "1", "search" : "headers[server]" },

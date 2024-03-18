@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class cultbooking_plugin:
+class Plugincultbooking_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "ghdb" : "inurl:cultbooking.php filetype:php" },
 			{ "text" : "<tr><td width="3%" align="center"><img src="img/default/small/pfeil_vor.gif" id="up2"/></td><td width="32%"> <p>Enter the promotioncode (if any)</p></td><td><input size="10" maxlength="20" name="promotionCode" align="right" value=" >" },
 			{ "text" : "<tr><td width="3%" align="center"><img src="img/default/small/pfeil_vor.gif" id="up2"/></td><td width="45%"> <p>Enter the promotion code (if any)</p></td><td><input size="10" maxlength="20" name="promotionCode" align="right">" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class olat_plugin:
+class Pluginolat_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<div id="b_footer_version">[\s]+<a href="http:\/\/www\.olat\.org"  title="Homepage of Open Source LMS OLAT" target="_blank">OLAT ([^<]+)<\/a>/" },
 			{ "version" : "/<div id="o_footer_version">[\s]+<a href="http:\/\/www\.olat\.org"  title="Homepage of Open Source LMS OLAT" target="_blank">[\s]+OLAT ([^<^\n]+)[\s]+<\/a>/" },
 			{ "certainty" : "25", "text" : "<meta name="DC.creator" content="University of Zurich - http://www.uzh.ch" />" },

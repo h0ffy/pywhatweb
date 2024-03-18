@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class phpldapadmin_plugin:
+class Pluginphpldapadmin_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<head><title>phpLDAPadmin - ([^\s^<]+)[\s]?<\/title><\/head>/" },
 			{ "version" : "/<h3 class="subtitle" style="margin:0px">phpLDAPadmin - ([^\s^<]+)/" },
 			{ "version" : "/<title>phpLDAPadmin \(([^\s^\)]+)\) - <\/title>/" },

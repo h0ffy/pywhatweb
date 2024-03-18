@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ovbb_plugin:
+class Pluginovbb_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<title>[^:]+:: Powered by OvBB<\/title>/" },
 			{ "regexp" : "/<img src="images\/ovbb.png" align="middle" border="0" alt="[^:]+:: Powered by OvBB" \/><\/a>/" },
 			{ "md5" : "8dd1c74458a43d658a9136333893a999", "url" : "/favicon.ico" },

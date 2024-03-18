@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class codeigniter_plugin:
+class Plugincodeigniter_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "string" : "404 Signature',"url" : randstr(),"md5" : "e087ab5729efdfa939ba620e4593bd99'},
 			{ "string" : "404 Signature',"url" : "index.php/'+randstr(),"md5" : "e087ab5729efdfa939ba620e4593bd99'},
 			{ "string" : "Database Error Signature',"url" : "index.php/'+randstr(),"md5" : "951c845488483135e52252609a1d99b2'},

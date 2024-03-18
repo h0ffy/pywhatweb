@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class umbraco_plugin:
+class Pluginumbraco_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "ghdb" : "powered by umbraco"", "certainty" : "25 },
 			{ "text" : "<meta name="generator" content="umbraco" />" },
 			{ "regexp" : "/Powered by[^<]*<a[\s]+href="http:\/\/[www.]*umbraco.org[^>]*>Umbraco<\/a>/i },

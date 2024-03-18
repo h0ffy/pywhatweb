@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class wing_ftp_server_plugin:
+class Pluginwing_ftp_server_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "string" : /^Wing FTP Server\/([\d\.]+)\(([^\)]*)\)$/", "offset" : "1 },
 			{ "search" : "headers[server]", "string" : /^Wing FTP Server\(([^\)]*)\)$/" },
 			{ "search" : "headers[server]", "version" : "/^Wing FTP Server\/([\d\.]+)\(([^\)]*)\)$/" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class veo_observer_plugin:
+class Pluginveo_observer_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>Veo Observer XT</title>", "version" : "XT" },
 			{ "text" : "  <frame src="/en/sitemonitor.html" name="sitecheck" scrolling="NO" noresize>", "version" : "XT" },
 			{ "text" : "		<title>Veo Observer Web Client</title>", "version" : "XNC" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class vlc_web_interface_plugin:
+class Pluginvlc_web_interface_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "text" : "<title>VLC media player - Web Interface</title>" },
 			{ "certainty" : "75", "text" : "<title>VLC media player - Web Interface - Mosaic Wizard</title>" },
 			{ "certainty" : "75", "text" : "<title>VLC media player - Web Interface with Flash Viewer</title>" },

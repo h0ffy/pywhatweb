@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ioncube_loader_plugin:
+class Pluginioncube_loader_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "ghdb" : "inurl:"loader-wizard.php" filetype:php intitle:"ionCube Loader Wizard"" },
 			{ "text" : "<img src="?page=logo" alt="ionCube logo">" },
 			{ "text" : "<h2>ionCube Loader Wizard</h2><p class="alert">An updated version of this Wizard script is available <a href="http://loaders.ioncube.com/">here</a>.</p>" },

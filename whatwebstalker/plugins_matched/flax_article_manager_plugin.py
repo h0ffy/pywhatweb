@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class flax_article_manager_plugin:
+class Pluginflax_article_manager_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "/images/flaxweb_newsletter_bg.gif" bgcolor="#FFFFFF" valign="top"> " },
 			{ "text" : "<b><a href="http://www.flaxweb.com/products/articles"><font color="#666666">Article " },
 			{ "text" : "<title>Flax Article CMS Administration Panel</title>" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class fluxbb_plugin:
+class Pluginfluxbb_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "name" : "Powered by", "regexp" : "/>P(owered by|ropuls&#233; par) (<strong>)?<a href="http:\/\/fluxbb\.org\/">FluxBB<\/a>/" },
 			{ "version" : "/>P(owered by|ropuls&#233; par) <a href="http:\/\/fluxbb\.org\/">FluxBB<\/a> ([\d\.]+)</", "offset" : "1 },
 			{ "certainty" : "25", "regexp" : "/<link rel="stylesheet" type="text\/css" href="style\/(Cobalt|Lithium|Mercury|Oxygen|Radium|Sulfur)\.css" \/>/" },

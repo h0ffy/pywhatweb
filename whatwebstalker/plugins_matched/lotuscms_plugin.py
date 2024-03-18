@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class lotuscms_plugin:
+class Pluginlotuscms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "Powered by: <a href="http://www.lotuscms.org">LotusCMS</a>" },
 			{ "text" : "Powered by <a href="http://www.arboroia.com/cmsproject/">ArboroianCMS</a>" },
 			{ "text" : "<ul><li><a class='firstM' href='index.php?page=index'>Home</a></li><li><a class='normalM' href='index.php?system=" },

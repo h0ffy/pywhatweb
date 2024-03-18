@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class pear_plugin:
+class Pluginpear_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "string" : /<h2><a id="top0">([\d]+ Installed Packages)", "Channel /" },
 			{ "module" : /<h2><a id="pkg_([^\s^\"]+)"><\/a><a/" },
 			{ "certainty" : "75", "text" : "<title>PEAR :: PEAR_Info()</title>" },

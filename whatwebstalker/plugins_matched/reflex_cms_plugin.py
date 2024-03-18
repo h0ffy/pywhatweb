@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class reflex_cms_plugin:
+class Pluginreflex_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<link id="ctl00_hlnk[^"]+" rel="stylesheet" type="text\/css"[^>]+href="[^"]*\/Site\/Resources\/css\/(layout|styles).css" \/>/" },
 			{ "text" : "var Page_Validators =  new Array(document.getElementById("ctl00_cphMain_rfvUserName")", "document.getElementById("ctl00_cphMain_rfvUserPassword"));" },
 			{ "text" : "<img src="Resources/images/reflex.png" alt="ReFlex Administration" />" },

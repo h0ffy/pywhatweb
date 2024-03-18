@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class artiphp_cms_plugin:
+class Pluginartiphp_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!--  fin ArtiMenu horizontal -->" },
 			{ "text" : "<!--  Fin ArtiMenu horizontal -->" },
 			{ "text" : "<!-- copyright Artiphp", "merci de respecter notre travail en laissant notre signature -->" },

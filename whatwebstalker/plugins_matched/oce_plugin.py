@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class oce_plugin:
+class Pluginoce_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<title>Print Exec Workgroup<\/title>/i },
 			{ "text" : "/servlet/owslhtml/owslicons/header_pewg.jpg" },
 		]

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class luci_plugin:
+class Pluginluci_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<a style="color: white; text-decoration: none" href="/cgi-bin/luci">LuCI - Lua Configuration Interface</a>" },
 			{ "text" : "<link rel="stylesheet" type="text/css" media="screen" href="/luci-static/openwrt.org/cascade.css" />" },
 			{ "text" : "<li><a href="/cgi-bin/luci/admin/">Administration</a></li>" },

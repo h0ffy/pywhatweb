@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class episerver_plugin:
+class Pluginepiserver_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "name" : "meta generator tag with EPiServer", "text" : "<meta name=\"GENERATOR\" content=\"EPiServer\" />"},
 			{ "name" : "EPiServer comment", "text" : "<!-- EPiServer -->"},
 			{ "text" : "src="/Util/javascript/episerverscriptmanager.js"'},

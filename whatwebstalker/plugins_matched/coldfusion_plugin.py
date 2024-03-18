@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class coldfusion_plugin:
+class Plugincoldfusion_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "	<title>ColdFusion Administrator Login</title>" },
 			{ "regexp" : "/<meta name="Author" content="Copyright (\(c\)\ )?[0-9]{4}-[0-9]{4} Macromedia( Corp|", "Inc)\. All rights reserved\.">/" },
 			{ "text" : "	{   document.write(\"<link rel='STYLESHEET' type='text/css' href='./cfadmin_ns.css'>\");}" },

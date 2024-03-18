@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class websvn_plugin:
+class Pluginwebsvn_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<link rel="alternate" type="application/rss+xml" title="WebSVN RSS" href="rss.php?repname=" },
 			{ "text" : "<link rel='alternate' type='application/rss+xml' title='WebSVN RSS' href='rss.php?repname=" },
 			{ "md5" : "beb816a701a4cee3c2f586171458ceec", "url" : "templates/BlueGrey/images/favicon.ico" },

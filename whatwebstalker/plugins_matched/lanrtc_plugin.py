@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class lanrtc_plugin:
+class Pluginlanrtc_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/Logo.gif", "md5" : "2fe5a40924a7b13c61fcc66a7dacec94" },
 			{ "model" : "/<tr><td><h2>LanRTC([\d]{4})<br>System information<\/h2><\/td>/" },
 			{ "model" : "/<title>LanRTC([\d]{4})-System information<\/title>/" },

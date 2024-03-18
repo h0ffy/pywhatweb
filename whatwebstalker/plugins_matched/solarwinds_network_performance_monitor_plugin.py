@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class solarwinds_network_performance_monitor_plugin:
+class Pluginsolarwinds_network_performance_monitor_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "string" : "Broken", "text" : "<b>Cannot access main SQL Server database.</b><br><br><b>Connection</b>" },
 			{ "text" : "<TITLE>SolarWinds Network Management</TITLE>" },
 			{ "text" : "<TD Class=PageHeader>Network Performance Monitor</TD>" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class accellion_secure_file_transfer_plugin:
+class Pluginaccellion_secure_file_transfer_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[set-cookie]", "regexp" : "/sfcurl=deleted;/", "certainty" : "25 },
 			{ "search" : "headers[location]", "regexp" : "/\/courier\/[\d]+@\/mail_user_login\.html\?$/" },
 			{ "url" : "/favicon.ico", "md5" : "9423d9e9ce004c29dd5bc622f0112123" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class fortinet_firewall_plugin:
+class Pluginfortinet_firewall_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "url" : "/", "md5" : "c647dc149f55829659640751e9184f8c" },
 			{ "certainty" : "75", "url" : "/index.html", "md5" : "c647dc149f55829659640751e9184f8c" },
 			{ "url" : "/login", "certainty" : "75", "regexp" : "/str_table\.token_needed = "Please input your token code.";[\s]+str_table\.ncode_needed = "FortiToken clock drift detected\. Please input the next code and continue\.";[\s]+str_table\.mail_token_msg = "An email message containing a Token Code will be sent to";/" },

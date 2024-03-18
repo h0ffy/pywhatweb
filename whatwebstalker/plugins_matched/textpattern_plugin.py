@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class textpattern_plugin:
+class Plugintextpattern_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

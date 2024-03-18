@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class pivotx_plugin:
+class Pluginpivotx_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- PivotX -->" },
 			{ "text" : "<script src="includes/js/pivotx.js" type="text/javascript"></script>" },
 			{ "text" : "<img src="templates_internal/assets/pivotx.png" alt="PivotX" /></a>" },

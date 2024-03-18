@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class cubecart_plugin:
+class Plugincubecart_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

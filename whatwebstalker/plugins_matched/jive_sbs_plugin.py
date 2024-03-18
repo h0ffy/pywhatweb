@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class jive_sbs_plugin:
+class Pluginjive_sbs_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<link rel="stylesheet" href="\/([\d\.]+)\/styles\/jive-global\.css" type="text\/css" media="all" \/>/" },
 			{ "version" : "/<link rel="stylesheet" href="\/([\d\.]+)\/styles\/jive-icons\.css" type="text\/css" media="all" \/>/" },
 			{ "text" : "<a href="#jive-body-full" class="jive-skip-nav">Skip navigation</a>" },

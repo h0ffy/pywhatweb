@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class tengine_web_server_plugin:
+class Plugintengine_web_server_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^Tengine$/" },
 			{ "search" : "headers[server]", "version" : "/^Tengine\/([^\s]+)/" },
 		]

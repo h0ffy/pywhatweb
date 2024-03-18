@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class hughes_satellite_router_plugin:
+class Pluginhughes_satellite_router_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<frame src=/fs/dynaform/dw_logo.html scrolling=no marginheight=0 marginwidth=0 NORESIZE>" },
 			{ "model" : "/<title>([A-Z]{0,2}[\d]{1,5}[A-Z]?) System Control Center<\/title>/" },
 			{ "url" : "/fs/dynaform/welcome.html", "model" : "/<ctrlCenter style="font-size: 14pt; color: #000000; font-weight: bold">([^\s]+) <\/ctrlCenter>/" },

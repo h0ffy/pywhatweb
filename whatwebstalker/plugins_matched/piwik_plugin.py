@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class piwik_plugin:
+class Pluginpiwik_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "ghdb" : "+intitle:Piwik "JavaScript must be enabled in order for you to use Piwik in standard view"" },
 			{ "text" : "<title>Piwik &rsaquo; Web Analytics Reports</title>" },
 			{ "text" : "<img src="themes/default/images/loading-blue.gif" alt=" /> Loading data" },

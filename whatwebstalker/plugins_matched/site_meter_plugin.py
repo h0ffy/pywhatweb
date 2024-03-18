@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class site_meter_plugin:
+class Pluginsite_meter_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "account" : "/<script [^>]*src=["']http:\/\/[^>]+sitemeter\.com\/js\/counter\.js\?site=([^"^'^>]+)[^>]*>/i },
 			{ "account" : "/<img [^>]*src=["']http:\/\/[^>]+sitemeter\.com\/meter\.asp\?site=([^"^'^>]+)[^>]*>/i },
 			{ "certainty" : "25", "text" : "<!-- Site Meter -->" },

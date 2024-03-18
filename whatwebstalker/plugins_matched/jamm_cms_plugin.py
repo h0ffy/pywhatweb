@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class jamm_cms_plugin:
+class Pluginjamm_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "ghdb" : "powered by JAMM CMS"", "certainty" : "75 },
 			{ "regexp" : "/<a[^>]+href="http:\/\/jammcms\.jamm-media\.de\?ref=[^>]+>powered by JAMM CMS/i },
 			{ "text" : "<META NAME='Author' CONTENT='JAMM MEDIA Technologies Team 2005'>" },

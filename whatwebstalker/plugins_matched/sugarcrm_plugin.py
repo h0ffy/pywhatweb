@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class sugarcrm_plugin:
+class Pluginsugarcrm_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<h3 style='color:red'>Possible Cross Site Request Forgery (XSRF) Attack Detected</h3>" },
 			{ "text" : "<span>|</span>    <a href=" javascript:void window.open(\'http://support.sugarcrm.com\')">Support</a>" },
 			{ "text" : "<script>var module_sugar_grp1 = 'Users';</script><script>var action_sugar_grp1 = 'Login';</script><script>jscal_today" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class chiliproject_plugin:
+class Pluginchiliproject_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "Powered by <a href="https://www.chiliproject.org/">ChiliProject</a>" },
 			{ "text" : "<meta name="description" content="ChiliProject" />" },
 			{ "text" : "<!-- page specific tags -->" },

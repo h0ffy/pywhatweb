@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class webguard_plugin:
+class Pluginwebguard_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "text" : "<title>WebGuard Login</title>" },
 			{ "text" : "<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="GetInfo()" onResize="fit_center()">" },
 			{ "text" : "<table id=loginback border="0" cellpadding="0" cellspacing="0" background="images/login_venus_back.gif" width=480 height=175 style=\'POSITION:absolute\'>" },

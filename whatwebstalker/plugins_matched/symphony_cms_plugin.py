@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class symphony_cms_plugin:
+class Pluginsymphony_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "	<title>Symphony | Login</title>" },
 			{ "text" : "<meta name="generator" content="Symphony CMS" />" },
 			{ "regexp" : "/Powered by <a[^>]+href="http:\/\/www.symphony-cms.com[\/]?">Symphony CMS<\/a>/" },

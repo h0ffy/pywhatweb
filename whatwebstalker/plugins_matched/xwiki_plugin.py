@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class xwiki_plugin:
+class Pluginxwiki_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta name="wiki" content="xwiki"/>" },
 			{ "text" : "<div id="xwikilicence">" },
 			{ "version" : "/<div id="xwikiplatformversion">(Powered by )?(XWiki Enterprise )?([^\s<>]+)/", "offset" : "2 },

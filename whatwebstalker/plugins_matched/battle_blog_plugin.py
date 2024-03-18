@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class battle_blog_plugin:
+class Pluginbattle_blog_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<br /><br /><font face="arial" size="1">Powered by <a href="http://www.battleblog.com">Battle Blog</a></font>" },
 			{ "text" : "<title>Battle Blog Login</title> '},
 			{ "text" : "<form name = "UserInfoCollect" action = "authenticate.asp" method = "post">" },

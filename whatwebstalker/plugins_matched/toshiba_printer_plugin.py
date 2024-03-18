@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class toshiba_printer_plugin:
+class Plugintoshiba_printer_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<TITLE CLASS="clsTitle1">TopAccess</title>" },
 		]
 

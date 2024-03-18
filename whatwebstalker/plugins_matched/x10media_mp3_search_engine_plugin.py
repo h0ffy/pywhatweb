@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class x10media_mp3_search_engine_plugin:
+class Pluginx10media_mp3_search_engine_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "	<meta name="copyright" content="X10Media"/>", "certainty" : "75 },
 			{ "text" : "	<meta name="contributor" content="X10Media"/>", "certainty" : "75 },
 			{ "text" : "<title>x10media Mp3 Search Engine</title>" },

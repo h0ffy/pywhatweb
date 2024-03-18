@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class seagull_php_framework_plugin:
+class Pluginseagull_php_framework_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "    <meta name="generator" content="Seagull Framework" />" },
 			{ "regexp" : "/    Powered by <a href="http:\/\/seagullproject.org[\/]*" title="Seagull framework homepage">Seagull PHP Framework<\/a>/" },
 			{ "regexp" : "/        var SGL_JS_SESSID[\s]*=/" },

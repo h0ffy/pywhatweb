@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class connectix_board_plugin:
+class Pluginconnectix_board_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "	<title>Installation de Connectix Boards</title>" },
 			{ "text" : "    <title>Connectix Boards - Fatal Error</title>" },
 			{ "text" : "	<title>Connectix Boards Error</title>" },

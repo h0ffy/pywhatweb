@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class axis_network_camera_plugin:
+class Pluginaxis_network_camera_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<TITLE>AXIS Video Server</TITLE>" },
 			{ "text" : "<FRAME NAME="WhatEver" SRC="/incl/whatever.shtml" SCROLLING=NO MARGINGHEIGHT=0 MARGINWIDTH=0>" },
 			{ "text" : "	<FRAME NAME="Trash" SRC="/view/trash.shtml" SCROLLING=NO MARGINGHEIGHT=0 MARGINWIDTH=0>" },

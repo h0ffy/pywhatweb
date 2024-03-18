@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ptcpay_plugin:
+class Pluginptcpay_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "25", "ghdb" : "powered by PTCPay"" },
 			{ "text" : "<div class="left"><img src="pre/images/ic_support.png" width="23" height="23" alt=" /></div>" },
 			{ "text" : "<p>Powered by <a href="http://www.ptcpay.com" target="_blank">GeN4 Security+</a>" },

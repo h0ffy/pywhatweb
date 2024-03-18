@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class impresspages_cms_plugin:
+class Pluginimpresspages_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/favicon.ico", "md5" : "c92e16f66ec6069432c3be3d10bf5d1c" },
 			{ "text" : "Powered by <a href="http://www.impresspages.org">ImpressPages CMS</a>" },
 			{ "text" : "<h1 class="ipWidgetTitleHeading">ImpressPages CMS successfully installed</h1>" },

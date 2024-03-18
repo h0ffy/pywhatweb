@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class asterisk_plugin:
+class Pluginasterisk_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/static/index.html", "regexp" : "/Your browser should automatically go to the configuration page\.[\s]+<br>[\s]+Or you can <a href="config\/cfgbasic\.html">click here<\/a>[\s]+<br>/" },
 			{ "search" : "headers[server]", "regexp" : "/^Asterisk\//" },
 			{ "search" : "headers[server]", "version" : "/^Asterisk\/(.+)$/" },

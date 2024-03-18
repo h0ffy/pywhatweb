@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class rainmail_plugin:
+class Pluginrainmail_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "25", "text" : "<form action='/cgi-bin/openwebmail/openwebmail.pl'" },
 			{ "certainty" : "75", "text" : "<!--  SCRIPT CONFIGURATION SECTION -->" },
 			{ "text" : "<TD width=50%><font color="ffffff" size="1"face="Verdana", "Helvetica">Rainmail is a product of :</font>" },

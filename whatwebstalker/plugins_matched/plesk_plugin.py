@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class plesk_plugin:
+class Pluginplesk_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "favicon.ico", "md5" : "2cee5e3ce2f5c4640a68fc208c286494" },
 			{ "search" : "headers[x-powered-by]", "string" : /Plesk([WL]in)/" },
 			{ "certainty" : "75", "search" : "headers[server]", "regexp" : "/sw-cp-server/" },

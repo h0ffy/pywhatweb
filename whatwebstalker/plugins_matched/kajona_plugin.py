@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class kajona_plugin:
+class Pluginkajona_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<meta name="generator" content="Kajona.", "www\.kajona\.de" \/>/" },
 			{ "regexp" : "/<!--\s+Website powered by Kajona. Open Source Content Management Framework/" },
 			{ "regexp" : "/<script type="text\/javascript">KAJONA_(DEBUG|WEBPATH) = /" },

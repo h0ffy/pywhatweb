@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class microsoft_windows_business_server_plugin:
+class Pluginmicrosoft_windows_business_server_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "2003", "text" : "<title>Welcome to Windows Small Business Server 2003</title>" },
 			{ "version" : "2008", "text" : "<title>Welcome to Windows Small Business Server 2008</title>" },
 			{ "text" : "<TD id="Remote_Link" class="linkHeader"><A HREF="/Remote">Remote Web Workplace</A></TD>" },

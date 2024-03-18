@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class nopcommerce_plugin:
+class Pluginnopcommerce_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "ghdb" : "powered by nopCommerce" "You have no items in your shopping cart."" },
 			{ "text" : "<!--Powered by nopCommerce - http://www.nopCommerce.com-->" },
 			{ "text" : "Powered by <a href="http://www.nopcommerce.com/">nopCommerce</a>" },

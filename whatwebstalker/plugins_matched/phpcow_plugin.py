@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class phpcow_plugin:
+class Pluginphpcow_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<b>Powered by</b>: <a href="http://www.phpcow.com" target="_blank" style="color: #000000">PHPCow.com</a>" },
 			{ "text" : "<b>Powered by</b>: <a href="http://www.phpcow.com" target="_blank" style="color: #000000" title="PHPCow news publishing script", "content management system">PHPCow.com</a>" },
 			{ "text" : "<meta name="Description" content="PHPCow news publishing content management system" />" },

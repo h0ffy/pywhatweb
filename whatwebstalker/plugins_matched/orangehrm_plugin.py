@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class orangehrm_plugin:
+class Pluginorangehrm_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<div id="content">\s+<h2>Welcome to the OrangeHRM ver ([^\s]+) Setup Wizard<\/h2>/" },
 			{ "module" : /<div id="footer"><a href="http:\/\/www\.orangehrm\.com" target="_blank" tabindex="[^"^>]*">OrangeHRM<\/a> (Web Installation Wizard ver [^\s]+) &copy; OrangeHRM Inc/" },
 			{ "text" : "<input type="hidden" name="hdnUserTimeZoneOffset" id="hdnUserTimeZoneOffset" value="0" />" },

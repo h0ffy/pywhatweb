@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ganglia_plugin:
+class Pluginganglia_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<TITLE>Ganglia:: Cluster Report</TITLE>" },
 			{ "text" : "(Nodes colored by 1-minute load) | <A HREF="./node_legend.html">Legend</A>" },
 			{ "text" : "<B>Metric</B>&nbsp;&nbsp;<SELECT NAME="m" OnChange="ganglia_form.submit();">" },

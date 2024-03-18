@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class freepbx_plugin:
+class Pluginfreepbx_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

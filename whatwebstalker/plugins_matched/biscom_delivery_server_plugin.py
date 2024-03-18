@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class biscom_delivery_server_plugin:
+class Pluginbiscom_delivery_server_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<link rel="StyleSheet" href="/bds/stylesheets/fds.css" type="text/css">" },
 			{ "text" : "<script src="/bds/includes/fdsJavascript.do" type="text/javascript"></script>" },
 			{ "text" : "<link rel="ICON" href="/bds/images/icons/favicon.ico" />" },

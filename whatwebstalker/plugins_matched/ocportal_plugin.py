@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ocportal_plugin:
+class Pluginocportal_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<html id="main_website_html" xmlns="http://www.w3.org/1999/xhtml"" },
 			{ "text" : "<meta name="GENERATOR" content="ocPortal" />" },
 			{ "version" : "/<!--\nPowered by ocPortal\n([^\n]+) version\nCopyright ocProducts Limited\nhttp:\/\/ocportal\.com\n-->/" },

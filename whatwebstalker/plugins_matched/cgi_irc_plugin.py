@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class cgi_irc_plugin:
+class Plugincgi_irc_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>CGI:IRC Login</title>" },
 			{ "text" : "<body bgcolor="#ffffff" text="#000000" onload="setcharset();">" },
 			{ "text" : "<form method="post" action="irc.cgi" name="loginform" onsubmit="setjs()">" },

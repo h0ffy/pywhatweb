@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class axis_commerce_plugin:
+class Pluginaxis_commerce_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<div class="head"><h2>Login<\/h2><p class="powered">Powered by Axis v. ([\d\.]+)<\/p><\/div>/" },
 			{ "text" : "<div class="head"><h2>Forgot password</h2><p class="powered">Powered by Axis</p></div>" },
 			{ "text" : "<title>Login to Axis administrator panel</title>" },

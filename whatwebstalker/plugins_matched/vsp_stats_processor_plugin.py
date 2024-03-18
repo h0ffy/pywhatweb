@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class vsp_stats_processor_plugin:
+class Pluginvsp_stats_processor_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/powered by <A HREF="http:\/\/www.(scivox.net|clanavl.com)\/vsp\/">vsp stats processor<\/A>/" },
 			{ "text" : "&nbsp;theme:bismarck by <A HREF="#" TITLE="myrddin8 <AT> gmail <DOT> com">myrddin</A>&nbsp;", "string" : "bismarck" },
 			{ "certainty" : "25", "regexp" : "/<TITLE>vsp \((map|award|game|player) stats\)<\/TITLE>/" },

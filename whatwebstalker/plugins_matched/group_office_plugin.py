@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class group_office_plugin:
+class Plugingroup_office_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[set-cookie]", "regexp" : "/groupoffice=[^;]+;/" },
 			{ "version" : "/GO\.settings=\{[^\}]+"theme":"[^"]+","product_name":"Group-Office","product_version":"([^"^\s]+)","host":"/" },
 			{ "md5" : "6cbe55dd826fe9e2e4306d5a5672382f", "url" : "themes/Default/images/favicon.ico" },

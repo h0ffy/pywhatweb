@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class openx_plugin:
+class Pluginopenx_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<body class="hasInterface hasGradient hasSidebar " onload="initPage();">" },
 			{ "text" : "<div id="oaHeaderBranding" class="brandingAdServer">OpenX</div>" },
 			{ "text" : "<span class="tab-s">Welcome to OpenX</span><br />" },

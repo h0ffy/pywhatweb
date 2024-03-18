@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class tine_2.0_plugin:
+class Plugintine_2.0_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- Tine 2.0 static files -->" },
 			{ "text" : "<!-- Tine 2.0 setup static files -->" },
 			{ "text" : "Powered by: <a target="_blank" href="http://www.tine20.org/">Tine 2.0</a></div>" },

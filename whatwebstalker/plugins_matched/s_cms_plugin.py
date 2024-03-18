@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class s_cms_plugin:
+class Plugins_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<p class="alignRight">Powered by S:CMS - Copyright ©" },
 			{ "text" : "<title>SCMS</title>" },
 			{ "text" : "<!-- Inizio righe di indicizzazione nei motori di ricerca -->" },

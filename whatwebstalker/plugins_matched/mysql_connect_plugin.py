@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class mysql_connect_plugin:
+class Pluginmysql_connect_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class siemens_simatic_plugin:
+class Pluginsiemens_simatic_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/Default.html", "text" : "<META HTTP-EQUIV="refresh" content="0;URL=/www/start.html">" },
 			{ "url" : "/www/start.html", "text" : "<title> Miniweb Start Page </title>" },
 			{ "text" : "<img src="/Images/Siemens_Firmenmarke.gif" alt="Siemens" border="0"></td>" },

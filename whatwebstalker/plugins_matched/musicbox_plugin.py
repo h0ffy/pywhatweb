@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class musicbox_plugin:
+class Pluginmusicbox_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- THE FOLLOWING IS NEEDED FOR THE AUTO-COMPLETE SEARCH BOX -->" },
 			{ "text" : "<link rel="stylesheet" href="template/musicboxv2.css" type="text/css">" },
 			{ "text" : "<!-- Please dont edit this unless you are advanced coder -->" },

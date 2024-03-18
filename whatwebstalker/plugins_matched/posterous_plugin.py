@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class posterous_plugin:
+class Pluginposterous_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta name="generator" content="Posterous" />" },
 			{ "text" : "<div class="posterous_site_data" data-post-id="" },
 			{ "account" : "/<meta property="og:site_name" content="([^"]+)'s posterous" \/>/" },

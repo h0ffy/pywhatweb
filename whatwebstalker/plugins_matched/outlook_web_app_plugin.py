@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class outlook_web_app_plugin:
+class Pluginoutlook_web_app_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<body class="owaLgnBdy">" },
 			{ "version" : "/<link type="text\/css" rel="stylesheet" href="\/owa\/([^\s^\/]+)\/themes\/base\/logon\.css">/" },
 			{ "version" : "/<td><img src="\/owa\/([^\s^\/]+)\/themes\/base\/warn\.png"><\/td>/" },

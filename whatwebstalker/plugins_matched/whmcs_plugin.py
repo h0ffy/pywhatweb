@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class whmcs_plugin:
+class Pluginwhmcs_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<p align="center">Powered by <a href="http://www.whmcs.com/" target="_blank">WHMCompleteSolution</a></p>" },
 			{ "text" : "<td align="right" valign="middle">Powered by <a href="http://www.whmcs.com/" target="_blank">WHMCS</a></td>" },
 			{ "text" : "<div id="welcome_box">Please <a href="clientarea.php" title="Login"><strong>Login</strong></a> or <a href="register.php" title="Register"><strong>Register</strong></a></div>" },

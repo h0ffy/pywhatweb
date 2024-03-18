@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class online_grades_plugin:
+class Pluginonline_grades_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<small><br /><em>Disclaimer</em>:  If you handed in an assignment or took a test today", "don't expect the grade to be online immediately.  Teachers only update their grade books as needed.</small><ul><li>" },
 			{ "certainty" : "75", "version" : "/<meta name="keywords" content="Online Grades Version ([^\s^"]+)" \/>/" },
 			{ "version" : "/      <div class="center">[\r\n]      Online Grades Version:[\r\n]      ([^\s]+)      <\/div>/" },

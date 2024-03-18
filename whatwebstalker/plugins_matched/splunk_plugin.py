@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class splunk_plugin:
+class Pluginsplunk_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<p class="footer">&copy; 2005-20[\d]{2} Splunk Inc\. Splunk ([^<]+)\.<\/p>/" },
 			{ "text" : "<p><span>First time logging in?</span> Splunk's default credentials are </p><p>username: <span>admin</span><br />password: <span>changeme</span></p><p>If you've forgotten your username or password", "please contact your Splunk administrator.</p>" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/session_id_8000=[a-f\d]{32};/" },

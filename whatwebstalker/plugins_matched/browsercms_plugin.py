@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class browsercms_plugin:
+class Pluginbrowsercms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!--User is member of the following groups:  -->" },
 			{ "text" : "<li class="bmcms"><a href="http://www.browsercms.com/index.ww" title="BrowserCMS 2.0" target="_blank"><span>Powered by BrowserCMS 2.0</span></a></li>", "version" : "2.x" },
 			{ "regexp" : "/Powered by <a href="http:\/\/www.browsercms.com[\/]*"[^>]+>BrowserCMS<\/a>/i },

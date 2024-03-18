@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ezboo_webstats_plugin:
+class Pluginezboo_webstats_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "ghdb" : "+"Administrator Panel" +intitle:"ezBOO WebStats"" },
 			{ "text" : "<title>ezBOO WebStats</title>" },
 			{ "text" : "<div align="center" class="titre"><font color="#FFFFFF">&gt;&gt; Administrator Panel        &lt;&lt; </font></div>" },

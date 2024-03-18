@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class oracle_siebel_crm_plugin:
+class Pluginoracle_siebel_crm_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "md5" : "a28ebcac852795fe30d8e99a23d377c1", "url" : "/favicon.ico", "string" : "eService" },
 			{ "text" : "<html OT='SiebWebMainWindow'>" },
 			{ "text" : "<p>Scripting is used to manage data interactions between the Siebel server/Web Server and the User Interface. This requires JavaScript to be enabled  in the web browser </p>" },

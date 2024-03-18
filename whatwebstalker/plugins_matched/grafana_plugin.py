@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class grafana_plugin:
+class Plugingrafana_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

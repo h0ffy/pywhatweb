@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class check_point_ssl_network_extender_plugin:
+class Plugincheck_point_ssl_network_extender_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^Check Point SVN foundation$/" },
 			{ "regexp" : "/<script src="cookies\.js"><\/script>[\s]+<script>document\.write\(conn_html\)<\/script>[\s]+<HEAD>/" },
 			{ "url" : "/help_data.html", "regexp" : "/<meta name=Generator content="Microsoft Word 11 \(filtered\)">[\s]+<title>Check Point SSL Network Extender HELP<\/title>/" },

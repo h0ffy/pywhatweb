@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class request_tracker_plugin:
+class Pluginrequest_tracker_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/NoAuth/images/favicon.png", "md5" : "1e35f1aa90c98ca2bab85c26ae3e1ba7" },
 			{ "text" : "<link rel="stylesheet" href="/NoAuth/webrtfm.css" type="text/css" />", "module" : "FAQ Manager" },
 			{ "text" : "<link rel="stylesheet" href="/RTIR/NoAuth/webrtir.css" type="text/css">", "module" : "Incident Response" },

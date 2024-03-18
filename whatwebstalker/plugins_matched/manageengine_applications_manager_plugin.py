@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class manageengine_applications_manager_plugin:
+class Pluginmanageengine_applications_manager_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- This comment is for Instant Gratification to work applications.do -->" },
 			{ "text" : "<SCRIPT LANGUAGE="JavaScript1.2" SRC="/template/appmanager.js"></SCRIPT>" },
 			{ "text" : "<title>Applications Manager Login Screen</title>" },

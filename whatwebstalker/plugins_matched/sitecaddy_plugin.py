@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class sitecaddy_plugin:
+class Pluginsitecaddy_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- SECTION: bottom branding -->" },
 			{ "text" : "<!-- write title and meta tags -->" },
 			{ "text" : "<ul class="siteCaddyMenu menuLevel0 bottomNav" id="primaryNav">" },

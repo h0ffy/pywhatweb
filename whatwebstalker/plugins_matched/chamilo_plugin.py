@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class chamilo_plugin:
+class Pluginchamilo_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[x-powered-by]", "version" : "/^Chamilo ([\d\.]+)/" },
 			{ "text" : "<link href="http://www.chamilo.org/documentation.php" rel="Help" />" },
 			{ "regexp" : "/<meta name="Generator" content="Chamilo ([\d\.]+)">/" },

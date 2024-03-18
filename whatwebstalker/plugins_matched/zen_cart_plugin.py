@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class zen_cart_plugin:
+class Pluginzen_cart_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "Powered by Zen Cart!", "The Art of E-commerce</title>" },
 			{ "text" : "Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>" },
 			{ "text" : "<meta name="authors" content="The Zen Cart&trade; Team and others" },

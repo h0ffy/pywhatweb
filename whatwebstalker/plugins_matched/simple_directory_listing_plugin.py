@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class simple_directory_listing_plugin:
+class Pluginsimple_directory_listing_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta name='keywords' content='simple", "directory", "listing'></meta>" },
 			{ "regexp" : "/<meta name='keywords' content='simple", "directory", "listing", "\/[^\/]*\/? - Simple Directory Listing'><\/meta>/" },
 			{ "text" : "<form action='?system=login' method='post' onsubmit='Sdl.login.submit(); return false;'>" },

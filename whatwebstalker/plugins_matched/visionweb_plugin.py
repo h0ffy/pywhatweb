@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class visionweb_plugin:
+class Pluginvisionweb_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "search" : "headers[server]", "regexp" : "/^IWeb\/([^\s]+)/" },
 			{ "version" : "/VarPageTitle="Proxima\d? DVMS VisionWEB v([^\s^"]+)";/" },
 			{ "text" : "<b>CIEFFE srl</b> - "We power Your eyes"<br" },

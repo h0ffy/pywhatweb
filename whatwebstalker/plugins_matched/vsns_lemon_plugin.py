@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class vsns_lemon_plugin:
+class Pluginvsns_lemon_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "ghdb" : "Powered by Vsns Lemon" intitle:"Vsns Lemon"'},
 			{ "text" : "<p>Powered by <abbr title="very simple news system">'},
 			{ "regexp" : "/<a[^>]+title="Blog powered by VSNS Lemon">},

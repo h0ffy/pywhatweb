@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class livezilla_plugin:
+class Pluginlivezilla_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<td colspan="2" width="400" align="center" (class|id)="lz_index_light_text">LiveZilla is a registered trademark<br>of LiveZilla GmbH<br><br>Version ([\d\.]+)<\/td>/", "offset" : "1 },
 			{ "text" : "<td><br><br><br><strong>Thank you for using LiveZilla!</strong></td>" },
 			{ "text" : "<!-- http://www.LiveZilla.net Tracking Code --><div id="livezilla_tracking" style="display:none"></div>" },

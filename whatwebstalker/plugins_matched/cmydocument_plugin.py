@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class cmydocument_plugin:
+class Plugincmydocument_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<link href="CmyDocument.css" rel="stylesheet" type="text/css">" },
 			{ "text" : "<link href="CmyDocument2.css" rel="stylesheet" type="text/css">" },
 			{ "text" : "<link rel="stylesheet" type="text/css" href="CmyDocument.css">" },

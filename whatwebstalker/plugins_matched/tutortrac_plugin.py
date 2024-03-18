@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class tutortrac_plugin:
+class Plugintutortrac_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<TITLE>TutorTrac Learning Center Tracking Software</TITLE>" },
 			{ "text" : "<meta name="keywords" content="tutor,software,scheduling,learning,center,tutoring,assistant,assistance,education,accutrack,tutorial,community,college,university"><meta name="description" content="Web Based Tutor/Learning Center Management/Scheduling Software">" },
 			{ "version" : "/<P ALIGN=right><FONT SIZE="-1" FACE="Verdana" COLOR="#CCCCCC">version[\s]+([\d\.]+)[\s]?&copy;Copyright 20[\d]{2}", "<\/FONT><A HREF="http:\/\/www\.go-redrock\.com"><FONT SIZE="-1" FACE="Verdana" COLOR="#CCCCCC">RedRock/" },

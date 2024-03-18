@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class webbackdoor_plugin:
+class Pluginwebbackdoor_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "string" : "michaeldaw.org backdoor collection',"text" : "<!--    http://michaeldaw.org "},
 			{ "string" : "michaeldaw.org backdoor collection',"text" : "by DK (http://michaeldaw.org) -->"},
 			{ "string" : "backdoor kit collection',"text" : "<!--\n\n_KIT\n"},

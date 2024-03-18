@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class java_plugin:
+class Pluginjava_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

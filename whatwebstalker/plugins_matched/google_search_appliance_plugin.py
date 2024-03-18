@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class google_search_appliance_plugin:
+class Plugingoogle_search_appliance_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<font face=arial,sans-serif size=-1>If you are an end user looking for a Google search service on your network", "please ask your system administrator for the URL of the search service.<p>" },
 			{ "certainty" : "75", "search" : "headers[server]", "regexp" : "/^GSE$/" },
 			{ "certainty" : "75", "search" : "headers[location]", "regexp" : "/^\/EnterpriseController/" },

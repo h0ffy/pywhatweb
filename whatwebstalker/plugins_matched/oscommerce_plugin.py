@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class oscommerce_plugin:
+class Pluginoscommerce_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<[^>]+(src|href)\s*=\s*[^>]\bosCsid=([a-z0-9]{26}|[a-z0-9]{32})/" },
 			{ "certainty" : "25", "text" : "The Exchange Project - Community Made Shopping!'},
 			{ "string" : "warning", "text" : "<td class="messageStackWarning"><img src="images/icons/warning.gif"'},

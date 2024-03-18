@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class open_realty_plugin:
+class Pluginopen_realty_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<title>Open-Realty ([\d\.]+) - [^<]+<\/title>/" },
 			{ "text" : "<meta name="Generator" content="Open-Realty" />" },
 			{ "text" : "Powered by <a href="http://www.open-realty.org"><b>Open-Realty</b></a>" },

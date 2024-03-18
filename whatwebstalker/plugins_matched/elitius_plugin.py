@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class elitius_plugin:
+class Pluginelitius_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

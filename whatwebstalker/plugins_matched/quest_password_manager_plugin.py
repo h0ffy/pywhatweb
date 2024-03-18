@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class quest_password_manager_plugin:
+class Pluginquest_password_manager_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<div class="text-color-error error-control" style="display:none" id="Account_NotFilled.Textbox">" },
 			{ "text" : "<input type="submit" class="text-color-control button button-text" value="OK" name=" id="button_Ok_control" />" },
 			{ "text" : "<head><link href="../../App_Themes/Default/Colors.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/Default/Controls/" },

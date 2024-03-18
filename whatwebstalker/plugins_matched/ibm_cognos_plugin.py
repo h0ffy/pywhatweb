@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ibm_cognos_plugin:
+class Pluginibm_cognos_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta name="Trademark" content="Licensed Material - Property of IBM Corp. IBM", "the IBM logo", "and Cognos are trademarks of IBM Corp.", "registered in many jurisdictions worldwide."/>" },
 			{ "ghdb" : "inurl:"cognos/cgi-bin/cognos.cgi"" },
 			{ "ghdb" : "inurl:"cognos8/cgi-bin/cognos.cgi"" },

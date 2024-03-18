@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class activeweb_content_server_plugin:
+class Pluginactiveweb_content_server_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<!--[\s]+page generated with activeWeb contentserver R([\d\.]+)/" },
 			{ "version" : "/<!--[\s]+activeWeb cache extension R([\d\.]+)/" },
 			{ "text" : "<!-- AWNOCACHEBEGIN__AWNOCACHEBEGIN__AWNOCACHEBEGIN__AWNOCACHEBEGIN__AWNOCACHEBEGIN -->" },

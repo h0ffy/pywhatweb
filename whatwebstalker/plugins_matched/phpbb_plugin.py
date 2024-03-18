@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class phpbb_plugin:
+class Pluginphpbb_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- link rel="stylesheet" href="templates/subSilver/subSilver.css'},
 			{ "text" : "/images/logo_phpBB.gif", "certainty" : "75},
 			{ "text" : "We request you retain the full copyright notice below including the link to www.phpbb.com.'},

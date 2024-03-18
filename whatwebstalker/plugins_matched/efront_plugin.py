@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class efront_plugin:
+class Pluginefront_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<body  onkeypress = "if (window.eF_js_keypress) eF_js_keypress(event);" onbeforeunload = "if (window.getPeriodicData) getPeriodicData();">" },
 			{ "text" : "<script>var BOOKMARKTRANSLATION = 'Bookmarks';var NODATAFOUND = 'No data found';</script>" },
 			{ "text" : "</script><script>if (__shouldTriggerNextNotifications) { new Ajax.Request("send_notifications.php?ajax=1", "{method:\'get\", "asynchronous:true}); } </script>" },

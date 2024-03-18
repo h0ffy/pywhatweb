@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class seo_panel_plugin:
+class Pluginseo_panel_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>Seo Panel: Login section</title>" },
 			{ "text" : "var wantproceed = 'Do you really want to proceed?';" },
 			{ "text" : "var wantproceed = 'Wollen Sie wirklich fortfahren?';" },

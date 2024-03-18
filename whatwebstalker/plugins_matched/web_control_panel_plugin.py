@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class web_control_panel_plugin:
+class Pluginweb_control_panel_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<TITLE>Web Control Panel Express v([^\s^<]+)<\/TITLE>/" },
 			{ "url" : "/images/wcpe.gif", "md5" : "941271289a317097d00bc72f93f8c79d", "version" : "3.0" },
 			{ "string" : /<td width="598" align="CENTER"><font face="Verdana,Arial,Helvetica" size="-2" color="#DFFFDF"><b>Welcome to the <font[\s]+color="yellow">([^<]+)<\/font> Server<\/b><\/font><\/td>/" },

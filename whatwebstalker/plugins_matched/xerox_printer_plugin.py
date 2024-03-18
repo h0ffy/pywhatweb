@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class xerox_printer_plugin:
+class Pluginxerox_printer_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "25", "text" : "Phaser 6250DP</title>", "model" : "Phaser 6250DP" },
 			{ "certainty" : "25", "text" : "Phaser 6250N</title>", "model" : "Phaser 6250N" },
 			{ "model" : "/<title> Home - Xerox (Phaser 3300MFP) <\/title>/" },

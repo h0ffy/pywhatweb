@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class webasyst_shop_script_plugin:
+class Pluginwebasyst_shop_script_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "Powered by WebAsyst Shop-Script <a href="http://www.shop-script.com/" style="font-weight: normal">shopping cart software</a>" },
 			{ "text" : "Powered by <a href="http://www.shop-script.com" style="font-weight: bold;" target="_blank">WebAsyst Shop-Script</a> - <a href="http://www.shop-script.com/" style="font-weight: normal;" target="_blank">shopping cart software</a>" },
 			{ "regexp" : "/[\s]+var WAROOT_URL = '[^\']+';\/\/ok/" },

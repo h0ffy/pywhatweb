@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class php_fusion_plugin:
+class Pluginphp_fusion_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "ghdb" : "Powered by PHP-Fusion copyright" +intitle:News" },
 			{ "string" : /Powered by <a href='http:\/\/www\.php-fusion\.co\.uk'>PHP-Fusion<\/a> copyright &copy; 2002 - ([\d]{4})/" },
 			{ "text" : "<td align='right' class='tbl1 profile_user_level'><!--profile_user_level-->" },

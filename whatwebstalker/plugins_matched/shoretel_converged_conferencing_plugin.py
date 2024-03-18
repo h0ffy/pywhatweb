@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class shoretel_converged_conferencing_plugin:
+class Pluginshoretel_converged_conferencing_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "url" : "/ics?action=display&display=opener", "text" : "<script src="/ics?action=get_branding_js" charset="UTF-8"></script>" },
 			{ "certainty" : "75", "url" : "/ics?action=display&display=opener", "text" : "<DIV style="visibility:hidden;display:none" id="TEXT_OPENING_PRODUCT">Opening *brand_product_name*</DIV>" },
 			{ "url" : "/branding/default/ENG-US.js", "text" : "this.product_name_long = "ShoreTel Converged Conferencing";" },

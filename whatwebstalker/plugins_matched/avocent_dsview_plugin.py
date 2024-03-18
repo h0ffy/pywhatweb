@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class avocent_dsview_plugin:
+class Pluginavocent_dsview_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "version" : "/^Avocent DSView [\d]\/([^\s]+)$/" },
 			{ "text" : "<link rel="stylesheet" type="text/css" href="/dsview/scheme-1.css" title="Default" />" },
 			{ "url" : "/dsview/images/favicon.ico", "md5" : "9de6b6b67f27e264ff7d82ae071cec3f" },

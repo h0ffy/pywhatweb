@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class syncrify_plugin:
+class Pluginsyncrify_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "md5" : "b5a85ee65b5fda5f8180e1f9c2ab0560" },
 			{ "url" : "/images/468x60.gif", "md5" : "2197210023deed6e71c704b6a27867a1" },
 			{ "version" : "/<h3>Syncrify - <small>Version: ([\d\.]+ - build [\d]+)<\/small><\/h3>/" },

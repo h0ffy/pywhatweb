@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class phpkit_plugin:
+class Pluginphpkit_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<meta name="generator" content="PHPKIT WCMS \- Web Content Managment System \- mxbyte GbR copyright [\d]{4}\-[\d]{4}" \/>/" },
 			{ "regexp" : "/<meta name="generator" content="PHPKIT WCMS Web Content Management System" \/>/" },
 			{ "text" : "<meta name="author" content="PHPKIT WCMS - Web Content Management System - Copyright mxbyte GbR" />" },

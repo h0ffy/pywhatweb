@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class tele_data_cms_plugin:
+class Plugintele_data_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/Powered by Teledata<br>\n<center>Best viewed in IE6\.<\/center>/" },
 			{ "text" : "<input name="txthomepassword" type="password"  size="22" id="txthomepassword" maxlength="200" />" },
 			{ "text" : "align=center class="tdi-errormessage" style="height: 25px"><script type="text/javascript">showerror();</script></td>" },

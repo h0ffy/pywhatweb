@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class mkportal_plugin:
+class Pluginmkportal_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta name="generator" content="MKPortal" />" },
 			{ "text" : "|   Cascading Style Sheet for MKportal "Forum" Portal Template" },
 			{ "certainty" : "25", "text" : "<!-- end close portal body -->" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class mootools_plugin:
+class Pluginmootools_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/^\/\/ Load your build at: http:\/\/mootools.net\/core\//" },
 			{ "version" : "/^MooTools.More[\s]*=[\s]*\{[\s]*version:[\s]*["']?([^\"^\']+)["']?/" },
 			{ "version" : "/^var MooTools[\s]*=[\s]*\{[\s]*version:[\s]*["']?([^\"^\']+)/" },

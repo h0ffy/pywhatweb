@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class spryware_mis_plugin:
+class Pluginspryware_mis_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "version" : "/^SpryWare\/([^\s]+)$/" },
 			{ "search" : "headers[x-deprecated-response]", "regexp" : "/^Invalid CheckSum Received$/" },
 		]

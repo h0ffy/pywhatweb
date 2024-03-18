@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class mobotix_network_camera_plugin:
+class Pluginmobotix_network_camera_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta name="publisher" content="MOBOTIX AG", "Germany">" },
 			{ "text" : "<meta name="copyright" content="MOBOTIX AG", "Germany">" },
 			{ "text" : "<meta name="author" content="Daniel Kabs", "MOBOTIX AG", "Kaiserslautern", "Germany.">" },

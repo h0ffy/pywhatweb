@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class dr_web_anti_virus_plugin:
+class Plugindr_web_anti_virus_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[set-cookie]", "regexp" : "/DRWEB_PERSONAL_OFFICE=[^;]*;/" },
 			{ "md5" : "b3465a1bb7fa5ca9e63d2924f4f7a865", "url" : "/avdesk/includes/system/templates/images/logo_en.png" },
 			{ "md5" : "2ef77c5015f2a5aee1633d58a32037ef", "url" : "/avdesk/includes/system/templates/images/logo_ru.png" },

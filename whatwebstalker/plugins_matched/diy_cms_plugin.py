@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class diy_cms_plugin:
+class Plugindiy_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "Powered by: <a href="http://www.diy-cms.com" target="_blank">DIY-CMS</a>" },
 			{ "text" : "<a href="http://www.pghost.eu/14/18/diy_cms-25.html">Powered by DIY-CMS</a>" },
 			{ "text" : "<title>DIY-CMS Database Error</title>" },

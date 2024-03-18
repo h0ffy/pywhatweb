@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class log1_cms_plugin:
+class Pluginlog1_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta http-equiv="Generator" content="log1_cms" />" },
 			{ "text" : "<!-- please do not deleate info below", "thank you -->" },
 			{ "text" : "<p>Powered by <a href="http://log1cms.sourceforge.net" target="_blank"> Log1 CMS</a></p>" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class cisco_ip_phone_plugin:
+class Plugincisco_ip_phone_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "model" : "/<td HEIGHT="50" bgcolor="#003031"><p ALIGN=center><B><font color="#FFFFFF" size="6">[^<]{5,50}<\/FONT><\/B><p ALIGN=center><B><font color="#FFFFFF" size="4">Cisco[^\(]{0,15} IP Phone ([^\(]{4,20}) \( [^\)]{15} \)[\s]?<\/FONT><\/FONT><\/B><\/TD>/" },
 			{ "string" : /<td HEIGHT="50" bgcolor="#003031"><p ALIGN=center><B><font color="#FFFFFF" size="6">[^<]{5,50}<\/FONT><\/B><p ALIGN=center><B><font color="#FFFFFF" size="4">Cisco[^\(]{0,15} IP Phone [^\(]{4,20} \( ([^\)]{15}) \)[\s]?<\/FONT><\/FONT><\/B><\/TD>/" },
 			{ "model" : "/<td HEIGHT="50" bgcolor="#003031"><p ALIGN=center><B><font color="#FFFFFF" size="6">[^<]{5,50}<\/FONT><\/B><p ALIGN=center><B><font color="#FFFFFF" size="4">Cisco Unified IP Phone ([^\(]{4,20}) \( [^\)]{15} \)[\s]?<\/FONT><\/FONT><\/B><\/TD>/", "version" : "Unified" },

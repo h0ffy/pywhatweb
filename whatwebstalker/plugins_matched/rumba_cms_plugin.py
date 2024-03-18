@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class rumba_cms_plugin:
+class Pluginrumba_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : " <center><small><a href=http://rumba.net.ru>Powered by Rumba CMS</a></small></center></body>" },
 			{ "text" : " <center><small><a href=http://rumbacms.com>Powered by Rumba CMS</a></small></center></body>" },
 			{ "text" : " Powered by <a rel="nofollow" target="_blank" href="http://rumba.net.ru/">Rumba CMS</a></p>" },

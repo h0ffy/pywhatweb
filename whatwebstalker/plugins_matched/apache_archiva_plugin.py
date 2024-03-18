@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class apache_archiva_plugin:
+class Pluginapache_archiva_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "25", "text" : "<title>Apache Archiva \\" },
 			{ "text" : "No context on this server matched or handled this request.<BR>Contexts known to this server are: <ul><li><a href="/archiva">/archiva&nbsp;--->&nbsp;org.mortbay.jetty.webapp.WebAppContext" },
 			{ "text" : "<form namespace="/" id="quickSearch" name="quickSearch" onsubmit="customOnsubmit_quickSearch(); return validateForm_quickSearch();" action="" },

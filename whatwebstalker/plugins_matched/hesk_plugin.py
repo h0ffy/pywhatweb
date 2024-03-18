@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class hesk_plugin:
+class Pluginhesk_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<script language="Javascript" type="text\/javascript" src="(\.\.\/|\.\/)?hesk_javascript\.js"><\/script>/" },
 			{ "regexp" : "/<link href="(\.\/)?hesk_style\.css" type="text\/css" rel="stylesheet"/" },
 			{ "regexp" : "/<link rel="stylesheet" type="text\/css" href="(\.\/)?hesk_style\.css"/" },

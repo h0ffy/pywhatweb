@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class vtigercrm_plugin:
+class Pluginvtigercrm_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "name" : "favicon md5", "url" : "/themes/images/vtigercrm_icon.ico',"md5" : "d90cc1762bf724db71d6df86effab63c'},
 			{ "name" : "favicon md5", "url" : "/include/images/vtigercrm_icon.ico',"md5" : "d90cc1762bf724db71d6df86effab63c'},
 			{ "name" : "stats img", "text" : "<img src=\'http://stats.vtiger.com/stats.php?uid=" },

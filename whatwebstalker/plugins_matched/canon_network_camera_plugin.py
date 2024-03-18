@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class canon_network_camera_plugin:
+class Plugincanon_network_camera_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75,"ghdb" : "intitle:liveapplet inurl:LvAppl'},
 			{ "certainty" : "75,"ghdb" : "+intitle:"Network Camera VB-C50i/VB-C50iR" +"Viewer for PC"'},
 			{ "text" : "<TITLE>Network Camera VB-C50i/VB-C50iR</TITLE>", "version" : "'VB-C50i'},

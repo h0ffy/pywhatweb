@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class canon_print_server_plugin:
+class Plugincanon_print_server_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<tr><td align="left"><A href="http://www.niigata-canotec.co.jp" name="canon_group" target="new_win">" },
 			{ "url" : "/ps_stat.htm", "firmware" : "/<td>Hardware ID: [^<]{1,10}<br>Firmware Version: ([^<]{1,10})<br>Protocol ID: [^<]{1,10}<br>Default Name: [^<]{1,10}<br>Server Name: [^<]{1,10}<br>H\/W Address: [^<]{12}<br>/" },
 			{ "url" : "/ps_stat.htm", "string" : /<td>Hardware ID: [^<]{1,10}<br>Firmware Version: [^<]{1,10}<br>Protocol ID: [^<]{1,10}<br>Default Name: [^<]{1,10}<br>Server Name: [^<]{1,10}<br>H\/W Address: ([^<]{12})<br>/" },

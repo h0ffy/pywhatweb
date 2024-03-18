@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class xoops_cube_plugin:
+class Pluginxoops_cube_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "text" : "<title>XOOPS Cube Site - Just Use it!</title>" },
 			{ "certainty" : "75", "text" : "<!-- RMV: added module header -->" },
 			{ "text" : "<meta name="generator" content="XOOPS Cube" />" },

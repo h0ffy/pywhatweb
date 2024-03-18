@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class netgear_print_server_plugin:
+class Pluginnetgear_print_server_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>NetGear Print Server Setup</title>" },
 			{ "text" : "<p>To provide an enhanced user interface", "this Print Server uses JavaScript extensively." },
 			{ "url" : "/start.htm", "text" : "<title>NETGEAR Print Server </title>" },

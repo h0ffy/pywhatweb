@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class emc_documentum_webtop_plugin:
+class Pluginemc_documentum_webtop_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "text" : "<body  marginwidth='0' topmargin='40' bottommargin='0' class='contentBackground' leftmargin='0' rightmargin='0' marginheight='40'>" },
 			{ "text" : "<select name='Login_docbase_0' id='DocbaseName' title=\"Repository\" size='0' class=defaultDropdownListStyle onchange='setKeys(event);" },
 			{ "text" : "<td scope="row" align=\'right\' class="fieldlabel" height="30"><span  class=\'defaultLabelStyle\'>Repository</span></td><td class="defaultcolumnspacer">:&nbsp;</td>" },

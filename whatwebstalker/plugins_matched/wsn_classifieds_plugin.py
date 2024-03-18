@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class wsn_classifieds_plugin:
+class Pluginwsn_classifieds_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>WSN Classifieds Admin Login</title>" },
 			{ "text" : "<title>WSN Classifieds Administration Panel</title>" },
 			{ "version" : "/<span class="(topbar|group)" style="margin-left: 8px;">WSN Classifieds ([\d\.]+) Admin Login<\/span>/", "offset" : "1 },

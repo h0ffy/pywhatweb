@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class getsimple_plugin:
+class Plugingetsimple_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

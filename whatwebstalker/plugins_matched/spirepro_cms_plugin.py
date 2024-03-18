@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class spirepro_cms_plugin:
+class Pluginspirepro_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<script xmlns:a="http://www.1stomni.com/spire/aml" type="text/javascript"" },
 			{ "text" : "<meta name="Spire-Last-Modified" content="" },
 			{ "regexp" : "/<meta name="Spire-Editor" content="([^"]+)">/" },

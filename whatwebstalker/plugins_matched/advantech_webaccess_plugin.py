@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class advantech_webaccess_plugin:
+class Pluginadvantech_webaccess_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<html><!-- #BeginTemplate "/Templates/bw_templete1.dwt" -->" },
 			{ "text" : "<a href="/broadweb/WebAccessClientSetup.exe">" },
 			{ "search" : "headers[location]", "regexp" : "/\.\/broadWeb\/bwviewpg\.asp\?proj=/" },

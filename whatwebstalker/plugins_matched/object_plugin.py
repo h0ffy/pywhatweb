@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class object_plugin:
+class Pluginobject_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<object/i},
 			{ "module" : /<object [^>]*classid\s*=\s*['"]([^"']+)['"]/i", "offset" : "0", "name" : "classid" },
 			{ "module" : /<object [^>]*classid\s*=\s*([^\s>'"]+)/i", "offset" : "0", "name" : "classid" },

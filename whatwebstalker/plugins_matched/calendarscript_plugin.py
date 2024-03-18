@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class calendarscript_plugin:
+class Plugincalendarscript_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "ghdb" : "inurl:calendar_admin.pl intitle:Calendar Administration : Login" },
 			{ "certainty" : "75", "ghdb" : "powered by CalendarScript inurl:calendar.pl filetype:pl" },
 			{ "text" : "<HEAD><TITLE>Calendar Administration : Login</TITLE>" },

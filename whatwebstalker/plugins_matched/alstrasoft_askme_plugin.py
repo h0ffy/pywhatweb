@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class alstrasoft_askme_plugin:
+class Pluginalstrasoft_askme_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "Enter details about your question and press the button bellow. All fields are required." },
 			{ "text" : "<font size="+2">AskMe Pro Admin</font></b>" },
 			{ "text" : "<br> Powered by <a href='http://www.alstrasoft.com' targe='_blank'><font color=blue>AlstraSoft AskMe Pro</font></a><br><br>" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class zyxel_router_plugin:
+class Pluginzyxel_router_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>.:: Welcome to the Web-Based Configurator::.</title><meta http-equiv='content-type' content='text/html;charset=iso-8859-1'>" },
 			{ "text" : "<form method="post" action="/Forms/rpAuth_1" onSubmit="LoginClick(document.forms[0].hiddenPassword", "document.forms[0].LoginPassword);"><p>&nbsp;</p>" },
 			{ "text" : "Welcome to your router Configuration Interface<p></p>Enter your password and press enter or click "Login"<p></p><img src="Images/i_key.gif" width="11" height="17"  align="absmiddle"> <strong>" },

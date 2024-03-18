@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class sony_network_camera_plugin:
+class Pluginsony_network_camera_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "	setWindowVar = window.open("/adm/file.cgi?next_file=setting.htm", "adminWin", "setWinoptions);", "model" : "["SNC-M"] },
 			{ "text" : "<TITLE>Server Push Viewer</TITLE>" },
 			{ "regexp" : "/<FRAME SRC="bar.html" SCROLLING="NO" NAME="sonyhome[0-9]*" NORESIZE[\ MARGINHEIGHT="0-9"]* MARGINWIDTH="0">/i },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class phpquestionnaire_plugin:
+class Pluginphpquestionnaire_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<tr><td></td><td colspan="2"><h2>Survey List</h2></td></tr>" },
 			{ "text" : "	<tr><td colspan="2"><hr size="1" noshade /></td></tr><tr><td colspan="2">Currently no available surveys.</td></tr>	</table>" },
 			{ "text" : "   TEXTAREA      { font-family: verdana,arial,helvetica; font-size: 12px; width: 400px; height: 60px; }" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class syndeocms_plugin:
+class Pluginsyndeocms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/Powered by <a href="http:\/\/www.syndeocms.org[\/]?" target="_blank">/i },
 			{ "regexp" : "/Powered by <a href="http:\/\/www.syndeocms.org[\/]?" title="SyndeoCMS">/i },
 			{ "regexp" : "/Powered by <a href="http:\/\/www.syndeocms.org[\/]?"[^>]*>SyndeoCMS<\/a>/i },

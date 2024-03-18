@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class kodi_plugin:
+class Pluginkodi_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>Kodi</title>" },
 			{ "text" : "<link rel="search" href="provider.xml" type="application/opensearchdescription+xml" title="Kodi Library" />" },
 			{ "name" : "favicon", "md5" : "91b72b23e7f499d6c09cb18c7b1278f1", "url" : "/favicon.ico" },

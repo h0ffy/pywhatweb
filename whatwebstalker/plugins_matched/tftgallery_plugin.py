@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class tftgallery_plugin:
+class Plugintftgallery_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "Select an album: <select name="album" onchange="javascript:document.tftnavi.submit();"><option></option>" },
 			{ "text" : "<title>TFTgallery administration</title><link rel='stylesheet' type='text/css' href" },
 			{ "text" : "<div class="login_text"><br /><a href="../index.php">back to the gallery</a></div>" },

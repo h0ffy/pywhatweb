@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class escenic_plugin:
+class Pluginescenic_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- Start Escenic Analysis Engine client script -->" },
 			{ "certainty" : "75", "text" : "<meta name="author" content="Escenic AS"/>" },
 			{ "certainty" : "25", "regexp" : "/<form action="\/sok\/" id="[^"]+" method="get" accept-charset="utf-8"[^>]*>/" },

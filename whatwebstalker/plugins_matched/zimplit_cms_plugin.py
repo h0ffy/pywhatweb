@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class zimplit_cms_plugin:
+class Pluginzimplit_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<script[^>]+src="http:\/\/(client\.zimplit|www\.zimplit|zimplit)\.(org|com)\/(users\/publicUser|editor)\/(jquery|ZimgZoomer|ZZMenu)\.js"[^>]*><\/script>/i },
 			{ "version" : "/<script[^>]+src="http:\/\/(client\.zimplit|www\.zimplit|zimplit)\.(org|com)\/users\/publicUser_v([\d\._]+)\/(jquery|ZimgZoomer|ZZMenu)\.js"[^>]*><\/script>/i", "offset" : "2 },
 			{ "text" : "<!-- YOU ARE ONLY ALLOWED TO HIDE", "DELETE OR MODIFY "POWERED BY ZIMPLIT CMS" LINK", "IF THE DOMAIN HAS BEEN REGISTERED WITH A COMMERCIAL LICENSE AT WWW.ZIMPLIT.ORG -->" },

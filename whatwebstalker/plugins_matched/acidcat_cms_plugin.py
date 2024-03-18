@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class acidcat_cms_plugin:
+class Pluginacidcat_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- Start Acidcat CMS footer information. Note: this code is not to be edited or removed in the free version. -->" },
 			{ "text" : "<tr><td colspan="2" valign="top" class="ac_menuleftbg" ><table width="100%" cellspacing="0" border="0"><tr>" },
 			{ "text" : "<tr><td colspan="2" valign="top" class="ac_menuleftbg" ><table cellspacing="0" border="0"><tr>" },

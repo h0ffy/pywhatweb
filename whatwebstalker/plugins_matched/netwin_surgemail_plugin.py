@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class netwin_surgemail_plugin:
+class Pluginnetwin_surgemail_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- Start of index.htm --><!-- delayed after doctype-->" },
 			{ "text" : "<title>SurgeMail Welcome Page</title>" },
 			{ "text" : "<meta name="GENERATOR" content="Mozilla/4.75 [en] (Windows NT 5.0; U) [Netscape]">" },

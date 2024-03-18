@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class php_plugin:
+class Pluginphp_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000", "version" : "/<tr class="h"><th colspan="2">PHP (\d) Authors<\/th><\/tr>/" },
 			{ "url" : "/?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000", "version" : "/<tr class="h"><th>PHP ([\d\.]+) Quality Assurance Team<\/th><\/tr>/" },
 			{ "filepath" : "/<b>(Warning|Fatal error)<\/b>: .* in <b>([^<]+)<\/b> on line <b>[0-9]+<\/b><br \/>/", "offset" : "1 },

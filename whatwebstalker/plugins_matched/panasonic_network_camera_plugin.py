@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class panasonic_network_camera_plugin:
+class Pluginpanasonic_network_camera_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<HEAD><TITLE>WJ-NT104 MAIN PAGE</TITLE></HEAD>", "version" : "WJ-NT104" },
 			{ "text" : "      <FONT FACE="Arial" STYLE="font-size: 24px" COLOR="#ffffff"><B>Network Camera</B></FONT>" },
 			{ "regexp" : "/<BODY BACKGROUND="image\/Hcm1[0]?\.gif" 		[\t]?BGCOLOR="#efefef" TEXT="#000000" LINK="#000000" 			VLINK="#000000" ALINK="#000000">/" },

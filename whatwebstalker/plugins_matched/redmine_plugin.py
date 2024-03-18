@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class redmine_plugin:
+class Pluginredmine_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[set-cookie]", "regexp" : "/_redmine_session=/" },
 			{ "string" : /Powered by <a href="http:\/\/www\.redmine\.org\/">Redmine<\/a> &copy; 2006-(20[\d]{2}) Jean-Philippe Lang/" },
 			{ "certainty" : "25", "text" : "<meta name="description" content="Redmine" />" },

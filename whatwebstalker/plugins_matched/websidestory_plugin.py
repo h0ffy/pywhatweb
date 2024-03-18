@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class websidestory_plugin:
+class Pluginwebsidestory_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- WebSideStory HTML for Search -->" },
 			{ "text" : "<!--END WEBSIDESTORY CODE-->" },
 			{ "regexp" : "/<!--COPYRIGHT 1997-[0-9]{4} WEBSIDESTORY,INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479B1. MORE INFO:http:\/\/websidestory.com\/privacy-->/" },

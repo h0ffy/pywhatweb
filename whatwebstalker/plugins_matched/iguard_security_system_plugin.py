@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class iguard_security_system_plugin:
+class Pluginiguard_security_system_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "	<TITLE>iGuard Fingerprint Security System</TITLE>" },
 			{ "firmware" : "/	<meta content="Lucky-Tech iGuard ([\d\.]{1,5})" name="GENERATOR">/" },
 			{ "url" : "/Admins/Content.vtml", "firmware" : "/iGuard Security[^<]+<\/td><\/tr><tr><td>Firmware Version<\/td><td>([^<]+)<\/td>/" },

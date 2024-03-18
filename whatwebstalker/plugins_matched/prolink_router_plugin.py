@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class prolink_router_plugin:
+class Pluginprolink_router_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<! Copyright (c) Realtek Semiconductor Corp.", "2003. All Rights Reserved. ->" },
 			{ "text" : "<title>PROLiNK ADSL Router</title>" },
 			{ "text" : "<title>RFwell ADSL Router Status</title>" },

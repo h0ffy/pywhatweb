@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class php_live_plugin:
+class Pluginphp_live_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "// image is NOT CACHED (Netscape problem).  keep this or bad things could happen" },
 			{ "text" : "<!-- copyright OSI Codes Inc. http://www.osicodes.com [DO NOT DELETE] -->" },
 			{ "text" : "<!-- copyright OSI Codes", "http://www.osicodes.com [DO NOT DELETE] -->" },

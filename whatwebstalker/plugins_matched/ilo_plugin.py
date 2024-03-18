@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class ilo_plugin:
+class Pluginilo_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "Derivative Work - 1996", "1998-2000 Copyright 1996", "1998-2000 The Regents of the University of California<br>" },
 			{ "regexp" : "/<title>[\s]+HP Integrated Lights-Out( [\d])?[\s]+<\/title>/" },
 			{ "text" : "<a href="http://www.hp.com/servers/lights-out" target="new"><IMG height=60 src="ilo.gif" width=150 border=0 alt="Integrated Lights-Out"></a>" },

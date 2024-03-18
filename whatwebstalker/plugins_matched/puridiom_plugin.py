@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class puridiom_plugin:
+class Pluginpuridiom_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<TITLE>Puridiom", "Enabling Self-Service Procurement</TITLE>" },
 			{ "string" : "Xpress", "text" : "<TITLE>Puridiom Xpress", "Enabling Self-Service Procurement</TITLE>" },
 			{ "text" : "<iframe id="getInfoFrame" name="getInfoFrame" src="/puridiom/system/processing.jsp"" },

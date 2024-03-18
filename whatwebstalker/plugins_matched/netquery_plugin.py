@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class netquery_plugin:
+class Pluginnetquery_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<form class="nquser" action="nquser.php" method="post">" },
 			{ "text" : "<a href="nquser.php?querytype=countries"><img class="gobuttonup"" },
 			{ "certainty" : "75", "text" : "<legend>NQ User Interface</legend>" },

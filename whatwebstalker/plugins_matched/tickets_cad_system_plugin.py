@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class tickets_cad_system_plugin:
+class Plugintickets_cad_system_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<HEAD><TITLE>Tickets - Top Frame</TITLE>" },
 			{ "text" : "<HEAD><TITLE>Tickets - Login Module</TITLE>" },
 			{ "regexp" : "/<NOFRAMES>\s+<BODY>\s+Tickets requires a frames-capable browser\.\s+<\/BODY>\s+<\/NOFRAMES>/" },

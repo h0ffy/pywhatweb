@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class knowledgetree_plugin:
+class Pluginknowledgetree_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "    <title>Dashboard | KnowledgeTree</title>" },
 			{ "text" : "    <title>Login | KnowledgeTree</title>" },
 			{ "text" : "/resources/powered-by-kt.png" border="0" alt="Powered by KnowledgeTree" title="Powered by KnowledgeTree"/></a>" },

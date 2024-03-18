@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class viewvc_plugin:
+class Pluginviewvc_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>ViewVC Repository Listing</title>" },
 			{ "text" : "<!-- ViewVC :: http://www.viewvc.org/ -->" },
 			{ "text" : "<!-- ViewCVS -- http://viewcvs.sourceforge.net/" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class sendio_esp_plugin:
+class Pluginsendio_esp_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<frameset id="icetopframeset" name="icetopframeset" rows="28,*,20,0,0,0"" },
 			{ "text" : "<link rel="stylesheet" type="text/css" href="/sendio/ice/css/nice.css" />" },
 			{ "url" : "/favicon.ico", "md5" : "0d8eda4e968077705982915e3d874e17" },

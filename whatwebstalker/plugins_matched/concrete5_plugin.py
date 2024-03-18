@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class concrete5_plugin:
+class Pluginconcrete5_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class koobi_plugin:
+class Pluginkoobi_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/Powered by <a title="Koobi ist ein komfortables und leistungsf&auml;higes Content-Management-System \(CMS\) f&uuml;r Privatpersonen", "Vereine", "kleine und mittelst&auml;ndische Unternehmen", "die einen professionellen Internetauftritt realisieren m&ouml;chten."[^>]+>Koobi/i },
 			{ "text" : "<!-- powered by koobi - do not remove this info! -->" },
 			{ "version" : "/powered by <a class="foot" href="http:\/\/www.dream4.de\/[^>]+>Koobi Pro ([\d\.]+)<\/a>/i", "string" : "Pro" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class seminole_plugin:
+class Pluginseminole_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "version" : "/^Seminole\/([^\s]+)/" },
 		]
 

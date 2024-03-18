@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class modernizr_plugin:
+class Pluginmodernizr_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<script [^>]*src=["'][^>]*modernizr[^>]*\.js/i },
 			{ "version" : "/<script [^>]*src=["'][^>]*modernizr-([^>]+)\.js/i },
 		]

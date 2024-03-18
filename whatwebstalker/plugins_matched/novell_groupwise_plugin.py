@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class novell_groupwise_plugin:
+class Pluginnovell_groupwise_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- START NOVELL SERVICES -->" },
 			{ "text" : "<!-- START GROUPWISE WEBACCESS -->" },
 			{ "text" : "<!-- ========== GroupWise WebAccess Form ========== -->" },

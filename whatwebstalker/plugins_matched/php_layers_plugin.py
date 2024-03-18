@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class php_layers_plugin:
+class Pluginphp_layers_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "certainty" : "75", "ghdb" : "Powered by PHP Layers"" },
 			{ "text" : "// because Konqueror 3 sets IE = 1 ... AAAAAAAAAARGHHH!!!" },
 			{ "text" : ".png" alt="Powered by PHP Layers Menu" height="31" width="88" /></a>" },

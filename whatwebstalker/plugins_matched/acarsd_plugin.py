@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class acarsd_plugin:
+class Pluginacarsd_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "version" : "/^acarsd\/([^\s]+)$/" },
 			{ "certainty" : "75", "text" : "<meta name="author" content="KjM <acarsd@acarsd.org>">" },
 			{ "certainty" : "75", "regexp" : "/<title>[^<]*RealTime Web ACARS/" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class sarg_plugin:
+class Pluginsarg_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>Squid User's Access Report</title>" },
 			{ "text" : "<tr><th class="logo"><a href="http://sarg.sourceforge.net"><img src="./images/sarg.png" border="0" align="absmiddle" title="SARG", "Squid Analysis Report Generator. Logo by Osamu Matsuzaki"></a>&nbsp;<font class="logo">Squid Analysis Report Generator</font></th></tr>" },
 			{ "text" : "<tr><th class="logo"><a href="http://sarg.sourceforge.net"><img src="../images/sarg.png" border="0" align="absmiddle" title="SARG", "Squid Analysis Report Generator. Logo by Osamu Matsuzaki"></a>&nbsp;<font class="logo">Squid Analysis Report Generator</font></th></tr>" },

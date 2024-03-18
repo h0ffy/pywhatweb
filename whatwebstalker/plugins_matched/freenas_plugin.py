@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class freenas_plugin:
+class Pluginfreenas_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<div id="login" data-dojo-type="dijit\.Dialog" data-dojo-props="title: "Welcome to FreeNAS&trade; ([^']+)'">/" },
 			{ "version" : "/<div id="login" dojoType="dijit\.Dialog" title="Welcome to FreeNAS ([^\s]+)">/" },
 			{ "text" : "<!-- THIS IS A LOGIN WEBPAGE -->" },

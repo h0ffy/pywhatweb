@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class wsn_links_plugin:
+class Pluginwsn_links_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>WSN Links Administration Panel</title>" },
 			{ "version" : "/<span class="group" style="margin-left: 8px;">WSN Links ([\d\.]+) Admin Login<\/span>/" },
 			{ "version" : "/<span class="group">WSN Links ([\d\.]+) Admin Panel<\/span>/" },

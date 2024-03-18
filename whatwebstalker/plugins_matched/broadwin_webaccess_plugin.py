@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class broadwin_webaccess_plugin:
+class Pluginbroadwin_webaccess_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/favicon.ico", "md5" : "e852c819348eb49dcc549cd594e776ee" },
 			{ "text" : "<frame marginheight="0" marginwidth="0" name="rightRunFrame" noresize src="bwRunRight.asp">" },
 			{ "text" : "<html><!-- #BeginTemplate "/Templates/bw_templete1.dwt" -->" },

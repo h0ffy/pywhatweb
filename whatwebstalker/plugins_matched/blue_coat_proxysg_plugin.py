@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class blue_coat_proxysg_plugin:
+class Pluginblue_coat_proxysg_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[location]", "regexp" : "/https?:\/\/proxysg\/\?cfru=[^\s]+$/" },
 		]
 

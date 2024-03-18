@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class sipura_voip_phone_plugin:
+class Pluginsipura_voip_phone_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<form action="bsipura.spa" method="POST">" },
 			{ "text" : "<img width="100%" src="/spabanner.jpg" border="0" alt="Sipura Technology Inc">" },
 			{ "model" : "/<tr bgcolor="#dcdcdc"><td>Product Name:<td><font color="darkblue">([^<]+)<\/font><td>Serial Number:<td>/" },

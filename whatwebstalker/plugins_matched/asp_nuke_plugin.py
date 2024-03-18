@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class asp_nuke_plugin:
+class Pluginasp_nuke_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta name=\"Generator\" CONTENT=\"ASP-Nuke" },
 			{ "version" : "2", "text" : "<meta name=\"Generator\" content=\"ASPNUKE v2.0 - distributed under GPL license\">" },
 			{ "text" : "<a href=\"http://www.rot.dk\" target=\"_blank\">Asp-Nuke</a> community" },

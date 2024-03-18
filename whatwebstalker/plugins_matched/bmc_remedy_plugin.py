@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class bmc_remedy_plugin:
+class Pluginbmc_remedy_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<!-- common to all login jsps - not localized information -->" },
 			{ "text" : "<!-- Added to prevent iFrame exploit. Need to comment out for portlet to work -->" },
 			{ "text" : "<input type="button" name="clear" value="Clear" class="Login" onClick="clearLogin();"><!--;-->" },

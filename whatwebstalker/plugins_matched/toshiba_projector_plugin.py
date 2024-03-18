@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class toshiba_projector_plugin:
+class Plugintoshiba_projector_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^TOSHIBA-Projector$/" },
 			{ "url" : "/cgi-bin/top2.cgi", "model" : "/<TD class="f16" align="right"><FONT color="#1a6b84"><B>TOSHIBA DATA PROJECTOR&nbsp; ([^\s]+)                <\/B><\/FONT><\/TD>/" },
 			{ "url" : "/cgi-bin/top2.cgi", "string" : /<TD class="f12w" nowrap><FONT color="#206e96">([\dA-Z]{12})<\/FONT><\/TD>/" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class webeye_network_camera_plugin:
+class Pluginwebeye_network_camera_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>WebEye User Login</title>" },
 			{ "text" : "<title>WebEye Java Applet Page</title>" },
 			{ "text" : "<title>WebEye Index Page</title>" },

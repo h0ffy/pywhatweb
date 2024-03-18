@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class open_admin_for_schools_plugin:
+class Pluginopen_admin_for_schools_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<html><head>[\s]+<title>Open Admin for Schools ([^\s]+) - [^<]+<\/title>/" },
 			{ "version" : "/<tr><th style="padding:0.3em;"><span style="font-size: 120%;">[\s]+Open Admin for Schools ([^\s]+)<\/span> [^<]+ Les Richardson<\/th><\/tr>[\s]+<\/table>/" },
 			{ "text" : "<form action="/cgi-bin/rptbirthday.pl" method="post" style="display:inline;">" },

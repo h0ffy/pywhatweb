@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class allinta_cms_plugin:
+class Pluginallinta_cms_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/	<link rel="stylesheet" href="css\/wizard\/t[0-9_]+.css" type="text\/css">/" },
 			{ "regexp" : "/	<link href="css\/wizard\/t[0-9_]+.css" rel="stylesheet" type="text\/css">/" },
 			{ "text" : "		<td align="right" class="footerText">Powered by allinta CMS</td>" },

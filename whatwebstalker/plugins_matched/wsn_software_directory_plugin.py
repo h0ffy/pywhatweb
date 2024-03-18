@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class wsn_software_directory_plugin:
+class Pluginwsn_software_directory_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>WSN Software Directory Admin Login</title>" },
 			{ "text" : "<title>WSN Software Directory Administration Panel</title>" },
 			{ "version" : "/<span class="(topbar|group)" style="margin-left: 8px;">WSN Software Directory ([\d\.]+) Admin Login<\/span>/", "offset" : "1 },

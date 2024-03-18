@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class blueonyx_plugin:
+class Pluginblueonyx_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "version" : "/<TITLE>Login - BlueOnyx ([^\s]+) Series - [^<^\s]+<\/TITLE>/" },
 			{ "version" : "'document.write\("\\nThank you for using the BlueOnyx ([^\s]+) Series.\\n"\);" },
 			{ "certainty" : "75", "text" : "<BODY BGCOLOR="#FFFFFF" onLoad="focuslogin()" onResize="if(navigator.appName == \'Netscape\') location.reload()" LINK="#FFFFFF" VLINK="#FFFFFF">" },

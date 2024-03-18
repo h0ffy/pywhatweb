@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class bigace_plugin:
+class Pluginbigace_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "Powered by <a href="http://www.bigace.de/" target="_blank">BIGACE</a>" },
 			{ "version" : "/Powered by <a href="http:\/\/www.bigace.de\/"[^>]*>BIGACE ([\d\.]+)<\/a>/" },
 			{ "version" : "/<meta name="generator" content="BIGACE ([\d\.]+)"( \/)?>/" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class lightbox_plugin:
+class Pluginlightbox_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<script [^>]*(lightbox[^>]*.js)[^>]*},
 		]
 

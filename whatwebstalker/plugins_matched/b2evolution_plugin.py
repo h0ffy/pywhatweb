@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class b2evolution_plugin:
+class Pluginb2evolution_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/rsc\/img\/powered-by-b2evolution-150t.gif" alt="Powered by b2evolution"/i },
 			{ "version" : "/<p class="footer"><a href="http:\/\/b2evolution.net\/" title="visit b2evolution's website"><strong>b2evolution ([^<]+)<\/strong><\/a>/" },
 			{ "version" : "/<meta name="generator" content="b2evolution ([^\"]+)" \/>/" },

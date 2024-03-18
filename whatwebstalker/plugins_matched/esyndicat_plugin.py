@@ -1,11 +1,10 @@
 import sys
 import os
 			
-class esyndicat_plugin:
+class Pluginesyndicat_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 		]
 

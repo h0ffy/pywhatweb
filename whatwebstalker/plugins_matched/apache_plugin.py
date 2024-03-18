@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class apache_plugin:
+class Pluginapache_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<title>Test Page for Apache Installation</title>", "string" : "Default" },
 			{ "text" : "<TITLE>Test Page for the SSL/TLS-aware Apache Installation on Web Site</TITLE>", "string" : "Default" },
 			{ "text" : "<html><body><h1>It works!</h1></body></html>", "string" : "Default" },

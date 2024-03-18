@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class pmwiki_plugin:
+class Pluginpmwiki_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "search" : "headers[set-cookie]", "regexp" : "/imstime=[\d]+;/" },
 			{ "text" : "<!--PageLeftFmt-->" },
 			{ "text" : "<span class='commentout-pmwikiorg'>" },

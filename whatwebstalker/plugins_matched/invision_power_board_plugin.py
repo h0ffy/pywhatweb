@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class invision_power_board_plugin:
+class Plugininvision_power_board_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "(Powered by Invision Power Board)</title>" },
 			{ "text" : "index.php?app=core&amp;module=global&amp;section=rss&amp;type=forums&amp;id=" },
 			{ "regexp" : "/<script [^>]+src='[^']+\/ipb\.js/" },

@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class formmail_plugin:
+class Pluginformmail_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "This form was suplied by <A href="http://www.worldwidemart.com/scripts/formmail.shtml"" },
 			{ "text" : "<a href="http://www.worldwidemart.com/scripts/formmail.shtml">FormMail</a>" },
 			{ "name" : "copyright", "certainty" : "75", "regexp" : "/&copy; 19[\d]+ -[\d]+ Matt Wright<BR>/" },

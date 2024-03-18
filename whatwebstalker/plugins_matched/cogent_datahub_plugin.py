@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class cogent_datahub_plugin:
+class Plugincogent_datahub_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "url" : "/images/Cogent.gif", "md5" : "c8f57d665418321b0248c22cd65efaff" },
 			{ "url" : "/scripts/livedata.js", "text" : "timerID = setTimeout ("DataHubConnection.updateTimer()", "this.timerTick);" },
 			{ "text" : "<link type="text/css" rel="stylesheet" href="css/dhwebserver.css" />" },

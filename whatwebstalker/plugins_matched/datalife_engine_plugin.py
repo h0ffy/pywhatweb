@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class datalife_engine_plugin:
+class Plugindatalife_engine_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "text" : "<meta name="generator" content="DataLife Engine (http://dle-news.ru)" />" },
 			{ "text" : "<meta name="generator" content="DataLife Engine" />" },
 			{ "text" : "<meta name="generator" content="DataLife Engine Nulled by M.I.D-Team (http://www.mid-team.ws)" />", "string" : "Nulled by M.I.D-Team" },

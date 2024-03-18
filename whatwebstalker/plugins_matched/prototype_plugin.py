@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class prototype_plugin:
+class Pluginprototype_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "name" : "js tag", "regexp" : "/<script [^>]*(prototype[^>]*.js)[^>]*},
 		]
 

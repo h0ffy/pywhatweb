@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class energine_plugin:
+class Pluginenergine_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "regexp" : "/<script type="text\/javascript" src="[^"]*scripts\/Energine.js"><\/script>/" },
 			{ "regexp" : "/<link rel="stylesheet" type="text\/css" href="[^"]*stylesheets\/energine.css" \/>/" },
 			{ "text" : "<div id="footer"><span class="copyright">Powered by <a href="http://energine.org">Energine</a><br/>" },

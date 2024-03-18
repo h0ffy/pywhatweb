@@ -1,12 +1,11 @@
 import sys
 import os
 			
-class movable_type_plugin:
+class Pluginmovable_type_plugin:
     def get_rules(self):
         return(self.rules)
     def __init__(self):
-        self.rules = 
-        [
+        self.rules = [
 			{ "name" : "meta generator tag", "regexp" : "/<meta name="generator" content="http:\/\/www\.movabletype\.org\/" \/>},
 			{ "text" : "<title>Movable Type System Check [mt-check.cgi]</title>" },
 			{ "version" : "/<li><strong>Movable Type version:<\/strong> <code>([^<]+)<\/code><\/li>/" },
