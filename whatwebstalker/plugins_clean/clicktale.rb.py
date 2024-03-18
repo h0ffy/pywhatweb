@@ -1,1 +1,1 @@
-{ "text" : '<div id="ClickTaleDiv" style="display: none;"></div>' }
+			{ "text" : '<div id="ClickTaleDiv" style="display: none;"></div>' }

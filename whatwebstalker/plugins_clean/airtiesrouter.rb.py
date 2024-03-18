@@ -1,1 +1,1 @@
-{ "version" : "/<title>Airties ([^<]+)<}
+			{ "version" : "/<title>Airties ([^<]+)<}

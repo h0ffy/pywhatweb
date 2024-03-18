@@ -1,1 +1,1 @@
-{ "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="SatLink Terminal"$/ }
+			{ "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="SatLink Terminal"$/ }

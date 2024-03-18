@@ -1,1 +1,1 @@
-{ "regexp" : "/goku\.brightcove\.com|admin\.brightcove\.com\/js}
+			{ "regexp" : "/goku\.brightcove\.com|admin\.brightcove\.com\/js}

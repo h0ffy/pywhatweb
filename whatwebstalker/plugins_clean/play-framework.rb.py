@@ -1,1 +1,1 @@
-{ "search" : "headers[server]", "version" : "/^Play! Framework;(\d[^\s^;]+;[^\s]+)$/ }
+			{ "search" : "headers[server]", "version" : "/^Play! Framework;(\d[^\s^;]+;[^\s]+)$/ }

@@ -1,1 +1,1 @@
-{ "regexp" : "/<script[^>]+src=["'](https?:)?\/\/static\.getclicky\.com/i }
+			{ "regexp" : "/<script[^>]+src=["'](https?:)?\/\/static\.getclicky\.com/i }

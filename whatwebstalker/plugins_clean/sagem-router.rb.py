@@ -1,1 +1,1 @@
-{ "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="?Sagem"?$/ }
+			{ "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="?Sagem"?$/ }

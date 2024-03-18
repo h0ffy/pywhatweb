@@ -1,1 +1,1 @@
-{ "regexp" : "/<script [^>]*src=["|'][^>]*addthis\.com\/js/i }
+			{ "regexp" : "/<script [^>]*src=["|'][^>]*addthis\.com\/js/i }

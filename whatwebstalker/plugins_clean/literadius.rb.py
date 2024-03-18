@@ -1,1 +1,1 @@
-{ "ghdb" : 'inurl:locator.php parsed_page lat long' }
+			{ "ghdb" : 'inurl:locator.php parsed_page lat long' }

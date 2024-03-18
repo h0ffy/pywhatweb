@@ -1,1 +1,1 @@
-{ "status" : "401", "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="PDQ Laserwash"$/ }
+			{ "status" : "401", "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="PDQ Laserwash"$/ }

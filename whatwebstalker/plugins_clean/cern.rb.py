@@ -1,1 +1,1 @@
-{ "search" : "headers[server]", "version" : "/^CERN\/([^\s]+)/ }
+			{ "search" : "headers[server]", "version" : "/^CERN\/([^\s]+)/ }

@@ -1,2 +1,2 @@
-{ "text" : '<!-- Powered by XMB ' }
-{ "text" : '<!-- The XMB Group -->' }
+			{ "text" : '<!-- Powered by XMB ' }
+			{ "text" : '<!-- The XMB Group -->' }

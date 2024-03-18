@@ -1,1 +1,1 @@
-{ "search" : "headers[x-powered-by]", "regexp" : "/HTML::Mason/ }
+			{ "search" : "headers[x-powered-by]", "regexp" : "/HTML::Mason/ }

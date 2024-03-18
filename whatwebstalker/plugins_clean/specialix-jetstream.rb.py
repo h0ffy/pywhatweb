@@ -1,1 +1,1 @@
-{ "search" : "headers[server]", "version" : "/^Specialix JETSTREAM ([\d\.]+)$/ }
+			{ "search" : "headers[server]", "version" : "/^Specialix JETSTREAM ([\d\.]+)$/ }

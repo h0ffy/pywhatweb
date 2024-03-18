@@ -1,1 +1,1 @@
-{ "name" : "js tag", "regexp" : "/<script [^>]*(prototype[^>]*.js)[^>]*}
+			{ "name" : "js tag", "regexp" : "/<script [^>]*(prototype[^>]*.js)[^>]*}

@@ -1,1 +1,1 @@
-{ "text" : "Proudly powered by <a href='http://tinybb.net'>TinyBB</a>" }
+			{ "text" : "Proudly powered by <a href='http://tinybb.net'>TinyBB</a>" }

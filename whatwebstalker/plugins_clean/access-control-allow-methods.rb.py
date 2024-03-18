@@ -1,1 +1,1 @@
-{ "search" : "headers[access-control-allow-methods]", "string" : /(.+)/ }
+			{ "search" : "headers[access-control-allow-methods]", "string" : /(.+)/ }

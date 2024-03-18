@@ -1,2 +1,2 @@
-{ "search" : "headers[server]", "regexp" : "/^Trend Micro$/ }
-{ "search" : "headers[server]", "version" : "/^Trend Micro ([^\s]+)$/ }
+			{ "search" : "headers[server]", "regexp" : "/^Trend Micro$/ }
+			{ "search" : "headers[server]", "version" : "/^Trend Micro ([^\s]+)$/ }

@@ -1,1 +1,1 @@
-{ "string" : /<!-- saved from url=\([\d]+\)([^>]+) -->[\r\n]/ }
+			{ "string" : /<!-- saved from url=\([\d]+\)([^>]+) -->[\r\n]/ }

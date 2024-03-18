@@ -1,1 +1,1 @@
-{ "regexp" : "/<script [^>]*src=["'][^>]*mint\/\?js/i }
+			{ "regexp" : "/<script [^>]*src=["'][^>]*mint\/\?js/i }

@@ -1,1 +1,1 @@
-{ "version" : "/<meta name="generator" content="WooFramework ([\d\.]+)"/ }
+			{ "version" : "/<meta name="generator" content="WooFramework ([\d\.]+)"/ }

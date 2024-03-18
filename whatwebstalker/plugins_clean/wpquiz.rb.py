@@ -1,1 +1,1 @@
-{ "regexp" : "/<title>[^>]*>> [Register|Login]+ - wp[q|Q]+uiz<\/title>/ }
+			{ "regexp" : "/<title>[^>]*>> [Register|Login]+ - wp[q|Q]+uiz<\/title>/ }

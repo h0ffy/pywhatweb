@@ -1,1 +1,1 @@
-{ "version" : "/<title>Deluge: Web UI ([^<]+)<\/title>}
+			{ "version" : "/<title>Deluge: Web UI ([^<]+)<\/title>}

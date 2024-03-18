@@ -1,1 +1,1 @@
-{ "search" : "headers[server]", "version" : "/^Seminole\/([^\s]+)/ }
+			{ "search" : "headers[server]", "version" : "/^Seminole\/([^\s]+)/ }

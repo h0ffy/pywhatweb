@@ -1,1 +1,1 @@
-{ "regexp" : "/<script [^>]*src=["'][^>]*use\.typekit\.com/i }
+			{ "regexp" : "/<script [^>]*src=["'][^>]*use\.typekit\.com/i }

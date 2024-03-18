@@ -1,1 +1,1 @@
-{ "regexp" : "/<script [^>]*(lightbox[^>]*.js)[^>]*}
+			{ "regexp" : "/<script [^>]*(lightbox[^>]*.js)[^>]*}

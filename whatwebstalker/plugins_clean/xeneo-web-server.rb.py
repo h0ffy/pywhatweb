@@ -1,2 +1,2 @@
-{ "search" : "headers[server]", "version" : "/^Xeneo\/([^\s]+)$/ }
-{ "search" : "headers[server]", "regexp" : "/^Xeneo$/ }
+			{ "search" : "headers[server]", "version" : "/^Xeneo\/([^\s]+)$/ }
+			{ "search" : "headers[server]", "regexp" : "/^Xeneo$/ }

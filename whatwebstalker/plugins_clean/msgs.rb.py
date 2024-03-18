@@ -1,1 +1,1 @@
-{ "version" : "/<title> Mercury Satellite Ground Station: Version ([\d\.]+)<\/title>/ }
+			{ "version" : "/<title> Mercury Satellite Ground Station: Version ([\d\.]+)<\/title>/ }

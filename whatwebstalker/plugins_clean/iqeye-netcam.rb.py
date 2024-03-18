@@ -1,1 +1,1 @@
-{ "model" : "/<title>IQeye([^:]+): Live Images[^<]*<\/title>/i }
+			{ "model" : "/<title>IQeye([^:]+): Live Images[^<]*<\/title>/i }

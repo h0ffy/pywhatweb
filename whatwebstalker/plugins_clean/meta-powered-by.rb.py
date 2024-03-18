@@ -1,1 +1,1 @@
-{ "string" : /<meta[^>]+name=["']powered[\- ]?by["'][^>]+content=["']([^"]+)["']/i }
+			{ "string" : /<meta[^>]+name=["']powered[\- ]?by["'][^>]+content=["']([^"]+)["']/i }

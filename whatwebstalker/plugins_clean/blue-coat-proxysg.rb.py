@@ -1,1 +1,1 @@
-{ "search" : "headers[location]", "regexp" : "/https?:\/\/proxysg\/\?cfru=[^\s]+$/ }
+			{ "search" : "headers[location]", "regexp" : "/https?:\/\/proxysg\/\?cfru=[^\s]+$/ }

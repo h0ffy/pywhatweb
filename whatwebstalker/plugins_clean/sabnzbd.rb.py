@@ -1,1 +1,1 @@
-{ "regexp" : "/    <form action="\/sabnzbd\/[^"]*" method="POST">/ }
+			{ "regexp" : "/    <form action="\/sabnzbd\/[^"]*" method="POST">/ }

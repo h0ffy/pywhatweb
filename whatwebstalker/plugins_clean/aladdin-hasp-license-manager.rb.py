@@ -1,1 +1,1 @@
-{ "search" : "headers[server]", "version" : "/^HASP LM\/([^\s]+)$/ }
+			{ "search" : "headers[server]", "version" : "/^HASP LM\/([^\s]+)$/ }

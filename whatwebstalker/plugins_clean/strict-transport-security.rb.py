@@ -1,1 +1,1 @@
-{ "search" : "headers[Strict-Transport-Security]", "string" : /^(.*)$/ }
+			{ "search" : "headers[Strict-Transport-Security]", "string" : /^(.*)$/ }

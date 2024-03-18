@@ -1,1 +1,1 @@
-{ "search" : "headers[server]", "regexp" : "/^ethProxy$/ }
+			{ "search" : "headers[server]", "regexp" : "/^ethProxy$/ }

@@ -1,1 +1,1 @@
-{ "search" : "headers[x-mobilized-by]", "version" : "/^WordPress Mobile Pack ([^\s]+)$/ }
+			{ "search" : "headers[x-mobilized-by]", "version" : "/^WordPress Mobile Pack ([^\s]+)$/ }

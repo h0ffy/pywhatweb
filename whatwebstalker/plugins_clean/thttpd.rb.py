@@ -1,1 +1,1 @@
-{ "search" : "headers[server]", "version" : "/^thttpd\/([^\s]+)/ }
+			{ "search" : "headers[server]", "version" : "/^thttpd\/([^\s]+)/ }

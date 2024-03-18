@@ -1,1 +1,1 @@
-{ "version" : "/FusionBB&trade; Version (\d+\.?\d+?)/", "name" : "version" }
+			{ "version" : "/FusionBB&trade; Version (\d+\.?\d+?)/", "name" : "version" }

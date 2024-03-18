@@ -1,1 +1,1 @@
-{ "version" : "/>Powered by SocketKB version ([\d\.]+)<\/a>/ }
+			{ "version" : "/>Powered by SocketKB version ([\d\.]+)<\/a>/ }

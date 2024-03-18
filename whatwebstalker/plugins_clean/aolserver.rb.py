@@ -1,2 +1,2 @@
-{ "search" : "headers[server]", "regexp" : "/^AOLserver$/ }
-{ "search" : "headers[server]", "version" : "/^AOLserver\/([^\s]+)/ }
+			{ "search" : "headers[server]", "regexp" : "/^AOLserver$/ }
+			{ "search" : "headers[server]", "version" : "/^AOLserver\/([^\s]+)/ }
