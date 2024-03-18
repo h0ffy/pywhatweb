@@ -7,7 +7,7 @@ class webduino_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Webduino$/ },
-			{ "search" : 'headers[server]", "version" : '/^Webduino\/([^\s]+)/ },
+			{ "search" : "headers[server]", "regexp" : "/^Webduino$/" },
+			{ "search" : "headers[server]", "version" : "/^Webduino\/([^\s]+)/" },
 		]
 

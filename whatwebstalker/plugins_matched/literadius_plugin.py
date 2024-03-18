@@ -7,6 +7,6 @@ class literadius_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "ghdb" : 'inurl:locator.php parsed_page lat long' },
+			{ "ghdb" : "inurl:locator.php parsed_page lat long" },
 		]
 

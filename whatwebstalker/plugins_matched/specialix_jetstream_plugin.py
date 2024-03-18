@@ -7,6 +7,6 @@ class specialix_jetstream_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^Specialix JETSTREAM ([\d\.]+)$/ },
+			{ "search" : "headers[server]", "version" : "/^Specialix JETSTREAM ([\d\.]+)$/" },
 		]
 

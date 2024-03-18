@@ -7,6 +7,6 @@ class rcttools_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^RCTTools \(SecureSOHO Web configuration Tools\) v([^\s]+)$/ },
+			{ "search" : "headers[server]", "version" : "/^RCTTools \(SecureSOHO Web configuration Tools\) v([^\s]+)$/" },
 		]
 

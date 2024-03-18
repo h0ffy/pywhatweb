@@ -7,6 +7,6 @@ class usp_secure_entry_server_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Secure Entry Server$/ },
+			{ "search" : "headers[server]", "regexp" : "/^Secure Entry Server$/" },
 		]
 

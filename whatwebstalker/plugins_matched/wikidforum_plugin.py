@@ -7,6 +7,6 @@ class wikidforum_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'Powered by <a href="http://www.wikidforum.com" title="wikidforum.com">WikidForum</a>' },
+			{ "text" : "Powered by <a href="http://www.wikidforum.com" title="wikidforum.com">WikidForum</a>" },
 		]
 

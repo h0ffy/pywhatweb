@@ -7,6 +7,6 @@ class play_framework_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^Play! Framework;(\d[^\s^;]+;[^\s]+)$/ },
+			{ "search" : "headers[server]", "version" : "/^Play! Framework;(\d[^\s^;]+;[^\s]+)$/" },
 		]
 

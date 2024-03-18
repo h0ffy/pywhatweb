@@ -7,8 +7,8 @@ class speakker_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<!-- INSTANTIATE SPEAKKER -->' },
-			{ "text" : '<!-- INCLUDE SPEAKKER -->' },
-			{ "regexp" : '/<script type="text\/javascript" src="[^"]+\/(projekktor|speakker)\.min\.js"><\/script>/ },
+			{ "text" : "<!-- INSTANTIATE SPEAKKER -->" },
+			{ "text" : "<!-- INCLUDE SPEAKKER -->" },
+			{ "regexp" : "/<script type="text\/javascript" src="[^"]+\/(projekktor|speakker)\.min\.js"><\/script>/" },
 		]
 

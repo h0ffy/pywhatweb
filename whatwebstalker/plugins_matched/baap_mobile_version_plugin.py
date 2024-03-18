@@ -7,6 +7,6 @@ class baap_mobile_version_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[x-mobilized-by]", "version" : '/^BAAP Mobile Version ([^\s]+)$/ },
+			{ "search" : "headers[x-mobilized-by]", "version" : "/^BAAP Mobile Version ([^\s]+)$/" },
 		]
 

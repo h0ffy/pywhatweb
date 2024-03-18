@@ -7,6 +7,6 @@ class deluge_web_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/<title>Deluge: Web UI ([^<]+)<\/title>},
+			{ "version" : "/<title>Deluge: Web UI ([^<]+)<\/title>},
 		]
 

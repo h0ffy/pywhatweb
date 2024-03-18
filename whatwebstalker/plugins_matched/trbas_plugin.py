@@ -7,6 +7,6 @@ class trbas_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" :  '<link rel="stylesheet" href="http://www.trbas.com' },
+			{ "text" :  '<link rel="stylesheet" href="http://www.trbas.com" },
 		]
 

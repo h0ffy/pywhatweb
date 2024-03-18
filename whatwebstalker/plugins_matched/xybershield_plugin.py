@@ -7,7 +7,7 @@ class xybershield_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[set-cookie]", "regexp" : '/XyberShieldSession=[^\s]+;/ },
-			{ "search" : 'headers[set-cookie]", "regexp" : '/XyberShieldStatus=[^\s]+;/ },
+			{ "search" : "headers[set-cookie]", "regexp" : "/XyberShieldSession=[^\s]+;/" },
+			{ "search" : "headers[set-cookie]", "regexp" : "/XyberShieldStatus=[^\s]+;/" },
 		]
 

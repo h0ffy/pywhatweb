@@ -7,6 +7,6 @@ class onefilecms_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<p>This site powered by <a href="http://onefilecms.com/">OneFileCMS</a>. [<a href="onefilecms.php?f=index.php">Admin</a>]</p>' },
+			{ "text" : "<p>This site powered by <a href="http://onefilecms.com/">OneFileCMS</a>. [<a href="onefilecms.php?f=index.php">Admin</a>]</p>" },
 		]
 

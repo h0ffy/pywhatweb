@@ -7,6 +7,6 @@ class restlet_framework_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^Restlet-Framework\/([^\s]+)$/ },
+			{ "search" : "headers[server]", "version" : "/^Restlet-Framework\/([^\s]+)$/" },
 		]
 

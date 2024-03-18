@@ -7,7 +7,7 @@ class nginx_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^nginx$/ },
-			{ "search" : 'headers[server]", "version" : '/^nginx\/([^\s]+).*$/ },
+			{ "search" : "headers[server]", "regexp" : "/^nginx$/" },
+			{ "search" : "headers[server]", "version" : "/^nginx\/([^\s]+).*$/" },
 		]
 

@@ -7,6 +7,6 @@ class sabnzbd_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/    <form action="\/sabnzbd\/[^"]*" method="POST">/ },
+			{ "regexp" : "/    <form action="\/sabnzbd\/[^"]*" method="POST">/" },
 		]
 

@@ -7,6 +7,6 @@ class kinja_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "name" : 'X-Kinja Header", "regexp" : '/^$/", "search" : 'headers[x-kinja]" },
+			{ "name" : "X-Kinja Header", "regexp" : "/^$/", "search" : "headers[x-kinja]" },
 		]
 

@@ -7,6 +7,6 @@ class cruxpa_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<div id="copy"><center>Powered By <a href="http://www.cruxsoftware.co.uk">CruxPA</a><br>' },
+			{ "text" : "<div id="copy"><center>Powered By <a href="http://www.cruxsoftware.co.uk">CruxPA</a><br>" },
 		]
 

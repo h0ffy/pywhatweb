@@ -7,6 +7,6 @@ class mongrel_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^Mongrel ([\d][^\s]+)/ },
+			{ "search" : "headers[server]", "version" : "/^Mongrel ([\d][^\s]+)/" },
 		]
 

@@ -7,6 +7,6 @@ class emc_networker_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<title>Welcome to NetWorker Management Console</title>' },
+			{ "text" : "<title>Welcome to NetWorker Management Console</title>" },
 		]
 

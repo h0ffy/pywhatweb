@@ -7,6 +7,6 @@ class ibm_websphere_datapower_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[x-backside-transport]", "string" : /(FAIL|OK)/ },
+			{ "search" : "headers[x-backside-transport]", "string" : /(FAIL|OK)/" },
 		]
 

@@ -7,6 +7,6 @@ class msgs_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/<title> Mercury Satellite Ground Station: Version ([\d\.]+)<\/title>/ },
+			{ "version" : "/<title> Mercury Satellite Ground Station: Version ([\d\.]+)<\/title>/" },
 		]
 

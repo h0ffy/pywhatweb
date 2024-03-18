@@ -7,6 +7,6 @@ class extjs_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<script [^>]*src=["'][^>]*ext\-base\.js["']/i },
+			{ "regexp" : "/<script [^>]*src=["'][^>]*ext\-base\.js["']/i },
 		]
 

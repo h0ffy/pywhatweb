@@ -7,7 +7,7 @@ class mjniohttpdaemon_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^MJNioHttpDaemon\/([^\s]+)/ },
-			{ "search" : 'headers[set-cookie]", "regexp" : '/MJNIOHTTPDSESSIONID=/ },
+			{ "search" : "headers[server]", "version" : "/^MJNioHttpDaemon\/([^\s]+)/" },
+			{ "search" : "headers[set-cookie]", "regexp" : "/MJNIOHTTPDSESSIONID=/" },
 		]
 

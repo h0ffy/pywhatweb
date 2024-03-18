@@ -7,6 +7,6 @@ class mark_of_the_web_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "string" : /<!-- saved from url=\([\d]+\)([^>]+) -->[\r\n]/ },
+			{ "string" : /<!-- saved from url=\([\d]+\)([^>]+) -->[\r\n]/" },
 		]
 

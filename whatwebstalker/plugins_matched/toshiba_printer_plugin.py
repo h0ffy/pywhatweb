@@ -7,6 +7,6 @@ class toshiba_printer_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<TITLE CLASS="clsTitle1">TopAccess</title>' },
+			{ "text" : "<TITLE CLASS="clsTitle1">TopAccess</title>" },
 		]
 

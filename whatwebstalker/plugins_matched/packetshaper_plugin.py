@@ -7,7 +7,7 @@ class packetshaper_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<title>PacketShaper Customer Login</title>' },
-			{ "text" : '<SCRIPT LANGUAGE=JavaScript SRC="/libmd5.js"></SCRIPT>' },
+			{ "text" : "<title>PacketShaper Customer Login</title>" },
+			{ "text" : "<SCRIPT LANGUAGE=JavaScript SRC="/libmd5.js"></SCRIPT>" },
 		]
 

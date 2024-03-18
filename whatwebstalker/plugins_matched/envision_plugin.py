@@ -7,6 +7,6 @@ class envision_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^Content Interface Corp - enVision ([^\s]+)/ },
+			{ "search" : "headers[server]", "version" : "/^Content Interface Corp - enVision ([^\s]+)/" },
 		]
 

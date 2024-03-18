@@ -7,6 +7,6 @@ class apache_wicket_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "ghdb" : 'inurl:"wicket:bookmarkablePage=:"' },
+			{ "ghdb" : "inurl:"wicket:bookmarkablePage=:"" },
 		]
 

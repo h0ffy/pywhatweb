@@ -7,6 +7,6 @@ class brightcove_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/goku\.brightcove\.com|admin\.brightcove\.com\/js},
+			{ "regexp" : "/goku\.brightcove\.com|admin\.brightcove\.com\/js},
 		]
 

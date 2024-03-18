@@ -7,6 +7,6 @@ class zfeeder_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<span style="font-family: Verdana", "Arial", "Helvetica", "sans-serif; font-size: xx-small;">powered by <a href="http://zvonnews.sourceforge.net">zFeeder</a></span>' },
+			{ "text" : "<span style="font-family: Verdana", "Arial", "Helvetica", "sans-serif; font-size: xx-small;">powered by <a href="http://zvonnews.sourceforge.net">zFeeder</a></span>" },
 		]
 

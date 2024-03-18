@@ -7,6 +7,6 @@ class zylone_it_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/Powered by[:]? <a href="http:\/\/www.zylone.com[\/]*[^>]+>Zylone IT/ },
+			{ "regexp" : "/Powered by[:]? <a href="http:\/\/www.zylone.com[\/]*[^>]+>Zylone IT/" },
 		]
 

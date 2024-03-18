@@ -7,6 +7,6 @@ class strict_transport_security_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[Strict-Transport-Security]", "string" : /^(.*)$/ },
+			{ "search" : "headers[Strict-Transport-Security]", "string" : /^(.*)$/" },
 		]
 

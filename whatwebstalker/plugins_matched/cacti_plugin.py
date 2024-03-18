@@ -7,7 +7,7 @@ class cacti_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<title>Login to Cacti</title>' },
-			{ "text" : '<body bgcolor="#FFFFFF" onload="document.login.login_username.focus()">' },
+			{ "text" : "<title>Login to Cacti</title>" },
+			{ "text" : "<body bgcolor="#FFFFFF" onload="document.login.login_username.focus()">" },
 		]
 

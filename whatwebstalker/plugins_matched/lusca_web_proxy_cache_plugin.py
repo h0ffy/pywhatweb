@@ -7,7 +7,7 @@ class lusca_web_proxy_cache_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Lusca$/ },
-			{ "search" : 'headers[server]", "version" : '/^Lusca\/LUSCA_HEAD-([^\s]+)$/ },
+			{ "search" : "headers[server]", "regexp" : "/^Lusca$/" },
+			{ "search" : "headers[server]", "version" : "/^Lusca\/LUSCA_HEAD-([^\s]+)$/" },
 		]
 

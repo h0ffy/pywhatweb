@@ -7,8 +7,8 @@ class stronghold_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Stronghold$/ },
-			{ "search" : 'headers[server]", "version" : '/^Stronghold\/([^\s]+)/ },
-			{ "search" : 'headers[server]", "string" : /(C2Net[A-Z]{2}\/[^\s]+)/ },
+			{ "search" : "headers[server]", "regexp" : "/^Stronghold$/" },
+			{ "search" : "headers[server]", "version" : "/^Stronghold\/([^\s]+)/" },
+			{ "search" : "headers[server]", "string" : /(C2Net[A-Z]{2}\/[^\s]+)/" },
 		]
 

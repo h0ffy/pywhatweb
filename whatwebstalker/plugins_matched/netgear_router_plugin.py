@@ -7,7 +7,7 @@ class netgear_router_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/^Basic realm="?[\s]*Netgear/", "certainty" : '75", "search" : 'headers[www-authenticate]" },
-			{ "model" : '/^Basic realm="?[\s]*NETGEAR ([^"]+)[\s]*"?/", "certainty" : '75", "search" : 'headers[www-authenticate]" },
+			{ "regexp" : "/^Basic realm="?[\s]*Netgear/", "certainty" : "75", "search" : "headers[www-authenticate]" },
+			{ "model" : "/^Basic realm="?[\s]*NETGEAR ([^"]+)[\s]*"?/", "certainty" : "75", "search" : "headers[www-authenticate]" },
 		]
 

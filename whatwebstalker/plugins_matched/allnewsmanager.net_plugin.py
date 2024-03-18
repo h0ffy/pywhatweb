@@ -7,6 +7,6 @@ class allnewsmanager.net_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/(kujeme|Powered by) <a id="[^"]+" href="http:\/\/www.allnewsmanager.net">AllNewsManager.NET<\/a>/ },
+			{ "regexp" : "/(kujeme|Powered by) <a id="[^"]+" href="http:\/\/www.allnewsmanager.net">AllNewsManager.NET<\/a>/" },
 		]
 

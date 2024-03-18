@@ -7,6 +7,6 @@ class prototype_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "name" : 'js tag", "regexp" : '/<script [^>]*(prototype[^>]*.js)[^>]*},
+			{ "name" : "js tag", "regexp" : "/<script [^>]*(prototype[^>]*.js)[^>]*},
 		]
 

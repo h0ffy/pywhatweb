@@ -7,8 +7,8 @@ class fcms_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<meta name="author" content="Ryan Haudenschilt"/>' },
-			{ "regexp" : '/- [pP]owered by Family Connections<\/title>/ },
-			{ "version" : '/- [pP]owered by Family Connections ([^\s^<]+)[\s]*<\/title>[\s]*(<meta|<link)/ },
+			{ "text" : "<meta name="author" content="Ryan Haudenschilt"/>" },
+			{ "regexp" : "/- [pP]owered by Family Connections<\/title>/" },
+			{ "version" : "/- [pP]owered by Family Connections ([^\s^<]+)[\s]*<\/title>[\s]*(<meta|<link)/" },
 		]
 

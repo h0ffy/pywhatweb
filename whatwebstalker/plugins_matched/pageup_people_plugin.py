@@ -7,7 +7,7 @@ class pageup_people_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "ghdb" : 'Powered by PageUp People"", "certainty" : '75 },
-			{ "text" : '<a class="pageupLink" href="http://www.pageuppeople.com" target="self">Powered by PageUp People</a>' },
+			{ "ghdb" : "Powered by PageUp People"", "certainty" : "75 },
+			{ "text" : "<a class="pageupLink" href="http://www.pageuppeople.com" target="self">Powered by PageUp People</a>" },
 		]
 

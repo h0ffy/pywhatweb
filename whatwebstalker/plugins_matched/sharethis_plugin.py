@@ -7,6 +7,6 @@ class sharethis_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<script [^>]*src=["|'][^"^']+w\.sharethis\.com\//i },
+			{ "regexp" : "/<script [^>]*src=["|'][^"^']+w\.sharethis\.com\//i },
 		]
 

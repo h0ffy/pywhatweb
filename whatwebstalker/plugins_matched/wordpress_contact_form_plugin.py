@@ -7,6 +7,6 @@ class wordpress_contact_form_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/<input type="hidden" name="_wpcf([\d\.]+)" value="1" \/>/ },
+			{ "version" : "/<input type="hidden" name="_wpcf([\d\.]+)" value="1" \/>/" },
 		]
 

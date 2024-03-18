@@ -7,7 +7,7 @@ class vigor_router_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "model" : '/^(VigorAccess) Web Server$/ },
-			{ "search" : 'headers[www-authenticate]", "model" : '/^Basic realm="(Login to )?Vigor ([\d]+)"$/", "offset" : '1 },
+			{ "search" : "headers[server]", "model" : "/^(VigorAccess) Web Server$/" },
+			{ "search" : "headers[www-authenticate]", "model" : "/^Basic realm="(Login to )?Vigor ([\d]+)"$/", "offset" : "1 },
 		]
 

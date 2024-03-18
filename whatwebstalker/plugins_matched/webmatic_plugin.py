@@ -7,7 +7,7 @@ class webmatic_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'Powered&nbsp;by&nbsp;<a href="http://www.webmatic.it">Webmatic</a>' },
-			{ "version" : '/ href="http:\/\/www.valarsoft.com"[^>]+>Powered by: Webmatic ([^<]+)<\/a>/i },
+			{ "text" : "Powered&nbsp;by&nbsp;<a href="http://www.webmatic.it">Webmatic</a>" },
+			{ "version" : "/ href="http:\/\/www.valarsoft.com"[^>]+>Powered by: Webmatic ([^<]+)<\/a>/i },
 		]
 

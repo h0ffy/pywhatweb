@@ -7,6 +7,6 @@ class 4d_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^4D_v[\d]{1,2}(_SQL)?\/([\d\.]+)$/", "offset" : '1 },
+			{ "search" : "headers[server]", "version" : "/^4D_v[\d]{1,2}(_SQL)?\/([\d\.]+)$/", "offset" : "1 },
 		]
 

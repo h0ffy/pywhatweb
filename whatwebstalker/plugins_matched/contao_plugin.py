@@ -7,7 +7,7 @@ class contao_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'This website is powered by Contao Open Source CMS :: Licensed under GNU/LGPL'},
-			{ "text" : '<!-- indexer::continue -->'},
+			{ "text" : "This website is powered by Contao Open Source CMS :: Licensed under GNU/LGPL'},
+			{ "text" : "<!-- indexer::continue -->'},
 		]
 

@@ -7,6 +7,6 @@ class kandidat_cms_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/Powered by[\ ]?[:]? <a href="http:\/\/www.kan-studio.ru[\/]?">Kandidat CMS<\/a>/ },
+			{ "regexp" : "/Powered by[\ ]?[:]? <a href="http:\/\/www.kan-studio.ru[\/]?">Kandidat CMS<\/a>/" },
 		]
 

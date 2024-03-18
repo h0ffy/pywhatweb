@@ -7,6 +7,6 @@ class clicktale_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<div id="ClickTaleDiv" style="display: none;"></div>' },
+			{ "text" : "<div id="ClickTaleDiv" style="display: none;"></div>" },
 		]
 

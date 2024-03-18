@@ -7,9 +7,9 @@ class php_mes_films_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '		<title>PhpMesFilms - Administration</title>' },
-			{ "text" : '		<title>PhpMesFilms - Liste</title>' },
-			{ "text" : '		<title>PhpMesFilms - Fiche film</title>' },
-			{ "text" : '				powered by <a href="http://phpmesfilms.dyndns.org/">PhpMesFilms</a>' },
+			{ "text" : "		<title>PhpMesFilms - Administration</title>" },
+			{ "text" : "		<title>PhpMesFilms - Liste</title>" },
+			{ "text" : "		<title>PhpMesFilms - Fiche film</title>" },
+			{ "text" : "				powered by <a href="http://phpmesfilms.dyndns.org/">PhpMesFilms</a>" },
 		]
 

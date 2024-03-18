@@ -7,6 +7,6 @@ class iciniti_store_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<!-- START (content_stylesheet.inc) -->' },
+			{ "text" : "<!-- START (content_stylesheet.inc) -->" },
 		]
 

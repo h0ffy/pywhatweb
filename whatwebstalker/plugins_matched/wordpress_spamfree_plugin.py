@@ -7,6 +7,6 @@ class wordpress_spamfree_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/<!-- Protected by \(WP-SpamFree\) v([\d\.]+) :: JS BEGIN -->/ },
+			{ "version" : "/<!-- Protected by \(WP-SpamFree\) v([\d\.]+) :: JS BEGIN -->/" },
 		]
 
