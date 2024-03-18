@@ -34,10 +34,13 @@ def load_module(path):
 __path__ =  os.path.dirname(os.path.abspath(__file__))
 __plugins_path__ = '{}\\'.format(__path__)
 
+i=0
 for fname in os.listdir(__plugins_path__):
     if not fname.startswith("__") and fname.endswith('.py'):
         #print(fname)
         try:
+            print(i)
+            i+=1
             current_path = "{}{}".format(__plugins_path__,fname)
             load_module(current_path)
         except Exception:
