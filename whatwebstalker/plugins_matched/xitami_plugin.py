@@ -8,4 +8,4 @@ class Pluginxitami_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Xitami$/" },
 			{ "search" : "headers[server]", "version" : "/^Xitami\/([^\s]+)$/" },
 		]
-		return(self.rules)
+	return(self.rules)

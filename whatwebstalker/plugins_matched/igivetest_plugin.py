@@ -9,4 +9,4 @@ class Pluginigivetest_plugin(plugins.Base):
 			{ "version" : "/<tr><td colspan=[\d] align=right>Powered by iGiveTest v([\d\.]+)<\/a><\/td><\/tr>/" },
 			{ "certainty" : "25", "text" : "<form action="index.php" method=post name=signinform>" },
 		]
-		return(self.rules)
+	return(self.rules)

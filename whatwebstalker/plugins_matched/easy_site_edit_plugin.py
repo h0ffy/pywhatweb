@@ -10,4 +10,4 @@ class Plugineasy_site_edit_plugin(plugins.Base):
 			{ "account" : "/<TD bgcolor=#(F7FDFF|FFFFFF)>FTP User Password<\/TD>[\s]+<TD bgcolor=#(F7FDFF|FFFFFF)><INPUT TYPE="password" NAME="user_pass" value="([^"]+)" class="textboxset(enlarge)?">(&nbsp;&nbsp;&nbsp;\(Ftp password to login into the server\)|<p>[&nbsp;Note:&nbsp;Ftp password to login into the server&nbsp;]<\/p>)<\/TD>/", "offset" : "2 },
 			{ "filepath" : "/<TD bgcolor=#(F7FDFF|FFFFFF)>FTP Directory of CMS<\/TD>[\s]+<TD bgcolor=#(F7FDFF|FFFFFF)><INPUT TYPE="text" NAME="dir_cms" value="([^"]+)" class="textboxset(enlarge)?">(&nbsp;&nbsp;&nbsp;\(Directory path of cms in the remote server.\)|<p>\[&nbsp;Note:&nbsp;Directory path of cms in the remote server&nbsp;\]<\/p>)<\/TD>/", "offset" : "2 },
 		]
-		return(self.rules)
+	return(self.rules)

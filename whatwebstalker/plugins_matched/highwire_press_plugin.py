@@ -9,4 +9,4 @@ class Pluginhighwire_press_plugin(plugins.Base):
 			{ "search" : "headers[x-firenze-processing-tims]", "regexp" : "/^detect-robot:/" },
 			{ "search" : "headers[x-highwire-sessionid]", "regexp" : "/^.+$/" },
 		]
-		return(self.rules)
+	return(self.rules)

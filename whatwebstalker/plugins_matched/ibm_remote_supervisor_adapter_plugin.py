@@ -11,4 +11,4 @@ class Pluginibm_remote_supervisor_adapter_plugin(plugins.Base):
 			{ "url" : "/private/userlogin_logo.ssi", "text" : "<IMG SRC="banner.jpg" WIDTH=110 HEIGHT=53 ALT="banner" >" },
 			{ "search" : "headers[location]", "regexp" : "/https?:\/\/[^\/]+\/private\/testcookie\.ssi\?SESSID=[a-f\d]{32}/" },
 		]
-		return(self.rules)
+	return(self.rules)

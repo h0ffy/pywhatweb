@@ -10,4 +10,4 @@ class Plugindugallery_plugin(plugins.Base):
 			{ "text" : "<img src="assets/title.gif" alt="Powered by DUportal" width="269" height="62" border="0">" },
 			{ "version" : "/<title>DUgallery ([\d\.]+)<\/title>/" },
 		]
-		return(self.rules)
+	return(self.rules)

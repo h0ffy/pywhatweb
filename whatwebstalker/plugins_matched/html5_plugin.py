@@ -8,4 +8,4 @@ class Pluginhtml5_plugin(plugins.Base):
 			{ "regexp" : "/<!DOCTYPE html>/i },
 			{ "string" : "applicationCache", "regexp" : "/<html[^>]* manifest=/" },
 		]
-		return(self.rules)
+	return(self.rules)

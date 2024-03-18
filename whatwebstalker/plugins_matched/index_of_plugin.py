@@ -12,4 +12,4 @@ class Pluginindex_of_plugin(plugins.Base):
 			{ "regexp" : "/<pre>Name[\s]+Last modified[\s]+Size[\s]+<hr>/" },
 			{ "regexp" : "/<A HREF="\?N=D">Name<\/A>[\s]+<A HREF="\?M=A">Last modified<\/A>/" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -10,4 +10,4 @@ class Pluginvts_plugin(plugins.Base):
 			{ "version" : "/VTS ([\d\.]+)/", "search" : "headers[server]" },
 			{ "version" : "/^VTS=([\d\.]+)/", "search" : "headers[set-cookie]" },
 		]
-		return(self.rules)
+	return(self.rules)

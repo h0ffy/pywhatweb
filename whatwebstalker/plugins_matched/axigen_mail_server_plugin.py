@@ -11,4 +11,4 @@ class Pluginaxigen_mail_server_plugin(plugins.Base):
 			{ "text" : "<div class="nojsContainer"><h1>In order to access AXIGEN Webmail", "<br />you must enable Javascript in your browser!</h1></div>" },
 			{ "version" : "/<title>AXIGEN Webmail - v([\d\.]+)<\/title>/" },
 		]
-		return(self.rules)
+	return(self.rules)

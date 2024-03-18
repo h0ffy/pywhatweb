@@ -11,4 +11,4 @@ class Plugintanberg_videoconference_management_system_plugin(plugins.Base):
 			{ "text" : "		<frame src="framemiddle.htm" name="No Name" noresize marginheight="0">" },
 			{ "text" : "	<title>Middle frame of Videoconference Management System</title>" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -8,4 +8,4 @@ class Pluginroxen_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Roxen$/" },
 			{ "search" : "headers[server]", "version" : "/^Roxen\/([^\s]+)$/" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -11,4 +11,4 @@ class Pluginorca_platform_plugin(plugins.Base):
 			{ "text" : "                <p class="orca">Powered By <a href="http://www.orcawebsites.com/" title="ORCA Websites">ORCA Websites</a></p>" },
 			{ "text" : "    <!-- Macro Initialisation - Don\'t Touch! -->" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -10,4 +10,4 @@ class Pluginstoragetek_nas_plugin(plugins.Base):
 			{ "version" : "/^StorageTek-HTTPD\/([^\s]+) \([^\s]+ NAS\)$/", "search" : "headers[server]" },
 			{ "model" : "/^StorageTek-HTTPD\/[^\s]+ \(([^\s]+) NAS\)$/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+	return(self.rules)

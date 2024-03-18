@@ -10,4 +10,4 @@ class Plugincodesys_web_visualization_plugin(plugins.Base):
 			{ "text" : "<APPLET CODEBASE=. CODE=webvisu/WebVisu.class name="WebVisu" width="99%" height="99%" id="webvisuapplet">" },
 			{ "text" : "<param name="archive" value="webvisu.jar,minml.jar">" },
 		]
-		return(self.rules)
+	return(self.rules)

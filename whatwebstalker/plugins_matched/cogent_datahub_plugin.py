@@ -13,4 +13,4 @@ class Plugincogent_datahub_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : "<title>Cogent DataHub WebView</title>" },
 			{ "text" : "<!-- The following ASP code generates the table of DataHub point values -->" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -10,4 +10,4 @@ class Pluginmyhobbysite_plugin(plugins.Base):
 			{ "text" : "		<a name="top"></a> <!-- Necessary for the "jump to the top of the page" links -->" },
 			{ "version" : "/Powered by <a href="http:\/\/www.myhobbysite.net" target="_blank">MyHobbySite<\/a> ([\d\.]+) /" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -12,4 +12,4 @@ class Plugincituscms_plugin(plugins.Base):
 			{ "text" : "<meta name="generator" content="CitusCMS [http://www.citus-cms.org]" />" },
 			{ "version" : "/<!-- CitusCMS Core Version: ([^\s]+) -->/" },
 		]
-		return(self.rules)
+	return(self.rules)

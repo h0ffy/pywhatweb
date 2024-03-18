@@ -7,4 +7,4 @@ class Plugindiamondlist_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "Powered by <a href="http://www.hulihanapplications.com/projects/diamondlist"><b>DiamondList</b>" },
 		]
-		return(self.rules)
+	return(self.rules)

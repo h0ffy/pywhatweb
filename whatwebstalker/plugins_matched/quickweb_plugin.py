@@ -7,4 +7,4 @@ class Pluginquickweb_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "<HTML><HEAD><TITLE>QWScript Error</TITLE></HEAD>" },
 		]
-		return(self.rules)
+	return(self.rules)

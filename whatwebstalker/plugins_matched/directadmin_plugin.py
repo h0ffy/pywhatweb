@@ -11,4 +11,4 @@ class Plugindirectadmin_plugin(plugins.Base):
 			{ "text" : "onload=\"document.form.username.focus();if(document.form.referer.value.indexOf('#')==-1)document.form.referer.value+=location.hash;\">" },
 			{ "version" : "/^DirectAdmin Daemon v([^\s]+) Registered to /", "search" : "headers[server]" },
 		]
-		return(self.rules)
+	return(self.rules)

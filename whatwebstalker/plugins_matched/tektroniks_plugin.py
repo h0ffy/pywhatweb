@@ -12,4 +12,4 @@ class Plugintektroniks_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Tektroniks\/([^\s]+)$/" },
 			{ "search" : "headers[www-authenticate]", "text" : "Basic realm="Tektroniks"" },
 		]
-		return(self.rules)
+	return(self.rules)

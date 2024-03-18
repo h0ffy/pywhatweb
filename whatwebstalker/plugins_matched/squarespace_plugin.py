@@ -12,4 +12,4 @@ class Pluginsquarespace_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/^SS_MID/", "name" : "SS_MID cookie" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/^ss_sd/", "name" : "ss_sd cookie" },
 		]
-		return(self.rules)
+	return(self.rules)

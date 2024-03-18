@@ -9,4 +9,4 @@ class Pluginnet2ftp_plugin(plugins.Base):
 			{ "version" : "/<!-- net2ftp version ([^\s]+) -->/" },
 			{ "text" : "<!-- End of net2ftp login form -->" },
 		]
-		return(self.rules)
+	return(self.rules)

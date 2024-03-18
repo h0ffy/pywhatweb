@@ -8,4 +8,4 @@ class Pluginminecraft_server_plugin(plugins.Base):
 			{ "text" : "<span>Map type:</span><select id="mode" onchange="show(1,$(\'#mode\').val())">", "os" : "MineOS (Linux)" },
 			{ "text" : "<title>MineOS Admin Page</title>", "os" : "MineOS (Linux)" },
 		]
-		return(self.rules)
+	return(self.rules)

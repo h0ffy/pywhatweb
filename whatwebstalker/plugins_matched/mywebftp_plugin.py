@@ -12,4 +12,4 @@ class Pluginmywebftp_plugin(plugins.Base):
 			{ "text" : "<LINK REL="stylesheet" TYPE="text/css" HREF=\'mwftp/common/mwftp.css\'>" },
 			{ "text" : "<SCRIPT LANGUAGE=JAVASCRIPT SRC=\'mwftp/common/mwftp.js\'></SCRIPT>" },
 		]
-		return(self.rules)
+	return(self.rules)

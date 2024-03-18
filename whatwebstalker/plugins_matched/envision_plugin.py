@@ -7,4 +7,4 @@ class Pluginenvision_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^Content Interface Corp - enVision ([^\s]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)

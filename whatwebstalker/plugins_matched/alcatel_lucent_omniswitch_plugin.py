@@ -8,4 +8,4 @@ class Pluginalcatel_lucent_omniswitch_plugin(plugins.Base):
 			{ "text" : "<title>Webview Logon Page</title>" },
 			{ "text" : "document.write(errMsg=="?"&nbsp;":("<u>Error</u>&nbsp;-&nbsp;" + errMsg));" },
 		]
-		return(self.rules)
+	return(self.rules)

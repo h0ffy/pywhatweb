@@ -9,4 +9,4 @@ class Plugincbs_interactive_plugin(plugins.Base):
 			{ "account" : "/<script>DW.pageParams = \{siteId:'([^']+)'\};DW.clear\(\);<\/script>/" },
 			{ "account" : "/<img src="http:\/\/dw\.com\.com\/clear\/c\.gif\?sid=([^"^\s^>^&]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)

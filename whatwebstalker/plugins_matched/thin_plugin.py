@@ -8,4 +8,4 @@ class Pluginthin_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^thin ([^\s]+) codename (.+)$/" },
 			{ "search" : "headers[server]", "string" : /^thin [^\s]+ (codename .+)$/" },
 		]
-		return(self.rules)
+	return(self.rules)

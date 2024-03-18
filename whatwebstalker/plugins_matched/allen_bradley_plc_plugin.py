@@ -12,4 +12,4 @@ class Pluginallen_bradley_plc_plugin(plugins.Base):
 			{ "url" : "/ralogo.gif", "md5" : "640eeef53f64fac202eb0673ed269be1", "model" : "1766 Series" },
 			{ "version" : "/^A-B WWW\/([\d\.]{3})/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+	return(self.rules)

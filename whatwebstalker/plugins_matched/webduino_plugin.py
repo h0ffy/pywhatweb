@@ -8,4 +8,4 @@ class Pluginwebduino_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Webduino$/" },
 			{ "search" : "headers[server]", "version" : "/^Webduino\/([^\s]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)

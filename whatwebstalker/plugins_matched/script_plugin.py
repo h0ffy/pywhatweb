@@ -8,4 +8,4 @@ class Pluginscript_plugin(plugins.Base):
 			{ "regexp" : "/<script(\s|>)/i },
 			{ "string" : /<script[^>]+(language|type)\s*=\s*['"]?([^'"\s]+)['"]?/", "offset" : "1 },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -12,4 +12,4 @@ class Plugininfomaster_plugin(plugins.Base):
 			{ "text" : "<script language="javascript" src="../../common/masterView.js"></script>", "string" : "MasterView" },
 			{ "string" : /<form name="frm(MasterView|MasterPlan)" method="post" action="default\.aspx/" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -13,4 +13,4 @@ class Pluginasterisk_plugin(plugins.Base):
 			{ "url" : "/static/config/index.html", "text" : "<div id="ACTIVE_CONTENT"><noscript>You need to enable Javascript in your browser !!</noscript></div>" },
 			{ "url" : "/static/config/js/astman.js", "module" : /		version : "([^']+)' \/\/ gui version/" },
 		]
-		return(self.rules)
+	return(self.rules)

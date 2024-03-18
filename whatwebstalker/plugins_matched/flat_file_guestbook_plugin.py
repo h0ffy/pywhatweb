@@ -10,4 +10,4 @@ class Pluginflat_file_guestbook_plugin(plugins.Base):
 			{ "text" : "<td align="right"><input type="password" value=" name="ffgb_pass"></td></tr>" },
 			{ "text" : "<a href="ffgb_admin.php"><i>Manage this Guestbook</i></a>" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -11,4 +11,4 @@ class Pluginavaya_secure_router_plugin(plugins.Base):
 			{ "text" : "<font color="white" style="font-size:30px;"><span id="guiname">Avaya Secure Router</span></font>" },
 			{ "search" : "headers[server]", "version" : "/^Avaya Http Server v([^\s]+)$/" },
 		]
-		return(self.rules)
+	return(self.rules)

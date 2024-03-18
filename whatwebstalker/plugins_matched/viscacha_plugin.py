@@ -9,4 +9,4 @@ class Pluginviscacha_plugin(plugins.Base):
 			{ "text" : "<link rel="copyright" href="http://www.viscacha.org" />", "certainty" : "75 },
 			{ "version" : "/Powered by <strong><a[^>]+href="http:\/\/www\.viscacha\.org" target="_blank">Viscacha ([^<]+)<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)

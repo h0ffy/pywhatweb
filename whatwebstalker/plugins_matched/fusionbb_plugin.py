@@ -7,4 +7,4 @@ class Pluginfusionbb_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/FusionBB&trade; Version (\d+\.?\d+?)/", "name" : "version" },
 		]
-		return(self.rules)
+	return(self.rules)

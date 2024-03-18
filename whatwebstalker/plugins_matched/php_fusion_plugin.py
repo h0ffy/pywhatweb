@@ -15,4 +15,4 @@ class Pluginphp_fusion_plugin(plugins.Base):
 			{ "certainty" : "75", "regexp" : "/<!--counter-->[\d,]+ unique visits</" },
 			{ "search" : "headers[set-cookie]", "name" : "fusion_visited Cookie", "regexp" : "/fusion_visited=/" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -9,4 +9,4 @@ class Pluginkeil_embedded_web_server_plugin(plugins.Base):
 			{ "version" : "/^Keil-EWEB\/([^\s]+)$/", "search" : "headers[server]" },
 			{ "regexp" : "/^Keil-EWEB/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+	return(self.rules)

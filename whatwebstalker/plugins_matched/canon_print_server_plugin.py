@@ -15,4 +15,4 @@ class Plugincanon_print_server_plugin(plugins.Base):
 			{ "text" : "<meta name="GENERATOR" content="Mozilla/4.7 [ja] (Win98; I) [Netscape]">", "model" : "NetHawk N-111", "certainty" : "25 },
 			{ "certainty" : "25", "version" : "/^PRINT_SERVER WEB ([\d\.]+)$/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+	return(self.rules)

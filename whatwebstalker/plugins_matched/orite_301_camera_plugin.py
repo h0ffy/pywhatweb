@@ -9,4 +9,4 @@ class Pluginorite_301_camera_plugin(plugins.Base):
 			{ "text" : "<TITLE>Orite IC301</TITLE>" },
 			{ "text" : "	var s=\'<frameset cols="220", "*" id=totalframeset frameborder="NO" border="0" framespacing="0" noresize>\'" },
 		]
-		return(self.rules)
+	return(self.rules)

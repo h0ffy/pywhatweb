@@ -10,4 +10,4 @@ class Pluginactivecollab_plugin(plugins.Base):
 			{ "name" : "acpowered.gif", "url" : "/public/assets/images/acpowered.gif", "md5" : "ad6152c96454d96f7b8ec78c08bb789b"},
 			{ "name" : "powered by footer", "text" : "<p id="powered_by"><a href="http://www.activecollab.com/"'},
 		]
-		return(self.rules)
+	return(self.rules)

@@ -6,4 +6,4 @@ class Pluginnortel_ethernet_routing_switch_config_file_plugin(plugins.Base):
     def start(self):
         self.rules = [
 		]
-		return(self.rules)
+	return(self.rules)

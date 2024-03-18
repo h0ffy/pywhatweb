@@ -8,4 +8,4 @@ class Pluginmeta_geo_plugin(plugins.Base):
 			{ "string" : /<meta name="geo.[^"]+" content="([^"]+)"[^>]*>},
 			{ "string" : /<meta name="ICBM" content="([^"]+)"[^>]*>/" },
 		]
-		return(self.rules)
+	return(self.rules)

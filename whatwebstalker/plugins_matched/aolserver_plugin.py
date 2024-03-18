@@ -8,4 +8,4 @@ class Pluginaolserver_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^AOLserver$/" },
 			{ "search" : "headers[server]", "version" : "/^AOLserver\/([^\s]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)

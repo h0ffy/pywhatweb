@@ -9,4 +9,4 @@ class Pluginredaxscript_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="Redaxscript ([^\s^"]+)" \/>/" },
 			{ "version" : "/Powered by <a href="http:\/\/redaxscript\.com" title="Redaxscript">Redaxscript<\/a> ([^\s^<]+)</" },
 		]
-		return(self.rules)
+	return(self.rules)

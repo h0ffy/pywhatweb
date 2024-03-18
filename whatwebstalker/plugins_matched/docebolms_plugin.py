@@ -12,4 +12,4 @@ class Plugindocebolms_plugin(plugins.Base):
 			{ "version" : "/Powered by <a href="http:\/\/www\.docebo\.com\/\?versions" onclick="window\.open\(this\.href\); return false;">Docebo <sup>&reg;<\/sup> (Community|Enterprise) Edition<\/a>/" },
 			{ "text" : "lang_setup.setBody("<ul class=\"link_list_inline\" id=\"language_selection\"><li><a class=\"lang-sprite lang_" },
 		]
-		return(self.rules)
+	return(self.rules)

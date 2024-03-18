@@ -10,4 +10,4 @@ class Pluginhp_officejet_printer_plugin(plugins.Base):
 			{ "text" : "index.htm?cat=info&page=printerInfo'},
 			{ "certainty" : "25", "text" : "home.htm?cat=home&page=home'},
 		]
-		return(self.rules)
+	return(self.rules)

@@ -11,4 +11,4 @@ class Plugingallarific_plugin(plugins.Base):
 			{ "text" : "<a href="http://www.gallarific.com/"><img src="http://www.gallarific.com/images/gallarific_white.gif" width="215" height="61" border="0" /></a>" },
 			{ "text" : "<title>Gallarific > Sign in</title>" },
 		]
-		return(self.rules)
+	return(self.rules)

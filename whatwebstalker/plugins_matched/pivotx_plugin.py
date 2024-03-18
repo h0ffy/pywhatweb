@@ -12,4 +12,4 @@ class Pluginpivotx_plugin(plugins.Base):
 			{ "text" : "<meta name="generator" content="PivotX" />" },
 			{ "version" : "/<meta name="generator" content="PivotX" \/><!-- version: PivotX - ([^\s]+) -->/" },
 		]
-		return(self.rules)
+	return(self.rules)

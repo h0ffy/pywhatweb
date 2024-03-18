@@ -7,4 +7,4 @@ class Pluginemc_networker_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "<title>Welcome to NetWorker Management Console</title>" },
 		]
-		return(self.rules)
+	return(self.rules)

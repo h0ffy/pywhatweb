@@ -8,4 +8,4 @@ class Pluginmjniohttpdaemon_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^MJNioHttpDaemon\/([^\s]+)/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/MJNIOHTTPDSESSIONID=/" },
 		]
-		return(self.rules)
+	return(self.rules)

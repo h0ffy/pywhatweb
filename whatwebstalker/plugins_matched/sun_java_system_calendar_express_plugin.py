@@ -10,4 +10,4 @@ class Pluginsun_java_system_calendar_express_plugin(plugins.Base):
 			{ "text" : "<img src="imx/login-logo.gif" width="186" height="79" alt="Sun Microsystems", "Inc.">" },
 			{ "url" : "/imx/login-logo.gif", "md5" : "b86a7d65b64efa500048d9fc2840c390" },
 		]
-		return(self.rules)
+	return(self.rules)

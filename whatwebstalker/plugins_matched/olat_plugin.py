@@ -18,4 +18,4 @@ class Pluginolat_plugin(plugins.Base):
 			{ "text" : "<!-- START olatContentPanel -->" },
 			{ "text" : "<a accesskey="2" href="#content" title="Go to "Content"></a>" },
 		]
-		return(self.rules)
+	return(self.rules)

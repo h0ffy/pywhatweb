@@ -10,4 +10,4 @@ class Plugine_manage_myschool_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : "<input  type='password' name='Sub_Password' " },
 			{ "version" : "/2004 E-Manage All Rights Reserved MySchool Version ([\d\.]+) <A href='http:\/\/e-manage\.org\/'>E-Manage<\/A>/" },
 		]
-		return(self.rules)
+	return(self.rules)

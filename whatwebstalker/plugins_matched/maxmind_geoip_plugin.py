@@ -7,4 +7,4 @@ class Pluginmaxmind_geoip_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/<script type="(JavaScript|text\/javascript)" src="(http:\/\/)?j\.maxmind\.com\/app\/(country|geoip)\.js"><\/script>/" },
 		]
-		return(self.rules)
+	return(self.rules)

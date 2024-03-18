@@ -10,4 +10,4 @@ class Plugincruxcms_plugin(plugins.Base):
 			{ "text" : "<meta name="Generator" content="Created by CruxCMS http://www.cruxsoftware.co.uk">" },
 			{ "text" : "<meta name="Generator" content="Created by Crux CMS http://www.cruxcms.co.uk">" },
 		]
-		return(self.rules)
+	return(self.rules)

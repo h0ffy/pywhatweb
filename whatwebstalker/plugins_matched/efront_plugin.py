@@ -11,4 +11,4 @@ class Pluginefront_plugin(plugins.Base):
 			{ "version" : "/<div><a href = "http:\/\/www\.efrontlearning\.net">eFront<\/a> \(version ([^\)]+)\) &bull; Community Edition &bull; <a href = "index\.php\?ctg=contact">/" },
 			{ "version" : "/<script type = "text\/javascript" src = "js\/scripts\.php\?(build=[\d]+)&load=[^"^>]+"> <\/script>/" },
 		]
-		return(self.rules)
+	return(self.rules)

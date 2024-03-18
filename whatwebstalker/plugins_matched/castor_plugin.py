@@ -11,4 +11,4 @@ class Plugincastor_plugin(plugins.Base):
 			{ "search" : "headers[castor-system-totalgbavailable]", "regexp" : "/^[\d]+$/" },
 			{ "search" : "headers[castor-system-totalgbcapacity]", "regexp" : "/^[\d]+$/" },
 		]
-		return(self.rules)
+	return(self.rules)

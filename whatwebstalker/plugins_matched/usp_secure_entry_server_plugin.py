@@ -7,4 +7,4 @@ class Pluginusp_secure_entry_server_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^Secure Entry Server$/" },
 		]
-		return(self.rules)
+	return(self.rules)

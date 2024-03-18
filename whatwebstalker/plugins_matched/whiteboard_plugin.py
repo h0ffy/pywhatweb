@@ -9,4 +9,4 @@ class Pluginwhiteboard_plugin(plugins.Base):
 			{ "version" : "/Powered By WhiteBoard ([\d\.]+)<br \/>/" },
 			{ "version" : "/Powered By WhiteBoard <span id="version">([\d\.]+)<\/span><br \/>/" },
 		]
-		return(self.rules)
+	return(self.rules)

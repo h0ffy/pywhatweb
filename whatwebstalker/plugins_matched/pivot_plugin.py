@@ -10,4 +10,4 @@ class Pluginpivot_plugin(plugins.Base):
 			{ "text" : "<td width=\'75%\'><input type="text" name="sitename" value="Pivot Powered" size="40" class="input" /></td>" },
 			{ "version" : "/<a href="http:\/\/www\.pivotlog\.net\/\?ver=Pivot[^"]+" target="_blank" title="Pivot - ([^:]+): "[^']+'"><img[^>]+alt="Pivot - [^"]+" \/><\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)

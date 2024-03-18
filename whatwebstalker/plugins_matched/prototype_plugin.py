@@ -7,4 +7,4 @@ class Pluginprototype_plugin(plugins.Base):
         self.rules = [
 			{ "name" : "js tag", "regexp" : "/<script [^>]*(prototype[^>]*.js)[^>]*},
 		]
-		return(self.rules)
+	return(self.rules)

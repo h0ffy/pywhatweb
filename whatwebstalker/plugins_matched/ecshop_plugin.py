@@ -8,4 +8,4 @@ class Pluginecshop_plugin(plugins.Base):
 			{ "certainty" : "25", "regexp" : "/<title>[^<]+ - Powered by ECShop<\/title>/" },
 			{ "version" : "/<meta name="Generator" content="ECSHOP v([\d\.]+)" \/>/" },
 		]
-		return(self.rules)
+	return(self.rules)

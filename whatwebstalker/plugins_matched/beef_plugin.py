@@ -13,4 +13,4 @@ class Pluginbeef_plugin(plugins.Base):
 			{ "url" : "/ui/media/images/beef.png", "md5" : "5f8cdcd65c5c05f875710f2c10503192" },
 			{ "search" : "headers[server]", "version" : "/^BeEF ([^\s]+)$/" },
 		]
-		return(self.rules)
+	return(self.rules)

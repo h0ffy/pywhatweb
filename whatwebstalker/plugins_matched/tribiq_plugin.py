@@ -16,4 +16,4 @@ class Plugintribiq_plugin(plugins.Base):
 			{ "text" : "				<p><a href="adminlogin.php">Please log in</a></p>" },
 			{ "text" : "<title>Tribiq CMS Administrator Login</title>" },
 		]
-		return(self.rules)
+	return(self.rules)

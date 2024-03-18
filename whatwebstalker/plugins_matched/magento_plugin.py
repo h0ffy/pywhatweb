@@ -20,4 +20,4 @@ class Pluginmagento_plugin(plugins.Base):
 			{ "name" : "cookie called CUSTOMER", "search" : "headers[set-cookie]", "regexp" : "/^CUSTOMER/i", "certainty" : "25 },
 			{ "text" : "<script type="text/x-magento-init">" },
 		]
-		return(self.rules)
+	return(self.rules)

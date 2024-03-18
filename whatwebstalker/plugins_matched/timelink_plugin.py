@@ -9,4 +9,4 @@ class Plugintimelink_plugin(plugins.Base):
 			{ "text" : "<link rel="shortcut icon" type="image/png" href="/timelink/images/favicon.ico"/>" },
 			{ "url" : "images/login-panel-back.png", "md5" : "37897a66217e910dd6c67f1d09c5e870", "version" : "6.x", "string" : "Enterprise" },
 		]
-		return(self.rules)
+	return(self.rules)

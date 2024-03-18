@@ -9,4 +9,4 @@ class Pluginwebalizer_log_plugin(plugins.Base):
 			{ "version" : "/<!-- Webalizer Version ([^\s]+) \(Mod: [\d]{1,2}-[a-zA-Z]{3}-[\d]{4}\) -->/" },
 			{ "version" : "/<A HREF="http:\/\/www\.webalizer\.org\/"><STRONG>Webalizer Version ([^<]+)<\/STRONG><\/A>/" },
 		]
-		return(self.rules)
+	return(self.rules)

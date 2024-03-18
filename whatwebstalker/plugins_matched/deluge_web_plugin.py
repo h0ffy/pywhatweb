@@ -7,4 +7,4 @@ class Plugindeluge_web_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/<title>Deluge: Web UI ([^<]+)<\/title>},
 		]
-		return(self.rules)
+	return(self.rules)

@@ -11,4 +11,4 @@ class Pluginbatavi_plugin(plugins.Base):
 			{ "search" : "headers[x-powered-by]", "regexp" : "/Batavi e\-commerce/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/frontsid=[^;]+;/" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -9,4 +9,4 @@ class Plugininformatics_cms_plugin(plugins.Base):
 			{ "text" : "<meta name="author" content="Informatics", "Inc.">" },
 			{ "regexp" : "/Web Application by <a href="http:\/\/www\.(ia-informatics|informaticsinc)\.com" [^>]*target="_blank"><b>Informatics", "Inc\.<\/b><\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -13,4 +13,4 @@ class Pluginfortinet_firewall_plugin(plugins.Base):
 			{ "url" : "login", "name" : "Login page MD5 hash", "md5" : "8bc0d101e3a25c98a9cbcf18240bd271'},
 			{ "url" : "success", "name" : "Success Page MD5", "md5" : "1451298ccf3a24e342b20e6684cbb0dc'},
 		]
-		return(self.rules)
+	return(self.rules)

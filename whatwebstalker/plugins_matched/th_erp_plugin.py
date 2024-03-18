@@ -8,4 +8,4 @@ class Pluginth_erp_plugin(plugins.Base):
 			{ "text" : "<LINK REL=StyleSheet HREF='../include/therp.css' TYPE='text/css'><script>" },
 			{ "text" : "<title>thERP - Login</title>" },
 		]
-		return(self.rules)
+	return(self.rules)

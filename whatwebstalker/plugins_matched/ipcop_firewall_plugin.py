@@ -14,4 +14,4 @@ class Pluginipcop_firewall_plugin(plugins.Base):
 			{ "version" : "/<small>IPCop v([^\s]+) &copy; 2001-20[\d]{2} The IPCop Team<\/small><\/td>/" },
 			{ "url" : "/include/ipcop.css", "text" : "/* used in status.cgi (among others) */" },
 		]
-		return(self.rules)
+	return(self.rules)

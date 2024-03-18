@@ -7,4 +7,4 @@ class Pluginamxmodx_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "// *NOTE* amx_sql_type specifies the DEFAULT database type which admin.sma will use." },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -18,4 +18,4 @@ class Pluginapache_plugin(plugins.Base):
 			{ "certainty" : "75", "module" : "mod_security", "regexp" : "/^NOYB$/", "search" : "headers[server]"},
 			{ "certainty" : "75", "name" : "htacess WWW-Authenticate realm", "search" : "headers[www-authenticate]", "regexp" : "/Basic realm="htaccess password prompt"},
 		]
-		return(self.rules)
+	return(self.rules)

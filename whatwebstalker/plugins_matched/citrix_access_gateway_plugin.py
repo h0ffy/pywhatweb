@@ -12,4 +12,4 @@ class Plugincitrix_access_gateway_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/ezisneercsresu=/" },
 			{ "search" : "headers[server]", "regexp" : "/^Cyms-SecS v[\d\.]+$/" },
 		]
-		return(self.rules)
+	return(self.rules)

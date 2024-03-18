@@ -14,4 +14,4 @@ class Pluginkayako_supportsuite_plugin(plugins.Base):
 			{ "version" : "/SWIFT\.Setup[^}]*"version":"([0-9\.]+)"/" },
 			{ "text" : "<div id="bottomfooter" class="bottomfooterpadding"><a href="http://www.kayako.com" target="_blank" class="bottomfooterlink">Help Desk Software"'},
 		]
-		return(self.rules)
+	return(self.rules)

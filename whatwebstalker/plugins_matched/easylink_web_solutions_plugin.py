@@ -9,4 +9,4 @@ class Plugineasylink_web_solutions_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="easyLink v([\d\.]+)" \/>/" },
 			{ "version" : "/[P|p]?owered by easyLink v([\d\.]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)

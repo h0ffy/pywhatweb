@@ -12,4 +12,4 @@ class Plugincalendarscript_plugin(plugins.Base):
 			{ "text" : "<FONT color="#FFFFFF" SIZE="-1">Powered by <A HREF="http://www.CalendarScript.com/" STYLE="color:#FFFFFF;">CalendarScript</A></FONT>" },
 			{ "text" : "Powered by <A HREF="http://www.CalendarScript.com/" CLASS="footertext" STYLE="text-decoration:underline;">CalendarScript</A>" },
 		]
-		return(self.rules)
+	return(self.rules)

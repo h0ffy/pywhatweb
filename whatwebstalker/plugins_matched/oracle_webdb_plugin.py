@@ -8,4 +8,4 @@ class Pluginoracle_webdb_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Oracle_WebDb_Listener\/([^\s]+)/" },
 			{ "search" : "headers[location]", "regexp" : "/^(https?:\/\/[^\/]+)?\/WebDB\/WEBDB\.home$/", "certainty" : "75 },
 		]
-		return(self.rules)
+	return(self.rules)

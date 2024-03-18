@@ -10,4 +10,4 @@ class Pluginopen_xchange_plugin(plugins.Base):
 			{ "version" : "/<div class="login-bottomline">\W+<span id="[a-z]\d+[a-z]\d+">Version<\/span>\s+:\W+([^\s]+\W+[^\W]+)/" },
 			{ "certainty" : "75", "search" : "headers[location]", "regexp" : "/^https?:\/\/[^\/]+\/ox6\/ox\.html$/", "version" : "6.x" },
 		]
-		return(self.rules)
+	return(self.rules)

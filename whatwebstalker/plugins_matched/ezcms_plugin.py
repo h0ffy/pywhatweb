@@ -12,4 +12,4 @@ class Pluginezcms_plugin(plugins.Base):
 			{ "version" : "/<center><strong>EZCMS ([\d\.]+) /" },
 			{ "version" : "/Powered by <a href="http:\/\/ezcms.eztechhelp.com\/">EZCMS ([\d\.]+)<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)

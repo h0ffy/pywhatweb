@@ -10,4 +10,4 @@ class Pluginprediction_football_plugin(plugins.Base):
 			{ "regexp" : "/<!-- The display of powered by prediction football must not be removed without explicit permission\.[\s]+Unauthorized removal or modification of the powered by prediction football will require that[\s]+the associated payment is made\. -->/" },
 			{ "version" : "/<small>Powered by <a target="_blank" class="VERSION" href="http:\/\/www\.predictionfootball\.com\/">[\s]+Prediction Football <\/a>([^\s^<]+)<\/small>/" },
 		]
-		return(self.rules)
+	return(self.rules)

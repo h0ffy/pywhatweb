@@ -11,4 +11,4 @@ class Plugindli_lpc_plugin(plugins.Base):
 			{ "text" : "<tr><td align=center><h1>Warning: Insecure Authentication</h1></td></tr>" },
 			{ "text" : "<TD><INPUT onClick="calcResponse(); return false;" TYPE="Submit" NAME="Submitbtn" VALUE="OK">" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -8,4 +8,4 @@ class Pluginwolfcms_plugin(plugins.Base):
 			{ "version" : "/png" \/> Wolf CMS ([^<]+)<\/div>},
 			{ "regexp" : "/href="http:\/\/www.wolfcms.org\/" title="Wolf CMS" rel="noreferrer">Wolf CMS<\/a>[\s]+Inside.},
 		]
-		return(self.rules)
+	return(self.rules)

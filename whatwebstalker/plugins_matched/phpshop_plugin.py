@@ -9,4 +9,4 @@ class Pluginphpshop_plugin(plugins.Base):
 			{ "regexp" : "/Powered by <a href="http:\/\/www.phpshop.org"[^>]*>phpShop<\/a>/i },
 			{ "version" : "/Powered by <a href="http:\/\/www.phpshop.org"[^>]*>phpShop<\/a>[\r\n\s]+([\d\.]+) /" },
 		]
-		return(self.rules)
+	return(self.rules)

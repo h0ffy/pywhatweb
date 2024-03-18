@@ -11,4 +11,4 @@ class Plugindr_web_anti_virus_plugin(plugins.Base):
 			{ "filepath" : "/var _globalVars = \{\s+'mailSystem': "\d*',\s+'sessionTmout': "\d*',\s+'rootDir': "[^']+',\s+'https': "\d',\s+'currentPage': "([^']+)',/" },
 			{ "text" : "<div id="logo" class="logo"><img src="/avdesk/includes/system/templates/images/logo_en.png" alt=" /></div>" },
 		]
-		return(self.rules)
+	return(self.rules)

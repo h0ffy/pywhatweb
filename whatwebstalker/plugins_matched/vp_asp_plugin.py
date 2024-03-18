@@ -12,4 +12,4 @@ class Pluginvp_asp_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "shopdisplayproducts.asp?id='},
 			{ "version" : "/<title>VP-ASP Shopping Cart ([^ <]*)/", "name" : "powered by title" },
 		]
-		return(self.rules)
+	return(self.rules)

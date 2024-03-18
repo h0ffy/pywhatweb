@@ -9,4 +9,4 @@ class Pluginnetboard_plugin(plugins.Base):
 			{ "text" : "<td><form method=post action="netboard.cgi">" },
 			{ "text" : "<td><form method=post action=netboard.cgi>" },
 		]
-		return(self.rules)
+	return(self.rules)

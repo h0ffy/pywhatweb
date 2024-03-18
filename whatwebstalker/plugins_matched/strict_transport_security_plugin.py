@@ -7,4 +7,4 @@ class Pluginstrict_transport_security_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[Strict-Transport-Security]", "string" : /^(.*)$/" },
 		]
-		return(self.rules)
+	return(self.rules)

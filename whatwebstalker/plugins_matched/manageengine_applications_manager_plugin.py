@@ -11,4 +11,4 @@ class Pluginmanageengine_applications_manager_plugin(plugins.Base):
 			{ "version" : "/<td>Applications Manager \((Build No:[\d]+)\) &nbsp;&nbsp;&nbsp;&nbsp;Number of Monitor\(s\) : /" },
 			{ "url" : "images/am_logo.gif", "md5" : "4454cf4db9355b0e26b98cc354213c56" },
 		]
-		return(self.rules)
+	return(self.rules)

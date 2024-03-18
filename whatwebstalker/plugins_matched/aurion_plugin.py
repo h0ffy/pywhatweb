@@ -11,4 +11,4 @@ class Pluginaurion_plugin(plugins.Base):
 			{ "text" : "<meta http-equiv="X-UA-Compatible" content="chrome=1; IE=8; IE=7"> <!-- Stop Internet Explorer from using "Compatability Mode" -->" },
 			{ "version" : "/<title>Aurion V([^\s^<]+)<\/title>[\s]+<link rel="shortcut icon" href="\.\/favicon\.ico" >/" },
 		]
-		return(self.rules)
+	return(self.rules)

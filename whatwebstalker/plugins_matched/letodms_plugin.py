@@ -9,4 +9,4 @@ class Pluginletodms_plugin(plugins.Base):
 			{ "text" : "letoDMS free document management system - www.letodms.com</div></body>" },
 			{ "search" : "headers[location]", "regexp" : "/out\/out\.ViewFolder\.php/" },
 		]
-		return(self.rules)
+	return(self.rules)

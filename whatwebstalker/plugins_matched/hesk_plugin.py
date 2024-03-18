@@ -16,4 +16,4 @@ class Pluginhesk_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.phpjunkyard.com/free-helpdesk-software.php" class="smaller" target="_blank">Help desk software</a> HESK<sup>TM</sup></span>", "version" : "<1.0" },
 			{ "version" : "/<p align="center"><font class="smaller">Powered by <a href="[^>^"]{0,256}" class="smaller" target="_blank">Help desk software Hesk<\/a> ([^\s^<]+)<\/font>/" },
 		]
-		return(self.rules)
+	return(self.rules)

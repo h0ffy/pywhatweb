@@ -7,4 +7,4 @@ class Pluginwhizzy_cms_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/Powered by Whizzy CMS <big>&spades;<\/big> <\/a><\/div><!-- \[Whizzy CMS:Whizzy CMS ([^\]]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)

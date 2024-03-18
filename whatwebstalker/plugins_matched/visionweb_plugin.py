@@ -10,4 +10,4 @@ class Pluginvisionweb_plugin(plugins.Base):
 			{ "text" : "<b>CIEFFE srl</b> - "We power Your eyes"<br" },
 			{ "string" : /<meta name="COPYRIGHT" content="&copy; 2001-(2[\d]{3}) Insignis Technologies"/" },
 		]
-		return(self.rules)
+	return(self.rules)

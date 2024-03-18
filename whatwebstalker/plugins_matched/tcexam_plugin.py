@@ -13,4 +13,4 @@ class Plugintcexam_plugin(plugins.Base):
 			{ "text" : "<meta name="tcexam_level" content="0" />" },
 			{ "version" : "/<span class="copyright"><a href="http:\/\/www\.tcexam\.(org|com)">TCExam<\/a> ver\. ([^\s]+) - Copyright &copy; 2004-20[\d]{2} Nicola Asuni - <a href="http:\/\/www\.tecnick\.com">Tecnick.com S\.r\.l\.<\/a><\/span>/", "offset" : "1 },
 		]
-		return(self.rules)
+	return(self.rules)

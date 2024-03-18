@@ -11,4 +11,4 @@ class Pluginfatwire_content_server_plugin(plugins.Base):
 			{ "text" : "<b>Open Market", "Inc.<br>&nbsp;ContentServer</b><hr>" },
 			{ "certainty" : "75", "text" : "An error occurred during processing. Check the info log.<br" },
 		]
-		return(self.rules)
+	return(self.rules)

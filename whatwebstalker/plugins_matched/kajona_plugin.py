@@ -12,4 +12,4 @@ class Pluginkajona_plugin(plugins.Base):
 			{ "text" : "<div id="footerContainer">powered by <a href="http://www.kajona.de" target="_blank" title="Kajona" },
 			{ "string" : /<div class="copyright">&copy; (20[\d]{2}) <a href="http:\/\/www\.kajona\.de" target="_blank" title="Kajona/" },
 		]
-		return(self.rules)
+	return(self.rules)

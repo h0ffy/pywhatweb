@@ -10,4 +10,4 @@ class Plugindreambox_plugin(plugins.Base):
 			{ "regexp" : "/^TwistedWeb/", "search" : "headers[server]" },
 			{ "version" : "/^TwistedWeb\/([\d\.]+)/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+	return(self.rules)

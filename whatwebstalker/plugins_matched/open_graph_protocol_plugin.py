@@ -10,4 +10,4 @@ class Pluginopen_graph_protocol_plugin(plugins.Base):
 			{ "account" : "/<meta[^>]+property="fb:admins"[^>]+content="([^"^>]+)"/" },
 			{ "module" : /<meta[^>]+property="fb:app_id"[^>]+content="([^"^>]+)"/" },
 		]
-		return(self.rules)
+	return(self.rules)

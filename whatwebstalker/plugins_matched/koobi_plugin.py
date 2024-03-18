@@ -16,4 +16,4 @@ class Pluginkoobi_plugin(plugins.Base):
 			{ "version" : "/    Diese Webseite wurde mit Koobi[\ :]*(SHOP|PRO|CMS)[\ \-]*([\d\.\ a-z]+) erstellt./", "offset" : "1 },
 			{ "version" : "/powered by <a class="foot" href="http:\/\/www.antichat.ru" target="_blank">Koobi Pro ([\d\.]+) \[nulled by censored! from antichat.ru\]<\/a>/", "string" : "Nulled" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -20,4 +20,4 @@ class Pluginhorde_application_framework_plugin(plugins.Base):
 			{ "text" : "<link href="/mail/mailbox.php?mailbox=INBOX" rel="Top" />" },
 			{ "version" : "/<!-- \$Horde: horde\/config\/conf.xml,v ([\d\.]+) /" },
 		]
-		return(self.rules)
+	return(self.rules)

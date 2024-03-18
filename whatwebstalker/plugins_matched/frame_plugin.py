@@ -7,4 +7,4 @@ class Pluginframe_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/<i?frame\s+/i },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -9,4 +9,4 @@ class Pluginaspweblinks_plugin(plugins.Base):
 			{ "version" : "/<A[^>]*HREF=["']http:\/\/www.fullrevolution.com[^>]*>Powered By aspWebLinks ([\d\.]+)<\/A>/" },
 			{ "version" : "/<title>aspWebLinks ([\d\.]+)<\/title>/" },
 		]
-		return(self.rules)
+	return(self.rules)

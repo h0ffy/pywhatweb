@@ -10,4 +10,4 @@ class Pluginb2evolution_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="b2evolution ([^\"]+)" \/>/" },
 			{ "regexp" : "/Powered by <a href="http:\/\/b2evolution.net[\/]*"[^>]+>b2evolution<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -7,4 +7,4 @@ class Pluginwordpress_mobile_pack_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[x-mobilized-by]", "version" : "/^WordPress Mobile Pack ([^\s]+)$/" },
 		]
-		return(self.rules)
+	return(self.rules)

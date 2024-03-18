@@ -11,4 +11,4 @@ class Pluginobject_plugin(plugins.Base):
 			{ "string" : /<object [^>]*(codebase|codetype|type)\s*=\s*['"]([^"']+)['"]/i", "offset" : "1 },
 			{ "string" : /<object [^>]*(codebase|codetype|type)\s*=\s*([^\s>'"]+)/i", "offset" : "1 },
 		]
-		return(self.rules)
+	return(self.rules)

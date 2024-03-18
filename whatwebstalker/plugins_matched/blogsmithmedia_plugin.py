@@ -7,4 +7,4 @@ class Pluginblogsmithmedia_plugin(plugins.Base):
         self.rules = [
 			{ "certainty" : "75", "regexp" : "/<script [^>]*\"http:\/\/www.blogsmithmedia.com},
 		]
-		return(self.rules)
+	return(self.rules)

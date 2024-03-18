@@ -10,4 +10,4 @@ class Pluginprtg_network_monitor_plugin(plugins.Base):
 			{ "version" : "/^PRTG/", "search" : "headers[server]" },
 			{ "version" : "/^PRTG\/([^\s]+)$/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+	return(self.rules)

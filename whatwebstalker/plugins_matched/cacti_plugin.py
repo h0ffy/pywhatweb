@@ -8,4 +8,4 @@ class Plugincacti_plugin(plugins.Base):
 			{ "text" : "<title>Login to Cacti</title>" },
 			{ "text" : "<body bgcolor="#FFFFFF" onload="document.login.login_username.focus()">" },
 		]
-		return(self.rules)
+	return(self.rules)

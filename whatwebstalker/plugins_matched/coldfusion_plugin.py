@@ -18,4 +18,4 @@ class Plugincoldfusion_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/CFAUTHORIZATION_cfadmin=/" },
 			{ "name" : "File extension", "regexp" : "/^(cfm|cfc)$/", "search" : "uri.extension" },
 		]
-		return(self.rules)
+	return(self.rules)

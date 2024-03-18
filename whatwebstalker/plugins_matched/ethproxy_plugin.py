@@ -7,4 +7,4 @@ class Pluginethproxy_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^ethProxy$/" },
 		]
-		return(self.rules)
+	return(self.rules)

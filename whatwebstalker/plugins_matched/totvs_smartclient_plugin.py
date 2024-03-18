@@ -10,4 +10,4 @@ class Plugintotvs_smartclient_plugin(plugins.Base):
 			{ "string" : /<param name="Environment" value="([^"]+)"> <<= Ambiente/" },
 			{ "search" : "headers[TotvsSmartClient]", "regexp" : "/^TotvsSmartClient$/" },
 		]
-		return(self.rules)
+	return(self.rules)

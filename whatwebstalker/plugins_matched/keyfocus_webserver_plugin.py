@@ -8,4 +8,4 @@ class Pluginkeyfocus_webserver_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^KFWebServer$/" },
 			{ "search" : "headers[server]", "version" : "/^KFWebServer\/([\d\.]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)

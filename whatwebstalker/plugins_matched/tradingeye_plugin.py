@@ -15,4 +15,4 @@ class Plugintradingeye_plugin(plugins.Base):
 			{ "version" : "/<title>Tradingeye v([^\s]+) :: Online Admin<\/title>/" },
 			{ "text" : "<th class="login_bg" colspan="2">Tradingeye Login</th>" },
 		]
-		return(self.rules)
+	return(self.rules)

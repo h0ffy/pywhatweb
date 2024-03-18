@@ -9,4 +9,4 @@ class Pluginnetjuke_plugin(plugins.Base):
 			{ "text" : "<!-- Begin Primary Footer -->" },
 			{ "text" : "onClick=\"window.open('alphabet.php?do=alpha.artists','NetjukeRemote'" },
 		]
-		return(self.rules)
+	return(self.rules)

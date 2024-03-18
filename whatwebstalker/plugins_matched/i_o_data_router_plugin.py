@@ -7,4 +7,4 @@ class Plugini_o_data_router_plugin(plugins.Base):
         self.rules = [
 			{ "url" : "/", "model" : "/<title>I-O DATA Wireless Broadband Router (WN-[^\s^<]+)<\/title>/" },
 		]
-		return(self.rules)
+	return(self.rules)

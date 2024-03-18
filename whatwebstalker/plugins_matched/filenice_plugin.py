@@ -10,4 +10,4 @@ class Pluginfilenice_plugin(plugins.Base):
 			{ "text" : "Free open source file browser available from <a href="http://fileNice.com" title="fileNice.com">fileNice.com</a><br />" },
 			{ "text" : "	<meta name="generator" content="the fantabulous mechanical eviltwin code machine" />" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -37,4 +37,4 @@ class Plugind_link_router_plugin(plugins.Base):
 			{ "model" : "'wna2330", "md5" : "5a2f0ea3bc82f460a4c8e249a2345764", "url" : "/html/images/wna2330.jpg" },
 			{ "model" : "'wua1340", "md5" : "b7df1e959e822cd50eb23547f7fcb817", "url" : "/html/images/wua1340.jpg" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -7,4 +7,4 @@ class Pluginwikidforum_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "Powered by <a href="http://www.wikidforum.com" title="wikidforum.com">WikidForum</a>" },
 		]
-		return(self.rules)
+	return(self.rules)

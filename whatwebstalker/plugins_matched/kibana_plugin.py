@@ -11,4 +11,4 @@ class Pluginkibana_plugin(plugins.Base):
 			{ "name" : "kbn-name header", "search" : "headers[kbn-name]", "text" : "" },
 			{ "name" : "kbn-injected-metadata", "search" : "body", "version" : "/<kbn-injected-metadata data="{&quot;version&quot;:&quot;([0-9\.]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)

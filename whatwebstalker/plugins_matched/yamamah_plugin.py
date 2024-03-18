@@ -9,4 +9,4 @@ class Pluginyamamah_plugin(plugins.Base):
 			{ "text" : "<meta name="Author" content="Majed Al-Mulihani - majed@modernsys.net" />" },
 			{ "text" : "<meta name="Description" content="Yamamah is free photo gallery cms" />" },
 		]
-		return(self.rules)
+	return(self.rules)

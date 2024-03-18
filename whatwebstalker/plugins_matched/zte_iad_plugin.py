@@ -10,4 +10,4 @@ class Pluginzte_iad_plugin(plugins.Base):
 			{ "model" : "I202", "url" : "/image/I202.gif", "md5" : "68b697d421f07bf16f27ac0d44410f05" },
 			{ "model" : "ZXV10 I508C", "url" : "/image/banner_top.jpg", "md5" : "b968f243974f9e97b8a9e71bfaa25c83" },
 		]
-		return(self.rules)
+	return(self.rules)

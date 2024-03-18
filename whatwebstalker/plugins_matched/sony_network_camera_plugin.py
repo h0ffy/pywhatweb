@@ -12,4 +12,4 @@ class Pluginsony_network_camera_plugin(plugins.Base):
 			{ "model" : "/<TITLE>(SNC\-[R]?Z[0-9]+)<\/TITLE>/" },
 			{ "model" : "/<TITLE>(SNC\-[R]?Z[0-9]+) HOME<\/TITLE>/" },
 		]
-		return(self.rules)
+	return(self.rules)

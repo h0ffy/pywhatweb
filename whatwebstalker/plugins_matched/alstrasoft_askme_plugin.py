@@ -11,4 +11,4 @@ class Pluginalstrasoft_askme_plugin(plugins.Base):
 			{ "text" : "<td colspan=2 align="center"><a href="pass_recover.php">Forgotten Password?</a></td>" },
 			{ "text" : "Powered By <a href="http://www.alstrasoft.com">AlstraSoft AskMe Pro</td></tr></table></body></a></html>" },
 		]
-		return(self.rules)
+	return(self.rules)

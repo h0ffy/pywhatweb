@@ -9,4 +9,4 @@ class Pluginsearchfit_shopping_cart_plugin(plugins.Base):
 			{ "text" : "<a class="footer_link_system" target="_blank" style="font-size: 10px;" href="http://www.searchfit.com/'},
 			{ "text" : "new SearchFitAnalytics("'},
 		]
-		return(self.rules)
+	return(self.rules)

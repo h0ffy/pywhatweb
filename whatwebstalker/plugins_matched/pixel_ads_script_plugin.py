@@ -14,4 +14,4 @@ class Pluginpixel_ads_script_plugin(plugins.Base):
 			{ "regexp" : "/          <td width="150" class="statsbox" bgcolor="#FFFFFF"><strong>Pixels Sold:<\/strong> [\d\,]+<br>/" },
 			{ "text" : " href="http://www.pixel-ads-script.com">Powered by: Pixel-Ads-Script.Com</a></div>" },
 		]
-		return(self.rules)
+	return(self.rules)

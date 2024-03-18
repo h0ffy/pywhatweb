@@ -9,4 +9,4 @@ class Pluginphp_link_directory_plugin(plugins.Base):
 			{ "regexp" : "/<a href="http:\/\/www.phplinkdirectory.com[^>]*Phplinkdirectory/i },
 			{ "version" : "/<meta name="generator"[^>]*content="PHP Link Directory ([0-9\.]+)"/" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -7,4 +7,4 @@ class Pluginthehostingtool_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/<div id="footer">Powered by <a href="http:\/\/thehostingtool.com" target="_blank">TheHostingTool<\/a> ([\d\.]*)<\/div>/" },
 		]
-		return(self.rules)
+	return(self.rules)

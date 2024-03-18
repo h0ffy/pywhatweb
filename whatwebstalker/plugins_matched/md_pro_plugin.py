@@ -13,4 +13,4 @@ class Pluginmd_pro_plugin(plugins.Base):
 			{ "md5" : "0caf204c07776c652de251a1eb74447a", "url" : "images/logo.gif" },
 			{ "version" : "/<meta name="generator" content="MAXdev ([\d\.]+) - http:\/\/www.maxdev.(com|it)">/" },
 		]
-		return(self.rules)
+	return(self.rules)

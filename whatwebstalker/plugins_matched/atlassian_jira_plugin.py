@@ -10,4 +10,4 @@ class Pluginatlassian_jira_plugin(plugins.Base):
 			{ "version" : "/<span id="footer-build-information"  style="color: #666666;" >\(([^\)^\s]+)\)<\/span>/" },
 			{ "text" : "<meta name="decorator" content="atl.general">" },
 		]
-		return(self.rules)
+	return(self.rules)

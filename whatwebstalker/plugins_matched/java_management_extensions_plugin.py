@@ -7,4 +7,4 @@ class Pluginjava_management_extensions_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]+ [DEBUG|INFO]/" },
 		]
-		return(self.rules)
+	return(self.rules)

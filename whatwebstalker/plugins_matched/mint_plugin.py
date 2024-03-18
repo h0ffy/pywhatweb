@@ -7,4 +7,4 @@ class Pluginmint_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/<script [^>]*src=["'][^>]*mint\/\?js/i },
 		]
-		return(self.rules)
+	return(self.rules)

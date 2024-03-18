@@ -10,4 +10,4 @@ class Pluginnexusphp_plugin(plugins.Base):
 			{ "text" : "<tr><td class="rowhead">SSL (HTTPS):</td><td class="rowfollow" align="left"><input class="checkbox" type="checkbox" name="ssl" value="yes"" },
 			{ "string" : /<\/a> (20[\d]{2})-20[\d]{2} Powered by <a href="aboutnexus\.php">NexusPHP<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)

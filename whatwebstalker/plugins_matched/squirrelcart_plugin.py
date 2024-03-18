@@ -11,4 +11,4 @@ class Pluginsquirrelcart_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/SC_referer=},
 			{ "search" : "headers[set-cookie]", "regexp" : "/SC_referral_date=[\d]{4}\-[0-1][\d]\-[0-3][\d]\+/" },
 		]
-		return(self.rules)
+	return(self.rules)

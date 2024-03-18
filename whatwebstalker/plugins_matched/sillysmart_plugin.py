@@ -7,4 +7,4 @@ class Pluginsillysmart_plugin(plugins.Base):
         self.rules = [
 			{ "certainty" : "85", "text" : "var slsBuild" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -9,4 +9,4 @@ class Pluginstardot_express_plugin(plugins.Base):
 			{ "regexp" : "%r{<tr><td><a href="http://www.stardot(-tech)?.com" target="(_new|_blank)"><img src="logo.gif" alt=" width="227" height="45"} },
 			{ "status" : "401", "certainty" : "75", "name" : "WWW-Authenticate realm", "regexp" : "/^Basic realm="Express6"/", "search" : "headers[www-authenticate]" },
 		]
-		return(self.rules)
+	return(self.rules)

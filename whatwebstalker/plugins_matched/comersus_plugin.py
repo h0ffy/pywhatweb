@@ -10,4 +10,4 @@ class Plugincomersus_plugin(plugins.Base):
 			{ "regexp" : "/<a href="[^"]*comersus_showCart.asp">/i },
 			{ "regexp" : "/Powered by <[^>]*>Comersus<\/a>/i },
 		]
-		return(self.rules)
+	return(self.rules)

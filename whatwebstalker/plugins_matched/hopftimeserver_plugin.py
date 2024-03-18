@@ -10,4 +10,4 @@ class Pluginhopftimeserver_plugin(plugins.Base):
 			{ "version" : "/><title>Hopf ([^<^\s]+) - (System Info|General|Peers|Server Configuration|Kernel Info)<\/title>/" },
 			{ "version" : "/<head><title>HOPF ([^<^\s]+) Configuration<\/title>/" },
 		]
-		return(self.rules)
+	return(self.rules)

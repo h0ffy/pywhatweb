@@ -10,4 +10,4 @@ class Pluginroundcube_plugin(plugins.Base):
 			{ "text" : "<input name="_user" id="rcmloginuser"'},
 			{ "text" : "$(document).ready(function(){ rcmail.init(); });'},
 		]
-		return(self.rules)
+	return(self.rules)

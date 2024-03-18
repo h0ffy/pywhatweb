@@ -10,4 +10,4 @@ class Pluginunknown_router_plugin(plugins.Base):
 			{ "md5" : "d8d705cef8dbf67357ee908f42fd1baa", "url" : "/favicon.ico" },
 			{ "md5" : "129f914b2570b50374ebeb8f1306617d", "url" : "/login/keys.png" },
 		]
-		return(self.rules)
+	return(self.rules)

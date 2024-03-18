@@ -11,4 +11,4 @@ class Plugincrushftp_plugin(plugins.Base):
 			{ "name" : "CrushAuth Cookie", "regexp" : "/^CrushAuth=/", "search" : "headers[set-cookie]" },
 			{ "name" : "WWW-Authenticate", "version" : "/^Basic realm="CrushFTP Server Version ([\d\.]+)"$/", "search" : "headers[www-authenticate]" },
 		]
-		return(self.rules)
+	return(self.rules)

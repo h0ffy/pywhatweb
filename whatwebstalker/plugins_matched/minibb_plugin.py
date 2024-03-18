@@ -9,4 +9,4 @@ class Pluginminibb_plugin(plugins.Base):
 			{ "regexp" : "/Powered by <a[^>]+href="http:\/\/www.minibb.(com|net)"[^>]*>miniBB[^<]{0,15}<\/a>/i },
 			{ "version" : "/Powered by <a[^>]+href="http:\/\/www.miniBB.(com|net)"[^>]*>miniBB ([^<]{1,7})<\/a>/i", "offset" : "1 },
 		]
-		return(self.rules)
+	return(self.rules)

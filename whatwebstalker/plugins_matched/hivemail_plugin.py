@@ -11,4 +11,4 @@ class Pluginhivemail_plugin(plugins.Base):
 			{ "version" : "/<meta name="product" content="Hivemail v([^"]+)">/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/hivesession=/" },
 		]
-		return(self.rules)
+	return(self.rules)

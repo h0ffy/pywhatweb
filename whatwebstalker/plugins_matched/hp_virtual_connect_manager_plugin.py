@@ -11,4 +11,4 @@ class Pluginhp_virtual_connect_manager_plugin(plugins.Base):
 			{ "url" : "/html/index.html", "text" : "<title>HP Virtual Connect Manager</title>" },
 			{ "url" : "/html/index.html", "text" : "<frame id='MX_HIDDEN' name='MX_HIDDEN' src=\"common/hiddenFrame.html\" noresize>" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -11,4 +11,4 @@ class Plugingridsite_plugin(plugins.Base):
 			{ "version" : "/Built with <a href="http:\/\/www.gridsite.org\/">GridSite<\/a> ([\d\.]+)/" },
 			{ "text" : "<!-- start of gridsitefoot.txt -->" },
 		]
-		return(self.rules)
+	return(self.rules)

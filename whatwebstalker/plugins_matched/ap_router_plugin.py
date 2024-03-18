@@ -10,4 +10,4 @@ class Pluginap_router_plugin(plugins.Base):
 			{ "url" : "/status.asp", "string" : /<td width=49% bgcolor="#EEEEEE"><strong>MAC da Wireless<\/strong><\/td>[\s]+<td width=51% bgcolor="#EEEEEE">[\s]+([a-f\d:]{17})[\s]+<\/td>[\s]+<\/tr>/" },
 			{ "url" : "/status.asp", "string" : /<td width=49% bgcolor="#EEEEEE"><strong>Endere&ccedil;o[\s]+MAC<\/strong><\/td>[\s]+<td width=51% bgcolor="#EEEEEE">[\s]+([a-f\d:]{17})[\s]+<\/td>[\s]+<\/tr>/" },
 		]
-		return(self.rules)
+	return(self.rules)

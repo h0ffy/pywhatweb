@@ -8,4 +8,4 @@ class Pluginenhydra_application_server_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Enhydra-MultiServer\/([^\s]+)/" },
 			{ "search" : "headers[servlet-engine]", "version" : "/Enhydra Application Server\/([^\s]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)

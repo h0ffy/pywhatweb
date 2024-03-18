@@ -12,4 +12,4 @@ class Pluginnetquery_plugin(plugins.Base):
 			{ "text" : "<a href="nqadmin.php"><img class="gobutton" src="images/btn_adm.gif" alt="Administration" /></a>" },
 			{ "md5" : "24a75ccc492b5a9118a4d226c25895c1" },
 		]
-		return(self.rules)
+	return(self.rules)

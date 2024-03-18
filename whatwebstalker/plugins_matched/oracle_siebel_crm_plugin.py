@@ -15,4 +15,4 @@ class Pluginoracle_siebel_crm_plugin(plugins.Base):
 			{ "text" : "<body onLoad=\"GotoUrl('start.swe?SWECmd=Start')\">", "string" : "eService" },
 			{ "text" : "</form><script language="javascript">var formObj = document.forms["RedirectForHost"];formObj.SWEHo.value=top.location.hostname;formObj.submit();</script></body></html>" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -9,4 +9,4 @@ class Pluginmivamerchant_plugin(plugins.Base):
 			{ "ghdb" : "inurl:merchant.mvc filetype:mvc" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/htscallerid=/" },
 		]
-		return(self.rules)
+	return(self.rules)

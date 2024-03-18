@@ -7,4 +7,4 @@ class Pluginsocorro_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "Powered by <a href="http://code.google.com/p/socorro/">Socorro</a>" },
 		]
-		return(self.rules)
+	return(self.rules)

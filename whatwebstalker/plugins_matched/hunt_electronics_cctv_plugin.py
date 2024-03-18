@@ -11,4 +11,4 @@ class Pluginhunt_electronics_cctv_plugin(plugins.Base):
 			{ "text" : "                        <!--<p>If ActiveX control can\'t be loaded", "please download and install Webviewer ActiveX Control.<br>&gt;&gt; <a href="./WebviewerInstaller.exe">Download Webviewer Installer v.1.0.2.5</a>-->", "version" : "HVRM-H1600L / HVRM-T1600M" },
 			{ "text" : "                        <!--<p>If ActiveX control can\'t be loaded", "please download and install Webviewer ActiveX Control.<br>&gt;&gt; <a href="./WebviewerInstaller.exe">Download Webviewer Installer v.1.0.3.0</a>-->", "version" : "HNVS-04" },
 		]
-		return(self.rules)
+	return(self.rules)

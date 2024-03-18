@@ -9,4 +9,4 @@ class Pluginaxis_printserver_plugin(plugins.Base):
 			{ "url" : "/", "model" : "/<h2>Welcome to AXIS.*<hr><p>Name: ([\S]+)<br>/m},
 			{ "url" : "/", "version" : "/<h2>Welcome to AXIS.*Software version: ([0-9\.]+)<br>/m},
 		]
-		return(self.rules)
+	return(self.rules)

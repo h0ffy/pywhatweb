@@ -11,4 +11,4 @@ class Pluginphotopost_php_plugin(plugins.Base):
 			{ "text" : "Powered by: <a target="_blank" href="http://www.photopost.com">PhotoPost</a> PHP vB3 Enhanced<br />" },
 			{ "text" : " - Powered by PhotoPost</title>" },
 		]
-		return(self.rules)
+	return(self.rules)

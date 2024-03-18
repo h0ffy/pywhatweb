@@ -10,4 +10,4 @@ class Pluginreinvigorate_plugin(plugins.Base):
 			{ "certainty" : "25", "string" : /reinvigorate\.track\("([a-z\d]{5}-[a-z\d]{10})"\);/" },
 			{ "certainty" : "10", "string" : /re_\("([a-z\d]{5}-[a-z\d]{10})"\);/" },
 		]
-		return(self.rules)
+	return(self.rules)

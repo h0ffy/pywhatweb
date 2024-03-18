@@ -10,4 +10,4 @@ class Plugindolphin_plugin(plugins.Base):
 			{ "text" : "<td NOWRAP><input name="PHP_AUTH_USER" type="text"></td>" },
 			{ "text" : "<body onload="focus_username();" bottommargin="0" rightmargin="0" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">" },
 		]
-		return(self.rules)
+	return(self.rules)

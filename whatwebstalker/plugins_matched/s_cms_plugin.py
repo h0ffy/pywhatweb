@@ -10,4 +10,4 @@ class Plugins_cms_plugin(plugins.Base):
 			{ "text" : "<!-- Inizio righe di indicizzazione nei motori di ricerca -->" },
 			{ "version" : "/Powered by <a href='http:\/\/www.matteoiammarrone.com\/public\/s-cms' target='_blank'>S-Cms ([\d\.]+)<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)

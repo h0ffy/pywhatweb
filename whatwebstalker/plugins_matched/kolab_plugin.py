@@ -10,4 +10,4 @@ class Pluginkolab_plugin(plugins.Base):
 			{ "text" : "<meta name="description" content="Kolab Administration Webinterface" />" },
 			{ "text" : "<title>Kolab Groupware login</title>" },
 		]
-		return(self.rules)
+	return(self.rules)

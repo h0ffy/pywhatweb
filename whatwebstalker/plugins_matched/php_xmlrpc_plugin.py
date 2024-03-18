@@ -8,4 +8,4 @@ class Pluginphp_xmlrpc_plugin(plugins.Base):
 			{ "text" : "<meta name="generator" content="XML-RPC for PHP" />" },
 			{ "version" : "/<div class="footer">Generated using PHP-XMLRPC ([\d\.]+)<\/div>/" },
 		]
-		return(self.rules)
+	return(self.rules)

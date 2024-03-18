@@ -7,4 +7,4 @@ class Plugindavid_webbox_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^David-WebBox\/([^\s]+ \([^\)]+\))$/" },
 		]
-		return(self.rules)
+	return(self.rules)

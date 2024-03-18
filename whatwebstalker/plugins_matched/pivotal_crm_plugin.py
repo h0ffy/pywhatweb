@@ -10,4 +10,4 @@ class Pluginpivotal_crm_plugin(plugins.Base):
 			{ "text" : "<frame name="hidden" src="xmlloader.asp?type=portal" marginwidth="0" marginheight="0" scrolling="no" noresize>" },
 			{ "text" : "<frame name="hidden" title="Hidden" src="xmlloader.asp?type=portal" marginwidth="0" marginheight="0" scrolling="no" noresize>" },
 		]
-		return(self.rules)
+	return(self.rules)

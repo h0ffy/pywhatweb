@@ -11,4 +11,4 @@ class Pluginopenemr_plugin(plugins.Base):
 			{ "regexp" : "/<!--<frame src="\/[^\/]+\/interface\/login\/filler\.php" name="Filler Bottom" scrolling="no" noresize frameborder="NO">-->/" },
 			{ "certainty" : "75", "search" : "headers[set-cookie]", "regexp" : "/OpenEMR=[^\s]+;/" },
 		]
-		return(self.rules)
+	return(self.rules)

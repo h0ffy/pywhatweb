@@ -11,4 +11,4 @@ class Pluginwebdvr_plugin(plugins.Base):
 			{ "text" : "		alert("DirectDraw Video acceleration will be enabled if your VGA card supports Microsoft DirectX 8.1 or later.");" },
 			{ "text" : "		window.location="webdvr.html";" },
 		]
-		return(self.rules)
+	return(self.rules)

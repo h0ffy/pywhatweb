@@ -10,4 +10,4 @@ class Pluginnovell_ichain_plugin(plugins.Base):
 			{ "text" : "<HTML><HEAD><TITLE>Novell Proxy</TITLE></HEAD><BODY><b><p>HTTP request is being redirected to HTTPS.</b></BODY></HTML>" },
 			{ "search" : "headers[X-Error-Info]", "regexp" : "/Host name received is not for this web site/" },
 		]
-		return(self.rules)
+	return(self.rules)

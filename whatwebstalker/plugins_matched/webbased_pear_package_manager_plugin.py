@@ -10,4 +10,4 @@ class Pluginwebbased_pear_package_manager_plugin(plugins.Base):
 			{ "version" : "/<td valign="top">[\s]+<a href="[^"]*\/index\.php\?command=info&pkg=pear\.php\.net\/PEAR_Frontend_Web" class="blue">PEAR_Frontend_Web<\/a>[\s]+<\/td>[\s]+<td valign="top">[\s]+([^<^\n]+)[\s]+<\/td>/" },
 			{ "string" : /<meta name="description" content="Webbased PEAR Package Manager on ([^"]+)" \/>/" },
 		]
-		return(self.rules)
+	return(self.rules)

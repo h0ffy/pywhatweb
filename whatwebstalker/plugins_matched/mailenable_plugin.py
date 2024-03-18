@@ -9,4 +9,4 @@ class Pluginmailenable_plugin(plugins.Base):
 			{ "text" : "<td class="loginPanel_botLeft"><div class="loginPanel_botLeft_div"></div></td>" },
 			{ "certainty" : "75", "text" : "<title>MailEnable - Webmail</title>" },
 		]
-		return(self.rules)
+	return(self.rules)

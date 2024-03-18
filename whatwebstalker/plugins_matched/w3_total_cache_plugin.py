@@ -7,4 +7,4 @@ class Pluginw3_total_cache_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/" },
 		]
-		return(self.rules)
+	return(self.rules)

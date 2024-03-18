@@ -7,4 +7,4 @@ class Pluginibm_webseal_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^WebSEAL\/([^\s]+ \(Build \d+\))/" },
 		]
-		return(self.rules)
+	return(self.rules)

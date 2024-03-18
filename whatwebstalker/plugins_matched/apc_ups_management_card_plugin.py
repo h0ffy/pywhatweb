@@ -9,4 +9,4 @@ class Pluginapc_ups_management_card_plugin(plugins.Base):
 			{ "url" : "/RpError/SslRequired", "text" : "<td>This object on the&nbsp;APC Management Web Server&nbsp;is protected and requires a secure socket connection.<br /><br /><br /><br /><A HREF="https://" },
 			{ "name" : "WWW-Authenticate realm", "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="APC Management Card"$/" },
 		]
-		return(self.rules)
+	return(self.rules)

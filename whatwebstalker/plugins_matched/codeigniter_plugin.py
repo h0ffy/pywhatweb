@@ -13,4 +13,4 @@ class Plugincodeigniter_plugin(plugins.Base):
 			{ "string" : "Invalid Character Filter',"url" : randstr()+'!!!',"text" : "The URI you submitted has disallowed characters.'},
 			{ "search" : "headers[set-cookie]", "regexp" : "/ci_session/", "name" : "ci_session cookie" },
 		]
-		return(self.rules)
+	return(self.rules)

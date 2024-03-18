@@ -13,4 +13,4 @@ class Plugindiy_cms_plugin(plugins.Base):
 			{ "version" : "/<META content="Powered by DiY-CMS ([\d\.]+) [0-9]{4} " name="description">/" },
 			{ "version" : "/Powered by <a href="http:\/\/www.pghost.eu[^>]+>DIY-CMS v ([\d\.]+)<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)

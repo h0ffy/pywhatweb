@@ -10,4 +10,4 @@ class Plugininfinet_bcx1_controller_router_plugin(plugins.Base):
 			{ "text" : "<img BORDER="0" src="/Images/taclogo" </A></H3>", "model" : "bCX1-CR-INF" },
 			{ "text" : "<img BORDER="0" src="/Images/AndoverContinuum"</A><P>", "model" : "bCX1-CR-INF" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -17,4 +17,4 @@ class Pluginrequest_tracker_plugin(plugins.Base):
 			{ "version" : "/&#187;&#124;&#171; RT ([^\s]+) Copyright 1996-20[\d]{2} <a href="http:\/\/www\.bestpractical\.com\?rt=([^\s^"^>]+)">Best Practical Solutions", "LLC<\/a>\./" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/RT_SID_[^\s^=]+=[a-f\d]{32};/" },
 		]
-		return(self.rules)
+	return(self.rules)

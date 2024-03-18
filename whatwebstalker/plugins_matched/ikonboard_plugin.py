@@ -12,4 +12,4 @@ class Pluginikonboard_plugin(plugins.Base):
 			{ "version" : "/<meta name="GENERATOR" content="Ikonboard ([^"]+)">/" },
 			{ "certainty" : "75", "tagpattern" : "h1,/h1,pre,/pre,p,a,/a,/p" },
 		]
-		return(self.rules)
+	return(self.rules)

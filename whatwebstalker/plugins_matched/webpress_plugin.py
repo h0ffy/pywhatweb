@@ -11,4 +11,4 @@ class Pluginwebpress_plugin(plugins.Base):
 			{ "version" : "/<!-- Powered by YWP ([\d\.]+) -->/" },
 			{ "version" : "/<meta name="generator" content="YWP ([\d\.]+)">/" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -10,4 +10,4 @@ class Pluginspamtitan_plugin(plugins.Base):
 			{ "regexp" : "/<link rel="stylesheet" type="text\/css" href="\/?styles\/spamtitan(\.[\d]{10})?\.css" title="SpamTitanCSS2">/" },
 			{ "text" : "<table class="lhead"><tr><td class="img"><img src="/imgs/logo.gif" alt="SpamTitan Logo"></td></tr></table></div>" },
 		]
-		return(self.rules)
+	return(self.rules)

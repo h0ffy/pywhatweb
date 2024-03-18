@@ -10,4 +10,4 @@ class Pluginpunbb_plugin(plugins.Base):
 			{ "text" : "<p id="copyright">Powered by <strong><a href="http://punbb.informer.com/">PunBB</a></strong>", "supported by <strong><a href="http://www.informer.com/">Informer Technologies", "Inc</a></strong>.</p>" },
 			{ "module" : /<p style="clear: both; ">Currently installed <span id="extensions-used" title="([^"]+)\.">[\d]+ official extensions<\/span>\. Copyright &copy; 2003&ndash;/" },
 		]
-		return(self.rules)
+	return(self.rules)

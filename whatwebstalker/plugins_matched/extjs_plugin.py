@@ -7,4 +7,4 @@ class Pluginextjs_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/<script [^>]*src=["'][^>]*ext\-base\.js["']/i },
 		]
-		return(self.rules)
+	return(self.rules)

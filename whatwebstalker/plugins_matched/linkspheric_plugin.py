@@ -14,4 +14,4 @@ class Pluginlinkspheric_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://dataspheric.com/services/software/ls/" style="text-decoration: none; color: #000;"><strong>link<span style="font-size: 1.3em; color: #f60;">S</span>pheric</strong></a>" },
 			{ "md5" : "a421ddecd26e755219c63a130893d253", "url" : "images/ls_logo.png" },
 		]
-		return(self.rules)
+	return(self.rules)

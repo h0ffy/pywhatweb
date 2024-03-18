@@ -10,4 +10,4 @@ class Pluginsimplesamlphp_plugin(plugins.Base):
 			{ "text" : "<a href="http://rnd.feide.no/simplesamlphp">SimpleSAMLPhp </a>" },
 			{ "certainty" : "75", "text" : "<!-- Grey header bar below -->" },
 		]
-		return(self.rules)
+	return(self.rules)

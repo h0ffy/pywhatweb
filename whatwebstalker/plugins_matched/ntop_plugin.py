@@ -10,4 +10,4 @@ class Pluginntop_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<TITLE>Global Traffic Statistics</TITLE>" },
 			{ "search" : "headers[www-authenticate]", "text" : "Basic realm="NTOP"" },
 		]
-		return(self.rules)
+	return(self.rules)

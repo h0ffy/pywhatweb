@@ -10,4 +10,4 @@ class Pluginnextgen_gallery_plugin(plugins.Base):
 			{ "regexp" : "/<link rel='stylesheet' id='galleryview-css'  href='[^']*\/wp-content\/plugins\/nggGalleryview\/galleryview.css\?ver=[\d\.]+' type='text\/css' media='screen' \/>/", "string" : "Wordpress" },
 			{ "version" : "/<meta name='NextGEN' content='([\d\.]+)' \/>/", "string" : "Wordpress" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -10,4 +10,4 @@ class Pluginsemaphore_plugin(plugins.Base):
 			{ "text" : "<!-- Display the "Powered by Semaphore" logo -->" },
 			{ "regexp" : "/<a href="http:\/\/www.smartlogic.com\/poweredbysemaphore"><img src="[^"^>]+\/semaphore\/semaphore_small\.gif"[^>]+alt="Powered by Semaphore" title="Powered by Semaphore" \/><\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)

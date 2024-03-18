@@ -9,4 +9,4 @@ class Pluginhyperic_hq_plugin(plugins.Base):
 			{ "text" : "<a id="screencastLink" href="http://www.hyperic.com/demo/screencasts.html" target="_blank" title="Screencasts">" },
 			{ "search" : "headers[location]", "regexp" : "/\/app\/login;jsessionid=/" },
 		]
-		return(self.rules)
+	return(self.rules)

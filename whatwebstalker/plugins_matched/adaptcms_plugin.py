@@ -7,4 +7,4 @@ class Pluginadaptcms_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/Powered by <a href="http:\/\/www.adaptcms.com">[<b>]*AdaptCMS([^<]*)<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -14,4 +14,4 @@ class Pluginspip_plugin(plugins.Base):
 			{ "text" : "<a href="spip.php" },
 			{ "text" : "<img src=\'/spip" },
 		]
-		return(self.rules)
+	return(self.rules)

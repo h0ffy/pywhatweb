@@ -6,4 +6,4 @@ class Pluginx_frame_options_plugin(plugins.Base):
     def start(self):
         self.rules = [
 		]
-		return(self.rules)
+	return(self.rules)

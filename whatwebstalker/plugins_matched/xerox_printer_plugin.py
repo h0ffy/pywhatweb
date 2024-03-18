@@ -22,4 +22,4 @@ class Pluginxerox_printer_plugin(plugins.Base):
 			{ "text" : "                              color=#008000 face="Arial,Helvetica" size=2>Phaser 8400DP-1</font></td>", "model" : "Phaser 8400DP-1" },
 			{ "model" : "/<title>(FX[0-9A-Z]{6})-Home<\/title>/" },
 		]
-		return(self.rules)
+	return(self.rules)

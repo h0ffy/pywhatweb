@@ -9,4 +9,4 @@ class Plugintreenews_plugin(plugins.Base):
 			{ "url" : "/vendor.js", "model" : "/var _OTHER_SYSTEM_MANAGEMENT_NAME_ = '([^']+)';/" },
 			{ "search" : "headers[server]", "version" : "/^TreeNeWS\/([^\s]+)$/" },
 		]
-		return(self.rules)
+	return(self.rules)

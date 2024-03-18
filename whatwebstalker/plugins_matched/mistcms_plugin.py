@@ -8,4 +8,4 @@ class Pluginmistcms_plugin(plugins.Base):
 			{ "text" : "<div class="page">login</div><form method="post" action="mist.php">" },
 			{ "text" : "<!-- Powered by MistCMS @ dvondrake.com -->" },
 		]
-		return(self.rules)
+	return(self.rules)

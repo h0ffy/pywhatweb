@@ -9,4 +9,4 @@ class Pluginrobpoll_plugin(plugins.Base):
 			{ "text" : "<head><title>RobPoll Admin</title></head>" },
 			{ "regexp" : "/<form action="[^"]*\/robpoll\.cgi" method="post">/" },
 		]
-		return(self.rules)
+	return(self.rules)

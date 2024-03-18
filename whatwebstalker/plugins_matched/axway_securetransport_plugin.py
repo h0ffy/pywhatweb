@@ -9,4 +9,4 @@ class Pluginaxway_securetransport_plugin(plugins.Base):
 			{ "text" : "<!-- /application.bar -->" },
 			{ "certainty" : "75", "text" : "<title>Welcome to SecureTransport</title>" },
 		]
-		return(self.rules)
+	return(self.rules)

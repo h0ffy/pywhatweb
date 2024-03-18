@@ -11,4 +11,4 @@ class Pluginmybb_plugin(plugins.Base):
 			{ "regexp" : "/Powered By <a href="http:\/\/(mybb.com\/|www.mybboard.net)" target="_blank">MyBB<\/a>", "&copy; 2002-20[\d]{2} <a href="http:\/\/(mybb.com\/|www.mybboard.net)" target="_blank">MyBB Group<\/a>./" },
 			{ "text" : "Powered By <a href="http://www.mybboard.com" target="_blank">MyBB</a>" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -9,4 +9,4 @@ class Pluginsockettimesheet_plugin(plugins.Base):
 			{ "text" : "alert('You Are Using '+browser+", "a Non-Supported Browser For This Application\\nCurrently Supported Browsers Are:\\n1. Internet Explorer\\n2. Firefox (with IETab Enabled)\\n\\nSome Critical Functionalities May Not Work With '+browser);", "version" : "<= 2.x" },
 			{ "version" : "/<td valign="top" align="left"><img src=login_images\/index_01.gif><\/td><td valign="bottom" nowrap class="td_title" width="100%">v ([\d\.]+)<\/td>/" },
 		]
-		return(self.rules)
+	return(self.rules)

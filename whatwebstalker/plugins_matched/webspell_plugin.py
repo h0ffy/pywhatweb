@@ -10,4 +10,4 @@ class Pluginwebspell_plugin(plugins.Base):
 			{ "version" : "/Diese Seite benutzt das <a href="http:\/\/www.webspell.org" target="[^"]+">webSPELL Script \(Version: ([^\)]+)\)[\s]*<\/a>/" },
 			{ "certainty" : "75", "search" : "headers[set-cookie]", "regexp" : "/ws_session=[a-z\d]+;/" },
 		]
-		return(self.rules)
+	return(self.rules)

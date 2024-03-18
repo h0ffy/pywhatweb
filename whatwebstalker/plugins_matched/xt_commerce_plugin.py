@@ -16,4 +16,4 @@ class Pluginxt_commerce_plugin(plugins.Base):
 			{ "module" : /<div class="copyright"><a href="http:\/\/www.xtc-modified.org" target="_blank">(xtcModified v[\d\.]{1,15}) dated: [\d]{4}-[\d]{2}-[\d]{2}<\/a>/" },
 			{ "text" : "<div class="copyright"><a href="http://www.xtc-modified.org" target="_blank">xtcModified</a>", "module" : "xtcModified" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -10,4 +10,4 @@ class Pluginemeeting_online_dating_software_plugin(plugins.Base):
 			{ "text" : "<a href="http://www.datingscripts.org" alt="Dating Software by eMeeting Ltd" target="_blank">Dating Software Powered by eMeeting Ltd</a>" },
 			{ "version" : "/<p>eMeeting Dating Software <strong>Version ([\d\.]+)<\/strong>/" },
 		]
-		return(self.rules)
+	return(self.rules)

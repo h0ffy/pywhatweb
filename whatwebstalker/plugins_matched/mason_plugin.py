@@ -7,4 +7,4 @@ class Pluginmason_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[x-powered-by]", "regexp" : "/HTML::Mason/" },
 		]
-		return(self.rules)
+	return(self.rules)

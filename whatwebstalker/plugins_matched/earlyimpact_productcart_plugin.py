@@ -9,4 +9,4 @@ class Pluginearlyimpact_productcart_plugin(plugins.Base):
 			{ "text" : "<a href="fpassword.asp?redirectUrl=&frURL=Custva.asp"" },
 			{ "text" : "<!-- end of password request -->" },
 		]
-		return(self.rules)
+	return(self.rules)

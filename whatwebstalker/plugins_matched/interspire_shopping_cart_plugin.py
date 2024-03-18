@@ -8,4 +8,4 @@ class Plugininterspire_shopping_cart_plugin(plugins.Base):
 			{ "text" : "	<meta name="generator" content="Interspire Shopping Cart" />" },
 			{ "regexp" : "/				Powered by <a href="http:\/\/www.interspire.com\/shoppingcart[\/]*" target="_blank" class="PoweredBy">Interspire Shopping Cart<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)

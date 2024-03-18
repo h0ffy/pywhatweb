@@ -12,4 +12,4 @@ class Pluginpulsecms_plugin(plugins.Base):
 			{ "url" : "img/new-logo.png", "md5" : "079d0b95c76564c1bb450650f17c3e7f" },
 			{ "url" : "img/new-logo.png", "md5" : "652807728bfb1cd7ffba4a5d40c4e374" },
 		]
-		return(self.rules)
+	return(self.rules)

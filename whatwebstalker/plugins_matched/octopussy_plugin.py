@@ -11,4 +11,4 @@ class Pluginoctopussy_plugin(plugins.Base):
 			{ "text" : "<title>Octopussy Login</title>" },
 			{ "text" : "<link rel="icon" type="image/gif" href="IMG/octopussy.gif">" },
 		]
-		return(self.rules)
+	return(self.rules)

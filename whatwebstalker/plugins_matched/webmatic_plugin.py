@@ -8,4 +8,4 @@ class Pluginwebmatic_plugin(plugins.Base):
 			{ "text" : "Powered&nbsp;by&nbsp;<a href="http://www.webmatic.it">Webmatic</a>" },
 			{ "version" : "/ href="http:\/\/www.valarsoft.com"[^>]+>Powered by: Webmatic ([^<]+)<\/a>/i },
 		]
-		return(self.rules)
+	return(self.rules)

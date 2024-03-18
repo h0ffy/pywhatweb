@@ -10,4 +10,4 @@ class Pluginadxstudio_cms_plugin(plugins.Base):
 			{ "text" : "alt="Powered by Adxstudio"'},
 			{ "text" : "/poweredbyadx.png'},
 		]
-		return(self.rules)
+	return(self.rules)

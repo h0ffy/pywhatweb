@@ -7,4 +7,4 @@ class Pluginhaproxy_plugin(plugins.Base):
         self.rules = [
 			{ "status" : "401", "search" : "headers[www-authenticate]", "text" : "Basic realm="HAProxy Statistics"" },
 		]
-		return(self.rules)
+	return(self.rules)

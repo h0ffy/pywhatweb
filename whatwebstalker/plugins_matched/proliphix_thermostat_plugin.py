@@ -9,4 +9,4 @@ class Pluginproliphix_thermostat_plugin(plugins.Base):
 			{ "text" : "printFSC(\"\", "linkbuttonGet('location.href", "'Refresh')", "\"<input type=submit name='submit' value='Submit'>\")" },
 			{ "certainty" : "25", "text" : " - Status &amp; Control</title>" },
 		]
-		return(self.rules)
+	return(self.rules)

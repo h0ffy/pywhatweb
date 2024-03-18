@@ -9,4 +9,4 @@ class Pluginclipshare_plugin(plugins.Base):
 			{ "text" : "<!--!!!!!!!!!!!!!!!!!!!!!!!! LIBRARY !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->" },
 			{ "text" : "Powered By <a href="http://www.clip-share.com">ClipShare</a>" },
 		]
-		return(self.rules)
+	return(self.rules)

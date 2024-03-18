@@ -10,4 +10,4 @@ class Plugindir2web_cms_plugin(plugins.Base):
 			{ "text" : "<img src="_themes\/d2w\d\/images\/logo_hp\.jpg" title="dir2web \d logo" alt="dir2web \d logo"/>" },
 			{ "version" : "/<a href="http:\/\/www\.dir2web\.it"><img style="border:0px" src="default\/d2w\d\.gif" alt="dir2web ([^\s]+) CMS" title="dir2web ([^\s]+) CMS"\/><\/a><br\/><br\/><\/div>/" },
 		]
-		return(self.rules)
+	return(self.rules)

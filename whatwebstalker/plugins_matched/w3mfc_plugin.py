@@ -7,4 +7,4 @@ class Pluginw3mfc_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^W3MFC\/([\d\.]+)$/  },
 		]
-		return(self.rules)
+	return(self.rules)

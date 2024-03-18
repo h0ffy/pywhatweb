@@ -12,4 +12,4 @@ class Pluginbugfree_plugin(plugins.Base):
 			{ "text" : "<img src="Image/login_bg_left.gif" class="loginBgImage"/>" },
 			{ "text" : "<td><input type="password" name="BugUserPWD" class="MyInput"></td>" },
 		]
-		return(self.rules)
+	return(self.rules)

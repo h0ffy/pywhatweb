@@ -9,4 +9,4 @@ class Pluginosticket_plugin(plugins.Base):
 			{ "regexp" : "/<title>osTicket Installer<\/title>[\s]+<link rel="stylesheet" href="style\.css" media="screen">/" },
 			{ "regexp" : "/<a id="powered_by" href="http:\/\/osticket\.com"><img src="\.\/images\/poweredby\.jpg" width="126" height="23" alt="Powered by osTicket"><\/a><\/div>/" },
 		]
-		return(self.rules)
+	return(self.rules)

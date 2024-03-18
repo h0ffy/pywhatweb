@@ -11,4 +11,4 @@ class Pluginmoodle_plugin(plugins.Base):
 			{ "name" : "MoodleSession Cookie", "search" : "headers[set-cookie]", "regexp" : "/MoodleSession=/" },
 			{ "name" : "MOODLEID_ Cookie", "search" : "headers[set-cookie]", "regexp" : "/MOODLEID_[^\s^=]*=/" },
 		]
-		return(self.rules)
+	return(self.rules)

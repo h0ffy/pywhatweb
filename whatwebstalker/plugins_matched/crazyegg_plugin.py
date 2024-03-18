@@ -8,4 +8,4 @@ class Plugincrazyegg_plugin(plugins.Base):
 			{ "text" : "cetrk.com" },
 			{ "account" : "/dnn506yrbagrg\.cloudfront\.net\/pages\/scripts\/(\d+\/\d+)},
 		]
-		return(self.rules)
+	return(self.rules)

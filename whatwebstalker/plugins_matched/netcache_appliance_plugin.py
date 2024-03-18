@@ -7,4 +7,4 @@ class Pluginnetcache_appliance_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^NetCache appliance \(NetApp\/([^\)]+)\)$/" },
 		]
-		return(self.rules)
+	return(self.rules)

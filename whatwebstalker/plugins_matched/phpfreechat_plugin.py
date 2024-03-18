@@ -8,4 +8,4 @@ class Pluginphpfreechat_plugin(plugins.Base):
 			{ "ghdb" : "powered by phpfreechat"", "certainty" : "75 },
 			{ "version" : "/<img src="http:\/\/www.phpfreechat.net\/pub\/logo[2]*_80x15.gif" alt="PHP FREE CHAT \[powered by phpFreeChat-([\d\.\-a-z]*)\]"/" },
 		]
-		return(self.rules)
+	return(self.rules)

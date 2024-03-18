@@ -9,4 +9,4 @@ class Pluginxwiki_plugin(plugins.Base):
 			{ "text" : "<div id="xwikilicence">" },
 			{ "version" : "/<div id="xwikiplatformversion">(Powered by )?(XWiki Enterprise )?([^\s<>]+)/", "offset" : "2 },
 		]
-		return(self.rules)
+	return(self.rules)

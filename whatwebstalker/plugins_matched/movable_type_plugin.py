@@ -12,4 +12,4 @@ class Pluginmovable_type_plugin(plugins.Base):
 			{ "name" : "Powered by link", "regexp" : "/<a href="http:\/\/sixapart\.com">Powered by Movable Type<\/a>},
 			{ "name" : "Powered by link", "regexp" : "/Powered by <a href="http:\/\/www\.movabletype\.com\/"[^>]*>Movable Type<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)

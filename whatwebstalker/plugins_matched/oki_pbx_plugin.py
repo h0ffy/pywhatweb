@@ -9,4 +9,4 @@ class Pluginoki_pbx_plugin(plugins.Base):
 			{ "text" : "<APPLET CODE="DavisBar.class" ARCHIVE="ipstage.jar"" },
 			{ "text" : "<PARAM NAME="systype"    value="OKI">" },
 		]
-		return(self.rules)
+	return(self.rules)

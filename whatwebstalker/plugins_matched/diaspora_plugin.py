@@ -10,4 +10,4 @@ class Plugindiaspora_plugin(plugins.Base):
 			{ "search" : "headers[x-git-revision]", "regexp" : "/^[a-f\d]{32}$/" },
 			{ "text" : "<input name="user[remember_me]" type="hidden" value="0" /><input id="user_remember_me" name="user[remember_me]" type="checkbox" value="1" />" },
 		]
-		return(self.rules)
+	return(self.rules)

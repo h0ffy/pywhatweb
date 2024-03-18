@@ -8,4 +8,4 @@ class Pluginlusca_web_proxy_cache_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Lusca$/" },
 			{ "search" : "headers[server]", "version" : "/^Lusca\/LUSCA_HEAD-([^\s]+)$/" },
 		]
-		return(self.rules)
+	return(self.rules)

@@ -11,4 +11,4 @@ class Pluginviewvc_plugin(plugins.Base):
 			{ "version" : "%r{Powered by <a href="http://(viewcvs.sourceforge.net|viewvc.tigris.org)/">(ViewCVS|ViewVC) ([^<]+)</a></td>}", "offset" : "2 },
 			{ "version" : "/<meta name="generator" content="View(VC|CVS) ([^"]+)"/", "offset" : "1 },
 		]
-		return(self.rules)
+	return(self.rules)

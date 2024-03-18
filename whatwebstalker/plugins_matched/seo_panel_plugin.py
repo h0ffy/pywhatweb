@@ -12,4 +12,4 @@ class Pluginseo_panel_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<meta name="description" content="Login to Seo Panel and utilise seo tools and plugins to increase the perfomance of your site." />" },
 			{ "certainty" : "75", "text" : "<p class="note error">JavaScript is turned off in your web browser. Turn it on to take full advantage of this site", "then refresh the page.</p>" },
 		]
-		return(self.rules)
+	return(self.rules)

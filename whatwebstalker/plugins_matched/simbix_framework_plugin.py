@@ -9,4 +9,4 @@ class Pluginsimbix_framework_plugin(plugins.Base):
 			{ "text" : "<div class="image"><img src="/logo-lpage.png" width="40" height="40" alt="Simbix Framework" /></div>" },
 			{ "version" : "/<meta name="generator" content="Simbix Framework v([^"^\s]+)" \/>/" },
 		]
-		return(self.rules)
+	return(self.rules)

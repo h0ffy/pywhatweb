@@ -9,4 +9,4 @@ class Pluginruckus_wireless_router_plugin(plugins.Base):
 			{ "text" : "<div class="box"><img src="/images/logo_login.gif" width="173" height="52" alt="Ruckus Wireless" title="Ruckus Wireless" />" },
 			{ "string" : /<td><h2>Air Quality:<\/h2><\/td>[\s]+<td><img src="images\/[^\/^\.]+\.gif" width="24" height="20" \/>\s*<span id="ssid">([^<^\s]+)<\/span><\/td>/" },
 		]
-		return(self.rules)
+	return(self.rules)

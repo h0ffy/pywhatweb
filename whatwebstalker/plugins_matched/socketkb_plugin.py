@@ -7,4 +7,4 @@ class Pluginsocketkb_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/>Powered by SocketKB version ([\d\.]+)<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)
