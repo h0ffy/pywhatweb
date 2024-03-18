@@ -7,8 +7,8 @@ class cmsimple_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "ghdb" : 'Powered by CMSimple.dk" welcome", "certainty" : '75 }
-			{ "text" : '<meta name="generator" content="CMSimple' }
-			{ "version" : '/<meta name="generator" content="CMSimple ([\d\.]+)[^>]*>/ }
+			{ "ghdb" : 'Powered by CMSimple.dk" welcome", "certainty" : '75 },
+			{ "text" : '<meta name="generator" content="CMSimple' },
+			{ "version" : '/<meta name="generator" content="CMSimple ([\d\.]+)[^>]*>/ },
 		]
 

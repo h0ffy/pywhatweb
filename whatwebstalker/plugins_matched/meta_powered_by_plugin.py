@@ -7,6 +7,6 @@ class meta_powered_by_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "string" : /<meta[^>]+name=["']powered[\- ]?by["'][^>]+content=["']([^"]+)["']/i }
+			{ "string" : /<meta[^>]+name=["']powered[\- ]?by["'][^>]+content=["']([^"]+)["']/i },
 		]
 

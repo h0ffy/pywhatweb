@@ -7,6 +7,6 @@ class iscripts_reservelogic_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'Powered by <a href="http://www.iscripts.com/reservelogic/" target="_blank">iScripts ReserveLogic</a> . A premium product from <a href="http://www.iscripts.com" target="_blank">iScripts.com</a></td>' }
+			{ "text" : 'Powered by <a href="http://www.iscripts.com/reservelogic/" target="_blank">iScripts ReserveLogic</a> . A premium product from <a href="http://www.iscripts.com" target="_blank">iScripts.com</a></td>' },
 		]
 

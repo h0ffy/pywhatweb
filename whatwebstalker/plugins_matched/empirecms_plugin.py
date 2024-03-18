@@ -7,6 +7,6 @@ class empirecms_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : ' - Powered by EmpireCMS</title>' }
+			{ "text" : ' - Powered by EmpireCMS</title>' },
 		]
 

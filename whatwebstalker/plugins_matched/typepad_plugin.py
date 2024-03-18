@@ -7,6 +7,6 @@ class typepad_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<meta name="generator" content="http://www.typepad.com/"'}
+			{ "text" : '<meta name="generator" content="http://www.typepad.com/"'},
 		]
 

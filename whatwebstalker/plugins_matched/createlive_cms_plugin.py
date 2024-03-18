@@ -7,8 +7,8 @@ class createlive_cms_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/Powered by:(<a href="http:\/\/www.aspoo.cn\/" target="_blank">)?CreateLive CMS Version ([\d\.]+)/i }
-			{ "version" : '/<!--By CreateLiveCms (\d)\.00-->/ }
-			{ "search" : 'headers[set-cookie]", "regexp" : '/Kill=kill=(Yes|No)/ }
+			{ "version" : '/Powered by:(<a href="http:\/\/www.aspoo.cn\/" target="_blank">)?CreateLive CMS Version ([\d\.]+)/i },
+			{ "version" : '/<!--By CreateLiveCms (\d)\.00-->/ },
+			{ "search" : 'headers[set-cookie]", "regexp" : '/Kill=kill=(Yes|No)/ },
 		]
 

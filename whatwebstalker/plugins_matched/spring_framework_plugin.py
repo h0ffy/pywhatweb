@@ -7,6 +7,6 @@ class spring_framework_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[set-cookie]", "text" : 'org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=' }
+			{ "search" : 'headers[set-cookie]", "text" : 'org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=' },
 		]
 

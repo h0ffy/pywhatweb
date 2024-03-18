@@ -7,7 +7,7 @@ class wordpress_stats_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<script src="https?:\/\/(ssl-)?stats\.wordpress\.com\/[^"]+" type="text\/javascript"><\/script>/ }
-			{ "regexp" : '/<noscript><img src="https?:\/\/stats\.wordpress\.com\/b\.gif\?v=noscript"/ }
+			{ "regexp" : '/<script src="https?:\/\/(ssl-)?stats\.wordpress\.com\/[^"]+" type="text\/javascript"><\/script>/ },
+			{ "regexp" : '/<noscript><img src="https?:\/\/stats\.wordpress\.com\/b\.gif\?v=noscript"/ },
 		]
 

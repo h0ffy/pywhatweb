@@ -7,6 +7,6 @@ class urlrewriter.net_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[x-powered-by]", "version" : '/UrlRewriter\.NET ([^\s]+)/ }
+			{ "search" : 'headers[x-powered-by]", "version" : '/UrlRewriter\.NET ([^\s]+)/ },
 		]
 

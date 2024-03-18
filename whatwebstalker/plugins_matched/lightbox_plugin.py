@@ -7,6 +7,6 @@ class lightbox_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<script [^>]*(lightbox[^>]*.js)[^>]*}
+			{ "regexp" : '/<script [^>]*(lightbox[^>]*.js)[^>]*},
 		]
 

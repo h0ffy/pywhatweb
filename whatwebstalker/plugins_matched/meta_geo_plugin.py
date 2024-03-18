@@ -7,7 +7,7 @@ class meta_geo_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "string" : /<meta name="geo.[^"]+" content="([^"]+)"[^>]*>}
-			{ "string" : /<meta name="ICBM" content="([^"]+)"[^>]*>/ }
+			{ "string" : /<meta name="geo.[^"]+" content="([^"]+)"[^>]*>},
+			{ "string" : /<meta name="ICBM" content="([^"]+)"[^>]*>/ },
 		]
 

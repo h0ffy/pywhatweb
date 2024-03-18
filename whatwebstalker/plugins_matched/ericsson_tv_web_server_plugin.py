@@ -7,6 +7,6 @@ class ericsson_tv_web_server_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server ]", "regexp" : '/^Ericsson Television Web server$/ }
+			{ "search" : 'headers[server ]", "regexp" : '/^Ericsson Television Web server$/ },
 		]
 

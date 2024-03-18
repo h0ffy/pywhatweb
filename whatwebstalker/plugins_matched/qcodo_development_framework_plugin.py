@@ -7,6 +7,6 @@ class qcodo_development_framework_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/<b>PHP Version:<\/b> [^;]+;&nbsp;&nbsp;<b>Zend Engine Version:<\/b> [^;]+;&nbsp;&nbsp;<b>Qcodo Version:<\/b> ([^\(]+) \([^\(]+\)<br \/>/", "string" : 'Error" }
+			{ "version" : '/<b>PHP Version:<\/b> [^;]+;&nbsp;&nbsp;<b>Zend Engine Version:<\/b> [^;]+;&nbsp;&nbsp;<b>Qcodo Version:<\/b> ([^\(]+) \([^\(]+\)<br \/>/", "string" : 'Error" },
 		]
 

@@ -7,6 +7,6 @@ class airtiesrouter_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/<title>Airties ([^<]+)<}
+			{ "version" : '/<title>Airties ([^<]+)<},
 		]
 

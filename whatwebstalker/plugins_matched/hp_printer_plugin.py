@@ -7,6 +7,6 @@ class hp_printer_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "model" : '/^HP HTTP Server; HP (.+) series - / }
+			{ "search" : 'headers[server]", "model" : '/^HP HTTP Server; HP (.+) series - / },
 		]
 

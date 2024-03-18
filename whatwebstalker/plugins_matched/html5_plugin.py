@@ -7,7 +7,7 @@ class html5_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<!DOCTYPE html>/i }
-			{ "string" : 'applicationCache", "regexp" : '/<html[^>]* manifest=/ }
+			{ "regexp" : '/<!DOCTYPE html>/i },
+			{ "string" : 'applicationCache", "regexp" : '/<html[^>]* manifest=/ },
 		]
 

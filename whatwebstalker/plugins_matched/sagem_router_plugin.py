@@ -7,6 +7,6 @@ class sagem_router_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[www-authenticate]", "regexp" : '/^Basic realm="?Sagem"?$/ }
+			{ "search" : 'headers[www-authenticate]", "regexp" : '/^Basic realm="?Sagem"?$/ },
 		]
 

@@ -7,6 +7,6 @@ class haproxy_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "status" : '401", "search" : 'headers[www-authenticate]", "text" : 'Basic realm="HAProxy Statistics"' }
+			{ "status" : '401", "search" : 'headers[www-authenticate]", "text" : 'Basic realm="HAProxy Statistics"' },
 		]
 

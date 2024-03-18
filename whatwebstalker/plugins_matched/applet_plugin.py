@@ -7,6 +7,6 @@ class applet_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "string" : /<applet[^>]+code[\s]*=[\s]*["|']?([^\s^>^"^']+)[^>]*>/i }
+			{ "string" : /<applet[^>]+code[\s]*=[\s]*["|']?([^\s^>^"^']+)[^>]*>/i },
 		]
 

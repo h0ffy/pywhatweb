@@ -7,6 +7,6 @@ class wooframework_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/<meta name="generator" content="WooFramework ([\d\.]+)"/ }
+			{ "version" : '/<meta name="generator" content="WooFramework ([\d\.]+)"/ },
 		]
 

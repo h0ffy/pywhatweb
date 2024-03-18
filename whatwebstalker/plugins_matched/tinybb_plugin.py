@@ -7,6 +7,6 @@ class tinybb_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'Proudly powered by <a href='http://tinybb.net'>TinyBB</a>" }
+			{ "text" : 'Proudly powered by <a href='http://tinybb.net'>TinyBB</a>" },
 		]
 

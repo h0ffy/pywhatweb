@@ -7,7 +7,7 @@ class zeus_web_server_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Zeus$/ }
-			{ "search" : 'headers[server]", "version" : '/^Zeus\/(([\d]+)(\.|_)([\d]+))$/ }
+			{ "search" : 'headers[server]", "regexp" : '/^Zeus$/ },
+			{ "search" : 'headers[server]", "version" : '/^Zeus\/(([\d]+)(\.|_)([\d]+))$/ },
 		]
 

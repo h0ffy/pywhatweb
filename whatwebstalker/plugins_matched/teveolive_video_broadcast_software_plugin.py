@@ -7,8 +7,8 @@ class teveolive_video_broadcast_software_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^TeveoLive HTTP Server$/ }
-			{ "search" : 'headers[xvideowidth]", "regexp" : '/^\d+$}
-			{ "search" : 'headers[xvideoheight]", "regexp" : '/^\d+$}
+			{ "search" : 'headers[server]", "regexp" : '/^TeveoLive HTTP Server$/ },
+			{ "search" : 'headers[xvideowidth]", "regexp" : '/^\d+$},
+			{ "search" : 'headers[xvideoheight]", "regexp" : '/^\d+$},
 		]
 

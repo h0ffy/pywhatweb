@@ -7,6 +7,6 @@ class ecomat_cms_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/<meta name="Generator" content="ECOMAT CMS ([\d\.]{1,5})">/ }
+			{ "version" : '/<meta name="Generator" content="ECOMAT CMS ([\d\.]{1,5})">/ },
 		]
 

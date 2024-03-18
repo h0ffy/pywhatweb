@@ -7,6 +7,6 @@ class sentinelserver_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^SentinelServer/ }
+			{ "search" : 'headers[server]", "regexp" : '/^SentinelServer/ },
 		]
 

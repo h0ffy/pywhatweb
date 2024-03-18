@@ -7,6 +7,6 @@ class sonicwall_ssl_vpn_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^SonicWALL SSL-VPN Web Server\.?$/ }
+			{ "search" : 'headers[server]", "regexp" : '/^SonicWALL SSL-VPN Web Server\.?$/ },
 		]
 

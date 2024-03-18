@@ -7,7 +7,7 @@ class blackjumbodog_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^BlackJumboDog$/ }
-			{ "search" : 'headers[server]", "version" : '/^BlackJumboDog Version (.+)$/ }
+			{ "search" : 'headers[server]", "regexp" : '/^BlackJumboDog$/ },
+			{ "search" : 'headers[server]", "version" : '/^BlackJumboDog Version (.+)$/ },
 		]
 

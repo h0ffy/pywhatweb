@@ -7,6 +7,6 @@ class micro_httpd_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/micro_httpd/i }
+			{ "search" : 'headers[server]", "regexp" : '/micro_httpd/i },
 		]
 

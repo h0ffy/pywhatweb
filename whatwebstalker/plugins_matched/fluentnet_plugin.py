@@ -7,7 +7,7 @@ class fluentnet_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "ghdb" : 'powered by FluentCMS from DotContent"", "certainty" : '75 }
-			{ "version" : '/<meta name="GENERATOR" content="Fluent[CMS|NET]+ ([\d\.]+) / }
+			{ "ghdb" : 'powered by FluentCMS from DotContent"", "certainty" : '75 },
+			{ "version" : '/<meta name="GENERATOR" content="Fluent[CMS|NET]+ ([\d\.]+) / },
 		]
 

@@ -7,6 +7,6 @@ class intrinsyc_deviceweb_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^Intrinsyc deviceWEB v([\d\.]+)$/ }
+			{ "search" : 'headers[server]", "version" : '/^Intrinsyc deviceWEB v([\d\.]+)$/ },
 		]
 

@@ -7,6 +7,6 @@ class networx_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'Powered by <a href="http://www.socialabc.com">NetworX</a>' }
+			{ "text" : 'Powered by <a href="http://www.socialabc.com">NetworX</a>' },
 		]
 

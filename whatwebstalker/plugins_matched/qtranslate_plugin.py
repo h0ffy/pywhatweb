@@ -7,6 +7,6 @@ class qtranslate_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[set-cookie]", "regexp" : '/qtrans_cookie_test=[^\+]+\+Cookie\+Test;/ }
+			{ "search" : 'headers[set-cookie]", "regexp" : '/qtrans_cookie_test=[^\+]+\+Cookie\+Test;/ },
 		]
 

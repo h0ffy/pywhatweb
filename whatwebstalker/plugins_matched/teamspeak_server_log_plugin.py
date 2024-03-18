@@ -7,6 +7,6 @@ class teamspeak_server_log_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/^[0-9]{2}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2},ALL,Info,server,[\s]+Server version: ([^\r^\n]+)/ }
+			{ "version" : '/^[0-9]{2}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2},ALL,Info,server,[\s]+Server version: ([^\r^\n]+)/ },
 		]
 

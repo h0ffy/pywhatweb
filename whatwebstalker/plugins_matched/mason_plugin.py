@@ -7,6 +7,6 @@ class mason_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[x-powered-by]", "regexp" : '/HTML::Mason/ }
+			{ "search" : 'headers[x-powered-by]", "regexp" : '/HTML::Mason/ },
 		]
 

@@ -7,6 +7,6 @@ class david_webbox_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^David-WebBox\/([^\s]+ \([^\)]+\))$/ }
+			{ "search" : 'headers[server]", "version" : '/^David-WebBox\/([^\s]+ \([^\)]+\))$/ },
 		]
 

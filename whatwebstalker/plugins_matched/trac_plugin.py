@@ -7,7 +7,7 @@ class trac_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "ghdb" : 'Powered by Trac" +intitle:Trac", "certainty" : '75 }
-			{ "version" : '/Powered by <a[^>]*><strong>Trac ([^<]+)<\/strong><\/a><br \/>/ }
+			{ "ghdb" : 'Powered by Trac" +intitle:Trac", "certainty" : '75 },
+			{ "version" : '/Powered by <a[^>]*><strong>Trac ([^<]+)<\/strong><\/a><br \/>/ },
 		]
 

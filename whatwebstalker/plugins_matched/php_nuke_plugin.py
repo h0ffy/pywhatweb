@@ -7,6 +7,6 @@ class php_nuke_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "certainty" : '75", "module" : /<a href="[^"]*modules.php\?name=([a-zA-Z0-9_]+)[^"]*">/ }
+			{ "certainty" : '75", "module" : /<a href="[^"]*modules.php\?name=([a-zA-Z0-9_]+)[^"]*">/ },
 		]
 

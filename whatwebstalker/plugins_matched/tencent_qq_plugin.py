@@ -7,6 +7,6 @@ class tencent_qq_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^HTTP_ME\/\d\.\d Tencent\/HTTP_Magic_Expression$/ }
+			{ "search" : 'headers[server]", "regexp" : '/^HTTP_ME\/\d\.\d Tencent\/HTTP_Magic_Expression$/ },
 		]
 

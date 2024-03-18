@@ -7,7 +7,7 @@ class koala_web_server_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Koala Web Server/ }
-			{ "search" : 'headers[server]", "version" : '/^Koala Web Server\/([^\s]+)/ }
+			{ "search" : 'headers[server]", "regexp" : '/^Koala Web Server/ },
+			{ "search" : 'headers[server]", "version" : '/^Koala Web Server\/([^\s]+)/ },
 		]
 

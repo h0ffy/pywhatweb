@@ -7,6 +7,6 @@ class hikvision_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Hikvision-Webs$/ }
+			{ "search" : 'headers[server]", "regexp" : '/^Hikvision-Webs$/ },
 		]
 

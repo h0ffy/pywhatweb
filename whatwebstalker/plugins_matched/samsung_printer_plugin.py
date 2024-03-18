@@ -7,6 +7,6 @@ class samsung_printer_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'var debugMode = ("$$GSI_TCPIP_IP_ADDR$$".indexOf(".")' }
+			{ "text" : 'var debugMode = ("$$GSI_TCPIP_IP_ADDR$$".indexOf(".")' },
 		]
 

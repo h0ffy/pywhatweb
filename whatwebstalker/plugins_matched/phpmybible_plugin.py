@@ -7,7 +7,7 @@ class phpmybible_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<div class='randomverse'>" }
-			{ "text" : '<div class='fleft'><div class='chaphead'>" }
+			{ "text" : '<div class='randomverse'>" },
+			{ "text" : '<div class='fleft'><div class='chaphead'>" },
 		]
 

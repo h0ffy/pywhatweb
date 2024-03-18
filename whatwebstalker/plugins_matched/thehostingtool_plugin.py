@@ -7,6 +7,6 @@ class thehostingtool_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/<div id="footer">Powered by <a href="http:\/\/thehostingtool.com" target="_blank">TheHostingTool<\/a> ([\d\.]*)<\/div>/ }
+			{ "version" : '/<div id="footer">Powered by <a href="http:\/\/thehostingtool.com" target="_blank">TheHostingTool<\/a> ([\d\.]*)<\/div>/ },
 		]
 

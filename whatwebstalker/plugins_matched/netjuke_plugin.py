@@ -7,8 +7,8 @@ class netjuke_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<!-- Start Primary Header -->' }
-			{ "text" : '<!-- Begin Primary Footer -->' }
-			{ "text" : 'onClick=\"window.open('alphabet.php?do=alpha.artists','NetjukeRemote'" }
+			{ "text" : '<!-- Start Primary Header -->' },
+			{ "text" : '<!-- Begin Primary Footer -->' },
+			{ "text" : 'onClick=\"window.open('alphabet.php?do=alpha.artists','NetjukeRemote'" },
 		]
 

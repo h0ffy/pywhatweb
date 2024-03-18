@@ -7,6 +7,6 @@ class frame_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<i?frame\s+/i }
+			{ "regexp" : '/<i?frame\s+/i },
 		]
 

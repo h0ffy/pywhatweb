@@ -7,7 +7,7 @@ class base_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<!-- Basic Analysis and Security Engine (BASE) -->' }
-			{ "version" : '/<!-- Basic Analysis and Security Engine \(BASE\) ([\d\.]+ \([^\)]+\)) -->/ }
+			{ "text" : '<!-- Basic Analysis and Security Engine (BASE) -->' },
+			{ "version" : '/<!-- Basic Analysis and Security Engine \(BASE\) ([\d\.]+ \([^\)]+\)) -->/ },
 		]
 

@@ -7,6 +7,6 @@ class tinyproxy_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^tinyproxy\/([^\s]+)/ }
+			{ "search" : 'headers[server]", "version" : '/^tinyproxy\/([^\s]+)/ },
 		]
 

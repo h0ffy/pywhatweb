@@ -7,6 +7,6 @@ class blogsmithmedia_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "certainty" : '75", "regexp" : '/<script [^>]*\"http:\/\/www.blogsmithmedia.com}
+			{ "certainty" : '75", "regexp" : '/<script [^>]*\"http:\/\/www.blogsmithmedia.com},
 		]
 

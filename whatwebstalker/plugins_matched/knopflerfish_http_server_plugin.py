@@ -7,6 +7,6 @@ class knopflerfish_http_server_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^The Knopflerfish HTTP Server$/ }
+			{ "search" : 'headers[server]", "regexp" : '/^The Knopflerfish HTTP Server$/ },
 		]
 

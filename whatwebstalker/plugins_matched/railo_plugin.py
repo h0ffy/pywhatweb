@@ -7,6 +7,6 @@ class railo_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<script language = "JavaScript" type="text/javascript" src="/railo-context/form.cfm"></script><script language = "JavaScript" type="text/javascript">' }
+			{ "text" : '<script language = "JavaScript" type="text/javascript" src="/railo-context/form.cfm"></script><script language = "JavaScript" type="text/javascript">' },
 		]
 

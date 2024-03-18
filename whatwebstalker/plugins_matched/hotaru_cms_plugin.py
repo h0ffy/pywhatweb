@@ -7,6 +7,6 @@ class hotaru_cms_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/<meta name="generator" content="Hotaru CMS ([^\s^"^>]+)" \/>/ }
+			{ "version" : '/<meta name="generator" content="Hotaru CMS ([^\s^"^>]+)" \/>/ },
 		]
 

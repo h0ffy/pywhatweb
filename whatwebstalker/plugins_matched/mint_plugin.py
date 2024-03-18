@@ -7,6 +7,6 @@ class mint_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<script [^>]*src=["'][^>]*mint\/\?js/i }
+			{ "regexp" : '/<script [^>]*src=["'][^>]*mint\/\?js/i },
 		]
 

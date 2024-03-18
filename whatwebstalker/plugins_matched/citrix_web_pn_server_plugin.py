@@ -7,6 +7,6 @@ class citrix_web_pn_server_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/^Citrix Web PN Server$/ }
+			{ "search" : 'headers[server]", "regexp" : '/^Citrix Web PN Server$/ },
 		]
 

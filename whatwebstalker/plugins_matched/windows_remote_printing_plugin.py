@@ -7,7 +7,7 @@ class windows_remote_printing_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "ghdb" : 'inurl:"Printers/ipp_0001.asp" intitle:"All Printers on"' }
-			{ "regexp" : '/<frame src="ipp_000[\d]\.asp\?eprinter=/ }
+			{ "ghdb" : 'inurl:"Printers/ipp_0001.asp" intitle:"All Printers on"' },
+			{ "regexp" : '/<frame src="ipp_000[\d]\.asp\?eprinter=/ },
 		]
 

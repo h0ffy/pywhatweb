@@ -7,6 +7,6 @@ class thttpd_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^thttpd\/([^\s]+)/ }
+			{ "search" : 'headers[server]", "version" : '/^thttpd\/([^\s]+)/ },
 		]
 

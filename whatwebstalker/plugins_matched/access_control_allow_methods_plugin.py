@@ -7,6 +7,6 @@ class access_control_allow_methods_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[access-control-allow-methods]", "string" : /(.+)/ }
+			{ "search" : 'headers[access-control-allow-methods]", "string" : /(.+)/ },
 		]
 

@@ -7,6 +7,6 @@ class java_management_extensions_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]+ [DEBUG|INFO]/ }
+			{ "regexp" : '/[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]+ [DEBUG|INFO]/ },
 		]
 

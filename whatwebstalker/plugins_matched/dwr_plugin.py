@@ -7,7 +7,7 @@ class dwr_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "name" : 'HTML Body',"text" : '/dwr/engine.js\'>'}
-			{ "name" : 'HTML Body',"text" : '/dwr/engine.js">'}
+			{ "name" : 'HTML Body',"text" : '/dwr/engine.js\'>'},
+			{ "name" : 'HTML Body',"text" : '/dwr/engine.js">'},
 		]
 

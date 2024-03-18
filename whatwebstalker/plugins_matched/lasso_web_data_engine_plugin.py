@@ -7,7 +7,7 @@ class lasso_web_data_engine_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "certainty" : '25", "ghdb" : 'filetype:lasso" }
-			{ "search" : 'headers[server]", "version" : '/Lasso\/([^\s]+)/ }
+			{ "certainty" : '25", "ghdb" : 'filetype:lasso" },
+			{ "search" : 'headers[server]", "version" : '/Lasso\/([^\s]+)/ },
 		]
 

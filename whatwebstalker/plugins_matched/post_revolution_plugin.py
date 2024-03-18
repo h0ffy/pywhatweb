@@ -7,6 +7,6 @@ class post_revolution_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'Powered by <a href="http://www.postrev.com.ar/">Post Revolution</a>' }
+			{ "text" : 'Powered by <a href="http://www.postrev.com.ar/">Post Revolution</a>' },
 		]
 

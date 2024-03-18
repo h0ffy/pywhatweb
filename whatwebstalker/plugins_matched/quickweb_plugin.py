@@ -7,6 +7,6 @@ class quickweb_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<HTML><HEAD><TITLE>QWScript Error</TITLE></HEAD>" }
+			{ "text" : '<HTML><HEAD><TITLE>QWScript Error</TITLE></HEAD>" },
 		]
 

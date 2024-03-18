@@ -7,6 +7,6 @@ class wpquiz_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<title>[^>]*>> [Register|Login]+ - wp[q|Q]+uiz<\/title>/ }
+			{ "regexp" : '/<title>[^>]*>> [Register|Login]+ - wp[q|Q]+uiz<\/title>/ },
 		]
 

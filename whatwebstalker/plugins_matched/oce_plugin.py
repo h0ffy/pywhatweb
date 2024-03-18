@@ -7,7 +7,7 @@ class oce_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<title>Print Exec Workgroup<\/title>/i }
-			{ "text" : '/servlet/owslhtml/owslicons/header_pewg.jpg' }
+			{ "regexp" : '/<title>Print Exec Workgroup<\/title>/i },
+			{ "text" : '/servlet/owslhtml/owslicons/header_pewg.jpg' },
 		]
 

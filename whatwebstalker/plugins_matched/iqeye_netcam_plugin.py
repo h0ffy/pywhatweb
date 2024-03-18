@@ -7,6 +7,6 @@ class iqeye_netcam_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "model" : '/<title>IQeye([^:]+): Live Images[^<]*<\/title>/i }
+			{ "model" : '/<title>IQeye([^:]+): Live Images[^<]*<\/title>/i },
 		]
 

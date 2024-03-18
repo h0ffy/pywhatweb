@@ -7,6 +7,6 @@ class password_field_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "name" : 'rss link type", "regexp" : '/<input [^>]*?type=["']password["'][^>]*>/i }
+			{ "name" : 'rss link type", "regexp" : '/<input [^>]*?type=["']password["'][^>]*>/i },
 		]
 

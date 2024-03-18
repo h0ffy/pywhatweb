@@ -7,6 +7,6 @@ class cern_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^CERN\/([^\s]+)/ }
+			{ "search" : 'headers[server]", "version" : '/^CERN\/([^\s]+)/ },
 		]
 

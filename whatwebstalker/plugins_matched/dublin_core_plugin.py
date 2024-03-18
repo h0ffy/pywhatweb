@@ -7,6 +7,6 @@ class dublin_core_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "name" : 'dublin core", "regexp" : '/<meta [^>]*name="DC\.title"[^>]*>/i}
+			{ "name" : 'dublin core", "regexp" : '/<meta [^>]*name="DC\.title"[^>]*>/i},
 		]
 

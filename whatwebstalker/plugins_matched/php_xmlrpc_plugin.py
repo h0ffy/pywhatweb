@@ -7,7 +7,7 @@ class php_xmlrpc_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<meta name="generator" content="XML-RPC for PHP" />' }
-			{ "version" : '/<div class="footer">Generated using PHP-XMLRPC ([\d\.]+)<\/div>/ }
+			{ "text" : '<meta name="generator" content="XML-RPC for PHP" />' },
+			{ "version" : '/<div class="footer">Generated using PHP-XMLRPC ([\d\.]+)<\/div>/ },
 		]
 

@@ -7,7 +7,7 @@ class xeneo_web_server_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^Xeneo\/([^\s]+)$/ }
-			{ "search" : 'headers[server]", "regexp" : '/^Xeneo$/ }
+			{ "search" : 'headers[server]", "version" : '/^Xeneo\/([^\s]+)$/ },
+			{ "search" : 'headers[server]", "regexp" : '/^Xeneo$/ },
 		]
 

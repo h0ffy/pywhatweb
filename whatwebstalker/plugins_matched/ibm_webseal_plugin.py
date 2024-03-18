@@ -7,6 +7,6 @@ class ibm_webseal_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^WebSEAL\/([^\s]+ \(Build \d+\))/ }
+			{ "search" : 'headers[server]", "version" : '/^WebSEAL\/([^\s]+ \(Build \d+\))/ },
 		]
 

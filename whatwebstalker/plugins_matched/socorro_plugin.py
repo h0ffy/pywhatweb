@@ -7,6 +7,6 @@ class socorro_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : 'Powered by <a href="http://code.google.com/p/socorro/">Socorro</a>' }
+			{ "text" : 'Powered by <a href="http://code.google.com/p/socorro/">Socorro</a>' },
 		]
 

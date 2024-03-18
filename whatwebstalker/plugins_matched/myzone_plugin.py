@@ -7,6 +7,6 @@ class myzone_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<title>MyZone<\/title>.*www\.netcomm\.com\.au/m}
+			{ "regexp" : '/<title>MyZone<\/title>.*www\.netcomm\.com\.au/m},
 		]
 

@@ -7,6 +7,6 @@ class xavante_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^Xavante (.+)$/ }
+			{ "search" : 'headers[server]", "version" : '/^Xavante (.+)$/ },
 		]
 

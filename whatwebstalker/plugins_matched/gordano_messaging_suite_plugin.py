@@ -7,6 +7,6 @@ class gordano_messaging_suite_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^Gordano (Messaging Suite )?Web Server v([^\s]+)$/", "offset" : '1 }
+			{ "search" : 'headers[server]", "version" : '/^Gordano (Messaging Suite )?Web Server v([^\s]+)$/", "offset" : '1 },
 		]
 

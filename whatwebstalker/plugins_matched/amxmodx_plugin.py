@@ -7,6 +7,6 @@ class amxmodx_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '// *NOTE* amx_sql_type specifies the DEFAULT database type which admin.sma will use.' }
+			{ "text" : '// *NOTE* amx_sql_type specifies the DEFAULT database type which admin.sma will use.' },
 		]
 

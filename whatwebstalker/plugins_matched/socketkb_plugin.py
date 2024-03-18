@@ -7,6 +7,6 @@ class socketkb_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/>Powered by SocketKB version ([\d\.]+)<\/a>/ }
+			{ "version" : '/>Powered by SocketKB version ([\d\.]+)<\/a>/ },
 		]
 

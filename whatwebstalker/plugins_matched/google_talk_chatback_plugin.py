@@ -7,6 +7,6 @@ class google_talk_chatback_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "regexp" : '/<iframe[^>]+src[\s]*=[\s]*('|")http:\/\/www.google.com\/talk\/service\/badge\/Show\?tk=[^>]+>/ }
+			{ "regexp" : '/<iframe[^>]+src[\s]*=[\s]*('|")http:\/\/www.google.com\/talk\/service\/badge\/Show\?tk=[^>]+>/ },
 		]
 

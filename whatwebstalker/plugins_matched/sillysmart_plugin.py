@@ -7,6 +7,6 @@ class sillysmart_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "certainty" : '85", "text" : 'var slsBuild' }
+			{ "certainty" : '85", "text" : 'var slsBuild' },
 		]
 

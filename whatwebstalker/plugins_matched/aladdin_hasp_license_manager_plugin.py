@@ -7,6 +7,6 @@ class aladdin_hasp_license_manager_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^HASP LM\/([^\s]+)$/ }
+			{ "search" : 'headers[server]", "version" : '/^HASP LM\/([^\s]+)$/ },
 		]
 

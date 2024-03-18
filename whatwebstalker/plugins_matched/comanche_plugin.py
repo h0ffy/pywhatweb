@@ -7,6 +7,6 @@ class comanche_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^Comanche\/([^\s]+)/ }
+			{ "search" : 'headers[server]", "version" : '/^Comanche\/([^\s]+)/ },
 		]
 

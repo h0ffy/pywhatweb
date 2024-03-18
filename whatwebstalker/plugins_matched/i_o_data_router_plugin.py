@@ -7,6 +7,6 @@ class i_o_data_router_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "url" : '/", "model" : '/<title>I-O DATA Wireless Broadband Router (WN-[^\s^<]+)<\/title>/ }
+			{ "url" : '/", "model" : '/<title>I-O DATA Wireless Broadband Router (WN-[^\s^<]+)<\/title>/ },
 		]
 

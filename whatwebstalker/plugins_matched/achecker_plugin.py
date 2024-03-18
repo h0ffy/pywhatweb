@@ -7,6 +7,6 @@ class achecker_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "text" : '<title>AChecker : ATRC Accessibility Checker: </title>' }
+			{ "text" : '<title>AChecker : ATRC Accessibility Checker: </title>' },
 		]
 

@@ -7,6 +7,6 @@ class netapp_nas_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "version" : '/^NetApp\/(.+)$/ }
+			{ "search" : 'headers[server]", "version" : '/^NetApp\/(.+)$/ },
 		]
 

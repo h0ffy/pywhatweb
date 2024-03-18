@@ -7,7 +7,7 @@ class fujitsu_infoprovider_pro_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[server]", "regexp" : '/Fujitsu-InfoProvider-Pro/ }
-			{ "search" : 'headers[server]", "version" : '/Fujitsu-InfoProvider-Pro\/[V]?([^ ]+) / }
+			{ "search" : 'headers[server]", "regexp" : '/Fujitsu-InfoProvider-Pro/ },
+			{ "search" : 'headers[server]", "version" : '/Fujitsu-InfoProvider-Pro\/[V]?([^ ]+) / },
 		]
 

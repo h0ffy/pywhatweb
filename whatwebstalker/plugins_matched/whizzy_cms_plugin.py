@@ -7,6 +7,6 @@ class whizzy_cms_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "version" : '/Powered by Whizzy CMS <big>&spades;<\/big> <\/a><\/div><!-- \[Whizzy CMS:Whizzy CMS ([^\]]+)/ }
+			{ "version" : '/Powered by Whizzy CMS <big>&spades;<\/big> <\/a><\/div><!-- \[Whizzy CMS:Whizzy CMS ([^\]]+)/ },
 		]
 

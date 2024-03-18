@@ -7,6 +7,6 @@ class nera_satlink_plugin:
     def __init__(self):
         self.rules = 
         [
-			{ "search" : 'headers[www-authenticate]", "regexp" : '/^Basic realm="SatLink Terminal"$/ }
+			{ "search" : 'headers[www-authenticate]", "regexp" : '/^Basic realm="SatLink Terminal"$/ },
 		]
 
