@@ -13,5 +13,5 @@ class Plugincyberoam_appliance_plugin(plugins.Base):
 			{ "text" : "<noscript><font class="arial12whitebold">JavaScript must be enabled in order for you to use cyberoam admin console.</font></noscript><br>" },
 			{ "text" : "<!-- PUT THE LOGIC OF YOUR PAGE HERE -->" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -7,5 +7,5 @@ class Pluginplay_framework_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^Play! Framework;(\d[^\s^;]+;[^\s]+)$/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -10,5 +10,5 @@ class Pluginthoughtconduit_plugin(plugins.Base):
 			{ "md5" : "6554c90f59823801b2791edff3c3998c" },
 			{ "version" : "/This site runs on ThoughtConduit v([^\s]+) by <A TARGET=new HREF="http:\/\/www\.sensoryresearch\.com">Sensory Research<\/A><\/FONT><\/I><\/TD><\/TR><\/table><\/body>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

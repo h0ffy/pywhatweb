@@ -23,5 +23,5 @@ class Pluginparked_domain_plugin(plugins.Base):
 			{ "text" : "<title>This Domain is Parked at Dot Com Today</title>", "string" : "Dot Com Today.com" },
 			{ "text" : "<title>This domain is parked for free with web.com</title>", "string" : "Web.com" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -8,5 +8,5 @@ class Pluginleap_plugin(plugins.Base):
 			{ "version" : "/<meta name="Generator" content="LEAP ([\d\.]+)"( \/)?>/" },
 			{ "version" : "/<meta name="Formatter" content="LEAP ([\d\.]+)"( \/)?>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

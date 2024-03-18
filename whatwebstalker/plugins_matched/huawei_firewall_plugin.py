@@ -12,5 +12,5 @@ class Pluginhuawei_firewall_plugin(plugins.Base):
 			{ "string" : /<div align="center">Copyright \(c\) 2005-(20[\d]{2}) Huawei Technologies Co\.", "Ltd\.<\/div><\/td>/" },
 			{ "search" : "headers[server]", "version" : "/^Eudemon Server ([^\s]+)$/", "model" : "Eudemon" },
 		]
-		return(self.rules)
+		return(self.rules)
 

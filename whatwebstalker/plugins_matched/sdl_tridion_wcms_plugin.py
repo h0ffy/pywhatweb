@@ -8,5 +8,5 @@ class Pluginsdl_tridion_wcms_plugin(plugins.Base):
 			{ "search" : "headers[product-version]", "version" : "/^(.+)$/" },
 			{ "search" : "headers[product]", "string" : /^Tridion (20[\d]{2}) Dynamic Content Web Application$/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

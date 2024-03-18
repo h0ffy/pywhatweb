@@ -8,5 +8,5 @@ class Pluginnginx_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^nginx$/" },
 			{ "search" : "headers[server]", "version" : "/^nginx\/([^\s]+).*$/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -7,5 +7,5 @@ class Pluginqtranslate_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[set-cookie]", "regexp" : "/qtrans_cookie_test=[^\+]+\+Cookie\+Test;/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

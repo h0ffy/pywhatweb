@@ -9,5 +9,5 @@ class Pluginedirectory_plugin(plugins.Base):
 			{ "regexp" : "/ class="basePowered">Powered by <a href="[^"]+" target="_blank">eDirectory&trade;[\s]?<\/a>/" },
 			{ "version" : "/<blockquote class="eDirectoryVersion"><span class="basePowered">Powered by <a href="http:\/\/www\.edirectory\.com" target="_blank">eDirectory&trade;<\/a> <\/span> v\.([^<^\s]+)<\/blockquote>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

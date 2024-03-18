@@ -9,5 +9,5 @@ class Pluginiceshop_plugin(plugins.Base):
 			{ "text" : "Powered by <a class="link copyright02" href="http://www.iceshop.nl/" target="_blank">ICEshop</a>" },
 			{ "text" : "<dl class="box boxLogo  box02 iceshop">" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -9,5 +9,5 @@ class Pluginlynxguide_plugin(plugins.Base):
 			{ "text" : "Use subject to <a href="/cgi/help/license.htm">license agreement</a></span>" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/Access_Num=[^;]+;/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

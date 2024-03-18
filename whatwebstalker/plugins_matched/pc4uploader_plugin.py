@@ -12,5 +12,5 @@ class Pluginpc4uploader_plugin(plugins.Base):
 			{ "version" : "/Powered by Pc4Uploader <b>v([\d\.]+)<\/b>&nbsp; Copyright <b>/" },
 			{ "version" : "/Powered by Pc4Uploader <b>v([\d\.]+) Pro<\/b>&nbsp; Copyright <b>/", "string" : "Pro" },
 		]
-		return(self.rules)
+		return(self.rules)
 

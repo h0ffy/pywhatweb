@@ -9,5 +9,5 @@ class Pluginnovell_sentinel_log_manager_plugin(plugins.Base):
 			{ "text" : "<p class="content">Novell Sentinel Log Manager supports Firefox 3 (works best on 3.6) and Internet Explorer 8 (works best on 8.0)</p>" },
 			{ "text" : "<META HTTP-EQUIV="refresh" CONTENT="0;URL=/novelllogmanager">" },
 		]
-		return(self.rules)
+		return(self.rules)
 

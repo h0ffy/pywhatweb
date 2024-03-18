@@ -14,5 +14,5 @@ class Pluginricoh_photocopier_plugin(plugins.Base):
 			{ "url" : "/web/guest/en/websys/status/configuration.cgi", "model" : "/<td nowrap align=">Model Name<\/td>[\s]+<td nowrap>:<\/td>[\s]+<td nowrap>([^<]+)<\/td>/" },
 			{ "url" : "/web/guest/en/websys/status/configuration.cgi", "string" : /<td nowrap align="left">Total Memory<\/td>[\s]+<td nowrap>:<\/td>[\s]+<td nowrap>([^\s^<]+)<\/td>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

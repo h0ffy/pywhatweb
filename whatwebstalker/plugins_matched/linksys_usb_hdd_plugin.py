@@ -10,5 +10,5 @@ class Pluginlinksys_usb_hdd_plugin(plugins.Base):
 			{ "firmware" : "/          Version: &nbsp;V([\d\.\-a-zA-Z]+)<\/span> &nbsp;&nbsp;<\/td>/" },
 			{ "model" : "/	 <td align="center" width="100" class="mname">([^<]+)<\/td>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -7,5 +7,5 @@ class Pluginharris_netvx_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "<a href=" onclick=\'window.open("http://www.goahead.com")\' title="Powered by the GoAhead Web Server.">" },
 		]
-		return(self.rules)
+		return(self.rules)
 

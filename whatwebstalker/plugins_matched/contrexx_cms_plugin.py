@@ -13,5 +13,5 @@ class Plugincontrexx_cms_plugin(plugins.Base):
 			{ "text" : "<title>Contrexx Administration Console</title>" },
 			{ "text" : "		<td><input type="submit" tabindex="4" name="submit_button" value="Anmelden" onclick="if(this.disabled || typeof(this.disabled)==\'boolean\') this.disabled=true ; form_submitted_test=form_submitted ; form_submitted=true ; form_submitted=(!form_submitted_test || confirm(\'Are you sure you want to submit this form again?\')) ; if(this.disabled || typeof(this.disabled)==\'boolean\') this.disabled=false ; sub_form=\'\' ; return true" /></td>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

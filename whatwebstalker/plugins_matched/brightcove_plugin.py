@@ -7,5 +7,5 @@ class Pluginbrightcove_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/goku\.brightcove\.com|admin\.brightcove\.com\/js},
 		]
-		return(self.rules)
+		return(self.rules)
 

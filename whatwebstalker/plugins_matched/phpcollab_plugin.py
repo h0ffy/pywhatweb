@@ -8,5 +8,5 @@ class Pluginphpcollab_plugin(plugins.Base):
 			{ "version" : "/^<!-- Powered by PhpCollab v([\d\.]+) \/\/-->$/" },
 			{ "version" : "/^<p id="footer">PhpCollab v([\d\.]+)[\s]*<\/p>$/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

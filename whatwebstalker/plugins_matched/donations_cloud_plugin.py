@@ -10,5 +10,5 @@ class Plugindonations_cloud_plugin(plugins.Base):
 			{ "regexp" : "/<p id='dc_credits'>powered by <a href=[\'|\"]+http:\/\/www.zirona.com\/software\/[^>]+>Donations Cloud<\/a><\/p>/i },
 			{ "text" : "<form action='https://www.paypal.com/cgi-bin/webscr' method='post' id='dc_paypal_form' onsubmit='if (!dc_checkform()) return false;'>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

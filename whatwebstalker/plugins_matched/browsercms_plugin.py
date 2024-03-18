@@ -15,5 +15,5 @@ class Pluginbrowsercms_plugin(plugins.Base):
 			{ "regexp" : "/<input type="hidden" name="failure_uri" value="[^>]*\/page.ww\?name=[^>]*\&section=[^>]*"\/>/" },
 			{ "version" : "/<meta name="generator" content="BrowserCMS ([^\"]+)"/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

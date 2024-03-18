@@ -11,5 +11,5 @@ class Pluginedimax_plugin(plugins.Base):
 			{ "text" : "cdwindow=window.open('countdown.asp','CountDown','channelmode=0", "directories=0,fullscreen=0,height=100,location=0,menubar=0,resizable=1,scrollbars=0,status=0,titlebar=0,toolbar=0,width=450','false');" },
 			{ "text" : "<link rel="stylesheet" href="edimax.css">", "certainty" : "75 },
 		]
-		return(self.rules)
+		return(self.rules)
 

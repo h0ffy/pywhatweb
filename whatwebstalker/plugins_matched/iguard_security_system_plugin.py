@@ -10,5 +10,5 @@ class Pluginiguard_security_system_plugin(plugins.Base):
 			{ "url" : "/Admins/Content.vtml", "firmware" : "/iGuard Security[^<]+<\/td><\/tr><tr><td>Firmware Version<\/td><td>([^<]+)<\/td>/" },
 			{ "url" : "/Admins/Content.vtml", "string" : /<tr><td>Registered Automatch<\/td><td>([^<]+)<\/td><\/tr>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

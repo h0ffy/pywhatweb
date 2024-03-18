@@ -7,5 +7,5 @@ class Pluginsiemens_router_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[www-authenticate]", "model" : "/Basic realm="Siemens ADSL ([^"^\s]+)"/", "certainty" : "75 },
 		]
-		return(self.rules)
+		return(self.rules)
 

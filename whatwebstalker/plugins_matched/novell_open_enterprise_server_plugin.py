@@ -11,5 +11,5 @@ class Pluginnovell_open_enterprise_server_plugin(plugins.Base):
 			{ "text" : "<script type="text/javascript" src="/welcome/inc/flashobj.js"></script> <!-- required for javascript banners from Novell.com -->" },
 			{ "version" : "/<h1>Novell Open Enterprise Server ([^<]+)<\/h1>\s+<p class="link"><a href="http:\/\/www\.novell\.com\/products\/openenterpriseserver\/">/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

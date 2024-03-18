@@ -8,5 +8,5 @@ class Pluginbigdump_plugin(plugins.Base):
 			{ "version" : "/<h1>BigDump: Staggered MySQL Dump Importer ver\. ([^\s^<]{2,6})<\/h1>/" },
 			{ "version" : "/<title>BigDump ver\. ([^\s^<]{2,6})<\/title>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

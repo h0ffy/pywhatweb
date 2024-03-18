@@ -10,5 +10,5 @@ class Plugindota_openstats_plugin(plugins.Base):
 			{ "text" : "<img alt='' width='16' height='16' style='vertical-align:middle' src='./style/dota/img/logo.png' />" },
 			{ "string" : /&copy; (20[\d]{2}) Powered by <a target="_blank" href="http:\/\/openstats\.iz\.rs">DotA OpenStats<\/a>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

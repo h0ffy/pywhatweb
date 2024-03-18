@@ -10,5 +10,5 @@ class Pluginpear_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<title>PEAR :: PEAR_Info()</title>" },
 			{ "filepath" : "/<tr class="v">\s+<td class="e">www_dir<\/td>\s+<td>([^<]+)<\/td>\s+<\/tr>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

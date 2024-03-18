@@ -10,5 +10,5 @@ class Pluginphp_easy_data_plugin(plugins.Base):
 			{ "version" : "/<a[^>]*href="http:\/\/www.(phpeasydata.com|freewebmaster-scripts.com\/phpeasydata)[^>]*>PHPEasyData[\s]*([^<]+)<\/a>/" },
 			{ "version" : "/n main de pages dynamiques. " target="_blank"[\s]*>PhpEasyData[\s]*([^<]+)<\/a><\/b>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

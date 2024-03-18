@@ -11,5 +11,5 @@ class Pluginidvr_plugin(plugins.Base):
 			{ "regexp" : "/		monitorDiv.innerHTML = "<object id='monitorObject' style='display:none' classid='clsid:574B47E8-A366-4AB9-B2EA-57F145CA3780' codebase='lib\/monitor.cab#version=[\d]{1},[\d]{1},[\d]{1},[\d]{1}' VIEWASTEXT><\/object>";/" },
 			{ "version" : "/<title>iDVR (.*)[\d\.]+ \(Build ([\d\.]+)\)<\/title>/", "offset" : "1 },
 		]
-		return(self.rules)
+		return(self.rules)
 

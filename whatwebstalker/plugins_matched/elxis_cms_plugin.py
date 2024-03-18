@@ -10,5 +10,5 @@ class Pluginelxis_cms_plugin(plugins.Base):
 			{ "regexp" : "/<meta name="Generator" content="Elxis - Copyright \(C\) 2006-[0-9]{4} Elxis.org. All rights reserved." \/>/" },
 			{ "md5" : "36d8efa82de41f53c23eece784405c9e", "url" : "images/favicon.ico" },
 		]
-		return(self.rules)
+		return(self.rules)
 

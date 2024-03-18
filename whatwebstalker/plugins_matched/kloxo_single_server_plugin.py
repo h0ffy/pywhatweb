@@ -11,5 +11,5 @@ class Pluginkloxo_single_server_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "Use a valid username and password to gain access to the console</b>" },
 			{ "text" : "@import url("/htmllib/lib/admin_login.css");" },
 		]
-		return(self.rules)
+		return(self.rules)
 

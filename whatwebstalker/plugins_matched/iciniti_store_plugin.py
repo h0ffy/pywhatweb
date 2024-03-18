@@ -7,5 +7,5 @@ class Pluginiciniti_store_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "<!-- START (content_stylesheet.inc) -->" },
 		]
-		return(self.rules)
+		return(self.rules)
 

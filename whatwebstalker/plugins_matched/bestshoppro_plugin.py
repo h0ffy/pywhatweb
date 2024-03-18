@@ -9,5 +9,5 @@ class Pluginbestshoppro_plugin(plugins.Base):
 			{ "text" : "<meta content="www.bst.pl" name="author"/>" },
 			{ "text" : "<META CONTENT="www.bst.pl" NAME=AUTHOR>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -10,5 +10,5 @@ class Plugincushy_cms_plugin(plugins.Base):
 			{ "text" : "<span id="cushycms-footer">Powered by CushyCMS</span>'},
 			{ "regexp" : "/<[^>]+class="cushycms"},
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -11,5 +11,5 @@ class Pluginbelkin_modem_plugin(plugins.Base):
 			{ "version" : "F5D7230-4P", "text" : "<td bgcolor=\"#94CAE4\" width=\"50%\" height=\"18\">F5D7230-4P</td>"},
 			{ "name" : "inline javascript", "text" : "var isPPPoE", "isStatic", "isDynamic", "isnat", "isdialup", "isbigpond", "ispptp", "isfirewall;"},
 		]
-		return(self.rules)
+		return(self.rules)
 

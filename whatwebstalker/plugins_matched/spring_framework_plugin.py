@@ -7,5 +7,5 @@ class Pluginspring_framework_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[set-cookie]", "text" : "org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=" },
 		]
-		return(self.rules)
+		return(self.rules)
 

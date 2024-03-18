@@ -14,5 +14,5 @@ class Pluginmihalism_multi_host_plugin(plugins.Base):
 			{ "text" : "<b style="color: #F00;">Warning:</b> Using this installer will erase any already existing Mihalism Multi Host installation." },
 			{ "version" : "/    <meta name="version" content="Mihalism Multi Host v([\d\.]+)" \/>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

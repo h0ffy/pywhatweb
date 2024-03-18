@@ -7,5 +7,5 @@ class Pluginecho_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/<a href="http:\/\/www\.helloecho\.com\/go\/\?[^"]*" target="_blank">powered by echo<\/a>},
 		]
-		return(self.rules)
+		return(self.rules)
 

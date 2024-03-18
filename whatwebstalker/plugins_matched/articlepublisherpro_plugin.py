@@ -12,5 +12,5 @@ class Pluginarticlepublisherpro_plugin(plugins.Base):
 			{ "text" : "<br><br><center><b>Please use a proper method to browse article(s) - The method you are using is not allowed...</b></center>" },
 			{ "version" : "/<div class="powered">Powered by <a href="http:\/\/www.ArticlePublisherPRO.com" target="_blank">Article Publisher PRO<\/a>  v([\d\.]+)/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

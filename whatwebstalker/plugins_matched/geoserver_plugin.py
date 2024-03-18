@@ -11,5 +11,5 @@ class Plugingeoserver_plugin(plugins.Base):
 			{ "version" : "/<p>[\s]+<span>This GeoServer instance is running version <strong>([^<^\s]+)<\/strong>\. For more information please contact the <a href="[^"^>]*">administrator<\/a>\.<\/span>[\s]+<\/p>[\s]+<\/div>/" },
 			{ "string" : /<div id="welcome">[\s]+<p>[\s]+This GeoServer belongs to <a><span>([^<]+)<\/span><\/a>\.[\s]+<\/p>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

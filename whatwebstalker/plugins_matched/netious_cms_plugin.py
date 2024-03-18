@@ -11,5 +11,5 @@ class Pluginnetious_cms_plugin(plugins.Base):
 			{ "text" : "<title>CMS - powered by netious.com</title>" },
 			{ "text" : "&nbsp; &nbsp; Powered by <a href="http://pl.netious.com" title="Netious.com - Polska. Darmowe strony internetowe z CMS.">netious.com</a>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

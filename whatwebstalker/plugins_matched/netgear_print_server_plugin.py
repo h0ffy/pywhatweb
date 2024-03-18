@@ -11,5 +11,5 @@ class Pluginnetgear_print_server_plugin(plugins.Base):
 			{ "url" : "/settings.gif", "md5" : "d6b979c739a809658a0e8833bc64b900" },
 			{ "certainty" : "25", "version" : "/^PRINT_SERVER WEB ([\d\.]+)$/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+		return(self.rules)
 

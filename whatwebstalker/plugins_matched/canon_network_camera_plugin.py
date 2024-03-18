@@ -13,5 +13,5 @@ class Plugincanon_network_camera_plugin(plugins.Base):
 			{ "text" : "<param name=cabbase	value="LiveApplet.cab">',"version" : "WebView"},
 			{ "text" : "<title>LiveApplet</title>',"version" : "WebView"},
 		]
-		return(self.rules)
+		return(self.rules)
 

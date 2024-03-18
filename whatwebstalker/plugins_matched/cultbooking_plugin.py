@@ -12,5 +12,5 @@ class Plugincultbooking_plugin(plugins.Base):
 			{ "text" : "<span class="font" onclick="small();"> <img src="img/default/small.gif" alt="small font"> </span> <span class="font" onclick="medium();"><img src="img/default/medium.gif" alt="medium font" > </span> <span class="font" onclick="large();"> <img src="img/default/large.gif" alt="large font"></span></td>" },
 			{ "text" : "<span class="font" onclick="small();"> <img src="img/default/small.gif" alt="small font"> </span> <span class="font" onclick="medium();"><img src="img/default/medium.gif" alt="medium font" > </span> <span class="font" onclick="large();"> <img src="img/default/large.gif" alt="large font"></span></td>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

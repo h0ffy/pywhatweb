@@ -10,5 +10,5 @@ class Pluginfree_realty_plugin(plugins.Base):
 			{ "text" : "<!-- THUS ENDETH THE MAIN CONTENT -->" },
 			{ "text" : "<!-- HERE BEGINNETH THE FOOTER --><div class="foot">" },
 		]
-		return(self.rules)
+		return(self.rules)
 

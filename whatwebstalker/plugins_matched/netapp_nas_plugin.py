@@ -7,5 +7,5 @@ class Pluginnetapp_nas_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^NetApp\/(.+)$/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

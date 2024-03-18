@@ -11,5 +11,5 @@ class Pluginfex_plugin(plugins.Base):
 			{ "regexp" : "/<a href="mailto:[^"]+">fexmaster<\/a><\/address>/i },
 			{ "search" : "headers[server]", "regexp" : "/^fexsrv$/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

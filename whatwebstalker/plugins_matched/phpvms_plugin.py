@@ -10,5 +10,5 @@ class Pluginphpvms_plugin(plugins.Base):
 			{ "regexp" : "/<!-- Please retain this!! It's part of the phpVMS license\. You must display a[\s]+"powered by phpVMS" somewhere on your page\. Thanks! -->/" },
 			{ "text" : "<a href="http://www.phpvms.net" target="_blank">powered by phpVMS</a>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

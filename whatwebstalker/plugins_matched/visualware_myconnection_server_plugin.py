@@ -10,5 +10,5 @@ class Pluginvisualware_myconnection_server_plugin(plugins.Base):
 			{ "version" : "/^Visualware MyConnection Server [^\d]+ (\d\.[^\s]+)$/", "search" : "headers[server]" },
 			{ "string" : /^Visualware MyConnection Server ([^\d]+) \d\.[^\s]+$/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+		return(self.rules)
 

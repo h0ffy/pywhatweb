@@ -8,5 +8,5 @@ class Pluginweb2py_plugin(plugins.Base):
 			{ "search" : "headers[x-powered-by]", "string" : /web2py/" },
 			{ "text" : "<div id="serendipityLeftSideBar">" },
 		]
-		return(self.rules)
+		return(self.rules)
 

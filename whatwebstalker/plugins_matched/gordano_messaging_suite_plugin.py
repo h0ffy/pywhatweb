@@ -7,5 +7,5 @@ class Plugingordano_messaging_suite_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^Gordano (Messaging Suite )?Web Server v([^\s]+)$/", "offset" : "1 },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -12,5 +12,5 @@ class Pluginenergine_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<div id="footer">Powered by Energine.</div>" },
 			{ "text" : "<div id="footer">Powered by <a href="http://energine.org">Energine</a>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

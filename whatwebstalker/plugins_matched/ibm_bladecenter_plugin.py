@@ -13,5 +13,5 @@ class Pluginibm_bladecenter_plugin(plugins.Base):
 			{ "text" : "<form method="post" name="login" action="/shared/userlogin.php"><input type="hidden" name="SESSID"" },
 			{ "text" : "<img src="/shared/banner_left.jpg" width=110 height=53 alt="banner" />" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -11,5 +11,5 @@ class Pluginreflex_cms_plugin(plugins.Base):
 			{ "text" : "<script defer type="text/javascript" src="Resources/js/pngfix.js"></script>" },
 			{ "url" : "/Admin/Resources/images/reflex.png", "md5" : "982a1eb449c954d214307a20dc2301ea" },
 		]
-		return(self.rules)
+		return(self.rules)
 

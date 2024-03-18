@@ -9,5 +9,5 @@ class Pluginhughes_voice_appliance_plugin(plugins.Base):
 			{ "text" : "<head><title>HughesNet Appliance Control Center</title></head>" },
 			{ "url" : "/systeminfo/", "version" : "/<td width='50%'>Main\.bin Version<\/td><td width='50%' align='center'>([^<^\s]+)<\/td>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

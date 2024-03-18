@@ -14,5 +14,5 @@ class Pluginemc_documentum_webtop_plugin(plugins.Base):
 			{ "regexp" : "/<script type="text\/javascript" src='\/webtop\/index\.js'><\/script>[\s]+<\/head>[\s]+<body onload='doRedirect\("\/component\/main"\)'>[\s]+<\/body>[\s]+<\/html>/" },
 			{ "version" : "/<div id="logo"><span  class='defaultLabelStyle'>Webtop<\/span>[\s]?&nbsp;<span  class='dialogTitleVersion'>([^<]+)<\/span>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

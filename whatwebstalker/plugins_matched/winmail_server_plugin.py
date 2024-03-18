@@ -15,5 +15,5 @@ class Pluginwinmail_server_plugin(plugins.Base):
 			{ "text" : "<input type=checkbox name=f_autologin value="1"><acronym style="cursor: hand;" OnClick="f_autologin.click()">Automatically login at next time</acronym>" },
 			{ "version" : "/<!--[\s]+&copy 20[\d]{2}(-[\d]{4})? AMAX Information Technologies Inc\. All Rights Reserved\.[\s]+WebMail \| Powered by Winmail Server ([^\s]+)[\s]+-->/", "offset" : "1 },
 		]
-		return(self.rules)
+		return(self.rules)
 

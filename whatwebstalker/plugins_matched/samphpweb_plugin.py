@@ -12,5 +12,5 @@ class Pluginsamphpweb_plugin(plugins.Base):
 			{ "text" : "This page was produced using <a target="_blank" href="http://www.spacialaudio.com/products/sambroadcaster/">SAM Broadcaster</a>. © Copyright <a target="_blank" href="http://www.spacialaudio.com">Spacial Audio Solutions", "LLC</a>'},
 			{ "text" : " songwin = window.open("songinfo.php?songid="+songid", "songinfowin", "location=no,status=no,menubar=no,scrollbars=yes,resizeable=yes,height=400,width=650");'},
 		]
-		return(self.rules)
+		return(self.rules)
 

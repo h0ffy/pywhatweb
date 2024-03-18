@@ -12,5 +12,5 @@ class Pluginfreenas_plugin(plugins.Base):
 			{ "url" : "/static/images/ui/freenas-logo.png", "md5" : "e9f74076206e249ead75559119c028c6" },
 			{ "url" : "/", "search" : "headers[location]", "regexp" : "/https?:\/\/[^\/]+\/account\/login\/\?next=\//" },
 		]
-		return(self.rules)
+		return(self.rules)
 

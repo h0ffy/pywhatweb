@@ -7,5 +7,5 @@ class Pluginapache_wicket_plugin(plugins.Base):
         self.rules = [
 			{ "ghdb" : "inurl:"wicket:bookmarkablePage=:"" },
 		]
-		return(self.rules)
+		return(self.rules)
 

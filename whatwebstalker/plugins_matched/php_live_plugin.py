@@ -14,5 +14,5 @@ class Pluginphp_live_plugin(plugins.Base):
 			{ "text" : "<font color="#FF0000">[Configuration Error: config files not found!] Exiting" },
 			{ "version" : "/	<div id="copyright">Powered by <a href='http:\/\/www.phplivesupport.com\/\?link' target='newwin'>PHP Live\!<\/a>  v([\d\.]+) &copy; OSI Codes Inc.<\/div>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

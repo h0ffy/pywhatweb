@@ -13,5 +13,5 @@ class Pluginnovell_groupwise_plugin(plugins.Base):
 			{ "text" : "<TITLE>Novell WebAccess</TITLE>" },
 			{ "version" : "/^&copy; Copyright 1993-20[\d]{2} Novell", "Inc. All rights reserved.[\s]+<BR>Version ([\d\.]+)$/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

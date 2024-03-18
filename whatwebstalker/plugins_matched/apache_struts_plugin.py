@@ -12,5 +12,5 @@ class Pluginapache_struts_plugin(plugins.Base):
 			{ "search" : "all", "version" : "1", "text" : "org.apache.struts.", "certainty" : "25},
 			{ "regexp" : "/Development mode", "or devMode", "enables extra\s+debugging behaviors and reports to assist developers.  To disable this mode", "set:\s+<pre>\s+  struts.devMode=false/", "string" : "Development Mode"},
 		]
-		return(self.rules)
+		return(self.rules)
 

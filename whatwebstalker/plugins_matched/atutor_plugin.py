@@ -9,5 +9,5 @@ class Pluginatutor_plugin(plugins.Base):
 			{ "name" : "JavaScript", "certainty" : "75", "text" : "ATutor.course = ATutor.course || {};" },
 			{ "name" : "Documentation link", "text" : "<span id="howto">For guidance on using ATutor see the official" },
 		]
-		return(self.rules)
+		return(self.rules)
 

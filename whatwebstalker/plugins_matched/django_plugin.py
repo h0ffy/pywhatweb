@@ -15,5 +15,5 @@ class Plugindjango_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/csrftoken/i", "name" : "csrftoken cookie" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/django_/", "name" : "django_ cookie" },
 		]
-		return(self.rules)
+		return(self.rules)
 

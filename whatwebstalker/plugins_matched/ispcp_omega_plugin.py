@@ -9,5 +9,5 @@ class Pluginispcp_omega_plugin(plugins.Base):
 			{ "text" : "Powered by <a class="login" href="http://www.isp-control.net" target="_blank">ispCP Omega" },
 			{ "text" : "themes/omega_original/images/login/login_lock.jpg" },
 		]
-		return(self.rules)
+		return(self.rules)
 

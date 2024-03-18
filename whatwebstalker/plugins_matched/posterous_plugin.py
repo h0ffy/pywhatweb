@@ -11,5 +11,5 @@ class Pluginposterous_plugin(plugins.Base):
 			{ "text" : "<li class="first"><a href="http://posterous.com/login?jumpto=http" },
 			{ "regexp" : "/<html><body>You are being <a href="http:\/\/([^"]+)\.posterous\.com\/">redirected<\/a>\.<\/body><\/html>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

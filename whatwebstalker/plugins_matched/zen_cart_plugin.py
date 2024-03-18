@@ -10,5 +10,5 @@ class Pluginzen_cart_plugin(plugins.Base):
 			{ "text" : "<meta name="authors" content="The Zen Cart&trade; Team and others" },
 			{ "text" : "<meta name="generator" content="shopping cart program by Zen Cart&trade;", "http://www.zen-cart.com" },
 		]
-		return(self.rules)
+		return(self.rules)
 

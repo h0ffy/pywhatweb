@@ -9,5 +9,5 @@ class Pluginaspilot_cart_plugin(plugins.Base):
 			{ "version" : "/<a[^>]*href="http:\/\/www.PilotCart.com[^>]*>Powered by Pilot[^>]*Cart V.[\s]*([\d\.]+)<\/a>/i },
 			{ "version" : "/Powered By[^<]*<a[^>]*href="http:\/\/www.aspilot.com[^>]*>Pilot[^>]*Cart V.[\s]*([\d\.]+)<\/a>/i },
 		]
-		return(self.rules)
+		return(self.rules)
 

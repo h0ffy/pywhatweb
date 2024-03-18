@@ -9,5 +9,5 @@ class Plugintrendnet_router_plugin(plugins.Base):
 			{ "version" : "/<META HTTP-EQUIV="Content-Type"CONTET="text\/html; cahrset=ks_c_5601-1987">[\s]+<TITLE>Web Client [^<]+ v([^\s^<]+)<\/TITLE>/" },
 			{ "model" : "/<title>TRENDnet ([^\|]+) \|[\s]+Login[\s]+<\/title>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

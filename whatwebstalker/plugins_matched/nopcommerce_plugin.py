@@ -13,5 +13,5 @@ class Pluginnopcommerce_plugin(plugins.Base):
 			{ "text" : "<input id="LoginForm_RememberMe" type="checkbox" name="LoginForm$RememberMe" checked="checked" /><label for="LoginForm_RememberMe">Remember me</label>" },
 			{ "text" : "var LoginForm_UserNameOrEmailRequired = document.all ? document.all["LoginForm_UserNameOrEmailRequired"] : document.getElementById("LoginForm_UserNameOrEmailRequired");" },
 		]
-		return(self.rules)
+		return(self.rules)
 

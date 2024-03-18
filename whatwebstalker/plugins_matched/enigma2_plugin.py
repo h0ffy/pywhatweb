@@ -10,5 +10,5 @@ class Pluginenigma2_plugin(plugins.Base):
 			{ "url" : "/web-data/img/favicon.ico", "md5" : "d9aa63661d742d5f7c7300d02ac18d69" },
 			{ "text" : "<link rel="alternate" type="application/rss+xml" title="Movie List" href="/web/movielist.rss?tag" >" },
 		]
-		return(self.rules)
+		return(self.rules)
 

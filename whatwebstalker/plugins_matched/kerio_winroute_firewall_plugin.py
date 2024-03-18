@@ -10,5 +10,5 @@ class Pluginkerio_winroute_firewall_plugin(plugins.Base):
 			{ "url" : "/nonauth/gfx/kerio_logo.gif", "md5" : "d9f42bd071f2f3f1dc7cdb628af4c596", "version" : "6.x" },
 			{ "text" : "<meta HTTP-EQUIV="Refresh" content="0;URL=/internal/ntlm/dologin.php?internal=0">	<title>Kerio WinRoute Firewall - Login Page - Kerio WinRoute Firewall</title>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

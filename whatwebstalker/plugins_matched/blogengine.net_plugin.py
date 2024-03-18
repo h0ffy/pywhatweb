@@ -9,5 +9,5 @@ class Pluginblogengine.net_plugin(plugins.Base):
 			{ "regexp" : "/Powered by[\r\n\s]*<a href="http:\/\/www.dotnetblogengine.net[\/]?"[^>]*>BlogEngine.NET<\/a>/" },
 			{ "version" : "/Powered by[\r\n\s]*<a href="http:\/\/www.dotnetblogengine.net[\/]?"[^>]*>BlogEngine.NET<\/a>[\r\n\s]*([\d\.]+)/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

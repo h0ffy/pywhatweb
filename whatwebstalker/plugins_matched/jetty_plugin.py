@@ -10,5 +10,5 @@ class Pluginjetty_plugin(plugins.Base):
 			{ "url" : "/", "text" : "<A HREF="http://jetty.mortbay.org"><IMG SRC="jetty_banner.gif"></A>" },
 			{ "text" : "<p><i><small><a href="http://jetty.mortbay.org">Powered by Jetty://</a></small></i></p>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

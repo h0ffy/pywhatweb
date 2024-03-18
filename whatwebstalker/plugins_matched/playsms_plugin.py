@@ -10,5 +10,5 @@ class Pluginplaysms_plugin(plugins.Base):
 			{ "text" : "<a href='index.php?app=page&inc=register'>Register an account</a>" },
 			{ "text" : "<a href='index.php?app=page&inc=forgot'>Forgot password</a>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

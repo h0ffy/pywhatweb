@@ -7,5 +7,5 @@ class Plugintwistedweb_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/TwistedWeb\/?([^ ]+)?/", "search" : "headers[server]"},
 		]
-		return(self.rules)
+		return(self.rules)
 

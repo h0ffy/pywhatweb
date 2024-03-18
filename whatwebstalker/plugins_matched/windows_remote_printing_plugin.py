@@ -8,5 +8,5 @@ class Pluginwindows_remote_printing_plugin(plugins.Base):
 			{ "ghdb" : "inurl:"Printers/ipp_0001.asp" intitle:"All Printers on"" },
 			{ "regexp" : "/<frame src="ipp_000[\d]\.asp\?eprinter=/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -8,5 +8,5 @@ class Pluginopen_search_plugin(plugins.Base):
 			{ "string" : /<link[^>]+href[\s]*=[\s]*["']([^'^"^>]+)["'][^>]+type[\s]*=[\s]*["']?application\/opensearchdescription\+xml['"]?[^>]*>/i },
 			{ "string" : /<link[^>]+type[\s]*=[\s]*["']?application\/opensearchdescription\+xml['"]?[^>]+href[\s]*=[\s]*["']([^'^"^>]+)["'][^>]*>/i },
 		]
-		return(self.rules)
+		return(self.rules)
 

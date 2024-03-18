@@ -12,5 +12,5 @@ class Plugini_gallery_plugin(plugins.Base):
 			{ "regexp" : "/<img src="images\/igallery-logo.gif" width=[0-9]* height=[0-9]* border=[0-9]* alt="i-Gallery Home Page"><\/a><br>/" },
 			{ "text" : "<title>.::  - Photo Viewer ::.</title>", "path" : "ViewPhoto.asp" },
 		]
-		return(self.rules)
+		return(self.rules)
 

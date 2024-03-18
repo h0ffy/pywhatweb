@@ -8,5 +8,5 @@ class Plugincontao_plugin(plugins.Base):
 			{ "text" : "This website is powered by Contao Open Source CMS :: Licensed under GNU/LGPL'},
 			{ "text" : "<!-- indexer::continue -->'},
 		]
-		return(self.rules)
+		return(self.rules)
 

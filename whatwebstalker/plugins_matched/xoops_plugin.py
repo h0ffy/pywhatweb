@@ -11,5 +11,5 @@ class Pluginxoops_plugin(plugins.Base):
 			{ "regexp" : "/Powered by XOOPS [^\s]+ 2001-20[\d]{2} <a href="http:\/\/(xoops\.sourceforge\.net|www\.xoops\.org\/)"/" },
 			{ "version" : "/Powered by XOOPS ([^\s]+) [^\s]+ 2001-20[\d]{2} <a href="http:\/\/(xoops\.sourceforge\.net|www\.xoops\.org\/)"/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

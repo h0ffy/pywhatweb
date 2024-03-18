@@ -10,5 +10,5 @@ class Pluginmediawiki_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="MediaWiki ([^\s^"]+)" \/>/" },
 			{ "version" : "/<td><a href="http:\/\/www\.mediawiki\.org\/" class="external text" rel="nofollow">MediaWiki<\/a><\/td>[\s]+<td>([^<]+)<\/td>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

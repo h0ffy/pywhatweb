@@ -10,5 +10,5 @@ class Pluginmysource_matrix_plugin(plugins.Base):
 			{ "text" : "<p>Powered By MySource Matrix - A Squiz.net  Initiative</p>" },
 			{ "text" : "  MySource", "MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -6,5 +6,5 @@ class Pluginx_ua_compatible_plugin(plugins.Base):
     def start(self):
         self.rules = [
 		]
-		return(self.rules)
+		return(self.rules)
 

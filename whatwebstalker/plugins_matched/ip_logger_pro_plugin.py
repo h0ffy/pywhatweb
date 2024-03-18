@@ -9,5 +9,5 @@ class Pluginip_logger_pro_plugin(plugins.Base):
 			{ "version" : "/<br \/><br \/>&nbsp;debilsoft IP-Logger PRO Version ([\d\.]{1,5}) is licensed to [^<]+<\/div><\/body><\/html>/" },
 			{ "text" : "<title>debilsoft IP-Logger PRO Besucherdaten</title>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -14,5 +14,5 @@ class Pluginlotuscms_plugin(plugins.Base):
 			{ "text" : "<!-- Please don't delete this. You can use this template for free and this is the only way that you can say thanks to me -->" },
 			{ "certainty" : "25", "text" : "<meta name="keywords" content="LotusCMS" />" },
 		]
-		return(self.rules)
+		return(self.rules)
 

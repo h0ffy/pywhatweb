@@ -13,5 +13,5 @@ class Pluginusp_secure_login_service_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/SLSLanguage=([a-z]{2,3});/" },
 			{ "search" : "headers[set-cookie]", "module" : "zzzzzz", "regexp" : "/SCDID_S=[^;\s\$]{54}\$\$;/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

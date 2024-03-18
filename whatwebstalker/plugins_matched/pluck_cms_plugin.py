@@ -9,5 +9,5 @@ class Pluginpluck_cms_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="pluck ([^\s^"]+)" \/>/" },
 			{ "text" : "powered by <a href="http://www.pluck-cms.org">pluck</a>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

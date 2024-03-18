@@ -7,5 +7,5 @@ class Plugintribune_plugin(plugins.Base):
         self.rules = [
 			{ "text" :  '<a href="http://www.tribune.com/" target="_parent">A Tribune Newspaper website</a>" },
 		]
-		return(self.rules)
+		return(self.rules)
 

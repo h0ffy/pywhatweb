@@ -11,5 +11,5 @@ class Pluginfile_upload_manager_plugin(plugins.Base):
 			{ "text" : "<a href="http://www.mtnpeak.net" style="text-decoration: none; color: #C0C0C0; font-size: 9px; cursor: default";>&copy; thepeak</a>" },
 			{ "version" : "/<!-- File Upload Manager v([\d\.]+[^>]+) -->/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -13,5 +13,5 @@ class Pluginphpmyadmin_plugin(plugins.Base):
 			{ "md5" : "d037ef2f629a22ddadcf438e6be7a325", "url" : "favicon.ico" },
 			{ "regexp" : "/<form method="post" action="index\.php" target="_(top|parent)"><input type="hidden" name="phpMyAdmin" value="/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

@@ -10,5 +10,5 @@ class Pluginnetvehicle_plugin(plugins.Base):
 			{ "regexp" : "/^NetVehicle/", "search" : "headers[server]" },
 			{ "model" : "/^NetVehicle-([A-Z\d]{1,3})/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+		return(self.rules)
 

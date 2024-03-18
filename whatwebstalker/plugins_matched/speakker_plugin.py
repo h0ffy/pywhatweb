@@ -9,5 +9,5 @@ class Pluginspeakker_plugin(plugins.Base):
 			{ "text" : "<!-- INCLUDE SPEAKKER -->" },
 			{ "regexp" : "/<script type="text\/javascript" src="[^"]+\/(projekktor|speakker)\.min\.js"><\/script>/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

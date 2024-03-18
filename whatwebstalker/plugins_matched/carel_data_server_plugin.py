@@ -10,5 +10,5 @@ class Plugincarel_data_server_plugin(plugins.Base):
 			{ "url" : "/plv_primoLW.jpg", "md5" : "df1e885e87f6ab393a90b908b6ce5dc4" },
 			{ "version" : "/^CarelDataServer\/([\d\.]{1,10})/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+		return(self.rules)
 

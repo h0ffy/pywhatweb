@@ -16,5 +16,5 @@ class Pluginclipbucket_plugin(plugins.Base):
 			{ "text" : "Forged by <a href="http://clip-bucket.com/">ClipBucket</a>" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/pageredir=https?%3A%2F%2F/", "certainty" : "25 },
 		]
-		return(self.rules)
+		return(self.rules)
 

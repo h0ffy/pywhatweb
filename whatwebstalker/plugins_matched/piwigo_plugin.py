@@ -10,5 +10,5 @@ class Pluginpiwigo_plugin(plugins.Base):
 			{ "regexp" : "/<div id="copyright">\s+<a name="EoP"><\/a>\s+<!-- End of Page -->/" },
 			{ "regexp" : "/Powered by\s+<a href="http:\/\/piwigo\.org" class="Piwigo">/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

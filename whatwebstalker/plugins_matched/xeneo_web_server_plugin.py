@@ -8,5 +8,5 @@ class Pluginxeneo_web_server_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^Xeneo\/([^\s]+)$/" },
 			{ "search" : "headers[server]", "regexp" : "/^Xeneo$/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

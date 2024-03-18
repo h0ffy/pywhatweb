@@ -7,5 +7,5 @@ class Pluginsitecom_nas_plugin(plugins.Base):
         self.rules = [
 			{ "certainty" : "75", "search" : "headers[www-authenticate]", "text" : "Basic realm="SITECOM LOGIN Enter Password (default is sitecom)" },
 		]
-		return(self.rules)
+		return(self.rules)
 

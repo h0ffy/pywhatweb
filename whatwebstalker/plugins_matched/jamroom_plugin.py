@@ -10,5 +10,5 @@ class Pluginjamroom_plugin(plugins.Base):
 			{ "regexp" : "/<a href="http:\/\/www.jamroom.net"><img src="[^"]*" alt="Powered by Jamroom - the Powerful Social Media Platform" title="Powered by Jamroom - the Powerful Social Media Platform" border="0"><\/a>/" },
 			{ "version" : "/<meta name="generator" content="Jamroom ([\d\.]+)">/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

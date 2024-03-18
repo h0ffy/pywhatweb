@@ -11,5 +11,5 @@ class Pluginnortel_router_plugin(plugins.Base):
 			{ "regexp" : "/<body bgcolor=#E6E6E6 leftmargin=0 topmargin=0 marginheight=0 marginwidth=0 style="padding: [\d]{1,2}px" onload="javascript:showspan\(\);javascript:positionmenu\(\);javascript:usrnameFocus\(\);/" },
 			{ "search" : "headers[server]", "version" : "/^Nortel Http Server v([^\s]+)$/" },
 		]
-		return(self.rules)
+		return(self.rules)
 

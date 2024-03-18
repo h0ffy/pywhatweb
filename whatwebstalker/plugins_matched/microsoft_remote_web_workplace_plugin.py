@@ -11,5 +11,5 @@ class Pluginmicrosoft_remote_web_workplace_plugin(plugins.Base):
 			{ "text" : "<meta name="copyright" content="Copyright (c) Microsoft Corporation.  All rights reserved." />", "certainty" : "25 },
 			{ "text" : "<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>", "certainty" : "25 },
 		]
-		return(self.rules)
+		return(self.rules)
 
