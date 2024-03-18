@@ -1,0 +1,9 @@
+import sys
+import os
+			
+class CLASS_NAME:
+    def get_rules(self):
+        return(self.rules)
+    def __init__(self):
+        self.rules = 
+        [

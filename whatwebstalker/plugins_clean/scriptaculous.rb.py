@@ -1,1 +1,0 @@
-			{ "regexp" : "/<script [^>]*(scriptaculous[^>]*.js)[^>]*}

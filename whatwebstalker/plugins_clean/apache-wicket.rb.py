@@ -1,1 +1,0 @@
-			{ "ghdb" : 'inurl:"wicket:bookmarkablePage=:"' }
