@@ -7,5 +7,5 @@ class Pluginwordpress_spamfree_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/<!-- Protected by \(WP-SpamFree\) v([\d\.]+) :: JS BEGIN -->/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -12,5 +12,5 @@ class Pluginvtigercrm_plugin(plugins.Base):
 			{ "name" : "copyright footer", "regexp" : "/&copy; 200[\d]{1}\-\d{4} <a href='http:\/\/www.vtiger.com' target='_blank'>vtiger.com<\/a>},
 			{ "name" : "html body favicon", "text" : "/vtigercrm_icon.ico">'},
 		]
-		return(self.rules)
+	return(self.rules)
 

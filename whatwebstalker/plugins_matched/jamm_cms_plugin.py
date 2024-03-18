@@ -11,5 +11,5 @@ class Pluginjamm_cms_plugin(plugins.Base):
 			{ "text" : "<META NAME=   'author' CONTENT='JAMM MEDIA Team 2001'>" },
 			{ "text" : "<!--- Content Management System JAMM CMS OWEN - Visit www.jamm-media.de for more informations -->" },
 		]
-		return(self.rules)
+	return(self.rules)
 

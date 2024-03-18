@@ -9,5 +9,5 @@ class Pluginwacintaki_poteto_bbs_plugin(plugins.Base):
 			{ "regexp" : "/<div align="center">OekakiPoteto v([^\s]+) by <a href="http:\/\/suteki\.nu">RanmaGuy<\/a> and <a href="http:\/\/www\.cellosoft\.com">Marcello<\/a>/" },
 			{ "text" : "OekakiPoteto 5.x by <a href="http://www.suteki.nu">RanmaGuy</a> and <a href="http://www.cellosoft.com">Marcello</a><br />" },
 		]
-		return(self.rules)
+	return(self.rules)
 

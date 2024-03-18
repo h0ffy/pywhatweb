@@ -9,5 +9,5 @@ class Pluginbarts_cms_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="Bart's CMS \[Business Edition\] ([\d\.]{1,10}) [Stable][^>]*">/" },
 			{ "certainty" : "75", "text" : "<meta name="author" content="Bart Verstricht" />" },
 		]
-		return(self.rules)
+	return(self.rules)
 

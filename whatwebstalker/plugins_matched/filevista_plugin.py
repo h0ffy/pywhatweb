@@ -8,5 +8,5 @@ class Pluginfilevista_plugin(plugins.Base):
 			{ "version" : "/<!--\r?\n\tFileVista v([\d\.]+)\r?\n\tCopyright /" },
 			{ "text" : "<td>Welcome to FileVista<br />Please enter your credentials:</td>" },
 		]
-		return(self.rules)
+	return(self.rules)
 

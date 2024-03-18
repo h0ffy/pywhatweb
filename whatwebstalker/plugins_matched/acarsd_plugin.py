@@ -11,5 +11,5 @@ class Pluginacarsd_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<!-- MAIN PART OF WEBACARS -->" },
 			{ "string" : /<meta name="description" content="Realtime Web ACARS - [^\s]+ Location: ([^\.^\"^>]+)\./" },
 		]
-		return(self.rules)
+	return(self.rules)
 

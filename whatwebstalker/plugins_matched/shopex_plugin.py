@@ -10,5 +10,5 @@ class Pluginshopex_plugin(plugins.Base):
 			{ "regexp" : "/<link href="syssite\/home\/shop\/[\d]+\/images\/[\d]+\/css\.css" rel="stylesheet" type="text\/css">/" },
 			{ "version" : "/<meta name="generator" content="ShopEx ([\d\.]+)" \/>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

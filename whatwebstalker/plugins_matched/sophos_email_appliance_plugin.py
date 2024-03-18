@@ -11,5 +11,5 @@ class Pluginsophos_email_appliance_plugin(plugins.Base):
 			{ "text" : "<title>Sophos Email Appliance</title>", "certainty" : "75 },
 			{ "text" : "<!-- end main content -->", "certainty" : "25 },
 		]
-		return(self.rules)
+	return(self.rules)
 

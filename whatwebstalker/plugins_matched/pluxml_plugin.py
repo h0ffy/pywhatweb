@@ -13,5 +13,5 @@ class Pluginpluxml_plugin(plugins.Base):
 			{ "text" : "G&eacute;n&eacute;r&eacute; par <a href="http://pluxml.org" title="Blog ou Cms sans base de donn&eacute;es">PluXml</a>" },
 			{ "text" : "G&eacute;n&eacute;r&eacute; par <a href="http://pluxml.org">PluXml</a></p>" },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -13,5 +13,5 @@ class Pluginonline_grades_plugin(plugins.Base):
 			{ "text" : "<!-- STOP REMOVING LINES HERE IF REMOVING/CHANGING THE FOOTER -->" },
 			{ "regexp" : "/<a href="http:\/\/www.onlinegrades.org"><img src="[^"^>]+\/images\/og.png"[^>]+alt="Powered by Online Grades"[^>]*><\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

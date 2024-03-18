@@ -8,5 +8,5 @@ class Plugintrend_micro_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Trend Micro$/" },
 			{ "search" : "headers[server]", "version" : "/^Trend Micro ([^\s]+)$/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

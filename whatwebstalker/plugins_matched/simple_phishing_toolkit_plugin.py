@@ -10,5 +10,5 @@ class Pluginsimple_phishing_toolkit_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<title>spt - simple phishing toolkit</title>" },
 			{ "version" : "/<span id="spt"><a href="http:\/\/www\.sptoolkit\.com\/download\/" target="_blank">v([^\s^<]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

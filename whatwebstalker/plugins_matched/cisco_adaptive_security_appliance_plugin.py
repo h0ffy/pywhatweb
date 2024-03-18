@@ -9,5 +9,5 @@ class Plugincisco_adaptive_security_appliance_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Adaptive Security Appliance HTTP\/1\.1$/" },
 			{ "regexp" : "/<FORM ACTION="\/netaccess\/redirect\.html">\s+<INPUT type=hidden name=sid VALUE=/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -12,5 +12,5 @@ class Pluginektron_cms_plugin(plugins.Base):
 			{ "text" : "<script id="EktronRegisteredJs" type="text/javascript" src="/workarea/java/ektronJs.ashx?id=" },
 			{ "text" : "<script id="EktronModalJS" type="text/javascript" src="/WorkArea/java/plugins/modal/ektron.modal.js">" },
 		]
-		return(self.rules)
+	return(self.rules)
 

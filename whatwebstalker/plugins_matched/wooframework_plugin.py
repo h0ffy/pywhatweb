@@ -7,5 +7,5 @@ class Pluginwooframework_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/<meta name="generator" content="WooFramework ([\d\.]+)"/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -9,5 +9,5 @@ class Pluginzoom_search_engine_plugin(plugins.Base):
 			{ "version" : "/<!--Zoom Search Engine Version ([\d\.]+ \([\d]+\) [A-Z]{3})-->/" },
 			{ "version" : "/<!--Zoom Search Engine Version ([\d\.]+ \([\d]+\))-->/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

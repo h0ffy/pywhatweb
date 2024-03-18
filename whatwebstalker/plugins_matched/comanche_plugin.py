@@ -7,5 +7,5 @@ class Plugincomanche_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^Comanche\/([^\s]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

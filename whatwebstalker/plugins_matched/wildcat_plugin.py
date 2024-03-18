@@ -8,5 +8,5 @@ class Pluginwildcat_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^[wW]ildcat\/v([^\s]+)/" },
 			{ "search" : "headers[x-powered-by]", "version" : "/Wildcat.Net v([^\s]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

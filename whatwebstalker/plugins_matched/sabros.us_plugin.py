@@ -10,5 +10,5 @@ class Pluginsabros.us_plugin(plugins.Base):
 			{ "text" : "		<p class="powered">powered by: <a title="sabros.us" href="http://sourceforge.net/projects/sabrosus/">sabros.us</a></p>", "version" : "1.7" },
 			{ "version" : "/	<meta name="generator" content="sabros.us ([\d\.]+)" \/>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

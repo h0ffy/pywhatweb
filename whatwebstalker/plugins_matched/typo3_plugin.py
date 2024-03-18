@@ -11,5 +11,5 @@ class Plugintypo3_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/^fe_typo_user/", "name" : "fe_typo_user cookie" },
 			{ "search" : "headers[x-typo3-parsetime]", "regexp" : "/\d+ms/", "name" : "X-TYPO3-Parsetime header" },
 		]
-		return(self.rules)
+	return(self.rules)
 

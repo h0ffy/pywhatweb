@@ -12,5 +12,5 @@ class Pluginwsn_links_plugin(plugins.Base):
 			{ "certainty" : "25", "regexp" : "/<div class="boxtitle" on[c|C]lick="minmax\('[a-z]+box'\)"><img src=/" },
 			{ "text" : "<textarea readonly rows="20" cols="75">WSN Links License Agreement" },
 		]
-		return(self.rules)
+	return(self.rules)
 

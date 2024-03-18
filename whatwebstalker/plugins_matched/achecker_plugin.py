@@ -7,5 +7,5 @@ class Pluginachecker_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "<title>AChecker : ATRC Accessibility Checker: </title>" },
 		]
-		return(self.rules)
+	return(self.rules)
 

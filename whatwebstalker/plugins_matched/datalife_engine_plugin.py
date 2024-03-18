@@ -13,5 +13,5 @@ class Plugindatalife_engine_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/dle_password=[^;]+;/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/dle_user_id=[^;]+;/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

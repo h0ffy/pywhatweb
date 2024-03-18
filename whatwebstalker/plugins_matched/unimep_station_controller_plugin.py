@@ -11,5 +11,5 @@ class Pluginunimep_station_controller_plugin(plugins.Base):
 			{ "text" : "<a href="cgi-bin/log.log.cgi" target="_blank">Log1.cgi</a>&nbsp;<a href="/Log.log" target="_blank">Log1.log</a>" },
 			{ "text" : "<input type='button' value='Cashier' onclick=\"window.open('/cgi-bin/cashier.cgi?usc_ip=" },
 		]
-		return(self.rules)
+	return(self.rules)
 

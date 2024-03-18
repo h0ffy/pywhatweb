@@ -11,5 +11,5 @@ class Plugintickets_cad_system_plugin(plugins.Base):
 			{ "version" : "/<TITLE>Tickets ([^<]+)<\/TITLE>\s+<LINK REL=StyleSheet HREF="/" },
 			{ "text" : "<TR CLASS='even'><TD ROWSPAN=6 VALIGN='middle' ALIGN='left' bgcolor=#EFEFEF><BR /><BR />&nbsp;&nbsp;<IMG BORDER=0 SRC='open_source_button.png'>" },
 		]
-		return(self.rules)
+	return(self.rules)
 

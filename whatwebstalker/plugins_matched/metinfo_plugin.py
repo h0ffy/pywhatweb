@@ -9,5 +9,5 @@ class Pluginmetinfo_plugin(plugins.Base):
 			{ "regexp" : "/<meta name="author" content="[^"]+--Powered by MetInfo">/" },
 			{ "version" : "/Powered by <a href="http:\/\/www.MetInfo.cn" target="_blank" title="MetInfo enterprise website manager system"><b>[^<]+<\/b><\/a> ([\d\.]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

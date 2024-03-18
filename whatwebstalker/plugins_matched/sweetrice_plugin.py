@@ -8,5 +8,5 @@ class Pluginsweetrice_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="SweetRice ([\d\.]{1,5})" \/>/" },
 			{ "text" : "Powered By <a href="http://www.basic-cms.org">Basic CMS SweetRice</a>" },
 		]
-		return(self.rules)
+	return(self.rules)
 

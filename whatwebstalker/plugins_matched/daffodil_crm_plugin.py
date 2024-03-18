@@ -9,5 +9,5 @@ class Plugindaffodil_crm_plugin(plugins.Base):
 			{ "text" : "<div id="right_footer">Design & Development by Daffodil Software Ltd</div>" },
 			{ "regexp" : "/ href="\?app=forgot_passwd&amp;cmd=passwd_send">[^>]*Forgot Password\?<\/a><\/td>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

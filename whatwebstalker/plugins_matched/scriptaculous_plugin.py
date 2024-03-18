@@ -7,5 +7,5 @@ class Pluginscriptaculous_plugin(plugins.Base):
         self.rules = [
 			{ "regexp" : "/<script [^>]*(scriptaculous[^>]*.js)[^>]*},
 		]
-		return(self.rules)
+	return(self.rules)
 

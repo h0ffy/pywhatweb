@@ -12,5 +12,5 @@ class Pluginbingophp_news_plugin(plugins.Base):
 			{ "text" : "<br><input type=\'submit\' value="Acceder a l\'administration des news">" },
 			{ "text" : "       <td width="50%"><a href=\'http://www.bingo-php.fr.st\' target=\'_blank\'><img src=\'http://tonsitefr.multimania.com/images/468x60-1.gif\' border=\'0\' alt="Ressources gratuites pour votre site web"></a>" },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -7,5 +7,5 @@ class Pluginmyiosoft_ajax_portal_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/      <td align="right"  style="padding:5px; background-color: #EDF2FB;" nowrap> Powered by <a href="http:\/\/myiosoft.com\/\?[\d\.]+">Ajax Portal ([\d\.]+)<\/a><\/td>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

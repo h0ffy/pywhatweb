@@ -7,5 +7,5 @@ class Pluginaspforum_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/<div[^>]+id="FORUMS_FORUM_GROUP_V([\d_]+)/", "name" : "version" },
 		]
-		return(self.rules)
+	return(self.rules)
 

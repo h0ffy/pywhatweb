@@ -11,5 +11,5 @@ class Plugindotclear_plugin(plugins.Base):
 			{ "text" : "<a href="#search">To search</a>" },
 			{ "text" : "<p class="post-info-co">" },
 		]
-		return(self.rules)
+	return(self.rules)
 

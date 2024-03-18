@@ -10,5 +10,5 @@ class Plugincommonspot_plugin(plugins.Base):
 			{ "regexp" : "/<link[^>]+href="[^"]commonspot\/commonspot\.css"[^>]+\/>/" },
 			{ "version" : "/<meta[^>]+name="Generator"[^>]+content="CommonSpot[^\d^"]+([\d\.]+)"[^>]*\/>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

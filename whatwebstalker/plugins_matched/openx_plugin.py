@@ -10,5 +10,5 @@ class Pluginopenx_plugin(plugins.Base):
 			{ "text" : "<span class="tab-s">Welcome to OpenX</span><br />" },
 			{ "version" : "/<meta name="generator" content="OpenX v([^\s]+) - http:\/\/www\.openx\.org"( \/)?>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

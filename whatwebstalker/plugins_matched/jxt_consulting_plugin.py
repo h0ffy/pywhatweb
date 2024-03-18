@@ -11,5 +11,5 @@ class Pluginjxt_consulting_plugin(plugins.Base):
 			{ "text" : "<a href="http://www.jxt.com.au" target="_blank">Powered by JXT Consulting</a>" },
 			{ "string" : /<link rel="shortcut icon" href="\/GetWhitelabelFile\.aspx\?whiteLabelFileID=(\d+)"\s?\/>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

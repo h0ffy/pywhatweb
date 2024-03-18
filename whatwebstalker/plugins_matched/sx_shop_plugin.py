@@ -9,5 +9,5 @@ class Pluginsx_shop_plugin(plugins.Base):
 			{ "text" : "<meta name="author" content="Source WorX - Software Development">" },
 			{ "text" : "alert("Ihr Suchbegriff muss mind. aus 3 Zeichen bestehen.");" },
 		]
-		return(self.rules)
+	return(self.rules)
 

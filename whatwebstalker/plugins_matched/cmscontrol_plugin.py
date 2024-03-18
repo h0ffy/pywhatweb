@@ -11,5 +11,5 @@ class Plugincmscontrol_plugin(plugins.Base):
 			{ "text" : "document.write("<ME"+"TA ht"+"tp-eq"+"uiv=\"REF"+"RESH\" con"+"tent=\"1.00; u"+"rl="+"index"+"."+"ph"+"p\">");" },
 			{ "regexp" : "/<META NAME=[\"\']*generator[\"\']* CONTENT=[\"\']*CMScontrol rel 3.x[\"\']*>/i", "version" : "'3.x" },
 		]
-		return(self.rules)
+	return(self.rules)
 

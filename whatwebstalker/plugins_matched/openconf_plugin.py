@@ -10,5 +10,5 @@ class Pluginopenconf_plugin(plugins.Base):
 			{ "version" : "/<script type="text\/javascript" src="openconf\.js\?v=([^\s^"]+)"><\/script>/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/OPENCONF=[^;]+;/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

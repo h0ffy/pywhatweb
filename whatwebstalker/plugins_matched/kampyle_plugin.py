@@ -9,5 +9,5 @@ class Pluginkampyle_plugin(plugins.Base):
 			{ "text" : "<!--Start Kampyle Feedback Form Button-->" },
 			{ "text" : "<!--End Kampyle Feedback Form Button-->" },
 		]
-		return(self.rules)
+	return(self.rules)
 

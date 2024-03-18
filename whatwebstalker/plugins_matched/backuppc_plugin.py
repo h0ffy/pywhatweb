@@ -11,5 +11,5 @@ class Pluginbackuppc_plugin(plugins.Base):
 			{ "search" : "headers[www-authenticate]", "regexp" : "/Basic realm="(Backup Admin|BackupPC admin|backuppc)"/" },
 			{ "url" : "/", "search" : "headers[location]", "regexp" : "/\/cgi-bin\/BackupPC_Admin$/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

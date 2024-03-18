@@ -7,5 +7,5 @@ class Pluginnera_satlink_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="SatLink Terminal"$/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

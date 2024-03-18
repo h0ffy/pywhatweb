@@ -7,5 +7,5 @@ class Pluginaccess_control_allow_methods_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[access-control-allow-methods]", "string" : /(.+)/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

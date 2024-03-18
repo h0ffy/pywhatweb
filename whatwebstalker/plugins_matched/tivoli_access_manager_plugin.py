@@ -10,5 +10,5 @@ class Plugintivoli_access_manager_plugin(plugins.Base):
 			{ "text" : "<!--- DO NOT TRANSLATE OR MODIFY any part of the hidden parameter(s) --->" },
 			{ "text" : "var warningString = "<B>WARNING:</B> To maintain your login session", "make sure that your browser is configured to accept Cookies.";" },
 		]
-		return(self.rules)
+	return(self.rules)
 

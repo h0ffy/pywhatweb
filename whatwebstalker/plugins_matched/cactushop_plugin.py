@@ -10,5 +10,5 @@ class Plugincactushop_plugin(plugins.Base):
 			{ "version" : "/<!-- CactuShop v\.?([^\s]+) license: [\s]+ -->/" },
 			{ "version" : "/<!---?[\s]+===============================================================================[\s]+CACTUSHOP v?([^\s]+) ASP SHOPPING CART/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

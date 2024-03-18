@@ -9,5 +9,5 @@ class Plugintimelive_plugin(plugins.Base):
 			{ "string" : /<span id="CtlLogin1_Login1_Label1">Copyright .{1,2} 2007 - (20[\d]{2}) Livetecs LLC\. All rights reserved\.<\/span>/" },
 			{ "version" : "/<td style="width: 15%" align=right>[\s]+<span id="CtlLogin1_Login1_VersionLabel">v ([^<^\s]+)<\/span><\/td>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -12,5 +12,5 @@ class Pluginsyncrify_plugin(plugins.Base):
 			{ "text" : "<meta NAME="Keywords" CONTENT="Syncrify - Fast incremental backup" />" },
 			{ "text" : "<p>Powered by <a href='http://www.syncrify.com' >Syncrify</a></p>" },
 		]
-		return(self.rules)
+	return(self.rules)
 

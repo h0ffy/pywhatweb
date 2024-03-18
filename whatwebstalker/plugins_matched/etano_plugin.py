@@ -8,5 +8,5 @@ class Pluginetano_plugin(plugins.Base):
 			{ "text" : "All Rights Reserved.<br />Powered by <a href="http://www.datemill.com" title="Etano community builder">Etano</a>.</p>" },
 			{ "text" : "Etano</a>. All Rights Reserved.<br />" },
 		]
-		return(self.rules)
+	return(self.rules)
 

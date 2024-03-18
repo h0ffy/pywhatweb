@@ -8,5 +8,5 @@ class Pluginxybershield_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/XyberShieldSession=[^\s]+;/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/XyberShieldStatus=[^\s]+;/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

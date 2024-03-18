@@ -10,5 +10,5 @@ class Pluginclientexec_plugin(plugins.Base):
 			{ "text" : "<form action="index.php?fuse=admin&amp;action=Login&amp;public=1" method="post"" },
 			{ "module" : /<img class="logo" src="templates\/([^\/]+)\/images\/public\/caption_photo\.jpg" alt="clientexec" \/>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -7,5 +7,5 @@ class Pluginwebmedia_explorer_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/Powered by <a href="http:\/\/www.webmediaexplorer.com[^>]*>webmedia explorer ([\d\.]+)<\/a>/i },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -11,5 +11,5 @@ class Pluginprocessmaker_plugin(plugins.Base):
 			{ "text" : "<div class="content"><a href="#" onclick="openInfoPanel();return false;" class="FooterLink">| System Information |</a><br /><br />Copyright &copy; 2003-2012 <a href="http://www.colosa.com" alt="Colosa", "Inc." target="_blank">Colosa", "Inc.</a> All rights reserved." },
 			{ "text" : "<meta http-equiv="REFRESH" content="0;URL=/sys/en/classic/login/login.html" />" },
 		]
-		return(self.rules)
+	return(self.rules)
 

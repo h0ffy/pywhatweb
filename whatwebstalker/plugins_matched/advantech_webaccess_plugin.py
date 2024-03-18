@@ -11,5 +11,5 @@ class Pluginadvantech_webaccess_plugin(plugins.Base):
 			{ "search" : "headers[location]", "account" : "/\.\/broadWeb\/bwRoot\.asp\?username=([^\s]+)/" },
 			{ "version" : "/<div style="position:relative;top:15;width:870px; height:15px">\s+<font class=e5>[^:^<]+ : ([^\s]+)<\/font>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

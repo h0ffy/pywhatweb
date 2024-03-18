@@ -11,5 +11,5 @@ class Plugintftgallery_plugin(plugins.Base):
 			{ "regexp" : "/<td class='footer_right'><a href='http:\/\/www.tftgallery.org\/' target='_blank'><img src="[^"]*images\/TFTgallery.png" alt="TFTgallery" border="0" \/><\/a><\/td>/" },
 			{ "version" : "/<meta name="generator" content="TFTgallery ([\d\.]{1,5}) http:\/\/www.tftgallery.org\/" \/>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

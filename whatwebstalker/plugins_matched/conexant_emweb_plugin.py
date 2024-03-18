@@ -20,5 +20,5 @@ class Pluginconexant_emweb_plugin(plugins.Base):
 			{ "version" : "/Conexant-EmWeb\/([^\r^\n]+)/", "search" : "headers[server]"},
 			{ "version" : "/Virata-EmWeb\/([^\r^\n]+)/", "search" : "headers[server]"},
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -13,5 +13,5 @@ class Pluginmusicbox_plugin(plugins.Base):
 			{ "version" : "/<div id='logomain'><div id='logotopmain'><div style='font-weight:bold;font-size:12px;color:#000;padding-top:14px;padding-left:4px'>Welcome to Musicbox Version ([^\s]+) Administration Control Panel<\/div>/" },
 			{ "version" : "/<div id='tdrow5' align=center><br>Musicbox Version ([^\s]+) @ 20[\d]{2} - <a href="http:\/\/www\.MusicboxV2\.com">MusicboxV2\.com<\/a> - Shalwan Entperises<\/div><br><br>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

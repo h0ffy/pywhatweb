@@ -12,5 +12,5 @@ class Pluginweb_control_panel_plugin(plugins.Base):
 			{ "text" : "<td><img src="/images/wcpe.gif" width=600 height=57 border=0></td>" },
 			{ "text" : "<td valign="top"><a href="/cgi-bin/webmail?noframes=1"><img src="images/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -13,5 +13,5 @@ class Pluginesotalk_plugin(plugins.Base):
 			{ "text" : "<p>If you run into any other problems or just want some help with the installation", "feel free to ask for assistance at the <a href='http://forum.esotalk.com/'>esoTalk support forum</a> where a bunch of friendly people will be happy to help you out.</p>", "module" : "Install Page" },
 			{ "text" : "<script type='text/javascript' src='../js/esotalk.js'></script>", "module" : "Install Page" },
 		]
-		return(self.rules)
+	return(self.rules)
 

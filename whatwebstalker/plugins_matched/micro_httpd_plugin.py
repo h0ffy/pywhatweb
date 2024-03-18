@@ -7,5 +7,5 @@ class Pluginmicro_httpd_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/micro_httpd/i },
 		]
-		return(self.rules)
+	return(self.rules)
 

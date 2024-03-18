@@ -12,5 +12,5 @@ class Pluginbroadwin_webaccess_plugin(plugins.Base):
 			{ "version" : "/<div style="position:relative;top:15;width:870px; height:15px">[\s]+<font class=e5>[^:^<]+ : ([\d\.]+-[\d]{4}\.[\d]{2}\.[\d]{2})<\/font>[\s]+<\/div>/" },
 			{ "search" : "headers[location]", "account" : "/^\.\/broadWeb\/bwRoot\.asp\?username=([^\s^&]+)$/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

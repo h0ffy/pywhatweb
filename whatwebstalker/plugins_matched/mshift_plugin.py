@@ -10,5 +10,5 @@ class Pluginmshift_plugin(plugins.Base):
 			{ "text" : "<td align="center"><font size="-1" color=#FFFFFF>Powered by MShift&reg;</font></td></tr>" },
 			{ "text" : "<div class="poweredBy">Powered by MShift &reg;</div>" },
 		]
-		return(self.rules)
+	return(self.rules)
 

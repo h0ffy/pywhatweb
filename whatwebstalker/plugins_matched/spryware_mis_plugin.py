@@ -8,5 +8,5 @@ class Pluginspryware_mis_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^SpryWare\/([^\s]+)$/" },
 			{ "search" : "headers[x-deprecated-response]", "regexp" : "/^Invalid CheckSum Received$/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

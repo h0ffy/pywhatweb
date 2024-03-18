@@ -10,5 +10,5 @@ class Pluginrevsense_plugin(plugins.Base):
 			{ "regexp" : "/	<font size=1><a>Powered by Revsense &trade;<\/a> &copy; [0-9]{4} W3matter LLC<\/font>/" },
 			{ "regexp" : "/	<font size=1><a href="http:\/\/www.w3matter.com">Powered by Revsense &trade;<\/a> &copy; [0-9]{4} W3matter LLC<\/font>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

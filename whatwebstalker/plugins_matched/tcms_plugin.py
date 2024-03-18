@@ -7,5 +7,5 @@ class Plugintcms_plugin(plugins.Base):
         self.rules = [
 			{ "ghdb" : "powered by TCMS"", "certainty" : "75 },
 		]
-		return(self.rules)
+	return(self.rules)
 

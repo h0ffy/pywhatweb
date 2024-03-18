@@ -15,5 +15,5 @@ class Pluginepiserver_plugin(plugins.Base):
 			{ "url" : "/Util/images/EPiServerCMSLogo.png", "md5" : "066ab2c653211887d01e52bcc30293ba", "version" : "6.x"},
 			{ "url" : "/util/login.aspx", "text" : "<h1>Log in to EPiServer CMS 6", "version" : "6.x"},
 		]
-		return(self.rules)
+	return(self.rules)
 

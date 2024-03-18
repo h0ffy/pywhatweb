@@ -10,5 +10,5 @@ class Pluginanecms_plugin(plugins.Base):
 			{ "regexp" : "/&copy; [\d]{4} <strong><a href="http:\/\/anecms.com[^\>]*>anecms.com<\/a><\/strong>/" },
 			{ "regexp" : "/<title>[^<^\-]+- Powered By ANECMS<\/title>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -7,5 +7,5 @@ class Pluginmeta_powered_by_plugin(plugins.Base):
         self.rules = [
 			{ "string" : /<meta[^>]+name=["']powered[\- ]?by["'][^>]+content=["']([^"]+)["']/i },
 		]
-		return(self.rules)
+	return(self.rules)
 

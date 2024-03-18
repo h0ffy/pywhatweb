@@ -11,5 +11,5 @@ class Pluginchiliproject_plugin(plugins.Base):
 			{ "version" : "/<li><a href="https:\/\/www\.chiliproject\.org\/help\/v([^\s^"]+)" class="help">/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/_chiliproject_session=/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

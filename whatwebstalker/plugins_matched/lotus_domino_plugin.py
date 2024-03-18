@@ -10,5 +10,5 @@ class Pluginlotus_domino_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Lotus-Domino$/" },
 			{ "certainty" : "75", "url" : "/favicon.ico", "md5" : "639b61409215d770a99667b446c80ea1" },
 		]
-		return(self.rules)
+	return(self.rules)
 

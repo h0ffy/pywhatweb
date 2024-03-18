@@ -9,5 +9,5 @@ class Pluginmicro_cms_plugin(plugins.Base):
 			{ "text" : "Powered by <strong><a href="http://microcms.kset.org/">Micro CMS</a></strong><br />" },
 			{ "certainty" : "25", "text" : " method="post"onsubmit="" },
 		]
-		return(self.rules)
+	return(self.rules)
 

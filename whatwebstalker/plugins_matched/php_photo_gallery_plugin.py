@@ -7,5 +7,5 @@ class Pluginphp_photo_gallery_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "Powered by <a href="http://phpweby.com">PHP Photo Gallery</a>" },
 		]
-		return(self.rules)
+	return(self.rules)
 

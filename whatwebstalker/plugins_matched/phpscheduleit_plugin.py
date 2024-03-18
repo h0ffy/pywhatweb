@@ -14,5 +14,5 @@ class Pluginphpscheduleit_plugin(plugins.Base):
 			{ "version" : "/<p align="center">Powered by <a href="http:\/\/phpscheduleit.sourceforge.net">phpScheduleIt v([\d\.]+)<\/a><\/p>/" },
 			{ "version" : "/[P|p]?owered by <a href="http:\/\/phpscheduleit.sourceforge.net"[^>]*>phpScheduleIt v([\d\.]+)<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -14,5 +14,5 @@ class Pluginblueonyx_plugin(plugins.Base):
 			{ "certainty" : "25", "regexp" : "/<P ALIGN="CENTER"><FONT SIZE="5" COLOR="#000099" FACE="HELVETICA", "ARIAL"><B>Welcome to the Web Site of [^\s^<]+<\/B><\/FONT>/" },
 			{ "certainty" : "75", "text" : "<BODY onLoad=\"location='http://'+location.host+'/login/'\">" },
 		]
-		return(self.rules)
+	return(self.rules)
 

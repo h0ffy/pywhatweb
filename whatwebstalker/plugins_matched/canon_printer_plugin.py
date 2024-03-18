@@ -16,5 +16,5 @@ class Plugincanon_printer_plugin(plugins.Base):
 			{ "certainty" : "75", "search" : "headers[server]", "version" : "/^KS_HTTP\/([^\s]+)/" },
 			{ "certainty" : "25", "search" : "headers[server]", "version" : "/^LPC Http Server\/V([^\s]+)/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -11,5 +11,5 @@ class Pluginsmartcds_plugin(plugins.Base):
 			{ "version" : "/^Version:([^\s]+)$/", "search" : "headers[smartcds]" },
 			{ "string" : /^(.*)$/", "search" : "headers[x-smartcds-error]" },
 		]
-		return(self.rules)
+	return(self.rules)
 

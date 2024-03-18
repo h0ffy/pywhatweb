@@ -11,5 +11,5 @@ class Pluginmsfweb_plugin(plugins.Base):
 			{ "text" : "<meta name="Copyright" content="(c) 2007", "Mike Whitehead (mwhite22[at]caledonian.ac.uk)", "(c) 2006-2007 Metasploit LLC" />" },
 			{ "regexp" : "/<script>[\s]*document.writeln('<link rel="stylesheet" type="text\/css" href="' + mainStyle + '">'); \/\/ MSFWeb main stylesheet[\s]*document.writeln('<link rel="stylesheet" type="text\/css" href="' + windowStyle + '">'); \/\/ Window frame stylesheet[\s]*<\/script>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

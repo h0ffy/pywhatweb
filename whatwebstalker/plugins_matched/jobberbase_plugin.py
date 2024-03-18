@@ -9,5 +9,5 @@ class Pluginjobberbase_plugin(plugins.Base):
 			{ "text" : "<meta name="author" content="http://www.jobberbase.com" />" },
 			{ "regexp" : "/Proudly powered by[\s]+<a href="http:\/\/www.jobberbase.com\/"[^>]*title="open source job board software">jobberBase<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

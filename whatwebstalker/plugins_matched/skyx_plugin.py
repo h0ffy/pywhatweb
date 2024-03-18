@@ -11,5 +11,5 @@ class Pluginskyx_plugin(plugins.Base):
 			{ :"regxp" : "/^SkyX /", "search" : "headers[server]" },
 			{ "version" : "/^SkyX HTTPS ([^\s]+)$/", "search" : "headers[server]" },
 		]
-		return(self.rules)
+	return(self.rules)
 

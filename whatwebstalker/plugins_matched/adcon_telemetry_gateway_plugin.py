@@ -16,5 +16,5 @@ class Pluginadcon_telemetry_gateway_plugin(plugins.Base):
 			{ "version" : "/<hr>[\s]+<p>[\s]+Release ([^\s^,]+)", "&copy; 20[\d]{2} Adcon Telemetry GmbH<br>/" },
 			{ "model" : "/<body onload="onLoadChangeConfiguratorLinks\(\)">[\s]+<h1 class="line1">([^\s]+) Telemetry Gateway<\/h1>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

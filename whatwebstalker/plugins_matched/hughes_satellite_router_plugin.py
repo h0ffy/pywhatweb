@@ -12,5 +12,5 @@ class Pluginhughes_satellite_router_plugin(plugins.Base):
 			{ "url" : "/sys_info/", "string" : /<\/td><\/tr><tr><td><div class=text>LAN[\d]{1,2} MAC Address:<\/td><td><div class=text>([A-F\d:]{17})<\/td><\/tr>/" },
 			{ "search" : "headers[www-authenticate]", "regexp" : "/^Basic realm="HUGHES Terminal"$/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

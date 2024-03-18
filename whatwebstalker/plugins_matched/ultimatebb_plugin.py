@@ -10,5 +10,5 @@ class Pluginultimatebb_plugin(plugins.Base):
 			{ "version" : "/<center>Powered by <a target="_blank" style="TEXT-DECORATION: none; COLOR: #000066; FONT-SIZE: 10px" href="http:\/\/www.php121.com"><U>PHP121<\/U><\/a> v([\d\.]+)<\/center>/" },
 			{ "version" : "/<a href="http:\/\/www.groupee.com\/landing\/goto\.php\?a=ubb\.classic">Powered by UBB.classic&trade;[\s]+([\d\.]+)(<!-- [\d\.]+ -->)?<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

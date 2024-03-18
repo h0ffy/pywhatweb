@@ -7,5 +7,5 @@ class Pluginkinja_plugin(plugins.Base):
         self.rules = [
 			{ "name" : "X-Kinja Header", "regexp" : "/^$/", "search" : "headers[x-kinja]" },
 		]
-		return(self.rules)
+	return(self.rules)
 

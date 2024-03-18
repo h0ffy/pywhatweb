@@ -15,5 +15,5 @@ class Pluginacidcat_cms_plugin(plugins.Base):
 			{ "text" : "<br><center><table border=1 class=errorTable><tr><td class='login_view'><img src=images/acidcat_logo.gif><td colspan=1 class='login_view'><b>Acidcat CMS Error" },
 			{ "version" : "/<a href="http:\/\/www.acidcat.com">Powered by Acidcat CMS v ([\d\.a-z]+)<\/a>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

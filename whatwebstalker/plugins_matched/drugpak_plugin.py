@@ -11,5 +11,5 @@ class Plugindrugpak_plugin(plugins.Base):
 			{ "text" : "<LINK REL=StyleSheet HREF="/dplimg/DPSTYLE.CSS" TYPE="text/css" media="all">" },
 			{ "regexp" : "/<!--Request processed in [\d]{2} min", "[\d]{2} sec", "[\d]{3} ms--><\/BODY>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

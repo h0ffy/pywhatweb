@@ -17,5 +17,5 @@ class Pluginmicrosoft_iis_plugin(plugins.Base):
 			{ "status" : "403", "text" : "<li>Go to <a href="http://go.microsoft.com/fwlink/?linkid=8180">Microsoft Product Support Services</a> and perform a title search for the words <b>HTTP</b> and <b>403</b>.</li>" },
 			{ "search" : "headers[server]", "version" : "/Microsoft-IIS\/([\d\.]+)/i },
 		]
-		return(self.rules)
+	return(self.rules)
 

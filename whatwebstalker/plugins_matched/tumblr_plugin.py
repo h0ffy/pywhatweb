@@ -9,5 +9,5 @@ class Plugintumblr_plugin(plugins.Base):
 			{ "regexp" : "/<meta name="tumblr-theme" content="[\d]+"[\s]?\/>/" },
 			{ "text" : "<!-- BEGIN TUMBLR CODE --><iframe src="http://assets.tumblr.com/iframe.html" },
 		]
-		return(self.rules)
+	return(self.rules)
 

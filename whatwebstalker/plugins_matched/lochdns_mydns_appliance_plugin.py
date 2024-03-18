@@ -10,5 +10,5 @@ class Pluginlochdns_mydns_appliance_plugin(plugins.Base):
 			{ "version" : "/<div id="appliance-name">lochDNS MyDNS Appliance<\/div>\s+<div id="appliance-version">\s+Version ([^\s^<]+)<\/div>/" },
 			{ "module" : /<div class="hidden">\s+(rPath Platform Agent [^\s]+)\s+<\/div>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

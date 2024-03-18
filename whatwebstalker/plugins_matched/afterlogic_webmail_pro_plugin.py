@@ -11,5 +11,5 @@ class Pluginafterlogic_webmail_pro_plugin(plugins.Base):
 			{ "name" : "PHPWEBMAILSESSID cookie", "search" : "headers[set-cookie]", "regexp" : "/^PHPWEBMAILSESSID=[^;]+;/" },
 			{ "name" : "PHPWMADMINSESSID cookie", "search" : "headers[set-cookie]", "regexp" : "/^PHPWEBMAILSESSID=[^;]+;/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

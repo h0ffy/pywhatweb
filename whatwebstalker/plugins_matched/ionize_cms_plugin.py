@@ -13,5 +13,5 @@ class Pluginionize_cms_plugin(plugins.Base):
 			{ "text" : "<meta name="description" content="HandMade", "an Ionize theme" />" },
 			{ "regexp" : "/<!--[\s]+Displays the Google code defined in Ionize's Advanced settings panel[\s]+-->/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

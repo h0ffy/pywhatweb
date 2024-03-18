@@ -12,5 +12,5 @@ class Plugintruition_plugin(plugins.Base):
 			{ "text" : "<li>DTWP001E: Net.Data is unable to locate the macro file" },
 			{ "text" : "location.href = "/cgi-bin/ncommerce3/ExecMacro/static/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

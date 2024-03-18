@@ -12,5 +12,5 @@ class Pluginquick.cms_plugin(plugins.Base):
 			{ "text" : "  <meta name="Author" content="OpenSolution.org" />" },
 			{ "version" : "/      <div id="version"><a href="http:\/\/opensolution.org\/">Quick.Cms v([\d\.]+)<\/a><\/div>/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

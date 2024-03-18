@@ -7,5 +7,5 @@ class Pluginericsson_tv_web_server_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server ]", "regexp" : "/^Ericsson Television Web server$/" },
 		]
-		return(self.rules)
+	return(self.rules)
 

@@ -7,5 +7,5 @@ class Pluginspecialix_jetstream_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^Specialix JETSTREAM ([\d\.]+)$/" },
 		]
-		return(self.rules)
+	return(self.rules)
 
