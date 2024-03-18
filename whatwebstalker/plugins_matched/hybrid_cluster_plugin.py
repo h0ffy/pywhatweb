@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginhybrid_cluster_plugin:
+class Pluginhybrid_cluster_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

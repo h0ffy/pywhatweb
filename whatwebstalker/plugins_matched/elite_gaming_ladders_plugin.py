@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginelite_gaming_ladders_plugin:
+class Pluginelite_gaming_ladders_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

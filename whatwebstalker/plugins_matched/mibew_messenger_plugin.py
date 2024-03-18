@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmibew_messenger_plugin:
+class Pluginmibew_messenger_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

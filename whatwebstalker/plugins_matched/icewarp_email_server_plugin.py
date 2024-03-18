@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginicewarp_email_server_plugin:
+class Pluginicewarp_email_server_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

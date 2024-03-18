@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsony_locationfree_tv_plugin:
+class Pluginsony_locationfree_tv_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

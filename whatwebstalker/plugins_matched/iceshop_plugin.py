@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginiceshop_plugin:
+class Pluginiceshop_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

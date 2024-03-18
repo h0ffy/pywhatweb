@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugineverfocus_cctv_plugin:
+class Plugineverfocus_cctv_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

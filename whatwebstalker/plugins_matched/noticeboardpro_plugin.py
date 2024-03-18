@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnoticeboardpro_plugin:
+class Pluginnoticeboardpro_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

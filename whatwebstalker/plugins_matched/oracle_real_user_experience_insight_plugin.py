@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginoracle_real_user_experience_insight_plugin:
+class Pluginoracle_real_user_experience_insight_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

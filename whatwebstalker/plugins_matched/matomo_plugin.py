@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmatomo_plugin:
+class Pluginmatomo_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

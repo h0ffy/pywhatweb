@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginteveolive_video_broadcast_software_plugin:
+class Pluginteveolive_video_broadcast_software_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

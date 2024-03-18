@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginoracle_fusion_middleware_plugin:
+class Pluginoracle_fusion_middleware_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

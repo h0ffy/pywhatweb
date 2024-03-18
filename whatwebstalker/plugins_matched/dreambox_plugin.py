@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindreambox_plugin:
+class Plugindreambox_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugininfinet_bcx1_controller_router_plugin:
+class Plugininfinet_bcx1_controller_router_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

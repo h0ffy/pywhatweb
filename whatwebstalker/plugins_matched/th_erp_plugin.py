@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginth_erp_plugin:
+class Pluginth_erp_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

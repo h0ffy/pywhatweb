@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnetwin_surgemail_plugin:
+class Pluginnetwin_surgemail_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

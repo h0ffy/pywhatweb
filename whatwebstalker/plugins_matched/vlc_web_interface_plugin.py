@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginvlc_web_interface_plugin:
+class Pluginvlc_web_interface_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

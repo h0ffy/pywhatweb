@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginapache_flink_plugin:
+class Pluginapache_flink_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

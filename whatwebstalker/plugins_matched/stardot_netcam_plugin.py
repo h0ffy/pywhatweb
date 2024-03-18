@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginstardot_netcam_plugin:
+class Pluginstardot_netcam_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

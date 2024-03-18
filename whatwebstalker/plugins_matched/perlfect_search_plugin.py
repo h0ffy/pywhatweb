@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginperlfect_search_plugin:
+class Pluginperlfect_search_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

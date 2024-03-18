@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginksearch_plugin:
+class Pluginksearch_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

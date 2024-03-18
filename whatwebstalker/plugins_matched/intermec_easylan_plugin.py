@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginintermec_easylan_plugin:
+class Pluginintermec_easylan_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

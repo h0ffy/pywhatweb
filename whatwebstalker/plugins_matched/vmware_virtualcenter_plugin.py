@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginvmware_virtualcenter_plugin:
+class Pluginvmware_virtualcenter_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

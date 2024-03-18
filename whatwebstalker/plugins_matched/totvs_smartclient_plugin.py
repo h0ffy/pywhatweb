@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintotvs_smartclient_plugin:
+class Plugintotvs_smartclient_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

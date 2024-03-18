@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsupport_incident_tracker_plugin:
+class Pluginsupport_incident_tracker_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

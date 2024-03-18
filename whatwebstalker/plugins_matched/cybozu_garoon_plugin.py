@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincybozu_garoon_plugin:
+class Plugincybozu_garoon_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugingitweb_plugin:
+class Plugingitweb_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

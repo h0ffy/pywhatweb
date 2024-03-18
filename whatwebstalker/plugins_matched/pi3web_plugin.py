@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginpi3web_plugin:
+class Pluginpi3web_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

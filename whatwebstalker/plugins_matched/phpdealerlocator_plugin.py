@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginphpdealerlocator_plugin:
+class Pluginphpdealerlocator_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

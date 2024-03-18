@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincmydocument_plugin:
+class Plugincmydocument_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwolfcms_plugin:
+class Pluginwolfcms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

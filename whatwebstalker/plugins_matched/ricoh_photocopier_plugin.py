@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginricoh_photocopier_plugin:
+class Pluginricoh_photocopier_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

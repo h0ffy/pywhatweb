@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginlxr_plugin:
+class Pluginlxr_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

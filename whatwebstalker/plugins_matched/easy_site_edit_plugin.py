@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugineasy_site_edit_plugin:
+class Plugineasy_site_edit_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

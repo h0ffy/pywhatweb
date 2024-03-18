@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmcafee_secure_plugin:
+class Pluginmcafee_secure_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbitweaver_plugin:
+class Pluginbitweaver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

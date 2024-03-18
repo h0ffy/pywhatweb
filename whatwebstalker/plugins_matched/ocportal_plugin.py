@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginocportal_plugin:
+class Pluginocportal_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

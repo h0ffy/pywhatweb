@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginchiliproject_plugin:
+class Pluginchiliproject_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

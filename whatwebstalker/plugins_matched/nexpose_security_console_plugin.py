@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnexpose_security_console_plugin:
+class Pluginnexpose_security_console_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

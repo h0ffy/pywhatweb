@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmysqldumper_plugin:
+class Pluginmysqldumper_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

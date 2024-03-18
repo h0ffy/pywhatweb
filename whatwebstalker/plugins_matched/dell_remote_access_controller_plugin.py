@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindell_remote_access_controller_plugin:
+class Plugindell_remote_access_controller_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

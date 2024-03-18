@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugind_link_router_plugin:
+class Plugind_link_router_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

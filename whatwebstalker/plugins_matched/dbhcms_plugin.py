@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindbhcms_plugin:
+class Plugindbhcms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

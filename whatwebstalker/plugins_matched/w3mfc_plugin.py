@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginw3mfc_plugin:
+class Pluginw3mfc_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

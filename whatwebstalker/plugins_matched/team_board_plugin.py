@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginteam_board_plugin:
+class Pluginteam_board_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

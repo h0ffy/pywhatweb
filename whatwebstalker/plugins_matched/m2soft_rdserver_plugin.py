@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginm2soft_rdserver_plugin:
+class Pluginm2soft_rdserver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

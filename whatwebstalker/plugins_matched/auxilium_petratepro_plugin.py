@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginauxilium_petratepro_plugin:
+class Pluginauxilium_petratepro_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbingophp_news_plugin:
+class Pluginbingophp_news_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

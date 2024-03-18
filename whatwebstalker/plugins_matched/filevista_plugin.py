@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginfilevista_plugin:
+class Pluginfilevista_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

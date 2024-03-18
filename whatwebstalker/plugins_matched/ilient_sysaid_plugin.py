@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginilient_sysaid_plugin:
+class Pluginilient_sysaid_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

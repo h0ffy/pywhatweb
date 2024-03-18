@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincontrexx_cms_plugin:
+class Plugincontrexx_cms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

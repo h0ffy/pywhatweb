@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginjustanswer_professional_plugin:
+class Pluginjustanswer_professional_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

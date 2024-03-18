@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintimesheet_ng_plugin:
+class Plugintimesheet_ng_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

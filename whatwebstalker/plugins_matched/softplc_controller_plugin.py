@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsoftplc_controller_plugin:
+class Pluginsoftplc_controller_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

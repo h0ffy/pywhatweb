@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbmc_remedy_plugin:
+class Pluginbmc_remedy_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

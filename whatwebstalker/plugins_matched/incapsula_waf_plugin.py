@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginincapsula_waf_plugin:
+class Pluginincapsula_waf_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

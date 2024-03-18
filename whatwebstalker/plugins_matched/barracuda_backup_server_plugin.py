@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbarracuda_backup_server_plugin:
+class Pluginbarracuda_backup_server_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

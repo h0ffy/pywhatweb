@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwinmail_server_plugin:
+class Pluginwinmail_server_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

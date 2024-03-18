@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginatvise_webmi_plugin:
+class Pluginatvise_webmi_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

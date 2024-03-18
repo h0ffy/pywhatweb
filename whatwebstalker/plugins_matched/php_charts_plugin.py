@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginphp_charts_plugin:
+class Pluginphp_charts_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincitrix_metaframe_plugin:
+class Plugincitrix_metaframe_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

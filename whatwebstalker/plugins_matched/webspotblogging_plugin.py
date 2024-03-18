@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwebspotblogging_plugin:
+class Pluginwebspotblogging_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

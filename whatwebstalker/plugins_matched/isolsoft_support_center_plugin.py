@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginisolsoft_support_center_plugin:
+class Pluginisolsoft_support_center_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

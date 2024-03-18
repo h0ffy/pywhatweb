@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwhatsup_plugin:
+class Pluginwhatsup_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

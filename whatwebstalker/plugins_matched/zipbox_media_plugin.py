@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginzipbox_media_plugin:
+class Pluginzipbox_media_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

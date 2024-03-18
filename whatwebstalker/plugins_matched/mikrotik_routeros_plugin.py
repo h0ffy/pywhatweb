@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmikrotik_routeros_plugin:
+class Pluginmikrotik_routeros_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

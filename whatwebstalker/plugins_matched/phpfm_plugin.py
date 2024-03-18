@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginphpfm_plugin:
+class Pluginphpfm_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

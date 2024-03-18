@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginadvantech_webaccess_plugin:
+class Pluginadvantech_webaccess_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

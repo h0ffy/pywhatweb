@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmysource_matrix_plugin:
+class Pluginmysource_matrix_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

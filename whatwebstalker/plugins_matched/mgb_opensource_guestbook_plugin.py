@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmgb_opensource_guestbook_plugin:
+class Pluginmgb_opensource_guestbook_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginclipshare_plugin:
+class Pluginclipshare_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

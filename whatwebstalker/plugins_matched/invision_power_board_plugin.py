@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugininvision_power_board_plugin:
+class Plugininvision_power_board_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginkonica_minolta_printer_plugin:
+class Pluginkonica_minolta_printer_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

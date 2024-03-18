@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginfastpublish_cms_plugin:
+class Pluginfastpublish_cms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

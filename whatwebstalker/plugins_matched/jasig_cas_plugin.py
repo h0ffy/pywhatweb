@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginjasig_cas_plugin:
+class Pluginjasig_cas_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

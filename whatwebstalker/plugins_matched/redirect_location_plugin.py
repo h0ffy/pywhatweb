@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginredirect_location_plugin:
+class Pluginredirect_location_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

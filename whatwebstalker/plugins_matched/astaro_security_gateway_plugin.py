@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginastaro_security_gateway_plugin:
+class Pluginastaro_security_gateway_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginopencms_plugin:
+class Pluginopencms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

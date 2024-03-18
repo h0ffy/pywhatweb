@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginf5_big_ip_plugin:
+class Pluginf5_big_ip_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

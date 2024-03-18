@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginrvi_camera_plugin:
+class Pluginrvi_camera_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

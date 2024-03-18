@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginepiserver_plugin:
+class Pluginepiserver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwebcompro_cms_plugin:
+class Pluginwebcompro_cms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

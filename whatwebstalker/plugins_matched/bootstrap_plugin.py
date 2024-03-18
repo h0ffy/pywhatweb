@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbootstrap_plugin:
+class Pluginbootstrap_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

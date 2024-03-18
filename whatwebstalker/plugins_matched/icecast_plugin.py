@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginicecast_plugin:
+class Pluginicecast_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

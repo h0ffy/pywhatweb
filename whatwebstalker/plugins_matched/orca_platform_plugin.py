@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginorca_platform_plugin:
+class Pluginorca_platform_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

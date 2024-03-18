@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginoutlook_web_app_plugin:
+class Pluginoutlook_web_app_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

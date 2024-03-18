@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbarracuda_waf_plugin:
+class Pluginbarracuda_waf_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

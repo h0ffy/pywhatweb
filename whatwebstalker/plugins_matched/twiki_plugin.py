@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintwiki_plugin:
+class Plugintwiki_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginhitbox_gateway_plugin:
+class Pluginhitbox_gateway_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

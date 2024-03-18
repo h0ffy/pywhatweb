@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugineazycms_plugin:
+class Plugineazycms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

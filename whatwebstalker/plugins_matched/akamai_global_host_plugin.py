@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginakamai_global_host_plugin:
+class Pluginakamai_global_host_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

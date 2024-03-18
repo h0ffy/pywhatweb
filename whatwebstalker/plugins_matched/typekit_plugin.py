@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintypekit_plugin:
+class Plugintypekit_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

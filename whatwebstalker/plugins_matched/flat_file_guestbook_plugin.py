@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginflat_file_guestbook_plugin:
+class Pluginflat_file_guestbook_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginlotus_domino_plugin:
+class Pluginlotus_domino_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

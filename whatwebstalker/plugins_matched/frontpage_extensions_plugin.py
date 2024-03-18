@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginfrontpage_extensions_plugin:
+class Pluginfrontpage_extensions_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

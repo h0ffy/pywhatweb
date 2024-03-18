@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginkordil_edms_plugin:
+class Pluginkordil_edms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

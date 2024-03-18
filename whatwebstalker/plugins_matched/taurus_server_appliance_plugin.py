@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintaurus_server_appliance_plugin:
+class Plugintaurus_server_appliance_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

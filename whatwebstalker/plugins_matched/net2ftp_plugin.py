@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnet2ftp_plugin:
+class Pluginnet2ftp_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

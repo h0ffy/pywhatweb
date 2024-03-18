@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginlancom_device_plugin:
+class Pluginlancom_device_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

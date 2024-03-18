@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintraidnt_up_plugin:
+class Plugintraidnt_up_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

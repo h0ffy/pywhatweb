@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginclearwell_e_discovery_plugin:
+class Pluginclearwell_e_discovery_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

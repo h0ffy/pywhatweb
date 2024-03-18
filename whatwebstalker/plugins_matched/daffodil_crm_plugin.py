@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindaffodil_crm_plugin:
+class Plugindaffodil_crm_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

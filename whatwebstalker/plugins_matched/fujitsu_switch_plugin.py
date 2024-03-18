@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginfujitsu_switch_plugin:
+class Pluginfujitsu_switch_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

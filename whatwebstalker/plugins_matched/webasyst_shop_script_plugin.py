@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwebasyst_shop_script_plugin:
+class Pluginwebasyst_shop_script_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

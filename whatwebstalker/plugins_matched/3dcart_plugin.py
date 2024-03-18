@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugin3dcart_plugin:
+class Plugin3dcart_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintanberg_videoconference_management_system_plugin:
+class Plugintanberg_videoconference_management_system_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

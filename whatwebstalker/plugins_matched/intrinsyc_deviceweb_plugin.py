@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginintrinsyc_deviceweb_plugin:
+class Pluginintrinsyc_deviceweb_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

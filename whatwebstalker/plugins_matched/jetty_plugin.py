@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginjetty_plugin:
+class Pluginjetty_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

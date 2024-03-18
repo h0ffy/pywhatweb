@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginakiva_webboard_plugin:
+class Pluginakiva_webboard_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

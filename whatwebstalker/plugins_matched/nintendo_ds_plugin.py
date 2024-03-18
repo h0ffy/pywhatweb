@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnintendo_ds_plugin:
+class Pluginnintendo_ds_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

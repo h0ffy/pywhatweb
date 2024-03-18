@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincgit_plugin:
+class Plugincgit_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

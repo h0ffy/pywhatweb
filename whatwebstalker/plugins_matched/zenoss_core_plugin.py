@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginzenoss_core_plugin:
+class Pluginzenoss_core_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginrfi_scanner_bot_plugin:
+class Pluginrfi_scanner_bot_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

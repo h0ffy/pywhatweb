@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginzoneminder_plugin:
+class Pluginzoneminder_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

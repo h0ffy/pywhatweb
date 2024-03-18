@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginfujitsu_wireless_ap_plugin:
+class Pluginfujitsu_wireless_ap_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

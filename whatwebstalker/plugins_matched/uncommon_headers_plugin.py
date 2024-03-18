@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginuncommon_headers_plugin:
+class Pluginuncommon_headers_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

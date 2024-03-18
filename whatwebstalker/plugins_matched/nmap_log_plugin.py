@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnmap_log_plugin:
+class Pluginnmap_log_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

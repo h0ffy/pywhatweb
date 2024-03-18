@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginrapidsite_plugin:
+class Pluginrapidsite_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

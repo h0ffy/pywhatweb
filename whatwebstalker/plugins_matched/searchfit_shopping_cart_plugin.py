@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsearchfit_shopping_cart_plugin:
+class Pluginsearchfit_shopping_cart_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

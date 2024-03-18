@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginaxway_securetransport_plugin:
+class Pluginaxway_securetransport_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

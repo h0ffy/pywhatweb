@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginben_ssl_plugin:
+class Pluginben_ssl_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

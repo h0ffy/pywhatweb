@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwordpress_contact_form_plugin:
+class Pluginwordpress_contact_form_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

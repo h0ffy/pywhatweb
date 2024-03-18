@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnovell_netware_plugin:
+class Pluginnovell_netware_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

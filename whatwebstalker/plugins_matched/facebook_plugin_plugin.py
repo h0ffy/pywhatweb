@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginfacebook_plugin_plugin:
+class Pluginfacebook_plugin_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

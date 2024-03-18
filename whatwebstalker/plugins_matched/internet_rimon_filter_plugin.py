@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugininternet_rimon_filter_plugin:
+class Plugininternet_rimon_filter_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

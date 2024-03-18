@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginunimep_station_controller_plugin:
+class Pluginunimep_station_controller_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

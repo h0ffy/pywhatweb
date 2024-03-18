@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmeta_powered_by_plugin:
+class Pluginmeta_powered_by_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

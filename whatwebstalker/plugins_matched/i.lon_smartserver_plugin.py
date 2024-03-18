@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugini.lon_smartserver_plugin:
+class Plugini.lon_smartserver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwindows_internet_printing_plugin:
+class Pluginwindows_internet_printing_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

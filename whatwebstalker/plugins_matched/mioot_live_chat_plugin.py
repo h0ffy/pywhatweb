@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmioot_live_chat_plugin:
+class Pluginmioot_live_chat_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

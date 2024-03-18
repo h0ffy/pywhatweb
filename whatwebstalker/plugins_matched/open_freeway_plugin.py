@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginopen_freeway_plugin:
+class Pluginopen_freeway_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

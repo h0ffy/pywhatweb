@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginaolserver_plugin:
+class Pluginaolserver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

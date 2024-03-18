@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmicrosys_promotic_plugin:
+class Pluginmicrosys_promotic_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

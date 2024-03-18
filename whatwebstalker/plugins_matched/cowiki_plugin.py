@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincowiki_plugin:
+class Plugincowiki_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

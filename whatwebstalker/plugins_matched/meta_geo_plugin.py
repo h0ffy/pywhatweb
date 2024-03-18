@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmeta_geo_plugin:
+class Pluginmeta_geo_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

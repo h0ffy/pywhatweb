@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginonze_miner_plugin:
+class Pluginonze_miner_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

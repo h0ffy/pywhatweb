@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginhelp_desk_software_plugin:
+class Pluginhelp_desk_software_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

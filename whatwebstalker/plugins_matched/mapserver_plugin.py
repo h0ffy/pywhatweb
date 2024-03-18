@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmapserver_plugin:
+class Pluginmapserver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

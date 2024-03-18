@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginthe_amazing_little_poll_plugin:
+class Pluginthe_amazing_little_poll_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

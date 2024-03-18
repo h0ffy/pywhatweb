@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincogent_datahub_plugin:
+class Plugincogent_datahub_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

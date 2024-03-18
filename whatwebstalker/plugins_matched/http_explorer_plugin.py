@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginhttp_explorer_plugin:
+class Pluginhttp_explorer_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

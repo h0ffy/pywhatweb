@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginapc_ups_management_card_plugin:
+class Pluginapc_ups_management_card_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

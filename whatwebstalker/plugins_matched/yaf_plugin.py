@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginyaf_plugin:
+class Pluginyaf_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

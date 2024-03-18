@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsyndeocms_plugin:
+class Pluginsyndeocms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

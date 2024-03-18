@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincode_igniter_profiler_plugin:
+class Plugincode_igniter_profiler_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmirapoint_email_appliance_plugin:
+class Pluginmirapoint_email_appliance_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

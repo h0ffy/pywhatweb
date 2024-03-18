@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginfbi_takedown_notice_plugin:
+class Pluginfbi_takedown_notice_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

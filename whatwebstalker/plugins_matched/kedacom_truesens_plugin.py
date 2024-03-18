@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginkedacom_truesens_plugin:
+class Pluginkedacom_truesens_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

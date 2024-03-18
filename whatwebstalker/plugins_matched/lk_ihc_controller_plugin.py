@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginlk_ihc_controller_plugin:
+class Pluginlk_ihc_controller_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

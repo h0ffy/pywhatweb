@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincalendarix_plugin:
+class Plugincalendarix_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

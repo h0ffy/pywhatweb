@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginaspthai.net_webboard_plugin:
+class Pluginaspthai.net_webboard_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

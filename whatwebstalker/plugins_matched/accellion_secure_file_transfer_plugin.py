@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginaccellion_secure_file_transfer_plugin:
+class Pluginaccellion_secure_file_transfer_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

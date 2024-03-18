@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginucenter_home_plugin:
+class Pluginucenter_home_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

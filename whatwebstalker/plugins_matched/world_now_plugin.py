@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginworld_now_plugin:
+class Pluginworld_now_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

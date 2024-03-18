@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginibm_remote_supervisor_adapter_plugin:
+class Pluginibm_remote_supervisor_adapter_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

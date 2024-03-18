@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugingordano_messaging_suite_plugin:
+class Plugingordano_messaging_suite_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

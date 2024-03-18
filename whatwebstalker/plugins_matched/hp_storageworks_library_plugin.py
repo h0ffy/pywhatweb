@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginhp_storageworks_library_plugin:
+class Pluginhp_storageworks_library_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsimple_phishing_toolkit_plugin:
+class Pluginsimple_phishing_toolkit_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

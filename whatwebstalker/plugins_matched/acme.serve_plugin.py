@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginacme.serve_plugin:
+class Pluginacme.serve_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

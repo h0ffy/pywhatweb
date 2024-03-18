@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintoner_cart_plugin:
+class Plugintoner_cart_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

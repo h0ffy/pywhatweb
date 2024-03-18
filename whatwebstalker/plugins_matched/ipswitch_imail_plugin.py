@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginipswitch_imail_plugin:
+class Pluginipswitch_imail_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

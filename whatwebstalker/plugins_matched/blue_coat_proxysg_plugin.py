@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginblue_coat_proxysg_plugin:
+class Pluginblue_coat_proxysg_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

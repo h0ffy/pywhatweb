@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincisco_vpn_3000_concentrator_plugin:
+class Plugincisco_vpn_3000_concentrator_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnintendo_gamecube_plugin:
+class Pluginnintendo_gamecube_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

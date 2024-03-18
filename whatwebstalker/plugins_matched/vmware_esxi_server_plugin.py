@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginvmware_esxi_server_plugin:
+class Pluginvmware_esxi_server_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

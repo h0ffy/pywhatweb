@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginprocon_electronics_mod_mux_plugin:
+class Pluginprocon_electronics_mod_mux_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

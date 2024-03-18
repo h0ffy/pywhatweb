@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnetbotz_network_monitoring_device_plugin:
+class Pluginnetbotz_network_monitoring_device_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

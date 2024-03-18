@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincodesys_web_visualization_plugin:
+class Plugincodesys_web_visualization_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

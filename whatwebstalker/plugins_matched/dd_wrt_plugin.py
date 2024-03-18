@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindd_wrt_plugin:
+class Plugindd_wrt_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

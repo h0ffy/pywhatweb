@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginallegro_rompager_plugin:
+class Pluginallegro_rompager_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

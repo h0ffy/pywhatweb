@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginblueonyx_plugin:
+class Pluginblueonyx_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

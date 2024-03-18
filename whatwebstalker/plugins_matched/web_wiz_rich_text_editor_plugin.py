@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginweb_wiz_rich_text_editor_plugin:
+class Pluginweb_wiz_rich_text_editor_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

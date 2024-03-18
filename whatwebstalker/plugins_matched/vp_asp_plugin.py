@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginvp_asp_plugin:
+class Pluginvp_asp_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

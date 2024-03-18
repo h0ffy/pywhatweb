@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginatmail_webmail_plugin:
+class Pluginatmail_webmail_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

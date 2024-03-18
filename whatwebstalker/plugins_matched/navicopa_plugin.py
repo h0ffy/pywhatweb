@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnavicopa_plugin:
+class Pluginnavicopa_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

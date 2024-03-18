@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmaxmind_geoip_plugin:
+class Pluginmaxmind_geoip_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

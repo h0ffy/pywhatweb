@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginembedthis_plugin:
+class Pluginembedthis_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

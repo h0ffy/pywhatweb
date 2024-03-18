@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmuster_render_farm_plugin:
+class Pluginmuster_render_farm_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

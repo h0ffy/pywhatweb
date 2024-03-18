@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsweetrice_plugin:
+class Pluginsweetrice_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

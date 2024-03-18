@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmihalism_multi_host_plugin:
+class Pluginmihalism_multi_host_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

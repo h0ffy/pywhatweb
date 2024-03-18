@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmeitrack_plugin:
+class Pluginmeitrack_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

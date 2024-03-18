@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginpost_revolution_plugin:
+class Pluginpost_revolution_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

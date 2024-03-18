@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincachelogic_expired_domains_script_plugin:
+class Plugincachelogic_expired_domains_script_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

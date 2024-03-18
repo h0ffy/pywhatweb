@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbasic_php_events_lister_plugin:
+class Pluginbasic_php_events_lister_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginlotuscms_plugin:
+class Pluginlotuscms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

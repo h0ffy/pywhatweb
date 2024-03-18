@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbroadwin_webaccess_plugin:
+class Pluginbroadwin_webaccess_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

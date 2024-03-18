@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginemail_plugin:
+class Pluginemail_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugininout_adserver_plugin:
+class Plugininout_adserver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginjuniper_netscreen_secure_access_plugin:
+class Pluginjuniper_netscreen_secure_access_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

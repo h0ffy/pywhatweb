@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugingossamer_forum_plugin:
+class Plugingossamer_forum_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

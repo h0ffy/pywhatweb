@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintextpattern_plugin:
+class Plugintextpattern_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

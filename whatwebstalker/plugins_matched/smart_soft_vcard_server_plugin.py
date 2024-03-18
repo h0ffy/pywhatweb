@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsmart_soft_vcard_server_plugin:
+class Pluginsmart_soft_vcard_server_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

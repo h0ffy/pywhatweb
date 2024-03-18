@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginresin_plugin:
+class Pluginresin_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

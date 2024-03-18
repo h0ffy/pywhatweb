@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsma_sunny_webbox_plugin:
+class Pluginsma_sunny_webbox_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

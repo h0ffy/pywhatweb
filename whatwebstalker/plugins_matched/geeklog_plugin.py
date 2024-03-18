@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugingeeklog_plugin:
+class Plugingeeklog_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

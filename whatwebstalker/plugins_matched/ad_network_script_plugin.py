@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginad_network_script_plugin:
+class Pluginad_network_script_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

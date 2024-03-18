@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindonations_cloud_plugin:
+class Plugindonations_cloud_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

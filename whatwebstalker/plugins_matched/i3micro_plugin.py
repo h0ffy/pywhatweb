@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugini3micro_plugin:
+class Plugini3micro_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

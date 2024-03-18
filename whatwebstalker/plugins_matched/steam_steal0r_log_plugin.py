@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsteam_steal0r_log_plugin:
+class Pluginsteam_steal0r_log_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

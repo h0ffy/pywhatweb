@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwebsite_tonight_plugin:
+class Pluginwebsite_tonight_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

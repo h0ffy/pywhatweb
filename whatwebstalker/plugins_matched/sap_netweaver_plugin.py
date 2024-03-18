@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsap_netweaver_plugin:
+class Pluginsap_netweaver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

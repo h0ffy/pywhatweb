@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnetwork_tracker_plugin:
+class Pluginnetwork_tracker_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

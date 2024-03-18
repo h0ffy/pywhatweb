@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginblogn_plus_plugin:
+class Pluginblogn_plus_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

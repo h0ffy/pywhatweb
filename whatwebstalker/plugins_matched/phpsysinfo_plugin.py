@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginphpsysinfo_plugin:
+class Pluginphpsysinfo_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

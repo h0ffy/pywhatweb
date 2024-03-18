@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginfree_realty_plugin:
+class Pluginfree_realty_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

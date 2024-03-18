@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincastor_plugin:
+class Plugincastor_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

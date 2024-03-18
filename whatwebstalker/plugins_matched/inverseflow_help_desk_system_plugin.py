@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugininverseflow_help_desk_system_plugin:
+class Plugininverseflow_help_desk_system_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

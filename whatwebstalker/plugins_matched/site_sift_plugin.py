@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsite_sift_plugin:
+class Pluginsite_sift_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

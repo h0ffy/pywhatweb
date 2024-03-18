@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginpro_chat_rooms_plugin:
+class Pluginpro_chat_rooms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

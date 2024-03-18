@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginthe_php_real_estate_script_plugin:
+class Pluginthe_php_real_estate_script_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

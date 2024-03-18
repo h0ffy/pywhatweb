@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginocs_inventory_ng_plugin:
+class Pluginocs_inventory_ng_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

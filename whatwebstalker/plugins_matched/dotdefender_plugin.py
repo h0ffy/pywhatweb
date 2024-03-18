@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindotdefender_plugin:
+class Plugindotdefender_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmicrosoft_sql_server_report_manager_plugin:
+class Pluginmicrosoft_sql_server_report_manager_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

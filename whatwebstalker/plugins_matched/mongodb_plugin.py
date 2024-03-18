@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmongodb_plugin:
+class Pluginmongodb_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

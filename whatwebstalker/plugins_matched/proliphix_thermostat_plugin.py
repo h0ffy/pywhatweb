@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginproliphix_thermostat_plugin:
+class Pluginproliphix_thermostat_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

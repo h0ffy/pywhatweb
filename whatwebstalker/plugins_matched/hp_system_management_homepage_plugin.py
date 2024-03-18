@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginhp_system_management_homepage_plugin:
+class Pluginhp_system_management_homepage_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

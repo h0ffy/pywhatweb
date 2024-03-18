@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbulletlink_newspaper_template_plugin:
+class Pluginbulletlink_newspaper_template_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

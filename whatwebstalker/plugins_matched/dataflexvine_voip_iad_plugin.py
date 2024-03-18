@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindataflexvine_voip_iad_plugin:
+class Plugindataflexvine_voip_iad_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

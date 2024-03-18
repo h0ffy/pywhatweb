@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginlancom_vpn_plugin:
+class Pluginlancom_vpn_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

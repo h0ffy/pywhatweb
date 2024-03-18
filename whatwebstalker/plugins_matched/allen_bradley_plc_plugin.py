@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginallen_bradley_plc_plugin:
+class Pluginallen_bradley_plc_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

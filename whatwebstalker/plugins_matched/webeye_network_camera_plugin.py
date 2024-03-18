@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwebeye_network_camera_plugin:
+class Pluginwebeye_network_camera_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

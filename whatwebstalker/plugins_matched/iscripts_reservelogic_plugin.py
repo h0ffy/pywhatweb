@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginiscripts_reservelogic_plugin:
+class Pluginiscripts_reservelogic_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

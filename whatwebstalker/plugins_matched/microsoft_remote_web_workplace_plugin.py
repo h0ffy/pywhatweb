@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmicrosoft_remote_web_workplace_plugin:
+class Pluginmicrosoft_remote_web_workplace_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginschoolwires_centricity_plugin:
+class Pluginschoolwires_centricity_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

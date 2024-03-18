@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsharethis_plugin:
+class Pluginsharethis_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

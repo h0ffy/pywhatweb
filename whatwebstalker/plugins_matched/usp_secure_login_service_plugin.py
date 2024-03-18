@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginusp_secure_login_service_plugin:
+class Pluginusp_secure_login_service_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

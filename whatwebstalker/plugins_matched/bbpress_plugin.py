@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbbpress_plugin:
+class Pluginbbpress_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

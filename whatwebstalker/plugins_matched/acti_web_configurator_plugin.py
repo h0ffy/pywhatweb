@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginacti_web_configurator_plugin:
+class Pluginacti_web_configurator_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginphpmytourney_plugin:
+class Pluginphpmytourney_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

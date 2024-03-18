@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwifidog_plugin:
+class Pluginwifidog_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

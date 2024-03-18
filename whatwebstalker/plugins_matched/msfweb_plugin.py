@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmsfweb_plugin:
+class Pluginmsfweb_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

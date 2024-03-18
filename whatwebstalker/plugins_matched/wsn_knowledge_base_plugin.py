@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwsn_knowledge_base_plugin:
+class Pluginwsn_knowledge_base_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

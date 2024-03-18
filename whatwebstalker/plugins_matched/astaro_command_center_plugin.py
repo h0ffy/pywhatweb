@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginastaro_command_center_plugin:
+class Pluginastaro_command_center_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

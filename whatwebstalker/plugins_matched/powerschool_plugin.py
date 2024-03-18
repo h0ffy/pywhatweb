@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginpowerschool_plugin:
+class Pluginpowerschool_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginroundcube_plugin:
+class Pluginroundcube_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

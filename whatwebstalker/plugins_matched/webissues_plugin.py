@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwebissues_plugin:
+class Pluginwebissues_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

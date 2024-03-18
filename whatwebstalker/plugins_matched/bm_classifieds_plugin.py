@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbm_classifieds_plugin:
+class Pluginbm_classifieds_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

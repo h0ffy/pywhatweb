@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindotclear_plugin:
+class Plugindotclear_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

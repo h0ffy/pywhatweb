@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsymfony_plugin:
+class Pluginsymfony_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

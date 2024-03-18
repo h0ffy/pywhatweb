@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindli_lpc_plugin:
+class Plugindli_lpc_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

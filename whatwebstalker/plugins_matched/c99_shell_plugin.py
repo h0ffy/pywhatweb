@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginc99_shell_plugin:
+class Pluginc99_shell_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

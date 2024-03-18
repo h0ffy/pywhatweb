@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbrightcove_plugin:
+class Pluginbrightcove_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmovable_type_plugin:
+class Pluginmovable_type_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

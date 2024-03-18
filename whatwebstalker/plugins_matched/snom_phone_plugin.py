@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsnom_phone_plugin:
+class Pluginsnom_phone_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginhughes_satellite_router_plugin:
+class Pluginhughes_satellite_router_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

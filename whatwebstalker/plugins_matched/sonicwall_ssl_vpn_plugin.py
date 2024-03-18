@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsonicwall_ssl_vpn_plugin:
+class Pluginsonicwall_ssl_vpn_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

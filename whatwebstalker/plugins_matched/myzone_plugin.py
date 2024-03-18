@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmyzone_plugin:
+class Pluginmyzone_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

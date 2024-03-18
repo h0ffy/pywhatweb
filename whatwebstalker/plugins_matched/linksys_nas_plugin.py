@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginlinksys_nas_plugin:
+class Pluginlinksys_nas_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwacintaki_poteto_bbs_plugin:
+class Pluginwacintaki_poteto_bbs_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

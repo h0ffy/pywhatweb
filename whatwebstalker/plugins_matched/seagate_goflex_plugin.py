@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginseagate_goflex_plugin:
+class Pluginseagate_goflex_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindavid_webbox_plugin:
+class Plugindavid_webbox_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginadobe_connect_plugin:
+class Pluginadobe_connect_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

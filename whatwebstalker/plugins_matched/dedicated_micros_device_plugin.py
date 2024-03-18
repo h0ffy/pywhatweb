@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindedicated_micros_device_plugin:
+class Plugindedicated_micros_device_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

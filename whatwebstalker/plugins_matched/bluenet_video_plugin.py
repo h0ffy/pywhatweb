@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbluenet_video_plugin:
+class Pluginbluenet_video_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

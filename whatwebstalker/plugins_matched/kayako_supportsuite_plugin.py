@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginkayako_supportsuite_plugin:
+class Pluginkayako_supportsuite_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

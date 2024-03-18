@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginamxmodx_plugin:
+class Pluginamxmodx_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

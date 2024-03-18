@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginstar_network_plugin:
+class Pluginstar_network_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

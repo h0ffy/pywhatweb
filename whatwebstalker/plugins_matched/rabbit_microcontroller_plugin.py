@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginrabbit_microcontroller_plugin:
+class Pluginrabbit_microcontroller_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

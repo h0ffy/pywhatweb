@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginapc_infrastruxure_manager_plugin:
+class Pluginapc_infrastruxure_manager_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

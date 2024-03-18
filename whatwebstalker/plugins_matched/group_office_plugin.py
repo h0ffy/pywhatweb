@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugingroup_office_plugin:
+class Plugingroup_office_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

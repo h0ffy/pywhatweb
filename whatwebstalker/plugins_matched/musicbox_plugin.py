@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmusicbox_plugin:
+class Pluginmusicbox_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

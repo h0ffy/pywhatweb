@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginslack_workspace_plugin:
+class Pluginslack_workspace_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

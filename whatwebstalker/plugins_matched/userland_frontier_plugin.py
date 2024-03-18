@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginuserland_frontier_plugin:
+class Pluginuserland_frontier_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

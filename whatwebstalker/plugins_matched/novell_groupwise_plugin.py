@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnovell_groupwise_plugin:
+class Pluginnovell_groupwise_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

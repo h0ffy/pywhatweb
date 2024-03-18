@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginrackstar_server_appliance_os_plugin:
+class Pluginrackstar_server_appliance_os_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

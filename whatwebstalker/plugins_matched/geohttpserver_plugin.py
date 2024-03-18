@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugingeohttpserver_plugin:
+class Plugingeohttpserver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

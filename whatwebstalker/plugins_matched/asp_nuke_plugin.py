@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginasp_nuke_plugin:
+class Pluginasp_nuke_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

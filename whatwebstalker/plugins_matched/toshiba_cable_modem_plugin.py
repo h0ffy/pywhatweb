@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintoshiba_cable_modem_plugin:
+class Plugintoshiba_cable_modem_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

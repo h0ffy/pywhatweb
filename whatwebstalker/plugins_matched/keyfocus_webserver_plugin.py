@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginkeyfocus_webserver_plugin:
+class Pluginkeyfocus_webserver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

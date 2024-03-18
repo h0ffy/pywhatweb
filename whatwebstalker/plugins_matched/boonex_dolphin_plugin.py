@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginboonex_dolphin_plugin:
+class Pluginboonex_dolphin_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

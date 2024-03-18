@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsentinelserver_plugin:
+class Pluginsentinelserver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

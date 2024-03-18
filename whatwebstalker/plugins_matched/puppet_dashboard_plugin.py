@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginpuppet_dashboard_plugin:
+class Pluginpuppet_dashboard_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintrident7_wave7_olt_plugin:
+class Plugintrident7_wave7_olt_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

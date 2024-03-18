@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindart_webserver_tool_plugin:
+class Plugindart_webserver_tool_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

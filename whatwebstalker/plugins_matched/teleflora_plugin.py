@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginteleflora_plugin:
+class Pluginteleflora_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

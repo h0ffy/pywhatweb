@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginconexant_emweb_plugin:
+class Pluginconexant_emweb_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

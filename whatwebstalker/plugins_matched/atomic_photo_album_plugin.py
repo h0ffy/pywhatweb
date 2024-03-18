@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginatomic_photo_album_plugin:
+class Pluginatomic_photo_album_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

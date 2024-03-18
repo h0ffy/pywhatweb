@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginemc_networker_plugin:
+class Pluginemc_networker_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

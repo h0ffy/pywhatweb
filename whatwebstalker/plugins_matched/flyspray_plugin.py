@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginflyspray_plugin:
+class Pluginflyspray_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

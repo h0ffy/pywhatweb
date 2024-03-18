@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsockettimesheet_plugin:
+class Pluginsockettimesheet_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

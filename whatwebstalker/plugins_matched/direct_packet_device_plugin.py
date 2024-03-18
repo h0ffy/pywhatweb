@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindirect_packet_device_plugin:
+class Plugindirect_packet_device_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

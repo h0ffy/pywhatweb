@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbarracuda_spam_firewall_plugin:
+class Pluginbarracuda_spam_firewall_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

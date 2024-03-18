@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginutopia_news_pro_plugin:
+class Pluginutopia_news_pro_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

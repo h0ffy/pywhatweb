@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginxoops_cube_plugin:
+class Pluginxoops_cube_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

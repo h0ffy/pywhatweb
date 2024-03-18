@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnetvehicle_plugin:
+class Pluginnetvehicle_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

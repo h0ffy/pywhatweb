@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwebid_plugin:
+class Pluginwebid_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

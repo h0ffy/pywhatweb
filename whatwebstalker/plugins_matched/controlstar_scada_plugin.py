@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincontrolstar_scada_plugin:
+class Plugincontrolstar_scada_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

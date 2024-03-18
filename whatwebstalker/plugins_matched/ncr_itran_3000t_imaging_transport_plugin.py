@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginncr_itran_3000t_imaging_transport_plugin:
+class Pluginncr_itran_3000t_imaging_transport_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

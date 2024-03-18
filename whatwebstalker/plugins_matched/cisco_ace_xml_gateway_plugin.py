@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincisco_ace_xml_gateway_plugin:
+class Plugincisco_ace_xml_gateway_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

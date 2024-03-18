@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsony_video_network_station_plugin:
+class Pluginsony_video_network_station_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

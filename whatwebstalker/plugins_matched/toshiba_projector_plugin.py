@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintoshiba_projector_plugin:
+class Plugintoshiba_projector_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

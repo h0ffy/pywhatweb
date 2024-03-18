@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwebhare_application_portal_plugin:
+class Pluginwebhare_application_portal_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

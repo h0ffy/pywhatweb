@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsdl_tridion_wcms_plugin:
+class Pluginsdl_tridion_wcms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

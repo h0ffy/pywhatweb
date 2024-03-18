@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsipura_voip_phone_plugin:
+class Pluginsipura_voip_phone_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsabros.us_plugin:
+class Pluginsabros.us_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

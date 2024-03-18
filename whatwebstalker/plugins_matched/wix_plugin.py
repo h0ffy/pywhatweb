@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwix_plugin:
+class Pluginwix_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

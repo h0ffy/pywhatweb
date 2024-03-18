@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincard_reader_adapter_plugin:
+class Plugincard_reader_adapter_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

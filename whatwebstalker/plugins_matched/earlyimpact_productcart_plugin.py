@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginearlyimpact_productcart_plugin:
+class Pluginearlyimpact_productcart_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

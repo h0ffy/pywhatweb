@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginpc4uploader_plugin:
+class Pluginpc4uploader_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

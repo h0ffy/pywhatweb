@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindigioz_guestbook_plugin:
+class Plugindigioz_guestbook_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsoftbiz_online_auctions_script_plugin:
+class Pluginsoftbiz_online_auctions_script_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

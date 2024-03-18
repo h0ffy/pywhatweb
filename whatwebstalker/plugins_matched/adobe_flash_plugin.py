@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginadobe_flash_plugin:
+class Pluginadobe_flash_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

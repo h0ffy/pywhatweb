@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginprtg_network_monitor_plugin:
+class Pluginprtg_network_monitor_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

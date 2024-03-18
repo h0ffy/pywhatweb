@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincisco_adaptive_security_appliance_plugin:
+class Plugincisco_adaptive_security_appliance_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

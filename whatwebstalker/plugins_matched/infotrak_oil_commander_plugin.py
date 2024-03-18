@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugininfotrak_oil_commander_plugin:
+class Plugininfotrak_oil_commander_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginprice_comparison_script_plugin:
+class Pluginprice_comparison_script_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

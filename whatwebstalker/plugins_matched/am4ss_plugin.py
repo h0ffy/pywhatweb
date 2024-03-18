@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginam4ss_plugin:
+class Pluginam4ss_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

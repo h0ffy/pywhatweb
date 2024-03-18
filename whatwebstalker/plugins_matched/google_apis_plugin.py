@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugingoogle_apis_plugin:
+class Plugingoogle_apis_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

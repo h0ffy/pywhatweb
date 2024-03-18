@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsockso_plugin:
+class Pluginsockso_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

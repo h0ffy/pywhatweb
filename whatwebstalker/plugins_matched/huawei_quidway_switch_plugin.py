@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginhuawei_quidway_switch_plugin:
+class Pluginhuawei_quidway_switch_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

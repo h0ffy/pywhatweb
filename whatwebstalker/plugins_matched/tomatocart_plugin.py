@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintomatocart_plugin:
+class Plugintomatocart_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginecshop_plugin:
+class Pluginecshop_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

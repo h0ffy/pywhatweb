@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmercurial_plugin:
+class Pluginmercurial_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

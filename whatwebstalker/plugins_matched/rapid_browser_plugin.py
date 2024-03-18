@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginrapid_browser_plugin:
+class Pluginrapid_browser_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

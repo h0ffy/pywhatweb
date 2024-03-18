@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsuspended_webpage_plugin:
+class Pluginsuspended_webpage_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindatum_tymserve_plugin:
+class Plugindatum_tymserve_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintine_2.0_plugin:
+class Plugintine_2.0_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincountry_codes.txt:
+class Plugincountry_codes.txt(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

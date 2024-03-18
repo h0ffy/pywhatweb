@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginphp_mes_films_plugin:
+class Pluginphp_mes_films_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

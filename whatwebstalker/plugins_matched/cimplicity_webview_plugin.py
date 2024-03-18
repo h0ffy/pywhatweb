@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincimplicity_webview_plugin:
+class Plugincimplicity_webview_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

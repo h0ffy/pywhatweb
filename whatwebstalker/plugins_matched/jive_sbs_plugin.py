@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginjive_sbs_plugin:
+class Pluginjive_sbs_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

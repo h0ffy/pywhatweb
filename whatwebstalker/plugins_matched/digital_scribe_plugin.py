@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindigital_scribe_plugin:
+class Plugindigital_scribe_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

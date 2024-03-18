@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginrainmail_plugin:
+class Pluginrainmail_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

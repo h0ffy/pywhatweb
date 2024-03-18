@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginlinksys_usb_hdd_plugin:
+class Pluginlinksys_usb_hdd_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

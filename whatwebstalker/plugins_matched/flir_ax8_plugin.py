@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginflir_ax8_plugin:
+class Pluginflir_ax8_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

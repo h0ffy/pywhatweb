@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmanageengine_applications_manager_plugin:
+class Pluginmanageengine_applications_manager_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

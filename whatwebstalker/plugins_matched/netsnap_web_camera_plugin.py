@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnetsnap_web_camera_plugin:
+class Pluginnetsnap_web_camera_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

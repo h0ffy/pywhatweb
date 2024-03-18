@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsmartcds_plugin:
+class Pluginsmartcds_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

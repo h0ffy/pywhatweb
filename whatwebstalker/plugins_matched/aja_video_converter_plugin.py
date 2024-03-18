@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginaja_video_converter_plugin:
+class Pluginaja_video_converter_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

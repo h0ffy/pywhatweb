@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginpg_roomate_finder_solution_plugin:
+class Pluginpg_roomate_finder_solution_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

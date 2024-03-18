@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmy_php_indexer_plugin:
+class Pluginmy_php_indexer_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginfreejoomlas.com_plugin:
+class Pluginfreejoomlas.com_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

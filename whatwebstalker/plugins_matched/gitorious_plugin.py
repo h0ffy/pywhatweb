@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugingitorious_plugin:
+class Plugingitorious_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginlifesize_control_plugin:
+class Pluginlifesize_control_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

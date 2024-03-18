@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincafeengine_plugin:
+class Plugincafeengine_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

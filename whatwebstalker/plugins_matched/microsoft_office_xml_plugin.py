@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmicrosoft_office_xml_plugin:
+class Pluginmicrosoft_office_xml_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

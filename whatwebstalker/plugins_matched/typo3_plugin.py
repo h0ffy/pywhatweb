@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintypo3_plugin:
+class Plugintypo3_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

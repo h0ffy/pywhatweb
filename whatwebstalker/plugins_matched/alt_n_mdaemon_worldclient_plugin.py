@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginalt_n_mdaemon_worldclient_plugin:
+class Pluginalt_n_mdaemon_worldclient_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

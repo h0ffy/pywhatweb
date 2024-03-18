@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginhtpasswd_plugin:
+class Pluginhtpasswd_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

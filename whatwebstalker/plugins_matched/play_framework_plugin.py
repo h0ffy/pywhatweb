@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginplay_framework_plugin:
+class Pluginplay_framework_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

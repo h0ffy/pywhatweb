@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbattle_blog_plugin:
+class Pluginbattle_blog_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

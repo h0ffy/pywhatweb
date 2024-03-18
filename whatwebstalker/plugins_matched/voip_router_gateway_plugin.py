@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginvoip_router_gateway_plugin:
+class Pluginvoip_router_gateway_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnovell_ichain_plugin:
+class Pluginnovell_ichain_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

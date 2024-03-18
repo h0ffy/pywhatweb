@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginlog1_cms_plugin:
+class Pluginlog1_cms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

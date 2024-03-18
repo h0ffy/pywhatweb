@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginws_ftp_log_plugin:
+class Pluginws_ftp_log_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

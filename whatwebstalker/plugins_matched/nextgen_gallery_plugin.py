@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnextgen_gallery_plugin:
+class Pluginnextgen_gallery_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

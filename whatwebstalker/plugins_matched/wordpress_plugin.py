@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwordpress_plugin:
+class Pluginwordpress_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

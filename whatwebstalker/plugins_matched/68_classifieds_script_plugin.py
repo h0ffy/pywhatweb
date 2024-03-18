@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugin68_classifieds_script_plugin:
+class Plugin68_classifieds_script_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

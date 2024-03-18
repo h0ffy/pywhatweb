@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindr_web_anti_virus_plugin:
+class Plugindr_web_anti_virus_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

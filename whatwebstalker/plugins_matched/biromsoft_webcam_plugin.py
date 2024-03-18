@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbiromsoft_webcam_plugin:
+class Pluginbiromsoft_webcam_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

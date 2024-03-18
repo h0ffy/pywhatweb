@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginred_lion_hmi_plugin:
+class Pluginred_lion_hmi_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

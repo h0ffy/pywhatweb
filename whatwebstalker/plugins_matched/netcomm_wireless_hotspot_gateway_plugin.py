@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnetcomm_wireless_hotspot_gateway_plugin:
+class Pluginnetcomm_wireless_hotspot_gateway_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

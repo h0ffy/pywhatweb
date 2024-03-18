@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmission_control_application_shield_plugin:
+class Pluginmission_control_application_shield_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

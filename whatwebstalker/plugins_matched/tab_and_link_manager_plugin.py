@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintab_and_link_manager_plugin:
+class Plugintab_and_link_manager_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

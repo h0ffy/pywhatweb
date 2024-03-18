@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginburning_board_lite_plugin:
+class Pluginburning_board_lite_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

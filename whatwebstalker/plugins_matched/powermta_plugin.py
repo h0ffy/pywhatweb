@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginpowermta_plugin:
+class Pluginpowermta_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

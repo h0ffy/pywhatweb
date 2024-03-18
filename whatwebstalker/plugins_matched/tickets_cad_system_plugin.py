@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintickets_cad_system_plugin:
+class Plugintickets_cad_system_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsnort_report_plugin:
+class Pluginsnort_report_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

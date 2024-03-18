@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginamr_wincontrol_plugin:
+class Pluginamr_wincontrol_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

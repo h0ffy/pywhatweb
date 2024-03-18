@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugineasylink_web_solutions_plugin:
+class Plugineasylink_web_solutions_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

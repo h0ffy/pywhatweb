@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginpiecrust_plugin:
+class Pluginpiecrust_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginjetnexus_load_balancer_plugin:
+class Pluginjetnexus_load_balancer_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

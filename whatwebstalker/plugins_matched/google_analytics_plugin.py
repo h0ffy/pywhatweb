@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugingoogle_analytics_plugin:
+class Plugingoogle_analytics_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

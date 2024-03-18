@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginez_oscommerce_plugin:
+class Pluginez_oscommerce_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

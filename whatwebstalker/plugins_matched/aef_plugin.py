@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginaef_plugin:
+class Pluginaef_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

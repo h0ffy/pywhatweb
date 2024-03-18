@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginhot_banana_plugin:
+class Pluginhot_banana_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

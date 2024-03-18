@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginibm_cognos_plugin:
+class Pluginibm_cognos_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

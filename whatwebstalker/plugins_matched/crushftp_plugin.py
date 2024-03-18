@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincrushftp_plugin:
+class Plugincrushftp_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginconnectups_x_plugin:
+class Pluginconnectups_x_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

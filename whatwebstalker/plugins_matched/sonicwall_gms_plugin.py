@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsonicwall_gms_plugin:
+class Pluginsonicwall_gms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

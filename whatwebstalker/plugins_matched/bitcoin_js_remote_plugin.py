@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbitcoin_js_remote_plugin:
+class Pluginbitcoin_js_remote_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

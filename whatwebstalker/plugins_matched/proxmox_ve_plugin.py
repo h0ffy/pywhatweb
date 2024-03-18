@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginproxmox_ve_plugin:
+class Pluginproxmox_ve_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginclicktale_plugin:
+class Pluginclicktale_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginlinksys_wireless_g_camera_plugin:
+class Pluginlinksys_wireless_g_camera_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

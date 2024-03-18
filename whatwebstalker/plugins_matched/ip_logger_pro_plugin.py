@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginip_logger_pro_plugin:
+class Pluginip_logger_pro_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginispcp_omega_plugin:
+class Pluginispcp_omega_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

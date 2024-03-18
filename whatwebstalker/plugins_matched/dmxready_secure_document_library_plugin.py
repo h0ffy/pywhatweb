@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindmxready_secure_document_library_plugin:
+class Plugindmxready_secure_document_library_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

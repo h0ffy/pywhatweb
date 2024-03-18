@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginzfeeder_plugin:
+class Pluginzfeeder_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

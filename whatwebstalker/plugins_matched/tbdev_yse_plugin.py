@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintbdev_yse_plugin:
+class Plugintbdev_yse_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

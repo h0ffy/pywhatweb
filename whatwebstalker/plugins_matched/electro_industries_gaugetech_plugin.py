@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginelectro_industries_gaugetech_plugin:
+class Pluginelectro_industries_gaugetech_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

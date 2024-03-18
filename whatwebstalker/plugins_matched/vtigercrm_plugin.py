@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginvtigercrm_plugin:
+class Pluginvtigercrm_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

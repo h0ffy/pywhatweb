@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintenon_itools_plugin:
+class Plugintenon_itools_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

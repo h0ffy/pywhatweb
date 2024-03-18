@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginopen_admin_for_schools_plugin:
+class Pluginopen_admin_for_schools_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

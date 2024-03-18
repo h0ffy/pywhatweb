@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnortel_ethernet_routing_switch_config_file_plugin:
+class Pluginnortel_ethernet_routing_switch_config_file_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

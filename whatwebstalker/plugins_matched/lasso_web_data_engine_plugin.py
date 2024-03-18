@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginlasso_web_data_engine_plugin:
+class Pluginlasso_web_data_engine_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

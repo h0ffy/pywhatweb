@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginphp_ping_plugin:
+class Pluginphp_ping_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

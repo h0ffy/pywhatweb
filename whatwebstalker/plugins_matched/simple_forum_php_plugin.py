@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsimple_forum_php_plugin:
+class Pluginsimple_forum_php_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

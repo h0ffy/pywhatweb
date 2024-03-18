@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginca_siteminder_plugin:
+class Pluginca_siteminder_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

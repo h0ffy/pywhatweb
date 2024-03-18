@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugintiger_ip_connect_plugin:
+class Plugintiger_ip_connect_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

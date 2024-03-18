@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincookies_plugin:
+class Plugincookies_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginphp_support_tickets_plugin:
+class Pluginphp_support_tickets_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

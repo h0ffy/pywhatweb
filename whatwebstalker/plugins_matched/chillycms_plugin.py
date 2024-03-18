@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginchillycms_plugin:
+class Pluginchillycms_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

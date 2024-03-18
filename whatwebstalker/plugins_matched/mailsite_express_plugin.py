@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmailsite_express_plugin:
+class Pluginmailsite_express_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

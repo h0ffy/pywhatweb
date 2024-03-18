@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginuclinux_httpd_plugin:
+class Pluginuclinux_httpd_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

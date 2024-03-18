@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginallomani_e_store_plugin:
+class Pluginallomani_e_store_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

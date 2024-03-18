@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginrevsense_plugin:
+class Pluginrevsense_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

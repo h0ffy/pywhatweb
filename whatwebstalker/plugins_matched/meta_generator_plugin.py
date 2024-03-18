@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmeta_generator_plugin:
+class Pluginmeta_generator_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

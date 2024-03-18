@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginnetscape_enterprise_plugin:
+class Pluginnetscape_enterprise_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

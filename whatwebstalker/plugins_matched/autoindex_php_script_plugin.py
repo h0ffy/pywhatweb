@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginautoindex_php_script_plugin:
+class Pluginautoindex_php_script_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

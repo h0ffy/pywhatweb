@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginvideosmate_organizer_plugin:
+class Pluginvideosmate_organizer_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

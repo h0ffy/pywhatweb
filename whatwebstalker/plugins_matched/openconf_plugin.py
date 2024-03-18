@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginopenconf_plugin:
+class Pluginopenconf_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

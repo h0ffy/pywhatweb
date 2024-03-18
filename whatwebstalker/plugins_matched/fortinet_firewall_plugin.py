@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginfortinet_firewall_plugin:
+class Pluginfortinet_firewall_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

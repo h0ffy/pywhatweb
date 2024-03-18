@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugineasy_file_sharing_web_server_plugin:
+class Plugineasy_file_sharing_web_server_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

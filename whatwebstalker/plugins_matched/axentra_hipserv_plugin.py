@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginaxentra_hipserv_plugin:
+class Pluginaxentra_hipserv_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

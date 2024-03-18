@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginedimax_plugin:
+class Pluginedimax_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

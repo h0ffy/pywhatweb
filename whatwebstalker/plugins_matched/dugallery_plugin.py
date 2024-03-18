@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindugallery_plugin:
+class Plugindugallery_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

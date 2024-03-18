@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginqdpm_plugin:
+class Pluginqdpm_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

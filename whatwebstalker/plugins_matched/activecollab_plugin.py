@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginactivecollab_plugin:
+class Pluginactivecollab_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

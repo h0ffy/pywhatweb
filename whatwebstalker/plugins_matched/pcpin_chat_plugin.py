@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginpcpin_chat_plugin:
+class Pluginpcpin_chat_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

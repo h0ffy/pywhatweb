@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginezboo_webstats_plugin:
+class Pluginezboo_webstats_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

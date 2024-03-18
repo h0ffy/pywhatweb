@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginguppy_plugin:
+class Pluginguppy_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

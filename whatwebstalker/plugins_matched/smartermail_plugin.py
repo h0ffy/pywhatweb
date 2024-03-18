@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginsmartermail_plugin:
+class Pluginsmartermail_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

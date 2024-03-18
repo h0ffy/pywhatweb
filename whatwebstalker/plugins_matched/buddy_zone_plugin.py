@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginbuddy_zone_plugin:
+class Pluginbuddy_zone_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

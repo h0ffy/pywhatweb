@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginemeeting_online_dating_software_plugin:
+class Pluginemeeting_online_dating_software_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

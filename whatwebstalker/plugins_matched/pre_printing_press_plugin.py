@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginpre_printing_press_plugin:
+class Pluginpre_printing_press_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

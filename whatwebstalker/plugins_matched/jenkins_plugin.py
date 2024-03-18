@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginjenkins_plugin:
+class Pluginjenkins_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

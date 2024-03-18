@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmicrosoftofficewebserver_plugin:
+class Pluginmicrosoftofficewebserver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

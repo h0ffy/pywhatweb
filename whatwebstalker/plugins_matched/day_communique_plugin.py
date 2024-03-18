@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginday_communique_plugin:
+class Pluginday_communique_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

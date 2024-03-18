@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincerberus_helpdesk_plugin:
+class Plugincerberus_helpdesk_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginatlassian_jira_plugin:
+class Pluginatlassian_jira_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

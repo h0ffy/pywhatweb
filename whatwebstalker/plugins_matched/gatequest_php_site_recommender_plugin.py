@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugingatequest_php_site_recommender_plugin:
+class Plugingatequest_php_site_recommender_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

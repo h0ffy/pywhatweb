@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginphion_firewall_plugin:
+class Pluginphion_firewall_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

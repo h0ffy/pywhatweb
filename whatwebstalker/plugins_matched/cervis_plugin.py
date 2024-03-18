@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugincervis_plugin:
+class Plugincervis_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

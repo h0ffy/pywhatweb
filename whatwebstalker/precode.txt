@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class CLASS_NAME:
+class CLASS_NAME(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

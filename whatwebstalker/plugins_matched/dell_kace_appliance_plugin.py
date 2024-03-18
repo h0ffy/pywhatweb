@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Plugindell_kace_appliance_plugin:
+class Plugindell_kace_appliance_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginwarcraft_3_frozen_throne_config_file_plugin:
+class Pluginwarcraft_3_frozen_throne_config_file_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

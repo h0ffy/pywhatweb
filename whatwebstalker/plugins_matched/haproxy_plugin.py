@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginhaproxy_plugin:
+class Pluginhaproxy_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

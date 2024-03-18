@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginmark_of_the_web_plugin:
+class Pluginmark_of_the_web_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):

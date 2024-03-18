@@ -1,7 +1,6 @@
-import sys
-import os
+import plugins
 			
-class Pluginspyglass_microserver_plugin:
+class Pluginspyglass_microserver_plugin(plugins.Base):
     def __init__(self):
     	pass
     def start(self):
