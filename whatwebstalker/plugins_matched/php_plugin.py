@@ -20,5 +20,5 @@ class Pluginphp_plugin(plugins.Base):
 			{ "name" : "PHP Warning Header", "regexp" : "//", "search" : "headers[php warning]" },
 			{ "name" : "File extension", "regexp" : "/^(php|phtml|php3|php4|php5|phps)$/", "search" : "uri.extension" },
 		]
-			return(self.rules)
+		return(self.rules)
 

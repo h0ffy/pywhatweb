@@ -7,5 +7,5 @@ class Pluginsonicwall_ssl_vpn_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^SonicWALL SSL-VPN Web Server\.?$/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

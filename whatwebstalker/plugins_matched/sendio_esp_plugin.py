@@ -11,5 +11,5 @@ class Pluginsendio_esp_plugin(plugins.Base):
 			{ "url" : "/sendio/ice/ui/foot", "string" : /<td width="50%" align="left" valign="middle"><div id="footleft">&nbsp;&copy; (20[\d]{2}) Sendio", "Inc\.<\/div><\/td>/" },
 			{ "url" : "/sendio/ice/ui/foot", "version" : "/<td width="50%" align="right" valign="middle"><div id="footright">Sendio ([\d\.]+ \([^\s^\)]+\)) &mdash/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

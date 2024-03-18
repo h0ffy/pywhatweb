@@ -10,5 +10,5 @@ class Plugin3dcart_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/3dvisit/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/^affiliate\s/", "name" : "affiliate cookie", "certainty" : "25 },
 		]
-			return(self.rules)
+		return(self.rules)
 

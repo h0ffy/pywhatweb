@@ -11,5 +11,5 @@ class Plugincachelogic_expired_domains_script_plugin(plugins.Base):
 			{ "string" : "Free", "text" : "<!-- Please do not remove. It is illegal to remove this footer in Cachelogic Expired Domains Free Edition-->" },
 			{ "text" : "href="http://cachelogic.net">Cachelogic.net</a></td></tr>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

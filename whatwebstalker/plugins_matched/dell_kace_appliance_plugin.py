@@ -12,5 +12,5 @@ class Plugindell_kace_appliance_plugin(plugins.Base):
 			{ "search" : "headers[x-kbox-version]", "version" : "/^(.+)$/" },
 			{ "search" : "headers[x-kbox-webserver]", "string" : /^(.+)$/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

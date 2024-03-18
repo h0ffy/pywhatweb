@@ -8,5 +8,5 @@ class Pluginslingbox_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/_sling_skey=[^;]+/" },
 			{ "version" : "/<!-- Footer start -->\s+<div id="footer_center">\s+<p>Portal Version:&nbsp;([^,]+)", "Plugin Version:&nbsp;/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

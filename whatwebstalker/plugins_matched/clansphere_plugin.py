@@ -12,5 +12,5 @@ class Pluginclansphere_plugin(plugins.Base):
 			{ "regexp" : "/<a href="[\/]*index.php\?mod=clansphere&amp;action=about[^>]+>Clansphere[\ CSP]*/i },
 			{ "regexp" : "/powered by <a href="http:\/\/www.clansphere.net[^>]+>ClanSphere Project<\/a>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

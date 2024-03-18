@@ -11,5 +11,5 @@ class Pluginphplist_plugin(plugins.Base):
 			{ "version" : "/<meta name="Powered-By" content="phplist version ([^"]+)" \/>/" },
 			{ "version" : "/<span class="urhere">phplist powered by <\/span><a class="urhere" href="http:\/\/www\.phplist\.com" target="_blank">phplist<\/a> - version ([^<]+)<\/td>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

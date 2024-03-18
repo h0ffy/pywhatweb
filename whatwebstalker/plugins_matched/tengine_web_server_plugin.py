@@ -8,5 +8,5 @@ class Plugintengine_web_server_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Tengine$/" },
 			{ "search" : "headers[server]", "version" : "/^Tengine\/([^\s]+)/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -9,5 +9,5 @@ class Plugintomatocms_plugin(plugins.Base):
 			{ "text" : "	Tomato.Core.Widget.Loader.baseUrl = 'http://" },
 			{ "text" : "					<h1>TomatoCMS Install Wizard</h1>", "version" : "Install Page" },
 		]
-			return(self.rules)
+		return(self.rules)
 

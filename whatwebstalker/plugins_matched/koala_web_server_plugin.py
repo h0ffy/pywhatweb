@@ -8,5 +8,5 @@ class Pluginkoala_web_server_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Koala Web Server/" },
 			{ "search" : "headers[server]", "version" : "/^Koala Web Server\/([^\s]+)/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

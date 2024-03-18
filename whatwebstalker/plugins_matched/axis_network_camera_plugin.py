@@ -17,5 +17,5 @@ class Pluginaxis_network_camera_plugin(plugins.Base):
 			{ "version" : "/<TITLE>Live View \/? - AXIS [\da-z]+ [^<]*version ([\d\.]+)<\/TITLE>/i", "module" : "Live View" },
 			{ "model" : "/<TITLE>Live View \/? - AXIS ([\da-z]+) [^<]*<\/TITLE>/i", "module" : "Live View" },
 		]
-			return(self.rules)
+		return(self.rules)
 

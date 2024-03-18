@@ -11,5 +11,5 @@ class Pluginphpcityportal_plugin(plugins.Base):
 			{ "text" : "<form id="frm_login_left" name="frm_login_left" action="includes/check_user.php" method="post">" },
 			{ "text" : "<form id="frm_login_left" name="frm_login_left" action="includes/check_user.php.inc" method="post">" },
 		]
-			return(self.rules)
+		return(self.rules)
 

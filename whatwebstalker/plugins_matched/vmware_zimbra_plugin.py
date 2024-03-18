@@ -13,5 +13,5 @@ class Pluginvmware_zimbra_plugin(plugins.Base):
 			{ "text" : "<div id="ZLoginWhatsThis" class="ZLoginInfoMessage" style="display:none;"><center style="margin-bottom:3px;"><b>Client Types:</b></center>" },
 			{ "text" : "<div id="ZLoginNotice" class="legalNotice-small"><a target="_new" href="http://www.zimbra.com">Zimbra</a> :: the leader in open source messaging and collaboration ::" },
 		]
-			return(self.rules)
+		return(self.rules)
 

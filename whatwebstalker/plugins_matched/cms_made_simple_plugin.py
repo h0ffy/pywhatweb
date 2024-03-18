@@ -12,5 +12,5 @@ class Plugincms_made_simple_plugin(plugins.Base):
 			{ "name" : "Version from /doc/CHANGELOG.txt", "version" : "/^Version ([^ ]+).*/m", "url" : "/doc/CHANGELOG.txt" },
 			{ "name" : "favicon", "url" : "/favicon_cms.ico", "md5" : "ebf500d206705bda0cb79021c15da98a" },
 		]
-			return(self.rules)
+		return(self.rules)
 

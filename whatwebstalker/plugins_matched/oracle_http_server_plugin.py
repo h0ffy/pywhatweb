@@ -9,5 +9,5 @@ class Pluginoracle_http_server_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/Oracle_Web_[Ll]istener(_NT_)?([\d\.]+\/[^\s]+)/", "offset" : "1 },
 			{ "search" : "headers[server]", "version" : "/Oracle_Web_[Ll]istener(_NT_)?\/([^\s]+)/", "offset" : "1 },
 		]
-			return(self.rules)
+		return(self.rules)
 

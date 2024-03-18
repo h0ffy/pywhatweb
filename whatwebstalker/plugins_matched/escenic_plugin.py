@@ -12,5 +12,5 @@ class Pluginescenic_plugin(plugins.Base):
 			{ "certainty" : "25", "regexp" : "/<img[^>]+src="[^"^>]+\/archive\/\d{5}\/[^"^>]+"[^>]*>/" },
 			{ "certainty" : "25", "regexp" : "/<a[^>]+href="[^"^>]+\/article[\d]{5,10}\.ece">[^<]*<\/a>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

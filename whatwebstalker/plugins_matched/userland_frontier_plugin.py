@@ -6,5 +6,5 @@ class Pluginuserland_frontier_plugin(plugins.Base):
     def start(self):
         self.rules = [
 		]
-			return(self.rules)
+		return(self.rules)
 

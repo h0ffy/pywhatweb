@@ -10,5 +10,5 @@ class Pluginsquirrelmail_plugin(plugins.Base):
 			{ "name" : "css comment", "text" : "/* avoid stupid IE6 bug with frames and scrollbars */'},
 			{ "text" : "<b>SquirrelMail Login</b>'},
 		]
-			return(self.rules)
+		return(self.rules)
 

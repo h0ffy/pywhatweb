@@ -10,5 +10,5 @@ class Plugingallery_plugin(plugins.Base):
 			{ "filepath" : "/We've found a place to store your photos:\s+<code class="location">([^<]+)<\/code>/" },
 			{ "certainty" : "75", "text" : "<title>Gallery 3 Installer</title>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

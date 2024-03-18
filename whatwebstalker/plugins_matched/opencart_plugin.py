@@ -11,5 +11,5 @@ class Pluginopencart_plugin(plugins.Base):
 			{ "version" : "/All Rights Reserved\.<br \/>OpenCart Version ([^<]+)\<\/div>/" },
 			{ "text" : "/admin/index.php?route=common/login" method="post" enctype="multipart/form-data" id="form">" },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -9,5 +9,5 @@ class Pluginsupport_incident_tracker_plugin(plugins.Base):
 			{ "version" : "/<meta name="GENERATOR" content="SiT! Support Incident Tracker v([^"]+)" \/>/" },
 			{ "text" : "<div class='windowtitle'>SiT! - Login</div>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

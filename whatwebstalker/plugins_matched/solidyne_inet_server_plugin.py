@@ -10,5 +10,5 @@ class Pluginsolidyne_inet_server_plugin(plugins.Base):
 			{ "text" : "<META HTTP-EQUIV="refresh" content="0; url=/hmi/">" },
 			{ "url" : "/hmi/sysapp/QLogin.aspx", "text" : "<form name="form1" method="post" action="QLogin.aspx" id="form1">" },
 		]
-			return(self.rules)
+		return(self.rules)
 

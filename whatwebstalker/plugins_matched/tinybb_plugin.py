@@ -7,5 +7,5 @@ class Plugintinybb_plugin(plugins.Base):
         self.rules = [
 			{ "text" : "Proudly powered by <a href='http://tinybb.net'>TinyBB</a>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

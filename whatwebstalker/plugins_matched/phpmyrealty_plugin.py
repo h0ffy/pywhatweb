@@ -9,5 +9,5 @@ class Pluginphpmyrealty_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.phpmyrealty.com" target="_blank" style="font-size: 12px; font-family: arial">phpMyRealty Professional</a>" },
 			{ "text" : "<span class="table_header_text"> &nbsp;Administrator Control Panel</span>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

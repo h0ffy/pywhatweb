@@ -10,5 +10,5 @@ class Pluginsystem_shop_plugin(plugins.Base):
 			{ "text" : "               http://www.system-shop.at" },
 			{ "text" : "<a href="http://www.systemshop.at" target="_blank">Powered by System" },
 		]
-			return(self.rules)
+		return(self.rules)
 

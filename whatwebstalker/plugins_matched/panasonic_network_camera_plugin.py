@@ -14,5 +14,5 @@ class Pluginpanasonic_network_camera_plugin(plugins.Base):
 			{ "text" : "<TITLE>WJ-HD200 DigitalDiskRecorder CONTROL MAIN PAGE</TITLE>", "version" : "WJ-HD200" },
 			{ "text" : "window.location.replace("/view/idconv.cgi?UID=%i&FILE=/hdrindex.html&PAGE="+myDate.getTime());" },
 		]
-			return(self.rules)
+		return(self.rules)
 

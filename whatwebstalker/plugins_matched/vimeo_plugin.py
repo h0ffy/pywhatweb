@@ -8,5 +8,5 @@ class Pluginvimeo_plugin(plugins.Base):
 			{ "regexp" : "/<(param|object|embed) [^>]+vimeo\.com\/moogaloop/i },
 			{ "regexp" : "/<iframe [^>]*src=['"]https?:\/\/player\.vimeo\.com\/video\//" },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -11,5 +11,5 @@ class Pluginzomplog_plugin(plugins.Base):
 			{ "text" : "<meta name="generator" content="Zomplog" />" },
 			{ "text" : "/* Navbar (Zomplog-specific) */" },
 		]
-			return(self.rules)
+		return(self.rules)
 

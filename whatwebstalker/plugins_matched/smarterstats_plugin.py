@@ -13,5 +13,5 @@ class Pluginsmarterstats_plugin(plugins.Base):
 			{ "version" : "/										<td class=bar1inner>SmarterStats (Enterprise|Professional|Free|FREE) Edition ([\d\.]+)<\/td>/", "offset" : "1 },
 			{ "text" : "<title>Login - SmarterStats</title>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

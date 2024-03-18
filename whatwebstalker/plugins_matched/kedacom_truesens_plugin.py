@@ -9,5 +9,5 @@ class Pluginkedacom_truesens_plugin(plugins.Base):
 			{ "url" : "/index.htm", "text" : "<body><span style="font:12px;">Loading...</span></body>" },
 			{ "text" : "<img src="./img/kedacom-logo.jpg" alt="WEB CONSOLE" /></td>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

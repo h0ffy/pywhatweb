@@ -8,5 +8,5 @@ class Pluginxmb_plugin(plugins.Base):
 			{ "text" : "<!-- Powered by XMB " },
 			{ "text" : "<!-- The XMB Group -->" },
 		]
-			return(self.rules)
+		return(self.rules)
 

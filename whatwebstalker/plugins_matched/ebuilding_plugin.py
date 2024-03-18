@@ -9,5 +9,5 @@ class Pluginebuilding_plugin(plugins.Base):
 			{ "url" : "/", "md5" : "fcfda4be8f50b3312b38966f2864188f" },
 			{ "text" : "<HTML><HEAD><TITLE>eBuilding Network Controller</TITLE><LINK title=global_style " },
 		]
-			return(self.rules)
+		return(self.rules)
 

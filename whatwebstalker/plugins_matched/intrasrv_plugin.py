@@ -7,5 +7,5 @@ class Pluginintrasrv_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^intrasrv ([\d\.]+)$/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

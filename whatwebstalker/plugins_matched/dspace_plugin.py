@@ -9,5 +9,5 @@ class Plugindspace_plugin(plugins.Base):
 			{ "version" : "/<meta name="Generator" content="DSpace ([\d\.]+)" \/>/" },
 			{ "version" : "/[pP]owered by <a href="http:\/\/(www\.)?dspace\.org"[^>]*>DSpace<\/a>", "version ([\d\.]+)/", "offset" : "1 },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -10,5 +10,5 @@ class Pluginlevel1_router_plugin(plugins.Base):
 			{ "url" : "/bg_logo1.jpg", "md5" : "b78c9744264dadba05ba0d00d62a97b6" },
 			{ "certainty" : "25", "text" : "<!---CAS:0003--><HTML>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

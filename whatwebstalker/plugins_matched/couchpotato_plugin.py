@@ -10,5 +10,5 @@ class Plugincouchpotato_plugin(plugins.Base):
 			{ "md5" : "a59c6fead5d55050674f327955df3acb", "url" : "/static/images/favicon.ico" },
 			{ "md5" : "4814f0d48b2944e48d474325fc4a0f86", "url" : "/static/images/homescreen.png" },
 		]
-			return(self.rules)
+		return(self.rules)
 

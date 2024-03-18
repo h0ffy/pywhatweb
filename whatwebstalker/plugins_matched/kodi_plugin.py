@@ -12,5 +12,5 @@ class Pluginkodi_plugin(plugins.Base):
 			{ "name" : "WebInterface version from /addon.xml", ":"module" : /id="webinterface.default".*[\s]+version="([^"]+)"/", "url" : "/addon.xml" },
 			{ "name" : "XBMC JSON version from /addon.xml", "version" : "/^[\s]+<import addon="xbmc.json" version="([^"]+)"/", "url" : "/addon.xml" },
 		]
-			return(self.rules)
+		return(self.rules)
 

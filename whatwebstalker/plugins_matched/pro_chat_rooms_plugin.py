@@ -11,5 +11,5 @@ class Pluginpro_chat_rooms_plugin(plugins.Base):
 			{ "text" : "var loginNameErrorChr = 'Your username has special characters.<br>These characters are not allowed,<br>!@#$\%SPC^&*()+=-[]\&#39;;,./{}|&#34:<>?.<br>Please remove them and try again.';" },
 			{ "version" : "/<img src="images\/chat.gif" border="0" alt="Pro Chat Rooms v([\d\.]+)" title="Pro Chat Rooms v([\d\.]+)" \/>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -9,5 +9,5 @@ class Plugincar_portal_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.netartmedia.net/carsportal">Car Portal</a>" },
 			{ "version" : "/<TD bgcolor="#000000" class="bodyfontwhite"><strong>&nbsp;Car Script v([^\s]+) by<br>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

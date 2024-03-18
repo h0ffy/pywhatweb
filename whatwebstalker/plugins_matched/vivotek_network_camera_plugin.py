@@ -15,5 +15,5 @@ class Pluginvivotek_network_camera_plugin(plugins.Base):
 			{ "url" : "/cgi-bin/admin/getparamjs.cgi", "account" : "/security_user(pass|name)\.[\d]{1,2}="([^"]+)"/", "offset" : "1 },
 			{ "url" : "/setup/system.html", "text" : "<script type="text/javascript" 	src="/cgi-bin/admin/getparamjs.cgi?system">" },
 		]
-			return(self.rules)
+		return(self.rules)
 

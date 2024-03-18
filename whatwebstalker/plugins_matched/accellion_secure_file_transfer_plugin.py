@@ -11,5 +11,5 @@ class Pluginaccellion_secure_file_transfer_plugin(plugins.Base):
 			{ "text" : "<form name="form1" method="post" action="mail_user_login_exec.html" onsubmit="document.form1.submit.disabled=true;">" },
 			{ "regexp" : "/<link href="custom_template\/[\d]+\/wcStyle\.css" type="?text\/css"? rel="?stylesheet"?>/i },
 		]
-			return(self.rules)
+		return(self.rules)
 

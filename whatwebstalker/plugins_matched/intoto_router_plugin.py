@@ -11,5 +11,5 @@ class Pluginintoto_router_plugin(plugins.Base):
 			{ "regexp" : "/<body bgcolor=#E6E6E6 leftmargin=0 topmargin=0 marginheight=0 marginwidth=0 style="padding: [\d]{1,2}px" onload="javascript:usrnameFocus\(\);javascript:isValidBrowser\(\);/" },
 			{ "search" : "headers[server]", "version" : "/^Intoto Http Server v([^\s]+)$/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

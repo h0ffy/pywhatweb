@@ -9,5 +9,5 @@ class Plugingcards_plugin(plugins.Base):
 			{ "text" : "<title>eCards Administration Console Login</title>" },
 			{ "version" : "/<td>(Driftet av|Powered by|Un script de ) <a href="http:\/\/www.gregphoto.net\/gcards\/index.php"[^>]*>gCards<\/a> v([\d\.]+)<\/td>/", "offset" : "1 },
 		]
-			return(self.rules)
+		return(self.rules)
 

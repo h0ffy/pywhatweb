@@ -14,5 +14,5 @@ class Pluginsipura_voip_phone_plugin(plugins.Base):
 			{ "module" : /<\/font><a href="\/calllog\.htm" target=_calllog_[\d]+><font class=swalft>(Call History)<\/font><\/a><\/p><\/div>/" },
 			{ "url" : "/pdir.htm", "string" : /<td>[\d]+\.<td>&nbsp;<input class="inputc" size="40" name="[\d]+" value="(n=[^;]*;p=[\d]+)" maxlength=[\d]+>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

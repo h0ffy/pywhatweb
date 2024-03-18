@@ -10,5 +10,5 @@ class Pluginwebid_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/WEBID_ONLINE=[a-f\d]{32};/" },
 			{ "version" : "/<h1>WeBid Installer v([^\s^>]+)<\/h1>[\s]*<form name="form1" method="post" action="\?step=1">/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -8,5 +8,5 @@ class Pluginsockso_plugin(plugins.Base):
 			{ "search" : "headers[server]", "regexp" : "/^Sockso$/" },
 			{ "version" : "/<p id="legal">[\s]+<strong>Sockso<\/strong>[\s]+v([^<]+)<br \/>[\s]+&copy; 20[\d]{2}/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

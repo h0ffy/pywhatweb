@@ -13,5 +13,5 @@ class Plugindd_wrt_plugin(plugins.Base):
 			{ "text" : "<a href="http://www.dd-wrt.com/">DD-WRT</a><br /><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"><input type="hidden" name="cmd" value="_xclick" /><input type="hidden" name="business" value="paypal@dd-wrt.com" /><input type="hidden" name="item_name" value="DD-WRT Development Support" />" },
 			{ "string" : /<script type="text\/javascript">[\s]+\/\/<!\[CDATA\[[\s]+document\.write\("<span id=\\"(lan|wc|wl)_mac\\" style=\\"cursor:pointer; text-decoration:underline;\\" title=\\" \+ share\.oui \+ "\\" onclick=\\"getOUIFromMAC\('([A-F\d:]{17})'\)\\" >"\);/", "offset" : "1 },
 		]
-			return(self.rules)
+		return(self.rules)
 

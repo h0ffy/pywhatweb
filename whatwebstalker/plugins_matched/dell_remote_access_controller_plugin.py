@@ -10,5 +10,5 @@ class Plugindell_remote_access_controller_plugin(plugins.Base):
 			{ "url" : "/cgi-bin/webcgi/ssologin", "string" : /<CARD_IP>([^\s]+)<\/CARD_IP>/", "version" : "5" },
 			{ "search" : "headers[server]", "regexp" : "/^RAC_ONE_HTTP ([\d\.]+)$/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -10,5 +10,5 @@ class Plugindokuwiki_plugin(plugins.Base):
 			{ "text" : "<meta name="generator" content="DokuWiki" />" },
 			{ "version" : "/<meta name="generator" content="DokuWiki Release ([^"]+)" \/>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

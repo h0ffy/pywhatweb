@@ -7,5 +7,5 @@ class Pluginliteradius_plugin(plugins.Base):
         self.rules = [
 			{ "ghdb" : "inurl:locator.php parsed_page lat long" },
 		]
-			return(self.rules)
+		return(self.rules)
 

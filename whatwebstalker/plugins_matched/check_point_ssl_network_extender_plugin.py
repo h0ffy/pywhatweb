@@ -12,5 +12,5 @@ class Plugincheck_point_ssl_network_extender_plugin(plugins.Base):
 			{ "text" : "<meta name="description" content="Webui Login Page"/>  <!-- changes to this line must be reflected in sfwOverrides.js & lm_home.js -->", "string" : "Security Gateway" },
 			{ "version" : "/<form autocomplete="off" method="post" action="\/platform\.cgi\?" target="_top">[\s]+<input type="hidden" name="thispage" value="index\.htm">[\s]+<div class="version_div">([^<]+)<\/div>/", "string" : "Security Gateway" },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -10,5 +10,5 @@ class Pluginexponent_cms_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.exponentcms.org">Exponent CMS</a>" },
 			{ "text" : "<a href="http://www.exponentcms.org">Powered by Exponent CMS</a>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

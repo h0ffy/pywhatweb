@@ -9,5 +9,5 @@ class Pluginfidion_cms_plugin(plugins.Base):
 			{ "text" : "<!-- | fCMS by fidion GmbH", "Wüg.         http://www.fidion.de  | -->" },
 			{ "text" : "<!-- fCMS-Template head.tpl begins -->" },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -23,5 +23,5 @@ class Pluginzend_plugin(plugins.Base):
 			{ "regexp" : "/^Zend /", "search" : "headers[server]" },
 			{ "version" : "/Zend Core\/([a-zA-Z0-9\.\/\+\-\(\)]+)/", "string" : "Core", "search" : "headers[server]" },
 		]
-			return(self.rules)
+		return(self.rules)
 

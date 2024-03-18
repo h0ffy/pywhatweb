@@ -12,5 +12,5 @@ class Pluginlivezilla_plugin(plugins.Base):
 			{ "certainty" : "25", "text" : "<meta name="author" content="LiveZilla GmbH">" },
 			{ "text" : "<title>LiveZilla - Freeware Live Support - http://www.livezilla.net</title>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

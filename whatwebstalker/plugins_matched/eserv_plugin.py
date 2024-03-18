@@ -9,5 +9,5 @@ class Plugineserv_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="Eserv\/([^\s^"]+)" \/>/" },
 			{ "version" : "/<span id='powered_by'>[^<]+<a href="http:\/\/www\.eserv\.ru\/"><span itemprop="name">Eserv<\/span><\/a>\/([^\s]+)/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

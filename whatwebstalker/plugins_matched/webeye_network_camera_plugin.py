@@ -13,5 +13,5 @@ class Pluginwebeye_network_camera_plugin(plugins.Base):
 			{ "text" : "<p>Click <a href="./login.ml?FORM_METHOD=get">here</a> if you have a problem to login ..." },
 			{ "text" : "			  <applet archive="/wg_jwebeye.jar" code=WebEyeApplet.class codebase=. width=720 height=773> \\" },
 		]
-			return(self.rules)
+		return(self.rules)
 

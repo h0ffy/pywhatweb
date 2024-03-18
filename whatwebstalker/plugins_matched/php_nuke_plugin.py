@@ -7,5 +7,5 @@ class Pluginphp_nuke_plugin(plugins.Base):
         self.rules = [
 			{ "certainty" : "75", "module" : /<a href="[^"]*modules.php\?name=([a-zA-Z0-9_]+)[^"]*">/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

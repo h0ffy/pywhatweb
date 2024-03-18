@@ -15,5 +15,5 @@ class Plugincpanel_plugin(plugins.Base):
 			{ "url" : "/img-sys/header.jpg", "md5" : "b0f3863b68ff707c3fb586bd87b4f9c6" },
 			{ "search" : "headers[server]", "version" : "/^cpsrvd\/([\d\.]+)$/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

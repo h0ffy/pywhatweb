@@ -10,5 +10,5 @@ class Pluginnewscoop_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://newscoop.sourcefabric.org/" target="_blank">Newscoop</a>", "the open content management system for professional journalists." },
 			{ "text" : "<meta name="generator" content="Newscoop" />" },
 		]
-			return(self.rules)
+		return(self.rules)
 

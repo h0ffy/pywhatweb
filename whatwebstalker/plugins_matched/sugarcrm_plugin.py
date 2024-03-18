@@ -12,5 +12,5 @@ class Pluginsugarcrm_plugin(plugins.Base):
 			{ "text" : "<img style='margin-top: 2px' border='0' width='106' height='23' src='include/images/poweredby_sugarcrm.png' alt='Powered By SugarCRM'>" },
 			{ "string" : /\* SugarCRM is a customer relationship management program developed by[\s]+ \* SugarCRM", "Inc\. Copyright \(C\) 2004-([\d]{4}) SugarCRM Inc\./" },
 		]
-			return(self.rules)
+		return(self.rules)
 

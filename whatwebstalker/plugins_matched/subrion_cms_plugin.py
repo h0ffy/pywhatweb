@@ -12,5 +12,5 @@ class Pluginsubrion_cms_plugin(plugins.Base):
 			{ "version" : "/	<title>Subrion CMS ([\d\.a-zA-Z]+) - Web Installer<\/title>/" },
 			{ "version" : "/	Powered by <a href="http:\/\/www.subrion.com\/" title="Classifieds Software">Subrion CMS<\/a> Version ([\d\.a-zA-Z]+)<br \/>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

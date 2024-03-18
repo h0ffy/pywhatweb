@@ -7,5 +7,5 @@ class Plugindublin_core_plugin(plugins.Base):
         self.rules = [
 			{ "name" : "dublin core", "regexp" : "/<meta [^>]*name="DC\.title"[^>]*>/i},
 		]
-			return(self.rules)
+		return(self.rules)
 

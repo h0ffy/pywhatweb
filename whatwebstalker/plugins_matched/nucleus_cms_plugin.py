@@ -10,5 +10,5 @@ class Pluginnucleus_cms_plugin(plugins.Base):
 			{ "text" : "<meta name="name" content="My Nucleus CMS" />" },
 			{ "version" : "/<small>Copyright \| <a href="http:\/\/nucleuscms\.org">Nucleus CMS v([^\s^>]+)<\/a> \|/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

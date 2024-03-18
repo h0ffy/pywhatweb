@@ -12,5 +12,5 @@ class Plugintiger_ip_connect_plugin(plugins.Base):
 			{ "text" : "<link rel="stylesheet" href="/include/tms.css">", "string" : "TigerTMS" },
 			{ "text" : "<link rel="stylesheet" href="/include/firedigit.css">", "string" : "Firedigit" },
 		]
-			return(self.rules)
+		return(self.rules)
 

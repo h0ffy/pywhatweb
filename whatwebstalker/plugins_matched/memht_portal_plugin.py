@@ -9,5 +9,5 @@ class Pluginmemht_portal_plugin(plugins.Base):
 			{ "text" : "// MemHT Portal is free", "released under a very permissive license as" },
 			{ "text" : "<a href='http://www.memht.com' title='MemHT.com' target='_blank'><b>MemHT Portal</b></a> is a free software released under the GNU/GPL License by <a href='http://www.memht.com' title='MemHT.com' target='_blank'><b>Miltenovik Manojlo</b></a>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -9,5 +9,5 @@ class Pluginscrutinizer_plugin(plugins.Base):
 			{ "regexp" : "/<link id='scrutStyle' rel="stylesheet" href="\/css\/classic\.css/" },
 			{ "regexp" : "/<div id='testAlertHdrMsg'>For the best Scrutinizer experience possible", "please address the issues below:<\/div>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

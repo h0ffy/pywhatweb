@@ -8,5 +8,5 @@ class Pluginedgeprism_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^EdgePrism\/([^\s]+)$/" },
 			{ "search" : "headers[server]", "regexp" : "/^EdgePrismSSL/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

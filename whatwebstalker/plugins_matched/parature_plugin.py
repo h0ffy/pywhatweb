@@ -12,5 +12,5 @@ class Pluginparature_plugin(plugins.Base):
 			{ "text" : "<frame title="Left Navigation" name="cypLeft" src="KBFolder.asp?deptID=" },
 			{ "md5" : "5b5120dc4f0bb058180da4361ac8fd70" },
 		]
-			return(self.rules)
+		return(self.rules)
 

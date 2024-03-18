@@ -10,5 +10,5 @@ class Pluginconnectix_board_plugin(plugins.Base):
 			{ "text" : "	<title>Connectix Boards Error</title>" },
 			{ "version" : "/Powered by <a href="http:\/\/www.connectix-boards.org"[^>]*>Connectix Boards<\/a> ([^&]+) &copy; [0-9]{4}-[0-9]{4}/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

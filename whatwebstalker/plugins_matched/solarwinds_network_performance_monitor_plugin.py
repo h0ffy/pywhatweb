@@ -18,5 +18,5 @@ class Pluginsolarwinds_network_performance_monitor_plugin(plugins.Base):
 			{ "text" : "<a href="/Login.asp"><u><b>Retry Login<b><u></a>" },
 			{ "version" : "/<div id="footer">[^S]*SolarWinds Orion Network Performance Monitor ([^&]+)&copy; 1995-[0-9]{4} All Rights Reserved[^<]*<\/div>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

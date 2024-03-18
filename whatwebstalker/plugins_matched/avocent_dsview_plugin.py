@@ -12,5 +12,5 @@ class Pluginavocent_dsview_plugin(plugins.Base):
 			{ "url" : "/dsview/protected/login.do", "version" : "/<div class="standard-footer">[\s]+This software is protected by all U\.S\. and international copyright law and is subject to the terms and conditions of the <a class="standard-footer highlight" href="\/dsview\/[^"]+" target="dsvieweula">Avocent DSView [\d\.]+ (Software )?End User License Agreement<\/a>\.[\s]+<\/div>[\s]+Version: ([^\s]+)/", "offset" : "1 },
 			{ "module" : /<!-- TITLE -->[\s]+<title>[\s]+(DSWebview [\d\.]+)[\s]+<\/title>[\s]+<!-- AVOCENT ICON -->/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

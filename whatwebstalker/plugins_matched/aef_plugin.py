@@ -9,5 +9,5 @@ class Pluginaef_plugin(plugins.Base):
 			{ "version" : "/<a href="http:\/\/www\.anelectron\.com">Powered By AEF ([^<]{1,256})<\/a> &copy; [\d]{4}/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/AEFCookies[\d]*\[aefsid\]=/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

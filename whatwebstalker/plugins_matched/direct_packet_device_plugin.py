@@ -10,5 +10,5 @@ class Plugindirect_packet_device_plugin(plugins.Base):
 			{ "text" : "<td height="30" class="login"><b><font color="ffffff" size="2" face="Arial", "Helvetica", "sans-serif">Password</font></b></td>" },
 			{ "version" : "/^DPWebServer\/([\d\.]{1,3})/", "search" : "headers[server]" },
 		]
-			return(self.rules)
+		return(self.rules)
 

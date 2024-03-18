@@ -10,5 +10,5 @@ class Pluginsendcard_plugin(plugins.Base):
 			{ "text" : "<!-- The following line should allow me to search on google and find sendcard installations -->" },
 			{ "text" : "<div style="display: none; color: White;">scscsc320</div>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

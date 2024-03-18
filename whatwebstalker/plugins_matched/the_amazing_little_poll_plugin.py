@@ -10,5 +10,5 @@ class Pluginthe_amazing_little_poll_plugin(plugins.Base):
 			{ "url" : "lp_settings.inc", "string" : /\/\/ Change this password so no one else can access the lp_admin\.php via the web\s+\$pwd="([^"]+)";/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/pollidcookie=/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

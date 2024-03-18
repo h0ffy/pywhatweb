@@ -7,5 +7,5 @@ class Pluginwebbler_plugin(plugins.Base):
         self.rules = [
 			{ "version" : "/<meta name="generator" content="webbler ([^\s]+) - http:\/\/tincan\.co\.uk\/webbler"  \/?>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

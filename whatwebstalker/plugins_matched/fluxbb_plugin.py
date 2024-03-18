@@ -11,5 +11,5 @@ class Pluginfluxbb_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<li id="navlogin"><a href="login.php">" },
 			{ "certainty" : "75", "regexp" : "/<div id="brdwelcome" class="inbox">[\s]+<p>[^<]+<\/p>[\s]+<\/div>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

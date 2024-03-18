@@ -10,5 +10,5 @@ class Pluginvbportal_plugin(plugins.Base):
 			{ "version" : "/<meta name="generator" content="vbPortal ([\d\.]+)" \/>/" },
 			{ "version" : "/Portal By vbPortal Version ([\d\.]+)<br \/>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

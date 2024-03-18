@@ -9,5 +9,5 @@ class Pluginglfusion_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<ul class="gl_moomenu1">" },
 			{ "regexp" : "/Page created in [\d\.]+ seconds( |&nbsp;)by <a href="http:\/\/www.glfusion.org\/"[^>]*>glFusion<\/a>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

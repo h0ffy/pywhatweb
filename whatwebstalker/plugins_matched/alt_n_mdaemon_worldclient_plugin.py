@@ -12,5 +12,5 @@ class Pluginalt_n_mdaemon_worldclient_plugin(plugins.Base):
 			{ "version" : "/<strong><a href="http:\/\/www\.altn\.com\/Products\/MDaemon-Email-Server-Windows\/">MDaemon Messaging Server", "BlackBerry Edition<\/a>\/WorldClient v([^\s<]+) &copy; 20[\d]{2} <a href="http:\/\/www\.altn\.com">Alt-N Technologies<\/a>\.<\/strong>/", "string" : "BlackBerry Edition" },
 			{ "version" : "/^WDaemon\/([\d\.]+)$/", "search" : "headers[server]" },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -12,5 +12,5 @@ class Pluginimperva_securesphere_plugin(plugins.Base):
 			{ "name" : "HTML Body',"text" : "src="/SecureSphere/scripts/infra/SessionUtils.js">'},
 			{ "name" : "Location Header", "search" : "headers[location]", "regexp" : "/SecureSphere\/secsphLogin\.jsp},
 		]
-			return(self.rules)
+		return(self.rules)
 

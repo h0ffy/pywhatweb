@@ -10,5 +10,5 @@ class Pluginvanilla_forums_plugin(plugins.Base):
 			{ "search" : "headers[set-cookie]", "regexp" : "/Vanilla=deleted; expires=/" },
 			{ "certainty" : "25", "regexp" : "/<body id=["'](DiscussionsPage|vanilla)/i },
 		]
-			return(self.rules)
+		return(self.rules)
 

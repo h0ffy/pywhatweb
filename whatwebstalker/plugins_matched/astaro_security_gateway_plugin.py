@@ -9,5 +9,5 @@ class Pluginastaro_security_gateway_plugin(plugins.Base):
 			{ "certainty" : "75", "text" : "<script src="wfe/asg/js/_variables_from_backend.js?t=" },
 			{ "url" : "/core/img/topbar/topbar_center.png", "md5" : "2e6cdce49c669ec305b2d73eead50e4c", "version" : "8.x" },
 		]
-			return(self.rules)
+		return(self.rules)
 

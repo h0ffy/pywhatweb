@@ -23,5 +23,5 @@ class Pluginruby_on_rails_plugin(plugins.Base):
 			{ "text" : "<div id="session_dump" style="display:none"><pre class=\'debug_dump\'>---" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/^request_method/", "name" : "request_method cookie" },
 		]
-			return(self.rules)
+		return(self.rules)
 

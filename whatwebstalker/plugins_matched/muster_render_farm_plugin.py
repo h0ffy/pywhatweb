@@ -10,5 +10,5 @@ class Pluginmuster_render_farm_plugin(plugins.Base):
 			{ "text" : "<applet code="FileFolderSelector.class" archive="FileFolderSelector.jar" CODEBASE="js" id="FileSelector" name="FileSelector" width="1" height="1">" },
 			{ "search" : "headers[server]", "version" : "/^cias-muster([\d])$/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

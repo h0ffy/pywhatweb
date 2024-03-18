@@ -16,5 +16,5 @@ class Pluginx10media_mp3_search_engine_plugin(plugins.Base):
 			{ "version" : "/<meta name="owner" content="x10media`s Mp3 Search Engine V\.([\d\.]+)"\/>/" },
 			{ "version" : "/<title>x10media`s Mp3 Search Engine V\.([\d\.]+)[\ Installer]*<\/title>/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

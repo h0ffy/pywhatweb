@@ -13,5 +13,5 @@ class Pluginallinta_cms_plugin(plugins.Base):
 			{ "text" : "<title>allinta.com- aCMS Content Manager</title>" },
 			{ "version" : "/<!-- allintaCMS V([\d\.]+) - http:\/\/www.allinta.com\/ -->/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

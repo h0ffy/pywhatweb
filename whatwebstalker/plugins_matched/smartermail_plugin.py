@@ -11,5 +11,5 @@ class Pluginsmartermail_plugin(plugins.Base):
 			{ "version" : "/										<td class="?bar1inner"?>SmarterMail (Enterprise|Professional|Free|FREE) Edition ([\d\.]+)<\/td>/", "offset" : "1 },
 			{ "text" : "<title>Login - SmarterMail</title>" },
 		]
-			return(self.rules)
+		return(self.rules)
 

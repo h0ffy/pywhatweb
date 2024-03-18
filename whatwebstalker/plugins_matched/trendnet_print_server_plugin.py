@@ -9,5 +9,5 @@ class Plugintrendnet_print_server_plugin(plugins.Base):
 			{ "url" : "/head.htm", "model" : "/<td width="415" align="right" background="bg.gif" valign="bottom"><b><font size="2" color="#FFFFFF">[^<]+ Print Server<br>([^<]{5,15})<\/font><\/b><\/td>/" },
 			{ "certainty" : "25", "version" : "/^PRINT_SERVER WEB ([\d\.]+)$/", "search" : "headers[server]" },
 		]
-			return(self.rules)
+		return(self.rules)
 

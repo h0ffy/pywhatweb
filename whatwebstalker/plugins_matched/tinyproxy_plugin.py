@@ -7,5 +7,5 @@ class Plugintinyproxy_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "version" : "/^tinyproxy\/([^\s]+)/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

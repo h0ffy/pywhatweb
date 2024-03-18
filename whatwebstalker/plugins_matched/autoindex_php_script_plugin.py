@@ -12,5 +12,5 @@ class Pluginautoindex_php_script_plugin(plugins.Base):
 			{ "text" : "<div class="autoindex_small" style="text-align: right;">Powered by <a class="autoindex_a" href="autoindex.sourceforge.net/" target="_blank">AutoIndex PHP Script</a></div>" },
 			{ "version" : "/<!--[\r\n]*Powered by AutoIndex PHP Script \(version ([\d\.]+)\)[\r\n]*Copyright \(C\) 2002-[\d]{4} Justin Hagstrom[\r\n]*http:\/\/autoindex.sourceforge.net[\/]?/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -8,5 +8,5 @@ class Pluginbing_searchengine_plugin(plugins.Base):
 			{ "text" : "var curUrl="http://www.bing.com/"" },
 			{ "text" : "<meta content="Bing is a search engine that finds" },
 		]
-			return(self.rules)
+		return(self.rules)
 

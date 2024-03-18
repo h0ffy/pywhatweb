@@ -12,5 +12,5 @@ class Pluginintellinet_ip_camera_plugin(plugins.Base):
 			{ "text" : "<TITLE>INTELLINET NETWORK SOLUTIONS: Professional Series Wireless Network IP Camera Homepage</TITLE>", "model" : "["Wireless"] },
 			{ "firmware" : "/<font size="1" face="Verdana", "Arial", "Helvetica", "sans-serif">&nbsp;FIRMWARE VERSION: ([A-Z0-9\.]+)[\s]*</" },
 		]
-			return(self.rules)
+		return(self.rules)
 

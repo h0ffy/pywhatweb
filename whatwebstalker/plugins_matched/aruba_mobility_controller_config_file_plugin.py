@@ -9,5 +9,5 @@ class Pluginaruba_mobility_controller_config_file_plugin(plugins.Base):
 			{ "text" : "packet-capture-defaults tcp disable udp disable sysmsg disable other disable" },
 			{ "text" : "ids-policy rate-frame-type-param disassoc node-time-interval" },
 		]
-			return(self.rules)
+		return(self.rules)
 

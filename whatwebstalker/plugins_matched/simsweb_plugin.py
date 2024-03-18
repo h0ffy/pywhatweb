@@ -10,5 +10,5 @@ class Pluginsimsweb_plugin(plugins.Base):
 			{ "text" : "<script language="Javascript" src="/SIMSWeb/monitor.js"></script>" },
 			{ "text" : "<form onSubmit="sendinfo(); return false;" name="LOGON">" },
 		]
-			return(self.rules)
+		return(self.rules)
 

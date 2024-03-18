@@ -10,5 +10,5 @@ class Pluginpcpin_chat_plugin(plugins.Base):
 			{ "text" : "Powered by <a href="http://www.pcpin.com/" target="_blank" title="Powered by PCPIN Chat">PCPIN Chat</a>" },
 			{ "regexp" : "/<INPUT type="submit" class="buttons" value="[^"]+" onClicK="document.loginform.register.value=0; document.loginform.lostpassword.value=0">/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

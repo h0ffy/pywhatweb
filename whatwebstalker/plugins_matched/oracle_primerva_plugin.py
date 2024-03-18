@@ -11,5 +11,5 @@ class Pluginoracle_primerva_plugin(plugins.Base):
 			{ "version" : "/<div align="right" id="BuildId">Version ([^,^\s]+", "Build \d+)(&nbsp;)*<\/div>/" },
 			{ "text" : "<img src="img/process_meter.gif" border=0 id="progressimage"><br><br>Loading Java Plugin and Security Certificate" },
 		]
-			return(self.rules)
+		return(self.rules)
 

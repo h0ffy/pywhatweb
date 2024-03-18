@@ -7,5 +7,5 @@ class Pluginknopflerfish_http_server_plugin(plugins.Base):
         self.rules = [
 			{ "search" : "headers[server]", "regexp" : "/^The Knopflerfish HTTP Server$/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

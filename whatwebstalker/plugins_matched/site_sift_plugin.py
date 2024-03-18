@@ -12,5 +12,5 @@ class Pluginsite_sift_plugin(plugins.Base):
 			{ "text" : "				<!-- end of header.php -->" },
 			{ "text" : "				<!-- begin of footer.php -->" },
 		]
-			return(self.rules)
+		return(self.rules)
 

@@ -14,5 +14,5 @@ class Pluginzoneminder_plugin(plugins.Base):
 			{ "search" : "headers[server]", "version" : "/^ZoneMinder Video Server\/([^\s]+)$/" },
 			{ "search" : "headers[set-cookie]", "regexp" : "/ZMSESSID=[^;]+/" },
 		]
-			return(self.rules)
+		return(self.rules)
 

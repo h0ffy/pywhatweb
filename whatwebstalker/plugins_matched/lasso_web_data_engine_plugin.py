@@ -8,5 +8,5 @@ class Pluginlasso_web_data_engine_plugin(plugins.Base):
 			{ "certainty" : "25", "ghdb" : "filetype:lasso" },
 			{ "search" : "headers[server]", "version" : "/Lasso\/([^\s]+)/" },
 		]
-			return(self.rules)
+		return(self.rules)
 
