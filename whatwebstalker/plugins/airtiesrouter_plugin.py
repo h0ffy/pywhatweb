@@ -5,6 +5,6 @@ class Pluginairtiesrouter_plugin(plugins.Base):
     	pass
     def start(self):
         self.rules = [
-			{ "version" : "/<title>Airties ([^<]+)<},
+			{ "version" : "/<title>Airties ([^<]+)<" },
 		]
-	return(self.rules)
+        return(self.rules)
