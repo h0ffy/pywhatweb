@@ -1,10 +1,12 @@
 import plugins
-			
+
+
 class Pluginapache_plugin(plugins.Base):
-    def __init__(self):
-    	pass
-    def start(self):
-        self.rules = [
+	def __init__(self):
+      pass
+ 
+	def start(self):
+		self.rules = [
 			{ "text" : "<title>Test Page for Apache Installation</title>", "string" : "Default" },
 			{ "text" : "<TITLE>Test Page for the SSL/TLS-aware Apache Installation on Web Site</TITLE>", "string" : "Default" },
 			{ "text" : "<html><body><h1>It works!</h1></body></html>", "string" : "Default" },
@@ -19,3 +21,5 @@ class Pluginapache_plugin(plugins.Base):
 			{ "certainty" : "75", "name" : "htacess WWW-Authenticate realm", "search" : "headers[www-authenticate]", "regexp" : "/Basic realm="htaccess password prompt"},
 		]
 	return(self.rules)
+ 
+	

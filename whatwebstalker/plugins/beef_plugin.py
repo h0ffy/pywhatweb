@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginbeef_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "text" : "<img src="../images/beef.gif" onclick="new Effect.Shake(\'sidebar\');"></div> BeEF</h1>" },
+			{"text": "<img src=".. / images / beef.gif" onclick="new Effect.Shake(\'sidebar\');"></div> BeEF</h1>" },
 			{ "certainty" : "75", "text" : "<title>Browser Exploitation Framework</title>" },
 			{ "regexp" : "/<script[^>]+src=['"]?[^>^="'^"]+\/hook\/beefmagic\.js\.php['"]?/", "certainty" : "75", "string" : "Hook" },
 			{ "regexp" : "/<script[^>]+src=['"]?https?:\/\/[^\/]+\/hook\.js['"]?/", "certainty" : "75", "string" : "Hook" },

@@ -1,12 +1,14 @@
 import plugins
-			
+
+
 class Pluginseagull_php_framework_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "text" : "    <meta name="generator" content="Seagull Framework" />" },
-			{ "regexp" : "/    Powered by <a href="http:\/\/seagullproject.org[\/]*" title="Seagull framework homepage">Seagull PHP Framework<\/a>/" },
+			{"text": "    <meta name="generator" content="Seagull Framework" />"},
+			{"regexp": "/    Powered by <a href="http: \/\/seagullproject.org[\/]*" title="Seagull framework homepage">Seagull PHP Framework<\/a>/" },
 			{ "regexp" : "/        var SGL_JS_SESSID[\s]*=/" },
 			{ "regexp" : "/<link rel="help" href="http:\/\/trac.seagullproject.org[\/]*" title="Seagull Documentation." \/>/" },
 			{ "text" : "    <title>Seagull Framework :: Installation</title>        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15" />" },

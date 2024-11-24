@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginnetwin_dbabble_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "version" : "/^DBabble ([^Server]+)Server Version ([^\ ]+) /", "offset" : "1 },
+			{"version": "/^DBabble ([^Server]+)Server Version ([^\\ ]+) /", "offset": "1 },
 			{ "version" : "/^DBabble ([^Server]+)Server Version ([^\(]+)\(/" },
 			{ "text" : "<title>DBabble login</title>" },
 			{ "text" : "<LINK REL = "stylesheet" TYPE = "text/css" HREF = "/cgi/dbabble.cgi?cmd_get_js2=dbabble.css">" },

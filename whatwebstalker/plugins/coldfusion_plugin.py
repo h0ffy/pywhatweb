@@ -1,12 +1,14 @@
 import plugins
-			
+
+
 class Plugincoldfusion_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "text" : "	<title>ColdFusion Administrator Login</title>" },
-			{ "regexp" : "/<meta name="Author" content="Copyright (\(c\)\ )?[0-9]{4}-[0-9]{4} Macromedia( Corp|", "Inc)\. All rights reserved\.">/" },
+			{"text": "	<title>ColdFusion Administrator Login</title>"},
+			{"regexp": "/<meta name="Author" content="Copyright(\(c\)\ )?[0-9]{4}-[0-9]{4} Macromedia( Corp|", "Inc)\. All rights reserved\.">/" },
 			{ "text" : "	{   document.write(\"<link rel='STYLESHEET' type='text/css' href='./cfadmin_ns.css'>\");}" },
 			{ "text" : "<form name="loginform" action="./enter.cfm" method="POST" onSubmit="cfadminPassword.value = hex_hmac_sha1(salt.value", "hex_sha1(cfadminPassword.value));" >" },
 			{ "text" : "<input name="cfadminPassword" type="Password" size="15" style="width:15em;" class="label" maxlength="100" id="admin_login">" },

@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginmagento_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "text" : "images/logo.gif" alt="Magento Commerce" /></a></h1>", "name" : "default logo alt-text'},
+			{"text": "images/logo.gif" alt = "Magento Commerce" / > < /a > < / h1 > ", "name" : "default logo alt - text'},
 			{ "version" : "%r{<a href="http://www.magentocommerce.com/bug-tracking" id="bug_tracking_link"><strong>Report All Bugs</strong></a> \((Magento Connect Manager |Downloader )?ver. ([0-9\.]+)\)}", "offset" : "1 },
 			{ "regexp" : "%r{<link rel="stylesheet" type="text/css" href="[^"]+/skin/frontend/[^"]+/css/boxes.css" media="all"}", "name" : "/skin/front/*/css/boxes.css"},
 			{ "name" : "Meta keywords", "text" : "<meta name="keywords" content="Magento", "Varien", "E-commerce" />'},

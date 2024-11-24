@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginnopcommerce_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "certainty" : "75", "ghdb" : "powered by nopCommerce" "You have no items in your shopping cart."" },
+			{"certainty": "75", "ghdb": "powered by nopCommerce" "You have no items in your shopping cart."" },
 			{ "text" : "<!--Powered by nopCommerce - http://www.nopCommerce.com-->" },
 			{ "text" : "Powered by <a href="http://www.nopcommerce.com/">nopCommerce</a>" },
 			{ "text" : "Powered by <a href="http://www.nopcommerce.com" target="_blank">nopCommerce</a>" },

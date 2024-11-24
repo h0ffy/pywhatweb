@@ -1,12 +1,14 @@
 import plugins
-			
+
+
 class Pluginipcop_firewall_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "text" : "    <title>IPCop - Main page</title>" },
-			{ "text" : "    <style type="text/css">@import url(/include/ipcop.css);</style>'},
+			{"text": "    <title>IPCop - Main page</title>"},
+			{"text": "    <style type="text / css">@import url(/include/ipcop.css);</style>'},
 			{ "text" : "	<td valign='bottom'><a href='http://sf.net/projects/ipcop/' target='_blank'><img src='/images/sflogo.png' width='88' height='31' alt='Sourceforge logo' /></a></td>" },
 			{ "text" : "<td style='background-color: #EAE9EE;' align='left' width='100%'><b>Home</b> | <a href='/cgi-bin/updates.cgi'>Updates</a> | <a href='/cgi-bin/changepw.cgi'>Passwords</a> | <a href='/cgi-bin/remote.cgi'>SSH Access</a> | <a href='/cgi-bin/gui.cgi'>GUI Settings</a> | <a href='/cgi-bin/backup.cgi'>Backup</a> | <a href='/cgi-bin/shutdown.cgi'>Shutdown</a> | <a href='/cgi-bin/credits.cgi'>Credits</a></td></tr></table>" },
 			{ "version" : "/	    <img src='\/images\/null.gif' width='1' height='29' alt='' \/>([\d\.]+)<\/td>/" },

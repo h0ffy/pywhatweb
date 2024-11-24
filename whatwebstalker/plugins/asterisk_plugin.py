@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginasterisk_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "url" : "/static/index.html", "regexp" : "/Your browser should automatically go to the configuration page\.[\s]+<br>[\s]+Or you can <a href="config\/cfgbasic\.html">click here<\/a>[\s]+<br>/" },
+			{"url": "/static/index.html", "regexp": "/Your browser should automatically go to the configuration page\\.[\\s]+<br>[\\s]+Or you can <a href="config\/cfgbasic\.html">click here<\/a>[\s]+<br>/" },
 			{ "search" : "headers[server]", "regexp" : "/^Asterisk\//" },
 			{ "search" : "headers[server]", "version" : "/^Asterisk\/(.+)$/" },
 			{ "regexp" : "/<!--[\s]+\* Asterisk-GUI -[\s]+an Asterisk configuration interface/" },

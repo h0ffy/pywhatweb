@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginruby_on_rails_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "url" : "/images/rails.png", "md5" : "450fc241fab7867e96536903244087f4'},
+			{"url": "/images/rails.png", "md5": "450fc241fab7867e96536903244087f4'},
 			{ "url" : "/404.html", "text" : "<!-- This file lives in public/404.html -->'},
 			{ "url" : "/422.html", "text" : "<!-- This file lives in public/422.html -->'},
 			{ "url" : "/500.html", "text" : "<!-- This file lives in public/500.html -->'},
