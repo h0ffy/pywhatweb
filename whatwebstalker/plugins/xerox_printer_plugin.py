@@ -1,16 +1,20 @@
 import plugins
-			
+
+
 class Pluginxerox_printer_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "certainty" : "25", "text" : "Phaser 6250DP</title>", "model" : "Phaser 6250DP" },
-			{ "certainty" : "25", "text" : "Phaser 6250N</title>", "model" : "Phaser 6250N" },
-			{ "model" : "/<title> Home - Xerox (Phaser 3300MFP) <\/title>/" },
-			{ "url" : "/properties/aboutprinter.html", "model" : "/<title> About Printer - Xerox (Phaser [^\s]+) <\/title>/" },
-			{ "url" : "/properties/aboutPrinter.html", "model" : "/<title> About Printer - Xerox (Phaser [^\s]+) <\/title>/" },
-			{ "url" : "/properties/aboutprinter.html", "firmware" : "/<tr>[\s]+<td width=60%>(Firmware Version OS|Operating System) <\/td>[\s]+<td width=40%>(OS | )?([^<]+)<\/td>[\s]+<\/tr>/", "offset" : "2 },
+			{"certainty": "25", "text": "Phaser 6250DP</title>", "model": "Phaser 6250DP"},
+			{"certainty": "25", "text": "Phaser 6250N</title>", "model": "Phaser 6250N"},
+			{"model": "/<title> Home - Xerox (Phaser 3300MFP) <\\/title>/"},
+			{"url": "/properties/aboutprinter.html",
+     "model": "/<title> About Printer - Xerox (Phaser [^\\s]+) <\\/title>/"},
+			{"url": "/properties/aboutPrinter.html",
+     "model": "/<title> About Printer - Xerox (Phaser [^\\s]+) <\\/title>/"},
+			{"url": "/properties/aboutprinter.html", "firmware": "/<tr>[\\s]+<td width=60%>(Firmware Version OS|Operating System) <\\/td>[\\s]+<td width=40%>(OS | )?([^<]+)<\\/td>[\\s]+<\\/tr>/", "offset": "2 },
 			{ "url" : "/properties/aboutPrinter.html", "firmware" : "/<tr>[\s]+<td width=60%>(Firmware Version OS|Operating System) <\/td>[\s]+<td width=40%>(OS | )?([^<]+)<\/td>[\s]+<\/tr>/", "offset" : "2 },
 			{ "url" : "/properties/aboutprinter.html", "firmware" : "/<tr>[\s]+<td width=60%>(Networking|NIC Firmware Version)<\/td>[\s]+<td width=40%>([^<]+)<\/td>[\s]+<\/tr>/", "offset" : "1 },
 			{ "url" : "/properties/aboutPrinter.html", "firmware" : "/<tr>[\s]+<td width=60%>(Networking|NIC Firmware Version)<\/td>[\s]+<td width=40%>([^<]+)<\/td>[\s]+<\/tr>/", "offset" : "1 },

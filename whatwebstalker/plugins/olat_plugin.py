@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginolat_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "version" : "/<div id="b_footer_version">[\s]+<a href="http:\/\/www\.olat\.org"  title="Homepage of Open Source LMS OLAT" target="_blank">OLAT ([^<]+)<\/a>/" },
+			{"version": "/<div id="b_footer_version">[\\s]+<a href="http: \/\/www\.olat\.org"  title="Homepage of Open Source LMS OLAT" target="_blank">OLAT ([^<]+)<\/a>/" },
 			{ "version" : "/<div id="o_footer_version">[\s]+<a href="http:\/\/www\.olat\.org"  title="Homepage of Open Source LMS OLAT" target="_blank">[\s]+OLAT ([^<^\n]+)[\s]+<\/a>/" },
 			{ "certainty" : "25", "text" : "<meta name="DC.creator" content="University of Zurich - http://www.uzh.ch" />" },
 			{ "certainty" : "75", "text" : "<meta name="DC.subject" content="OLAT - Online Learning And Training - Your Open Source Learning Management System" />" },

@@ -1,15 +1,18 @@
 import plugins
-			
+
+
 class Pluginqnap_nas_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "ghdb" : "inurl:"Qmultimedia/cgi-bin/thumb_index.cgi" filetype:cgi", "module" : "Multimedia Station" },
-			{ "text" : "<title>QNAP Photo Station</title>", "module" : "Photo Station" },
-			{ "text" : "<title>QNAP Download Station</title>", "module" : "Download Station" },
-			{ "text" : "<TITLE>QNAP Multimedia Station (Photo Album)</TITLE>", "module" : "Multimedia Station" },
-			{ "text" : "<TITLE>Multimedia Station</TITLE>", "module" : "Multimedia Station", "certainty" : "75 },
+			{"ghdb": "inurl:"Qmultimedia / cgi - bin / thumb_index.cgi" filetype:cgi", "module": "Multimedia Station"},
+			{"text": "<title>QNAP Photo Station</title>", "module": "Photo Station"},
+			{"text": "<title>QNAP Download Station</title>", "module": "Download Station"},
+			{"text": "<TITLE>QNAP Multimedia Station (Photo Album)</TITLE>",
+			                                          "module": "Multimedia Station"},
+			{"text": "<TITLE>Multimedia Station</TITLE>", "module": "Multimedia Station", "certainty": "75 },
 			{ "certainty" : "75", "text" : "NavPage("http://"+ location_hostname_for_ipv6(location.hostname) +":"+ qweb_port +"/", "0);" },
 			{ "certainty" : "75", "text" : "location.href=pr+"://["+location.hostname+"]"+pt+redirect_suffix;" },
 			{ "regexp" : "/^\/\/window.location = '\/indexnas\.cgi\?counter=' \+ Math\.floor\(\(diff1-diff2\)\/1000\);[\r\n]^window.location.replace\('\/indexnas\.cgi\?counter=' \+ Math\.floor\(\(diff1-diff2\)\/1000\)\);$/" },

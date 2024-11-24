@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginportalapp_plugin(plugins.Base):
     def __init__(self):
-    	pass
+        pass
+
     def start(self):
         self.rules = [
-			{ "regexp" : "/<img src='[\/]*images\/palogo_gr_17.gif' height=23 alt='powered by PortalApp' align=[\'|\"]*[center|middle]+[\'|\"]*><\/A>/" },
-			{ "regexp" : "/<meta name=[\'|\"]*generator[\'|\"]* content=[\'|\"]*aspapp.com[\'|\"]*[\ \/]*>/" },
-		]
-	return(self.rules)
+            {"regexp": "/<img src='[\\/]*images\\/palogo_gr_17.gif' height=23 alt='powered by PortalApp' align=[\'|\"]*[center|middle]+[\'|\"]*><\\/A>/"},
+            {"regexp": "/<meta name=[\'|\"]*generator[\'|\"]* content=[\'|\"]*aspapp.com[\'|\"]*[\\ \\/]*>/"},
+        ]
+        return (self.rules)

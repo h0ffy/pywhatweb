@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginsamphpweb_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "certainty" : "75,"ghdb" : "This page was produced using SAM Broadcaster" "Copyright Spacial Audio Solutions"'},
+			{"certainty": "75,"ghdb" : "This page was produced using SAM Broadcaster" "Copyright Spacial Audio Solutions"'},
 			{ "certainty" : "75,"text" : "<meta HTTP-EQUIV="REFRESH" CONTENT="0;url=playing.html">'},
 			{ "text" : "<a href="http://www.spacialaudio.com/products/sambroadcaster/" target="_blank"><img src="images/sam-bc.gif" border="0" alt="Powered by SAM Broadcaster" width="120" height="60" />'},
 			{ "text" : "<a href="http://www.spacialaudio.com/products/sambroadcaster/" target="_blank"><img src="images/sam-bc.gif" width="120" height="60" border="0" alt="Powered by SAM Broadcaster">'},

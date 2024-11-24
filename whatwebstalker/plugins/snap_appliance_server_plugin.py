@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginsnap_appliance_server_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "string" : /<TITLE>Snap Server ([^\s]+) \[[^\]]+\]<\/TITLE>/" },
+			{"string": / <TITLE > Snap Server([^\s]+) \[[^\]]+\]<\/TITLE>/" },
 			{ "string" : /<HTML><HEAD><TITLE>About Snap Server ([^\s]+)<\/TITLE><\/HEAD>/" },
 			{ "text" : "<A HREF="http://www.snapappliance.com/support" TARGET="new"><IMG SRC="/config/resource/Tech.gif"  ALIGN="TOP" NATURALSIZEFLAG="3" BORDER="0" ALT="></A> '},
 			{ "text" : "<A HREF="javascript:_ShowAbout()" onMouseOver="window.status=\'About Snap Server\'; return true;" onMouseOut="window.status=\'\'; return true;"><IMG SRC="/config/resource/About.gif"  ALIGN="TOP" NATURALSIZEFLAG="3" BORDER="0" ALT="></A>" },

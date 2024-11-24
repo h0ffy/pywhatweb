@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginvbulletin_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "ghdb" : "Powered by vBulletin" inurl:newreply.php'},
+			{"ghdb": "Powered by vBulletin" inurl: newreply.php'},
 			{ "certainty" : "75", "regexp" : "/\* vBulletin [0-9a-z.]+ CSS},
 			{ "name" : "vbulletin_global.js", "regexp" : "/<script type="text\/javascript" src="[a-z0-9.\/]*vbulletin_global.js},
 			{ "regexp" : "/Powered by(:)? vBulletin(&reg;)? Version},

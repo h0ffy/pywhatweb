@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Plugincm3_cms_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "name" : "JavaScript Object (CM2)',"text" : "top.cm2_home.location.href'},
+			{"name": "JavaScript Object (CM2)',"text" : "top.cm2_home.location.href'},
 			{ "name" : "HTML Body (CM2)',"text" : "name="cm2_top" id="cm2_top"'},
 			{ "name" : "HTML Body (CM2)',"text" : "name="cm25_main"'},
 			{ "name" : "HTML Body (CM3)',"text" : "name="id="cm3top" name="cm3top"'},

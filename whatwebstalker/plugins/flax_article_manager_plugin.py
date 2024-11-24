@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginflax_article_manager_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "text" : "/images/flaxweb_newsletter_bg.gif" bgcolor="#FFFFFF" valign="top"> " },
+			{"text": "/images/flaxweb_newsletter_bg.gif" bgcolor = "#FFFFFF" valign = "top" > " },
 			{ "text" : "<b><a href="http://www.flaxweb.com/products/articles"><font color="#666666">Article " },
 			{ "text" : "<title>Flax Article CMS Administration Panel</title>" },
 			{ "text" : "recent updates for Flax Article Manager</font></b></a></div>" },

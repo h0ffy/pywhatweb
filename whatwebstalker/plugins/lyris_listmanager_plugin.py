@@ -1,11 +1,13 @@
 import plugins
-			
+
+
 class Pluginlyris_listmanager_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "version" : "/<!-- page: [^,]+", "version: (Lyris )?ListManager(SQL)? (LINUX|WIN32) [^>]*version ([^-]+) - [A-Z][a-z]{2} [\d]{1,2} [\d]{4}( [\d]{2}:[\d]{2}:[\d]{2})?", "interface:/", "offset" : "3 },
+			{"version": "/<!-- page: [^,]+", "version: (Lyris )?ListManager(SQL)? (LINUX|WIN32) [^>]*version ([^-]+) - [A-Z][a-z]{2} [\\d]{1,2} [\\d]{4}( [\\d]{2}:[\\d]{2}:[\\d]{2})?", "interface:/", "offset": "3 },
 			{ "os" : "/<!-- page: [^,]+", "version: (Lyris )?ListManager(SQL)? (LINUX|WIN32) [^>]*version ([^-]+) - [A-Z][a-z]{2} [\d]{1,2} [\d]{4}( [\d]{2}:[\d]{2}:[\d]{2})?", "interface:/", "offset" : "2 },
 			{ "filepath" : "/<!-- this page created by: "([^'^\(]+)", "line: [\d]+", "package: "lweb' -->/" },
 			{ "version" : "/<!-- (Lyris )?List[\s]*Manager (WIN32|LINUX) version ([^\/]+) (- [A-Z][a-z]{2} [\d]{1,2} [\d]{4})?( [\d]{2}:[\d]{2}:[\d]{2})?\/ lyrispg.pl version [^>]+ -->/", "offset" : "2 },

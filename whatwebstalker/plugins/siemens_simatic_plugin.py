@@ -1,16 +1,19 @@
 import plugins
-			
+
+
 class Pluginsiemens_simatic_plugin(plugins.Base):
     def __init__(self):
     	pass
+
     def start(self):
         self.rules = [
-			{ "url" : "/Default.html", "text" : "<META HTTP-EQUIV="refresh" content="0;URL=/www/start.html">" },
-			{ "url" : "/www/start.html", "text" : "<title> Miniweb Start Page </title>" },
-			{ "text" : "<img src="/Images/Siemens_Firmenmarke.gif" alt="Siemens" border="0"></td>" },
-			{ "text" : "<font color="#ffffff"> <!-- font ist da", "um bei einer Anzeige OHNE CSS nicht schwarz auf schwarz anzuzeigen -->", "model" : "HMI" },
-			{ "url" : "/Images/Siemens_Firmenmarke.gif", "md5" : "09539daf4dfe27a0157040eb83570ee5", "model" : "HMI" },
-			{ "module" : /	<tr><td class="sph_td"><b>Device Type<\/b><\/td><td class="sph_td">([^<]+)&nbsp;<\/td><\/tr>/" },
+			{"url": "/Default.html", "text": "<META HTTP-EQUIV="refresh" content="0; URL = /www / start.html">"},
+			{"url": "/www/start.html", "text": "<title> Miniweb Start Page </title>"},
+			{"text": "<img src=" / Images / Siemens_Firmenmarke.gif" alt="Siemens" border="0"></td>"},
+			{"text": "<font color="  # ffffff"> <!-- font ist da", "um bei einer Anzeige OHNE CSS nicht schwarz auf schwarz anzuzeigen -->", "model" : "HMI" },
+			{"url": "/Images/Siemens_Firmenmarke.gif",
+			    "md5": "09539daf4dfe27a0157040eb83570ee5", "model": "HMI"},
+			{"module": /	<tr > <td class = "sph_td" > <b > Device Type <\/b><\/td><td class="sph_td">([^<]+)&nbsp;<\/td><\/tr>/" },
 			{ "firmware" : "/	<tr><td class="sph_td"><b>Image version<\/b><\/td><td class="sph_td">([^<]+)&nbsp;<\/td><\/tr>/" },
 			{ "string" : /	<tr><td class="sph_td"><b>Device Name<\/b><\/td><td class="sph_td">([^<]+)&nbsp;<\/td><\/tr>/" },
 			{ "model" : "HMI", "text" : "Hint:<br> When the devicename contains an underscore ( _ ) some browsers have a bug that makes it impossible to log in.<br> One possible solution may be to use the IP address of the device instead of the name", "or to use another browser." },
