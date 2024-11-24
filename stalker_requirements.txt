@@ -1,0 +1,10 @@
+requests
+autopep8
+pylint
+black
+flake8
+pytest
+mypy
+pycodestyle
+isort
+bandit
