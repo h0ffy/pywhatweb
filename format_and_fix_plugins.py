@@ -42,6 +42,9 @@ def send_to_blackboxia(file_path):
     except Exception as e:
         logging.error(f"Error al leer el archivo {file_path} o enviar a Blackboxia: {e}")
         print(f"Error al leer el archivo {file_path} o enviar a Blackboxia: {e}")
+
+
+
 def main(plugins_folder, tools):
     """Función principal para formatear y revisar archivos Python en la carpeta de plugins."""
     # Lista todos los archivos en la carpeta plugins
@@ -54,36 +57,39 @@ def main(plugins_folder, tools):
     for file in python_files:
         file_path = os.path.join(plugins_folder, file)
         print(f"Formatear y Corregir {file_path}")
-        """
+
+        if 'isort' in tools:
+            run_command(['isort', file_path])
+
+        if 'pycodestyle' in tools:
+            run_command(['pycodestyle', file_path])
+
         if 'autopep8' in tools:
             run_command(['autopep8', '--in-place', '--aggressive', '--aggressive', file_path])
-
+        
         if 'pylint' in tools:
             run_command(['pylint', file_path])
 
+
+        """
         if 'black' in tools:
             run_command(['black', file_path])
-
         if 'flake8' in tools:
             run_command(['flake8', file_path])
 
+        """
         if 'pytest' in tools:
             run_command(['pytest', file_path])
 
         if 'mypy' in tools:
             run_command(['mypy', file_path])
 
-        if 'pycodestyle' in tools:
-            run_command(['pycodestyle', file_path])
-
-        if 'isort' in tools:
-            run_command(['isort', file_path])
-
+        """
         if 'bandit' in tools:
             run_command(['bandit', '-r', plugins_folder])  # Ejecutar bandit en toda la carpeta
-        """
         # Enviar el código a Blackboxia para corrección
         send_to_blackboxia(file_path)
+        """
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Formatear y revisar archivos Python en una carpeta de plugins.')
