@@ -1,14 +1,12 @@
 import plugins
-
-
+			
 class Pluginquest_password_manager_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"text": "<div class="text - color - error error - control" style="display: none" id="Account_NotFilled.Textbox">"},
-			{"text": "<input type="submit" class="text - color - control button button - text" value="OK" name=" id = "button_Ok_control" / >" },
+			{ "text" : "<div class="text-color-error error-control" style="display:none" id="Account_NotFilled.Textbox">" },
+			{ "text" : "<input type="submit" class="text-color-control button button-text" value="OK" name=" id="button_Ok_control" />" },
 			{ "text" : "<head><link href="../../App_Themes/Default/Colors.css" type="text/css" rel="stylesheet" /><link href="../../App_Themes/Default/Controls/" },
 			{ "text" : "<body id="ctl00_ctl00_ctl00_ctl00_Body" class="master master-base-main master-page-home">" },
 			{ "text" : "<form name="aspnetForm" method="post" action="index.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm" enctype="multipart/form-data" autocomplate="off">" },

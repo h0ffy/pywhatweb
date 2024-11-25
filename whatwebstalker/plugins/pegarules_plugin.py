@@ -1,13 +1,11 @@
 import plugins
-
-
+			
 class Pluginpegarules_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"name": "cookie',"search" : "headers[set - cookie]","text" : "Pega - RULES"},
+			{ "name" : "cookie',"search" : "headers[set-cookie]","text" : "Pega-RULES"},
 			{ "name" : "title", "text" : "<title> Welcome to PegaRULES </title>" },
 			{ "name" : "copyright footer',"regexp" : "/<span>[^<]+Copyright[^<]+Pegasystems Inc/m},
 			{ "name" : "shortcut icon',"text" : "<LINK REL="SHORTCUT ICON" HREF="images/pzPegaIcon.ico">'},

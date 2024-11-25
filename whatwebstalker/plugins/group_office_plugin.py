@@ -1,14 +1,12 @@
 import plugins
-
-
+			
 class Plugingroup_office_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"search": "headers[set-cookie]", "regexp": "/groupoffice=[^;]+;/"},
-			{"version": "/GO\.settings=\{[^\}]+"theme":"[ ^ "]+", "product_name":"Group-Office", "product_version":"([^"^\s]+)","host":"/" },
+			{ "search" : "headers[set-cookie]", "regexp" : "/groupoffice=[^;]+;/" },
+			{ "version" : "/GO\.settings=\{[^\}]+"theme":"[^"]+","product_name":"Group-Office","product_version":"([^"^\s]+)","host":"/" },
 			{ "md5" : "6cbe55dd826fe9e2e4306d5a5672382f", "url" : "themes/Default/images/favicon.ico" },
 			{ "text" : "<!-- include everything after the loading indicator -->" },
 			{ "text" : "<meta name="description" content="Take your office online. Share projects", "calendars", "files and e-mail online with co-workers and clients. Easy to use and fully customizable", "Group-Office takes online colaboration to the next level." />." },

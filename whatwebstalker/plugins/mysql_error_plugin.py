@@ -1,13 +1,11 @@
 import plugins
-
-
+			
 class Pluginmysql_error_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"regexp": "/You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '|You have an error in your SQL syntax near '/", "certainty": "25 },
+			{ "regexp" : "/You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '|You have an error in your SQL syntax near '/", "certainty" : "25 },
 			{ "text" : "Connessione non riuscita: Can't connect to local MySQL server through socket ", "certainty" : "25 },
 			{ "text" : "<b>Warning</b>:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket" },
 			{ "text" : "Warning: mysql_connect() [function.mysql-connect]: Lost connection to MySQL server at 'reading initial communication packet", "", "certainty" : "25 },

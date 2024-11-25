@@ -1,12 +1,10 @@
 import plugins
-
-
+			
 class Plugincomanche_plugin(plugins.Base):
     def __init__(self):
-        pass
-
+    	pass
     def start(self):
         self.rules = [
-            {"search": "headers[server]", "version": "/^Comanche\\/([^\\s]+)/"},
-        ]
-        return self.rules
+			{ "search" : "headers[server]", "version" : "/^Comanche\/([^\s]+)/" },
+		]
+	return(self.rules)

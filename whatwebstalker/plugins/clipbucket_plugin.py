@@ -1,13 +1,11 @@
 import plugins
-
-
+			
 class Pluginclipbucket_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"string": / <meta name = "copyright" content = "ClipBucket - PHPBucket ClipBucket 2007 - (20[\\d]{2})" \/>/" },
+			{ "string" : /<meta name="copyright" content="ClipBucket - PHPBucket ClipBucket 2007 - (20[\d]{2})" \/>/" },
 			{ "text" : "<meta name="author" content="Arslan Hassan - http://clip-bucket.com/arslan-hassan" />" },
 			{ "text" : "<!-- ClipBucket v2 -->", "version" : "2.x" },
 			{ "version" : "/<!-- ClipBucket version ([\d\.]+) -->/" },

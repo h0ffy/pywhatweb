@@ -1,14 +1,12 @@
 import plugins
-
-
+			
 class Pluginoutlook_web_app_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"text": "<body class="owaLgnBdy">"},
-			{"version": "/<link type="text\/css" rel="stylesheet" href="\/owa\/([^\s^\/]+)\/themes\/base\/logon\.css">/" },
+			{ "text" : "<body class="owaLgnBdy">" },
+			{ "version" : "/<link type="text\/css" rel="stylesheet" href="\/owa\/([^\s^\/]+)\/themes\/base\/logon\.css">/" },
 			{ "version" : "/<td><img src="\/owa\/([^\s^\/]+)\/themes\/base\/warn\.png"><\/td>/" },
 			{ "version" : "/<link rel="shortcut icon" href="\/owa\/([^\s^\/]+)\/themes\/base\/favicon\.ico" type="image\/x-icon">/" },
 			{ "text" : "<!-- OwaPage = ASP.auth_logon_aspx -->" },

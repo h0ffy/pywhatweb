@@ -1,13 +1,11 @@
 import plugins
-
-
+			
 class Pluginwebbackdoor_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"string": "michaeldaw.org backdoor collection',"text" : " < !-- http: // michaeldaw.org "},
+			{ "string" : "michaeldaw.org backdoor collection',"text" : "<!--    http://michaeldaw.org "},
 			{ "string" : "michaeldaw.org backdoor collection',"text" : "by DK (http://michaeldaw.org) -->"},
 			{ "string" : "backdoor kit collection',"text" : "<!--\n\n_KIT\n"},
 			{ "string" : "Woan backdoor kit collection',"text" : "<!-- Created by Mark Woan (http://www.woany.co.uk) -->"},

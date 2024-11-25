@@ -1,13 +1,11 @@
 import plugins
-
-
+			
 class Pluginjive_sbs_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"version": "/<link rel="stylesheet" href="\/([\d\.]+)\/styles\/jive-global\.css" type="text\/css" media="all" \/>/" },
+			{ "version" : "/<link rel="stylesheet" href="\/([\d\.]+)\/styles\/jive-global\.css" type="text\/css" media="all" \/>/" },
 			{ "version" : "/<link rel="stylesheet" href="\/([\d\.]+)\/styles\/jive-icons\.css" type="text\/css" media="all" \/>/" },
 			{ "text" : "<a href="#jive-body-full" class="jive-skip-nav">Skip navigation</a>" },
 			{ "text" : "<body class="jive-body-formpage jive-body-formpage-login" >" },

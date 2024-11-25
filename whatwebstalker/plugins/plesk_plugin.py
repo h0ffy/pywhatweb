@@ -1,14 +1,12 @@
 import plugins
-
-
+			
 class Pluginplesk_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"url": "favicon.ico", "md5": "2cee5e3ce2f5c4640a68fc208c286494"},
-			{"search": "headers[x-powered-by]", "string": / Plesk([WL] in )/" },
+			{ "url" : "favicon.ico", "md5" : "2cee5e3ce2f5c4640a68fc208c286494" },
+			{ "search" : "headers[x-powered-by]", "string" : /Plesk([WL]in)/" },
 			{ "certainty" : "75", "search" : "headers[server]", "regexp" : "/sw-cp-server/" },
 			{ "name" : "logo gif", "regexp" : "/<img src='def_plesk_logo\.gif' alt="Plesk logo"/" },
 			{ "text" : "<p>For more information please contact <!--@adminemail@-->" },

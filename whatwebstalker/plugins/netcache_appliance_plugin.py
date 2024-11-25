@@ -1,11 +1,10 @@
 import plugins
-
-
+			
 class Pluginnetcache_appliance_plugin(plugins.Base):
     def __init__(self):
-        pass
-
+    	pass
     def start(self):
-        self.rules = [{"search": "headers[server]",
-                       "version": "/^NetCache appliance \\(NetApp\\/([^\\)]+)\\)$/"}, ]
-        return (self.rules)
+        self.rules = [
+			{ "search" : "headers[server]", "version" : "/^NetCache appliance \(NetApp\/([^\)]+)\)$/" },
+		]
+	return(self.rules)

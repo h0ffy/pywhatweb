@@ -1,15 +1,12 @@
 import plugins
-
-
+			
 class Pluginbluequartz_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"version":
-			    "/<TITLE>Login - BlueQuartz ([^\\s]+) Series - [^<^\\s]+<\\/TITLE>/"},
-			{"version": "'document.write\\("\\nThank you for using the BlueQuartz ([^\s]+) Series.\\n"\);" },
+			{ "version" : "/<TITLE>Login - BlueQuartz ([^\s]+) Series - [^<^\s]+<\/TITLE>/" },
+			{ "version" : "'document.write\("\\nThank you for using the BlueQuartz ([^\s]+) Series.\\n"\);" },
 			{ "certainty" : "75", "text" : "<BODY BGCOLOR="#FFFFFF" onLoad="focuslogin()" onResize="if(navigator.appName == \'Netscape\') location.reload()" LINK="#FFFFFF" VLINK="#FFFFFF">" },
 			{ "certainty" : "75", "regexp" : "/EVEN IF SUN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES\.[\n][\n]You acknowledge that  this software is not designed or intended for use in the design", "construction", "operation or maintenance of any nuclear facility.[\n]-->/" },
 			{ "certainty" : "25", "text" : "<META NAME="Copyright" VALUE="Copyright (C) 2000", "Cobalt Networks", "Inc.  All rights reserved.">" },

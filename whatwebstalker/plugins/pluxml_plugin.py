@@ -1,13 +1,11 @@
 import plugins
-
-
+			
 class Pluginpluxml_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"version": "/<a href="http: \/\/pluxml.org" title="Blog ou Cms sans base de donn&eacute;es">Pluxml<\/a>[\s]+([\d\.]+)/" },
+			{ "version" : "/<a href="http:\/\/pluxml.org" title="Blog ou Cms sans base de donn&eacute;es">Pluxml<\/a>[\s]+([\d\.]+)/" },
 			{ "text" : "par <a href="http://pluxml.org">Pluxml</a></p>" },
 			{ "regexp" : "/Powered by <a href="http:\/\/pluxml\.org/" },
 			{ "text" : "<title>PluXml - Page d'authentification</title>" },

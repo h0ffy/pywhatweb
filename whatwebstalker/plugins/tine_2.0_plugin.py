@@ -1,6 +1,5 @@
 import plugins
-
-
+			
 class Plugintine_2.0_plugin(plugins.Base):
     def __init__(self):
     	pass

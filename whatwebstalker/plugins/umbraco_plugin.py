@@ -1,15 +1,13 @@
 import plugins
-
-
+			
 class Pluginumbraco_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"ghdb": "powered by umbraco"", "certainty" : "25},
-			{"text": "<meta name="generator" content="umbraco" />"},
-			{"regexp": "/Powered by[^<]*<a[\\s]+href="http: \/\/[www.]*umbraco.org[^>]*>Umbraco<\/a>/i },
+			{ "ghdb" : "powered by umbraco"", "certainty" : "25 },
+			{ "text" : "<meta name="generator" content="umbraco" />" },
+			{ "regexp" : "/Powered by[^<]*<a[\s]+href="http:\/\/[www.]*umbraco.org[^>]*>Umbraco<\/a>/i },
 			{ "version" : "/powered by[^<]*<a[\s]+href="http:\/\/[www.]*umbraco.org[^>]*>umbraco v([^<]+)<\/a>/i },
 			{ "regexp" : "/powered by[^<]*<a[\s]+href="http:\/\/[www.]*umbraco.org[^>]*>umbraco v4<\/a>/i", "version" : "4.x" },
 			{ "version" : "/<meta name="generator"[^>]*content="umbraco[\s]+([0-9\.]+)"/i },

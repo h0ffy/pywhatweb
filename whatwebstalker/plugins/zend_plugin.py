@@ -1,13 +1,11 @@
 import plugins
-
-
+			
 class Pluginzend_plugin(plugins.Base):
     def __init__(self):
     	pass
-
     def start(self):
         self.rules = [
-			{"name": "GHDB: "Powered by Zend Framework"',"certainty" : "75, "ghdb": "Powered by Zend Framework"'},
+			{ "name" : "GHDB: "Powered by Zend Framework"',"certainty" : "75,"ghdb" : "Powered by Zend Framework"'},
 			{ "string" : "PoweredBy Image',"url" : "images/PoweredBy_ZF.gif',"md5" : "eecf384879cde19f8f7f80c768c12295'},
 			{ "string" : "Zend Logo Small',"url" : "images/logo_small.gif',"md5" : "0f76017aa12a3dcb9cabbff26e37ff5c'},
 			{ "string" : "Footer Link',"text" : " alt="Powered by Zend Framework!" />'},
