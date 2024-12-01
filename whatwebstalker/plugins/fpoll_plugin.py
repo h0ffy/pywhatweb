@@ -1,12 +1,15 @@
+```python
 import plugins
-			
+
 class Pluginfpoll_plugin(plugins.Base):
     def __init__(self):
-    	pass
+        pass
+
     def start(self):
         self.rules = [
-			{ "version" : "/<title>Fpoll v([^\s^>]+) AdminCP<\/title>[\s]+<link rel="stylesheet" href="admincp\/css\.css" media="all"\/>/" },
-			{ "version" : "/<title>Fpoll v([^\s^>]+) AdminCP<\/title>[\s]+<link rel="stylesheet" href="css\.css" media="all"\/>/" },
-			{ "version" : "/<br \/><br \/><hr \/><div style="text-align: center;">&copy 20[\d]{2} Fpoll v([^\s^>]+) \(<a href="http:\/\/www\.phpfront\.com">PHPfront\.com<\/a>\) <\/div><\/body>/" },
-		]
-	return(self.rules)
+            { "version" : r"/<title>Fpoll v([^\\s^>]+) AdminCP<\/title>[\\s]+<link rel=\"stylesheet\" href=\"admincp\\/css\\.css\" media=\"all\"\/>/" },
+            { "version" : r"/<title>Fpoll v([^\\s^>]+) AdminCP<\/title>[\\s]+<link rel=\"stylesheet\" href=\"css\\.css\" media=\"all\"\/>/" },
+            { "version" : r"/<br \/><br \/><hr \/><div style=\"text-align: center;\">&copy 20[\\d]{2} Fpoll v([^\\s^>]+) \(<a href=\"http:\\/\\/www\\.phpfront\\.com\">PHPfront\\.com<\/a>\) <\/div><\/body>/" },
+        ]
+        return self.rules
+```

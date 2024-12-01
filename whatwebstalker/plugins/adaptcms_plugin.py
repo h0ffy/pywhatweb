@@ -2,9 +2,9 @@ import plugins
 			
 class Pluginadaptcms_plugin(plugins.Base):
     def __init__(self):
-    	pass
+    	super().__init__()
     def start(self):
         self.rules = [
-			{ "version" : "/Powered by <a href=\"http:\/\/www.adaptcms.com\">[<b>]*AdaptCMS([^<]*)<\/a>/" },
+			{ "version" : r"/Powered by <a href=\"http:\/\/www.adaptcms.com\">[<b>]*AdaptCMS([^<]*)<\/a>/" },
 		]
-        return(self.rules)
+        return self.rules

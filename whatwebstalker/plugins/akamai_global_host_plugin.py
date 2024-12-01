@@ -2,9 +2,9 @@ import plugins
 			
 class Pluginakamai_global_host_plugin(plugins.Base):
     def __init__(self):
-    	pass
+        super().__init__()
+        self.rules = []
+
     def start(self):
-        self.rules = [
-			{ "search" : "headers[server]", "regexp" : "/^AkamaiGHost/" },
-		]
-        return(self.rules)
+        self.rules.append({ "search" : "headers[server]", "regexp" : "^AkamaiGHost" })
+        return self.rules

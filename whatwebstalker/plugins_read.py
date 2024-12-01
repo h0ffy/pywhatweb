@@ -11,6 +11,7 @@ from plugins import Base
 if __name__ == '__main__':
     for p in Base.plugins:
         inst = p()
+        print(inst)
         rules = inst.start()
         for rule in rules:
             print(rule)

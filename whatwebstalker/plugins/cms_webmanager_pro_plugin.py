@@ -1,9 +1,1 @@
-import plugins
-			
-class Plugincms_webmanager_pro_plugin(plugins.Base):
-    def __init__(self):
-    	pass
-    def start(self):
-        self.rules = [
-		]
-	return(self.rules)
+b'import plugins\n\n\nclass Plugincms_webmanager_pro_plugin(plugins.Base):\n    def __init__(self):\n        self.rules = []\n    def start(self):\n        return self.rules\n'

@@ -2,9 +2,9 @@ import plugins
 			
 class Pluginallnewsmanager_net_plugin(plugins.Base):
     def __init__(self):
-    	pass
+    	super().__init__()
     def start(self):
         self.rules = [
-			{ "regexp" : "/(kujeme|Powered by) <a id=\"[^\"]+\" href=\"http:\/\/www.allnewsmanager.net\">AllNewsManager.NET<\/a>/" },
+			{ "regexp" : r"/(kujeme|Powered by) <a id=\"[^\"]+\" href=\"http:\/\/www.allnewsmanager.net\">AllNewsManager.NET<\/a>/" },
 		]
-        return(self.rules)
+        return self.rules

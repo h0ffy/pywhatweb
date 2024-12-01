@@ -1,11 +1,14 @@
+```python
 import plugins
-			
+
 class Pluginfreakauth_plugin(plugins.Base):
     def __init__(self):
-    	pass
+        pass
+
     def start(self):
         self.rules = [
-			{ "regexp" : "/<title>FreakAuth &raquo; [^<]+<\/title>/" },
-			{ "regexp" : "/Welcome on board ! \/ <a href="http[^"]+">Login<\/a>		<\/div>/" },
-		]
-	return(self.rules)
+            { "regexp" : r"/<title>FreakAuth &raquo; [^<]+<\/title>/" },
+            { "regexp" : r"/Welcome on board ! \/ <a href=\"http[^\"+\">Login<\/a>\t\t<\/div>/" },
+        ]
+        return self.rules
+```

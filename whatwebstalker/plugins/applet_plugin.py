@@ -1,10 +1,13 @@
+```python
 import plugins
-			
+
 class Pluginapplet_plugin(plugins.Base):
     def __init__(self):
-    	pass
+        pass
+
     def start(self):
         self.rules = [
-			{ "string" : /<applet[^>]+code[\s]*=[\s]*["|']?([^\s^>^"^']+)[^>]*>/i },
-		]
-	return(self.rules)
+            { "string" : r'<applet[^>]+code[\s]*=[\s]*["|\']?([^\\s^>^"^\'^]+)[^>]*>' },
+        ]
+        return self.rules
+```

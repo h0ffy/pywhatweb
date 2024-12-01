@@ -1,10 +1,12 @@
+b'''
 import plugins
-			
+
 class Pluginecomat_cms_plugin(plugins.Base):
     def __init__(self):
-    	pass
+        pass
     def start(self):
         self.rules = [
-			{ "version" : "/<meta name="Generator" content="ECOMAT CMS ([\d\.]{1,5})">/" },
-		]
-	return(self.rules)
+            { "version" : '/<meta name="Generator" content="ECOMAT CMS ([\\d\\.]{1,5})">/' },
+        ]
+        return self.rules
+'''

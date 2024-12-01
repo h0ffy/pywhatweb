@@ -1,9 +1,11 @@
+```python
 import plugins
-			
+
 class Pluginfitelnet_router_plugin(plugins.Base):
     def __init__(self):
-    	pass
+        pass
+
     def start(self):
-        self.rules = [
-		]
-	return(self.rules)
+        self.rules = []
+        return self.rules
+```

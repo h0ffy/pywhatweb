@@ -1,13 +1,16 @@
+```python
 import plugins
-			
+
 class Plugincommonspot_plugin(plugins.Base):
     def __init__(self):
-    	pass
+        pass
+
     def start(self):
         self.rules = [
-			{ "regexp" : "/<meta[^>]+name="Generator"[^>]+content="CommonSpot[^"]+"[^>]*\/>/" },
-			{ "regexp" : "/<img[^>]+src="[^"]+commonspot[^"]+"[^>]*\/>/" },
-			{ "regexp" : "/<link[^>]+href="[^"]commonspot\/commonspot\.css"[^>]+\/>/" },
-			{ "version" : "/<meta[^>]+name="Generator"[^>]+content="CommonSpot[^\d^"]+([\d\.]+)"[^>]*\/>/" },
-		]
-	return(self.rules)
+            { "regexp" : r'/<meta[^>]+name="Generator"[^>]+content="CommonSpot[^"]+"[^>]*\/>/' },
+            { "regexp" : r'/<img[^>]+src="[^"]+commonspot[^"]+"[^>]*\/>/' },
+            { "regexp" : r'/<link[^>]+href="[^"]commonspot\/commonspot\.css"[^>]+\/>/' },
+            { "version" : r'/<meta[^>]+name="Generator"[^>]+content="CommonSpot[^\\d^"]+([\d\.]+)"[^>]*\/>/' },
+        ]
+        return self.rules
+```

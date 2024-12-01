@@ -2,7 +2,7 @@ import plugins
 			
 class Pluginacidcat_cms_plugin(plugins.Base):
     def __init__(self):
-    	pass
+    	super().__init__()
     def start(self):
         self.rules = [
 			{ "text" : "<!-- Start Acidcat CMS footer information. Note: this code is not to be edited or removed in the free version. -->" },
@@ -15,4 +15,4 @@ class Pluginacidcat_cms_plugin(plugins.Base):
 			{ "text" : "<br><center><table border=1 class=errorTable><tr><td class='login_view'><img src=images/acidcat_logo.gif><td colspan=1 class='login_view'><b>Acidcat CMS Error" },
 			{ "version" : "/<a href=\"http:\/\/www.acidcat.com\">Powered by Acidcat CMS v ([\d\.a-z]+)<\/a>/" },
 		]
-        return(self.rules)
+        return self.rules

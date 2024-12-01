@@ -1,9 +1,11 @@
+```python
 import plugins
-			
-class Pluginasp.net_plugin(plugins.Base):
+
+class Pluginasp_net_plugin(plugins.Base):
     def __init__(self):
-    	pass
+        pass
+
     def start(self):
-        self.rules = [
-		]
-	return(self.rules)
+        self.rules = []
+        return self.rules
+```

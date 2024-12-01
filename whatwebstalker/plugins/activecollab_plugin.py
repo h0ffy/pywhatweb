@@ -2,7 +2,8 @@ import plugins
 			
 class Pluginactivecollab_plugin(plugins.Base):
     def __init__(self):
-    	pass
+    	super().__init__()
+    	
     def start(self):
         self.rules = [
 			{ "text" : "<form method=\"post\" id=\"system_form_2\" class=\"uniForm focusFirstField\">" },
@@ -10,4 +11,4 @@ class Pluginactivecollab_plugin(plugins.Base):
 			{ "name" : "acpowered.gif", "url" : "/public/assets/images/acpowered.gif", "md5" : "ad6152c96454d96f7b8ec78c08bb789b"},
 			{ "name" : "powered by footer", "text" : "<p id=\"powered_by\"><a href=\"http://www.activecollab.com/\""},
 		]
-        return(self.rules)
+        return self.rules

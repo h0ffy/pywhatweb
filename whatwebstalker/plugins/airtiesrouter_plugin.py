@@ -2,9 +2,9 @@ import plugins
 			
 class Pluginairtiesrouter_plugin(plugins.Base):
     def __init__(self):
-    	pass
+        super().__init__()
+        self.rules = []
+
     def start(self):
-        self.rules = [
-			{ "version" : "/<title>Airties ([^<]+)<" },
-		]
-        return(self.rules)
+        self.rules.append({ "version" : "/<title>Airties ([^<]+)<" })
+        return self.rules

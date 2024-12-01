@@ -5,7 +5,7 @@ class Pluginananyoo_cms_plugin(plugins.Base):
     	pass
     def start(self):
         self.rules = [
-			{ "text" : "<meta name="copyright" content="Copyright 2003-2008", "Ananyoo CMS", "a Anblik.com Project." />" },
-			{ "certainty" : "75", "text" : "<meta name="generator" content="http://www.ananyoo.com" />" },
+			{ "text" : '<meta name="copyright" content="Copyright 2003-2008, Ananyoo CMS, a Anblik.com Project." />' },
+			{ "certainty" : "75", "text" : '<meta name="generator" content="http://www.ananyoo.com" />' },
 		]
-	return(self.rules)
+        return(self.rules)

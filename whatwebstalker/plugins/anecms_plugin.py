@@ -5,9 +5,9 @@ class Pluginanecms_plugin(plugins.Base):
     	pass
     def start(self):
         self.rules = [
-			{ "text" : "<meta name="Author" content="Erwin Aligam - ealigam@gmail.com" />" },
-			{ "ghdb" : "powered by anecms"", "certainty" : "75 },
-			{ "regexp" : "/&copy; [\d]{4} <strong><a href="http:\/\/anecms.com[^\>]*>anecms.com<\/a><\/strong>/" },
-			{ "regexp" : "/<title>[^<^\-]+- Powered By ANECMS<\/title>/" },
+			{ "text" : '<meta name="Author" content="Erwin Aligam - ealigam@gmail.com" />' },
+			{ "ghdb" : 'powered by anecms', "certainty" : '75' },
+			{ "regexp" : r'/&copy; [\d]{4} <strong><a href="http:\/\/anecms.com[^\>]*>anecms.com<\/a><\/strong>/' },
+			{ "regexp" : r'/<title>[^<^\-]+- Powered By ANECMS<\/title>/' },
 		]
-	return(self.rules)
+        return self.rules

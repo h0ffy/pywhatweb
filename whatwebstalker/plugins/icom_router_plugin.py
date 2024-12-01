@@ -1,9 +1,10 @@
+b'''
 import plugins
-			
+
 class Pluginicom_router_plugin(plugins.Base):
     def __init__(self):
-    	pass
+        self.rules = []
+        pass
     def start(self):
-        self.rules = [
-		]
-	return(self.rules)
+        return self.rules
+'''
