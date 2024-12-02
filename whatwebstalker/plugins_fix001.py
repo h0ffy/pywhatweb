@@ -1,5 +1,6 @@
 import os
 import openai
+<<<<<<< Updated upstream
 import time
 
 # Configuración de la clave de OpenAI
@@ -73,3 +74,49 @@ for filename in source_files:
 
     else:
         print(f"{filename}\t[EXISTS]")
+=======
+
+# Directorio de plugins y donde se almacenarán las correcciones
+plugins_dir = 'plugins_old'
+plugins_fix_dir = 'plugins'
+openai.api_key = ''
+
+# Crear el directorio de plugins_fix si no existe
+if not os.path.exists(plugins_fix_dir):
+    os.makedirs(plugins_fix_dir)
+
+# Listar archivos ".py" en el directorio de plugins
+for file_name in os.listdir(plugins_dir):
+    if file_name.endswith(".py"):
+        source_file_path = os.path.join(plugins_dir, file_name)
+        output_file_path = os.path.join(plugins_fix_dir, file_name)
+
+        # Leer contenido del archivo original
+        
+        if not os.path.exists(output_file_path):
+       #     try:
+            with open(source_file_path, 'r') as f:
+                code = f.read().encode(encoding="utf-8")
+                
+            response = openai.ChatCompletion.create(
+                model="gpt-4",
+                messages=[
+                    {"role": "system", "content": "Eres un asistente de programación experto."},
+                    {"role": "user", "content": f"Arregla el siguiente código, responde solo con el código sin ninguna explicación:\n\n{code}"}
+                ],
+                max_tokens=1500,
+                temperature=0.2
+            )
+            fixed_code = response.choices[0].message['content'].strip()
+
+            # Guardar el resultado en el archivo de salida
+            with open(output_file_path, 'w') as f:
+                print(f"Fixed: {output_file_path}")
+                f.write(fixed_code)
+            #except:
+            #    print(f"Error en {source_file_path}")
+            #    pass
+            
+print("Proceso completado.")
+
+>>>>>>> Stashed changes
